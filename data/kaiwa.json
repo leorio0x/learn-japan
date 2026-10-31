@@ -1,0 +1,67 @@
+[
+  {
+    "id": "kw-34cd22cbe459",
+    "pola": [
+      {
+        "pola_pertanyaan": "～は～ですか",
+        "pola_jawaban": "～は～です",
+        "deskripsi": "",
+        "contoh": [
+          {
+            "pertanyaan": [
+              {
+                "kanji": "絵とは何ですか",
+                "hiragana/katakana": "えとはなんですか",
+                "terjemahan": "itu apa?"
+              }
+            ],
+            "jawaban": [
+              {
+                "kanji": "絵とはおちんちんです",
+                "hiragana/katakana": "えとはおちんちんです",
+                "terjemahan": "itu titit"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lesson": "1",
+    "buku": "minna no nihonggo 1"
+  },
+  {
+    "id": "kw-3af077e73293",
+    "pola": [
+      {
+        "pola_pertanyaan": "～ じ ～ふんですか",
+        "pola_jawaban": "～じ ～ ふんです",
+        "deskripsi": "",
+        "contoh": [
+          {
+            "pertanyaan": [
+              {
+                "kanji": "今何時ですか",
+                "hiragana/katakana": "いまなんじですか",
+                "terjemahan": "sekarang jam berapa?"
+              },
+              {
+                "kanji": "asdasd",
+                "hiragana/katakana": "asdasd",
+                "terjemahan": "asdasd"
+              }
+            ],
+            "jawaban": [
+              {
+                "kanji": "7時です",
+                "hiragana/katakana": "7じです",
+                "terjemahan": "jam 7"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lesson": "4",
+    "buku": "minna no nihonggo 1"
+  }
+]

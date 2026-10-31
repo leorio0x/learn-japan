@@ -1,0 +1,37 @@
+services:
+  backend:
+    image: achmadjuliarman/learn-japan-backend:latest
+    build:
+      context: ./backend
+    container_name: learn-japan-backend
+    environment:
+      PORT: "3000"
+      DATA_PATH: /data/kotoba.json
+      KANJI_DATA_PATH: /data/kanji.json
+      KAIWA_DATA_PATH: /data/kaiwa.json
+      CRUD_PASSWORD: ${CRUD_PASSWORD:-}
+      SESSION_SECRET: ${SESSION_SECRET:-}
+    volumes:
+      - ${DATA_DIR:-./data}:/data
+    expose:
+      - "3000"
+    deploy:
+      resources:
+        limits:
+          memory: 128M
+    restart: unless-stopped
+
+  frontend:
+    image: achmadjuliarman/learn-japan-frontend:latest
+    build:
+      context: ./frontend
+    container_name: learn-japan-frontend
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"
+    deploy:
+      resources:
+        limits:
+          memory: 64M
+    restart: unless-stopped

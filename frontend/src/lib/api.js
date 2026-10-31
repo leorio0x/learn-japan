@@ -1,0 +1,117 @@
+const BASE = '/api'
+
+async function handle(res) {
+  if (res.status === 204) return null
+  const text = await res.text()
+  const data = text ? safeParse(text) : null
+  if (res.status === 401 && typeof window !== 'undefined') {
+    window.dispatchEvent(new CustomEvent('lj:unauthorized'))
+  }
+  if (!res.ok) {
+    const msg = (data && (data.error || data.message)) || res.statusText || 'Terjadi kesalahan'
+    throw new Error(msg)
+  }
+  return data
+}
+
+function safeParse(text) {
+  try {
+    return JSON.parse(text)
+  } catch {
+    return null
+  }
+}
+
+function query(params = {}) {
+  const qs = new URLSearchParams()
+  for (const [key, value] of Object.entries(params)) {
+    if (value !== undefined && value !== null && value !== '') qs.set(key, value)
+  }
+  const s = qs.toString()
+  return s ? `?${s}` : ''
+}
+
+function upload(url, file) {
+  const form = new FormData()
+  form.append('file', file)
+  return fetch(url, { method: 'POST', body: form }).then(handle)
+}
+
+export const api = {
+  authStatus: () => fetch(`${BASE}/auth/status`).then(handle),
+  login: (password) =>
+    fetch(`${BASE}/auth/login`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ password })
+    }).then(handle),
+  logout: () => fetch(`${BASE}/auth/logout`, { method: 'POST' }).then(handle),
+
+  list: () => fetch(`${BASE}/kotoba`).then(handle),
+  get: (id) => fetch(`${BASE}/kotoba/${id}`).then(handle),
+  create: (payload) =>
+    fetch(`${BASE}/kotoba`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(handle),
+  update: (id, payload) =>
+    fetch(`${BASE}/kotoba/${id}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(handle),
+  remove: (id) => fetch(`${BASE}/kotoba/${id}`, { method: 'DELETE' }).then(handle),
+  bulkKotoba: (file) => upload(`${BASE}/kotoba/bulk`, file),
+  bulkRemoveKotoba: (ids) =>
+    fetch(`${BASE}/kotoba/bulk-delete`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ids })
+    }).then(handle),
+
+  listKanji: (params) => fetch(`${BASE}/kanji${query(params)}`).then(handle),
+  getKanji: (id) => fetch(`${BASE}/kanji/${id}`).then(handle),
+  createKanji: (payload) =>
+    fetch(`${BASE}/kanji`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(handle),
+  updateKanji: (id, payload) =>
+    fetch(`${BASE}/kanji/${id}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(handle),
+  removeKanji: (id) => fetch(`${BASE}/kanji/${id}`, { method: 'DELETE' }).then(handle),
+  bulkKanji: (file) => upload(`${BASE}/kanji/bulk`, file),
+  bulkRemoveKanji: (ids) =>
+    fetch(`${BASE}/kanji/bulk-delete`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ids })
+    }).then(handle),
+
+  listKaiwa: (params) => fetch(`${BASE}/kaiwa${query(params)}`).then(handle),
+  getKaiwa: (id) => fetch(`${BASE}/kaiwa/${id}`).then(handle),
+  createKaiwa: (payload) =>
+    fetch(`${BASE}/kaiwa`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(handle),
+  updateKaiwa: (id, payload) =>
+    fetch(`${BASE}/kaiwa/${id}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(handle),
+  removeKaiwa: (id) => fetch(`${BASE}/kaiwa/${id}`, { method: 'DELETE' }).then(handle),
+  bulkRemoveKaiwa: (ids) =>
+    fetch(`${BASE}/kaiwa/bulk-delete`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ids })
+    }).then(handle)
+}

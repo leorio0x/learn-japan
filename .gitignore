@@ -1,0 +1,16 @@
+# Node
+node_modules/
+dist/
+
+# Go
+*.exe
+backend/backend
+
+# Env / OS
+.env
+.DS_Store
+Thumbs.db
+cek
+
+# Note
+selanjutnya.txt

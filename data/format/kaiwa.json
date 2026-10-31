@@ -1,0 +1,24 @@
+[
+  {
+    "id": "",
+    "pola": [
+      {
+        "pola_pertanyaan": "",
+        "pola_jawaban": "",
+        "deskripsi": "",
+        "contoh": [
+          {
+            "pertanyaan": [
+              { "kanji": "", "hiragana/katakana": "", "terjemahan": "" }
+            ],
+            "jawaban": [
+              { "kanji": "", "hiragana/katakana": "", "terjemahan": "" }
+            ]
+          }
+        ]
+      }
+    ],
+    "lesson": "",
+    "buku": ""
+  }
+]
