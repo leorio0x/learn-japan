@@ -50,5 +50,7 @@ setiap fixing performance tuliskan di folder postmortems/performance-fix dengan 
 
 ## Bulk input
 
-- fitur bulk input (csv,excel) untuk kotoba & kanji, dikonversi
+- fitur bulk input (csv,excel,json) untuk kotoba & kanji, dikonversi
   menjadi json sesuai format di data/rules.md
+- fitur bulk input dokkai dengan format json, dikonversi agar sesuai dengan
+  format json di data/rules.md

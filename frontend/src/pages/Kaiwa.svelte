@@ -1,8 +1,11 @@
 <script>
     import { onMount } from "svelte";
     import { api } from "../lib/api.js";
+    import { auth } from "../lib/auth.svelte.js";
     import { uniqueSortedLessons } from "../lib/quiz.js";
     import Furigana from "../components/Furigana.svelte";
+
+    let { onNavigate = () => {} } = $props();
 
     let items = $state([]);
     let loading = $state(true);
@@ -37,11 +40,24 @@
 </script>
 
 <div class="mx-auto max-w-3xl">
-    <div class="mb-5">
-        <h1 class="text-xl font-bold text-ink sm:text-2xl">Daftar Kaiwa</h1>
-        <p class="mt-1 text-sm text-navy/60">
-            Lihat daftar percakapan bahasa Jepang
-        </p>
+    <div
+        class="mb-5 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"
+    >
+        <div>
+            <h1 class="text-xl font-bold text-ink sm:text-2xl">Daftar Kaiwa</h1>
+            <p class="mt-1 text-sm text-navy/60">
+                Lihat daftar percakapan bahasa Jepang
+            </p>
+        </div>
+        {#if auth.authenticated}
+            <button
+                type="button"
+                class="btn-primary w-full sm:w-auto"
+                onclick={() => onNavigate("crud-kaiwa")}
+            >
+                Kelola Kaiwa
+            </button>
+        {/if}
     </div>
 
     <div

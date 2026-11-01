@@ -10,9 +10,6 @@
     { id: "quiz-kotoba", label: "Tebak Kotoba", icon: "問" },
     { id: "quiz-kanji", label: "Tebak Kanji", icon: "答" },
     { id: "quiz-kaiwa", label: "Tebak Kaiwa", icon: "話" },
-    { id: "crud-kotoba", label: "Kelola Kotoba", icon: "編" },
-    { id: "crud-kanji", label: "Kelola Kanji", icon: "字" },
-    { id: "crud-kaiwa", label: "Kelola Kaiwa", icon: "筆" },
   ];
 
   let manualHide = $state(false);

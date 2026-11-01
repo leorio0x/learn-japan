@@ -1,4 +1,4 @@
-## Halaman kotoba
+## 1. Halaman kotoba
 
 - display kotoba dengan opsi [per lesson, semua]
 - default display = lesson 1
@@ -17,7 +17,15 @@
 - pagination hanya berlaku ketika display kotoba = semua
 - opsi untuk hide kanji, furigana, arti, contoh_percakapan
 
-## Halaman tebak kotoba
+### 1.1 Halaman dokkai
+
+- pada halaman ini terdapat dokkai berupa cerita pendek yang memuat seluruh kotoba perlessonnya.
+  data diambil dari data/dokkai/kotoba/[lesson].json
+- opsi untuk hide kanji
+- data paragraf berformat <kanji:kana:arti>, dimana kana dan
+  arti muncul ketika klik 2 kali, gunakan floating-ui untuk fitur ini
+
+### 1.2 Halaman tebak kotoba
 
 - pada halaman ini berikan toggle untuk hide kanji sehingga
   hanya memunculkan furigana saja.
@@ -30,7 +38,7 @@
   data terdekat sebelum/sesudah kotoba yang ditanyakan (bukan acak).
   jika data sekitar tidak cukup, ambil dari data lain yang tersisa.
 
-## Halaman CRUD kotoba
+### 1.3 Halaman CRUD kotoba
 
 - input "buku" tipe select dengan pilihan [minna no nihonggo 1, minna no nihonggo 2]
 - opsi bulk input (csv,excel,json) yang ditransformasi ke format data/format/kotoba.json

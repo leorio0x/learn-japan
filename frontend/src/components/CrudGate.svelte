@@ -1,37 +1,16 @@
 <script>
     import { onMount } from "svelte";
-    import { api } from "../lib/api.js";
+    import { auth } from "../lib/auth.svelte.js";
 
     let { children } = $props();
 
-    let checking = $state(true);
-    let authenticated = $state(false);
     let password = $state("");
     let submitting = $state(false);
     let error = $state("");
 
     onMount(() => {
-        const onUnauthorized = () => {
-            authenticated = false;
-            password = "";
-        };
-        window.addEventListener("lj:unauthorized", onUnauthorized);
-        loadStatus();
-        return () => window.removeEventListener("lj:unauthorized", onUnauthorized);
+        if (auth.checking) auth.refresh();
     });
-
-    async function loadStatus() {
-        checking = true;
-        error = "";
-        try {
-            const res = await api.authStatus();
-            authenticated = !!res?.authenticated;
-        } catch (e) {
-            error = e.message;
-        } finally {
-            checking = false;
-        }
-    }
 
     async function submit(event) {
         event.preventDefault();
@@ -42,9 +21,8 @@
         submitting = true;
         error = "";
         try {
-            await api.login(password);
+            await auth.login(password);
             password = "";
-            authenticated = true;
         } catch (e) {
             error = e.message;
         } finally {
@@ -53,21 +31,15 @@
     }
 
     async function lock() {
-        try {
-            await api.logout();
-        } catch {
-            // abaikan, tetap kunci di sisi klien
-        }
-        authenticated = false;
-        password = "";
+        await auth.logout();
     }
 </script>
 
-{#if checking}
+{#if auth.checking}
     <div class="card p-12 text-center text-navy/60">
         <span class="animate-pulse">Memeriksa akses...</span>
     </div>
-{:else if authenticated}
+{:else if auth.authenticated}
     <div class="mb-3 flex justify-end">
         <button
             type="button"

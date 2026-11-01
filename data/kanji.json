@@ -3,7 +3,10 @@
     "id": "knj-001",
     "kanji": "日",
     "furigana": "にち",
-    "terjemahan": ["hari", "matahari"],
+    "terjemahan": [
+      "hari",
+      "matahari"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「日」は 何と 読みますか。",
@@ -25,7 +28,9 @@
     "id": "knj-002",
     "kanji": "日本",
     "furigana": "にほん",
-    "terjemahan": ["Jepang"],
+    "terjemahan": [
+      "Jepang"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「日本」は 何と 読みますか。",
@@ -47,7 +52,9 @@
     "id": "knj-003",
     "kanji": "日曜日",
     "furigana": "にちようび",
-    "terjemahan": ["Minggu"],
+    "terjemahan": [
+      "Minggu"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「日曜日」は 何と 読みますか。",
@@ -69,7 +76,9 @@
     "id": "knj-004",
     "kanji": "三日",
     "furigana": "みっか",
-    "terjemahan": ["tanggal 3"],
+    "terjemahan": [
+      "tanggal 3"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「三日」は 何と 読みますか。",
@@ -91,7 +100,9 @@
     "id": "knj-005",
     "kanji": "月",
     "furigana": "つき",
-    "terjemahan": ["bulan"],
+    "terjemahan": [
+      "bulan"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「月」は 何と 読みますか。",
@@ -113,7 +124,9 @@
     "id": "knj-006",
     "kanji": "月曜日",
     "furigana": "げつようび",
-    "terjemahan": ["Senin"],
+    "terjemahan": [
+      "Senin"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「月曜日」は 何と 読みますか。",
@@ -135,7 +148,9 @@
     "id": "knj-007",
     "kanji": "一月",
     "furigana": "いちがつ",
-    "terjemahan": ["Januari"],
+    "terjemahan": [
+      "Januari"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「一月」は 何と 読みますか。",
@@ -157,7 +172,9 @@
     "id": "knj-008",
     "kanji": "木",
     "furigana": "き",
-    "terjemahan": ["pohon"],
+    "terjemahan": [
+      "pohon"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「木」は 何と 読みますか。",
@@ -179,7 +196,9 @@
     "id": "knj-009",
     "kanji": "木村",
     "furigana": "きむら",
-    "terjemahan": ["Kimura"],
+    "terjemahan": [
+      "Kimura"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「木村」は 何と 読みますか。",
@@ -201,7 +220,9 @@
     "id": "knj-010",
     "kanji": "木曜日",
     "furigana": "もくようび",
-    "terjemahan": ["Kamis"],
+    "terjemahan": [
+      "Kamis"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「木曜日」は 何と 読みますか。",
@@ -223,7 +244,9 @@
     "id": "knj-011",
     "kanji": "山",
     "furigana": "やま",
-    "terjemahan": ["gunung"],
+    "terjemahan": [
+      "gunung"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「山」は 何と 読みますか。",
@@ -245,7 +268,9 @@
     "id": "knj-012",
     "kanji": "富士山",
     "furigana": "ふじさん",
-    "terjemahan": ["Gunung Fuji"],
+    "terjemahan": [
+      "Gunung Fuji"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「富士山」は 何と 読みますか。",
@@ -267,7 +292,9 @@
     "id": "knj-013",
     "kanji": "山下",
     "furigana": "やました",
-    "terjemahan": ["Yamashita (nama orang)"],
+    "terjemahan": [
+      "Yamashita (nama orang)"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「山下」は 何と 読みますか。",
@@ -289,7 +316,9 @@
     "id": "knj-014",
     "kanji": "火山",
     "furigana": "かざん",
-    "terjemahan": ["gunung berapi"],
+    "terjemahan": [
+      "gunung berapi"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「火山」は 何と 読みますか。",
@@ -311,7 +340,9 @@
     "id": "knj-015",
     "kanji": "川",
     "furigana": "かわ",
-    "terjemahan": ["sungai"],
+    "terjemahan": [
+      "sungai"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「川」は 何と 読みますか。",
@@ -333,7 +364,9 @@
     "id": "knj-016",
     "kanji": "田",
     "furigana": "た",
-    "terjemahan": ["sawah"],
+    "terjemahan": [
+      "sawah"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「田」は 何と 読みますか。",
@@ -355,7 +388,9 @@
     "id": "knj-017",
     "kanji": "山田",
     "furigana": "やまだ",
-    "terjemahan": ["Yamada (nama orang)"],
+    "terjemahan": [
+      "Yamada (nama orang)"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「山田」は 何と 読みますか。",
@@ -377,7 +412,9 @@
     "id": "knj-018",
     "kanji": "田中",
     "furigana": "たなか",
-    "terjemahan": ["Tanaka (nama orang)"],
+    "terjemahan": [
+      "Tanaka (nama orang)"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「田中」は 何と 読みますか。",
@@ -399,7 +436,10 @@
     "id": "knj-019",
     "kanji": "電水",
     "furigana": "でんすい",
-    "terjemahan": ["air listrik", "elektrolit"],
+    "terjemahan": [
+      "air listrik",
+      "elektrolit"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「電水」は 何と 読みますか。",
@@ -421,7 +461,9 @@
     "id": "knj-020",
     "kanji": "人",
     "furigana": "ひと",
-    "terjemahan": ["orang"],
+    "terjemahan": [
+      "orang"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「人」は 何と 読みますか。",
@@ -443,7 +485,10 @@
     "id": "knj-021",
     "kanji": "三人",
     "furigana": "さんにん",
-    "terjemahan": ["tiga orang", "3 orang"],
+    "terjemahan": [
+      "tiga orang",
+      "3 orang"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「三人」は 何と 読みますか。",
@@ -465,7 +510,9 @@
     "id": "knj-022",
     "kanji": "日本人",
     "furigana": "にほんじん",
-    "terjemahan": ["orang jepang"],
+    "terjemahan": [
+      "orang jepang"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「日本人」は 何と 読みますか。",
@@ -487,7 +534,9 @@
     "id": "knj-023",
     "kanji": "口",
     "furigana": "くち",
-    "terjemahan": ["mulut"],
+    "terjemahan": [
+      "mulut"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「口」は 何と 読みますか。",
@@ -509,7 +558,9 @@
     "id": "knj-024",
     "kanji": "入り口",
     "furigana": "いりぐち",
-    "terjemahan": ["Pintu masuk"],
+    "terjemahan": [
+      "Pintu masuk"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「入り口」は 何と 読みますか。",
@@ -531,7 +582,9 @@
     "id": "knj-025",
     "kanji": "出口",
     "furigana": "でぐち",
-    "terjemahan": ["pintu keluar"],
+    "terjemahan": [
+      "pintu keluar"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「出口」は 何と 読みますか。",
@@ -553,7 +606,9 @@
     "id": "knj-026",
     "kanji": "人口",
     "furigana": "じんこう",
-    "terjemahan": ["populasi"],
+    "terjemahan": [
+      "populasi"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「人口」は 何と 読みますか。",
@@ -575,7 +630,9 @@
     "id": "knj-027",
     "kanji": "車",
     "furigana": "くるま",
-    "terjemahan": ["mobil"],
+    "terjemahan": [
+      "mobil"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「車」は 何と 読みますか。",
@@ -597,7 +654,9 @@
     "id": "knj-028",
     "kanji": "自動車",
     "furigana": "じどうしゃ",
-    "terjemahan": ["mobil"],
+    "terjemahan": [
+      "mobil perusahaan"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「自動車」は 何と 読みますか。",
@@ -619,7 +678,9 @@
     "id": "knj-029",
     "kanji": "電車",
     "furigana": "でんしゃ",
-    "terjemahan": ["kereta"],
+    "terjemahan": [
+      "kereta"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「電車」は 何と 読みますか。",
@@ -641,7 +702,9 @@
     "id": "knj-030",
     "kanji": "門",
     "furigana": "もん",
-    "terjemahan": ["gerbang"],
+    "terjemahan": [
+      "gerbang"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「門」は 何と 読みますか。",
@@ -663,7 +726,9 @@
     "id": "knj-031",
     "kanji": "専門",
     "furigana": "せんもん",
-    "terjemahan": ["spesialisasi"],
+    "terjemahan": [
+      "spesialisasi"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「専門」は 何と 読みますか。",
@@ -685,7 +750,9 @@
     "id": "knj-032",
     "kanji": "火",
     "furigana": "ひ",
-    "terjemahan": ["api"],
+    "terjemahan": [
+      "api"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「火」は 何と 読みますか。",
@@ -707,7 +774,9 @@
     "id": "knj-033",
     "kanji": "火曜日",
     "furigana": "かようび",
-    "terjemahan": ["Selasa"],
+    "terjemahan": [
+      "Selasa"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「火曜日」は 何と 読みますか。",
@@ -729,7 +798,9 @@
     "id": "knj-034",
     "kanji": "火山",
     "furigana": "かざん",
-    "terjemahan": ["gunung berapi"],
+    "terjemahan": [
+      "gunung berapi"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「火山」は 何と 読みますか。",
@@ -751,7 +822,9 @@
     "id": "knj-035",
     "kanji": "水",
     "furigana": "みず",
-    "terjemahan": ["air"],
+    "terjemahan": [
+      "air"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「水」は 何と 読みますか。",
@@ -773,7 +846,9 @@
     "id": "knj-036",
     "kanji": "水曜日",
     "furigana": "すいようび",
-    "terjemahan": ["Rabu"],
+    "terjemahan": [
+      "Rabu"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「水曜日」は 何と 読みますか。",
@@ -795,7 +870,9 @@
     "id": "knj-037",
     "kanji": "水田",
     "furigana": "すいでん",
-    "terjemahan": ["Sawah"],
+    "terjemahan": [
+      "Sawah"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「水田」は 何と 読みますか。",
@@ -817,7 +894,9 @@
     "id": "knj-038",
     "kanji": "お金",
     "furigana": "おかね",
-    "terjemahan": ["uang"],
+    "terjemahan": [
+      "uang"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「お金」は 何と 読みますか。",
@@ -839,7 +918,9 @@
     "id": "knj-039",
     "kanji": "金",
     "furigana": "きん",
-    "terjemahan": ["emas"],
+    "terjemahan": [
+      "emas"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「金」は 何と 読みますか。",
@@ -861,7 +942,9 @@
     "id": "knj-040",
     "kanji": "金曜日",
     "furigana": "きんようび",
-    "terjemahan": ["Jumat"],
+    "terjemahan": [
+      "Jumat"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「金曜日」は 何と 読みますか。",
@@ -883,7 +966,9 @@
     "id": "knj-041",
     "kanji": "土",
     "furigana": "つち",
-    "terjemahan": ["tanah"],
+    "terjemahan": [
+      "tanah"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「土」は 何と 読みますか。",
@@ -905,7 +990,9 @@
     "id": "knj-042",
     "kanji": "土曜日",
     "furigana": "どようび",
-    "terjemahan": ["Sabtu"],
+    "terjemahan": [
+      "Sabtu"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「土曜日」は 何と 読みますか。",
@@ -927,7 +1014,9 @@
     "id": "knj-043",
     "kanji": "子",
     "furigana": "こ",
-    "terjemahan": ["anak"],
+    "terjemahan": [
+      "anak"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「子」は 何と 読みますか。",
@@ -949,7 +1038,10 @@
     "id": "knj-044",
     "kanji": "女の子",
     "furigana": "おんなのこ",
-    "terjemahan": ["gadis", "anak perempuan"],
+    "terjemahan": [
+      "gadis",
+      "anak perempuan"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「女の子」は 何と 読みますか。",
@@ -971,7 +1063,10 @@
     "id": "knj-045",
     "kanji": "女子学生",
     "furigana": "じょしがくせい",
-    "terjemahan": ["siswa perempuan", "murid perempuan"],
+    "terjemahan": [
+      "siswa perempuan",
+      "murid perempuan"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「女子学生」は 何と 読みますか。",
@@ -993,7 +1088,10 @@
     "id": "knj-046",
     "kanji": "女",
     "furigana": "おんな",
-    "terjemahan": ["wanita", "Perempuan"],
+    "terjemahan": [
+      "wanita",
+      "Perempuan"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「女」は 何と 読みますか。",
@@ -1015,7 +1113,10 @@
     "id": "knj-047",
     "kanji": "彼女",
     "furigana": "かのじょ",
-    "terjemahan": ["dia (perempuan)", "pacar (perempuan)"],
+    "terjemahan": [
+      "dia (perempuan)",
+      "pacar (perempuan)"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「彼女」は 何と 読みますか。",
@@ -1037,7 +1138,9 @@
     "id": "knj-048",
     "kanji": "女の人",
     "furigana": "おんなのひと",
-    "terjemahan": ["wanita dewasa"],
+    "terjemahan": [
+      "wanita dewasa"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「女の人」は 何と 読みますか。",
@@ -1059,7 +1162,9 @@
     "id": "knj-049",
     "kanji": "学生",
     "furigana": "がくせい",
-    "terjemahan": ["murid"],
+    "terjemahan": [
+      "murid"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「学生」は 何と 読みますか。",
@@ -1081,7 +1186,9 @@
     "id": "knj-050",
     "kanji": "学校",
     "furigana": "がっこう",
-    "terjemahan": ["sekolah"],
+    "terjemahan": [
+      "sekolah"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「学校」は 何と 読みますか。",
@@ -1103,7 +1210,9 @@
     "id": "knj-051",
     "kanji": "大学",
     "furigana": "だいがく",
-    "terjemahan": ["universitas"],
+    "terjemahan": [
+      "universitas"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「大学」は 何と 読みますか。",
@@ -1125,7 +1234,9 @@
     "id": "knj-052",
     "kanji": "生きる",
     "furigana": "いきる",
-    "terjemahan": ["hidup"],
+    "terjemahan": [
+      "hidup"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「生きる」は 何と 読みますか。",
@@ -1147,7 +1258,9 @@
     "id": "knj-053",
     "kanji": "先生",
     "furigana": "せんせい",
-    "terjemahan": ["guru"],
+    "terjemahan": [
+      "guru"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「先生」は 何と 読みますか。",
@@ -1169,7 +1282,9 @@
     "id": "knj-054",
     "kanji": "生まれる",
     "furigana": "うまれる",
-    "terjemahan": ["dilahirkan"],
+    "terjemahan": [
+      "dilahirkan"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「生まれる」は 何と 読みますか。",
@@ -1191,7 +1306,9 @@
     "id": "knj-055",
     "kanji": "学生",
     "furigana": "がくせい",
-    "terjemahan": ["murid"],
+    "terjemahan": [
+      "murid"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「学生」は 何と 読みますか。",
@@ -1213,7 +1330,9 @@
     "id": "knj-056",
     "kanji": "先",
     "furigana": "さき",
-    "terjemahan": ["lebih dulu"],
+    "terjemahan": [
+      "lebih dulu"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「先」は 何と 読みますか。",
@@ -1235,7 +1354,9 @@
     "id": "knj-057",
     "kanji": "先生",
     "furigana": "せんせい",
-    "terjemahan": ["guru"],
+    "terjemahan": [
+      "guru"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「先生」は 何と 読みますか。",
@@ -1257,7 +1378,9 @@
     "id": "knj-058",
     "kanji": "先月",
     "furigana": "せんげつ",
-    "terjemahan": ["bulan lalu"],
+    "terjemahan": [
+      "bulan lalu"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「先月」は 何と 読みますか。",
@@ -1279,7 +1402,9 @@
     "id": "knj-059",
     "kanji": "私",
     "furigana": "わたし",
-    "terjemahan": ["Saya"],
+    "terjemahan": [
+      "Saya"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「私」は 何と 読みますか。",
@@ -1301,7 +1426,9 @@
     "id": "knj-060",
     "kanji": "私立大学",
     "furigana": "しりつだいがく",
-    "terjemahan": ["universitas swasta"],
+    "terjemahan": [
+      "universitas swasta"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「私立大学」は 何と 読みますか。",
@@ -1323,7 +1450,9 @@
     "id": "knj-061",
     "kanji": "一つ",
     "furigana": "ひとつ",
-    "terjemahan": ["satu buah"],
+    "terjemahan": [
+      "satu buah"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「一つ」は 何と 読みますか。",
@@ -1345,7 +1474,9 @@
     "id": "knj-062",
     "kanji": "一月",
     "furigana": "いちがつ",
-    "terjemahan": ["Januari"],
+    "terjemahan": [
+      "Januari"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「一月」は 何と 読みますか。",
@@ -1367,7 +1498,9 @@
     "id": "knj-063",
     "kanji": "一人",
     "furigana": "ひとり",
-    "terjemahan": ["satu orang"],
+    "terjemahan": [
+      "satu orang"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「一人」は 何と 読みますか。",
@@ -1389,7 +1522,9 @@
     "id": "knj-064",
     "kanji": "一年",
     "furigana": "いちねん",
-    "terjemahan": ["setahun"],
+    "terjemahan": [
+      "setahun"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「一年」は 何と 読みますか。",
@@ -1411,7 +1546,9 @@
     "id": "knj-065",
     "kanji": "二つ",
     "furigana": "ふたつ",
-    "terjemahan": ["dua buah"],
+    "terjemahan": [
+      "dua buah"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「二つ」は 何と 読みますか。",
@@ -1433,7 +1570,9 @@
     "id": "knj-066",
     "kanji": "二月",
     "furigana": "にがつ",
-    "terjemahan": ["Februari"],
+    "terjemahan": [
+      "Februari"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「二月」は 何と 読みますか。",
@@ -1455,7 +1594,9 @@
     "id": "knj-067",
     "kanji": "二人",
     "furigana": "ふたり",
-    "terjemahan": ["dua orang"],
+    "terjemahan": [
+      "dua orang"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「二人」は 何と 読みますか。",
@@ -1477,7 +1618,9 @@
     "id": "knj-068",
     "kanji": "二年",
     "furigana": "にねん",
-    "terjemahan": ["dua tahun"],
+    "terjemahan": [
+      "dua tahun"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「二年」は 何と 読みますか。",
@@ -1499,7 +1642,9 @@
     "id": "knj-069",
     "kanji": "三つ",
     "furigana": "みっつ",
-    "terjemahan": ["tiga buah"],
+    "terjemahan": [
+      "tiga buah"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「三つ」は 何と 読みますか。",
@@ -1521,7 +1666,9 @@
     "id": "knj-070",
     "kanji": "三月",
     "furigana": "さんがつ",
-    "terjemahan": ["Maret"],
+    "terjemahan": [
+      "Maret"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「三月」は 何と 読みますか。",
@@ -1543,7 +1690,9 @@
     "id": "knj-071",
     "kanji": "三日",
     "furigana": "みっか",
-    "terjemahan": ["Tanggal 3"],
+    "terjemahan": [
+      "Tanggal 3"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「三日」は 何と 読みますか。",
@@ -1565,7 +1714,9 @@
     "id": "knj-072",
     "kanji": "三年",
     "furigana": "さんねん",
-    "terjemahan": ["tiga tahun"],
+    "terjemahan": [
+      "tiga tahun"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「三年」は 何と 読みますか。",
@@ -1587,7 +1738,9 @@
     "id": "knj-073",
     "kanji": "四つ",
     "furigana": "よっつ",
-    "terjemahan": ["empat buah"],
+    "terjemahan": [
+      "empat buah"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「四つ」は 何と 読みますか。",
@@ -1609,7 +1762,9 @@
     "id": "knj-074",
     "kanji": "四年",
     "furigana": "よねん",
-    "terjemahan": ["empat tahun"],
+    "terjemahan": [
+      "empat tahun"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「四年」は 何と 読みますか。",
@@ -1631,7 +1786,9 @@
     "id": "knj-075",
     "kanji": "五つ",
     "furigana": "いつつ",
-    "terjemahan": ["lima buah"],
+    "terjemahan": [
+      "lima buah"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「五つ」は 何と 読みますか。",
@@ -1653,7 +1810,9 @@
     "id": "knj-076",
     "kanji": "五月",
     "furigana": "ごがつ",
-    "terjemahan": ["Mei"],
+    "terjemahan": [
+      "Mei"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「五月」は 何と 読みますか。",
@@ -1675,7 +1834,9 @@
     "id": "knj-077",
     "kanji": "五日",
     "furigana": "いつか",
-    "terjemahan": ["Tanggal 5"],
+    "terjemahan": [
+      "Tanggal 5"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「五日」は 何と 読みますか。",
@@ -1697,7 +1858,9 @@
     "id": "knj-078",
     "kanji": "五年",
     "furigana": "ごねん",
-    "terjemahan": ["lima tahun"],
+    "terjemahan": [
+      "lima tahun"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「五年」は 何と 読みますか。",
@@ -1719,7 +1882,9 @@
     "id": "knj-079",
     "kanji": "六つ",
     "furigana": "むっつ",
-    "terjemahan": ["enam buah"],
+    "terjemahan": [
+      "enam buah"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「六つ」は 何と 読みますか。",
@@ -1741,7 +1906,9 @@
     "id": "knj-080",
     "kanji": "六月",
     "furigana": "ろくがつ",
-    "terjemahan": ["Juni"],
+    "terjemahan": [
+      "Juni"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「六月」は 何と 読みますか。",
@@ -1763,7 +1930,9 @@
     "id": "knj-081",
     "kanji": "六日",
     "furigana": "むいか",
-    "terjemahan": ["tanggal 6"],
+    "terjemahan": [
+      "tanggal 6"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「六日」は 何と 読みますか。",
@@ -1785,7 +1954,9 @@
     "id": "knj-082",
     "kanji": "六年",
     "furigana": "ろくねん",
-    "terjemahan": ["enam tahun"],
+    "terjemahan": [
+      "enam tahun"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「六年」は 何と 読みますか。",
@@ -1807,7 +1978,9 @@
     "id": "knj-083",
     "kanji": "六人",
     "furigana": "ろくにん",
-    "terjemahan": ["enam orang"],
+    "terjemahan": [
+      "enam orang"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「六人」は 何と 読みますか。",
@@ -1829,7 +2002,9 @@
     "id": "knj-084",
     "kanji": "七つ",
     "furigana": "ななつ",
-    "terjemahan": ["tujuh buah"],
+    "terjemahan": [
+      "tujuh buah"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「七つ」は 何と 読みますか。",
@@ -1851,7 +2026,9 @@
     "id": "knj-085",
     "kanji": "七日",
     "furigana": "なのか",
-    "terjemahan": ["Tanggal tujuh"],
+    "terjemahan": [
+      "Tanggal tujuh"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「七日」は 何と 読みますか。",
@@ -1873,7 +2050,9 @@
     "id": "knj-086",
     "kanji": "七月",
     "furigana": "しちがつ",
-    "terjemahan": ["Juli"],
+    "terjemahan": [
+      "Juli"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「七月」は 何と 読みますか。",
@@ -1895,7 +2074,9 @@
     "id": "knj-087",
     "kanji": "七年",
     "furigana": "しちねん",
-    "terjemahan": ["Tujuh tahun"],
+    "terjemahan": [
+      "Tujuh tahun"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「七年」は 何と 読みますか。",
@@ -1917,7 +2098,9 @@
     "id": "knj-088",
     "kanji": "七人",
     "furigana": "しちにん",
-    "terjemahan": ["tujuh orang"],
+    "terjemahan": [
+      "tujuh orang"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「七人」は 何と 読みますか。",
@@ -1939,7 +2122,9 @@
     "id": "knj-089",
     "kanji": "八つ",
     "furigana": "やっつ",
-    "terjemahan": ["delapan buah"],
+    "terjemahan": [
+      "delapan buah"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「八つ」は 何と 読みますか。",
@@ -1961,7 +2146,9 @@
     "id": "knj-090",
     "kanji": "八月",
     "furigana": "はちがつ",
-    "terjemahan": ["Agustus"],
+    "terjemahan": [
+      "Agustus"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「八月」は 何と 読みますか。",
@@ -1983,7 +2170,9 @@
     "id": "knj-091",
     "kanji": "八百",
     "furigana": "はっぴゃく",
-    "terjemahan": ["Delapan ratus"],
+    "terjemahan": [
+      "Delapan ratus"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「八百」は 何と 読みますか。",
@@ -2005,7 +2194,9 @@
     "id": "knj-092",
     "kanji": "八日",
     "furigana": "ようか",
-    "terjemahan": ["Tanggal 8"],
+    "terjemahan": [
+      "Tanggal 8"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「八日」は 何と 読みますか。",
@@ -2027,7 +2218,9 @@
     "id": "knj-093",
     "kanji": "八年",
     "furigana": "はちねん",
-    "terjemahan": ["delapan tahun"],
+    "terjemahan": [
+      "delapan tahun"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「八年」は 何と 読みますか。",
@@ -2049,7 +2242,10 @@
     "id": "knj-094",
     "kanji": "八人",
     "furigana": "はちにん",
-    "terjemahan": ["delapan orang", "8 orang"],
+    "terjemahan": [
+      "delapan orang",
+      "8 orang"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「八人」は 何と 読みますか。",
@@ -2071,7 +2267,10 @@
     "id": "knj-095",
     "kanji": "九つ",
     "furigana": "ここのつ",
-    "terjemahan": ["sembilan buah", "9 buah"],
+    "terjemahan": [
+      "sembilan buah",
+      "9 buah"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「九つ」は 何と 読みますか。",
@@ -2093,7 +2292,9 @@
     "id": "knj-096",
     "kanji": "九月",
     "furigana": "くがつ",
-    "terjemahan": ["September"],
+    "terjemahan": [
+      "September"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「九月」は 何と 読みますか。",
@@ -2115,7 +2316,9 @@
     "id": "knj-097",
     "kanji": "九日",
     "furigana": "ここのか",
-    "terjemahan": ["Tanggal 9"],
+    "terjemahan": [
+      "Tanggal 9"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「九日」は 何と 読みますか。",
@@ -2137,7 +2340,9 @@
     "id": "knj-098",
     "kanji": "九百",
     "furigana": "きゅうひゃく",
-    "terjemahan": ["Sembilan ratus"],
+    "terjemahan": [
+      "Sembilan ratus"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「九百」は 何と 読みますか。",
@@ -2159,7 +2364,10 @@
     "id": "knj-099",
     "kanji": "九人",
     "furigana": "きゅうにん",
-    "terjemahan": ["sembilan orang", "9 orang"],
+    "terjemahan": [
+      "sembilan orang",
+      "9 orang"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「九人」は 何と 読みますか。",
@@ -2181,7 +2389,9 @@
     "id": "knj-100",
     "kanji": "十日",
     "furigana": "とおか",
-    "terjemahan": ["Tanggal 10"],
+    "terjemahan": [
+      "Tanggal 10"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「十日」は 何と 読みますか。",
@@ -2203,7 +2413,9 @@
     "id": "knj-101",
     "kanji": "十月",
     "furigana": "じゅうがつ",
-    "terjemahan": ["Oktober"],
+    "terjemahan": [
+      "Oktober"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「十月」は 何と 読みますか。",
@@ -2225,7 +2437,10 @@
     "id": "knj-102",
     "kanji": "十年",
     "furigana": "じゅうねん",
-    "terjemahan": ["sepuluh tahun", "10 tahun"],
+    "terjemahan": [
+      "sepuluh tahun",
+      "10 tahun"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「十年」は 何と 読みますか。",
@@ -2247,7 +2462,10 @@
     "id": "knj-103",
     "kanji": "二百",
     "furigana": "にひゃく",
-    "terjemahan": ["Dua ratus", "200"],
+    "terjemahan": [
+      "Dua ratus",
+      "200"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「二百」は 何と 読みますか。",
@@ -2269,7 +2487,10 @@
     "id": "knj-104",
     "kanji": "千円",
     "furigana": "せんえん",
-    "terjemahan": ["Seribu yen", "1000 yen"],
+    "terjemahan": [
+      "Seribu yen",
+      "1000 yen"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「千円」は 何と 読みますか。",
@@ -2291,7 +2512,10 @@
     "id": "knj-105",
     "kanji": "三千",
     "furigana": "さんぜん",
-    "terjemahan": ["Tiga ribu", "3000"],
+    "terjemahan": [
+      "Tiga ribu",
+      "3000"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「三千」は 何と 読みますか。",
@@ -2313,7 +2537,9 @@
     "id": "knj-106",
     "kanji": "一万円",
     "furigana": "いちまんえん",
-    "terjemahan": ["10.000 yen"],
+    "terjemahan": [
+      "10.000 yen"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「一万円」は 何と 読みますか。",
@@ -2335,7 +2561,9 @@
     "id": "knj-107",
     "kanji": "円",
     "furigana": "えん",
-    "terjemahan": ["Yen"],
+    "terjemahan": [
+      "Yen"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「円」は 何と 読みますか。",
@@ -2357,7 +2585,9 @@
     "id": "knj-108",
     "kanji": "五千円",
     "furigana": "ごせんえん",
-    "terjemahan": ["5.000 yen"],
+    "terjemahan": [
+      "5.000 yen"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「五千円」は 何と 読みますか。",
@@ -2379,7 +2609,9 @@
     "id": "knj-109",
     "kanji": "百円",
     "furigana": "ひゃくえん",
-    "terjemahan": ["100 yen"],
+    "terjemahan": [
+      "100 yen"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「百円」は 何と 読みますか。",
@@ -2401,7 +2633,9 @@
     "id": "knj-110",
     "kanji": "年上",
     "furigana": "としうえ",
-    "terjemahan": ["lebih tua"],
+    "terjemahan": [
+      "lebih tua"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「年上」は 何と 読みますか。",
@@ -2423,7 +2657,9 @@
     "id": "knj-111",
     "kanji": "去年",
     "furigana": "きょねん",
-    "terjemahan": ["tahun lalu"],
+    "terjemahan": [
+      "tahun lalu"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「去年」は 何と 読みますか。",
@@ -2445,7 +2681,9 @@
     "id": "knj-112",
     "kanji": "来年",
     "furigana": "らいねん",
-    "terjemahan": ["tahun depan"],
+    "terjemahan": [
+      "tahun depan"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「来年」は 何と 読みますか。",
@@ -2467,7 +2705,9 @@
     "id": "knj-113",
     "kanji": "今年",
     "furigana": "ことし",
-    "terjemahan": ["tahun ini"],
+    "terjemahan": [
+      "tahun ini"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「今年」は 何と 読みますか。",
@@ -2489,7 +2729,9 @@
     "id": "knj-114",
     "kanji": "上",
     "furigana": "うえ",
-    "terjemahan": ["atas"],
+    "terjemahan": [
+      "atas"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「上」は 何と 読みますか。",
@@ -2511,7 +2753,9 @@
     "id": "knj-115",
     "kanji": "上がる",
     "furigana": "あがる",
-    "terjemahan": ["naik"],
+    "terjemahan": [
+      "naik"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「上がる」は 何と 読みますか。",
@@ -2533,7 +2777,9 @@
     "id": "knj-116",
     "kanji": "上手",
     "furigana": "じょうず",
-    "terjemahan": ["pandai"],
+    "terjemahan": [
+      "pandai"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「上手」は 何と 読みますか。",
@@ -2555,7 +2801,9 @@
     "id": "knj-117",
     "kanji": "下",
     "furigana": "した",
-    "terjemahan": ["bawah"],
+    "terjemahan": [
+      "bawah"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「下」は 何と 読みますか。",
@@ -2577,7 +2825,9 @@
     "id": "knj-118",
     "kanji": "年下",
     "furigana": "としした",
-    "terjemahan": ["lebih muda"],
+    "terjemahan": [
+      "lebih muda"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「年下」は 何と 読みますか。",
@@ -2599,7 +2849,9 @@
     "id": "knj-119",
     "kanji": "下がる",
     "furigana": "さがる",
-    "terjemahan": ["turun"],
+    "terjemahan": [
+      "turun"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「下がる」は 何と 読みますか。",
@@ -2621,7 +2873,9 @@
     "id": "knj-120",
     "kanji": "下車",
     "furigana": "げしゃ",
-    "terjemahan": ["Turun (dari kendaraan)"],
+    "terjemahan": [
+      "Turun (dari kendaraan)"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「下車」は 何と 読みますか。",
@@ -2643,7 +2897,9 @@
     "id": "knj-121",
     "kanji": "中",
     "furigana": "なか",
-    "terjemahan": ["Tengah"],
+    "terjemahan": [
+      "Tengah"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「中」は 何と 読みますか。",
@@ -2665,7 +2921,9 @@
     "id": "knj-122",
     "kanji": "一日中",
     "furigana": "いちにちじゅう",
-    "terjemahan": ["sepanjang hari"],
+    "terjemahan": [
+      "sepanjang hari"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「一日中」は 何と 読みますか。",
@@ -2687,7 +2945,9 @@
     "id": "knj-123",
     "kanji": "中心",
     "furigana": "ちゅうしん",
-    "terjemahan": ["Pusat"],
+    "terjemahan": [
+      "Pusat"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「中心」は 何と 読みますか。",
@@ -2709,7 +2969,9 @@
     "id": "knj-124",
     "kanji": "大きい",
     "furigana": "おおきい",
-    "terjemahan": ["besar"],
+    "terjemahan": [
+      "besar"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「大きい」は 何と 読みますか。",
@@ -2731,7 +2993,9 @@
     "id": "knj-125",
     "kanji": "大切",
     "furigana": "たいせつ",
-    "terjemahan": ["penting"],
+    "terjemahan": [
+      "penting"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「大切」は 何と 読みますか。",
@@ -2753,7 +3017,9 @@
     "id": "knj-126",
     "kanji": "大学",
     "furigana": "だいがく",
-    "terjemahan": ["universitas"],
+    "terjemahan": [
+      "universitas"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「大学」は 何と 読みますか。",
@@ -2775,7 +3041,9 @@
     "id": "knj-127",
     "kanji": "大人",
     "furigana": "おとな",
-    "terjemahan": ["dewasa"],
+    "terjemahan": [
+      "dewasa"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「大人」は 何と 読みますか。",
@@ -2797,7 +3065,9 @@
     "id": "knj-128",
     "kanji": "小さい",
     "furigana": "ちいさい",
-    "terjemahan": ["kecil"],
+    "terjemahan": [
+      "kecil"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「小さい」は 何と 読みますか。",
@@ -2819,7 +3089,10 @@
     "id": "knj-129",
     "kanji": "小学校",
     "furigana": "しょうがっこう",
-    "terjemahan": ["sekolah dasar", "sd"],
+    "terjemahan": [
+      "sekolah dasar",
+      "sd"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「小学校」は 何と 読みますか。",
@@ -2841,7 +3114,10 @@
     "id": "knj-130",
     "kanji": "小川",
     "furigana": "おがわ",
-    "terjemahan": ["Ogawa (Nama Orang)", "ogawa"],
+    "terjemahan": [
+      "Ogawa (Nama Orang)",
+      "ogawa"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「小川」は 何と 読みますか。",
@@ -2863,7 +3139,9 @@
     "id": "knj-131",
     "kanji": "山本",
     "furigana": "やまもと",
-    "terjemahan": ["Yamamoto"],
+    "terjemahan": [
+      "Yamamoto"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「山本」は 何と 読みますか。",
@@ -2885,7 +3163,9 @@
     "id": "knj-132",
     "kanji": "本日",
     "furigana": "ほんじつ",
-    "terjemahan": ["Hari ini"],
+    "terjemahan": [
+      "Hari ini"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「本日」は 何と 読みますか。",
@@ -2907,7 +3187,9 @@
     "id": "knj-133",
     "kanji": "本",
     "furigana": "ほん",
-    "terjemahan": ["buku"],
+    "terjemahan": [
+      "buku"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「本」は 何と 読みますか。",
@@ -2929,7 +3211,9 @@
     "id": "knj-134",
     "kanji": "本店",
     "furigana": "ほんてん",
-    "terjemahan": ["Kantor pusat"],
+    "terjemahan": [
+      "Kantor pusat"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「本店」は 何と 読みますか。",
@@ -2951,7 +3235,9 @@
     "id": "knj-135",
     "kanji": "半",
     "furigana": "はん",
-    "terjemahan": ["setengah"],
+    "terjemahan": [
+      "setengah"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「半」は 何と 読みますか。",
@@ -2973,7 +3259,9 @@
     "id": "knj-136",
     "kanji": "半分",
     "furigana": "はんぶん",
-    "terjemahan": ["setengah bagian"],
+    "terjemahan": [
+      "setengah bagian"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「半分」は 何と 読みますか。",
@@ -2995,7 +3283,9 @@
     "id": "knj-137",
     "kanji": "半年",
     "furigana": "はんとし",
-    "terjemahan": ["setengah tahun"],
+    "terjemahan": [
+      "setengah tahun"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「半年」は 何と 読みますか。",
@@ -3017,7 +3307,10 @@
     "id": "knj-138",
     "kanji": "三時半",
     "furigana": "さんじはん",
-    "terjemahan": ["Jam 03:30", "03:30"],
+    "terjemahan": [
+      "Jam 03:30",
+      "03:30"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「三時半」は 何と 読みますか。",
@@ -3039,7 +3332,9 @@
     "id": "knj-139",
     "kanji": "分ける",
     "furigana": "わける",
-    "terjemahan": ["membagi"],
+    "terjemahan": [
+      "membagi"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「分ける」は 何と 読みますか。",
@@ -3061,7 +3356,9 @@
     "id": "knj-140",
     "kanji": "分かる",
     "furigana": "わかる",
-    "terjemahan": ["Mengerti"],
+    "terjemahan": [
+      "Mengerti"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「分かる」は 何と 読みますか。",
@@ -3083,7 +3380,9 @@
     "id": "knj-141",
     "kanji": "５分",
     "furigana": "ごふん",
-    "terjemahan": ["5 menit"],
+    "terjemahan": [
+      "5 menit"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「５分」は 何と 読みますか。",
@@ -3105,7 +3404,9 @@
     "id": "knj-142",
     "kanji": "六分",
     "furigana": "ろっぷん",
-    "terjemahan": ["6 menit"],
+    "terjemahan": [
+      "6 menit"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「六分」は 何と 読みますか。",
@@ -3127,7 +3428,9 @@
     "id": "knj-143",
     "kanji": "力",
     "furigana": "ちから",
-    "terjemahan": ["Kekuatan"],
+    "terjemahan": [
+      "Kekuatan"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「力」は 何と 読みますか。",
@@ -3149,7 +3452,9 @@
     "id": "knj-144",
     "kanji": "力学",
     "furigana": "りきがく",
-    "terjemahan": ["mekanik"],
+    "terjemahan": [
+      "mekanik"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「力学」は 何と 読みますか。",
@@ -3171,7 +3476,9 @@
     "id": "knj-145",
     "kanji": "実力",
     "furigana": "じつりょく",
-    "terjemahan": ["kemampuan yang sesungguhnya"],
+    "terjemahan": [
+      "kemampuan yang sesungguhnya"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「実力」は 何と 読みますか。",
@@ -3193,7 +3500,9 @@
     "id": "knj-146",
     "kanji": "何",
     "furigana": "なに",
-    "terjemahan": ["Apa"],
+    "terjemahan": [
+      "Apa"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「何」は 何と 読みますか。",
@@ -3215,7 +3524,10 @@
     "id": "knj-147",
     "kanji": "何人",
     "furigana": "なんにん",
-    "terjemahan": ["berapa banyak orang", "berapa orang"],
+    "terjemahan": [
+      "berapa banyak orang",
+      "berapa orang"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「何人」は 何と 読みますか。",
@@ -3237,7 +3549,9 @@
     "id": "knj-148",
     "kanji": "何年",
     "furigana": "なんねん",
-    "terjemahan": ["berapa tahun"],
+    "terjemahan": [
+      "berapa tahun"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「何年」は 何と 読みますか。",
@@ -3259,7 +3573,10 @@
     "id": "knj-149",
     "kanji": "二百",
     "furigana": "にひゃく",
-    "terjemahan": ["Dua ratus", "200"],
+    "terjemahan": [
+      "Dua ratus",
+      "200"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「二百」は 何と 読みますか。",
@@ -3281,7 +3598,10 @@
     "id": "knj-150",
     "kanji": "千円",
     "furigana": "せんえん",
-    "terjemahan": ["Seribu yen", "1000 yen"],
+    "terjemahan": [
+      "Seribu yen",
+      "1000 yen"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「千円」は 何と 読みますか。",
@@ -3303,7 +3623,10 @@
     "id": "knj-151",
     "kanji": "三千",
     "furigana": "さんぜん",
-    "terjemahan": ["Tiga ribu", "3000"],
+    "terjemahan": [
+      "Tiga ribu",
+      "3000"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「三千」は 何と 読みますか。",
@@ -3325,7 +3648,9 @@
     "id": "knj-152",
     "kanji": "一万円",
     "furigana": "いちまんえん",
-    "terjemahan": ["10.000 yen"],
+    "terjemahan": [
+      "10.000 yen"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「一万円」は 何と 読みますか。",
@@ -3347,7 +3672,9 @@
     "id": "knj-153",
     "kanji": "円",
     "furigana": "えん",
-    "terjemahan": ["Yen"],
+    "terjemahan": [
+      "Yen"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「円」は 何と 読みますか。",
@@ -3369,7 +3696,9 @@
     "id": "knj-154",
     "kanji": "五千円",
     "furigana": "ごせんえん",
-    "terjemahan": ["5.000 yen"],
+    "terjemahan": [
+      "5.000 yen"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「五千円」は 何と 読みますか。",
@@ -3391,7 +3720,9 @@
     "id": "knj-155",
     "kanji": "百円",
     "furigana": "ひゃくえん",
-    "terjemahan": ["100 yen"],
+    "terjemahan": [
+      "100 yen"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「百円」は 何と 読みますか。",
@@ -3413,7 +3744,9 @@
     "id": "knj-156",
     "kanji": "年上",
     "furigana": "としうえ",
-    "terjemahan": ["lebih tua"],
+    "terjemahan": [
+      "lebih tua"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「年上」は 何と 読みますか。",
@@ -3435,7 +3768,9 @@
     "id": "knj-157",
     "kanji": "去年",
     "furigana": "きょねん",
-    "terjemahan": ["tahun lalu"],
+    "terjemahan": [
+      "tahun lalu"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「去年」は 何と 読みますか。",
@@ -3457,7 +3792,9 @@
     "id": "knj-158",
     "kanji": "来年",
     "furigana": "らいねん",
-    "terjemahan": ["tahun depan"],
+    "terjemahan": [
+      "tahun depan"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「来年」は 何と 読みますか。",
@@ -3479,7 +3816,9 @@
     "id": "knj-159",
     "kanji": "今年",
     "furigana": "ことし",
-    "terjemahan": ["tahun ini"],
+    "terjemahan": [
+      "tahun ini"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "「今年」は 何と 読みますか。",
@@ -3501,7 +3840,10 @@
     "id": "knj-160",
     "kanji": "明るい",
     "furigana": "あかるい",
-    "terjemahan": ["Terang", "Ceria"],
+    "terjemahan": [
+      "Terang",
+      "Ceria"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "その部屋は明るいですか？",
@@ -3517,7 +3859,10 @@
     "id": "knj-161",
     "kanji": "休みます",
     "furigana": "やすみます",
-    "terjemahan": ["Beristirahat", "Libur"],
+    "terjemahan": [
+      "Beristirahat",
+      "Libur"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "明日、仕事を休みますか？",
@@ -3533,7 +3878,10 @@
     "id": "knj-162",
     "kanji": "体",
     "furigana": "からだ",
-    "terjemahan": ["Tubuh", "Badan"],
+    "terjemahan": [
+      "Tubuh",
+      "Badan"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "体の調子はどうですか？",
@@ -3549,7 +3897,10 @@
     "id": "knj-163",
     "kanji": "体育",
     "furigana": "たいいく",
-    "terjemahan": ["Olahraga", "Pendidikan Jasmani"],
+    "terjemahan": [
+      "Olahraga",
+      "Pendidikan Jasmani"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "今日は体育の授業がありますか？",
@@ -3565,7 +3916,10 @@
     "id": "knj-164",
     "kanji": "体力",
     "furigana": "たいりょく",
-    "terjemahan": ["Tenaga fisik", "Stamina"],
+    "terjemahan": [
+      "Tenaga fisik",
+      "Stamina"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "体力がありますか？",
@@ -3581,7 +3935,9 @@
     "id": "knj-165",
     "kanji": "好き",
     "furigana": "すき",
-    "terjemahan": ["Suka"],
+    "terjemahan": [
+      "Suka"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "日本料理が好きですか？",
@@ -3597,7 +3953,10 @@
     "id": "knj-166",
     "kanji": "男",
     "furigana": "おとこ",
-    "terjemahan": ["Laki-laki", "Pria"],
+    "terjemahan": [
+      "Laki-laki",
+      "Pria"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "あの男の人は誰ですか？",
@@ -3613,7 +3972,9 @@
     "id": "knj-167",
     "kanji": "男の子",
     "furigana": "おとこのこ",
-    "terjemahan": ["Anak laki-laki"],
+    "terjemahan": [
+      "Anak laki-laki"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "男の子が何人いますか？",
@@ -3629,7 +3990,11 @@
     "id": "knj-168",
     "kanji": "男子",
     "furigana": "だんし",
-    "terjemahan": ["Anak laki-laki", "Pemuda", "Siswa laki-laki"],
+    "terjemahan": [
+      "Anak laki-laki",
+      "Pemuda",
+      "Siswa laki-laki"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "男子学生はどこにいますか？",
@@ -3645,7 +4010,10 @@
     "id": "knj-169",
     "kanji": "林",
     "furigana": "はやし",
-    "terjemahan": ["Hutan kecil", "Belukar"],
+    "terjemahan": [
+      "Hutan kecil",
+      "Belukar"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "家の近くに林がありますか？",
@@ -3661,7 +4029,9 @@
     "id": "knj-170",
     "kanji": "森",
     "furigana": "もり",
-    "terjemahan": ["Hutan (yang lebih lebat/luas)"],
+    "terjemahan": [
+      "Hutan (yang lebih lebat/luas)"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "森へ行きますか？",
@@ -3677,7 +4047,9 @@
     "id": "knj-171",
     "kanji": "森田",
     "furigana": "もりた",
-    "terjemahan": ["Morita (Nama keluarga Jepang)"],
+    "terjemahan": [
+      "Morita (Nama keluarga Jepang)"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "森田先生はいますか？",
@@ -3693,7 +4065,10 @@
     "id": "knj-172",
     "kanji": "森林",
     "furigana": "しんりん",
-    "terjemahan": ["Hutan rimba", "Hutan belantara"],
+    "terjemahan": [
+      "Hutan rimba",
+      "Hutan belantara"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "森林を守ることは大切ですか？",
@@ -3709,7 +4084,11 @@
     "id": "knj-173",
     "kanji": "間",
     "furigana": "あいだ",
-    "terjemahan": ["Di antara", "Selang", "Jeda"],
+    "terjemahan": [
+      "Di antara",
+      "Selang",
+      "Jeda"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "本屋はどこにありますか？",
@@ -3725,7 +4104,11 @@
     "id": "knj-174",
     "kanji": "間に合います",
     "furigana": "まにあいます",
-    "terjemahan": ["Tepat waktu", "Keburu", "Sempat"],
+    "terjemahan": [
+      "Tepat waktu",
+      "Keburu",
+      "Sempat"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "電車に間に合いますか？",
@@ -3741,7 +4124,10 @@
     "id": "knj-175",
     "kanji": "時間",
     "furigana": "じかん",
-    "terjemahan": ["Waktu", "Jam"],
+    "terjemahan": [
+      "Waktu",
+      "Jam"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "今、時間がありますか？",
@@ -3757,7 +4143,11 @@
     "id": "knj-176",
     "kanji": "畑",
     "furigana": "はたけ",
-    "terjemahan": ["Ladang", "Sawah kering", "Kebun"],
+    "terjemahan": [
+      "Ladang",
+      "Sawah kering",
+      "Kebun"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "畑で何を育てていますか？",
@@ -3773,7 +4163,11 @@
     "id": "knj-177",
     "kanji": "岩",
     "furigana": "いわ",
-    "terjemahan": ["Batu besar", "Karang"],
+    "terjemahan": [
+      "Batu besar",
+      "Karang",
+      "Batu karang"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "あそこに大きな岩がありますね？",
@@ -3789,7 +4183,9 @@
     "id": "knj-178",
     "kanji": "目",
     "furigana": "め",
-    "terjemahan": ["Mata"],
+    "terjemahan": [
+      "Mata"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "\u003c目:め\u003eが\u003c痛:いた\u003eいですか。",
@@ -3805,7 +4201,11 @@
     "id": "knj-179",
     "kanji": "目上",
     "furigana": "めうえ",
-    "terjemahan": ["Orang yang lebih tua", "Atasan", "Superior"],
+    "terjemahan": [
+      "Orang yang lebih tua",
+      "Atasan",
+      "Superior"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "\u003c目上:めうえ\u003eの\u003c人:ひと\u003eには\u003c丁寧:ていねい\u003eに\u003c話:はな\u003eしますか。",
@@ -3821,7 +4221,9 @@
     "id": "knj-180",
     "kanji": "耳",
     "furigana": "みみ",
-    "terjemahan": ["Telinga"],
+    "terjemahan": [
+      "Telinga"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "\u003c耳:みみ\u003eが\u003c大:おお\u003eきいですか。",
@@ -3837,7 +4239,9 @@
     "id": "knj-181",
     "kanji": "手",
     "furigana": "て",
-    "terjemahan": ["Tangan"],
+    "terjemahan": [
+      "Tangan"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "\u003c食事:しょくじ\u003eの\u003c前:まえ\u003eに\u003c手:て\u003eを\u003c洗:あら\u003eいましたか。",
@@ -3853,7 +4257,9 @@
     "id": "knj-182",
     "kanji": "手紙",
     "furigana": "てがみ",
-    "terjemahan": ["Surat"],
+    "terjemahan": [
+      "Surat"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "\u003c誰:だれ\u003eに\u003c手紙:てがみ\u003eを\u003c書:か\u003eきますか。",
@@ -3869,7 +4275,11 @@
     "id": "knj-183",
     "kanji": "上手",
     "furigana": "じょうず",
-    "terjemahan": ["Pandai", "Mahir", "Pintar"],
+    "terjemahan": [
+      "Pandai",
+      "Mahir",
+      "Pintar"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "\u003c日本語:にほんご\u003eが\u003c上手:じょうず\u003eですね。",
@@ -3885,7 +4295,11 @@
     "id": "knj-184",
     "kanji": "下手",
     "furigana": "へた",
-    "terjemahan": ["Payah", "Tidak pandai", "Kurang mahir"],
+    "terjemahan": [
+      "Payah",
+      "Tidak pandai",
+      "Kurang mahir"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "\u003c歌:うた\u003eが\u003c下手:へた\u003eですか。",
@@ -3901,7 +4315,9 @@
     "id": "knj-185",
     "kanji": "足",
     "furigana": "あし",
-    "terjemahan": ["Kaki"],
+    "terjemahan": [
+      "Kaki"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "\u003c足:あし\u003eが\u003c速:はや\u003eいですか。",
@@ -3917,7 +4333,10 @@
     "id": "knj-186",
     "kanji": "足ります",
     "furigana": "たります",
-    "terjemahan": ["Cukup", "Memadai"],
+    "terjemahan": [
+      "Cukup",
+      "Memadai"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "お\u003c金:かね\u003eは\u003c足:た\u003eりますか。",
@@ -3933,7 +4352,9 @@
     "id": "knj-187",
     "kanji": "雨",
     "furigana": "あめ",
-    "terjemahan": ["Hujan"],
+    "terjemahan": [
+      "Hujan"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "\u003c今日:きょう\u003eは\u003c雨:あめ\u003eが\u003c降:ふ\u003eっていますか。",
@@ -3949,7 +4370,9 @@
     "id": "knj-188",
     "kanji": "雨天",
     "furigana": "うてん",
-    "terjemahan": ["Cuaca hujan"],
+    "terjemahan": [
+      "Cuaca hujan"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "\u003c雨天:うてん\u003eの\u003c場合:ばあい\u003eは\u003c試合:しあい\u003eがありますか。",
@@ -3965,7 +4388,9 @@
     "id": "knj-189",
     "kanji": "竹",
     "furigana": "たけ",
-    "terjemahan": ["Bambu"],
+    "terjemahan": [
+      "Bambu"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "\u003c庭:にわ\u003eに\u003c竹:たけ\u003eがありますか。",
@@ -3981,7 +4406,9 @@
     "id": "knj-190",
     "kanji": "米",
     "furigana": "こめ",
-    "terjemahan": ["Beras"],
+    "terjemahan": [
+      "Beras"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "\u003cスーパー:すーぱー\u003eで\u003c米:こめ\u003eを\u003c買:か\u003eいましたか。",
@@ -3997,7 +4424,9 @@
     "id": "knj-191",
     "kanji": "貝",
     "furigana": "かい",
-    "terjemahan": ["Kerang"],
+    "terjemahan": [
+      "Kerang"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "\u003c貝:かい\u003eを\u003c食:た\u003eべることができますか。",
@@ -4013,7 +4442,9 @@
     "id": "knj-192",
     "kanji": "石",
     "furigana": "いし",
-    "terjemahan": ["Batu"],
+    "terjemahan": [
+      "Batu"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "この\u003c石:いし\u003eは\u003c重:おも\u003eいですか。",
@@ -4029,7 +4460,10 @@
     "id": "knj-193",
     "kanji": "石油",
     "furigana": "せきゆ",
-    "terjemahan": ["Minyak bumi", "Petroleum"],
+    "terjemahan": [
+      "Minyak bumi",
+      "Petroleum"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "この\u003c国:くに\u003eは\u003c石油:せきゆ\u003eを\u003c輸入:ゆにゅう\u003eしていますか。",
@@ -4045,7 +4479,9 @@
     "id": "knj-194",
     "kanji": "糸",
     "furigana": "いと",
-    "terjemahan": ["Benang"],
+    "terjemahan": [
+      "Benang"
+    ],
     "contoh_percakapan": [
       {
         "pertanyaan": "\u003c赤:あか\u003eい\u003c糸:いと\u003eがありますか。",
@@ -4056,5 +4492,2428 @@
     ],
     "buku": "Basic Kanji Book",
     "lesson": "6"
+  },
+  {
+    "id": "knj-195",
+    "kanji": "花",
+    "furigana": "はな",
+    "terjemahan": [
+      "Bunga"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "きれいな\u003c花:はな\u003eですね。何:なにの\u003c花:はな\u003eですか。",
+        "arti_pertanyaan": "Bunga yang indah ya. Bunga apa ini?",
+        "jawaban": "これはサクラの\u003c花:はな\u003eです。",
+        "arti_jawaban": "Ini adalah bunga sakura."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-196",
+    "kanji": "花火",
+    "furigana": "はなび",
+    "terjemahan": [
+      "Kembang api"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c今夜:こんや\u003e、\u003c花火:はなび\u003eを\u003c見:み\u003eに\u003c行:い\u003eきませんか。",
+        "arti_pertanyaan": "Malam ini, maukah pergi melihat kembang api?",
+        "jawaban": "いいですね。\u003c行:い\u003eきましょう！",
+        "arti_jawaban": "Bagus ya. Ayo pergi!"
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-197",
+    "kanji": "茶",
+    "furigana": "ちゃ",
+    "terjemahan": [
+      "Teh"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "お\u003c茶:ちゃ\u003eを\u003c飲:の\u003eみますか。",
+        "arti_pertanyaan": "Apakah mau minum teh?",
+        "jawaban": "はい、お\u003c願:ねが\u003eいします。",
+        "arti_jawaban": "Ya, tolong."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-198",
+    "kanji": "喫茶店",
+    "furigana": "きっさてん",
+    "terjemahan": [
+      "Kafe",
+      "Kedai kopi"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c駅:えき\u003eの\u003c前:まえ\u003eの\u003c喫茶店:きっさてん\u003eで\u003c話:はな\u003eしませんか。",
+        "arti_pertanyaan": "Maukah mengobrol di kafe depan stasiun?",
+        "jawaban": "はい、そうしましょう。",
+        "arti_jawaban": "Ya, mari kita lakukan itu."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-199",
+    "kanji": "紅茶",
+    "furigana": "こうちゃ",
+    "terjemahan": [
+      "Teh hitam"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c紅茶:こうちゃ\u003eとコーヒー、どちらが\u003c好:す\u003eきですか。",
+        "arti_pertanyaan": "Teh hitam dan kopi, mana yang lebih kamu sukai?",
+        "jawaban": "\u003c私:わたし\u003eは\u003c紅茶:こうちゃ\u003eのほう bundleが\u003c好:す\u003eきです。",
+        "arti_jawaban": "Saya lebih suka teh hitam."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-200",
+    "kanji": "日本茶",
+    "furigana": "にほんちゃ",
+    "terjemahan": [
+      "Teh Jepang"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c日本茶:にほんちゃ\u003eを\u003c飲:の\u003eんだことがありますか。",
+        "arti_pertanyaan": "Pernahkah Anda minum teh Jepang?",
+        "jawaban": "はい、とてもおいしかったです。",
+        "arti_jawaban": "Ya, rasanya sangat enak."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-201",
+    "kanji": "肉",
+    "furigana": "にく",
+    "terjemahan": [
+      "Daging"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c今日:きょう\u003eの\u003c晩:ばん\u003eごはんは\u003c肉:にく\u003eですか。",
+        "arti_pertanyaan": "Apakah makan malam hari ini daging?",
+        "jawaban": "いいえ、\u003c魚:さかな\u003eです。",
+        "arti_jawaban": "Bukan, ikan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-202",
+    "kanji": "牛肉",
+    "furigana": "ぎゅうにく",
+    "terjemahan": [
+      "Daging sapi"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "スーパーで\u003c牛肉:ぎゅうにく\u003eを\u003c買:か\u003eいましたか。",
+        "arti_pertanyaan": "Apakah kamu membeli daging sapi di supermarket?",
+        "jawaban": "はい、\u003c高:たか\u003eかったですが\u003c買:か\u003eいました。",
+        "arti_jawaban": "Ya, mahal tapi saya membelinya."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-203",
+    "kanji": "鶏肉",
+    "furigana": "とりにく",
+    "terjemahan": [
+      "Daging ayam"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c鶏肉:とりにく\u003eの\u003c料理:りょうり\u003eで何:なにが\u003c一番:いちばん\u003e\u003c好:す\u003eきですか。",
+        "arti_pertanyaan": "Masakan daging ayam apa yang paling kamu sukai?",
+        "jawaban": "からあげが\u003c一番:いちばん\u003e\u003c好:す\u003eきです。",
+        "arti_jawaban": "Ayam goreng (karaage) yang paling saya sukai."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-204",
+    "kanji": "文",
+    "furigana": "ぶん",
+    "terjemahan": [
+      "Kalimat",
+      "Tulisan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c文:ぶん\u003eの意味:いみが分:わかりますか。",
+        "arti_pertanyaan": "Apakah kamu mengerti arti kalimat ini?",
+        "jawaban": "はい、分:わかります。",
+        "arti_jawaban": "Ya, saya mengerti."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-205",
+    "kanji": "字",
+    "furigana": "じ",
+    "terjemahan": [
+      "Huruf",
+      "Karakter"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "Tanakaさんの\u003c字:じ\u003eはとてもきれいですね。",
+        "arti_pertanyaan": "Tulisan huruf Tanaka-san sangat indah ya.",
+        "jawaban": "ありがとうございます。\u003c毎日:まいにち\u003e\u003c練習:れんしゅう\u003eしています。",
+        "arti_jawaban": "Terima kasih. Saya berlatih setiap hari."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-206",
+    "kanji": "漢字",
+    "furigana": "かんじ",
+    "terjemahan": [
+      "Kanji"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c漢字:かんじ\u003eの\u003c勉強:べんきょう\u003eは\u003c難:むずか\u003eしいですか。",
+        "arti_pertanyaan": "Apakah belajar kanji itu sulit?",
+        "jawaban": "\u003c難:むずか\u003eしいですが、おもしろいです。",
+        "arti_jawaban": "Sulit, tapi menarik."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-207",
+    "kanji": "物",
+    "furigana": "もの",
+    "terjemahan": [
+      "Barang",
+      "Benda"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "机:つくえの\u003c上:うえ\u003eにある\u003c物:もの\u003eは何:なにですか。",
+        "arti_pertanyaan": "Benda yang ada di atas meja itu apa?",
+        "jawaban": "\u003c私:わたし\u003eの\u003c辞書:じしょ\u003eです。",
+        "arti_jawaban": "Kamus saya."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-208",
+    "kanji": "買い物",
+    "furigana": "かいもの",
+    "terjemahan": [
+      "Belanja",
+      "Perbelanjaan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c明日:あした\u003e、いっしょに\u003c買:か\u003eい\u003c物:もの\u003eに\u003c行:い\u003eきませんか。",
+        "arti_pertanyaan": "Besok, maukah pergi berbelanja bersama?",
+        "jawaban": "いいですね。\u003c行:い\u003eきましょう。",
+        "arti_jawaban": "Bagus ya. Ayo pergi."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-209",
+    "kanji": "生物",
+    "furigana": "せいぶつ / なまもの",
+    "terjemahan": [
+      "Makhluk hidup",
+      "Makanan mentah"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c料理:りょうり\u003eは\u003c生物:なまもの\u003eですか。",
+        "arti_pertanyaan": "Apakah masakan ini makanan mentah?",
+        "jawaban": "はい、\u003c新鮮:しんせん\u003eな\u003c魚:さかな\u003eです。",
+        "arti_jawaban": "Ya, ini ikan yang segar."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-210",
+    "kanji": "荷物",
+    "furigana": "にもつ",
+    "terjemahan": [
+      "Barang bawaan",
+      "Bagasi",
+      "Paket"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "その\u003c荷物:にもつ\u003eは重:おもいですか。",
+        "arti_pertanyaan": "Apakah barang bawaan itu berat?",
+        "jawaban": "いいえ、あまり重:おもくないです。",
+        "arti_jawaban": "Tidak, tidak begitu berat."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-211",
+    "kanji": "牛",
+    "furigana": "うし",
+    "terjemahan": [
+      "Sapi"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "あそこに\u003c牛:うし\u003eがいますね。",
+        "arti_pertanyaan": "Di sana ada sapi ya.",
+        "jawaban": "はい、\u003c大:おお\u003eきい\u003c牛:うし\u003eですね。",
+        "arti_jawaban": "Ya, sapi yang besar ya."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-212",
+    "kanji": "牛乳",
+    "furigana": "ぎゅうにゅう",
+    "terjemahan": [
+      "Susu sapi"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c毎朝:まいあさ\u003e、\u003c牛乳:ぎゅうにゅう\u003eを\u003c飲:の\u003eみますか。",
+        "arti_pertanyaan": "Apakah Anda minum susu sapi setiap pagi?",
+        "jawaban": "はい、\u003c毎朝:まいあさ\u003e\u003c飲:の\u003eみます。",
+        "arti_jawaban": "Ya, saya minum setiap pagi."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-213",
+    "kanji": "馬",
+    "furigana": "うま",
+    "terjemahan": [
+      "Kuda"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c馬:うま\u003eに\u003c乗:の\u003eったことがありますか。",
+        "arti_pertanyaan": "Pernahkah kamu menunggangi kuda?",
+        "jawaban": "いいえ、一度:いちどもありません。",
+        "arti_jawaban": "Tidak, belum pernah sekali pun."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-214",
+    "kanji": "馬車",
+    "furigana": "ばしゃ",
+    "terjemahan": [
+      "Kereta kuda"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "観光地:かんこうちで\u003c馬車:ばしゃ\u003eを\u003c見:み\u003eましたか。",
+        "arti_pertanyaan": "Apakah kamu melihat kereta kuda di tempat wisata?",
+        "jawaban": "はい、とてもきれいでした。",
+        "arti_jawaban": "Ya, sangat indah."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-215",
+    "kanji": "鳥",
+    "furigana": "とり",
+    "terjemahan": [
+      "Burung",
+      "Unggas"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c空:そら\u003eに\u003c鳥:とり\u003eがたくさんいますね。",
+        "arti_pertanyaan": "Di langit ada banyak burung ya.",
+        "jawaban": "本当:ほんとうですね。きれいですね。",
+        "arti_jawaban": "Benar ya. Indah ya."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-216",
+    "kanji": "焼き鳥",
+    "furigana": "やきとり",
+    "terjemahan": [
+      "Yakitori"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c居酒屋:いざかや\u003eで\u003c焼:や\u003eき\u003c鳥:とり\u003eを\u003c食:た\u003eべましょうか。",
+        "arti_pertanyaan": "Bagaimana kalau kita makan yakitori di izakaya?",
+        "jawaban": "いいですね！\u003c行:い\u003eきましょう。",
+        "arti_jawaban": "Bagus ya! Ayo pergi."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-217",
+    "kanji": "魚",
+    "furigana": "さかな",
+    "terjemahan": [
+      "Ikan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c魚:さかな\u003eが\u003c好:す\u003eきですか。",
+        "arti_pertanyaan": "Apakah kamu suka ikan?",
+        "jawaban": "はい、とても\u003c好:す\u003eきです。",
+        "arti_jawaban": "Ya, sangat suka."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-218",
+    "kanji": "焼き魚",
+    "furigana": "やきざかな",
+    "terjemahan": [
+      "Ikan bakar",
+      "Ikan panggang"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c朝:あさ\u003eごはんに\u003c焼:や\u003eき\u003c魚:ざかな\u003eを\u003c食:た\u003eべましたか。",
+        "arti_pertanyaan": "Apakah kamu makan ikan bakar untuk sarapan?",
+        "jawaban": "はい、\u003c御飯:ごはん\u003eとみそ\u003c汁:しる\u003eといっしょに\u003c食:た\u003eべました。",
+        "arti_jawaban": "Ya, saya makan bersama nasi dan sup miso."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "7"
+  },
+  {
+    "id": "knj-219",
+    "kanji": "新しい",
+    "furigana": "あたらしい",
+    "terjemahan": [
+      "Baru"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "それは\u003c新:あたら\u003eしい\u003c車:くるま\u003eですか。",
+        "arti_pertanyaan": "Apakah itu mobil baru?",
+        "jawaban": "いいえ、\u003c古:ふる\u003eい\u003c車:くるま\u003eです。",
+        "arti_jawaban": "Bukan, itu mobil lama."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-220",
+    "kanji": "新聞",
+    "furigana": "しんぶん",
+    "terjemahan": [
+      "Koran",
+      "Surat kabar"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c毎朝:まいあさ\u003e\u003c新聞:しんぶん\u003eを\u003c読:よ\u003eみますか。",
+        "arti_pertanyaan": "Apakah kamu membaca koran setiap pagi?",
+        "jawaban": "はい、\u003c朝:あさ\u003eごはんを\u003c食:た\u003eべながら\u003c読:よ\u003eみます。",
+        "arti_jawaban": "Ya, saya membaca sambil sarapan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-221",
+    "kanji": "古い",
+    "furigana": "ふるい",
+    "terjemahan": [
+      "Lama",
+      "Tua",
+      "Kuno (untuk benda)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c時計:とけい\u003eは\u003c古:ふる\u003eいですか。",
+        "arti_pertanyaan": "Apakah jam ini tua/lama?",
+        "jawaban": "はい、おじいさんの\u003c時計:とけい\u003eです。",
+        "arti_jawaban": "Ya, ini jam milik kakek."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-222",
+    "kanji": "古本",
+    "furigana": "ふるほん",
+    "terjemahan": [
+      "Buku bekas"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "どこでその\u003c古本:ふるほん\u003eを\u003c買:か\u003eいましたか。",
+        "arti_pertanyaan": "Di mana kamu membeli buku bekas itu?",
+        "jawaban": "\u003c駅:えき\u003eの\u003c前:まえ\u003eの\u003c本屋:ほんや\u003eで\u003c買:か\u003eいました。",
+        "arti_jawaban": "Saya membelinya di toko buku depan stasiun."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-223",
+    "kanji": "中古",
+    "furigana": "ちゅうこ",
+    "terjemahan": [
+      "Barang bekas",
+      "Second-hand"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "このパソコンは\u003c中古:ちゅうこ\u003eですか。",
+        "arti_pertanyaan": "Apakah komputer ini barang bekas?",
+        "jawaban": "はい、でもとても綺麗:きれいですよ。",
+        "arti_jawaban": "Ya, tapi sangat bagus/bersih lho."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-224",
+    "kanji": "長い",
+    "furigana": "ながい",
+    "terjemahan": [
+      "Panjang"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "夏:なつやすみは\u003c長:なが\u003eいですか。",
+        "arti_pertanyaan": "Apakah liburan musim panas panjang?",
+        "jawaban": "はい、一:ひとヶ月:かげつあります。",
+        "arti_jawaban": "Ya, ada satu bulan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-225",
+    "kanji": "学長",
+    "furigana": "がくちょう",
+    "terjemahan": [
+      "Rektor",
+      "Kepala universitas"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c学長:がくちょう\u003eの\u003c話:はなし\u003eを\u003c聞:き\u003eきましたか。",
+        "arti_pertanyaan": "Apakah kamu mendengarkan pidato rektor?",
+        "jawaban": "はい、ホールで\u003c聞:き\u003eきました。",
+        "arti_jawaban": "Ya, saya mendengarkannya di aula."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-226",
+    "kanji": "短い",
+    "furigana": "みじかい",
+    "terjemahan": [
+      "Pendek"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "髪:かみの\u003c毛:け\u003eを\u003c短:みじか\u003eくしましたか。",
+        "arti_pertanyaan": "Apakah kamu memotong rambutmu jadi pendek?",
+        "jawaban": "はい、昨日:きのうきりました。",
+        "arti_jawaban": "Ya, kemarin saya potong."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-227",
+    "kanji": "短時間",
+    "furigana": "たんじかん",
+    "terjemahan": [
+      "Waktu yang singkat"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c短時間:たんじかん\u003eで\u003c勉強:べんきょう\u003eできますか。",
+        "arti_pertanyaan": "Apakah bisa belajar dalam waktu yang singkat?",
+        "jawaban": "はい、集中:しゅうちゅうすればできます。",
+        "arti_jawaban": "Ya, jika fokus pasti bisa."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-228",
+    "kanji": "高い",
+    "furigana": "たかい",
+    "terjemahan": [
+      "Tinggi",
+      "Mahal"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "このカバンは\u003c高:たか\u003eいですか。",
+        "arti_pertanyaan": "Apakah tas ini mahal?",
+        "jawaban": "いいえ、あまり\u003c高:たか\u003eくないです。",
+        "arti_jawaban": "Tidak, tidak begitu mahal."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-229",
+    "kanji": "高校",
+    "furigana": "こうこう",
+    "terjemahan": [
+      "SMA (Sekolah Menengah Atas)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c高校:こうこう\u003eの\u003c時:とき\u003e、何を\u003c勉強:べんきょう\u003eしましたか。",
+        "arti_pertanyaan": "Saat SMA, apa yang kamu pelajari?",
+        "jawaban": "英語:えいごを\u003c勉強:べんきょう\u003eしました。",
+        "arti_jawaban": "Saya mempelajari bahasa Inggris."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-230",
+    "kanji": "高速",
+    "furigana": "こうそく",
+    "terjemahan": [
+      "Kecepatan tinggi",
+      "Jalan tol (Kousoku douro)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c高速:こうそく\u003e道路:どうろを\u003c通:とお\u003eりますか。",
+        "arti_pertanyaan": "Apakah akan melewati jalan tol?",
+        "jawaban": "はい、そのほうが\u003c早:はや\u003eいです。",
+        "arti_jawaban": "Ya, jalan itu lebih cepat."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-231",
+    "kanji": "安い",
+    "furigana": "やすい",
+    "terjemahan": [
+      "Murah"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "このレストランは\u003c安:やす\u003eいですか。",
+        "arti_pertanyaan": "Apakah restoran ini murah?",
+        "jawaban": "はい、\u003c安:やす\u003eくておいしいです。",
+        "arti_jawaban": "Ya, murah dan enak."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-232",
+    "kanji": "安心",
+    "furigana": "あんしん",
+    "terjemahan": [
+      "Lega",
+      "Tenang",
+      "Aman (hati)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "テストが\u003c終:お\u003eわりましたね。",
+        "arti_pertanyaan": "Ujiannya sudah selesai ya.",
+        "jawaban": "はい、\u003c安心:あんしん\u003eしました。",
+        "arti_jawaban": "Ya, saya merasa lega."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-233",
+    "kanji": "安全",
+    "furigana": "あんぜん",
+    "terjemahan": [
+      "Aman",
+      "Safety"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c町:まち\u003eは\u003c安全:あんぜん\u003eですか。",
+        "arti_pertanyaan": "Apakah kota ini aman?",
+        "jawaban": "はい、夜:よるでも\u003c安全:あんぜん\u003eですよ。",
+        "arti_jawaban": "Ya, malam hari pun aman kok."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-234",
+    "kanji": "低い",
+    "furigana": "ひくい",
+    "terjemahan": [
+      "Rendah"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "あの\u003c山:やま\u003eは\u003c低:ひく\u003eいですね。",
+        "arti_pertanyaan": "Gunung itu rendah ya.",
+        "jawaban": "はい、すぐに登:のぼることができます。",
+        "arti_jawaban": "Ya, bisa didaki dengan cepat."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-235",
+    "kanji": "暗い",
+    "furigana": "くらい",
+    "terjemahan": [
+      "Gelap"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "部屋:へやが\u003c暗:くら\u003eいですね。",
+        "arti_pertanyaan": "Kambarnya gelap ya.",
+        "jawaban": "じゃあ、電気:でんきをつけましょう。",
+        "arti_jawaban": "Kalau begitu, mari kita nyalakan lampunya."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-236",
+    "kanji": "暗室",
+    "furigana": "あんしつ",
+    "terjemahan": [
+      "Kamar gelap (untuk cuci foto)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "写真:しゃしんを\u003c暗室:あんしつ\u003eで現像:げんぞうしますか。",
+        "arti_pertanyaan": "Apakah kamu mencetak foto di kamar gelap?",
+        "jawaban": "はい、これから\u003c暗室:あんしつ\u003eに\u003c行:い\u003eきます。",
+        "arti_jawaban": "Ya, saya mau ke kamar gelap sekarang."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-237",
+    "kanji": "多い",
+    "furigana": "おおい",
+    "terjemahan": [
+      "Banyak"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この公園:こうえんは\u003c人:ひと\u003eが\u003c多:おお\u003eいですね。",
+        "arti_pertanyaan": "Taman ini orangnya banyak ya.",
+        "jawaban": "日曜日:にちようびですからね。",
+        "arti_jawaban": "Karena hari Minggu ya."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-238",
+    "kanji": "少ない",
+    "furigana": "すくない",
+    "terjemahan": [
+      "Sedikit (jumlah)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c今日:きょう\u003eは学生:がくせい glassesが\u003c少:すく\u003eないですね。",
+        "arti_pertanyaan": "Hari ini siswanya sedikit ya.",
+        "jawaban": "はい、雨:あめが降:ふっていますから。",
+        "arti_jawaban": "Ya, karena hujan turun."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-239",
+    "kanji": "少し",
+    "furigana": "すこし",
+    "terjemahan": [
+      "Sedikit (kuantitas/durasi)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "日本語:にほんごが分:わかりますか。",
+        "arti_pertanyaan": "Apakah kamu mengerti bahasa Jepang?",
+        "jawaban": "はい、\u003c少:すこ\u003eし分:わかります。",
+        "arti_jawaban": "Ya, mengerti sedikit."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-240",
+    "kanji": "少年",
+    "furigana": "しょうねん",
+    "terjemahan": [
+      "Anak laki-laki",
+      "Remaja putra"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "あの\u003c少年:しょうねん\u003eは誰:だれですか。",
+        "arti_pertanyaan": "Siapakah anak laki-laki itu?",
+        "jawaban": "田中さんの\u003c息子:むすこ\u003eさんですよ。",
+        "arti_jawaban": "Anak laki-lakinya Tanaka-san lho."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-241",
+    "kanji": "少女",
+    "furigana": "しょうじょ",
+    "terjemahan": [
+      "Anak perempuan",
+      "Remaja putri"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c少女:しょうじょ\u003e漫画:まんがを\u003c読:よ\u003eんだことがありますか。",
+        "arti_pertanyaan": "Pernahkah kamu membaca komik remaja putri (shoujo manga)?",
+        "jawaban": "はい、時々:ときどき\u003c読:よ\u003eみます。",
+        "arti_jawaban": "Ya, kadang-kadang membaca."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "8"
+  },
+  {
+    "id": "knj-242",
+    "kanji": "行きます",
+    "furigana": "いきます",
+    "terjemahan": [
+      "Pergi"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c明日:あした\u003e、どこへ\u003c行:い\u003eきますか。",
+        "arti_pertanyaan": "Besok mau pergi ke mana?",
+        "jawaban": "\u003c学校:がっこう\u003eへ\u003c行:い\u003eきます。",
+        "arti_jawaban": "Saya mau pergi ke sekolah."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-243",
+    "kanji": "行います",
+    "furigana": "おこないます",
+    "terjemahan": [
+      "Mengadakan",
+      "Melakukan",
+      "Melaksanakan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "会議:かいぎはどこで\u003c行:おこな\u003eいますか。",
+        "arti_pertanyaan": "Di mana rapat akan dilaksanakan?",
+        "jawaban": "\u003c会議:かいぎ\u003e室:しつで\u003c行:おこな\u003eいます。",
+        "arti_jawaban": "Akan dilaksanakan di ruang rapat."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-244",
+    "kanji": "来ます",
+    "furigana": "きます",
+    "terjemahan": [
+      "Datang"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "何時:なんじに\u003c学校:がっこう\u003eへ\u003c来:き\u003eますか。",
+        "arti_pertanyaan": "Jam berapa kamu akan datang ke sekolah?",
+        "jawaban": "８時:はちじに\u003c来:き\u003eます。",
+        "arti_jawaban": "Saya akan datang jam 8."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-245",
+    "kanji": "来年",
+    "furigana": "らいねん",
+    "terjemahan": [
+      "Tahun depan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c来年:らいねん\u003e、\u003c日本:にほん\u003eへ\u003c行:い\u003eきますか。",
+        "arti_pertanyaan": "Apakah tahun depan kamu akan pergi ke Jepang?",
+        "jawaban": "はい、\u003c来年:らいねん\u003eの４月:しがつに\u003c行:い\u003eきます。",
+        "arti_jawaban": "Ya, saya akan pergi bulan April tahun depan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-246",
+    "kanji": "来月",
+    "furigana": "らいげつ",
+    "terjemahan": [
+      "Bulan depan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c来月:らいげつ\u003eのテストはいつですか。",
+        "arti_pertanyaan": "Kapan ujian bulan depan?",
+        "jawaban": "\u003c来月:らいげつ\u003eの１０日:とおかです。",
+        "arti_jawaban": "Tanggal 10 bulan depan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-247",
+    "kanji": "帰ります",
+    "furigana": "かえります",
+    "terjemahan": [
+      "Pulang"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "何時:なんじに\u003c家:うち\u003eへ\u003c帰:かえ\u003eりますか。",
+        "arti_pertanyaan": "Jam berapa kamu pulang ke rumah?",
+        "jawaban": "６時:ろくじに\u003c帰:かえ\u003eります。",
+        "arti_jawaban": "Saya pulang jam 6."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-248",
+    "kanji": "食べます",
+    "furigana": "たべます",
+    "terjemahan": [
+      "Makan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c朝:あさ\u003eごはんを\u003c食:た\u003eべましたか。",
+        "arti_pertanyaan": "Apakah kamu sudah makan sarapan?",
+        "jawaban": "はい、パンを\u003c食:た\u003eべました。",
+        "arti_jawaban": "Ya, saya sudah makan roti."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-249",
+    "kanji": "食べ物",
+    "furigana": "たべもの",
+    "terjemahan": [
+      "Makanan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "どんな\u003c食:た\u003eべ\u003c物:もの\u003eが\u003c好:す\u003eきですか。",
+        "arti_pertanyaan": "Makanan seperti apa yang kamu sukai?",
+        "jawaban": "ラーメンが\u003c好:す\u003eきです。",
+        "arti_jawaban": "Saya suka ramen."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-250",
+    "kanji": "食事",
+    "furigana": "しょくじ",
+    "terjemahan": [
+      "Makan (kegiatan makan)",
+      "Hidangan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "いっしょに\u003c食事:しょくじ\u003eをしませんか。",
+        "arti_pertanyaan": "Maukah makan bersama?",
+        "jawaban": "いいですね。\u003c行:い\u003eきましょう。",
+        "arti_jawaban": "Bagus ya. Ayo pergi."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-251",
+    "kanji": "飲みます",
+    "furigana": "のみます",
+    "terjemahan": [
+      "Minum"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "何:なにを\u003c飲:の\u003eみますか。",
+        "arti_pertanyaan": "Mau minum apa?",
+        "jawaban": "お\u003c茶:ちゃ\u003eを\u003c飲:の\u003eみます。",
+        "arti_jawaban": "Saya mau minum teh."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-252",
+    "kanji": "飲み物",
+    "furigana": "のみもの",
+    "terjemahan": [
+      "Minuman"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c冷:つめ\u003eたい\u003c飲:の\u003eみ\u003c物:もの\u003eはありますか。",
+        "arti_pertanyaan": "Apakah ada minuman dingin?",
+        "jawaban": "はい、ジュースがあります。",
+        "arti_jawaban": "Ya, ada jus."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-253",
+    "kanji": "見ます",
+    "furigana": "みます",
+    "terjemahan": [
+      "Melihat",
+      "Menonton"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c昨日:きのう\u003e、映画:えいがを\u003c見:み\u003eましたか。",
+        "arti_pertanyaan": "Apakah kemarin kamu menonton film?",
+        "jawaban": "はい、とてもおもしろかったです。",
+        "arti_jawaban": "Ya, filmsnya sangat menarik."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-254",
+    "kanji": "意見",
+    "furigana": "いけん",
+    "terjemahan": [
+      "Pendapat",
+      "Opini"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "何か\u003c意見:いけん\u003eがありますか。",
+        "arti_pertanyaan": "Apakah ada pendapat/opini?",
+        "jawaban": "いいえ、特にありません。",
+        "arti_jawaban": "Tidak ada, tidak ada yang khusus."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-255",
+    "kanji": "見せます",
+    "furigana": "みせます",
+    "terjemahan": [
+      "Memperlihatkan",
+      "Menunjukkan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "写真:しゃしんを\u003c見:み\u003eせてください。",
+        "arti_pertanyaan": "Tolong perlihatkan fotonya.",
+        "jawaban": "はい、どうぞ。",
+        "arti_jawaban": "Ya, silakan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-256",
+    "kanji": "聞きます",
+    "furigana": "ききます",
+    "terjemahan": [
+      "Mendengar",
+      "Mendengarkan",
+      "Bertanya"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c毎日:まいにち\u003e、音楽:おんがくを\u003c聞:き\u003eきますか。",
+        "arti_pertanyaan": "Apakah kamu mendengarkan musik setiap hari?",
+        "jawaban": "はい、よく\u003c聞:き\u003eきます。",
+        "arti_jawaban": "Ya, saya sering mendengarkan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-257",
+    "kanji": "新聞",
+    "furigana": "しんぶん",
+    "terjemahan": [
+      "Koran"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "どこで\u003c新聞:しんぶん\u003eを\u003c買:か\u003eいましたか。",
+        "arti_pertanyaan": "Di mana kamu membeli koran?",
+        "jawaban": "コンビニで\u003c買:か\u003eいました。",
+        "arti_jawaban": "Saya membelinya di minimarket."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-258",
+    "kanji": "読みます",
+    "furigana": "よみます",
+    "terjemahan": [
+      "Membaca"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c本:ほん\u003eを\u003c読:よ\u003eむのが\u003c好:す\u003eきですか。",
+        "arti_pertanyaan": "Apakah kamu suka membaca buku?",
+        "jawaban": "はい、とても\u003c好:す\u003eきです。",
+        "arti_jawaban": "Ya, saya sangat suka."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-259",
+    "kanji": "読書",
+    "furigana": "どくしょ",
+    "terjemahan": [
+      "Membaca buku (kegiatan/hobi)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "趣味:しゅみは何:なにですか。",
+        "arti_pertanyaan": "Apa hobi kamu?",
+        "jawaban": "\u003c私:わたし\u003eの趣味:しゅみは\u003c読書:どくしょ\u003eです。",
+        "arti_jawaban": "Hobi saya adalah membaca buku."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-260",
+    "kanji": "書きます",
+    "furigana": "かきます",
+    "terjemahan": [
+      "Menulis"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "手紙:てがみを\u003c書:か\u003eきましたか。",
+        "arti_pertanyaan": "Apakah kamu sudah menulis surat?",
+        "jawaban": "はい、もう\u003c書:か\u003eきました。",
+        "arti_jawaban": "Ya, saya sudah menulisnya."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-261",
+    "kanji": "話します",
+    "furigana": "はなします",
+    "terjemahan": [
+      "Berbicara"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c日本語:にほんご\u003eで\u003c話:はな\u003eすことができますか。",
+        "arti_pertanyaan": "Apakah kamu bisa berbicara dalam bahasa Jepang?",
+        "jawaban": "はい、少し:すこし\u003c話:はな\u003eすことができます。",
+        "arti_jawaban": "Ya, saya bisa berbicara sedikit."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-262",
+    "kanji": "話",
+    "furigana": "はなし",
+    "terjemahan": [
+      "Cerita",
+      "Pembicaraan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "先生:せんせいの\u003c話:はなし\u003eを\u003c聞:き\u003eきましたか。",
+        "arti_pertanyaan": "Apakah kamu mendengarkan pembicaraan guru?",
+        "jawaban": "はい、ちゃんと\u003c聞:き\u003eきました。",
+        "arti_jawaban": "Ya, saya mendengarkannya dengan baik."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-263",
+    "kanji": "会話",
+    "furigana": "かいわ",
+    "terjemahan": [
+      "Percakapan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c日本語:にほんご\u003eの\u003c会話:かいわ\u003eは\u003c難:むずか\u003eしいですか。",
+        "arti_pertanyaan": "Apakah percakapan bahasa Jepang itu sulit?",
+        "jawaban": "はい、でも楽しい:たのしいです。",
+        "arti_jawaban": "Ya, tapi menyenangkan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-264",
+    "kanji": "電話",
+    "furigana": "でんわ",
+    "terjemahan": [
+      "Telepon"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "誰:だれに\u003c電話:でんわ\u003eをかけますか。",
+        "arti_pertanyaan": "Kamu menelepon siapa?",
+        "jawaban": "\u003c友達:ともだち\u003eに\u003c電話:でんわ\u003eをかけます。",
+        "arti_jawaban": "Saya menelepon teman."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-265",
+    "kanji": "買います",
+    "furigana": "かいます",
+    "terjemahan": [
+      "Membeli"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "新しい:あたらしい\u003c本:ほん\u003eを\u003c買:か\u003eいましたか。",
+        "arti_pertanyaan": "Apakah kamu membeli buku baru?",
+        "jawaban": "はい、昨日:きのう\u003c買:か\u003eいました。",
+        "arti_jawaban": "Ya, saya membelinya kemarin."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-266",
+    "kanji": "買い物",
+    "furigana": "かいもの",
+    "terjemahan": [
+      "Belanjaan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "週末:しゅうまつに\u003c買:か\u003eい\u003c物:もの\u003eへ\u003c行:い\u003eきますか。",
+        "arti_pertanyaan": "Apakah akhir pekan kamu pergi berbelanja?",
+        "jawaban": "はい、デパートへ\u003c行:い\u003eきます。",
+        "arti_jawaban": "Ya, saya pergi ke department store."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-267",
+    "kanji": "教えます",
+    "furigana": "おしえます",
+    "terjemahan": [
+      "Mengajar",
+      "Memberitahu"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "電話:でんわ番号:ばんごうを\u003c教:おし\u003eえてください。",
+        "arti_pertanyaan": "Tolong beritahu nomor teleponmu.",
+        "jawaban": "はい、いいですよ。",
+        "arti_jawaban": "Ya, tentu saja."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-268",
+    "kanji": "教会",
+    "furigana": "きょうかい",
+    "terjemahan": [
+      "Gereja"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "日曜日:にちようびに\u003c教会:きょうかい\u003eへ\u003c行:い\u003eきますか。",
+        "arti_pertanyaan": "Apakah kamu pergi ke gereja pada hari Minggu?",
+        "jawaban": "はい、\u003c家族:かぞく\u003eと\u003c行:い\u003eきます。",
+        "arti_jawaban": "Ya, saya pergi bersama keluarga."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-269",
+    "kanji": "教室",
+    "furigana": "きょうしつ",
+    "terjemahan": [
+      "Ruang kelas"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c教室:きょうしつ\u003eに誰:だれがいますか。",
+        "arti_pertanyaan": "Siapa yang ada di ruang kelas?",
+        "jawaban": "先生:せんせいと学生:がくせいがいます。",
+        "arti_jawaban": "Ada guru dan siswa."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "9"
+  },
+  {
+    "id": "knj-270",
+    "kanji": "朝",
+    "furigana": "あさ",
+    "terjemahan": [
+      "Pagi"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c朝:あさ\u003e、何時:なんじに\u003c起:お\u003eきますか。",
+        "arti_pertanyaan": "Jam berapa kamu bangun di pagi hari?",
+        "jawaban": "６時:ろくじに\u003c起:お\u003eきます。",
+        "arti_jawaban": "Saya bangun jam 6."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-271",
+    "kanji": "朝日",
+    "furigana": "あさひ",
+    "terjemahan": [
+      "Matahari terbit",
+      "Matahari pagi"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c朝日:あさひ\u003eがとてもきれいですね。",
+        "arti_pertanyaan": "Matahari terbitnya sangat indah ya.",
+        "jawaban": "はい、写真:しゃしんを\u003c撮:と\u003eりましょう。",
+        "arti_jawaban": "Ya, mari kita ambil foto."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-272",
+    "kanji": "昼",
+    "furigana": "ひる",
+    "terjemahan": [
+      "Siang"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c昼:ひる\u003eごはんは何:なにを\u003c食:た\u003eべましたか。",
+        "arti_pertanyaan": "Makan siang makan apa?",
+        "jawaban": "ラーメンを\u003c食:た\u003eべました。",
+        "arti_jawaban": "Saya makan ramen."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-273",
+    "kanji": "昼寝",
+    "furigana": "ひるね",
+    "terjemahan": [
+      "Tidur siang"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "日曜日:にちようびに\u003c昼寝:ひるね\u003eをしますか。",
+        "arti_pertanyaan": "Apakah kamu tidur siang di hari Minggu?",
+        "jawaban": "はい、時々:ときどき\u003c昼寝:ひるね\u003eをします。",
+        "arti_jawaban": "Ya, kadang-kadang saya tidur siang."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-274",
+    "kanji": "昼休み",
+    "furigana": "ひるやすみ",
+    "terjemahan": [
+      "Istirahat siang"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c昼休:ひるやす\u003eみは何時:なんじからですか。",
+        "arti_pertanyaan": "Istirahat siang dari jam berapa?",
+        "jawaban": "１２時:じゅうにじからです。",
+        "arti_jawaban": "Dari jam 12."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-275",
+    "kanji": "昼食",
+    "furigana": "ちゅうしょく",
+    "terjemahan": [
+      "Makan siang (Formal)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "どこで\u003c昼食:ちゅうしょく\u003eを\u003c食:た\u003eべますか。",
+        "arti_pertanyaan": "Di mana akan makan siang?",
+        "jawaban": "食堂:しょくどうで\u003c食:た\u003eべます。",
+        "arti_jawaban": "Makan di kantin."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-276",
+    "kanji": "夜",
+    "furigana": "よる",
+    "terjemahan": [
+      "Malam"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c夜:よる\u003e、何時:なんじに\u003c寝:ね\u003eますか。",
+        "arti_pertanyaan": "Jam berapa kamu tidur di malam hari?",
+        "jawaban": "１１時:じゅういちじに\u003c寝:ね\u003eます。",
+        "arti_jawaban": "Saya tidur jam 11."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-277",
+    "kanji": "今夜",
+    "furigana": "こんや",
+    "terjemahan": [
+      "Malam ini"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c今夜:こんや\u003e、ひまですか。",
+        "arti_pertanyaan": "Apakah malam ini kamu senggang?",
+        "jawaban": "はい、ひまですよ。",
+        "arti_jawaban": "Ya, saya senggang kok."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-278",
+    "kanji": "夜食",
+    "furigana": "やしょく",
+    "terjemahan": [
+      "Makan tengah malam",
+      "Camilan malam"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c勉強:べんきょう\u003eしながら\u003c夜食:やしょく\u003eを\u003c食:た\u003eべますか。",
+        "arti_pertanyaan": "Apakah kamu makan camilan malam sambil belajar?",
+        "jawaban": "いいえ、\u003c太:ふと\u003eりますから\u003c食:た\u003eべません。",
+        "arti_jawaban": "Tidak, saya tidak makan karena bikin gemuk."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-279",
+    "kanji": "晩",
+    "furigana": "ばん",
+    "terjemahan": [
+      "Malam (Waktu malam)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c毎晩:まいばん\u003e、テレビを\u003c見:み\u003eますか。",
+        "arti_pertanyaan": "Apakah kamu menonton TV setiap malam?",
+        "jawaban": "はい、１時間:いちじかんぐらい\u003c見:み\u003eます。",
+        "arti_jawaban": "Ya, saya menonton sekitar 1 jam."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-280",
+    "kanji": "晩ご飯",
+    "furigana": "ばんごはん",
+    "terjemahan": [
+      "Makan malam"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c晩:ばん\u003eごはんは何:なにを\u003c食:た\u003eべましたか。",
+        "arti_pertanyaan": "Makan malam makan apa?",
+        "jawaban": "\u003cカレー:かれー\u003eを\u003c食:た\u003eべました。",
+        "arti_jawaban": "Saya makan kari."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-281",
+    "kanji": "今晩",
+    "furigana": "こんばん",
+    "terjemahan": [
+      "Malam ini"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c今晩:こんばん\u003e、いっしょに\u003cご飯:ごはん\u003eを\u003c食:た\u003eべませんか。",
+        "arti_pertanyaan": "Maukah makan malam bersama malam ini?",
+        "jawaban": "いいですね。\u003c行:い\u003eきましょう。",
+        "arti_jawaban": "Bagus ya. Ayo pergi."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-282",
+    "kanji": "夕方",
+    "furigana": "ゆうがた",
+    "terjemahan": [
+      "Sore hari"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c夕方:ゆうがた\u003e、雨:あめが\u003c降:ふ\u003eりましたね。",
+        "arti_pertanyaan": "Sore hari hujan turun ya.",
+        "jawaban": "ええ、大変:たいへんでした。",
+        "arti_jawaban": "Ya, repot/susah tadi."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-283",
+    "kanji": "昨夜",
+    "furigana": "さくや / ゆうべ",
+    "terjemahan": [
+      "Tadi malam"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c昨夜:ゆうべ\u003e、何時:なんじに\u003c寝:ね\u003eましたか。",
+        "arti_pertanyaan": "Tadi malam jam berapa kamu tidur?",
+        "jawaban": "１２時:じゅうにじに\u003c寝:ね\u003eました。",
+        "arti_jawaban": "Saya tidur jam 12."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-284",
+    "kanji": "夕食",
+    "furigana": "ゆうしょく",
+    "terjemahan": [
+      "Makan malam (Dinner)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "何時:なんじに\u003c夕食:ゆうしょく\u003eを\u003c食:た\u003eべますか。",
+        "arti_pertanyaan": "Jam berapa kamu makan malam?",
+        "jawaban": "７時:しちじに\u003c食:た\u003eべます。",
+        "arti_jawaban": "Saya makan jam 7."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-285",
+    "kanji": "～方",
+    "furigana": "～かた",
+    "terjemahan": [
+      "Cara ~ (Akhiran)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c漢字:かんじ\u003eの\u003c読:よ\u003eみ\u003c方:かた\u003eを\u003c教:おし\u003eえてください。",
+        "arti_pertanyaan": "Tolong ajarkan cara membaca kanji ini.",
+        "jawaban": "はい、「あさ」と\u003c読:よ\u003eみます。",
+        "arti_jawaban": "Ya, dibaca 'asa'."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-286",
+    "kanji": "書き方",
+    "furigana": "かきかた",
+    "terjemahan": [
+      "Cara menulis"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "ひらがなの\u003c書:か\u003eき\u003c方:かた\u003eが分:わかりますか。",
+        "arti_pertanyaan": "Apakah kamu mengerti cara menulis hiragana?",
+        "jawaban": "はい、分:わかります。",
+        "arti_jawaban": "Ya, saya mengerti."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-287",
+    "kanji": "読み方",
+    "furigana": "よみかた",
+    "terjemahan": [
+      "Cara membaca"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c名前:なまえ\u003eの\u003c読:よ\u003eみ\u003c方:かた\u003eは何:なにですか。",
+        "arti_pertanyaan": "Bagaimana cara membaca nama ini?",
+        "jawaban": "「たなか」です。",
+        "arti_jawaban": "Dibaca 'Tanaka'."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-288",
+    "kanji": "方法",
+    "furigana": "ほうほう",
+    "terjemahan": [
+      "Metode",
+      "Cara"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "いい\u003c勉強:べんきょう\u003eの\u003c方法:ほうほう\u003eがありますか。",
+        "arti_pertanyaan": "Apakah ada metode belajar yang bagus?",
+        "jawaban": "\u003c毎日:まいにち\u003e\u003c単語:たんご\u003eを\u003c覚:おぼ\u003eえることです。",
+        "arti_jawaban": "Metodenya adalah menghafal kosakata setiap hari."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-289",
+    "kanji": "午前",
+    "furigana": "ごぜん",
+    "terjemahan": [
+      "AM (Dini hari - Jam 12 siang)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c午前:ごぜん\u003e９時:くじに\u003c会議:かいぎ\u003eがありますか。",
+        "arti_pertanyaan": "Apakah ada rapat jam 9 pagi (AM)?",
+        "jawaban": "はい、あります。",
+        "arti_jawaban": "Ya, ada."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-290",
+    "kanji": "午後",
+    "furigana": "ごご",
+    "terjemahan": [
+      "PM (Jam 12 siang - Malam)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c午後:ごご\u003eは何:なにをしますか。",
+        "arti_pertanyaan": "Sore/siang (PM) nanti mau melakukan apa?",
+        "jawaban": "\u003c図書館:としょかん\u003eで\u003c勉強:べんきょう\u003eします。",
+        "arti_jawaban": "Saya akan belajar di perpustakaan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-291",
+    "kanji": "前",
+    "furigana": "まえ",
+    "terjemahan": [
+      "Depan",
+      "Sebelum"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c駅:えき\u003eの\u003c前:まえ\u003eに何:なにがありますか。",
+        "arti_pertanyaan": "Ada apa di depan stasiun?",
+        "jawaban": "大きな\u003c喫茶店:きっさてん\u003eがあります。",
+        "arti_jawaban": "Ada kedai kopi besar."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-292",
+    "kanji": "～年前",
+    "furigana": "～ねんまえ",
+    "terjemahan": [
+      "... tahun yang lalu"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "いつ\u003c日本:にほん\u003eへ\u003c行:い\u003eきましたか。",
+        "arti_pertanyaan": "Kapan kamu pergi ke Jepang?",
+        "jawaban": "２\u003c年前:ねんまえ\u003eに\u003c行:い\u003eきました。",
+        "arti_jawaban": "Saya pergi 2 tahun yang lalu."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-293",
+    "kanji": "後ろ",
+    "furigana": "うしろ",
+    "terjemahan": [
+      "Belakang (Posisi)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c後:うしろ\u003eに誰:だれがいますか。",
+        "arti_pertanyaan": "Siapa yang ada di belakang?",
+        "jawaban": "Tanakaさんがいます。",
+        "arti_jawaban": "Ada Tanaka-san."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-294",
+    "kanji": "後",
+    "furigana": "あと / のち",
+    "terjemahan": [
+      "Setelah",
+      "Nanti"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "テストの\u003c後:あと\u003eで何をしますか。",
+        "arti_pertanyaan": "Setelah tes mau melakukan apa?",
+        "jawaban": "\u003c友達:ともだち\u003eと\u003cご飯:ごはん\u003eを\u003c食:た\u003eべます。",
+        "arti_jawaban": "Makan bersama teman."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-295",
+    "kanji": "～年後",
+    "furigana": "～ねんご",
+    "terjemahan": [
+      "... tahun kemudian"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "５\u003c年後:ねんご\u003e、どこにいますか。",
+        "arti_pertanyaan": "5 tahun kemudian, kamu akan ada di mana?",
+        "jawaban": "\u003c日本:にほん\u003eで\u003c働:はたら\u003eいていると\u003c思:おも\u003eいます。",
+        "arti_jawaban": "Saya pikir saya akan bekerja di Jepang."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-296",
+    "kanji": "毎日",
+    "furigana": "まいにち",
+    "terjemahan": [
+      "Setiap hari"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c毎日:まいにち\u003e、\u003c日本語:にほんご\u003eを\u003c勉強:べんきょう\u003eしますか。",
+        "arti_pertanyaan": "Apakah kamu belajar bahasa Jepang setiap hari?",
+        "jawaban": "はい、\u003c毎日:まいにち\u003e２時間:にじかん\u003c勉強:べんきょう\u003eします。",
+        "arti_jawaban": "Ya, saya belajar 2 jam setiap hari."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-297",
+    "kanji": "毎週",
+    "furigana": "まいしゅう",
+    "terjemahan": [
+      "Setiap minggu"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c毎週:まいしゅう\u003e、スポーツをしますか。",
+        "arti_pertanyaan": "Apakah kamu berolahraga setiap minggu?",
+        "jawaban": "はい、\u003c毎週:まいしゅう\u003e土曜日:どようびにサッカーをします。",
+        "arti_jawaban": "Ya, saya bermain sepak bola setiap hari Sabtu."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-298",
+    "kanji": "毎月",
+    "furigana": "まいつき / まいげつ",
+    "terjemahan": [
+      "Setiap bulan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c毎月:まいげつ\u003e、\u003c本:ほん\u003eを何冊:なんさつ\u003c読:よ\u003eみますか。",
+        "arti_pertanyaan": "Berapa jilid/buah buku yang kamu baca setiap bulan?",
+        "jawaban": "２冊:にさつ\u003c読:よ\u003eみます。",
+        "arti_jawaban": "Saya membaca 2 buku."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-299",
+    "kanji": "来週",
+    "furigana": "らいしゅう",
+    "terjemahan": [
+      "Minggu depan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c来週:らいしゅう\u003eの予定:よていは何:なにですか。",
+        "arti_pertanyaan": "Apa rencana minggu depan?",
+        "jawaban": "\u003c友達:ともだち\u003eと\u003c旅行:りょこう\u003eします。",
+        "arti_jawaban": "Saya akan jalan-jalan bersama teman."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-300",
+    "kanji": "週末",
+    "furigana": "しゅうまつ",
+    "terjemahan": [
+      "Akhir pekan (Weekend)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c週末:しゅうまつ\u003eはどこかへ\u003c行:い\u003eきましたか。",
+        "arti_pertanyaan": "Akhir pekan kemarin pergi ke suatu tempat?",
+        "jawaban": "いいえ、どこも\u003c行:い\u003eきませんでした。",
+        "arti_jawaban": "Tidak, saya tidak pergi ke mana-mana."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-301",
+    "kanji": "先週",
+    "furigana": "せんしゅう",
+    "terjemahan": [
+      "Minggu lalu"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c先週:せんしゅう\u003e、忙:いそがしかったですか。",
+        "arti_pertanyaan": "Apakah minggu lalu kamu sibuk?",
+        "jawaban": "はい、とても忙:いそがしかったです。",
+        "arti_jawaban": "Ya, sangat sibuk."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-302",
+    "kanji": "一週間",
+    "furigana": "いっしゅうかん",
+    "terjemahan": [
+      "Satu minggu (Durasi)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c一週間:いっしゅうかん\u003eに何日:なんにち\u003c仕事:しごと\u003eをしますか。",
+        "arti_pertanyaan": "Berapa hari kamu bekerja dalam satu minggu?",
+        "jawaban": "５日:いつか\u003c仕事:しごと\u003eをします。",
+        "arti_jawaban": "Saya bekerja 5 hari."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "10"
+  },
+  {
+    "id": "knj-303",
+    "kanji": "作ります",
+    "furigana": "つくります",
+    "terjemahan": [
+      "Membuat"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "なにを\u003c作:つく\u003eりますか。",
+        "arti_pertanyaan": "Membuat apa?",
+        "jawaban": "ケーキを\u003c作:つく\u003eります。",
+        "arti_jawaban": "Membuat kue."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-304",
+    "kanji": "作文",
+    "furigana": "さくぶん",
+    "terjemahan": [
+      "Karangan",
+      "Komposisi tulisan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c作文:さくぶん\u003eを\u003c書:か\u003eきましたか。",
+        "arti_pertanyaan": "Apakah sudah menulis karangan?",
+        "jawaban": "はい、\u003c作文:さくぶん\u003eを\u003c書:か\u003eきました。",
+        "arti_jawaban": "Ya, sudah menulis karangan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-305",
+    "kanji": "作品",
+    "furigana": "さくひん",
+    "terjemahan": [
+      "Karya",
+      "Hasil karya (seni, buku, dll)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c作品:さくひん\u003eはだれのですか。",
+        "arti_pertanyaan": "Karya siapa ini?",
+        "jawaban": "わたしのです。",
+        "arti_jawaban": "Ini milik saya."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-306",
+    "kanji": "泳ぎます",
+    "furigana": "およぎます",
+    "terjemahan": [
+      "Berenang"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "海で\u003c泳:およ\u003eぎますか。",
+        "arti_pertanyaan": "Apakah berenang di laut?",
+        "jawaban": "いいえ、プールで\u003c泳:およ\u003eぎます。",
+        "arti_jawaban": "Tidak, berenang di kolam renang."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-307",
+    "kanji": "水泳",
+    "furigana": "すいえい",
+    "terjemahan": [
+      "Olahraga renang"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c水泳:すいえい\u003eが\u003c好:す\u003eきですか。",
+        "arti_pertanyaan": "Apakah suka olahraga renang?",
+        "jawaban": "はい、\u003c水泳:すいえい\u003eが\u003c好:す\u003eきです。",
+        "arti_jawaban": "Ya, suka olahraga renang."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-308",
+    "kanji": "油",
+    "furigana": "あぶら",
+    "terjemahan": [
+      "Minyak"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c油:あぶら\u003eを\u003c使:つか\u003eいますか。",
+        "arti_pertanyaan": "Apakah menggunakan minyak?",
+        "jawaban": "はい、\u003c油:あぶら\u003eを\u003c使:つか\u003eいます。",
+        "arti_jawaban": "Ya, menggunakan minyak."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-309",
+    "kanji": "油絵",
+    "furigana": "あぶらえ",
+    "terjemahan": [
+      "Lukisan minyak"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "これは\u003c油絵:あぶらえ\u003eですか。",
+        "arti_pertanyaan": "Apakah ini lukisan minyak?",
+        "jawaban": "はい、\u003c油絵:あぶらえ\u003eです。",
+        "arti_jawaban": "Ya, ini lukisan minyak."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-310",
+    "kanji": "石油",
+    "furigana": "せきゆ",
+    "terjemahan": [
+      "Minyak bumi",
+      "Petroleum"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c石油:せきゆ\u003eを\u003c輸入:ゆにゅう\u003eしますか。",
+        "arti_pertanyaan": "Apakah mengimpor minyak bumi?",
+        "jawaban": "はい、\u003c石油:せきゆ\u003eを\u003c輸入:ゆにゅう\u003eします。",
+        "arti_jawaban": "Ya, mengimpor minyak bumi."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-311",
+    "kanji": "海",
+    "furigana": "うみ",
+    "terjemahan": [
+      "Laut"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "週末は\u003c海:うみ\u003eに行きますか。",
+        "arti_pertanyaan": "Apakah pergi ke laut pada akhir pekan?",
+        "jawaban": "はい、\u003c海:うみ\u003eに行きます。",
+        "arti_jawaban": "Ya, pergi ke laut."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-312",
+    "kanji": "海外",
+    "furigana": "かいがい",
+    "terjemahan": [
+      "Luar negeri"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c海外:かいがい\u003eへ\u003c旅行:りょこう\u003eしますか。",
+        "arti_pertanyaan": "Apakah bepergian ke luar negeri?",
+        "jawaban": "はい、\u003c海外:かいがい\u003eへ\u003c旅行:りょこう\u003eします。",
+        "arti_jawaban": "Ya, bepergian ke luar negeri."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-313",
+    "kanji": "酒",
+    "furigana": "さけ",
+    "terjemahan": [
+      "Sake",
+      "Minuman beralkohol"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c酒:さけ\u003eを\u003c飲:の\u003eみますか。",
+        "arti_pertanyaan": "Apakah minum sake/alkohol?",
+        "jawaban": "いいえ、\u003c飲:の\u003eみません。",
+        "arti_jawaban": "Tidak, tidak minum."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-314",
+    "kanji": "酒屋",
+    "furigana": "さかや",
+    "terjemahan": [
+      "Toko sake",
+      "Toko minuman keras"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c酒屋:さかや\u003eはどこですか。",
+        "arti_pertanyaan": "Di mana toko sake?",
+        "jawaban": "\u003c駅:えき\u003eの\u003c前:まえ\u003eです。",
+        "arti_jawaban": "Di depan stasiun."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-315",
+    "kanji": "待ちます",
+    "furigana": "まちます",
+    "terjemahan": [
+      "Menunggu"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "何を\u003c待:ま\u003eっていますか。",
+        "arti_pertanyaan": "Sedang menunggu apa?",
+        "jawaban": "ともだちを\u003c待:ま\u003eっています。",
+        "arti_jawaban": "Sedang menunggu teman."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-316",
+    "kanji": "学校",
+    "furigana": "がっこう",
+    "terjemahan": [
+      "Sekolah"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "どの\u003c学校:がっこう\u003eですか。",
+        "arti_pertanyaan": "Sekolah yang mana?",
+        "jawaban": "この\u003c学校:がっこう\u003eです。",
+        "arti_jawaban": "Sekolah ini."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-317",
+    "kanji": "校長",
+    "furigana": "こうちょう",
+    "terjemahan": [
+      "Kepala sekolah"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c校長:こうちょう\u003e先生ですか。",
+        "arti_pertanyaan": "Apakah kepala sekolah?",
+        "jawaban": "はい、\u003c校長:こうちょう\u003e先生です。",
+        "arti_jawaban": "Ya, kepala sekolah."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-318",
+    "kanji": "高校生",
+    "furigana": "こうこうせい",
+    "terjemahan": [
+      "Murid SMA"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "弟は\u003c高校生:こうこうせい\u003eですか。",
+        "arti_pertanyaan": "Apakah adik laki-laki seorang murid SMA?",
+        "jawaban": "はい、\u003c高校生:こうこうせい\u003eです。",
+        "arti_jawaban": "Ya, murid SMA."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-319",
+    "kanji": "時",
+    "furigana": "とき",
+    "terjemahan": [
+      "Waktu",
+      "Saat"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "暇な\u003c時:とき\u003e、何をしますか。",
+        "arti_pertanyaan": "Saat senggang, apa yang kamu lakukan?",
+        "jawaban": "本を読みます。",
+        "arti_jawaban": "Membaca buku."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-320",
+    "kanji": "時間",
+    "furigana": "じかん",
+    "terjemahan": [
+      "Waktu",
+      "Jam (durasi)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c時間:じかん\u003eがありますか。",
+        "arti_pertanyaan": "Apakah ada waktu?",
+        "jawaban": "はい、\u003c時間:じかん\u003eがあります。",
+        "arti_jawaban": "Ya, ada waktu."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-321",
+    "kanji": "時計",
+    "furigana": "とけい",
+    "terjemahan": [
+      "Jam (arloji / jam dinding)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "これは新しい\u003c時計:とけい\u003eですか。",
+        "arti_pertanyaan": "Apakah ini jam baru?",
+        "jawaban": "はい、新しい\u003c時計:とけい\u003eです。",
+        "arti_jawaban": "Ya, jam baru."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-322",
+    "kanji": "言います",
+    "furigana": "いいます",
+    "terjemahan": [
+      "Berkata",
+      "Mengatakan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "なんて\u003c言:い\u003eいましたか。",
+        "arti_pertanyaan": "Tadi bilang apa?",
+        "jawaban": "「おはよう」と\u003c言:い\u003eいました。",
+        "arti_jawaban": "Mengatakan \"Selamat pagi\"."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-323",
+    "kanji": "言葉",
+    "furigana": "ことば",
+    "terjemahan": [
+      "Kata-kata",
+      "Bahasa"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c言葉:ことば\u003eの意味は何ですか。",
+        "arti_pertanyaan": "Apa arti dari kata ini?",
+        "jawaban": "わかりません。",
+        "arti_jawaban": "Tidak tahu."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-324",
+    "kanji": "日本語",
+    "furigana": "にほんご",
+    "terjemahan": [
+      "Bahasa Jepang"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c日本語:にほんご\u003eを\u003c勉強:べんきょう\u003eしますか。",
+        "arti_pertanyaan": "Apakah belajar bahasa Jepang?",
+        "jawaban": "はい、\u003c日本語:にほんご\u003eを\u003c勉強:べんきょう\u003eします。",
+        "arti_jawaban": "Ya, belajar bahasa Jepang."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-325",
+    "kanji": "英語",
+    "furigana": "えいご",
+    "terjemahan": [
+      "Bahasa Inggris"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c英語:えいご\u003eが\u003c話:はな\u003eせますか。",
+        "arti_pertanyaan": "Apakah bisa berbicara bahasa Inggris?",
+        "jawaban": "はい、少し\u003c話:はな\u003eせます。",
+        "arti_jawaban": "Ya, bisa sedikit."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
+  },
+  {
+    "id": "knj-326",
+    "kanji": "ご飯",
+    "furigana": "ごはん",
+    "terjemahan": [
+      "Nasi",
+      "Makan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c御飯:ごはん\u003eを\u003c食:た\u003eべましたか。",
+        "arti_pertanyaan": "Apakah sudah makan?",
+        "jawaban": "はい、\u003c食:た\u003eべました。",
+        "arti_jawaban": "Ya, sudah makan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "11"
   }
 ]

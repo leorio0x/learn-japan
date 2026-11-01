@@ -1,4 +1,4 @@
-## Halaman kanji
+## 1 Halaman kanji
 
 - display kanji dengan opsi [per lesson, semua]
 - default display = lesson 1
@@ -13,9 +13,16 @@
   isi dari modal box adalah seluruh data dari kotobanya, buat serapih mungkin
 - opsi untuk hide kanji, furigana, arti, contoh_percakapan
 
-## Halaman tebak kanji
+### 1.2 Halaman Dokkai
 
-## Halaman CRUD kanji
+- pada halaman ini terdapat dokkai berupa cerita pendek yang memuat seluruh kanji perlessonnya.
+  data diambil dari data/dokkai/kanji/[lesson].json
+- data paragraf berformat <kanji:kana:arti>, dimana kana dan
+  arti muncul ketika klik 2 kali, gunakan "floating-ui" untuk fitur ini
+
+### 1.2 Halaman tebak kanji
+
+### 1.3 Halaman CRUD kanji
 
 - input "buku" tipe select dengan pilihan [minna no nihonggo 1, minna no nihonggo 2]
 - setiap kanji bisa terdapat 1 - >1 arti, pastikan untuk handle ini juga

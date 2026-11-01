@@ -19,8 +19,12 @@ untuk warna navbar, tombol, text, gunakan warna dibawah, buat agar indah dan tid
 
 # Features
 
-untuk setiap fitur CRUD, jangan beri hak akses kecuali memasukkan password: armanganteng123#
-password tidak boleh terlihat melalui fitur browser
+- tombol navigasi ke halaman fitur crud disimpan di masing masing halaman, misal
+  CRUD kotoba disimpan di halaman kotoba, begitupun fitur crud lain
+- tombol navigasi ke halaman fitur crud disembunyikan jika belum memasukkan password
+- untuk setiap fitur CRUD, jangan beri hak akses kecuali memasukkan password: armanganteng123#
+- halaman untuk memasukkan password terdapat di url /ansatsunoadmin
+- password tidak boleh terlihat melalui fitur browser
 
 ## Navbar
 

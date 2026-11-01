@@ -113,5 +113,14 @@ export const api = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ ids })
-    }).then(handle)
+    }).then(handle),
+
+  getDokkai: (type, lesson) =>
+    fetch(`${BASE}/dokkai/${type}/${encodeURIComponent(lesson)}`).then(handle),
+  bulkDokkai: (type, file) => {
+    const form = new FormData()
+    form.append('type', type)
+    form.append('file', file)
+    return fetch(`${BASE}/dokkai/bulk`, { method: 'POST', body: form }).then(handle)
+  }
 }

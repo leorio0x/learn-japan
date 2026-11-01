@@ -1,11 +1,14 @@
 <script>
     import { onMount } from "svelte";
     import { api } from "../lib/api.js";
+    import { auth } from "../lib/auth.svelte.js";
     import { uniqueSortedLessons } from "../lib/quiz.js";
     import Furigana from "../components/Furigana.svelte";
     import Pagination from "../components/Pagination.svelte";
     import Percakapan from "../components/Percakapan.svelte";
     import DetailModal from "../components/DetailModal.svelte";
+
+    let { onNavigate = () => {} } = $props();
 
     let words = $state([]);
     let detailItem = $state(null);
@@ -111,11 +114,33 @@
 </script>
 
 <div class="mx-auto max-w-3xl">
-    <div class="mb-5">
-        <h1 class="text-xl font-bold text-ink sm:text-2xl">Daftar Kotoba</h1>
-        <p class="mt-1 text-sm text-navy/60">
-            Lihat daftar kosakata bahasa Jepang
-        </p>
+    <div
+        class="mb-5 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"
+    >
+        <div>
+            <h1 class="text-xl font-bold text-ink sm:text-2xl">Daftar Kotoba</h1>
+            <p class="mt-1 text-sm text-navy/60">
+                Lihat daftar kosakata bahasa Jepang
+            </p>
+        </div>
+        <div class="flex flex-col gap-2 sm:flex-row">
+            <button
+                type="button"
+                class="btn-ghost w-full sm:w-auto"
+                onclick={() => onNavigate("dokkai-kotoba")}
+            >
+                Dokkai
+            </button>
+            {#if auth.authenticated}
+                <button
+                    type="button"
+                    class="btn-primary w-full sm:w-auto"
+                    onclick={() => onNavigate("crud-kotoba")}
+                >
+                    Kelola Kotoba
+                </button>
+            {/if}
+        </div>
     </div>
 
     <div
