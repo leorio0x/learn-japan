@@ -6915,5 +6915,422 @@
     ],
     "buku": "basic kanji",
     "lesson": "11"
+  },
+  {
+    "id": "knj-327",
+    "kanji": "お宅",
+    "furigana": "おたく",
+    "terjemahan": [
+      "Rumah (Anda/orang lain - sopan)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003cお宅:おたく\u003eはどちらですか。",
+        "arti_pertanyaan": "Rumah Anda di mana?",
+        "jawaban": "わたしの\u003c家:いえ\u003eは\u003c駅:えき\u003eの\u003c近:ちか\u003eくです。",
+        "arti_jawaban": "Rumah saya dekat stasiun."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-328",
+    "kanji": "客",
+    "furigana": "きゃく",
+    "terjemahan": [
+      "Tamu",
+      "Pelanggan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "あの\u003c客:きゃく\u003eはだれですか。",
+        "arti_pertanyaan": "Tamu itu siapa?",
+        "jawaban": "\u003c会社:かいしゃ\u003eの\u003c客:きゃく\u003eです。",
+        "arti_jawaban": "Beliau pelanggan perusahaan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-329",
+    "kanji": "乗客",
+    "furigana": "じょうきゃく",
+    "terjemahan": [
+      "Penumpang"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c電車:でんしゃ\u003eの\u003c乗客:じょうきゃく\u003eはたくさんいますか。",
+        "arti_pertanyaan": "Apakah penumpang kereta banyak?",
+        "jawaban": "はい、\u003c朝:あさ\u003eはとてもたくさんいます。",
+        "arti_jawaban": "Ya, pagi hari sangat banyak."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-330",
+    "kanji": "教室",
+    "furigana": "きょうしつ",
+    "terjemahan": [
+      "Ruang kelas"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c教室:きょうしつ\u003eはどこですか。",
+        "arti_pertanyaan": "Ruang kelasnya di mana?",
+        "jawaban": "あの\u003c部屋:へや\u003eです。",
+        "arti_jawaban": "Ruang itu."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-331",
+    "kanji": "家",
+    "furigana": "いえ / うち",
+    "terjemahan": [
+      "Rumah"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c家:いえ\u003eに\u003c帰:かえ\u003eりますか。",
+        "arti_pertanyaan": "Apakah Anda pulang ke rumah?",
+        "jawaban": "いいえ、これから\u003c会社:かいしゃ\u003eへ\u003c行:い\u003eきます。",
+        "arti_jawaban": "Tidak, sekarang saya pergi ke perusahaan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-332",
+    "kanji": "家族",
+    "furigana": "かぞく",
+    "terjemahan": [
+      "Keluarga"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c家族:かぞく\u003eは\u003c何人:なんにん\u003eですか。",
+        "arti_pertanyaan": "Keluarga Anda berapa orang?",
+        "jawaban": "\u003c四人:よにん\u003eです。",
+        "arti_jawaban": "Empat orang."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-333",
+    "kanji": "英語",
+    "furigana": "えいご",
+    "terjemahan": [
+      "Bahasa Inggris"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c英語:えいご\u003eがわかりますか。",
+        "arti_pertanyaan": "Apakah Anda mengerti bahasa Inggris?",
+        "jawaban": "はい、すこしわかります。",
+        "arti_jawaban": "Ya, saya mengerti sedikit."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-334",
+    "kanji": "薬",
+    "furigana": "くすり",
+    "terjemahan": [
+      "Obat"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c薬:くすり\u003eを\u003c飲:の\u003eみましたか。",
+        "arti_pertanyaan": "Apakah Anda sudah minum obat?",
+        "jawaban": "はい、もう\u003c飲:の\u003eみました。",
+        "arti_jawaban": "Ya, sudah saya minum."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-335",
+    "kanji": "目薬",
+    "furigana": "めぐすり",
+    "terjemahan": [
+      "Obat tetes mata"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c目薬:めぐすり\u003eはどこにありますか。",
+        "arti_pertanyaan": "Obat tetes matanya ada di mana?",
+        "jawaban": "あの\u003c棚:たな\u003eの\u003c上:うえ\u003eです。",
+        "arti_jawaban": "Di atas rak itu."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-336",
+    "kanji": "会います",
+    "furigana": "あいます",
+    "terjemahan": [
+      "Bertemu"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "どこで\u003c会:あ\u003eいますか。",
+        "arti_pertanyaan": "Bertemu di mana?",
+        "jawaban": "\u003c駅:えき\u003eの\u003c前:まえ\u003eで\u003c会:あ\u003eいましょう。",
+        "arti_jawaban": "Ayo bertemu di depan stasiun."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-337",
+    "kanji": "会話",
+    "furigana": "かいわ",
+    "terjemahan": [
+      "Percakapan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c日本語:にほんご\u003eの\u003c会話:かいわ\u003eは\u003c難:むずか\u003eしいですか。",
+        "arti_pertanyaan": "Apakah percakapan bahasa Jepang sulit?",
+        "jawaban": "いいえ、おもしろいです。",
+        "arti_jawaban": "Tidak, menyenangkan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-338",
+    "kanji": "会社",
+    "furigana": "かいしゃ",
+    "terjemahan": [
+      "Perusahaan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c会社:かいしゃ\u003eは\u003c何時:なんじ\u003eからですか。",
+        "arti_pertanyaan": "Perusahaannya mulai jam berapa?",
+        "jawaban": "\u003c九時:くじ\u003eからです。",
+        "arti_jawaban": "Mulai jam sembilan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-339",
+    "kanji": "今",
+    "furigana": "いま",
+    "terjemahan": [
+      "Sekarang"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c今:いま\u003e、\u003c何時:なんじ\u003eですか。",
+        "arti_pertanyaan": "Sekarang jam berapa?",
+        "jawaban": "\u003c今:いま\u003e、\u003c三時:さんじ\u003eです。",
+        "arti_jawaban": "Sekarang jam tiga."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-340",
+    "kanji": "今月",
+    "furigana": "こんげつ",
+    "terjemahan": [
+      "Bulan ini"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c今月:こんげつ\u003eは\u003c忙:いそが\u003eしいですか。",
+        "arti_pertanyaan": "Apakah bulan ini sibuk?",
+        "jawaban": "はい、とても\u003c忙:いそが\u003eしいです。",
+        "arti_jawaban": "Ya, sangat sibuk."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-341",
+    "kanji": "今週",
+    "furigana": "こんしゅう",
+    "terjemahan": [
+      "Minggu ini"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c今週:こんしゅう\u003e、\u003c何:なに\u003eをしますか。",
+        "arti_pertanyaan": "Minggu ini mau melakukan apa?",
+        "jawaban": "\u003c今週:こんしゅう\u003e、\u003c映画:えいが\u003eを\u003c見:み\u003eます。",
+        "arti_jawaban": "Minggu ini saya menonton film."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-342",
+    "kanji": "今年",
+    "furigana": "ことし",
+    "terjemahan": [
+      "Tahun ini"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c今年:ことし\u003e、\u003c日本:にほん\u003eへ\u003c行:い\u003eきますか。",
+        "arti_pertanyaan": "Tahun ini apakah pergi ke Jepang?",
+        "jawaban": "はい、\u003c今年:ことし\u003eの\u003c夏:なつ\u003eに\u003c行:い\u003eきます。",
+        "arti_jawaban": "Ya, saya pergi pada musim panas tahun ini."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-343",
+    "kanji": "雪",
+    "furigana": "ゆき",
+    "terjemahan": [
+      "Salju"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c雪:ゆき\u003eが\u003c降:ふ\u003eっていますか。",
+        "arti_pertanyaan": "Apakah sedang turun salju?",
+        "jawaban": "はい、たくさん\u003c降:ふ\u003eっています。",
+        "arti_jawaban": "Ya, turun banyak."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-344",
+    "kanji": "雲",
+    "furigana": "くも",
+    "terjemahan": [
+      "Awan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c空:そら\u003eに\u003c雲:くも\u003eがたくさんありますか。",
+        "arti_pertanyaan": "Apakah di langit banyak awan?",
+        "jawaban": "いいえ、\u003c今日:きょう\u003eは\u003c雲:くも\u003eがありません。",
+        "arti_jawaban": "Tidak, hari ini tidak ada awan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-345",
+    "kanji": "電気",
+    "furigana": "でんき",
+    "terjemahan": [
+      "Listrik",
+      "Lampu"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c電気:でんき\u003eを\u003c消:け\u003eしてもいいですか。",
+        "arti_pertanyaan": "Bolehkah saya mematikan lampu?",
+        "jawaban": "はい、\u003c消:け\u003eしてください。",
+        "arti_jawaban": "Ya, silakan matikan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-346",
+    "kanji": "電話",
+    "furigana": "でんわ",
+    "terjemahan": [
+      "Telepon"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c電話:でんわ\u003eをかけましたか。",
+        "arti_pertanyaan": "Apakah sudah menelepon?",
+        "jawaban": "はい、\u003c朝:あさ\u003e、\u003c会社:かいしゃ\u003eにかけました。",
+        "arti_jawaban": "Ya, pagi tadi saya menelepon perusahaan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-347",
+    "kanji": "電車",
+    "furigana": "でんしゃ",
+    "terjemahan": [
+      "Kereta api (listrik)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c電車:でんしゃ\u003eで\u003c会社:かいしゃ\u003eへ\u003c行:い\u003eきますか。",
+        "arti_pertanyaan": "Apakah pergi ke perusahaan dengan kereta?",
+        "jawaban": "いいえ、\u003c自転車:じてんしゃ\u003eで\u003c行:い\u003eきます。",
+        "arti_jawaban": "Tidak, saya pergi dengan sepeda."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-348",
+    "kanji": "売ります",
+    "furigana": "うります",
+    "terjemahan": [
+      "Menjual"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "あの\u003c店:みせ\u003eでは\u003c何:なに\u003eを\u003c売:う\u003eっていますか。",
+        "arti_pertanyaan": "Toko itu menjual apa?",
+        "jawaban": "\u003c果物:くだもの\u003eを\u003c売:う\u003eっています。",
+        "arti_jawaban": "Menjual buah-buahan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
+  },
+  {
+    "id": "knj-349",
+    "kanji": "売り場",
+    "furigana": "うりば",
+    "terjemahan": [
+      "Tempat jualan",
+      "Konter penjualan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c靴:くつ\u003eの\u003c売:う\u003eり\u003c場:ば\u003eはどこですか。",
+        "arti_pertanyaan": "Bagian penjualan sepatu di mana?",
+        "jawaban": "\u003c三階:さんかい\u003eです。",
+        "arti_jawaban": "Di lantai tiga."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "12"
   }
 ]
