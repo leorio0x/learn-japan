@@ -37,23 +37,47 @@
         event.stopPropagation();
         open = !open;
     }
+
+    let lastTap = 0;
+    let lastX = 0;
+    let lastY = 0;
+
+    function handlePointerUp(event) {
+        if (event.pointerType === "mouse" && event.button !== 0) return;
+
+        const now = Date.now();
+        const isDouble =
+            now - lastTap < 350 &&
+            Math.abs(event.clientX - lastX) < 30 &&
+            Math.abs(event.clientY - lastY) < 30;
+
+        if (isDouble) {
+            lastTap = 0;
+            toggle(event);
+            return;
+        }
+
+        lastTap = now;
+        lastX = event.clientX;
+        lastY = event.clientY;
+    }
 </script>
 
 <span
     bind:this={reference}
-    class="cursor-help rounded px-0.5 transition hover:bg-sand/40 {open
+    class="cursor-help touch-manipulation select-none rounded px-0.5 transition hover:bg-sand/40 {open
         ? 'bg-sand/60'
         : ''}"
     role="button"
     tabindex="0"
-    ondblclick={toggle}
+    onpointerup={handlePointerUp}
     onkeydown={(e) => {
         if (e.key === "Enter") {
             e.preventDefault();
             open = !open;
         }
     }}
-    aria-label="Klik dua kali untuk melihat furigana dan arti"
+    aria-label="Ketuk dua kali untuk melihat furigana dan arti"
 >
     {label}
 </span>
