@@ -3,6 +3,7 @@ package dokkai
 // Dokkai merepresentasikan satu cerita pendek (dokkai).
 // Format field mengikuti data/format/dokkai.json.
 type Dokkai struct {
+	ID         string `json:"id,omitempty"`
 	Lesson     string `json:"lesson"`
 	Judul      string `json:"judul"`
 	Paragraf   string `json:"paragraf"`

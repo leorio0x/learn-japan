@@ -4,11 +4,11 @@ app untuk quiz kotoba, kanji dan kaiwa bahasa jepang
 
 # Backend
 
-untuk spesifikasi tech stack lihat di backend/rules.md
+untuk spesifikasi tech stack dan detail lainnya lihat di backend/rules.md
 
 # Frontend
 
-untuk spesifikasi tech stack lihat di frontend/rules.md
+untuk spesifikasi tech stack dan detail lainnya lihat di frontend/rules.md
 
 # Data
 
@@ -47,6 +47,10 @@ setiap fixing performance tuliskan di folder postmortems/performance-fix dengan 
 
 - tebak pertanyaan dari sebuah jawaban
 - tebak jawaban dari suatu pertanyaan
+
+## Dokkai
+
+- halaman dokkai berdasarkan level [N5,N4,dst]
 
 ## Bulk input
 

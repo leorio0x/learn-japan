@@ -7,6 +7,7 @@
     { id: "kotoba", label: "Kotoba", icon: "語" },
     { id: "kanji", label: "Kanji", icon: "漢" },
     { id: "kaiwa", label: "Kaiwa", icon: "会" },
+    { id: "dokkai", label: "Dokkai", icon: "読" },
   ];
 
   let manualHide = $state(false);
@@ -58,7 +59,7 @@
       class="order-last flex w-full items-center gap-2 sm:order-none sm:w-auto"
     >
       <div
-        class="grid flex-1 grid-cols-3 gap-1 rounded-xl bg-white/5 p-1 sm:flex sm:flex-none"
+        class="grid flex-1 grid-cols-4 gap-1 rounded-xl bg-white/5 p-1 sm:flex sm:flex-none"
       >
         {#each items as item}
           <button

@@ -47,6 +47,10 @@
       focus:ring-2 focus:ring-steel/25;
   }
 
+  .input-textarea {
+    @apply min-h-[6rem] resize-y leading-relaxed;
+  }
+
   .label {
     @apply mb-1.5 block text-xs font-semibold uppercase tracking-wide text-navy/70;
   }

@@ -41,7 +41,12 @@ format bulk input file .csv, .xlsx (kanji, kotoba) :
 - tiap arti di-trim, entri kosong dibuang, minimal 1 arti
 - nilai "buku" mengikuti pilihan [minna no nihonggo 1, minna no nihonggo 2]
 
-format bulk input file json dokkai :
+format bulk input file json dokkai (kotoba, kanji) :
+
+- setiap data dari input bulk, id akan digenerate dan
+  disesuaikan dengan data terakhir dari existing data
+
+format bulk input file json dokkai berlevel :
 
 - setiap data dari input bulk, id akan digenerate dan
   disesuaikan dengan data terakhir dari existing data

@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"os"
 	"path/filepath"
+	"strconv"
 	"strings"
 	"sync"
 )
@@ -130,6 +131,13 @@ func (r *Repository) AppendMany(kind string, items []Dokkai) (int, error) {
 		if err != nil {
 			return appended, err
 		}
+
+		next := nextDokkaiID(existing)
+		for i := range grouped[lesson] {
+			grouped[lesson][i].ID = strconv.Itoa(next)
+			next++
+		}
+
 		existing = append(existing, grouped[lesson]...)
 		if err := r.writeLocked(kind, lesson, existing); err != nil {
 			return appended, err
@@ -137,4 +145,14 @@ func (r *Repository) AppendMany(kind string, items []Dokkai) (int, error) {
 		appended += len(grouped[lesson])
 	}
 	return appended, nil
+}
+
+func nextDokkaiID(items []Dokkai) int {
+	max := 0
+	for _, item := range items {
+		if n, err := strconv.Atoi(item.ID); err == nil && n > max {
+			max = n
+		}
+	}
+	return max + 1
 }

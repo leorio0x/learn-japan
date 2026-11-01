@@ -28,6 +28,12 @@
             desc: "Tambah, ubah, hapus percakapan",
             icon: "kaiwa",
         },
+        {
+            id: "crud-dokkai",
+            label: "Kelola Dokkai",
+            desc: "Tambah, ubah, hapus dokkai berlevel",
+            icon: "book",
+        },
     ];
 
     onMount(() => {

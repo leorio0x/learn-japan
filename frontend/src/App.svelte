@@ -10,8 +10,10 @@
   import Crud from './pages/Crud.svelte'
   import CrudKanji from './pages/CrudKanji.svelte'
   import CrudKaiwa from './pages/CrudKaiwa.svelte'
+  import CrudDokkai from './pages/CrudDokkai.svelte'
   import CrudGate from './components/CrudGate.svelte'
   import DokkaiView from './components/DokkaiView.svelte'
+  import Dokkai from './pages/Dokkai.svelte'
   import Admin from './pages/Admin.svelte'
   import { auth } from './lib/auth.svelte.js'
 
@@ -23,11 +25,13 @@
     '/quiz/kotoba': 'quiz-kotoba',
     '/quiz/kanji': 'quiz-kanji',
     '/quiz/kaiwa': 'quiz-kaiwa',
+    '/dokkai': 'dokkai',
     '/dokkai/kotoba': 'dokkai-kotoba',
     '/dokkai/kanji': 'dokkai-kanji',
     '/kelola/kotoba': 'crud-kotoba',
     '/kelola/kanji': 'crud-kanji',
     '/kelola/kaiwa': 'crud-kaiwa',
+    '/kelola/dokkai': 'crud-dokkai',
     '/ansatsunoadmin': 'admin'
   }
 
@@ -91,12 +95,16 @@
       <DokkaiView type="kotoba" onNavigate={navigate} />
     {:else if page === 'dokkai-kanji'}
       <DokkaiView type="kanji" onNavigate={navigate} />
+    {:else if page === 'dokkai'}
+      <Dokkai onNavigate={navigate} />
     {:else if page === 'crud-kotoba'}
       <CrudGate><Crud /></CrudGate>
     {:else if page === 'crud-kanji'}
       <CrudGate><CrudKanji /></CrudGate>
     {:else if page === 'crud-kaiwa'}
       <CrudGate><CrudKaiwa /></CrudGate>
+    {:else if page === 'crud-dokkai'}
+      <CrudGate><CrudDokkai onNavigate={navigate} /></CrudGate>
     {:else if page === 'admin'}
       <Admin onNavigate={navigate} />
     {:else}
@@ -105,6 +113,6 @@
   </main>
 
   <footer class="border-t border-navy/10 py-5 text-center text-xs text-navy/50">
-    Learn Japan &middot; Quiz Kotoba, Kanji &amp; Kaiwa
+    Learn Japan &middot; Quiz Kotoba, Kanji, Kaiwa &amp; Dokkai
   </footer>
 </div>

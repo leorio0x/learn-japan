@@ -17,6 +17,11 @@ untuk warna navbar, tombol, text, gunakan warna dibawah, buat agar indah dan tid
 - #D4C4A8
 - #F4F1DE
 
+## Navbar
+
+- opsi hide
+- auto hide ketika scroll
+
 # Features
 
 - tombol navigasi ke halaman fitur crud&tebak2an disimpan di masing masing halaman, misal
@@ -26,11 +31,6 @@ untuk warna navbar, tombol, text, gunakan warna dibawah, buat agar indah dan tid
 - untuk setiap fitur CRUD, jangan beri hak akses kecuali memasukkan password: armanganteng123#
 - halaman untuk memasukkan password terdapat di url /ansatsunoadmin
 - password tidak boleh terlihat melalui fitur browser
-
-## Navbar
-
-- opsi hide
-- auto hide ketika scroll
 
 check detail rules features di :
 frontend/rules/*.md

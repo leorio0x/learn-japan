@@ -122,5 +122,25 @@ export const api = {
     form.append('type', type)
     form.append('file', file)
     return fetch(`${BASE}/dokkai/bulk`, { method: 'POST', body: form }).then(handle)
-  }
+  },
+
+  listDokkaiLevels: () => fetch(`${BASE}/dokkai/level`).then(handle),
+  listDokkaiLevel: (level) =>
+    fetch(`${BASE}/dokkai/level/${encodeURIComponent(level)}`).then(handle),
+  bulkDokkaiLevel: (file, level) => {
+    const form = new FormData()
+    form.append('file', file)
+    if (level) form.append('level', level)
+    return fetch(`${BASE}/dokkai/level/bulk`, { method: 'POST', body: form }).then(handle)
+  },
+  updateDokkaiLevel: (level, id, payload) =>
+    fetch(`${BASE}/dokkai/level/${encodeURIComponent(level)}/${encodeURIComponent(id)}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(handle),
+  removeDokkaiLevel: (level, id) =>
+    fetch(`${BASE}/dokkai/level/${encodeURIComponent(level)}/${encodeURIComponent(id)}`, {
+      method: 'DELETE'
+    }).then(handle)
 }

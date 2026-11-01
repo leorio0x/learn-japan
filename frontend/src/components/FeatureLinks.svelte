@@ -49,6 +49,14 @@
                 authRequired: true,
             },
         ],
+        dokkai: [
+            {
+                id: "crud-dokkai",
+                label: "Kelola Dokkai",
+                icon: "crud",
+                authRequired: true,
+            },
+        ],
     };
 
     const links = $derived(
