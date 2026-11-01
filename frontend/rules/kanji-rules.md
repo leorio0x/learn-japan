@@ -13,7 +13,7 @@
   isi dari modal box adalah seluruh data dari kotobanya, buat serapih mungkin
 - opsi untuk hide kanji, furigana, arti, contoh_percakapan
 
-### 1.2 Halaman Dokkai
+### 1.1 Halaman Dokkai
 
 - pada halaman ini terdapat dokkai berupa cerita pendek yang memuat seluruh kanji perlessonnya.
   data diambil dari data/dokkai/kanji/[lesson].json
@@ -22,6 +22,8 @@
 - trigger dismiss toast dari floating-ui ketika klik dimanapun
 
 ### 1.2 Halaman tebak kanji
+
+- buat agar ketika scroll kebawah, position dari bagian soal (blok kanji) = sticky
 
 ### 1.3 Halaman CRUD kanji
 

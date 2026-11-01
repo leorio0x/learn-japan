@@ -264,8 +264,8 @@
             </div>
         </div>
 
-        <div class="card overflow-hidden">
-            <div class="bg-navy px-5 py-8 text-center">
+        <div class="card">
+            <div class="sticky top-0 z-20 rounded-t-2xl bg-navy px-5 py-8 text-center">
                 <p
                     class="text-[11px] font-semibold uppercase tracking-widest text-cream/50"
                 >
