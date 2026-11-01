@@ -19,9 +19,10 @@ untuk warna navbar, tombol, text, gunakan warna dibawah, buat agar indah dan tid
 
 # Features
 
-- tombol navigasi ke halaman fitur crud disimpan di masing masing halaman, misal
-  CRUD kotoba disimpan di halaman kotoba, begitupun fitur crud lain
+- tombol navigasi ke halaman fitur crud&tebak2an disimpan di masing masing halaman, misal
+  CRUD kotoba disimpan di halaman kotoba, begitupun fitur crud&tebak2an lain
 - tombol navigasi ke halaman fitur crud disembunyikan jika belum memasukkan password
+- logo untuk tombol navigasi fitur crud,tebak2an,dokkai
 - untuk setiap fitur CRUD, jangan beri hak akses kecuali memasukkan password: armanganteng123#
 - halaman untuk memasukkan password terdapat di url /ansatsunoadmin
 - password tidak boleh terlihat melalui fitur browser

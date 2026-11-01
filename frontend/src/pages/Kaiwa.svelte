@@ -1,9 +1,9 @@
 <script>
     import { onMount } from "svelte";
     import { api } from "../lib/api.js";
-    import { auth } from "../lib/auth.svelte.js";
     import { uniqueSortedLessons } from "../lib/quiz.js";
     import Furigana from "../components/Furigana.svelte";
+    import FeatureLinks from "../components/FeatureLinks.svelte";
 
     let { onNavigate = () => {} } = $props();
 
@@ -49,15 +49,7 @@
                 Lihat daftar percakapan bahasa Jepang
             </p>
         </div>
-        {#if auth.authenticated}
-            <button
-                type="button"
-                class="btn-primary w-full sm:w-auto"
-                onclick={() => onNavigate("crud-kaiwa")}
-            >
-                Kelola Kaiwa
-            </button>
-        {/if}
+        <FeatureLinks page="kaiwa" {onNavigate} />
     </div>
 
     <div

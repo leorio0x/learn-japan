@@ -7,9 +7,6 @@
     { id: "kotoba", label: "Kotoba", icon: "語" },
     { id: "kanji", label: "Kanji", icon: "漢" },
     { id: "kaiwa", label: "Kaiwa", icon: "会" },
-    { id: "quiz-kotoba", label: "Tebak Kotoba", icon: "問" },
-    { id: "quiz-kanji", label: "Tebak Kanji", icon: "答" },
-    { id: "quiz-kaiwa", label: "Tebak Kaiwa", icon: "話" },
   ];
 
   let manualHide = $state(false);
@@ -61,7 +58,7 @@
       class="order-last flex w-full items-center gap-2 sm:order-none sm:w-auto"
     >
       <div
-        class="grid flex-1 grid-cols-2 gap-1 rounded-xl bg-white/5 p-1 sm:flex sm:flex-none"
+        class="grid flex-1 grid-cols-3 gap-1 rounded-xl bg-white/5 p-1 sm:flex sm:flex-none"
       >
         {#each items as item}
           <button

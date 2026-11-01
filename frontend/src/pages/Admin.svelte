@@ -1,6 +1,7 @@
 <script>
     import { onMount } from "svelte";
     import { auth } from "../lib/auth.svelte.js";
+    import FeatureIcon from "../components/FeatureIcon.svelte";
 
     let { onNavigate = () => {} } = $props();
 
@@ -13,19 +14,19 @@
             id: "crud-kotoba",
             label: "Kelola Kotoba",
             desc: "Tambah, ubah, hapus kosakata",
-            icon: "編",
+            icon: "kotoba",
         },
         {
             id: "crud-kanji",
             label: "Kelola Kanji",
             desc: "Tambah, ubah, hapus kanji",
-            icon: "字",
+            icon: "kanji",
         },
         {
             id: "crud-kaiwa",
             label: "Kelola Kaiwa",
             desc: "Tambah, ubah, hapus percakapan",
-            icon: "筆",
+            icon: "kaiwa",
         },
     ];
 
@@ -93,8 +94,8 @@
                         onclick={() => onNavigate(link.id)}
                     >
                         <span
-                            class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-navy/5 font-jp text-base font-bold text-steel"
-                            >{link.icon}</span
+                            class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-navy/5 text-steel"
+                            ><FeatureIcon name={link.icon} class="h-4 w-4" /></span
                         >
                         <span class="min-w-0">
                             <span

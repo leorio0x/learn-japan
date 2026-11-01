@@ -1,12 +1,12 @@
 <script>
     import { onMount } from "svelte";
     import { api } from "../lib/api.js";
-    import { auth } from "../lib/auth.svelte.js";
     import { uniqueSortedLessons } from "../lib/quiz.js";
     import Furigana from "../components/Furigana.svelte";
     import Pagination from "../components/Pagination.svelte";
     import Percakapan from "../components/Percakapan.svelte";
     import DetailModal from "../components/DetailModal.svelte";
+    import FeatureLinks from "../components/FeatureLinks.svelte";
 
     let { onNavigate = () => {} } = $props();
 
@@ -121,24 +121,7 @@
             <h1 class="text-xl font-bold text-ink sm:text-2xl">Daftar Kanji</h1>
             <p class="mt-1 text-sm text-navy/60">Lihat daftar kanji</p>
         </div>
-        <div class="flex flex-col gap-2 sm:flex-row">
-            <button
-                type="button"
-                class="btn-ghost w-full sm:w-auto"
-                onclick={() => onNavigate("dokkai-kanji")}
-            >
-                Dokkai
-            </button>
-            {#if auth.authenticated}
-                <button
-                    type="button"
-                    class="btn-primary w-full sm:w-auto"
-                    onclick={() => onNavigate("crud-kanji")}
-                >
-                    Kelola Kanji
-                </button>
-            {/if}
-        </div>
+        <FeatureLinks page="kanji" {onNavigate} />
     </div>
 
     <div
