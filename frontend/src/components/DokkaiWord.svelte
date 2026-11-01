@@ -20,6 +20,19 @@
         return autoUpdate(reference, floating, update);
     });
 
+    $effect(() => {
+        if (!open) return;
+        const dismiss = (event) => {
+            const target = event.target;
+            if (reference?.contains(target)) return;
+            if (floating?.contains(target)) return;
+            open = false;
+        };
+        document.addEventListener("pointerdown", dismiss, true);
+        return () =>
+            document.removeEventListener("pointerdown", dismiss, true);
+    });
+
     function update() {
         if (!reference || !floating) return;
         computePosition(reference, floating, {

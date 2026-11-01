@@ -24,6 +24,7 @@
 - opsi untuk hide kanji
 - data paragraf berformat <kanji:kana:arti>, dimana kana dan
   arti muncul ketika klik 2 kali, gunakan floating-ui untuk fitur ini
+- trigger dismiss toast dari floating-ui ketika klik dimanapun
 
 ### 1.2 Halaman tebak kotoba
 
