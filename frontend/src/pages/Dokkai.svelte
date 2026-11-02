@@ -3,6 +3,7 @@
     import { api } from "../lib/api.js";
     import { parseParagraph } from "../lib/paragraph.js";
     import DokkaiWord from "../components/DokkaiWord.svelte";
+    import Pagination from "../components/Pagination.svelte";
     import FeatureLinks from "../components/FeatureLinks.svelte";
 
     let { onNavigate = () => {} } = $props();
@@ -10,9 +11,23 @@
     let levels = $state([]);
     let level = $state("");
     let stories = $state([]);
+    let page = $state(1);
     let loading = $state(true);
     let loadingStories = $state(false);
     let error = $state("");
+
+    const pageSize = 1;
+    const totalPages = $derived(
+        Math.max(1, Math.ceil(stories.length / pageSize)),
+    );
+    const currentPage = $derived(Math.min(page, totalPages));
+    const pagedStories = $derived(
+        stories.slice((currentPage - 1) * pageSize, currentPage * pageSize),
+    );
+    const rangeStart = $derived((currentPage - 1) * pageSize + 1);
+    const rangeEnd = $derived(
+        Math.min(currentPage * pageSize, stories.length),
+    );
 
     onMount(loadLevels);
 
@@ -39,6 +54,7 @@
         }
         loadingStories = true;
         error = "";
+        page = 1;
         try {
             stories = (await api.listDokkaiLevel(level)) || [];
         } catch (e) {
@@ -132,7 +148,7 @@
         </div>
     {:else}
         <div class="space-y-4">
-            {#each stories as story, i (story.id)}
+            {#each pagedStories as story, i (story.id)}
                 {@const parts = parseParagraph(story.paragraf)}
                 <article class="card p-4 sm:p-6">
                     <div class="mb-3 flex flex-wrap items-center gap-2">
@@ -146,7 +162,8 @@
                             </h2>
                         {:else}
                             <h2 class="text-lg font-bold text-ink">
-                                Dokkai {i + 1}
+                                Dokkai
+                                {(currentPage - 1) * pageSize + i + 1}
                             </h2>
                         {/if}
                     </div>
@@ -180,5 +197,15 @@
                 </article>
             {/each}
         </div>
+
+        <Pagination
+            page={currentPage}
+            {totalPages}
+            onPageChange={(p) => (page = p)}
+        />
+
+        <p class="mt-3 text-center text-xs text-navy/50">
+            Menampilkan {rangeStart}-{rangeEnd} dari {stories.length} dokkai
+        </p>
     {/if}
 </div>
