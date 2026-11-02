@@ -8,6 +8,7 @@ fitur ini terpisah dari dokkai milik kanji dan kotoba.
 - tombol navigasi fitur CRUD dokkai
 - tombol navigasi fitur CRUD dokkai muncul ketika user sudah memasukkan password
 - Format paragraf tanpa spasi antar kata, mengikuti gaya penulisan bahasa Jepang
+- pagination 1 dokkai perpage
 
 # 1.2 Halaman CRUD Dokkai
 
