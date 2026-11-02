@@ -1,6 +1,7 @@
 <script>
     import { onMount } from "svelte";
     import { api } from "../lib/api.js";
+    import { stripJapaneseSpaces } from "../lib/paragraph.js";
 
     let { onNavigate = () => {} } = $props();
 
@@ -83,10 +84,12 @@
     }
 
     function preview(text) {
-        const plain = (text || "").replace(/<([^<>]+)>/g, (_, raw) => {
-            const first = raw.indexOf(":");
-            return first >= 0 ? raw.slice(0, first) : raw;
-        });
+        const plain = stripJapaneseSpaces(
+            (text || "").replace(/<([^<>]+)>/g, (_, raw) => {
+                const first = raw.indexOf(":");
+                return first >= 0 ? raw.slice(0, first) : raw;
+            }),
+        );
         return plain.length > 220 ? `${plain.slice(0, 220)}...` : plain;
     }
 

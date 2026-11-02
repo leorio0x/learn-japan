@@ -7,6 +7,7 @@ fitur ini terpisah dari dokkai milik kanji dan kotoba.
 - untuk format data lihat di data/format dokkai-level.json
 - tombol navigasi fitur CRUD dokkai
 - tombol navigasi fitur CRUD dokkai muncul ketika user sudah memasukkan password
+- Format paragraf tanpa spasi antar kata, mengikuti gaya penulisan bahasa Jepang
 
 # 1.2 Halaman CRUD Dokkai
 

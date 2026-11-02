@@ -1,6 +1,7 @@
 <script>
     import { onMount } from "svelte";
     import { api } from "../lib/api.js";
+    import { parseParagraph } from "../lib/paragraph.js";
     import DokkaiWord from "../components/DokkaiWord.svelte";
     import FeatureLinks from "../components/FeatureLinks.svelte";
 
@@ -50,43 +51,6 @@
     async function selectLevel(event) {
         level = event.target.value;
         await fetchStories();
-    }
-
-    function parseParagraph(text) {
-        const parts = [];
-        const re = /<([^<>]+)>/g;
-        let last = 0;
-        let match;
-        while ((match = re.exec(text || ""))) {
-            if (match.index > last) {
-                parts.push({
-                    type: "text",
-                    value: text.slice(last, match.index),
-                });
-            }
-
-            const raw = match[1];
-            const first = raw.indexOf(":");
-            const second = first >= 0 ? raw.indexOf(":", first + 1) : -1;
-            let kanji = raw;
-            let kana = "";
-            let arti = "";
-            if (second >= 0) {
-                kanji = raw.slice(0, first);
-                kana = raw.slice(first + 1, second);
-                arti = raw.slice(second + 1);
-            } else if (first >= 0) {
-                kanji = raw.slice(0, first);
-                kana = raw.slice(first + 1);
-            }
-
-            parts.push({ type: "word", kanji, kana, arti });
-            last = re.lastIndex;
-        }
-        if (last < (text || "").length) {
-            parts.push({ type: "text", value: text.slice(last) });
-        }
-        return parts;
     }
 </script>
 

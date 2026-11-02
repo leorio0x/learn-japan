@@ -78,7 +78,7 @@
 
 <span
     bind:this={reference}
-    class="cursor-help touch-manipulation select-none rounded px-0.5 transition hover:bg-sand/40 {open
+    class="-mx-0.5 cursor-help touch-manipulation select-none rounded px-0.5 transition hover:bg-sand/40 {open
         ? 'bg-sand/60'
         : ''}"
     role="button"

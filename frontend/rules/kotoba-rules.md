@@ -25,6 +25,7 @@
 - data paragraf berformat <kanji:kana:arti>, dimana kana dan
   arti muncul ketika klik 2 kali, gunakan floating-ui untuk fitur ini
 - trigger dismiss toast dari floating-ui ketika klik dimanapun
+- Format paragraf tanpa spasi antar kata, mengikuti gaya penulisan bahasa Jepang
 
 ### 1.2 Halaman tebak kotoba
 
