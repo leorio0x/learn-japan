@@ -7742,5 +7742,433 @@
     ],
     "buku": "basic kanji",
     "lesson": "13"
+  },
+  {
+    "id": "knj-372",
+    "kanji": "近い",
+    "furigana": "ちかい",
+    "terjemahan": [
+      "Dekat"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c駅:えき\u003eは\u003c近:ちか\u003eいですか。",
+        "arti_pertanyaan": "Apakah stasiunnya dekat?",
+        "jawaban": "はい、とても\u003c近:ちか\u003eいです。",
+        "arti_jawaban": "Ya, sangat dekat."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-373",
+    "kanji": "近く",
+    "furigana": "ちかく",
+    "terjemahan": [
+      "Di dekat",
+      "Dekat (sebagai kata keterangan)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c近:ちか\u003eくにコンビニがありますか。",
+        "arti_pertanyaan": "Apakah ada minimarket di dekat sini?",
+        "jawaban": "はい、\u003c駅:えき\u003eの\u003c近:ちか\u003eくにあります。",
+        "arti_jawaban": "Ya, ada di dekat stasiun."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-374",
+    "kanji": "近所",
+    "furigana": "きんじょ",
+    "terjemahan": [
+      "Tetangga",
+      "Lingkungan sekitar"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c近所:きんじょ\u003eに\u003c病院:びょういん\u003eがありますか。",
+        "arti_pertanyaan": "Apakah ada rumah sakit di lingkungan sekitar?",
+        "jawaban": "はい、\u003c近所:きんじょ\u003eに\u003c大:おお\u003eきい\u003c病院:びょういん\u003eがあります。",
+        "arti_jawaban": "Ya, di lingkungan sekitar ada rumah sakit besar."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-375",
+    "kanji": "遠い",
+    "furigana": "とおい",
+    "terjemahan": [
+      "Jauh"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c学校:がっこう\u003eは\u003c遠:とお\u003eいですか。",
+        "arti_pertanyaan": "Apakah sekolahnya jauh?",
+        "jawaban": "いいえ、あまり\u003c遠:とお\u003eくないです。",
+        "arti_jawaban": "Tidak, tidak terlalu jauh."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-376",
+    "kanji": "速い",
+    "furigana": "はやい",
+    "terjemahan": [
+      "Cepat (kecepatan)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c電車:でんしゃ\u003eは\u003c速:はや\u003eいですか。",
+        "arti_pertanyaan": "Apakah kereta ini cepat?",
+        "jawaban": "はい、とても\u003c速:はや\u003eいです。",
+        "arti_jawaban": "Ya, sangat cepat."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-377",
+    "kanji": "遅い",
+    "furigana": "おそい",
+    "terjemahan": [
+      "Lambat",
+      "Pelan",
+      "Telat"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "バスは\u003c遅:おそ\u003eいですか。",
+        "arti_pertanyaan": "Apakah busnya lambat?",
+        "jawaban": "いいえ、\u003c今日:きょう\u003eは\u003c遅:おそ\u003eくないです。",
+        "arti_jawaban": "Tidak, hari ini tidak lambat."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-378",
+    "kanji": "遅れます",
+    "furigana": "おくれます",
+    "terjemahan": [
+      "Terlambat",
+      "Telat"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c明日:あした\u003eの\u003c会議:かいぎ\u003eに\u003c遅:おく\u003eれますか。",
+        "arti_pertanyaan": "Apakah kamu akan terlambat ke rapat besok?",
+        "jawaban": "はい、\u003c少:すこ\u003eし\u003c遅:おく\u003eれます。",
+        "arti_jawaban": "Ya, akan terlambat sedikit."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-379",
+    "kanji": "遅刻",
+    "furigana": "ちこく",
+    "terjemahan": [
+      "Terlambat datang (misal: ke sekolah/kantor)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c今朝:けさ\u003e、\u003c学校:がっこう\u003eに\u003c遅刻:ちこく\u003eしましたか。",
+        "arti_pertanyaan": "Apakah tadi pagi kamu terlambat ke sekolah?",
+        "jawaban": "いいえ、\u003c遅刻:ちこく\u003eしませんでした。",
+        "arti_jawaban": "Tidak, saya tidak terlambat."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-380",
+    "kanji": "道",
+    "furigana": "みち",
+    "terjemahan": [
+      "Jalan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c道:みち\u003eは\u003c駅:えき\u003eへ\u003c行:い\u003eきますか。",
+        "arti_pertanyaan": "Apakah jalan ini menuju stasiun?",
+        "jawaban": "はい、この\u003c道:みち\u003eをまっすぐ\u003c行:い\u003eってください。",
+        "arti_jawaban": "Ya, silakan jalan lurus di jalan ini."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-381",
+    "kanji": "水道",
+    "furigana": "すいどう",
+    "terjemahan": [
+      "Saluran air",
+      "Ledeng"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c水道:すいどう\u003eの\u003c水:みず\u003eは\u003c飲:の\u003eめますか。",
+        "arti_pertanyaan": "Apakah air keran bisa diminum?",
+        "jawaban": "いいえ、\u003c水道:すいどう\u003eの\u003c水:みず\u003eは\u003c飲:の\u003eめません。",
+        "arti_jawaban": "Tidak, air keran tidak bisa diminum."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-382",
+    "kanji": "青い",
+    "furigana": "あおい",
+    "terjemahan": [
+      "Biru (terkadang berarti hijau untuk benda tertentu)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "あなたの\u003c車:くるま\u003eは\u003c青:あお\u003eいですか。",
+        "arti_pertanyaan": "Apakah mobilmu biru?",
+        "jawaban": "はい、\u003c私:わたし\u003eの\u003c車:くるま\u003eは\u003c青:あお\u003eいです。",
+        "arti_jawaban": "Ya, mobil saya biru."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-383",
+    "kanji": "生年",
+    "furigana": "せいねん",
+    "terjemahan": [
+      "Tahun kelahiran"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c生年:せいねん\u003eはいつですか。",
+        "arti_pertanyaan": "Kapan tahun kelahiranmu?",
+        "jawaban": "\u003c私:わたし\u003eの\u003c生年:せいねん\u003eは１９９５\u003c年:ねん\u003eです。",
+        "arti_jawaban": "Tahun kelahiran saya adalah 1995."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-384",
+    "kanji": "青信号",
+    "furigana": "あおしんごう",
+    "terjemahan": [
+      "Lampu hijau (lampu lalu lintas)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c青信号:あおしんごう\u003eのとき、\u003c道:みち\u003eを\u003c渡:わた\u003eってもいいですか。",
+        "arti_pertanyaan": "Apakah saat lampu hijau boleh menyeberang jalan?",
+        "jawaban": "はい、\u003c青信号:あおしんごう\u003eのとき\u003c渡:わた\u003eってください。",
+        "arti_jawaban": "Ya, silakan menyeberang saat lampu hijau."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-385",
+    "kanji": "晴れ",
+    "furigana": "はれ",
+    "terjemahan": [
+      "Cerah"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c明日:あした\u003eの\u003c天気:てんき\u003eは\u003c晴:は\u003eれですか。",
+        "arti_pertanyaan": "Apakah cuaca besok cerah?",
+        "jawaban": "はい、\u003c明日:あした\u003eは\u003c晴:は\u003eれです。",
+        "arti_jawaban": "Ya, besok cerah."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-386",
+    "kanji": "晴天",
+    "furigana": "せいてん",
+    "terjemahan": [
+      "Cuaca cerah",
+      "Langit cerah"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c今日:きょう\u003eは\u003c晴天:せいてん\u003eですか。",
+        "arti_pertanyaan": "Apakah hari ini cuacanya cerah?",
+        "jawaban": "はい、\u003c今日:きょう\u003eは\u003c晴天:せいてん\u003eです。",
+        "arti_jawaban": "Ya, hari ini cuacanya cerah."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-387",
+    "kanji": "静か",
+    "furigana": "しずか",
+    "terjemahan": [
+      "Tenang",
+      "Sepi",
+      "Sunyi"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c寺:てら\u003eは\u003c静:しず\u003eかですか。",
+        "arti_pertanyaan": "Apakah kuil ini tenang?",
+        "jawaban": "はい、とても\u003c静:しず\u003eかです。",
+        "arti_jawaban": "Ya, sangat tenang."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-388",
+    "kanji": "寺",
+    "furigana": "てら",
+    "terjemahan": [
+      "Kuil (Buddha)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c近:ちか\u003eくに\u003c寺:てら\u003eがありますか。",
+        "arti_pertanyaan": "Apakah ada kuil di dekat sini?",
+        "jawaban": "はい、\u003c古:ふる\u003eい\u003c寺:てら\u003eがあります。",
+        "arti_jawaban": "Ya, ada kuil tua."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-389",
+    "kanji": "持ちます",
+    "furigana": "もちます",
+    "terjemahan": [
+      "Membawa",
+      "Memiliki",
+      "Memegang"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c荷物:にもつ\u003eを\u003c持:も\u003eちますか。",
+        "arti_pertanyaan": "Apakah kamu membawa barang bawaan?",
+        "jawaban": "はい、\u003c私:わたし\u003eが\u003c持:も\u003eちます。",
+        "arti_jawaban": "Ya, saya yang membawanya."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-390",
+    "kanji": "気持ち",
+    "furigana": "きもち",
+    "terjemahan": [
+      "Perasaan",
+      "Feeling"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c今:いま\u003eの\u003c気持:きも\u003eちはどうですか。",
+        "arti_pertanyaan": "Bagaimana perasaanmu sekarang?",
+        "jawaban": "とてもいい\u003c気持:きも\u003eちです。",
+        "arti_jawaban": "Perasaannya sangat baik."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-391",
+    "kanji": "荷物",
+    "furigana": "にもつ",
+    "terjemahan": [
+      "Barang bawaan",
+      "Bagasi",
+      "Paket"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c荷物:にもつ\u003eは\u003c重:おも\u003eいですか。",
+        "arti_pertanyaan": "Apakah barang bawaan ini berat?",
+        "jawaban": "いいえ、あまり\u003c重:おも\u003eくないです。",
+        "arti_jawaban": "Tidak, tidak terlalu berat."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-392",
+    "kanji": "歌",
+    "furigana": "うた",
+    "terjemahan": [
+      "Lagu"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c好:す\u003eきな\u003c歌:うた\u003eは\u003c何:なん\u003eですか。",
+        "arti_pertanyaan": "Apa lagu kesukaanmu?",
+        "jawaban": "\u003c日本:にほん\u003eの\u003c歌:うた\u003eが\u003c好:す\u003eきです。",
+        "arti_jawaban": "Saya suka lagu Jepang."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-393",
+    "kanji": "歌手",
+    "furigana": "かしゅ",
+    "terjemahan": [
+      "Penyanyi"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c好:す\u003eきな\u003c歌手:かしゅ\u003eは\u003c誰:だれ\u003eですか。",
+        "arti_pertanyaan": "Siapa penyanyi favoritmu?",
+        "jawaban": "\u003c私:わたし\u003eは\u003c日本:にほん\u003eの\u003c歌手:かしゅ\u003eが\u003c好:す\u003eきです。",
+        "arti_jawaban": "Saya suka penyanyi Jepang."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
+  },
+  {
+    "id": "knj-394",
+    "kanji": "歌います",
+    "furigana": "うたいます",
+    "terjemahan": [
+      "Menyanyi"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c一緒:いっしょ\u003eに\u003c歌:うた\u003eいますか。",
+        "arti_pertanyaan": "Apakah kamu mau bernyanyi bersama?",
+        "jawaban": "はい、\u003c一緒:いっしょ\u003eに\u003c歌:うた\u003eいましょう。",
+        "arti_jawaban": "Ya, mari bernyanyi bersama."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "14"
   }
 ]
