@@ -29,6 +29,7 @@
     let answered = $state(false);
     let kanaOk = $state(false);
     let artiOk = $state(false);
+    let kanaInput = $state(null);
 
     const lessons = $derived(uniqueSortedLessons(items));
     const current = $derived(questions[index] ?? null);
@@ -50,6 +51,25 @@
     ];
 
     onMount(load);
+
+    $effect(() => {
+        if (
+            phase === "playing" &&
+            answerType === "essay" &&
+            current &&
+            !answered &&
+            kanaInput &&
+            isDesktop()
+        ) {
+            kanaInput.focus();
+        }
+    });
+
+    function isDesktop() {
+        if (typeof window === "undefined" || !window.matchMedia) return false;
+        return window.matchMedia("(min-width: 1024px) and (hover: hover)")
+            .matches;
+    }
 
     async function load() {
         loading = true;
@@ -404,6 +424,7 @@
                         >
                         <input
                             id="kana"
+                            bind:this={kanaInput}
                             class="input font-jp {answered
                                 ? kanaOk
                                     ? 'border-sage'

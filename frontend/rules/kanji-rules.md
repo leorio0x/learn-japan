@@ -25,6 +25,7 @@
 ### 1.2 Halaman tebak kanji
 
 - buat agar ketika scroll kebawah, position dari bagian soal (blok kanji) = sticky
+- ketika essay, input auto focus di input cara baca (furigana), ini hanya berlaku ketika device=komputer
 
 ### 1.3 Halaman CRUD kanji
 
