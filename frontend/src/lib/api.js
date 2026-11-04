@@ -47,7 +47,8 @@ export const api = {
     }).then(handle),
   logout: () => fetch(`${BASE}/auth/logout`, { method: 'POST' }).then(handle),
 
-  list: () => fetch(`${BASE}/kotoba`).then(handle),
+  list: (params) => fetch(`${BASE}/kotoba${query(params)}`).then(handle),
+  listKotobaLessons: () => fetch(`${BASE}/kotoba/lessons`).then(handle),
   get: (id) => fetch(`${BASE}/kotoba/${id}`).then(handle),
   create: (payload) =>
     fetch(`${BASE}/kotoba`, {

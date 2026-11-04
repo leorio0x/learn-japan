@@ -9,6 +9,7 @@ func RegisterRoutes(app fiber.Router, repo *Repository, protect fiber.Handler) {
 
 	group := app.Group("/kotoba")
 	group.Get("/", handler.List)
+	group.Get("/lessons", handler.Lessons)
 	group.Get("/:id", handler.Get)
 	group.Post("/bulk", protect, handler.BulkImport)
 	group.Post("/bulk-delete", protect, handler.BulkDelete)

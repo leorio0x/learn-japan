@@ -1,7 +1,6 @@
 <script>
     import { onMount } from "svelte";
     import { api } from "../lib/api.js";
-    import { uniqueSortedLessons } from "../lib/quiz.js";
     import Furigana from "../components/Furigana.svelte";
     import Pagination from "../components/Pagination.svelte";
     import Percakapan from "../components/Percakapan.svelte";
@@ -11,10 +10,13 @@
     let { onNavigate = () => {} } = $props();
 
     let words = $state([]);
+    let lessons = $state([]);
     let detailItem = $state(null);
     let loading = $state(true);
     let error = $state("");
     let lesson = $state("1");
+    let requestToken = 0;
+    const cache = new Map();
     let page = $state(1);
     let view = $state("card");
     let hideKanji = $state(false);
@@ -40,7 +42,6 @@
         { id: "flashcard", label: "Flashcard" },
     ];
 
-    const lessons = $derived(uniqueSortedLessons(words));
     const filtered = $derived(
         lesson === "all"
             ? words
@@ -75,9 +76,35 @@
         flipped = false;
     }
 
-    function selectLesson() {
+    async function selectLesson() {
         page = 1;
         resetFlash();
+        await reload();
+    }
+
+    async function reload() {
+        const token = ++requestToken;
+        loading = true;
+        error = "";
+        try {
+            const data = await fetchWords(lesson);
+            if (token !== requestToken) return;
+            words = data;
+        } catch (e) {
+            if (token === requestToken) error = e.message;
+        } finally {
+            if (token === requestToken) loading = false;
+        }
+    }
+
+    async function fetchWords(value) {
+        if (cache.has(value)) return cache.get(value);
+        const data =
+            ((value === "all"
+                ? await api.list()
+                : await api.list({ lesson: value })) || []);
+        cache.set(value, data);
+        return data;
     }
 
     function selectView(id) {
@@ -93,24 +120,22 @@
         flipped = false;
     }
 
-    onMount(load);
-
-    async function load() {
+    onMount(async () => {
         loading = true;
         error = "";
         try {
-            words = (await api.list()) || [];
-            const available = uniqueSortedLessons(words);
-            if (lesson !== "all" && !available.includes(lesson)) {
-                lesson = available.length ? available[0] : "all";
+            lessons = (await api.listKotobaLessons()) || [];
+            if (lesson !== "all" && !lessons.includes(lesson)) {
+                lesson = lessons.length ? lessons[0] : "all";
             }
+            await reload();
             page = 1;
         } catch (e) {
             error = e.message;
         } finally {
             loading = false;
         }
-    }
+    });
 </script>
 
 <div class="mx-auto max-w-3xl">
@@ -207,7 +232,7 @@
     {:else if error}
         <div class="card border-red-300 p-8 text-center text-red-700">
             <p class="font-semibold">{error}</p>
-            <button class="btn-primary mt-4" onclick={load}>Coba lagi</button>
+            <button class="btn-primary mt-4" onclick={reload}>Coba lagi</button>
         </div>
     {:else if !filtered.length}
         <div class="card p-10 text-center">

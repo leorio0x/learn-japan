@@ -19,13 +19,27 @@ func NewHandler(svc *Service) *Handler {
 	return &Handler{svc: svc}
 }
 
-// List godoc: GET /api/kotoba
+// List godoc: GET /api/kotoba?lesson=
 func (h *Handler) List(c *fiber.Ctx) error {
-	list, err := h.svc.List()
+	filter := Filter{
+		Lesson: c.Query("lesson"),
+	}
+	list, err := h.svc.List(filter)
 	if err != nil {
 		return fiber.NewError(fiber.StatusInternalServerError, err.Error())
 	}
+	c.Set(fiber.HeaderCacheControl, "no-cache")
 	return c.JSON(list)
+}
+
+// Lessons godoc: GET /api/kotoba/lessons
+func (h *Handler) Lessons(c *fiber.Ctx) error {
+	lessons, err := h.svc.Lessons()
+	if err != nil {
+		return fiber.NewError(fiber.StatusInternalServerError, err.Error())
+	}
+	c.Set(fiber.HeaderCacheControl, "no-cache")
+	return c.JSON(lessons)
 }
 
 // Get godoc: GET /api/kotoba/:id

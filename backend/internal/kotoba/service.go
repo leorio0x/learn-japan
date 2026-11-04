@@ -3,8 +3,15 @@ package kotoba
 import (
 	"crypto/rand"
 	"encoding/hex"
+	"sort"
+	"strconv"
 	"strings"
 )
+
+// Filter berisi kriteria penyaringan data kotoba.
+type Filter struct {
+	Lesson string
+}
 
 // Service berisi logika bisnis untuk fitur kotoba.
 type Service struct {
@@ -64,8 +71,57 @@ func toKotoba(req Request) Kotoba {
 	}
 }
 
-func (s *Service) List() ([]Kotoba, error) {
-	return s.repo.FindAll()
+// List mengembalikan data kotoba yang sudah disaring.
+func (s *Service) List(f Filter) ([]Kotoba, error) {
+	list, err := s.repo.FindAll()
+	if err != nil {
+		return nil, err
+	}
+
+	lesson := strings.TrimSpace(f.Lesson)
+	if lesson == "" {
+		return list, nil
+	}
+
+	result := make([]Kotoba, 0, len(list))
+	for _, k := range list {
+		if k.Lesson == lesson {
+			result = append(result, k)
+		}
+	}
+	return result, nil
+}
+
+// Lessons mengembalikan daftar lesson unik yang tersedia, terurut numerik.
+func (s *Service) Lessons() ([]string, error) {
+	list, err := s.repo.FindAll()
+	if err != nil {
+		return nil, err
+	}
+
+	seen := make(map[string]struct{}, len(list))
+	result := make([]string, 0)
+	for _, k := range list {
+		lesson := strings.TrimSpace(k.Lesson)
+		if lesson == "" {
+			continue
+		}
+		if _, ok := seen[lesson]; ok {
+			continue
+		}
+		seen[lesson] = struct{}{}
+		result = append(result, lesson)
+	}
+
+	sort.Slice(result, func(i, j int) bool {
+		ni, errI := strconv.Atoi(result[i])
+		nj, errJ := strconv.Atoi(result[j])
+		if errI == nil && errJ == nil && ni != nj {
+			return ni < nj
+		}
+		return result[i] < result[j]
+	})
+	return result, nil
 }
 
 func (s *Service) Get(id string) (Kotoba, error) {
