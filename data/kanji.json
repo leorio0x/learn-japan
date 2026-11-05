@@ -8170,5 +8170,405 @@
     ],
     "buku": "basic kanji",
     "lesson": "14"
+  },
+  {
+    "id": "knj-395",
+    "kanji": "友達",
+    "furigana": "ともだち",
+    "terjemahan": [
+      "Teman"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c友達:ともだち\u003eと\u003c映画:えいが\u003eを\u003c見:み\u003eますか。",
+        "arti_pertanyaan": "Apakah kamu menonton film bersama teman?",
+        "jawaban": "はい、\u003c週末:しゅうまつ\u003eに\u003c友達:ともだち\u003eと\u003c見:み\u003eます。",
+        "arti_jawaban": "Ya, saya menonton bersama teman pada akhir pekan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-396",
+    "kanji": "友人",
+    "furigana": "ゆうじん",
+    "terjemahan": [
+      "Sahabat",
+      "Teman (lebih formal)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c田中:たなか\u003eさんは\u003c友人:ゆうじん\u003eですか。",
+        "arti_pertanyaan": "Apakah Tanaka sahabat Anda?",
+        "jawaban": "はい、\u003c田中:たなか\u003eさんは\u003c古:ふる\u003eい\u003c友人:ゆうじん\u003eです。",
+        "arti_jawaban": "Ya, Tanaka adalah sahabat lama saya."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-397",
+    "kanji": "父",
+    "furigana": "ちち",
+    "terjemahan": [
+      "Ayah (sendiri)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c父:ちち\u003eは\u003c会社員:かいしゃいん\u003eです。あなたの\u003c父:ちち\u003eは？",
+        "arti_pertanyaan": "Ayah saya pegawai perusahaan. Ayahmu?",
+        "jawaban": "うちの\u003c父:ちち\u003eも\u003c会社員:かいしゃいん\u003eです。",
+        "arti_jawaban": "Ayah saya juga pegawai perusahaan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-398",
+    "kanji": "父親",
+    "furigana": "ちちおや",
+    "terjemahan": [
+      "Ayah (sebagai sosok/biologis)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c父親:ちちおや\u003eはどんな\u003c人:ひと\u003eですか。",
+        "arti_pertanyaan": "Seperti apa sosok ayah Anda?",
+        "jawaban": "\u003c父親:ちちおや\u003eはとても\u003c優:やさ\u003eしい\u003c人:ひと\u003eです。",
+        "arti_jawaban": "Ayah saya orang yang sangat baik."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-399",
+    "kanji": "お父さん",
+    "furigana": "おとうさん",
+    "terjemahan": [
+      "Ayah (panggilan / ayah orang lain)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003cお父:とう\u003eさんは\u003c今:いま\u003e、\u003c家:いえ\u003eにいますか。",
+        "arti_pertanyaan": "Apakah ayah ada di rumah sekarang?",
+        "jawaban": "いいえ、\u003cお父:とう\u003eさんはまだ\u003c仕事:しごと\u003eです。",
+        "arti_jawaban": "Tidak, ayah masih bekerja."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-400",
+    "kanji": "母",
+    "furigana": "はは",
+    "terjemahan": [
+      "Ibu (sendiri)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c母:はは\u003eは\u003c料理:りょうり\u003eが\u003c上手:じょうず\u003eです。",
+        "arti_pertanyaan": "Ibu saya pandai memasak.",
+        "jawaban": "いいですね。うちの\u003c母:はは\u003eも\u003c料理:りょうり\u003eが\u003c上手:じょうず\u003eです。",
+        "arti_jawaban": "Bagusnya. Ibu saya juga pandai memasak."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-401",
+    "kanji": "母親",
+    "furigana": "ははおや",
+    "terjemahan": [
+      "Ibu (sebagai sosok/biologis)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c母親:ははおや\u003eに\u003c手紙:てがみ\u003eを\u003c書:か\u003eきましたか。",
+        "arti_pertanyaan": "Apakah kamu sudah menulis surat kepada ibumu?",
+        "jawaban": "はい、\u003c母親:ははおや\u003eに\u003c長:なが\u003eい\u003c手紙:てがみ\u003eを\u003c書:か\u003eきました。",
+        "arti_jawaban": "Ya, saya menulis surat panjang kepada ibu saya."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-402",
+    "kanji": "お母さん",
+    "furigana": "おかあさん",
+    "terjemahan": [
+      "Ibu (panggilan / ibu orang lain)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003cお母:かあ\u003eさんは\u003c元気:げんき\u003eですか。",
+        "arti_pertanyaan": "Apakah ibu Anda sehat?",
+        "jawaban": "はい、\u003cお母:かあ\u003eさんはとても\u003c元気:げんき\u003eです。",
+        "arti_jawaban": "Ya, ibu saya sangat sehat."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-403",
+    "kanji": "兄",
+    "furigana": "あに",
+    "terjemahan": [
+      "Kakak laki-laki (sendiri)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c兄:あに\u003eは\u003c大学生:だいがくせい\u003eですか。",
+        "arti_pertanyaan": "Apakah kakak laki-laki Anda mahasiswa?",
+        "jawaban": "はい、\u003c兄:あに\u003eは\u003c東京:とうきょう\u003eの\u003c大学生:だいがくせい\u003eです。",
+        "arti_jawaban": "Ya, kakak saya mahasiswa di Tokyo."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-404",
+    "kanji": "お兄さん",
+    "furigana": "おにいさん",
+    "terjemahan": [
+      "Kakak laki-laki (panggilan / kakak orang lain)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003cお兄:にい\u003eさんは\u003c何歳:なんさい\u003eですか。",
+        "arti_pertanyaan": "Berapa umur kakak laki-laki Anda?",
+        "jawaban": "\u003c兄:あに\u003eは\u003c二十五歳:にじゅうごさい\u003eです。",
+        "arti_jawaban": "Kakak laki-laki saya 25 tahun."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-405",
+    "kanji": "兄弟",
+    "furigana": "きょうだい",
+    "terjemahan": [
+      "Saudara laki-laki",
+      "Saudara kandung"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c兄弟:きょうだい\u003eは\u003c何人:なんにん\u003eいますか。",
+        "arti_pertanyaan": "Berapa orang saudara kandung Anda?",
+        "jawaban": "\u003c兄弟:きょうだい\u003eは\u003c三人:さんにん\u003eいます。",
+        "arti_jawaban": "Saya tiga bersaudara."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-406",
+    "kanji": "姉",
+    "furigana": "あね",
+    "terjemahan": [
+      "Kakak perempuan (sendiri)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c姉:あね\u003eは\u003c何:なに\u003eをしていますか。",
+        "arti_pertanyaan": "Apa pekerjaan kakak perempuan Anda?",
+        "jawaban": "\u003c姉:あね\u003eは\u003c看護師:かんごし\u003eです。",
+        "arti_jawaban": "Kakak perempuan saya perawat."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-407",
+    "kanji": "お姉さん",
+    "furigana": "おねえさん",
+    "terjemahan": [
+      "Kakak perempuan (panggilan / kakak orang lain)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003cお姉:ねえ\u003eさんは\u003c結婚:けっこん\u003eしていますか。",
+        "arti_pertanyaan": "Apakah kakak perempuan Anda sudah menikah?",
+        "jawaban": "いいえ、\u003c姉:あね\u003eはまだ\u003c独身:どくしん\u003eです。",
+        "arti_jawaban": "Tidak, kakak perempuan saya masih lajang."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-408",
+    "kanji": "姉妹",
+    "furigana": "しまい",
+    "terjemahan": [
+      "Saudara perempuan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c姉妹:しまい\u003eはいますか。",
+        "arti_pertanyaan": "Apakah Anda punya saudara perempuan?",
+        "jawaban": "はい、\u003c姉妹:しまい\u003eは\u003c二人:ふたり\u003eいます。",
+        "arti_jawaban": "Ya, saya punya dua saudara perempuan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-409",
+    "kanji": "弟",
+    "furigana": "おとうと",
+    "terjemahan": [
+      "Adik laki-laki"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c弟:おとうと\u003eは\u003c何歳:なんさい\u003eですか。",
+        "arti_pertanyaan": "Berapa umur adik laki-laki Anda?",
+        "jawaban": "\u003c弟:おとうと\u003eは\u003c十歳:じゅっさい\u003eです。",
+        "arti_jawaban": "Adik laki-laki saya 10 tahun."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-410",
+    "kanji": "妹",
+    "furigana": "いもうと",
+    "terjemahan": [
+      "Adik perempuan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c妹:いもうと\u003eは\u003c学生:がくせい\u003eですか。",
+        "arti_pertanyaan": "Apakah adik perempuan Anda pelajar?",
+        "jawaban": "はい、\u003c妹:いもうと\u003eは\u003c高校生:こうこうせい\u003eです。",
+        "arti_jawaban": "Ya, adik perempuan saya siswa SMA."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-411",
+    "kanji": "夫",
+    "furigana": "おっと",
+    "terjemahan": [
+      "Suami (sendiri)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c夫:おっと\u003eは\u003c今:いま\u003e、\u003c家:いえ\u003eにいますか。",
+        "arti_pertanyaan": "Apakah suami Anda ada di rumah sekarang?",
+        "jawaban": "いいえ、\u003c夫:おっと\u003eはまだ\u003c会社:かいしゃ\u003eにいます。",
+        "arti_jawaban": "Tidak, suami saya masih di kantor."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-412",
+    "kanji": "妻",
+    "furigana": "つま",
+    "terjemahan": [
+      "Istri (sendiri)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c妻:つま\u003eは\u003c先生:せんせい\u003eです。",
+        "arti_pertanyaan": "Istri saya guru.",
+        "jawaban": "そうですか。\u003c妻:つま\u003eも\u003c先生:せんせい\u003eです。",
+        "arti_jawaban": "Begitu ya. Istri saya juga guru."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-413",
+    "kanji": "彼",
+    "furigana": "かれ",
+    "terjemahan": [
+      "Dia (laki-laki)",
+      "Pacar (laki-laki)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c彼:かれ\u003eはあなたの\u003c友達:ともだち\u003eですか。",
+        "arti_pertanyaan": "Apakah dia (laki-laki) teman Anda?",
+        "jawaban": "はい、\u003c彼:かれ\u003eは\u003c私:わたし\u003eの\u003c親友:しんゆう\u003eです。",
+        "arti_jawaban": "Ya, dia sahabat saya."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-414",
+    "kanji": "彼女",
+    "furigana": "かのじょ",
+    "terjemahan": [
+      "Dia (perempuan)",
+      "Pacar (perempuan)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c彼女:かのじょ\u003eは\u003c歌手:かしゅ\u003eですか。",
+        "arti_pertanyaan": "Apakah dia (perempuan) seorang penyanyi?",
+        "jawaban": "はい、\u003c彼女:かのじょ\u003eは\u003c有名:ゆうめい\u003eな\u003c歌手:かしゅ\u003eです。",
+        "arti_jawaban": "Ya, dia penyanyi terkenal."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-415",
+    "kanji": "主人",
+    "furigana": "しゅじん",
+    "terjemahan": [
+      "Suami (sendiri / formal)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c主人:しゅじん\u003eは\u003c何時:なんじ\u003eに\u003c帰:かえ\u003eりますか。",
+        "arti_pertanyaan": "Jam berapa suami Anda pulang?",
+        "jawaban": "\u003c主人:しゅじん\u003eは\u003c八時:はちじ\u003eごろ\u003c帰:かえ\u003eります。",
+        "arti_jawaban": "Suami saya pulang sekitar jam delapan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
+  },
+  {
+    "id": "knj-416",
+    "kanji": "奥さん",
+    "furigana": "おくさん",
+    "terjemahan": [
+      "Istri (orang lain / sopan)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c奥:おく\u003eさんは\u003c元気:げんき\u003eですか。",
+        "arti_pertanyaan": "Apakah istri Anda sehat?",
+        "jawaban": "はい、\u003c奥:おく\u003eさんはとても\u003c元気:げんき\u003eです。",
+        "arti_jawaban": "Ya, istri Anda sangat sehat."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "15"
   }
 ]

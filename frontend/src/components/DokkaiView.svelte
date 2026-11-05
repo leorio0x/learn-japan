@@ -1,7 +1,6 @@
 <script>
     import { onMount } from "svelte";
     import { api } from "../lib/api.js";
-    import { uniqueSortedLessons } from "../lib/quiz.js";
     import { parseParagraph } from "../lib/paragraph.js";
     import { auth } from "../lib/auth.svelte.js";
     import DokkaiWord from "./DokkaiWord.svelte";
@@ -16,7 +15,7 @@
             : "Cerita pendek yang memuat kanji per lesson",
     );
 
-    let source = $state([]);
+    let lessons = $state([]);
     let stories = $state([]);
     let lesson = $state("");
     let loading = $state(true);
@@ -31,18 +30,14 @@
     let bulkResult = $state(null);
     let bulkError = $state("");
 
-    const lessons = $derived(uniqueSortedLessons(source));
-
     onMount(load);
 
     async function load() {
         loading = true;
         error = "";
         try {
-            source =
-                (isKotoba ? await api.list() : await api.listKanji()) || [];
-            const available = uniqueSortedLessons(source);
-            lesson = available.length ? available[0] : "";
+            lessons = (await api.listDokkaiLessons(type)) || [];
+            lesson = lessons.length ? lessons[0] : "";
             await fetchStories();
         } catch (e) {
             error = e.message;

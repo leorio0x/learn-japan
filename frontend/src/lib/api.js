@@ -116,6 +116,8 @@ export const api = {
       body: JSON.stringify({ ids })
     }).then(handle),
 
+  listDokkaiLessons: (type) =>
+    fetch(`${BASE}/dokkai/${encodeURIComponent(type)}/lessons`).then(handle),
   getDokkai: (type, lesson) =>
     fetch(`${BASE}/dokkai/${type}/${encodeURIComponent(lesson)}`).then(handle),
   bulkDokkai: (type, file) => {
