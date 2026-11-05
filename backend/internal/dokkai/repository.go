@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"os"
 	"path/filepath"
+	"sort"
 	"strconv"
 	"strings"
 	"sync"
@@ -94,6 +95,62 @@ func (r *Repository) writeLocked(kind, lesson string, list []Dokkai) error {
 	}
 	data = append(data, '\n')
 	return os.WriteFile(path, data, 0o644)
+}
+
+// Lessons mengembalikan daftar lesson yang memiliki file dokkai pada tipe tertentu.
+func (r *Repository) Lessons(kind string) ([]string, error) {
+	if !ValidKind(kind) {
+		return nil, ErrInvalidKind
+	}
+
+	r.mu.RLock()
+	defer r.mu.RUnlock()
+
+	entries, err := os.ReadDir(filepath.Join(r.root, kind))
+	if err != nil {
+		if os.IsNotExist(err) {
+			return []string{}, nil
+		}
+		return nil, err
+	}
+
+	lessons := make([]string, 0, len(entries))
+	for _, entry := range entries {
+		if entry.IsDir() || strings.ToLower(filepath.Ext(entry.Name())) != ".json" {
+			continue
+		}
+		name := strings.TrimSuffix(entry.Name(), filepath.Ext(entry.Name()))
+		if name == "" || sanitizeLesson(name) != name {
+			continue
+		}
+		lessons = append(lessons, name)
+	}
+
+	sort.Slice(lessons, func(i, j int) bool {
+		return compareLesson(lessons[i], lessons[j]) < 0
+	})
+	return lessons, nil
+}
+
+func compareLesson(a, b string) int {
+	na, errA := strconv.Atoi(a)
+	nb, errB := strconv.Atoi(b)
+	switch {
+	case errA == nil && errB == nil:
+		switch {
+		case na < nb:
+			return -1
+		case na > nb:
+			return 1
+		default:
+			return 0
+		}
+	case errA == nil:
+		return -1
+	case errB == nil:
+		return 1
+	}
+	return strings.Compare(a, b)
 }
 
 // FindByLesson mengembalikan seluruh dokkai untuk tipe dan lesson tertentu.

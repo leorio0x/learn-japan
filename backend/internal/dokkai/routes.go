@@ -16,6 +16,7 @@ func RegisterRoutes(app fiber.Router, repo *Repository, protect fiber.Handler) {
 	group.Put("/level/:level/:id", protect, handler.UpdateLevel)
 	group.Delete("/level/:level/:id", protect, handler.DeleteLevel)
 
+	group.Get("/:type/lessons", handler.ListLessons)
 	group.Get("/:type/:lesson", handler.GetByLesson)
 	group.Post("/bulk", protect, handler.BulkImport)
 }

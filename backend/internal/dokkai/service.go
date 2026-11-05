@@ -22,6 +22,14 @@ func NewService(repo *Repository) *Service {
 	return &Service{repo: repo}
 }
 
+// Lessons mengembalikan daftar lesson yang tersedia untuk tipe dokkai tertentu.
+func (s *Service) Lessons(kind string) ([]string, error) {
+	if !ValidKind(kind) {
+		return nil, ErrInvalidKind
+	}
+	return s.repo.Lessons(kind)
+}
+
 // ByLesson mengembalikan dokkai berdasarkan tipe dan lesson.
 func (s *Service) ByLesson(kind, lesson string) ([]Dokkai, error) {
 	if !ValidKind(kind) {

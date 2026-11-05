@@ -23,6 +23,18 @@ func NewHandler(svc *Service) *Handler {
 	return &Handler{svc: svc}
 }
 
+// ListLessons godoc: GET /api/dokkai/:type/lessons
+func (h *Handler) ListLessons(c *fiber.Ctx) error {
+	lessons, err := h.svc.Lessons(c.Params("type"))
+	if errors.Is(err, ErrInvalidKind) {
+		return fiber.NewError(fiber.StatusBadRequest, err.Error())
+	}
+	if err != nil {
+		return fiber.NewError(fiber.StatusInternalServerError, err.Error())
+	}
+	return c.JSON(lessons)
+}
+
 // GetByLesson godoc: GET /api/dokkai/:type/:lesson
 func (h *Handler) GetByLesson(c *fiber.Ctx) error {
 	list, err := h.svc.ByLesson(c.Params("type"), c.Params("lesson"))
