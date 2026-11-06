@@ -385,7 +385,7 @@
                             </p>
                             {#if story.terjemahan}
                                 <p
-                                    class="mt-1.5 line-clamp-2 text-xs leading-relaxed text-navy/50"
+                                    class="mt-1.5 line-clamp-2 whitespace-pre-line text-xs leading-relaxed text-navy/50"
                                 >
                                     {story.terjemahan}
                                 </p>

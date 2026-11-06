@@ -189,7 +189,9 @@
                             >
                                 Terjemahan
                             </p>
-                            <p class="text-sm leading-relaxed text-navy/70">
+                            <p
+                                class="whitespace-pre-line text-sm leading-relaxed text-navy/70"
+                            >
                                 {story.terjemahan}
                             </p>
                         </div>
