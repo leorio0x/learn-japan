@@ -26,6 +26,7 @@
 
 - buat agar ketika scroll kebawah, position dari bagian soal (blok kanji) = sticky
 - ketika essay, input auto focus di input cara baca (furigana), ini hanya berlaku ketika device=komputer
+- opsi filter atau pemilihan multi-lesson untuk sesi tebak kanji (gunakan CSS GRID, 4 col perbaris)
 
 ### 1.3 Halaman CRUD kanji
 

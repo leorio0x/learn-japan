@@ -14,7 +14,7 @@
 
     let phase = $state("setup");
     let answerType = $state("essay");
-    let lesson = $state("all");
+    let selectedLessons = $state([]);
     let batchSize = $state(10);
 
     let questions = $state([]);
@@ -84,8 +84,20 @@
     }
 
     function lessonPool() {
-        if (lesson === "all") return items;
-        return items.filter((k) => String(k.lesson) === lesson);
+        if (!selectedLessons.length) return items;
+        const chosen = new Set(selectedLessons);
+        return items.filter((k) => chosen.has(String(k.lesson)));
+    }
+
+    function toggleLesson(value) {
+        const key = String(value);
+        selectedLessons = selectedLessons.includes(key)
+            ? selectedLessons.filter((l) => l !== key)
+            : [...selectedLessons, key];
+    }
+
+    function resetLessons() {
+        selectedLessons = [];
     }
 
     function makeQuestion(item) {
@@ -198,26 +210,53 @@
         </div>
 
         <div class="card space-y-5 p-4 sm:p-6">
-            <div class="grid gap-4 sm:grid-cols-2">
-                <div>
-                    <label class="label" for="lesson">Lesson</label>
-                    <select id="lesson" class="input" bind:value={lesson}>
-                        <option value="all">Semua lesson</option>
-                        {#each lessons as l}
-                            <option value={l}>Lesson {l}</option>
-                        {/each}
-                    </select>
+            <div>
+                <div class="flex items-center justify-between gap-2">
+                    <p class="label mb-0">Lesson</p>
+                    {#if selectedLessons.length}
+                        <button
+                            type="button"
+                            class="text-xs font-semibold text-steel hover:underline"
+                            onclick={resetLessons}>Pilih semua</button
+                        >
+                    {/if}
                 </div>
-                <div>
-                    <label class="label" for="batch"
-                        >Jumlah soal per batch</label
+                <div class="mt-2 grid grid-cols-4 gap-2">
+                    <button
+                        type="button"
+                        class="rounded-full px-2 py-1.5 text-center text-xs font-semibold leading-tight transition {!selectedLessons.length
+                            ? 'bg-steel text-cream shadow-sm'
+                            : 'border border-steel/30 bg-white text-navy hover:bg-cream/60'}"
+                        onclick={resetLessons}>Semua</button
                     >
-                    <select id="batch" class="input" bind:value={batchSize}>
-                        {#each batchOptions as b}
-                            <option value={b.value}>{b.label}</option>
-                        {/each}
-                    </select>
+                    {#each lessons as l}
+                        <button
+                            type="button"
+                            class="rounded-full px-2 py-1.5 text-center text-xs font-semibold leading-tight transition {selectedLessons.includes(
+                                String(l),
+                            )
+                                ? 'bg-steel text-cream shadow-sm'
+                                : 'border border-steel/30 bg-white text-navy hover:bg-cream/60'}"
+                            onclick={() => toggleLesson(l)}
+                        >
+                            Lesson {l}
+                        </button>
+                    {/each}
                 </div>
+                <p class="mt-2 text-xs text-navy/50">
+                    {selectedLessons.length
+                        ? `${selectedLessons.length} lesson dipilih`
+                        : "Semua lesson akan digunakan"}
+                </p>
+            </div>
+
+            <div>
+                <label class="label" for="batch">Jumlah soal per batch</label>
+                <select id="batch" class="input" bind:value={batchSize}>
+                    {#each batchOptions as b}
+                        <option value={b.value}>{b.label}</option>
+                    {/each}
+                </select>
             </div>
 
             <div>
@@ -256,9 +295,11 @@
             >
                 <p class="text-sm text-navy/60">
                     {lessonPool().length} kanji tersedia
-                    {#if lesson !== "all"}<span class="text-navy/40"
-                            >(Lesson {lesson})</span
-                        >{/if}
+                    {#if selectedLessons.length}
+                        <span class="text-navy/40"
+                            >(Lesson {selectedLessons.join(", ")})</span
+                        >
+                    {/if}
                 </p>
                 <button
                     class="btn-primary"
