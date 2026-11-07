@@ -3,7 +3,6 @@
 - display bunpou dengan opsi [lesson, semua lesson]
 - data bunpou diambil dari data/bunpou.json
 - pagination
-- opsi hide kanji
 - pada attribute rumus ditulis dalam format sesuai aturan yaitu [～:orang|kata benda|kata sifat|kata tunjuk],
   yang ditampilkan hanya "~" saja, dimana "~" adalah sesuatu yang bisa diisi/diganti dengan
   orang,kata benda,kata sifat,kata tunjuk dll.

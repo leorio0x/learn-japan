@@ -1,59 +1,69 @@
 [
   {
-    "soal": "<私:わたし:saya>（　）<学生:がくせい:mahasiswa> です。",
+    "id": "lt-b02d1af4a5b9",
+    "soal": "\u003c私:わたし:saya\u003e（　）\u003c学生:がくせい:mahasiswa\u003e です。",
     "tipe_soal": "pilihan ganda",
     "pilihan_jawaban": ["は", "が", "を", "に", "の"],
     "jawaban_benar": "は"
   },
   {
-    "soal": "<サントス::Santos> さん（　）<学生:がくせい:mahasiswa> じゃありません。",
+    "id": "lt-8d23138eab46",
+    "soal": "\u003cサントス::Santos\u003e さん（　）\u003c学生:がくせい:mahasiswa\u003e じゃありません。",
     "tipe_soal": "pilihan ganda",
     "pilihan_jawaban": ["は", "も", "の", "か", "を"],
     "jawaban_benar": "は"
   },
   {
-    "soal": "<ミラー::Miller> さん は <会社員:かいしゃいん:pegawai perusahaan>（　）か。",
+    "id": "lt-8eadc4f96784",
+    "soal": "\u003cミラー::Miller\u003e さん は \u003c会社員:かいしゃいん:pegawai perusahaan\u003e（　）か。",
     "tipe_soal": "pilihan ganda",
     "pilihan_jawaban": ["です", "じゃありません", "でした", "も", "の"],
     "jawaban_benar": "です"
   },
   {
-    "soal": "<私:わたし:saya>（　）<学生:がくせい:mahasiswa> です。",
+    "id": "lt-99a1a455e900",
+    "soal": "\u003c私:わたし:saya\u003e（　）\u003c学生:がくせい:mahasiswa\u003e です。",
     "tipe_soal": "pilihan ganda",
     "pilihan_jawaban": ["も", "は", "の", "か", "を"],
     "jawaban_benar": "も"
   },
   {
-    "soal": "これ は <私:わたし:saya>（　）<本:ほん:buku> です。",
+    "id": "lt-d604be57b714",
+    "soal": "これ は \u003c私:わたし:saya\u003e（　）\u003c本:ほん:buku\u003e です。",
     "tipe_soal": "pilihan ganda",
     "pilihan_jawaban": ["の", "は", "も", "が", "に"],
     "jawaban_benar": "の"
   },
   {
-    "soal": "<サントス::Santos> さん は <学生:がくせい:mahasiswa>（　）。",
+    "id": "lt-f6d25f30f11c",
+    "soal": "\u003cサントス::Santos\u003e さん は \u003c学生:がくせい:mahasiswa\u003e（　）。",
     "tipe_soal": "pilihan ganda",
     "pilihan_jawaban": ["じゃありません", "です", "ですか", "も", "の"],
     "jawaban_benar": "じゃありません"
   },
   {
-    "soal": "A: <あなた:あなた:Anda> は <ミラー::Miller> さん ですか。 B: はい、（　）です。",
+    "id": "lt-6d36d45ed387",
+    "soal": "A: \u003cあなた:あなた:Anda\u003e は \u003cミラー::Miller\u003e さん ですか。 B: はい、（　）です。",
     "tipe_soal": "essay",
     "jawaban_benar": "ミラー"
   },
   {
-    "soal": "あの <人:ひと:orang> は <田中:たなか:Tanaka>（　）です。",
+    "id": "lt-0d57a002aedf",
+    "soal": "あの \u003c人:ひと:orang\u003e は \u003c田中:たなか:Tanaka\u003e（　）です。",
     "tipe_soal": "pilihan ganda",
     "pilihan_jawaban": ["さん", "は", "も", "の", "か"],
     "jawaban_benar": "さん"
   },
   {
-    "soal": "<私:わたし:saya> は <IMC::IMC>（　）<社員:しゃいん:karyawan> です。",
+    "id": "lt-91136b631039",
+    "soal": "\u003c私:わたし:saya\u003e は \u003cIMC::IMC\u003e（　）\u003c社員:しゃいん:karyawan\u003e です。",
     "tipe_soal": "pilihan ganda",
     "pilihan_jawaban": ["の", "は", "も", "か", "を"],
     "jawaban_benar": "の"
   },
   {
-    "soal": "A: <ミラー::Miller> さん は <学生:がくせい:mahasiswa> ですか。 B: いいえ、（　）。<会社員:かいしゃいん:pegawai perusahaan> です。",
+    "id": "lt-0a031a9f1613",
+    "soal": "A: \u003cミラー::Miller\u003e さん は \u003c学生:がくせい:mahasiswa\u003e ですか。 \nB: いいえ、（　）。\u003c会社員:かいしゃいん:pegawai perusahaan\u003e です。",
     "tipe_soal": "essay",
     "jawaban_benar": "学生じゃありません"
   }

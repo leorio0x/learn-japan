@@ -13,7 +13,6 @@
     let loading = $state(true);
     let error = $state("");
     let lesson = $state("all");
-    let hideKanji = $state(false);
 
     const pageSize = 5;
     let page = $state(1);
@@ -97,26 +96,6 @@
                 {/each}
             </select>
         </div>
-
-        <button
-            type="button"
-            class="flex items-center gap-2.5 rounded-xl border border-steel/30 bg-cream px-3.5 py-2.5 text-sm font-semibold text-navy transition hover:bg-sand/40"
-            onclick={() => (hideKanji = !hideKanji)}
-            aria-pressed={hideKanji}
-        >
-            <span
-                class="relative inline-flex h-5 w-9 items-center rounded-full transition {hideKanji
-                    ? 'bg-sage'
-                    : 'bg-navy/20'}"
-            >
-                <span
-                    class="absolute h-4 w-4 rounded-full bg-cream shadow transition-all {hideKanji
-                        ? 'left-4'
-                        : 'left-0.5'}"
-                ></span>
-            </span>
-            Sembunyikan Kanji
-        </button>
     </div>
 
     <p class="mb-3 text-xs text-navy/50">
@@ -280,7 +259,6 @@
                                                                 terjemahan={contoh
                                                                     .pertanyaan
                                                                     .terjemahan}
-                                                                {hideKanji}
                                                                 className="text-base font-semibold text-ink sm:text-lg"
                                                             />
                                                         </div>
@@ -307,7 +285,6 @@
                                                                 terjemahan={contoh
                                                                     .jawaban
                                                                     .terjemahan}
-                                                                {hideKanji}
                                                                 className="text-base font-semibold text-navy sm:text-lg"
                                                             />
                                                         </div>
