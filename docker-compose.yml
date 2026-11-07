@@ -9,6 +9,7 @@ services:
       DATA_PATH: /data/kotoba.json
       KANJI_DATA_PATH: /data/kanji.json
       BUNPOU_DATA_PATH: /data/bunpou.json
+      LATIHAN_BUNPOU_DATA_PATH: /data/latihan/bunpou
       DOKKAI_DATA_PATH: /data/dokkai
       CRUD_PASSWORD: ${CRUD_PASSWORD:-}
       SESSION_SECRET: ${SESSION_SECRET:-}

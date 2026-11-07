@@ -51,28 +51,9 @@
         open = !open;
     }
 
-    let lastTap = 0;
-    let lastX = 0;
-    let lastY = 0;
-
-    function handlePointerUp(event) {
-        if (event.pointerType === "mouse" && event.button !== 0) return;
-
-        const now = Date.now();
-        const isDouble =
-            now - lastTap < 350 &&
-            Math.abs(event.clientX - lastX) < 30 &&
-            Math.abs(event.clientY - lastY) < 30;
-
-        if (isDouble) {
-            lastTap = 0;
-            toggle(event);
-            return;
-        }
-
-        lastTap = now;
-        lastX = event.clientX;
-        lastY = event.clientY;
+    function handleClick(event) {
+        event.stopPropagation();
+        toggle(event);
     }
 </script>
 
@@ -83,14 +64,14 @@
         : ''}"
     role="button"
     tabindex="0"
-    onpointerup={handlePointerUp}
+    onclick={handleClick}
     onkeydown={(e) => {
         if (e.key === "Enter") {
             e.preventDefault();
             open = !open;
         }
     }}
-    aria-label="Ketuk dua kali untuk melihat furigana dan arti"
+    aria-label="Klik untuk melihat furigana dan arti"
 >
     {label}
 </span>

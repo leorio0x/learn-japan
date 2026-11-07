@@ -116,6 +116,27 @@ export const api = {
       body: JSON.stringify({ ids })
     }).then(handle),
 
+  listLatihanBunpouLessons: () =>
+    fetch(`${BASE}/latihan/bunpou/lessons`).then(handle),
+  getLatihanBunpou: (lesson) =>
+    fetch(`${BASE}/latihan/bunpou/${encodeURIComponent(lesson)}`).then(handle),
+  createLatihanBunpou: (payload) =>
+    fetch(`${BASE}/latihan/bunpou`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(handle),
+  updateLatihanBunpou: (lesson, id, payload) =>
+    fetch(`${BASE}/latihan/bunpou/${encodeURIComponent(lesson)}/${encodeURIComponent(id)}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(handle),
+  removeLatihanBunpou: (lesson, id) =>
+    fetch(`${BASE}/latihan/bunpou/${encodeURIComponent(lesson)}/${encodeURIComponent(id)}`, {
+      method: 'DELETE'
+    }).then(handle),
+
   listDokkaiLessons: (type) =>
     fetch(`${BASE}/dokkai/${encodeURIComponent(type)}/lessons`).then(handle),
   getDokkai: (type, lesson) =>

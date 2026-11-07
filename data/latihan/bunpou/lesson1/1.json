@@ -1,0 +1,60 @@
+[
+  {
+    "soal": "<私:わたし:saya>（　）<学生:がくせい:mahasiswa> です。",
+    "tipe_soal": "pilihan ganda",
+    "pilihan_jawaban": ["は", "が", "を", "に", "の"],
+    "jawaban_benar": "は"
+  },
+  {
+    "soal": "<サントス::Santos> さん（　）<学生:がくせい:mahasiswa> じゃありません。",
+    "tipe_soal": "pilihan ganda",
+    "pilihan_jawaban": ["は", "も", "の", "か", "を"],
+    "jawaban_benar": "は"
+  },
+  {
+    "soal": "<ミラー::Miller> さん は <会社員:かいしゃいん:pegawai perusahaan>（　）か。",
+    "tipe_soal": "pilihan ganda",
+    "pilihan_jawaban": ["です", "じゃありません", "でした", "も", "の"],
+    "jawaban_benar": "です"
+  },
+  {
+    "soal": "<私:わたし:saya>（　）<学生:がくせい:mahasiswa> です。",
+    "tipe_soal": "pilihan ganda",
+    "pilihan_jawaban": ["も", "は", "の", "か", "を"],
+    "jawaban_benar": "も"
+  },
+  {
+    "soal": "これ は <私:わたし:saya>（　）<本:ほん:buku> です。",
+    "tipe_soal": "pilihan ganda",
+    "pilihan_jawaban": ["の", "は", "も", "が", "に"],
+    "jawaban_benar": "の"
+  },
+  {
+    "soal": "<サントス::Santos> さん は <学生:がくせい:mahasiswa>（　）。",
+    "tipe_soal": "pilihan ganda",
+    "pilihan_jawaban": ["じゃありません", "です", "ですか", "も", "の"],
+    "jawaban_benar": "じゃありません"
+  },
+  {
+    "soal": "A: <あなた:あなた:Anda> は <ミラー::Miller> さん ですか。 B: はい、（　）です。",
+    "tipe_soal": "essay",
+    "jawaban_benar": "ミラー"
+  },
+  {
+    "soal": "あの <人:ひと:orang> は <田中:たなか:Tanaka>（　）です。",
+    "tipe_soal": "pilihan ganda",
+    "pilihan_jawaban": ["さん", "は", "も", "の", "か"],
+    "jawaban_benar": "さん"
+  },
+  {
+    "soal": "<私:わたし:saya> は <IMC::IMC>（　）<社員:しゃいん:karyawan> です。",
+    "tipe_soal": "pilihan ganda",
+    "pilihan_jawaban": ["の", "は", "も", "か", "を"],
+    "jawaban_benar": "の"
+  },
+  {
+    "soal": "A: <ミラー::Miller> さん は <学生:がくせい:mahasiswa> ですか。 B: いいえ、（　）。<会社員:かいしゃいん:pegawai perusahaan> です。",
+    "tipe_soal": "essay",
+    "jawaban_benar": "学生じゃありません"
+  }
+]

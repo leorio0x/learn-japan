@@ -9,6 +9,10 @@ format untuk kanji.json :
 format untuk bunpou.json :
 ./format/bunpou.json
 
+format untuk soal latihan bunpou :
+./format/soal_bunpou.json
+data soal latihan bunpou berada di ./latihan/bunpou/lesson[N]/*.json
+
 format untuk dokkai.json :
 ./format/dokkai.json
 

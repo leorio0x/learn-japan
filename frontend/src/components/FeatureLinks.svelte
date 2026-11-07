@@ -38,7 +38,7 @@
         bunpou: [
             {
                 id: "quiz-bunpou",
-                label: "Tebak Bunpou",
+                label: "Latihan Bunpou",
                 icon: "quiz",
                 primary: true,
             },

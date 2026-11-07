@@ -16,6 +16,7 @@ import (
 	"learn-japan/backend/internal/dokkai"
 	"learn-japan/backend/internal/kanji"
 	"learn-japan/backend/internal/kotoba"
+	"learn-japan/backend/internal/latihan"
 )
 
 func env(key, fallback string) string {
@@ -29,6 +30,7 @@ func main() {
 	dataPath := env("DATA_PATH", "../data/kotoba.json")
 	kanjiPath := env("KANJI_DATA_PATH", "../data/kanji.json")
 	bunpouPath := env("BUNPOU_DATA_PATH", "../data/bunpou.json")
+	latihanPath := env("LATIHAN_BUNPOU_DATA_PATH", "../data/latihan/bunpou")
 	dokkaiPath := env("DOKKAI_DATA_PATH", "../data/dokkai")
 	port := env("PORT", "3000")
 	crudPassword := env("CRUD_PASSWORD", "armanganteng123#")
@@ -36,6 +38,7 @@ func main() {
 	kotobaRepo := kotoba.NewRepository(dataPath)
 	kanjiRepo := kanji.NewRepository(kanjiPath)
 	bunpouRepo := bunpou.NewRepository(bunpouPath)
+	latihanRepo := latihan.NewRepository(latihanPath)
 	dokkaiRepo := dokkai.NewRepository(dokkaiPath)
 
 	authManager := auth.NewManager(crudPassword, os.Getenv("SESSION_SECRET"))
@@ -73,10 +76,11 @@ func main() {
 	kotoba.RegisterRoutes(api, kotobaRepo, authManager.Middleware)
 	kanji.RegisterRoutes(api, kanjiRepo, authManager.Middleware)
 	bunpou.RegisterRoutes(api, bunpouRepo, authManager.Middleware)
+	latihan.RegisterRoutes(api, latihanRepo, authManager.Middleware)
 	dokkai.RegisterRoutes(api, dokkaiRepo, authManager.Middleware)
 
 	log.Printf("server berjalan di http://localhost:%s", port)
-	log.Printf("data kotoba: %s | data kanji: %s | data bunpou: %s | data dokkai: %s", dataPath, kanjiPath, bunpouPath, dokkaiPath)
+	log.Printf("data kotoba: %s | data kanji: %s | data bunpou: %s | data latihan bunpou: %s | data dokkai: %s", dataPath, kanjiPath, bunpouPath, latihanPath, dokkaiPath)
 	if err := app.Listen(":" + port); err != nil {
 		log.Fatal(err)
 	}

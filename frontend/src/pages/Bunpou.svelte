@@ -120,7 +120,7 @@
     </div>
 
     <p class="mb-3 text-xs text-navy/50">
-        Klik dua kali pada kata untuk melihat furigana dan arti. Klik simbol ～
+        Klik pada kata untuk melihat furigana dan arti. Klik simbol ～
         pada rumus untuk melihat kategori pengisi.
     </p>
 

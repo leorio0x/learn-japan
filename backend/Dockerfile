@@ -17,7 +17,8 @@ COPY --from=build /out/server /app/server
 ENV PORT=3000 \
     DATA_PATH=/data/kotoba.json \
     KANJI_DATA_PATH=/data/kanji.json \
-    BUNPOU_DATA_PATH=/data/bunpou.json
+    BUNPOU_DATA_PATH=/data/bunpou.json \
+    LATIHAN_BUNPOU_DATA_PATH=/data/latihan/bunpou
 
 EXPOSE 3000
 

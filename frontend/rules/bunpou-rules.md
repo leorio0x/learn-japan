@@ -19,4 +19,12 @@
 
 ## 1.1. Halaman latihan bunpou
 
+data pertanyaan diambil dari `data/latihan/bunpou/*`
+misal bunpou lesson 1, diambil dari `data/latihan/bunpou/lesson1/*`
+
+- jawaban bisa pilihan ganda atau essay (tergantung data)
+-
+
 ## 1.2. Halaman CRUD bunpou
+
+sesuaikan input dengan format `data/format/soal_bunpou.json`

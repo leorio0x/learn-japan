@@ -25,7 +25,7 @@
         {
             id: "crud-bunpou",
             label: "Kelola Bunpou",
-            desc: "Tambah, ubah, hapus pola bunpou",
+            desc: "Tambah, ubah, hapus soal latihan bunpou",
             icon: "bunpou",
         },
         {

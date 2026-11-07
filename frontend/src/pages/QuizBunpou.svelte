@@ -1,25 +1,20 @@
 ﻿<script>
     import { onMount } from "svelte";
     import { api } from "../lib/api.js";
-    import {
-        plainText,
-        sortLessons,
-        lessonLabel,
-        targetAnswers,
-    } from "../lib/bunpou.js";
+    import { plainText, lessonLabel } from "../lib/bunpou.js";
     import { shuffle, normalizeAnswer } from "../lib/quiz.js";
     import BunpouSentence from "../components/BunpouSentence.svelte";
 
-    let items = $state([]);
+    let lessons = $state([]);
+    let lesson = $state("");
+    let pool = $state([]);
     let loading = $state(true);
+    let loadingQuestions = $state(false);
     let error = $state("");
 
     let phase = $state("setup");
-    let mode = $state("pertanyaan");
-    let lesson = $state("all");
     let batchSize = $state(10);
     let hideKanji = $state(false);
-
     let qHide = $state(false);
 
     let questions = $state([]);
@@ -28,16 +23,15 @@
     let results = $state([]);
 
     let answerInput = $state("");
+    let selectedOption = $state("");
     let answered = $state(false);
     let answerOk = $state(false);
 
-    const lessons = $derived(sortLessons(items));
     const current = $derived(questions[index] ?? null);
     const total = $derived(questions.length);
     const accuracy = $derived(
         total ? Math.round((correctCount / total) * 100) : 0,
     );
-    const availablePairs = $derived(buildPairs().length);
 
     const batchOptions = [
         { value: 5, label: "5 soal" },
@@ -46,19 +40,21 @@
         { value: 0, label: "Semua" },
     ];
 
-    const modeOptions = [
-        { id: "pertanyaan", label: "Pertanyaan" },
-        { id: "jawaban", label: "Jawaban" },
-        { id: "acak", label: "Acak" },
-    ];
+    onMount(loadLessons);
 
-    onMount(load);
-
-    async function load() {
+    async function loadLessons() {
         loading = true;
         error = "";
         try {
-            items = (await api.listBunpou()) || [];
+            lessons = ((await api.listLatihanBunpouLessons()) || []).map(
+                String,
+            );
+            if (lessons.length) {
+                lesson = lessons[0];
+                await fetchQuestions();
+            } else {
+                pool = [];
+            }
         } catch (e) {
             error = e.message;
         } finally {
@@ -66,84 +62,98 @@
         }
     }
 
-    function lessonPool() {
-        if (lesson === "all") return items;
-        return items.filter((b) => String(b.lesson) === lesson);
-    }
-
-    function buildPairs() {
-        const out = [];
-        for (const b of lessonPool()) {
-            for (const pola of b.pola || []) {
-                for (const contoh of pola.contoh || []) {
-                    if (
-                        !contoh?.pertanyaan?.kalimat ||
-                        !contoh?.jawaban?.kalimat
-                    ) {
-                        continue;
-                    }
-                    out.push({
-                        bunpou: b,
-                        pola,
-                        pertanyaan: contoh.pertanyaan,
-                        jawaban: contoh.jawaban,
-                    });
-                }
-            }
+    async function fetchQuestions() {
+        if (!lesson) {
+            pool = [];
+            return;
         }
-        return out;
+        loadingQuestions = true;
+        error = "";
+        try {
+            pool = (await api.getLatihanBunpou(lesson)) || [];
+        } catch (e) {
+            error = e.message;
+            pool = [];
+        } finally {
+            loadingQuestions = false;
+        }
     }
 
-    function buildQuestion(pair) {
-        let side = mode;
-        if (mode === "acak")
-            side = Math.random() < 0.5 ? "pertanyaan" : "jawaban";
-        return { pair, side };
+    function selectLesson(event) {
+        lesson = event.target.value;
+        fetchQuestions();
     }
 
     function start() {
-        const pool = shuffle(buildPairs());
+        if (!pool.length) return;
+        const chosen = shuffle([...pool]);
         const size =
-            batchSize === 0 ? pool.length : Math.min(batchSize, pool.length);
-        questions = pool.slice(0, size).map(buildQuestion);
+            batchSize === 0 ? chosen.length : Math.min(batchSize, chosen.length);
+        questions = chosen.slice(0, size).map((soal) => ({
+            ...soal,
+            type:
+                soal.tipe_soal === "pilihan ganda" &&
+                soal.pilihan_jawaban?.length
+                    ? "pilihan"
+                    : "essay",
+        }));
         index = 0;
         correctCount = 0;
         results = [];
         resetTransient();
-        phase = questions.length ? "playing" : "setup";
+        phase = "playing";
     }
 
     function resetTransient() {
         answerInput = "";
+        selectedOption = "";
         answered = false;
         answerOk = false;
         qHide = hideKanji;
     }
 
-    function promptOf(q) {
-        return q.side === "pertanyaan" ? q.pair.pertanyaan : q.pair.jawaban;
+    function sameAnswer(a, b) {
+        return (
+            normalizeAnswer(plainText(a, "kanji")) ===
+            normalizeAnswer(plainText(b, "kanji"))
+        );
     }
 
-    function targetOf(q) {
-        return q.side === "pertanyaan" ? q.pair.jawaban : q.pair.pertanyaan;
+    function isCorrectOption(option) {
+        if (!current) return false;
+        return sameAnswer(option, current.jawaban_benar);
     }
 
-    function answerLabel(kalimat) {
-        return plainText(kalimat, "kanji");
+    function isSelectedOption(option) {
+        return selectedOption === option;
     }
 
-    function submit(event) {
+    function chooseOption(option) {
+        if (answered || !current) return;
+        selectedOption = option;
+        answerOk = sameAnswer(option, current.jawaban_benar);
+        finishAnswer(option);
+    }
+
+    function submitEssay(event) {
         event.preventDefault();
-        if (answered || !answerInput.trim()) return;
-        const target = targetOf(current);
+        if (answered || !answerInput.trim() || !current) return;
+        const target = String(current.jawaban_benar || "");
+        const variants = [
+            plainText(target, "kanji"),
+            plainText(target, "kana"),
+        ].filter(Boolean);
         const norm = normalizeAnswer(answerInput);
-        const targets = targetAnswers(target.kalimat);
-        answerOk = targets.some((t) => normalizeAnswer(t) === norm);
+        answerOk = variants.some((item) => normalizeAnswer(item) === norm);
+        finishAnswer(answerInput);
+    }
+
+    function finishAnswer(input) {
         answered = true;
         if (answerOk) correctCount += 1;
         results = [
             ...results,
-            { q: current, input: answerInput, correct: answerOk },
+            { q: current, input, correct: answerOk },
         ];
     }
 
@@ -155,66 +165,51 @@
         index += 1;
         resetTransient();
     }
+
+    function answerLabel(value) {
+        return plainText(value, "kanji");
+    }
 </script>
 
 <div class="mx-auto max-w-2xl">
     {#if loading}
         <div class="card flex items-center justify-center p-16 text-navy/60">
-            <span class="animate-pulse">Memuat data bunpou...</span>
+            <span class="animate-pulse">Memuat data latihan...</span>
         </div>
     {:else if error}
         <div class="card border-red-300 p-8 text-center text-red-700">
             <p class="font-semibold">Gagal memuat data</p>
             <p class="mt-1 text-sm">{error}</p>
-            <button class="btn-primary mt-4" onclick={load}>Coba lagi</button>
+            <button class="btn-primary mt-4" onclick={loadLessons}
+                >Coba lagi</button
+            >
         </div>
-    {:else if !items.length}
+    {:else if !lessons.length}
         <div class="card p-10 text-center">
-            <p class="text-lg font-semibold text-ink">Belum ada bunpou</p>
+            <p class="text-lg font-semibold text-ink">Belum ada latihan bunpou</p>
             <p class="mt-1 text-sm text-navy/60">
-                Tambahkan bunpou melalui halaman Kelola Bunpou terlebih dahulu.
+                Tambahkan file soal di
+                <span class="font-mono">data/latihan/bunpou/lesson1</span>.
             </p>
         </div>
     {:else if phase === "setup"}
         <div class="mb-5 text-center">
-            <h1 class="text-xl font-bold text-ink sm:text-2xl">
-                Tebak Bunpou
-            </h1>
+            <h1 class="text-xl font-bold text-ink sm:text-2xl">Latihan Bunpou</h1>
             <p class="mt-1 text-sm text-navy/60">
-                Tebak pertanyaan dari sebuah jawaban atau sebaliknya
+                Tipe soal mengikuti data latihan.
             </p>
         </div>
 
         <div class="card space-y-5 p-4 sm:p-6">
-            <div>
-                <span class="label">Soal yang ditampilkan</span>
-                <div class="flex gap-1 rounded-xl bg-navy/5 p-1">
-                    {#each modeOptions as m}
-                        <button
-                            class="flex-1 rounded-lg px-3 py-2 text-xs font-semibold transition sm:text-sm {mode ===
-                            m.id
-                                ? 'bg-steel text-cream shadow-sm'
-                                : 'text-navy/70 hover:bg-white'}"
-                            onclick={() => (mode = m.id)}
-                        >
-                            {m.label}
-                        </button>
-                    {/each}
-                </div>
-                <p class="mt-1.5 text-xs text-navy/50">
-                    {mode === "pertanyaan"
-                        ? "Ditampilkan pertanyaan, jawab dengan jawabannya."
-                        : mode === "jawaban"
-                          ? "Ditampilkan jawaban, jawab dengan pertanyaannya."
-                          : "Arah soal diacak setiap pertanyaan."}
-                </p>
-            </div>
-
             <div class="grid gap-4 sm:grid-cols-2">
                 <div>
                     <label class="label" for="lesson">Lesson</label>
-                    <select id="lesson" class="input" bind:value={lesson}>
-                        <option value="all">Semua lesson</option>
+                    <select
+                        id="lesson"
+                        class="input"
+                        bind:value={lesson}
+                        onchange={selectLesson}
+                    >
                         {#each lessons as l}
                             <option value={l}>{lessonLabel(l)}</option>
                         {/each}
@@ -249,15 +244,17 @@
                 class="flex flex-wrap items-center justify-between gap-3 border-t border-navy/10 pt-4"
             >
                 <p class="text-sm text-navy/60">
-                    {availablePairs} soal tersedia
-                    {#if lesson !== "all"}<span class="text-navy/40"
-                            >({lessonLabel(lesson)})</span
-                        >{/if}
+                    {#if loadingQuestions}
+                        Memuat soal...
+                    {:else}
+                        {pool.length} soal tersedia
+                    {/if}
                 </p>
                 <button
                     class="btn-primary"
                     onclick={start}
-                    disabled={!availablePairs}>Mulai Quiz</button
+                    disabled={!pool.length || loadingQuestions}
+                    >Mulai Latihan</button
                 >
             </div>
         </div>
@@ -283,10 +280,14 @@
                 <p
                     class="text-[11px] font-semibold uppercase tracking-widest text-cream/50"
                 >
-                    {current.side === "pertanyaan" ? "Pertanyaan" : "Jawaban"}
+                    Soal
                 </p>
+                <span
+                    class="mt-1 inline-block rounded-full bg-cream/10 px-2.5 py-0.5 text-[10px] font-semibold text-cream/70"
+                    >{current.type === "pilihan" ? "Pilihan ganda" : "Essay"}</span
+                >
                 <BunpouSentence
-                    kalimat={promptOf(current).kalimat}
+                    kalimat={current.soal}
                     showTerjemahan={false}
                     hideKanji={qHide}
                     className="mt-3 block text-2xl font-bold leading-relaxed text-cream sm:text-3xl"
@@ -303,46 +304,64 @@
                 </label>
             </div>
 
-            <form class="space-y-4 p-4 sm:p-5" onsubmit={submit}>
-                <div>
-                    <label class="label" for="answer">
-                        {current.side === "pertanyaan"
-                            ? "Jawaban (kalimat Jepang)"
-                            : "Pertanyaan (kalimat Jepang)"}
-                    </label>
-                    <input
-                        id="answer"
-                        class="input font-jp {answered
-                            ? answerOk
-                                ? 'border-sage'
-                                : 'border-red-400'
-                            : ''}"
-                        bind:value={answerInput}
-                        disabled={answered}
-                        autocomplete="off"
-                        placeholder="tulis kalimat bahasa Jepang"
-                    />
-                    {#if answered && !answerOk}
-                        <p class="mt-2 text-xs text-red-600">
-                            Jawaban yang tepat:
-                        </p>
-                        <BunpouSentence
-                            kalimat={targetOf(current).kalimat}
-                            terjemahan={targetOf(current).terjemahan}
-                            hideKanji={qHide}
-                            className="mt-1 text-base font-semibold text-ink"
-                        />
-                    {/if}
+            {#if current.type === "pilihan"}
+                <div class="grid gap-2 p-4 sm:grid-cols-2 sm:p-5">
+                    {#each current.pilihan_jawaban as option, optionIndex}
+                        <button
+                            type="button"
+                            class="flex w-full items-start gap-2.5 rounded-xl border px-3 py-2.5 text-left transition {answered
+                                ? isCorrectOption(option)
+                                    ? 'border-sage bg-sage/15'
+                                    : isSelectedOption(option)
+                                      ? 'border-red-400 bg-red-500/10'
+                                      : 'border-steel/20 bg-white opacity-60'
+                                : 'border-steel/25 bg-white hover:border-steel/50 hover:bg-cream/60'}"
+                            onclick={() => chooseOption(option)}
+                            disabled={answered}
+                        >
+                            <span
+                                class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-md bg-steel/10 text-[10px] font-bold text-navy/60"
+                                >{String.fromCharCode(65 + optionIndex)}</span
+                            >
+                            <BunpouSentence
+                                kalimat={option}
+                                showTerjemahan={false}
+                                hideKanji={qHide}
+                                className="text-base font-semibold text-ink"
+                            />
+                        </button>
+                    {/each}
                 </div>
+            {:else}
+                <form class="space-y-4 p-4 sm:p-5" onsubmit={submitEssay}>
+                    <div>
+                        <label class="label" for="answer"
+                            >Jawaban (tulis dalam bahasa Jepang)</label
+                        >
+                        <input
+                            id="answer"
+                            class="input font-jp {answered
+                                ? answerOk
+                                    ? 'border-sage'
+                                    : 'border-red-400'
+                                : ''}"
+                            bind:value={answerInput}
+                            disabled={answered}
+                            autocomplete="off"
+                            placeholder="tulis jawaban bahasa Jepang"
+                        />
+                    </div>
 
-                {#if !answered}
-                    <button
-                        type="submit"
-                        class="btn-primary w-full"
-                        disabled={!answerInput.trim()}>Periksa Jawaban</button
-                    >
-                {/if}
-            </form>
+                    {#if !answered}
+                        <button
+                            type="submit"
+                            class="btn-primary w-full"
+                            disabled={!answerInput.trim()}
+                            >Periksa Jawaban</button
+                        >
+                    {/if}
+                </form>
+            {/if}
 
             {#if answered}
                 <div
@@ -356,12 +375,14 @@
                         >
                             {answerOk ? "Benar!" : "Kurang tepat"}
                         </p>
-                        <BunpouSentence
-                            kalimat={targetOf(current).kalimat}
-                            terjemahan={targetOf(current).terjemahan}
-                            hideKanji={qHide}
-                            className="mt-1 block text-base font-semibold text-ink"
-                        />
+                        {#if !answerOk || current.type === "pilihan"}
+                            <p class="mt-1 text-xs text-navy/60">
+                                Jawaban yang tepat:
+                                <span class="font-jp font-semibold text-ink"
+                                    >{answerLabel(current.jawaban_benar)}</span
+                                >
+                            </p>
+                        {/if}
                     </div>
                     <button class="btn-primary shrink-0" onclick={next}>
                         {index + 1 >= total
@@ -405,17 +426,16 @@
                                 >{r.correct ? "✓" : "✗"}</span
                             >
                             <span class="font-jp font-semibold text-ink"
-                                >{answerLabel(promptOf(r.q).kalimat)}</span
+                                >{answerLabel(r.q.soal)}</span
                             >
                             <span class="text-navy/40">→</span>
                             <span class="font-jp text-sage"
-                                >{answerLabel(targetOf(r.q).kalimat)}</span
+                                >{answerLabel(r.q.jawaban_benar)}</span
                             >
                         </div>
                         {#if !r.correct}
                             <p class="mt-1 pl-6 text-xs text-navy/60">
-                                Jawabanmu: <span class="font-jp"
-                                    >{r.input}</span
+                                Jawabanmu: <span class="font-jp">{r.input}</span
                                 >
                             </p>
                         {/if}
@@ -427,7 +447,8 @@
                 <button class="btn-ghost" onclick={() => (phase = "setup")}
                     >Kembali</button
                 >
-                <button class="btn-primary" onclick={start}>Ulangi Batch</button>
+                <button class="btn-primary" onclick={start}>Ulangi Batch</button
+                >
             </div>
         </div>
     {/if}

@@ -13,21 +13,21 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は　<マイク・ミラー::Mike Miller> です",
+              "kalimat": "\u003c私:わたし:saya\u003e は　\u003cマイク・ミラー::Mike Miller\u003e です",
               "terjemahan": "Saya adalah Mike Miller."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は　<会社員:かいしゃいん:pegawai perusahaan> です",
+              "kalimat": "\u003c私:わたし:saya\u003e は　\u003c会社員:かいしゃいん:pegawai perusahaan\u003e です",
               "terjemahan": "Saya adalah pegawai perusahaan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<サントス::Santos> さん は　<学生:がくせい:mahasiswa> です",
+              "kalimat": "\u003cサントス::Santos\u003e さん は　\u003c学生:がくせい:mahasiswa\u003e です",
               "terjemahan": "Sdr. Santos adalah mahasiswa."
             }
           }
@@ -42,14 +42,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<サントス::Santos> さん は　<学生:がくせい:mahasiswa> じゃありません",
+              "kalimat": "\u003cサントス::Santos\u003e さん は　\u003c学生:がくせい:mahasiswa\u003e じゃありません",
               "terjemahan": "Sdr. Santos bukan mahasiswa."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は　<先生:せんせい:guru> では ありません",
+              "kalimat": "\u003c私:わたし:saya\u003e は　\u003c先生:せんせい:guru\u003e では ありません",
               "terjemahan": "Saya bukan guru."
             }
           }
@@ -63,31 +63,31 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "<ミラー::Miller> さん は　<会社員:かいしゃいん:pegawai perusahaan> ですか",
+              "kalimat": "\u003cミラー::Miller\u003e さん は　\u003c会社員:かいしゃいん:pegawai perusahaan\u003e ですか",
               "terjemahan": "Apakah Sdr. Miller pegawai perusahaan?"
             },
             "jawaban": {
-              "kalimat": "はい、<会社員:かいしゃいん:pegawai perusahaan> です",
+              "kalimat": "はい、\u003c会社員:かいしゃいん:pegawai perusahaan\u003e です",
               "terjemahan": "Ya, (beliau) pegawai perusahaan."
             }
           },
           {
             "pertanyaan": {
-              "kalimat": "<サントス::Santos> さん は　<学生:がくせい:mahasiswa> ですか",
+              "kalimat": "\u003cサントス::Santos\u003e さん は　\u003c学生:がくせい:mahasiswa\u003e ですか",
               "terjemahan": "Apakah Sdr. Santos mahasiswa?"
             },
             "jawaban": {
-              "kalimat": "いいえ、<学生:がくせい:mahasiswa> じゃありません。<会社員:かいしゃいん:pegawai perusahaan> です",
+              "kalimat": "いいえ、\u003c学生:がくせい:mahasiswa\u003e じゃありません。\u003c会社員:かいしゃいん:pegawai perusahaan\u003e です",
               "terjemahan": "Tidak, bukan mahasiswa. (Beliau) pegawai perusahaan."
             }
           },
           {
             "pertanyaan": {
-              "kalimat": "<あなた:あなた:Anda> は　<ミラー::Miller> さん ですか",
+              "kalimat": "\u003cあなた:あなた:Anda\u003e は　\u003cミラー::Miller\u003e さん ですか",
               "terjemahan": "Apakah Anda Sdr. Miller?"
             },
             "jawaban": {
-              "kalimat": "はい、<ミラー::Miller> です",
+              "kalimat": "はい、\u003cミラー::Miller\u003e です",
               "terjemahan": "Ya, saya Miller."
             }
           }
@@ -102,14 +102,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<サントス::Santos> さん も　<会社員:かいしゃいん:pegawai perusahaan> です",
+              "kalimat": "\u003cサントス::Santos\u003e さん も　\u003c会社員:かいしゃいん:pegawai perusahaan\u003e です",
               "terjemahan": "Sdr. Santos juga pegawai perusahaan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> も　<学生:がくせい:mahasiswa> です",
+              "kalimat": "\u003c私:わたし:saya\u003e も　\u003c学生:がくせい:mahasiswa\u003e です",
               "terjemahan": "Saya juga mahasiswa."
             }
           }
@@ -124,14 +124,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は　<IMC::IMC> の <社員:しゃいん:karyawan> です",
+              "kalimat": "\u003c私:わたし:saya\u003e は　\u003cIMC::IMC\u003e の \u003c社員:しゃいん:karyawan\u003e です",
               "terjemahan": "Saya adalah karyawan IMC."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<ミラー::Miller> さん は　<大学:だいがく:universitas> の <学生:がくせい:mahasiswa> です",
+              "kalimat": "\u003cミラー::Miller\u003e さん は　\u003c大学:だいがく:universitas\u003e の \u003c学生:がくせい:mahasiswa\u003e です",
               "terjemahan": "Sdr. Miller adalah mahasiswa universitas."
             }
           }
@@ -146,14 +146,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<ミラー::Miller> さん は　<会社員:かいしゃいん:pegawai perusahaan> です",
+              "kalimat": "\u003cミラー::Miller\u003e さん は　\u003c会社員:かいしゃいん:pegawai perusahaan\u003e です",
               "terjemahan": "Sdr. Miller adalah pegawai perusahaan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<田中:たなか:Tanaka> さん は　<先生:せんせい:guru> です",
+              "kalimat": "\u003c田中:たなか:Tanaka\u003e さん は　\u003c先生:せんせい:guru\u003e です",
               "terjemahan": "Sdr. Tanaka adalah guru."
             }
           }
@@ -175,17 +175,17 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "これ は　<私:わたし:saya> の <本:ほん:buku> です",
+              "kalimat": "これ は　\u003c私:わたし:saya\u003e の \u003c本:ほん:buku\u003e です",
               "terjemahan": "Ini buku saya."
             }
           },
           {
             "pertanyaan": {
-              "kalimat": "それ は　<何:なん:apa> ですか",
+              "kalimat": "それ は　\u003c何:なん:apa\u003e ですか",
               "terjemahan": "Itu apa?"
             },
             "jawaban": {
-              "kalimat": "これ は　<辞書:じしょ:kamus> です",
+              "kalimat": "これ は　\u003c辞書:じしょ:kamus\u003e です",
               "terjemahan": "Ini kamus."
             }
           }
@@ -200,14 +200,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <本:ほん:buku> は　<私:わたし:saya> の です",
+              "kalimat": "この \u003c本:ほん:buku\u003e は　\u003c私:わたし:saya\u003e の です",
               "terjemahan": "Buku ini milik saya."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "あの <人:ひと:orang> は　<ミラー::Miller> さん です",
+              "kalimat": "あの \u003c人:ひと:orang\u003e は　\u003cミラー::Miller\u003e さん です",
               "terjemahan": "Orang itu adalah Sdr. Miller."
             }
           }
@@ -222,14 +222,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <傘:かさ:payung> は　<私:わたし:saya> の です",
+              "kalimat": "この \u003c傘:かさ:payung\u003e は　\u003c私:わたし:saya\u003e の です",
               "terjemahan": "Payung ini milik saya."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "あの <車:くるま:mobil> は　<田中:たなか:Tanaka> さん の です",
+              "kalimat": "あの \u003c車:くるま:mobil\u003e は　\u003c田中:たなか:Tanaka\u003e さん の です",
               "terjemahan": "Mobil itu milik Sdr. Tanaka."
             }
           }
@@ -243,7 +243,7 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "それ は　<辞書:じしょ:kamus> ですか",
+              "kalimat": "それ は　\u003c辞書:じしょ:kamus\u003e ですか",
               "terjemahan": "Apakah itu kamus?"
             },
             "jawaban": {
@@ -253,11 +253,11 @@
           },
           {
             "pertanyaan": {
-              "kalimat": "これ は　<雑誌:ざっし:majalah> ですか",
+              "kalimat": "これ は　\u003c雑誌:ざっし:majalah\u003e ですか",
               "terjemahan": "Apakah ini majalah?"
             },
             "jawaban": {
-              "kalimat": "いいえ、そうじゃありません。<辞書:じしょ:kamus> です",
+              "kalimat": "いいえ、そうじゃありません。\u003c辞書:じしょ:kamus\u003e です",
               "terjemahan": "Tidak, bukan. Ini kamus."
             }
           }
@@ -279,14 +279,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "ここ は　<食堂:しょくどう:kantin> です",
+              "kalimat": "ここ は　\u003c食堂:しょくどう:kantin\u003e です",
               "terjemahan": "Di sini adalah kantin."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "そこ は　<受付:うけつけ:resepsionis> です",
+              "kalimat": "そこ は　\u003c受付:うけつけ:resepsionis\u003e です",
               "terjemahan": "Di situ adalah resepsionis."
             }
           }
@@ -301,14 +301,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<エレベーター::lift> は　あそこ です",
+              "kalimat": "\u003cエレベーター::lift\u003e は　あそこ です",
               "terjemahan": "Lift ada di sana."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<受付:うけつけ:resepsionis> は　<１階:いっかい:lantai satu> です",
+              "kalimat": "\u003c受付:うけつけ:resepsionis\u003e は　\u003c１階:いっかい:lantai satu\u003e です",
               "terjemahan": "Resepsionis ada di lantai 1."
             }
           }
@@ -322,7 +322,7 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "<受付:うけつけ:resepsionis> は　どこ ですか",
+              "kalimat": "\u003c受付:うけつけ:resepsionis\u003e は　どこ ですか",
               "terjemahan": "Resepsionis di mana?"
             },
             "jawaban": {
@@ -332,11 +332,11 @@
           },
           {
             "pertanyaan": {
-              "kalimat": "<トイレ::toilet> は　どこ ですか",
+              "kalimat": "\u003cトイレ::toilet\u003e は　どこ ですか",
               "terjemahan": "Toilet di mana?"
             },
             "jawaban": {
-              "kalimat": "<２階:にかい:lantai dua> です",
+              "kalimat": "\u003c２階:にかい:lantai dua\u003e です",
               "terjemahan": "Di lantai 2."
             }
           }
@@ -350,11 +350,11 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "この <傘:かさ:payung> は　いくら ですか",
+              "kalimat": "この \u003c傘:かさ:payung\u003e は　いくら ですか",
               "terjemahan": "Payung ini berapa harganya?"
             },
             "jawaban": {
-              "kalimat": "<３０００円:さんぜんえん:3000 yen> です",
+              "kalimat": "\u003c３０００円:さんぜんえん:3000 yen\u003e です",
               "terjemahan": "3000 yen."
             }
           }
@@ -369,14 +369,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<食堂:しょくどう:kantin> は　<７階:ななかい:lantai tujuh> です",
+              "kalimat": "\u003c食堂:しょくどう:kantin\u003e は　\u003c７階:ななかい:lantai tujuh\u003e です",
               "terjemahan": "Kantin ada di lantai 7."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<売り場:うりば:tempat penjualan> は　<３階:さんかい:lantai tiga> です",
+              "kalimat": "\u003c売り場:うりば:tempat penjualan\u003e は　\u003c３階:さんかい:lantai tiga\u003e です",
               "terjemahan": "Tempat penjualan ada di lantai 3."
             }
           }
@@ -391,14 +391,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<トイレ::toilet> も　<２階:にかい:lantai dua> です",
+              "kalimat": "\u003cトイレ::toilet\u003e も　\u003c２階:にかい:lantai dua\u003e です",
               "terjemahan": "Toilet juga ada di lantai 2."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<電話:でんわ:telepon> も　あそこ です",
+              "kalimat": "\u003c電話:でんわ:telepon\u003e も　あそこ です",
               "terjemahan": "Telepon juga ada di sana."
             }
           }
@@ -420,21 +420,21 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<毎朝:まいあさ:setiap pagi> <６時:ろくじ:jam enam> に <起きます:おきます:bangun>",
+              "kalimat": "\u003c毎朝:まいあさ:setiap pagi\u003e \u003c６時:ろくじ:jam enam\u003e に \u003c起きます:おきます:bangun\u003e",
               "terjemahan": "Setiap pagi bangun jam 6."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<昨日:きのう:kemarin> <勉強しました:べんきょうしました:belajar>",
+              "kalimat": "\u003c昨日:きのう:kemarin\u003e \u003c勉強しました:べんきょうしました:belajar\u003e",
               "terjemahan": "Kemarin belajar."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<昨日:きのう:kemarin> <勉強しませんでした:べんきょうしませんでした:tidak belajar>",
+              "kalimat": "\u003c昨日:きのう:kemarin\u003e \u003c勉強しませんでした:べんきょうしませんでした:tidak belajar\u003e",
               "terjemahan": "Kemarin tidak belajar."
             }
           }
@@ -449,14 +449,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<毎晩:まいばん:setiap malam> <１１時:じゅういちじ:jam sebelas> に <寝ます:ねます:tidur>",
+              "kalimat": "\u003c毎晩:まいばん:setiap malam\u003e \u003c１１時:じゅういちじ:jam sebelas\u003e に \u003c寝ます:ねます:tidur\u003e",
               "terjemahan": "Setiap malam tidur jam 11."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<日曜日:にちようび:Minggu> に <働きません:はたらきません:tidak bekerja>",
+              "kalimat": "\u003c日曜日:にちようび:Minggu\u003e に \u003c働きません:はたらきません:tidak bekerja\u003e",
               "terjemahan": "Pada hari Minggu tidak bekerja."
             }
           }
@@ -471,14 +471,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<９時:くじ:jam sembilan> から <５時:ごじ:jam lima> まで <働きます:はたらきます:bekerja>",
+              "kalimat": "\u003c９時:くじ:jam sembilan\u003e から \u003c５時:ごじ:jam lima\u003e まで \u003c働きます:はたらきます:bekerja\u003e",
               "terjemahan": "Bekerja dari jam 9 sampai jam 5."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<月曜日:げつようび:Senin> から <金曜日:きんようび:Jumat> まで <働きます:はたらきます:bekerja>",
+              "kalimat": "\u003c月曜日:げつようび:Senin\u003e から \u003c金曜日:きんようび:Jumat\u003e まで \u003c働きます:はたらきます:bekerja\u003e",
               "terjemahan": "Bekerja dari hari Senin sampai Jumat."
             }
           }
@@ -493,14 +493,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<土曜日:どようび:Sabtu> と <日曜日:にちようび:Minggu> は <休みます:やすみます:libur>",
+              "kalimat": "\u003c土曜日:どようび:Sabtu\u003e と \u003c日曜日:にちようび:Minggu\u003e は \u003c休みます:やすみます:libur\u003e",
               "terjemahan": "Sabtu dan Minggu libur."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<月曜日:げつようび:Senin> と <水曜日:すいようび:Rabu> に <働きます:はたらきます:bekerja>",
+              "kalimat": "\u003c月曜日:げつようび:Senin\u003e と \u003c水曜日:すいようび:Rabu\u003e に \u003c働きます:はたらきます:bekerja\u003e",
               "terjemahan": "Bekerja pada hari Senin dan Rabu."
             }
           }
@@ -515,14 +515,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<ミラー::Miller> さん は　<会社員:かいしゃいん:pegawai perusahaan> です ね",
+              "kalimat": "\u003cミラー::Miller\u003e さん は　\u003c会社員:かいしゃいん:pegawai perusahaan\u003e です ね",
               "terjemahan": "Sdr. Miller pegawai perusahaan, ya."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "これ は　<私:わたし:saya> の <本:ほん:buku> です よ",
+              "kalimat": "これ は　\u003c私:わたし:saya\u003e の \u003c本:ほん:buku\u003e です よ",
               "terjemahan": "Ini buku saya, lho."
             }
           }
@@ -537,14 +537,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<毎日:まいにち:setiap hari> <２時間:にじかん:dua jam> <勉強します:べんきょうします:belajar>",
+              "kalimat": "\u003c毎日:まいにち:setiap hari\u003e \u003c２時間:にじかん:dua jam\u003e \u003c勉強します:べんきょうします:belajar\u003e",
               "terjemahan": "Setiap hari belajar 2 jam."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<毎朝:まいあさ:setiap pagi> <３０分:さんじゅっぷん:30 menit> <走ります:はしります:berlari>",
+              "kalimat": "\u003c毎朝:まいあさ:setiap pagi\u003e \u003c３０分:さんじゅっぷん:30 menit\u003e \u003c走ります:はしります:berlari\u003e",
               "terjemahan": "Setiap pagi berlari 30 menit."
             }
           }
@@ -566,14 +566,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<明日:あした:besok> <京都:きょうと:Kyoto> へ <行きます:いきます:pergi>",
+              "kalimat": "\u003c明日:あした:besok\u003e \u003c京都:きょうと:Kyoto\u003e へ \u003c行きます:いきます:pergi\u003e",
               "terjemahan": "Besok pergi ke Kyoto."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<来週:らいしゅう:minggu depan> <日本:にほん:Jepang> へ <来ます:きます:datang>",
+              "kalimat": "\u003c来週:らいしゅう:minggu depan\u003e \u003c日本:にほん:Jepang\u003e へ \u003c来ます:きます:datang\u003e",
               "terjemahan": "Minggu depan datang ke Jepang."
             }
           }
@@ -588,14 +588,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<学校:がっこう:sekolah> へ <バス::bus> で <行きます:いきます:pergi>",
+              "kalimat": "\u003c学校:がっこう:sekolah\u003e へ \u003cバス::bus\u003e で \u003c行きます:いきます:pergi\u003e",
               "terjemahan": "Pergi ke sekolah naik bus."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<日本:にほん:Jepang> へ <飛行機:ひこうき:pesawat> で <行きます:いきます:pergi>",
+              "kalimat": "\u003c日本:にほん:Jepang\u003e へ \u003c飛行機:ひこうき:pesawat\u003e で \u003c行きます:いきます:pergi\u003e",
               "terjemahan": "Pergi ke Jepang naik pesawat."
             }
           }
@@ -610,14 +610,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<友達:ともだち:teman> と <京都:きょうと:Kyoto> へ <行きます:いきます:pergi>",
+              "kalimat": "\u003c友達:ともだち:teman\u003e と \u003c京都:きょうと:Kyoto\u003e へ \u003c行きます:いきます:pergi\u003e",
               "terjemahan": "Pergi ke Kyoto bersama teman."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<家族:かぞく:keluarga> と <日本:にほん:Jepang> へ <来ました:きました:datang>",
+              "kalimat": "\u003c家族:かぞく:keluarga\u003e と \u003c日本:にほん:Jepang\u003e へ \u003c来ました:きました:datang\u003e",
               "terjemahan": "Datang ke Jepang bersama keluarga."
             }
           }
@@ -631,21 +631,21 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "いつ <日本:にほん:Jepang> へ <来ました:きました:datang> か",
+              "kalimat": "いつ \u003c日本:にほん:Jepang\u003e へ \u003c来ました:きました:datang\u003e か",
               "terjemahan": "Kapan datang ke Jepang?"
             },
             "jawaban": {
-              "kalimat": "<去年:きょねん:tahun lalu> の <３月:さんがつ:Maret> です",
+              "kalimat": "\u003c去年:きょねん:tahun lalu\u003e の \u003c３月:さんがつ:Maret\u003e です",
               "terjemahan": "Maret tahun lalu."
             }
           },
           {
             "pertanyaan": {
-              "kalimat": "いつ <京都:きょうと:Kyoto> へ <行きます:いきます:pergi> か",
+              "kalimat": "いつ \u003c京都:きょうと:Kyoto\u003e へ \u003c行きます:いきます:pergi\u003e か",
               "terjemahan": "Kapan pergi ke Kyoto?"
             },
             "jawaban": {
-              "kalimat": "<来週:らいしゅう:minggu depan> です",
+              "kalimat": "\u003c来週:らいしゅう:minggu depan\u003e です",
               "terjemahan": "Minggu depan."
             }
           }
@@ -667,14 +667,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<毎朝:まいあさ:setiap pagi> <パン::roti> を <食べます:たべます:makan>",
+              "kalimat": "\u003c毎朝:まいあさ:setiap pagi\u003e \u003cパン::roti\u003e を \u003c食べます:たべます:makan\u003e",
               "terjemahan": "Setiap pagi makan roti."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<昨日:きのう:kemarin> <映画:えいが:film> を <見ました:みました:menonton>",
+              "kalimat": "\u003c昨日:きのう:kemarin\u003e \u003c映画:えいが:film\u003e を \u003c見ました:みました:menonton\u003e",
               "terjemahan": "Kemarin menonton film."
             }
           }
@@ -689,14 +689,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<図書館:としょかん:perpustakaan> で <本:ほん:buku> を <読みます:よみます:membaca>",
+              "kalimat": "\u003c図書館:としょかん:perpustakaan\u003e で \u003c本:ほん:buku\u003e を \u003c読みます:よみます:membaca\u003e",
               "terjemahan": "Membaca buku di perpustakaan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<食堂:しょくどう:kantin> で <昼ご飯:ひるごはん:makan siang> を <食べます:たべます:makan>",
+              "kalimat": "\u003c食堂:しょくどう:kantin\u003e で \u003c昼ご飯:ひるごはん:makan siang\u003e を \u003c食べます:たべます:makan\u003e",
               "terjemahan": "Makan siang di kantin."
             }
           }
@@ -710,21 +710,21 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "<一緒:いっしょ:bersama> に <映画:えいが:film> を <見ませんか:みませんか:mau menonton?>",
+              "kalimat": "\u003c一緒:いっしょ:bersama\u003e に \u003c映画:えいが:film\u003e を \u003c見ませんか:みませんか:mau menonton?\u003e",
               "terjemahan": "Mau menonton film bersama?"
             },
             "jawaban": {
-              "kalimat": "ええ、<見ましょう:みましょう:mari menonton>",
+              "kalimat": "ええ、\u003c見ましょう:みましょう:mari menonton\u003e",
               "terjemahan": "Ya, ayo menonton."
             }
           },
           {
             "pertanyaan": {
-              "kalimat": "<一緒:いっしょ:bersama> に <昼ご飯:ひるごはん:makan siang> を <食べませんか:たべませんか:mau makan?>",
+              "kalimat": "\u003c一緒:いっしょ:bersama\u003e に \u003c昼ご飯:ひるごはん:makan siang\u003e を \u003c食べませんか:たべませんか:mau makan?\u003e",
               "terjemahan": "Mau makan siang bersama?"
             },
             "jawaban": {
-              "kalimat": "ええ、<食べましょう:たべましょう:mari makan>",
+              "kalimat": "ええ、\u003c食べましょう:たべましょう:mari makan\u003e",
               "terjemahan": "Ya, ayo makan."
             }
           }
@@ -739,14 +739,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<少し:すこし:sebentar> <休みましょう:やすみましょう:mari istirahat>",
+              "kalimat": "\u003c少し:すこし:sebentar\u003e \u003c休みましょう:やすみましょう:mari istirahat\u003e",
               "terjemahan": "Mari istirahat sebentar."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<駅:えき:stasiun> で <会いましょう:あいましょう:mari bertemu>",
+              "kalimat": "\u003c駅:えき:stasiun\u003e で \u003c会いましょう:あいましょう:mari bertemu\u003e",
               "terjemahan": "Mari bertemu di stasiun."
             }
           }
@@ -768,14 +768,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<箸:はし:sumpit> で <ご飯:ごはん:nasi> を <食べます:たべます:makan>",
+              "kalimat": "\u003c箸:はし:sumpit\u003e で \u003cご飯:ごはん:nasi\u003e を \u003c食べます:たべます:makan\u003e",
               "terjemahan": "Makan nasi dengan sumpit."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<日本語:にほんご:bahasa Jepang> で <手紙:てがみ:surat> を <書きます:かきます:menulis>",
+              "kalimat": "\u003c日本語:にほんご:bahasa Jepang\u003e で \u003c手紙:てがみ:surat\u003e を \u003c書きます:かきます:menulis\u003e",
               "terjemahan": "Menulis surat dalam bahasa Jepang."
             }
           }
@@ -790,14 +790,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<田中:たなか:Tanaka> さん に <花:はな:bunga> を <あげます:あげます:memberi>",
+              "kalimat": "\u003c田中:たなか:Tanaka\u003e さん に \u003c花:はな:bunga\u003e を \u003cあげます:あげます:memberi\u003e",
               "terjemahan": "Memberi bunga kepada Sdr. Tanaka."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<友達:ともだち:teman> に <本:ほん:buku> を <あげました:あげました:memberi>",
+              "kalimat": "\u003c友達:ともだち:teman\u003e に \u003c本:ほん:buku\u003e を \u003cあげました:あげました:memberi\u003e",
               "terjemahan": "Memberi buku kepada teman."
             }
           }
@@ -812,14 +812,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<先生:せんせい:guru> に <辞書:じしょ:kamus> を <もらいました:もらいました:menerima>",
+              "kalimat": "\u003c先生:せんせい:guru\u003e に \u003c辞書:じしょ:kamus\u003e を \u003cもらいました:もらいました:menerima\u003e",
               "terjemahan": "Menerima kamus dari guru."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<友達:ともだち:teman> に <写真:しゃしん:foto> を <もらいます:もらいます:menerima>",
+              "kalimat": "\u003c友達:ともだち:teman\u003e に \u003c写真:しゃしん:foto\u003e を \u003cもらいます:もらいます:menerima\u003e",
               "terjemahan": "Menerima foto dari teman."
             }
           }
@@ -834,14 +834,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "もう <昼ご飯:ひるごはん:makan siang> を <食べました:たべました:makan>",
+              "kalimat": "もう \u003c昼ご飯:ひるごはん:makan siang\u003e を \u003c食べました:たべました:makan\u003e",
               "terjemahan": "Sudah makan siang."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "もう <宿題:しゅくだい:PR> を <しました:しました:melakukan>",
+              "kalimat": "もう \u003c宿題:しゅくだい:PR\u003e を \u003cしました:しました:melakukan\u003e",
               "terjemahan": "Sudah mengerjakan PR."
             }
           }
@@ -863,14 +863,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <本:ほん:buku> は <面白い:おもしろい:menarik> です",
+              "kalimat": "この \u003c本:ほん:buku\u003e は \u003c面白い:おもしろい:menarik\u003e です",
               "terjemahan": "Buku ini menarik."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <映画:えいが:film> は <面白くない:おもしろくない:tidak menarik> です",
+              "kalimat": "この \u003c映画:えいが:film\u003e は \u003c面白くない:おもしろくない:tidak menarik\u003e です",
               "terjemahan": "Film ini tidak menarik."
             }
           }
@@ -885,14 +885,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<京都:きょうと:Kyoto> は <静か:しずか:tenang> です",
+              "kalimat": "\u003c京都:きょうと:Kyoto\u003e は \u003c静か:しずか:tenang\u003e です",
               "terjemahan": "Kyoto tenang."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <部屋:へや:kamar> は <静かじゃありません:しずかじゃありません:tidak tenang>",
+              "kalimat": "この \u003c部屋:へや:kamar\u003e は \u003c静かじゃありません:しずかじゃありません:tidak tenang\u003e",
               "terjemahan": "Kamar ini tidak tenang."
             }
           }
@@ -907,14 +907,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "あの <人:ひと:orang> は <背:せ:tinggi badan> が <高い:たかい:tinggi> です",
+              "kalimat": "あの \u003c人:ひと:orang\u003e は \u003c背:せ:tinggi badan\u003e が \u003c高い:たかい:tinggi\u003e です",
               "terjemahan": "Orang itu tinggi."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<象:ぞう:gajah> は <鼻:はな:hidung> が <長い:ながい:panjang> です",
+              "kalimat": "\u003c象:ぞう:gajah\u003e は \u003c鼻:はな:hidung\u003e が \u003c長い:ながい:panjang\u003e です",
               "terjemahan": "Gajah berhidung panjang."
             }
           }
@@ -929,14 +929,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <料理:りょうり:masakan> は とても <おいしい:おいしい:enak> です",
+              "kalimat": "この \u003c料理:りょうり:masakan\u003e は とても \u003cおいしい:おいしい:enak\u003e です",
               "terjemahan": "Masakan ini sangat enak."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <部屋:へや:kamar> は あまり <広くない:ひろくない:tidak luas> です",
+              "kalimat": "この \u003c部屋:へや:kamar\u003e は あまり \u003c広くない:ひろくない:tidak luas\u003e です",
               "terjemahan": "Kamar ini tidak begitu luas."
             }
           }
@@ -950,11 +950,11 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "<奈良:なら:Nara> は どんな <町:まち:kota> ですか",
+              "kalimat": "\u003c奈良:なら:Nara\u003e は どんな \u003c町:まち:kota\u003e ですか",
               "terjemahan": "Nara itu kota seperti apa?"
             },
             "jawaban": {
-              "kalimat": "<静か:しずか:tenang> な <町:まち:kota> です",
+              "kalimat": "\u003c静か:しずか:tenang\u003e な \u003c町:まち:kota\u003e です",
               "terjemahan": "Kota yang tenang."
             }
           }
@@ -969,14 +969,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <レストラン::restoran> は <安い:やすい:murah> です が、<おいしくない:おいしくない:tidak enak> です",
+              "kalimat": "この \u003cレストラン::restoran\u003e は \u003c安い:やすい:murah\u003e です が、\u003cおいしくない:おいしくない:tidak enak\u003e です",
               "terjemahan": "Restoran ini murah, tetapi tidak enak."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <本:ほん:buku> は <面白い:おもしろい:menarik> です が、<高い:たかい:mahal> です",
+              "kalimat": "この \u003c本:ほん:buku\u003e は \u003c面白い:おもしろい:menarik\u003e です が、\u003c高い:たかい:mahal\u003e です",
               "terjemahan": "Buku ini menarik, tetapi mahal."
             }
           }
@@ -998,14 +998,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <日本:にほん:Jepang> の <料理:りょうり:masakan> が <好きです:すきです:suka>",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c日本:にほん:Jepang\u003e の \u003c料理:りょうり:masakan\u003e が \u003c好きです:すきです:suka\u003e",
               "terjemahan": "Saya suka masakan Jepang."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <野菜:やさい:sayur> が <嫌いです:きらいです:tidak suka>",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c野菜:やさい:sayur\u003e が \u003c嫌いです:きらいです:tidak suka\u003e",
               "terjemahan": "Saya tidak suka sayur."
             }
           }
@@ -1020,14 +1020,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<ミラー::Miller> さん は <日本語:にほんご:bahasa Jepang> が <上手:じょうず:pandai> です",
+              "kalimat": "\u003cミラー::Miller\u003e さん は \u003c日本語:にほんご:bahasa Jepang\u003e が \u003c上手:じょうず:pandai\u003e です",
               "terjemahan": "Sdr. Miller pandai bahasa Jepang."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <歌:うた:lagu> が <下手:へた:tidak pandai> です",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c歌:うた:lagu\u003e が \u003c下手:へた:tidak pandai\u003e です",
               "terjemahan": "Saya tidak pandai bernyanyi."
             }
           }
@@ -1042,14 +1042,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <日本語:にほんご:bahasa Jepang> が 少し <わかります:わかります:mengerti>",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c日本語:にほんご:bahasa Jepang\u003e が 少し \u003cわかります:わかります:mengerti\u003e",
               "terjemahan": "Saya sedikit mengerti bahasa Jepang."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<ミラー::Miller> さん は <漢字:かんじ:kanji> が <わかります:わかります:mengerti>",
+              "kalimat": "\u003cミラー::Miller\u003e さん は \u003c漢字:かんじ:kanji\u003e が \u003cわかります:わかります:mengerti\u003e",
               "terjemahan": "Sdr. Miller mengerti kanji."
             }
           }
@@ -1064,14 +1064,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <車:くるま:mobil> が あります",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c車:くるま:mobil\u003e が あります",
               "terjemahan": "Saya punya mobil."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<田中:たなか:Tanaka> さん は <時間:じかん:waktu> が あります",
+              "kalimat": "\u003c田中:たなか:Tanaka\u003e さん は \u003c時間:じかん:waktu\u003e が あります",
               "terjemahan": "Sdr. Tanaka punya waktu."
             }
           }
@@ -1086,14 +1086,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <新しい:あたらしい:baru> <車:くるま:mobil> が <ほしいです:ほしいです:ingin>",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c新しい:あたらしい:baru\u003e \u003c車:くるま:mobil\u003e が \u003cほしいです:ほしいです:ingin\u003e",
               "terjemahan": "Saya ingin mobil baru."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <大きい:おおきい:besar> <家:いえ:rumah> が <ほしいです:ほしいです:ingin>",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c大きい:おおきい:besar\u003e \u003c家:いえ:rumah\u003e が \u003cほしいです:ほしいです:ingin\u003e",
               "terjemahan": "Saya ingin rumah besar."
             }
           }
@@ -1107,21 +1107,21 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "どうして <新聞:しんぶん:koran> を <読みません:よみません:tidak membaca> か",
+              "kalimat": "どうして \u003c新聞:しんぶん:koran\u003e を \u003c読みません:よみません:tidak membaca\u003e か",
               "terjemahan": "Mengapa tidak membaca koran?"
             },
             "jawaban": {
-              "kalimat": "<時間:じかん:waktu> が ありません から",
+              "kalimat": "\u003c時間:じかん:waktu\u003e が ありません から",
               "terjemahan": "Karena tidak ada waktu."
             }
           },
           {
             "pertanyaan": {
-              "kalimat": "どうして <毎日:まいにち:setiap hari> <日本語:にほんご:bahasa Jepang> を <勉強します:べんきょうします:belajar> か",
+              "kalimat": "どうして \u003c毎日:まいにち:setiap hari\u003e \u003c日本語:にほんご:bahasa Jepang\u003e を \u003c勉強します:べんきょうします:belajar\u003e か",
               "terjemahan": "Mengapa setiap hari belajar bahasa Jepang?"
             },
             "jawaban": {
-              "kalimat": "<日本語:にほんご:bahasa Jepang> が <好きです:すきです:suka> から",
+              "kalimat": "\u003c日本語:にほんご:bahasa Jepang\u003e が \u003c好きです:すきです:suka\u003e から",
               "terjemahan": "Karena suka bahasa Jepang."
             }
           }
@@ -1143,14 +1143,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<机:つくえ:meja> の <上:うえ:atas> に <本:ほん:buku> が あります",
+              "kalimat": "\u003c机:つくえ:meja\u003e の \u003c上:うえ:atas\u003e に \u003c本:ほん:buku\u003e が あります",
               "terjemahan": "Di atas meja ada buku."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<冷蔵庫:れいぞうこ:kulkas> の <中:なか:dalam> に <牛乳:ぎゅうにゅう:susu> が あります",
+              "kalimat": "\u003c冷蔵庫:れいぞうこ:kulkas\u003e の \u003c中:なか:dalam\u003e に \u003c牛乳:ぎゅうにゅう:susu\u003e が あります",
               "terjemahan": "Di dalam kulkas ada susu."
             }
           }
@@ -1165,14 +1165,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<教室:きょうしつ:ruang kelas> に <学生:がくせい:mahasiswa> が います",
+              "kalimat": "\u003c教室:きょうしつ:ruang kelas\u003e に \u003c学生:がくせい:mahasiswa\u003e が います",
               "terjemahan": "Di ruang kelas ada mahasiswa."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<庭:にわ:halaman> に <犬:いぬ:anjing> が います",
+              "kalimat": "\u003c庭:にわ:halaman\u003e に \u003c犬:いぬ:anjing\u003e が います",
               "terjemahan": "Di halaman ada anjing."
             }
           }
@@ -1187,14 +1187,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<ミラー::Miller> さん は <事務所:じむしょ:kantor> に います",
+              "kalimat": "\u003cミラー::Miller\u003e さん は \u003c事務所:じむしょ:kantor\u003e に います",
               "terjemahan": "Sdr. Miller ada di kantor."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<本:ほん:buku> は <机:つくえ:meja> の <上:うえ:atas> に あります",
+              "kalimat": "\u003c本:ほん:buku\u003e は \u003c机:つくえ:meja\u003e の \u003c上:うえ:atas\u003e に あります",
               "terjemahan": "Buku ada di atas meja."
             }
           }
@@ -1209,14 +1209,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<机:つくえ:meja> の <下:した:bawah> に <猫:ねこ:kucing> が います",
+              "kalimat": "\u003c机:つくえ:meja\u003e の \u003c下:した:bawah\u003e に \u003c猫:ねこ:kucing\u003e が います",
               "terjemahan": "Di bawah meja ada kucing."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<駅:えき:stasiun> の <前:まえ:depan> に <店:みせ:toko> が あります",
+              "kalimat": "\u003c駅:えき:stasiun\u003e の \u003c前:まえ:depan\u003e に \u003c店:みせ:toko\u003e が あります",
               "terjemahan": "Di depan stasiun ada toko."
             }
           }
@@ -1230,21 +1230,21 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "<切手:きって:perangko> は どこ に あります か",
+              "kalimat": "\u003c切手:きって:perangko\u003e は どこ に あります か",
               "terjemahan": "Di mana ada perangko?"
             },
             "jawaban": {
-              "kalimat": "<引き出し:ひきだし:laci> の <中:なか:dalam> に あります",
+              "kalimat": "\u003c引き出し:ひきだし:laci\u003e の \u003c中:なか:dalam\u003e に あります",
               "terjemahan": "Ada di dalam laci."
             }
           },
           {
             "pertanyaan": {
-              "kalimat": "<ミラー::Miller> さん は どこ に います か",
+              "kalimat": "\u003cミラー::Miller\u003e さん は どこ に います か",
               "terjemahan": "Di mana Sdr. Miller?"
             },
             "jawaban": {
-              "kalimat": "<会議室:かいぎしつ:ruang rapat> に います",
+              "kalimat": "\u003c会議室:かいぎしつ:ruang rapat\u003e に います",
               "terjemahan": "Di ruang rapat."
             }
           }
@@ -1259,14 +1259,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<机:つくえ:meja> の 上に <本:ほん:buku> や <ペン::pena> などが あります",
+              "kalimat": "\u003c机:つくえ:meja\u003e の 上に \u003c本:ほん:buku\u003e や \u003cペン::pena\u003e などが あります",
               "terjemahan": "Di atas meja ada buku, pena, dan lain-lain."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<冷蔵庫:れいぞうこ:kulkas> の 中に <野菜:やさい:sayur> や <肉:にく:daging> などが あります",
+              "kalimat": "\u003c冷蔵庫:れいぞうこ:kulkas\u003e の 中に \u003c野菜:やさい:sayur\u003e や \u003c肉:にく:daging\u003e などが あります",
               "terjemahan": "Di dalam kulkas ada sayur, daging, dan lain-lain."
             }
           }
@@ -1288,14 +1288,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "りんご を　<４つ:よっつ:empat buah> <買います:かいます:membeli>",
+              "kalimat": "りんご を　\u003c４つ:よっつ:empat buah\u003e \u003c買います:かいます:membeli\u003e",
               "terjemahan": "Membeli empat apel."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<切手:きって:perangko> を　<３枚:さんまい:tiga lembar> <買います:かいます:membeli>",
+              "kalimat": "\u003c切手:きって:perangko\u003e を　\u003c３枚:さんまい:tiga lembar\u003e \u003c買います:かいます:membeli\u003e",
               "terjemahan": "Membeli tiga lembar perangko."
             }
           }
@@ -1310,14 +1310,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<家:いえ:rumah> から <駅:えき:stasiun> まで <１０分:じゅっぷん:10 menit> ぐらい かかります",
+              "kalimat": "\u003c家:いえ:rumah\u003e から \u003c駅:えき:stasiun\u003e まで \u003c１０分:じゅっぷん:10 menit\u003e ぐらい かかります",
               "terjemahan": "Dari rumah ke stasiun memakan waktu sekitar 10 menit."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<３０人:さんじゅうにん:30 orang> ぐらい <来ました:きました:datang>",
+              "kalimat": "\u003c３０人:さんじゅうにん:30 orang\u003e ぐらい \u003c来ました:きました:datang\u003e",
               "terjemahan": "Sekitar 30 orang datang."
             }
           }
@@ -1331,11 +1331,11 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "<大阪:おおさか:Osaka> から <東京:とうきょう:Tokyo> まで どのくらい かかります か",
+              "kalimat": "\u003c大阪:おおさか:Osaka\u003e から \u003c東京:とうきょう:Tokyo\u003e まで どのくらい かかります か",
               "terjemahan": "Dari Osaka ke Tokyo berapa lama?"
             },
             "jawaban": {
-              "kalimat": "<新幹線:しんかんせん:Shinkansen> で <２時間半:にじかんはん:dua setengah jam> ぐらい です",
+              "kalimat": "\u003c新幹線:しんかんせん:Shinkansen\u003e で \u003c２時間半:にじかんはん:dua setengah jam\u003e ぐらい です",
               "terjemahan": "Sekitar dua setengah jam dengan Shinkansen."
             }
           }
@@ -1350,14 +1350,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<１か月:いっかげつ:satu bulan> に <２回:にかい:dua kali> <映画:えいが:film> を <見ます:みます:menonton>",
+              "kalimat": "\u003c１か月:いっかげつ:satu bulan\u003e に \u003c２回:にかい:dua kali\u003e \u003c映画:えいが:film\u003e を \u003c見ます:みます:menonton\u003e",
               "terjemahan": "Sebulan dua kali menonton film."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<１週間:いっしゅうかん:satu minggu> に <３回:さんかい:tiga kali> <日本語:にほんご:bahasa Jepang> を <勉強します:べんきょうします:belajar>",
+              "kalimat": "\u003c１週間:いっしゅうかん:satu minggu\u003e に \u003c３回:さんかい:tiga kali\u003e \u003c日本語:にほんご:bahasa Jepang\u003e を \u003c勉強します:べんきょうします:belajar\u003e",
               "terjemahan": "Seminggu tiga kali belajar bahasa Jepang."
             }
           }
@@ -1372,14 +1372,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<朝ご飯:あさごはん:sarapan> は <パン::roti> だけ <食べます:たべます:makan>",
+              "kalimat": "\u003c朝ご飯:あさごはん:sarapan\u003e は \u003cパン::roti\u003e だけ \u003c食べます:たべます:makan\u003e",
               "terjemahan": "Sarapan hanya makan roti."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<日曜日:にちようび:Minggu> だけ <休みます:やすみます:libur>",
+              "kalimat": "\u003c日曜日:にちようび:Minggu\u003e だけ \u003c休みます:やすみます:libur\u003e",
               "terjemahan": "Hanya hari Minggu libur."
             }
           }
@@ -1394,14 +1394,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<毎日:まいにち:setiap hari> <２時間:にじかん:dua jam> <勉強します:べんきょうします:belajar>",
+              "kalimat": "\u003c毎日:まいにち:setiap hari\u003e \u003c２時間:にじかん:dua jam\u003e \u003c勉強します:べんきょうします:belajar\u003e",
               "terjemahan": "Setiap hari belajar dua jam."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<日本:にほん:Jepang> に <１年:いちねん:satu tahun> います",
+              "kalimat": "\u003c日本:にほん:Jepang\u003e に \u003c１年:いちねん:satu tahun\u003e います",
               "terjemahan": "Tinggal di Jepang selama satu tahun."
             }
           }
@@ -1423,14 +1423,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<昨日:きのう:kemarin> は <日曜日:にちようび:Minggu> でした",
+              "kalimat": "\u003c昨日:きのう:kemarin\u003e は \u003c日曜日:にちようび:Minggu\u003e でした",
               "terjemahan": "Kemarin adalah hari Minggu."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<一昨日:おととい:kemarin lusa> は <休み:やすみ:libur> じゃありませんでした",
+              "kalimat": "\u003c一昨日:おととい:kemarin lusa\u003e は \u003c休み:やすみ:libur\u003e じゃありませんでした",
               "terjemahan": "Kemarin lusa bukan hari libur."
             }
           }
@@ -1445,14 +1445,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<昨日:きのう:kemarin> は <暑かった:あつかった:panas> です",
+              "kalimat": "\u003c昨日:きのう:kemarin\u003e は \u003c暑かった:あつかった:panas\u003e です",
               "terjemahan": "Kemarin panas."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<昨日:きのう:kemarin> は <寒くなかった:さむくなかった:tidak dingin> です",
+              "kalimat": "\u003c昨日:きのう:kemarin\u003e は \u003c寒くなかった:さむくなかった:tidak dingin\u003e です",
               "terjemahan": "Kemarin tidak dingin."
             }
           }
@@ -1467,14 +1467,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<奈良:なら:Nara> は <静か:しずか:tenang> でした",
+              "kalimat": "\u003c奈良:なら:Nara\u003e は \u003c静か:しずか:tenang\u003e でした",
               "terjemahan": "Nara tenang."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<京都:きょうと:Kyoto> は <静か:しずか:tenang> じゃありませんでした",
+              "kalimat": "\u003c京都:きょうと:Kyoto\u003e は \u003c静か:しずか:tenang\u003e じゃありませんでした",
               "terjemahan": "Kyoto tidak tenang."
             }
           }
@@ -1489,14 +1489,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<東京:とうきょう:Tokyo> は <大阪:おおさか:Osaka> より <大きい:おおきい:besar> です",
+              "kalimat": "\u003c東京:とうきょう:Tokyo\u003e は \u003c大阪:おおさか:Osaka\u003e より \u003c大きい:おおきい:besar\u003e です",
               "terjemahan": "Tokyo lebih besar daripada Osaka."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<新幹線:しんかんせん:Shinkansen> は <バス::bus> より <速い:はやい:cepat> です",
+              "kalimat": "\u003c新幹線:しんかんせん:Shinkansen\u003e は \u003cバス::bus\u003e より \u003c速い:はやい:cepat\u003e です",
               "terjemahan": "Shinkansen lebih cepat daripada bus."
             }
           }
@@ -1510,11 +1510,11 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "<日本:にほん:Jepang> と <中国:ちゅうごく:China> と どちらが <広い:ひろい:luas> ですか",
+              "kalimat": "\u003c日本:にほん:Jepang\u003e と \u003c中国:ちゅうごく:China\u003e と どちらが \u003c広い:ひろい:luas\u003e ですか",
               "terjemahan": "Mana yang lebih luas, Jepang atau China?"
             },
             "jawaban": {
-              "kalimat": "<中国:ちゅうごく:China> の ほうが <広い:ひろい:luas> です",
+              "kalimat": "\u003c中国:ちゅうごく:China\u003e の ほうが \u003c広い:ひろい:luas\u003e です",
               "terjemahan": "China lebih luas."
             }
           }
@@ -1529,14 +1529,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<日本:にほん:Jepang> の 中で <富士山:ふじさん:Gunung Fuji> が 一番 <高い:たかい:tinggi> です",
+              "kalimat": "\u003c日本:にほん:Jepang\u003e の 中で \u003c富士山:ふじさん:Gunung Fuji\u003e が 一番 \u003c高い:たかい:tinggi\u003e です",
               "terjemahan": "Di Jepang, Gunung Fuji yang paling tinggi."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<果物:くだもの:buah> の 中で <りんご::apel> が 一番 <好きです:すきです:suka>",
+              "kalimat": "\u003c果物:くだもの:buah\u003e の 中で \u003cりんご::apel\u003e が 一番 \u003c好きです:すきです:suka\u003e",
               "terjemahan": "Di antara buah-buahan, saya paling suka apel."
             }
           }
@@ -1551,14 +1551,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<東京:とうきょう:Tokyo> は <大阪:おおさか:Osaka> ほど <暑くない:あつくない:tidak panas> です",
+              "kalimat": "\u003c東京:とうきょう:Tokyo\u003e は \u003c大阪:おおさか:Osaka\u003e ほど \u003c暑くない:あつくない:tidak panas\u003e です",
               "terjemahan": "Tokyo tidak sepanas Osaka."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<今日:きょう:hari ini> は <昨日:きのう:kemarin> ほど <寒くない:さむくない:tidak dingin> です",
+              "kalimat": "\u003c今日:きょう:hari ini\u003e は \u003c昨日:きのう:kemarin\u003e ほど \u003c寒くない:さむくない:tidak dingin\u003e です",
               "terjemahan": "Hari ini tidak sedingin kemarin."
             }
           }
@@ -1580,14 +1580,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <新しい:あたらしい:baru> <車:くるま:mobil> が <ほしいです:ほしいです:ingin>",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c新しい:あたらしい:baru\u003e \u003c車:くるま:mobil\u003e が \u003cほしいです:ほしいです:ingin\u003e",
               "terjemahan": "Saya ingin mobil baru."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <時間:じかん:waktu> が <ほしいです:ほしいです:ingin>",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c時間:じかん:waktu\u003e が \u003cほしいです:ほしいです:ingin\u003e",
               "terjemahan": "Saya ingin waktu."
             }
           }
@@ -1602,14 +1602,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<日本:にほん:Jepang> へ <行きたい:いきたい:ingin pergi> です",
+              "kalimat": "\u003c日本:にほん:Jepang\u003e へ \u003c行きたい:いきたい:ingin pergi\u003e です",
               "terjemahan": "Saya ingin pergi ke Jepang."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<寿司:すし:sushi> を <食べたい:たべたい:ingin makan> です",
+              "kalimat": "\u003c寿司:すし:sushi\u003e を \u003c食べたい:たべたい:ingin makan\u003e です",
               "terjemahan": "Saya ingin makan sushi."
             }
           }
@@ -1624,14 +1624,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<京都:きょうと:Kyoto> へ <桜:さくら:sakura> を <見:み:melihat> に <行きます:いきます:pergi>",
+              "kalimat": "\u003c京都:きょうと:Kyoto\u003e へ \u003c桜:さくら:sakura\u003e を \u003c見:み:melihat\u003e に \u003c行きます:いきます:pergi\u003e",
               "terjemahan": "Pergi ke Kyoto untuk melihat sakura."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<デパート::department store> へ <買い物:かいもの:belanja> に <行きます:いきます:pergi>",
+              "kalimat": "\u003cデパート::department store\u003e へ \u003c買い物:かいもの:belanja\u003e に \u003c行きます:いきます:pergi\u003e",
               "terjemahan": "Pergi ke department store untuk berbelanja."
             }
           }
@@ -1645,11 +1645,11 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "<日本:にほん:Jepang> へ <何:なに:apa> を しに <来ました:きました:datang> か",
+              "kalimat": "\u003c日本:にほん:Jepang\u003e へ \u003c何:なに:apa\u003e を しに \u003c来ました:きました:datang\u003e か",
               "terjemahan": "Datang ke Jepang untuk melakukan apa?"
             },
             "jawaban": {
-              "kalimat": "<日本語:にほんご:bahasa Jepang> を <勉強し:べんきょうし:belajar> に <来ました:きました:datang>",
+              "kalimat": "\u003c日本語:にほんご:bahasa Jepang\u003e を \u003c勉強し:べんきょうし:belajar\u003e に \u003c来ました:きました:datang\u003e",
               "terjemahan": "Datang untuk belajar bahasa Jepang."
             }
           }
@@ -1671,14 +1671,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "ちょっと <待って:まって:menunggu> ください",
+              "kalimat": "ちょっと \u003c待って:まって:menunggu\u003e ください",
               "terjemahan": "Tolong tunggu sebentar."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "ここ に <名前:なまえ:nama> を <書いて:かいて:menulis> ください",
+              "kalimat": "ここ に \u003c名前:なまえ:nama\u003e を \u003c書いて:かいて:menulis\u003e ください",
               "terjemahan": "Tolong tulis nama di sini."
             }
           }
@@ -1693,14 +1693,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<今:いま:sekarang> <ご飯:ごはん:nasi> を <食べています:たべています:sedang makan>",
+              "kalimat": "\u003c今:いま:sekarang\u003e \u003cご飯:ごはん:nasi\u003e を \u003c食べています:たべています:sedang makan\u003e",
               "terjemahan": "Sekarang sedang makan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<ミラー::Miller> さん は <電話:でんわ:telepon> を かけています",
+              "kalimat": "\u003cミラー::Miller\u003e さん は \u003c電話:でんわ:telepon\u003e を かけています",
               "terjemahan": "Sdr. Miller sedang menelepon."
             }
           }
@@ -1715,14 +1715,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<荷物:にもつ:barang> を <持ちましょうか:もちましょうか:mau membawa?>",
+              "kalimat": "\u003c荷物:にもつ:barang\u003e を \u003c持ちましょうか:もちましょうか:mau membawa?\u003e",
               "terjemahan": "Mau saya bantu membawa barang?"
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<タクシー::taksi> を <呼びましょうか:よびましょうか:mau memanggilkan?>",
+              "kalimat": "\u003cタクシー::taksi\u003e を \u003c呼びましょうか:よびましょうか:mau memanggilkan?\u003e",
               "terjemahan": "Mau saya panggilkan taksi?"
             }
           }
@@ -1743,7 +1743,7 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "ここ に <座って:すわって:duduk> も いいですか",
+              "kalimat": "ここ に \u003c座って:すわって:duduk\u003e も いいですか",
               "terjemahan": "Boleh saya duduk di sini?"
             },
             "jawaban": {
@@ -1753,7 +1753,7 @@
           },
           {
             "pertanyaan": {
-              "kalimat": "<写真:しゃしん:foto> を <撮って:とって:mengambil> も いいですか",
+              "kalimat": "\u003c写真:しゃしん:foto\u003e を \u003c撮って:とって:mengambil\u003e も いいですか",
               "terjemahan": "Boleh saya mengambil foto?"
             },
             "jawaban": {
@@ -1772,14 +1772,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "ここ で <タバコ::rokok> を <吸って:すって:menghisap> は いけません",
+              "kalimat": "ここ で \u003cタバコ::rokok\u003e を \u003c吸って:すって:menghisap\u003e は いけません",
               "terjemahan": "Dilarang merokok di sini."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<授業中:じゅぎょうちゅう:saat pelajaran> に <話して:はなして:berbicara> は いけません",
+              "kalimat": "\u003c授業中:じゅぎょうちゅう:saat pelajaran\u003e に \u003c話して:はなして:berbicara\u003e は いけません",
               "terjemahan": "Dilarang berbicara saat pelajaran."
             }
           }
@@ -1794,17 +1794,17 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <東京:とうきょう:Tokyo> に <住んでいます:すんでいます:tinggal>",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c東京:とうきょう:Tokyo\u003e に \u003c住んでいます:すんでいます:tinggal\u003e",
               "terjemahan": "Saya tinggal di Tokyo."
             }
           },
           {
             "pertanyaan": {
-              "kalimat": "<田中:たなか:Tanaka> さん を <知って:しって:mengenal> います か",
+              "kalimat": "\u003c田中:たなか:Tanaka\u003e さん を \u003c知って:しって:mengenal\u003e います か",
               "terjemahan": "Apakah Anda mengenal Sdr. Tanaka?"
             },
             "jawaban": {
-              "kalimat": "はい、<知って:しって:mengenal> います",
+              "kalimat": "はい、\u003c知って:しって:mengenal\u003e います",
               "terjemahan": "Ya, saya mengenalnya."
             }
           }
@@ -1819,14 +1819,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <部屋:へや:kamar> は <広くて:ひろくて:luas> <明るい:あかるい:terang> です",
+              "kalimat": "この \u003c部屋:へや:kamar\u003e は \u003c広くて:ひろくて:luas\u003e \u003c明るい:あかるい:terang\u003e です",
               "terjemahan": "Kamar ini luas dan terang."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<京都:きょうと:Kyoto> は <静か:しずか:tenang> で <きれい:きれい:indah> です",
+              "kalimat": "\u003c京都:きょうと:Kyoto\u003e は \u003c静か:しずか:tenang\u003e で \u003cきれい:きれい:indah\u003e です",
               "terjemahan": "Kyoto tenang dan indah."
             }
           }
@@ -1848,14 +1848,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<朝:あさ:pagi> <起きて:おきて:bangun>、<シャワー::shower> を <浴びて:あびて:mandi>、<会社:かいしゃ:kantor> へ <行きます:いきます:pergi>",
+              "kalimat": "\u003c朝:あさ:pagi\u003e \u003c起きて:おきて:bangun\u003e、\u003cシャワー::shower\u003e を \u003c浴びて:あびて:mandi\u003e、\u003c会社:かいしゃ:kantor\u003e へ \u003c行きます:いきます:pergi\u003e",
               "terjemahan": "Bangun, mandi, lalu pergi ke kantor."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<家:いえ:rumah> へ <帰って:かえって:pulang>、<ご飯:ごはん:nasi> を <食べます:たべます:makan>",
+              "kalimat": "\u003c家:いえ:rumah\u003e へ \u003c帰って:かえって:pulang\u003e、\u003cご飯:ごはん:nasi\u003e を \u003c食べます:たべます:makan\u003e",
               "terjemahan": "Pulang ke rumah lalu makan."
             }
           }
@@ -1870,14 +1870,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<仕事:しごと:pekerjaan> が <終わってから:おわってから:setelah selesai>、<映画:えいが:film> を <見ます:みます:menonton>",
+              "kalimat": "\u003c仕事:しごと:pekerjaan\u003e が \u003c終わってから:おわってから:setelah selesai\u003e、\u003c映画:えいが:film\u003e を \u003c見ます:みます:menonton\u003e",
               "terjemahan": "Setelah pekerjaan selesai, menonton film."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<薬:くすり:obat> を <飲んでから:のんでから:setelah minum>、<寝ます:ねます:tidur>",
+              "kalimat": "\u003c薬:くすり:obat\u003e を \u003c飲んでから:のんでから:setelah minum\u003e、\u003c寝ます:ねます:tidur\u003e",
               "terjemahan": "Setelah minum obat, tidur."
             }
           }
@@ -1892,14 +1892,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<風邪:かぜ:masuk angin> を <ひいて:ひいて:terkena>、<学校:がっこう:sekolah> を <休みました:やすみました:libur>",
+              "kalimat": "\u003c風邪:かぜ:masuk angin\u003e を \u003cひいて:ひいて:terkena\u003e、\u003c学校:がっこう:sekolah\u003e を \u003c休みました:やすみました:libur\u003e",
               "terjemahan": "Karena masuk angin, tidak masuk sekolah."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<用事:ようじ:urusan> が あって、<行きませんでした:いきませんでした:tidak pergi>",
+              "kalimat": "\u003c用事:ようじ:urusan\u003e が あって、\u003c行きませんでした:いきませんでした:tidak pergi\u003e",
               "terjemahan": "Karena ada urusan, tidak pergi."
             }
           }
@@ -1921,14 +1921,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "ここ で <写真:しゃしん:foto> を <撮らないで:とらないで:jangan mengambil> ください",
+              "kalimat": "ここ で \u003c写真:しゃしん:foto\u003e を \u003c撮らないで:とらないで:jangan mengambil\u003e ください",
               "terjemahan": "Tolong jangan mengambil foto di sini."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<心配:しんぱい:khawatir> しないで ください",
+              "kalimat": "\u003c心配:しんぱい:khawatir\u003e しないで ください",
               "terjemahan": "Tolong jangan khawatir."
             }
           }
@@ -1943,14 +1943,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<毎日:まいにち:setiap hari> <薬:くすり:obat> を <飲まなければ:のまなければ:harus minum> なりません",
+              "kalimat": "\u003c毎日:まいにち:setiap hari\u003e \u003c薬:くすり:obat\u003e を \u003c飲まなければ:のまなければ:harus minum\u003e なりません",
               "terjemahan": "Setiap hari harus minum obat."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<明日:あした:besok> <早く:はやく:cepat> <起きなければ:おきなければ:harus bangun> なりません",
+              "kalimat": "\u003c明日:あした:besok\u003e \u003c早く:はやく:cepat\u003e \u003c起きなければ:おきなければ:harus bangun\u003e なりません",
               "terjemahan": "Besok harus bangun pagi."
             }
           }
@@ -1965,14 +1965,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<明日:あした:besok> は <来なくても:こなくても:tidak perlu datang> いいです",
+              "kalimat": "\u003c明日:あした:besok\u003e は \u003c来なくても:こなくても:tidak perlu datang\u003e いいです",
               "terjemahan": "Besok tidak perlu datang."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<全部:ぜんぶ:semua> <食べなくても:たべなくても:tidak perlu makan> いいです",
+              "kalimat": "\u003c全部:ぜんぶ:semua\u003e \u003c食べなくても:たべなくても:tidak perlu makan\u003e いいです",
               "terjemahan": "Tidak perlu makan semuanya."
             }
           }
@@ -1987,14 +1987,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<朝ご飯:あさごはん:sarapan> を <食べないで:たべないで:tanpa makan>、<学校:がっこう:sekolah> へ <行きました:いきました:pergi>",
+              "kalimat": "\u003c朝ご飯:あさごはん:sarapan\u003e を \u003c食べないで:たべないで:tanpa makan\u003e、\u003c学校:がっこう:sekolah\u003e へ \u003c行きました:いきました:pergi\u003e",
               "terjemahan": "Pergi ke sekolah tanpa makan sarapan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<傘:かさ:payung> を <持たないで:もたないで:tanpa membawa>、<出かけました:でかけました:pergi keluar>",
+              "kalimat": "\u003c傘:かさ:payung\u003e を \u003c持たないで:もたないで:tanpa membawa\u003e、\u003c出かけました:でかけました:pergi keluar\u003e",
               "terjemahan": "Pergi keluar tanpa membawa payung."
             }
           }
@@ -2016,14 +2016,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <日本語:にほんご:bahasa Jepang> を <話す:はなす:berbicara> こと が できます",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c日本語:にほんご:bahasa Jepang\u003e を \u003c話す:はなす:berbicara\u003e こと が できます",
               "terjemahan": "Saya bisa berbicara bahasa Jepang."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "ここ で <写真:しゃしん:foto> を <撮る:とる:mengambil> こと が できます",
+              "kalimat": "ここ で \u003c写真:しゃしん:foto\u003e を \u003c撮る:とる:mengambil\u003e こと が できます",
               "terjemahan": "Di sini bisa mengambil foto."
             }
           }
@@ -2038,14 +2038,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<寝る:ねる:tidur> 前に、<歯:は:gigi> を <磨きます:みがきます:menyikat>",
+              "kalimat": "\u003c寝る:ねる:tidur\u003e 前に、\u003c歯:は:gigi\u003e を \u003c磨きます:みがきます:menyikat\u003e",
               "terjemahan": "Sebelum tidur, menyikat gigi."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<食事:しょくじ:makan> の 前に、<手:て:tangan> を <洗います:あらいます:mencuci>",
+              "kalimat": "\u003c食事:しょくじ:makan\u003e の 前に、\u003c手:て:tangan\u003e を \u003c洗います:あらいます:mencuci\u003e",
               "terjemahan": "Sebelum makan, mencuci tangan."
             }
           }
@@ -2054,20 +2054,20 @@
       {
         "no_bunpou": "3",
         "nama_pola": "Hobi 趣味は～ことです",
-        "rumus": "[～:orang] + の <趣味:しゅみ:hobi> は + [～:kata kerja] + こと + です",
+        "rumus": "[～:orang] + の \u003c趣味:しゅみ:hobi\u003e は + [～:kata kerja] + こと + です",
         "deskripsi": "Pola ini digunakan untuk menjelaskan hobi dengan kata kerja bentuk kamus + こと.",
         "contoh": [
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> の <趣味:しゅみ:hobi> は <映画:えいが:film> を <見る:みる:menonton> こと です",
+              "kalimat": "\u003c私:わたし:saya\u003e の \u003c趣味:しゅみ:hobi\u003e は \u003c映画:えいが:film\u003e を \u003c見る:みる:menonton\u003e こと です",
               "terjemahan": "Hobi saya menonton film."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> の <趣味:しゅみ:hobi> は <写真:しゃしん:foto> を <撮る:とる:memotret> こと です",
+              "kalimat": "\u003c私:わたし:saya\u003e の \u003c趣味:しゅみ:hobi\u003e は \u003c写真:しゃしん:foto\u003e を \u003c撮る:とる:memotret\u003e こと です",
               "terjemahan": "Hobi saya memotret."
             }
           }
@@ -2089,14 +2089,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <富士山:ふじさん:Gunung Fuji> に <登った:のぼった:mendaki> こと が あります",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c富士山:ふじさん:Gunung Fuji\u003e に \u003c登った:のぼった:mendaki\u003e こと が あります",
               "terjemahan": "Saya pernah mendaki Gunung Fuji."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<日本:にほん:Jepang> で <温泉:おんせん:onsen> に <入った:はいった:masuk> こと が あります",
+              "kalimat": "\u003c日本:にほん:Jepang\u003e で \u003c温泉:おんせん:onsen\u003e に \u003c入った:はいった:masuk\u003e こと が あります",
               "terjemahan": "Saya pernah masuk onsen di Jepang."
             }
           }
@@ -2111,14 +2111,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <一度も:いちども:sekali pun> <海外:かいがい:luar negeri> へ <行った:いった:pergi> こと が ありません",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c一度も:いちども:sekali pun\u003e \u003c海外:かいがい:luar negeri\u003e へ \u003c行った:いった:pergi\u003e こと が ありません",
               "terjemahan": "Saya belum pernah pergi ke luar negeri sekali pun."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<納豆:なっとう:natto> を <食べた:たべた:makan> こと が ありません",
+              "kalimat": "\u003c納豆:なっとう:natto\u003e を \u003c食べた:たべた:makan\u003e こと が ありません",
               "terjemahan": "Saya belum pernah makan natto."
             }
           }
@@ -2133,14 +2133,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<日曜日:にちようび:Minggu> は <本:ほん:buku> を <読んだり:よんだり:membaca>、<音楽:おんがく:musik> を <聞いたり:きいたり:mendengarkan> します",
+              "kalimat": "\u003c日曜日:にちようび:Minggu\u003e は \u003c本:ほん:buku\u003e を \u003c読んだり:よんだり:membaca\u003e、\u003c音楽:おんがく:musik\u003e を \u003c聞いたり:きいたり:mendengarkan\u003e します",
               "terjemahan": "Pada hari Minggu saya membaca buku, mendengarkan musik, dan sebagainya."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<週末:しゅうまつ:akhir pekan> は <掃除:そうじ:membersihkan> したり、<洗濯:せんたく:mencuci> したり します",
+              "kalimat": "\u003c週末:しゅうまつ:akhir pekan\u003e は \u003c掃除:そうじ:membersihkan\u003e したり、\u003c洗濯:せんたく:mencuci\u003e したり します",
               "terjemahan": "Akhir pekan saya membersihkan, mencuci, dan sebagainya."
             }
           }
@@ -2155,14 +2155,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<日本語:にほんご:bahasa Jepang> が <上手く:うまく:pandai> なりました",
+              "kalimat": "\u003c日本語:にほんご:bahasa Jepang\u003e が \u003c上手く:うまく:pandai\u003e なりました",
               "terjemahan": "Bahasa Jepang saya menjadi lebih pandai."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<部屋:へや:kamar> が <きれい:きれい:bersih> に なりました",
+              "kalimat": "\u003c部屋:へや:kamar\u003e が \u003cきれい:きれい:bersih\u003e に なりました",
               "terjemahan": "Kamar menjadi bersih."
             }
           }
@@ -2184,14 +2184,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<明日:あした:besok> <学校:がっこう:sekolah> へ <行く:いく:pergi>",
+              "kalimat": "\u003c明日:あした:besok\u003e \u003c学校:がっこう:sekolah\u003e へ \u003c行く:いく:pergi\u003e",
               "terjemahan": "Besok pergi ke sekolah."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<今日:きょう:hari ini> は <行かない:いかない:tidak pergi>",
+              "kalimat": "\u003c今日:きょう:hari ini\u003e は \u003c行かない:いかない:tidak pergi\u003e",
               "terjemahan": "Hari ini tidak pergi."
             }
           }
@@ -2206,14 +2206,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <本:ほん:buku> は <面白い:おもしろい:menarik>",
+              "kalimat": "この \u003c本:ほん:buku\u003e は \u003c面白い:おもしろい:menarik\u003e",
               "terjemahan": "Buku ini menarik."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "それ は <私:わたし:saya> の じゃない",
+              "kalimat": "それ は \u003c私:わたし:saya\u003e の じゃない",
               "terjemahan": "Itu bukan milik saya."
             }
           }
@@ -2227,21 +2227,21 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "<一緒:いっしょ:bersama> に <行かない:いかない:tidak pergi?>",
+              "kalimat": "\u003c一緒:いっしょ:bersama\u003e に \u003c行かない:いかない:tidak pergi?\u003e",
               "terjemahan": "Mau pergi bersama?"
             },
             "jawaban": {
-              "kalimat": "うん、<行こう:いこう:ayo pergi>",
+              "kalimat": "うん、\u003c行こう:いこう:ayo pergi\u003e",
               "terjemahan": "Ya, ayo pergi."
             }
           },
           {
             "pertanyaan": {
-              "kalimat": "<一緒:いっしょ:bersama> に <昼ご飯:ひるごはん:makan siang> を <食べない:たべない:tidak makan?>",
+              "kalimat": "\u003c一緒:いっしょ:bersama\u003e に \u003c昼ご飯:ひるごはん:makan siang\u003e を \u003c食べない:たべない:tidak makan?\u003e",
               "terjemahan": "Mau makan siang bersama?"
             },
             "jawaban": {
-              "kalimat": "いいね、<食べよう:たべよう:ayo makan>",
+              "kalimat": "いいね、\u003c食べよう:たべよう:ayo makan\u003e",
               "terjemahan": "Bagus, ayo makan."
             }
           }
@@ -2263,14 +2263,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<明日:あした:besok> は <雨:あめ:hujan> が <降る:ふる:turun> と <思います:おもいます:berpikir>",
+              "kalimat": "\u003c明日:あした:besok\u003e は \u003c雨:あめ:hujan\u003e が \u003c降る:ふる:turun\u003e と \u003c思います:おもいます:berpikir\u003e",
               "terjemahan": "Saya pikir besok akan hujan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <映画:えいが:film> は <面白い:おもしろい:menarik> と <思います:おもいます:berpikir>",
+              "kalimat": "この \u003c映画:えいが:film\u003e は \u003c面白い:おもしろい:menarik\u003e と \u003c思います:おもいます:berpikir\u003e",
               "terjemahan": "Saya pikir film ini menarik."
             }
           }
@@ -2285,14 +2285,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<ミラー::Miller> さん は <明日:あした:besok> <来る:くる:datang> と <言いました:いいました:berkata>",
+              "kalimat": "\u003cミラー::Miller\u003e さん は \u003c明日:あした:besok\u003e \u003c来る:くる:datang\u003e と \u003c言いました:いいました:berkata\u003e",
               "terjemahan": "Sdr. Miller berkata akan datang besok."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<先生:せんせい:guru> は <宿題:しゅくだい:PR> を <出す:だす:memberi> と <言いました:いいました:berkata>",
+              "kalimat": "\u003c先生:せんせい:guru\u003e は \u003c宿題:しゅくだい:PR\u003e を \u003c出す:だす:memberi\u003e と \u003c言いました:いいました:berkata\u003e",
               "terjemahan": "Guru berkata akan memberi PR."
             }
           }
@@ -2307,14 +2307,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<明日:あした:besok> は <晴れる:はれる:cerah> でしょう",
+              "kalimat": "\u003c明日:あした:besok\u003e は \u003c晴れる:はれる:cerah\u003e でしょう",
               "terjemahan": "Besok mungkin cerah."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<ミラー::Miller> さん は もう <帰った:かえった:pulang> でしょう",
+              "kalimat": "\u003cミラー::Miller\u003e さん は もう \u003c帰った:かえった:pulang\u003e でしょう",
               "terjemahan": "Sdr. Miller mungkin sudah pulang."
             }
           }
@@ -2329,14 +2329,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<明日:あした:besok> は <雨:あめ:hujan> が <降る:ふる:turun> かもしれません",
+              "kalimat": "\u003c明日:あした:besok\u003e は \u003c雨:あめ:hujan\u003e が \u003c降る:ふる:turun\u003e かもしれません",
               "terjemahan": "Besok mungkin hujan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<彼:かれ:dia> は <来ない:こない:tidak datang> かもしれません",
+              "kalimat": "\u003c彼:かれ:dia\u003e は \u003c来ない:こない:tidak datang\u003e かもしれません",
               "terjemahan": "Dia mungkin tidak datang."
             }
           }
@@ -2357,11 +2357,11 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "どんな <部屋:へや:kamar> が いいですか",
+              "kalimat": "どんな \u003c部屋:へや:kamar\u003e が いいですか",
               "terjemahan": "Kamar seperti apa yang Anda inginkan?"
             },
             "jawaban": {
-              "kalimat": "<明るい:あかるい:terang> <部屋:へや:kamar> が いいです",
+              "kalimat": "\u003c明るい:あかるい:terang\u003e \u003c部屋:へや:kamar\u003e が いいです",
               "terjemahan": "Kamar yang terang."
             }
           }
@@ -2376,14 +2376,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は これ に します",
+              "kalimat": "\u003c私:わたし:saya\u003e は これ に します",
               "terjemahan": "Saya pilih yang ini."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<コーヒー::kopi> に します",
+              "kalimat": "\u003cコーヒー::kopi\u003e に します",
               "terjemahan": "Saya pilih kopi."
             }
           }
@@ -2397,7 +2397,7 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "この <部屋:へや:kamar> は どうですか",
+              "kalimat": "この \u003c部屋:へや:kamar\u003e は どうですか",
               "terjemahan": "Bagaimana dengan kamar ini?"
             },
             "jawaban": {
@@ -2423,14 +2423,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<子供:こども:anak> の とき、<東京:とうきょう:Tokyo> に <住んでいました:すんでいました:tinggal>",
+              "kalimat": "\u003c子供:こども:anak\u003e の とき、\u003c東京:とうきょう:Tokyo\u003e に \u003c住んでいました:すんでいました:tinggal\u003e",
               "terjemahan": "Waktu kecil, saya tinggal di Tokyo."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<学生:がくせい:mahasiswa> の とき、よく <旅行:りょこう:perjalanan> を しました",
+              "kalimat": "\u003c学生:がくせい:mahasiswa\u003e の とき、よく \u003c旅行:りょこう:perjalanan\u003e を しました",
               "terjemahan": "Waktu menjadi mahasiswa, sering melakukan perjalanan."
             }
           }
@@ -2445,14 +2445,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<日本:にほん:Jepang> へ <行く:いく:pergi> とき、<お土産:おみやげ:oleh-oleh> を <買います:かいます:membeli>",
+              "kalimat": "\u003c日本:にほん:Jepang\u003e へ \u003c行く:いく:pergi\u003e とき、\u003cお土産:おみやげ:oleh-oleh\u003e を \u003c買います:かいます:membeli\u003e",
               "terjemahan": "Ketika pergi ke Jepang, membeli oleh-oleh."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<家:いえ:rumah> を <出る:でる:keluar> とき、<電気:でんき:lampu> を <消します:けします:mematikan>",
+              "kalimat": "\u003c家:いえ:rumah\u003e を \u003c出る:でる:keluar\u003e とき、\u003c電気:でんき:lampu\u003e を \u003c消します:けします:mematikan\u003e",
               "terjemahan": "Ketika keluar rumah, mematikan lampu."
             }
           }
@@ -2467,14 +2467,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <ボタン::tombol> を <押す:おす:menekan> と、<お釣り:おつり:kembalian> が <出ます:でます:keluar>",
+              "kalimat": "この \u003cボタン::tombol\u003e を \u003c押す:おす:menekan\u003e と、\u003cお釣り:おつり:kembalian\u003e が \u003c出ます:でます:keluar\u003e",
               "terjemahan": "Jika menekan tombol ini, kembalian akan keluar."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<春:はる:musim semi> に なる と、<桜:さくら:sakura> が <咲きます:さきます:mekar>",
+              "kalimat": "\u003c春:はる:musim semi\u003e に なる と、\u003c桜:さくら:sakura\u003e が \u003c咲きます:さきます:mekar\u003e",
               "terjemahan": "Ketika musim semi tiba, sakura mekar."
             }
           }
@@ -2496,14 +2496,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <田中:たなか:Tanaka> さん に <本:ほん:buku> を <貸して:かして:meminjamkan> あげました",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c田中:たなか:Tanaka\u003e さん に \u003c本:ほん:buku\u003e を \u003c貸して:かして:meminjamkan\u003e あげました",
               "terjemahan": "Saya meminjamkan buku kepada Sdr. Tanaka."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <友達:ともだち:teman> に <日本語:にほんご:bahasa Jepang> を <教えて:おしえて:mengajari> あげました",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c友達:ともだち:teman\u003e に \u003c日本語:にほんご:bahasa Jepang\u003e を \u003c教えて:おしえて:mengajari\u003e あげました",
               "terjemahan": "Saya mengajari teman bahasa Jepang."
             }
           }
@@ -2518,14 +2518,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <田中:たなか:Tanaka> さん に <写真:しゃしん:foto> を <撮って:とって:memotret> もらいました",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c田中:たなか:Tanaka\u003e さん に \u003c写真:しゃしん:foto\u003e を \u003c撮って:とって:memotret\u003e もらいました",
               "terjemahan": "Saya minta Sdr. Tanaka memotretkan saya."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <先生:せんせい:guru> に <日本語:にほんご:bahasa Jepang> を <教えて:おしえて:mengajari> もらいました",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c先生:せんせい:guru\u003e に \u003c日本語:にほんご:bahasa Jepang\u003e を \u003c教えて:おしえて:mengajari\u003e もらいました",
               "terjemahan": "Saya diajari bahasa Jepang oleh guru."
             }
           }
@@ -2540,14 +2540,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<田中:たなか:Tanaka> さん は <私:わたし:saya> に <本:ほん:buku> を <貸して:かして:meminjamkan> くれました",
+              "kalimat": "\u003c田中:たなか:Tanaka\u003e さん は \u003c私:わたし:saya\u003e に \u003c本:ほん:buku\u003e を \u003c貸して:かして:meminjamkan\u003e くれました",
               "terjemahan": "Sdr. Tanaka meminjamkan buku kepada saya."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<友達:ともだち:teman> は <私:わたし:saya> を <助けて:たすけて:menolong> くれました",
+              "kalimat": "\u003c友達:ともだち:teman\u003e は \u003c私:わたし:saya\u003e を \u003c助けて:たすけて:menolong\u003e くれました",
               "terjemahan": "Teman menolong saya."
             }
           }
@@ -2561,7 +2561,7 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "すみませんが、<写真:しゃしん:foto> を <撮って:とって:memotret> いただけません か",
+              "kalimat": "すみませんが、\u003c写真:しゃしん:foto\u003e を \u003c撮って:とって:memotret\u003e いただけません か",
               "terjemahan": "Maaf, bisakah Anda memotretkan saya?"
             },
             "jawaban": {
@@ -2571,7 +2571,7 @@
           },
           {
             "pertanyaan": {
-              "kalimat": "この <書類:しょるい:dokumen> を <見て:みて:melihat> いただけません か",
+              "kalimat": "この \u003c書類:しょるい:dokumen\u003e を \u003c見て:みて:melihat\u003e いただけません か",
               "terjemahan": "Bisakah Anda melihat dokumen ini?"
             },
             "jawaban": {
@@ -2597,14 +2597,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<時間:じかん:waktu> が あったら、<映画:えいが:film> を <見ましょう:みましょう:mari menonton>",
+              "kalimat": "\u003c時間:じかん:waktu\u003e が あったら、\u003c映画:えいが:film\u003e を \u003c見ましょう:みましょう:mari menonton\u003e",
               "terjemahan": "Kalau ada waktu, ayo menonton film."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<雨:あめ:hujan> が <降ったら:ふったら:jika turun>、<行きません:いきません:tidak pergi>",
+              "kalimat": "\u003c雨:あめ:hujan\u003e が \u003c降ったら:ふったら:jika turun\u003e、\u003c行きません:いきません:tidak pergi\u003e",
               "terjemahan": "Kalau hujan, tidak pergi."
             }
           }
@@ -2619,14 +2619,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<雨:あめ:hujan> が <降っても:ふっても:meskipun turun>、<行きます:いきます:pergi>",
+              "kalimat": "\u003c雨:あめ:hujan\u003e が \u003c降っても:ふっても:meskipun turun\u003e、\u003c行きます:いきます:pergi\u003e",
               "terjemahan": "Meskipun hujan, saya pergi."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<高くても:たかくても:meskipun mahal>、<買います:かいます:membeli>",
+              "kalimat": "\u003c高くても:たかくても:meskipun mahal\u003e、\u003c買います:かいます:membeli\u003e",
               "terjemahan": "Meskipun mahal, saya beli."
             }
           }
@@ -2641,14 +2641,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<一生懸命:いっしょうけんめい:bersungguh-sungguh> <勉強した:べんきょうした:belajar> のに、<試験:しけん:ujian> に <落ちました:おちました:gagal>",
+              "kalimat": "\u003c一生懸命:いっしょうけんめい:bersungguh-sungguh\u003e \u003c勉強した:べんきょうした:belajar\u003e のに、\u003c試験:しけん:ujian\u003e に \u003c落ちました:おちました:gagal\u003e",
               "terjemahan": "Walaupun sudah belajar bersungguh-sungguh, gagal ujian."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<薬:くすり:obat> を <飲んだ:のんだ:minum> のに、まだ <痛い:いたい:sakit> です",
+              "kalimat": "\u003c薬:くすり:obat\u003e を \u003c飲んだ:のんだ:minum\u003e のに、まだ \u003c痛い:いたい:sakit\u003e です",
               "terjemahan": "Walaupun sudah minum obat, masih sakit."
             }
           }
@@ -2657,6 +2657,7 @@
     ]
   },
   {
+    "id": "bp-f0aa84e01efb",
     "lesson": "Lesson 26",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -2668,21 +2669,21 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "どうして <遅れました:おくれました:terlambat> か",
+              "kalimat": "どうして \u003c遅れました:おくれました:terlambat\u003e か",
               "terjemahan": "Mengapa terlambat?"
             },
             "jawaban": {
-              "kalimat": "<バス::bus> が <来なかった:こなかった:tidak datang> んです",
+              "kalimat": "\u003cバス::bus\u003e が \u003c来なかった:こなかった:tidak datang\u003e んです",
               "terjemahan": "Karena bus tidak datang."
             }
           },
           {
             "pertanyaan": {
-              "kalimat": "どうして <休みました:やすみました:libur> か",
+              "kalimat": "どうして \u003c休みました:やすみました:libur\u003e か",
               "terjemahan": "Mengapa libur?"
             },
             "jawaban": {
-              "kalimat": "<病気:びょうき:sakit> なんです",
+              "kalimat": "\u003c病気:びょうき:sakit\u003e なんです",
               "terjemahan": "Karena sakit."
             }
           }
@@ -2696,21 +2697,21 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "<毎日:まいにち:setiap hari> <何:なに:apa> を <食べて:たべて:makan> いる んですか",
+              "kalimat": "\u003c毎日:まいにち:setiap hari\u003e \u003c何:なに:apa\u003e を \u003c食べて:たべて:makan\u003e いる んですか",
               "terjemahan": "Setiap hari makan apa?"
             },
             "jawaban": {
-              "kalimat": "<野菜:やさい:sayur> を <食べて:たべて:makan> います",
+              "kalimat": "\u003c野菜:やさい:sayur\u003e を \u003c食べて:たべて:makan\u003e います",
               "terjemahan": "Makan sayur."
             }
           },
           {
             "pertanyaan": {
-              "kalimat": "<どこ:どこ:di mana> に <住んで:すんで:tinggal> いる んですか",
+              "kalimat": "\u003cどこ:どこ:di mana\u003e に \u003c住んで:すんで:tinggal\u003e いる んですか",
               "terjemahan": "Tinggal di mana?"
             },
             "jawaban": {
-              "kalimat": "<東京:とうきょう:Tokyo> に <住んで:すんで:tinggal> います",
+              "kalimat": "\u003c東京:とうきょう:Tokyo\u003e に \u003c住んで:すんで:tinggal\u003e います",
               "terjemahan": "Tinggal di Tokyo."
             }
           }
@@ -2725,14 +2726,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "すみません、<駅:えき:stasiun> へ <行きたい:いきたい:ingin pergi> んですが、<道:みち:jalan> を <教えて:おしえて:menunjukkan> ください",
+              "kalimat": "すみません、\u003c駅:えき:stasiun\u003e へ \u003c行きたい:いきたい:ingin pergi\u003e んですが、\u003c道:みち:jalan\u003e を \u003c教えて:おしえて:menunjukkan\u003e ください",
               "terjemahan": "Maaf, saya ingin pergi ke stasiun, tolong tunjukkan jalannya."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<日本語:にほんご:bahasa Jepang> を <勉強して:べんきょうして:belajar> いる んですが、いい <本:ほん:buku> を <教えて:おしえて:memberitahu> ください",
+              "kalimat": "\u003c日本語:にほんご:bahasa Jepang\u003e を \u003c勉強して:べんきょうして:belajar\u003e いる んですが、いい \u003c本:ほん:buku\u003e を \u003c教えて:おしえて:memberitahu\u003e ください",
               "terjemahan": "Saya sedang belajar bahasa Jepang, tolong rekomendasikan buku yang bagus."
             }
           }
@@ -2746,21 +2747,21 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "<ごみ:ごみ:sampah> は どこ に <出したら:だしたら:jika mengeluarkan> いいですか",
+              "kalimat": "\u003cごみ:ごみ:sampah\u003e は どこ に \u003c出したら:だしたら:jika mengeluarkan\u003e いいですか",
               "terjemahan": "Sampah sebaiknya dibuang di mana?"
             },
             "jawaban": {
-              "kalimat": "あの <箱:はこ:kotak> に <出して:だして:mengeluarkan> ください",
+              "kalimat": "あの \u003c箱:はこ:kotak\u003e に \u003c出して:だして:mengeluarkan\u003e ください",
               "terjemahan": "Tolong buang ke kotak itu."
             }
           },
           {
             "pertanyaan": {
-              "kalimat": "<日本語:にほんご:bahasa Jepang> を <勉強したい:べんきょうしたい:ingin belajar> んですが、どこ で <習ったら:ならったら:jika belajar> いいですか",
+              "kalimat": "\u003c日本語:にほんご:bahasa Jepang\u003e を \u003c勉強したい:べんきょうしたい:ingin belajar\u003e んですが、どこ で \u003c習ったら:ならったら:jika belajar\u003e いいですか",
               "terjemahan": "Saya ingin belajar bahasa Jepang, sebaiknya belajar di mana?"
             },
             "jawaban": {
-              "kalimat": "<大学:だいがく:universitas> で <習ったら:ならったら:jika belajar> いいですよ",
+              "kalimat": "\u003c大学:だいがく:universitas\u003e で \u003c習ったら:ならったら:jika belajar\u003e いいですよ",
               "terjemahan": "Sebaiknya belajar di universitas."
             }
           }
@@ -2774,7 +2775,7 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "すみません、<写真:しゃしん:foto> を <撮って:とって:memotret> いただけません か",
+              "kalimat": "すみません、\u003c写真:しゃしん:foto\u003e を \u003c撮って:とって:memotret\u003e いただけません か",
               "terjemahan": "Maaf, bisakah Anda memotretkan saya?"
             },
             "jawaban": {
@@ -2787,6 +2788,7 @@
     ]
   },
   {
+    "id": "bp-36808b5b9529",
     "lesson": "Lesson 27",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -2799,14 +2801,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <日本語:にほんご:bahasa Jepang> が <話せます:はなせます:bisa berbicara>",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c日本語:にほんご:bahasa Jepang\u003e が \u003c話せます:はなせます:bisa berbicara\u003e",
               "terjemahan": "Saya bisa berbicara bahasa Jepang."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<ミラー::Miller> さん は <何:なん:apa> でも <作れます:つくれます:bisa membuat>",
+              "kalimat": "\u003cミラー::Miller\u003e さん は \u003c何:なん:apa\u003e でも \u003c作れます:つくれます:bisa membuat\u003e",
               "terjemahan": "Sdr. Miller bisa membuat apa saja."
             }
           }
@@ -2821,14 +2823,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<冷蔵庫:れいぞうこ:kulkas> に <卵:たまご:telur> しか ありません",
+              "kalimat": "\u003c冷蔵庫:れいぞうこ:kulkas\u003e に \u003c卵:たまご:telur\u003e しか ありません",
               "terjemahan": "Di kulkas hanya ada telur."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<日本語:にほんご:bahasa Jepang> しか <話せません:はなせません:tidak bisa berbicara>",
+              "kalimat": "\u003c日本語:にほんご:bahasa Jepang\u003e しか \u003c話せません:はなせません:tidak bisa berbicara\u003e",
               "terjemahan": "Saya hanya bisa berbicara bahasa Jepang."
             }
           }
@@ -2843,14 +2845,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "ここ から <富士山:ふじさん:Gunung Fuji> が <見えます:みえます:terlihat>",
+              "kalimat": "ここ から \u003c富士山:ふじさん:Gunung Fuji\u003e が \u003c見えます:みえます:terlihat\u003e",
               "terjemahan": "Dari sini Gunung Fuji terlihat."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<隣:となり:sebelah> の <部屋:へや:kamar> から <音楽:おんがく:musik> が <聞こえます:きこえます:terdengar>",
+              "kalimat": "\u003c隣:となり:sebelah\u003e の \u003c部屋:へや:kamar\u003e から \u003c音楽:おんがく:musik\u003e が \u003c聞こえます:きこえます:terdengar\u003e",
               "terjemahan": "Dari kamar sebelah terdengar musik."
             }
           }
@@ -2865,14 +2867,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <料理:りょうり:masakan> が <できます:できます:bisa>",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c料理:りょうり:masakan\u003e が \u003cできます:できます:bisa\u003e",
               "terjemahan": "Saya bisa memasak."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<田中:たなか:Tanaka> さん は <英語:えいご:bahasa Inggris> が できます",
+              "kalimat": "\u003c田中:たなか:Tanaka\u003e さん は \u003c英語:えいご:bahasa Inggris\u003e が できます",
               "terjemahan": "Sdr. Tanaka bisa bahasa Inggris."
             }
           }
@@ -2881,6 +2883,7 @@
     ]
   },
   {
+    "id": "bp-8e48e0a27eab",
     "lesson": "Lesson 28",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -2893,14 +2896,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<音楽:おんがく:musik> を <聞きながら:ききながら:sambil mendengarkan>、<勉強します:べんきょうします:belajar>",
+              "kalimat": "\u003c音楽:おんがく:musik\u003e を \u003c聞きながら:ききながら:sambil mendengarkan\u003e、\u003c勉強します:べんきょうします:belajar\u003e",
               "terjemahan": "Belajar sambil mendengarkan musik."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<コーヒー::kopi> を <飲みながら:のみながら:sambil minum>、<話します:はなします:berbicara>",
+              "kalimat": "\u003cコーヒー::kopi\u003e を \u003c飲みながら:のみながら:sambil minum\u003e、\u003c話します:はなします:berbicara\u003e",
               "terjemahan": "Berbicara sambil minum kopi."
             }
           }
@@ -2915,14 +2918,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<毎朝:まいあさ:setiap pagi> <ジョギング::jogging> を して います",
+              "kalimat": "\u003c毎朝:まいあさ:setiap pagi\u003e \u003cジョギング::jogging\u003e を して います",
               "terjemahan": "Setiap pagi saya jogging."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<週:しゅう:minggu> に <２回:にかい:dua kali> <映画:えいが:film> を <見て:みて:menonton> います",
+              "kalimat": "\u003c週:しゅう:minggu\u003e に \u003c２回:にかい:dua kali\u003e \u003c映画:えいが:film\u003e を \u003c見て:みて:menonton\u003e います",
               "terjemahan": "Dalam seminggu dua kali menonton film."
             }
           }
@@ -2937,14 +2940,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<出張:しゅっちょう:perjalanan bisnis> も <多い:おおい:banyak> し、<試験:しけん:ujian> も あります し、<忙しい:いそがしい:sibuk> です",
+              "kalimat": "\u003c出張:しゅっちょう:perjalanan bisnis\u003e も \u003c多い:おおい:banyak\u003e し、\u003c試験:しけん:ujian\u003e も あります し、\u003c忙しい:いそがしい:sibuk\u003e です",
               "terjemahan": "Perjalanan bisnis banyak, ujian juga ada, jadi sibuk."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <店:みせ:toko> は <安い:やすい:murah> し、<おいしい:おいしい:enak> し、<人気:にんき:populer> です",
+              "kalimat": "この \u003c店:みせ:toko\u003e は \u003c安い:やすい:murah\u003e し、\u003cおいしい:おいしい:enak\u003e し、\u003c人気:にんき:populer\u003e です",
               "terjemahan": "Toko ini murah, enak, dan populer."
             }
           }
@@ -2959,7 +2962,7 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<部屋:へや:kamar> は <広い:ひろい:luas> です。それに、<明るい:あかるい:terang> です",
+              "kalimat": "\u003c部屋:へや:kamar\u003e は \u003c広い:ひろい:luas\u003e です。それに、\u003c明るい:あかるい:terang\u003e です",
               "terjemahan": "Kamarnya luas. Selain itu, terang."
             }
           }
@@ -2974,7 +2977,7 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<昨日:きのう:kemarin> は <忙しかった:いそがしかった:sibuk> です。それで、<行きませんでした:いきませんでした:tidak pergi>",
+              "kalimat": "\u003c昨日:きのう:kemarin\u003e は \u003c忙しかった:いそがしかった:sibuk\u003e です。それで、\u003c行きませんでした:いきませんでした:tidak pergi\u003e",
               "terjemahan": "Kemarin sibuk. Oleh karena itu, tidak pergi."
             }
           }
@@ -2983,6 +2986,7 @@
     ]
   },
   {
+    "id": "bp-7d0789484906",
     "lesson": "Lesson 29",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -2995,14 +2999,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<財布:さいふ:dompet> を <忘れて:わすれて:lupa> しまいました",
+              "kalimat": "\u003c財布:さいふ:dompet\u003e を \u003c忘れて:わすれて:lupa\u003e しまいました",
               "terjemahan": "Saya lupa dompet."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<電車:でんしゃ:kereta> に <乗って:のって:naik> しまいました",
+              "kalimat": "\u003c電車:でんしゃ:kereta\u003e に \u003c乗って:のって:naik\u003e しまいました",
               "terjemahan": "Saya terlanjur naik kereta."
             }
           }
@@ -3017,14 +3021,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <ケーキ::kue> は 一人 で <食べて:たべて:makan> しまいます",
+              "kalimat": "この \u003cケーキ::kue\u003e は 一人 で \u003c食べて:たべて:makan\u003e しまいます",
               "terjemahan": "Kue ini akan saya habiskan sendirian."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<明日:あした:besok> まで に <宿題:しゅくだい:PR> を して しまいます",
+              "kalimat": "\u003c明日:あした:besok\u003e まで に \u003c宿題:しゅくだい:PR\u003e を して しまいます",
               "terjemahan": "Saya akan menyelesaikan PR sebelum besok."
             }
           }
@@ -3033,6 +3037,7 @@
     ]
   },
   {
+    "id": "bp-add1ea2d36f7",
     "lesson": "Lesson 30",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -3045,14 +3050,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<会議:かいぎ:rapat> の 前に、<資料:しりょう:materi> を <準備して:じゅんびして:menyiapkan> おきます",
+              "kalimat": "\u003c会議:かいぎ:rapat\u003e の 前に、\u003c資料:しりょう:materi\u003e を \u003c準備して:じゅんびして:menyiapkan\u003e おきます",
               "terjemahan": "Sebelum rapat, menyiapkan materi."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<明日:あした:besok> の <朝:あさ:pagi>、<パン::roti> を <買って:かって:membeli> おきます",
+              "kalimat": "\u003c明日:あした:besok\u003e の \u003c朝:あさ:pagi\u003e、\u003cパン::roti\u003e を \u003c買って:かって:membeli\u003e おきます",
               "terjemahan": "Besok pagi, membeli roti untuk persiapan."
             }
           }
@@ -3067,14 +3072,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<非常袋:ひじょうぶくろ:tas darurat> を <準備して:じゅんびして:menyiapkan> おかないと",
+              "kalimat": "\u003c非常袋:ひじょうぶくろ:tas darurat\u003e を \u003c準備して:じゅんびして:menyiapkan\u003e おかないと",
               "terjemahan": "Saya harus menyiapkan tas darurat."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<明日:あした:besok> の <資料:しりょう:materi> を <作って:つくって:membuat> おかないと",
+              "kalimat": "\u003c明日:あした:besok\u003e の \u003c資料:しりょう:materi\u003e を \u003c作って:つくって:membuat\u003e おかないと",
               "terjemahan": "Saya harus membuat materi untuk besok."
             }
           }
@@ -3089,14 +3094,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<壁:かべ:dinding> に <地図:ちず:peta> が <貼って:はって:menempel> あります",
+              "kalimat": "\u003c壁:かべ:dinding\u003e に \u003c地図:ちず:peta\u003e が \u003c貼って:はって:menempel\u003e あります",
               "terjemahan": "Di dinding terpasang peta."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<机:つくえ:meja> の 上に <資料:しりょう:materi> が <置いて:おいて:diletakkan> あります",
+              "kalimat": "\u003c机:つくえ:meja\u003e の 上に \u003c資料:しりょう:materi\u003e が \u003c置いて:おいて:diletakkan\u003e あります",
               "terjemahan": "Di atas meja ada materi yang diletakkan."
             }
           }
@@ -3105,6 +3110,7 @@
     ]
   },
   {
+    "id": "bp-b91375911cf8",
     "lesson": "Lesson 31",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -3117,14 +3123,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <料理:りょうり:masakan> を <習おう:ならおう:akan belajar> と <思って:おもって:berpikir> います",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c料理:りょうり:masakan\u003e を \u003c習おう:ならおう:akan belajar\u003e と \u003c思って:おもって:berpikir\u003e います",
               "terjemahan": "Saya berpikir akan belajar memasak."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<夏休み:なつやすみ:libur musim panas> に <日本:にほん:Jepang> へ <行こう:いこう:akan pergi> と <思います:おもいます:berpikir>",
+              "kalimat": "\u003c夏休み:なつやすみ:libur musim panas\u003e に \u003c日本:にほん:Jepang\u003e へ \u003c行こう:いこう:akan pergi\u003e と \u003c思います:おもいます:berpikir\u003e",
               "terjemahan": "Saya berpikir akan pergi ke Jepang saat libur musim panas."
             }
           }
@@ -3139,14 +3145,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<来年:らいねん:tahun depan> <日本:にほん:Jepang> へ <行く:いく:pergi> つもりです",
+              "kalimat": "\u003c来年:らいねん:tahun depan\u003e \u003c日本:にほん:Jepang\u003e へ \u003c行く:いく:pergi\u003e つもりです",
               "terjemahan": "Tahun depan saya berencana pergi ke Jepang."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<今日:きょう:hari ini> は <家:いえ:rumah> で <勉強する:べんきょうする:belajar> つもりです",
+              "kalimat": "\u003c今日:きょう:hari ini\u003e は \u003c家:いえ:rumah\u003e で \u003c勉強する:べんきょうする:belajar\u003e つもりです",
               "terjemahan": "Hari ini saya berencana belajar di rumah."
             }
           }
@@ -3161,14 +3167,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<来月:らいげつ:bulan depan> <大阪:おおさか:Osaka> へ <出張:しゅっちょう:perjalanan bisnis> する 予定です",
+              "kalimat": "\u003c来月:らいげつ:bulan depan\u003e \u003c大阪:おおさか:Osaka\u003e へ \u003c出張:しゅっちょう:perjalanan bisnis\u003e する 予定です",
               "terjemahan": "Bulan depan saya dijadwalkan perjalanan bisnis ke Osaka."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<会議:かいぎ:rapat> は <３時:さんじ:jam tiga> から の 予定です",
+              "kalimat": "\u003c会議:かいぎ:rapat\u003e は \u003c３時:さんじ:jam tiga\u003e から の 予定です",
               "terjemahan": "Rapat dijadwalkan mulai jam tiga."
             }
           }
@@ -3177,6 +3183,7 @@
     ]
   },
   {
+    "id": "bp-2609e22ad038",
     "lesson": "Lesson 32",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -3189,14 +3196,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<早く:はやく:cepat> <寝た:ねた:tidur> ほうが いいですよ",
+              "kalimat": "\u003c早く:はやく:cepat\u003e \u003c寝た:ねた:tidur\u003e ほうが いいですよ",
               "terjemahan": "Sebaiknya tidur cepat."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<病院:びょういん:rumah sakit> へ <行った:いった:pergi> ほうが いいです",
+              "kalimat": "\u003c病院:びょういん:rumah sakit\u003e へ \u003c行った:いった:pergi\u003e ほうが いいです",
               "terjemahan": "Sebaiknya pergi ke rumah sakit."
             }
           }
@@ -3211,14 +3218,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<無理:むり:memaksakan diri> を しない ほうが いいですよ",
+              "kalimat": "\u003c無理:むり:memaksakan diri\u003e を しない ほうが いいですよ",
               "terjemahan": "Sebaiknya jangan memaksakan diri."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<今日:きょう:hari ini> は <お酒:おさけ:minuman keras> を <飲まない:のまない:tidak minum> ほうが いいです",
+              "kalimat": "\u003c今日:きょう:hari ini\u003e は \u003cお酒:おさけ:minuman keras\u003e を \u003c飲まない:のまない:tidak minum\u003e ほうが いいです",
               "terjemahan": "Hari ini sebaiknya jangan minum alkohol."
             }
           }
@@ -3233,14 +3240,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<少し:すこし:sedikit> <休んだら:やすんだら:jika istirahat> どうですか",
+              "kalimat": "\u003c少し:すこし:sedikit\u003e \u003c休んだら:やすんだら:jika istirahat\u003e どうですか",
               "terjemahan": "Bagaimana kalau istirahat sebentar?"
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<先生:せんせい:guru> に <聞いたら:きいたら:jika bertanya> どうですか",
+              "kalimat": "\u003c先生:せんせい:guru\u003e に \u003c聞いたら:きいたら:jika bertanya\u003e どうですか",
               "terjemahan": "Bagaimana kalau bertanya kepada guru?"
             }
           }
@@ -3249,26 +3256,27 @@
     ]
   },
   {
+    "id": "bp-e321b7454c3c",
     "lesson": "Lesson 33",
     "buku": "Minna no Nihongo 2",
     "pola": [
       {
         "no_bunpou": "1",
         "nama_pola": "Arti という意味です",
-        "rumus": "[～:kata] + と いう <意味:いみ:arti> です",
+        "rumus": "[～:kata] + と いう \u003c意味:いみ:arti\u003e です",
         "deskripsi": "Pola ini digunakan untuk menjelaskan arti suatu kata atau ungkapan.",
         "contoh": [
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "「<大丈夫:だいじょうぶ:tidak apa-apa>」は「tidak apa-apa」と いう <意味:いみ:arti> です",
+              "kalimat": "「\u003c大丈夫:だいじょうぶ:tidak apa-apa\u003e」は「tidak apa-apa」と いう \u003c意味:いみ:arti\u003e です",
               "terjemahan": "‘Daijoubu’ berarti ‘tidak apa-apa’."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "「<お疲れ様:おつかれさま:terima kasih atas kerja keras>」は「terima kasih atas kerja keras」と いう <意味:いみ:arti> です",
+              "kalimat": "「\u003cお疲れ様:おつかれさま:terima kasih atas kerja keras\u003e」は「terima kasih atas kerja keras」と いう \u003c意味:いみ:arti\u003e です",
               "terjemahan": "‘Otsukaresama’ berarti ‘terima kasih atas kerja keras’."
             }
           }
@@ -3282,11 +3290,11 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "「terima kasih」は <日本語:にほんご:bahasa Jepang> で 何と <言います:いいます:mengatakan> か",
+              "kalimat": "「terima kasih」は \u003c日本語:にほんご:bahasa Jepang\u003e で 何と \u003c言います:いいます:mengatakan\u003e か",
               "terjemahan": "Bagaimana mengatakan ‘terima kasih’ dalam bahasa Jepang?"
             },
             "jawaban": {
-              "kalimat": "「<ありがとう::terima kasih>」と <言います:いいます:mengatakan>",
+              "kalimat": "「\u003cありがとう::terima kasih\u003e」と \u003c言います:いいます:mengatakan\u003e",
               "terjemahan": "Dikatakan ‘arigatou’."
             }
           }
@@ -3301,14 +3309,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<看板:かんばん:papan tanda> に「<立入禁止:たちいりきんし:dilarang masuk>」と <書いて:かいて:tertulis> あります",
+              "kalimat": "\u003c看板:かんばん:papan tanda\u003e に「\u003c立入禁止:たちいりきんし:dilarang masuk\u003e」と \u003c書いて:かいて:tertulis\u003e あります",
               "terjemahan": "Di papan tanda tertulis ‘Dilarang masuk’."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<箱:はこ:kotak> に「<壊れ物:こわれもの:barang mudah pecah>」と <書いて:かいて:tertulis> あります",
+              "kalimat": "\u003c箱:はこ:kotak\u003e に「\u003c壊れ物:こわれもの:barang mudah pecah\u003e」と \u003c書いて:かいて:tertulis\u003e あります",
               "terjemahan": "Di kotak tertulis ‘Barang mudah pecah’."
             }
           }
@@ -3317,6 +3325,7 @@
     ]
   },
   {
+    "id": "bp-dd813df2df2e",
     "lesson": "Lesson 34",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -3329,14 +3338,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> が <した:した:melakukan> とおりに、して ください",
+              "kalimat": "\u003c私:わたし:saya\u003e が \u003cした:した:melakukan\u003e とおりに、して ください",
               "terjemahan": "Tolong lakukan seperti yang saya lakukan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<説明書:せつめいしょ:petunjuk> の とおりに、<薬:くすり:obat> を <飲んで:のんで:minum> ください",
+              "kalimat": "\u003c説明書:せつめいしょ:petunjuk\u003e の とおりに、\u003c薬:くすり:obat\u003e を \u003c飲んで:のんで:minum\u003e ください",
               "terjemahan": "Tolong minum obat sesuai petunjuk."
             }
           }
@@ -3351,14 +3360,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<地図:ちず:peta> の とおりに、<歩いて:あるいて:berjalan> ください",
+              "kalimat": "\u003c地図:ちず:peta\u003e の とおりに、\u003c歩いて:あるいて:berjalan\u003e ください",
               "terjemahan": "Tolong berjalan sesuai peta."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<黒板:こくばん:papan tulis> の とおりに、<書いて:かいて:menulis> ください",
+              "kalimat": "\u003c黒板:こくばん:papan tulis\u003e の とおりに、\u003c書いて:かいて:menulis\u003e ください",
               "terjemahan": "Tolong tulis sesuai papan tulis."
             }
           }
@@ -3373,14 +3382,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<仕事:しごと:pekerjaan> が <終わった:おわった:selesai> あとで、<飲みます:のみます:minum>",
+              "kalimat": "\u003c仕事:しごと:pekerjaan\u003e が \u003c終わった:おわった:selesai\u003e あとで、\u003c飲みます:のみます:minum\u003e",
               "terjemahan": "Setelah pekerjaan selesai, minum."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<ご飯:ごはん:makan> を <食べた:たべた:makan> あとで、<薬:くすり:obat> を <飲みます:のみます:minum>",
+              "kalimat": "\u003cご飯:ごはん:makan\u003e を \u003c食べた:たべた:makan\u003e あとで、\u003c薬:くすり:obat\u003e を \u003c飲みます:のみます:minum\u003e",
               "terjemahan": "Setelah makan, minum obat."
             }
           }
@@ -3389,6 +3398,7 @@
     ]
   },
   {
+    "id": "bp-41a1ef8d0d05",
     "lesson": "Lesson 35",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -3401,14 +3411,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<安かったら:やすかったら:jika murah>、<買います:かいます:membeli>",
+              "kalimat": "\u003c安かったら:やすかったら:jika murah\u003e、\u003c買います:かいます:membeli\u003e",
               "terjemahan": "Kalau murah, saya beli."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<時間:じかん:waktu> が あったら、<映画:えいが:film> を <見ます:みます:menonton>",
+              "kalimat": "\u003c時間:じかん:waktu\u003e が あったら、\u003c映画:えいが:film\u003e を \u003c見ます:みます:menonton\u003e",
               "terjemahan": "Kalau ada waktu, menonton film."
             }
           }
@@ -3423,14 +3433,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<薬:くすり:obat> を <飲めば:のめば:jika minum>、<治ります:なおります:sembuh>",
+              "kalimat": "\u003c薬:くすり:obat\u003e を \u003c飲めば:のめば:jika minum\u003e、\u003c治ります:なおります:sembuh\u003e",
               "terjemahan": "Kalau minum obat, sembuh."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<時間:じかん:waktu> が あれば、<行きます:いきます:pergi>",
+              "kalimat": "\u003c時間:じかん:waktu\u003e が あれば、\u003c行きます:いきます:pergi\u003e",
               "terjemahan": "Kalau ada waktu, saya pergi."
             }
           }
@@ -3445,14 +3455,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<ボタン::tombol> を <押す:おす:menekan> と、<電気:でんき:lampu> が <つきます:つきます:menyala>",
+              "kalimat": "\u003cボタン::tombol\u003e を \u003c押す:おす:menekan\u003e と、\u003c電気:でんき:lampu\u003e が \u003cつきます:つきます:menyala\u003e",
               "terjemahan": "Kalau menekan tombol, lampu menyala."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<春:はる:musim semi> に なる と、<桜:さくら:sakura> が <咲きます:さきます:mekar>",
+              "kalimat": "\u003c春:はる:musim semi\u003e に なる と、\u003c桜:さくら:sakura\u003e が \u003c咲きます:さきます:mekar\u003e",
               "terjemahan": "Kalau musim semi tiba, sakura mekar."
             }
           }
@@ -3467,14 +3477,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<京都:きょうと:Kyoto> なら、<桜:さくら:sakura> が <きれい:きれい:indah> です",
+              "kalimat": "\u003c京都:きょうと:Kyoto\u003e なら、\u003c桜:さくら:sakura\u003e が \u003cきれい:きれい:indah\u003e です",
               "terjemahan": "Kalau Kyoto, sakuranya indah."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<寿司:すし:sushi> なら、この <店:みせ:toko> が <いい:いい:bagus> です",
+              "kalimat": "\u003c寿司:すし:sushi\u003e なら、この \u003c店:みせ:toko\u003e が \u003cいい:いい:bagus\u003e です",
               "terjemahan": "Kalau sushi, toko ini bagus."
             }
           }
@@ -3483,6 +3493,7 @@
     ]
   },
   {
+    "id": "bp-59ae7ce73016",
     "lesson": "Lesson 36",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -3495,14 +3506,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<毎日:まいにち:setiap hari> <運動:うんどう:olahraga> する ように して います",
+              "kalimat": "\u003c毎日:まいにち:setiap hari\u003e \u003c運動:うんどう:olahraga\u003e する ように して います",
               "terjemahan": "Saya berusaha berolahraga setiap hari."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<甘い物:あまいもの:makanan manis> を <食べない:たべない:tidak makan> ように して います",
+              "kalimat": "\u003c甘い物:あまいもの:makanan manis\u003e を \u003c食べない:たべない:tidak makan\u003e ように して います",
               "terjemahan": "Saya berusaha tidak makan makanan manis."
             }
           }
@@ -3517,14 +3528,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<日本語:にほんご:bahasa Jepang> が <話せる:はなせる:bisa berbicara> ように なりました",
+              "kalimat": "\u003c日本語:にほんご:bahasa Jepang\u003e が \u003c話せる:はなせる:bisa berbicara\u003e ように なりました",
               "terjemahan": "Sekarang saya bisa berbicara bahasa Jepang."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<毎朝:まいあさ:setiap pagi> <走る:はしる:berlari> ように なりました",
+              "kalimat": "\u003c毎朝:まいあさ:setiap pagi\u003e \u003c走る:はしる:berlari\u003e ように なりました",
               "terjemahan": "Sekarang saya jadi berlari setiap pagi."
             }
           }
@@ -3539,14 +3550,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<忘れない:わすれない:tidak lupa> ように、<メモ::catatan> します",
+              "kalimat": "\u003c忘れない:わすれない:tidak lupa\u003e ように、\u003cメモ::catatan\u003e します",
               "terjemahan": "Saya mencatat agar tidak lupa."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<風邪:かぜ:masuk angin> を ひかない ように、<気をつけます:きをつけます:berhati-hati>",
+              "kalimat": "\u003c風邪:かぜ:masuk angin\u003e を ひかない ように、\u003c気をつけます:きをつけます:berhati-hati\u003e",
               "terjemahan": "Saya berhati-hati agar tidak masuk angin."
             }
           }
@@ -3561,14 +3572,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<日本:にほん:Jepang> へ <留学する:りゅうがくする:belajar di luar negeri> ために、<お金:おかね:uang> を <貯めて:ためて:menabung> います",
+              "kalimat": "\u003c日本:にほん:Jepang\u003e へ \u003c留学する:りゅうがくする:belajar di luar negeri\u003e ために、\u003cお金:おかね:uang\u003e を \u003c貯めて:ためて:menabung\u003e います",
               "terjemahan": "Saya menabung untuk belajar ke Jepang."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<家:いえ:rumah> を <買う:かう:membeli> ために、<働いて:はたらいて:bekerja> います",
+              "kalimat": "\u003c家:いえ:rumah\u003e を \u003c買う:かう:membeli\u003e ために、\u003c働いて:はたらいて:bekerja\u003e います",
               "terjemahan": "Saya bekerja untuk membeli rumah."
             }
           }
@@ -3577,6 +3588,7 @@
     ]
   },
   {
+    "id": "bp-eac8f91e577b",
     "lesson": "Lesson 37",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -3589,14 +3601,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <建物:たてもの:gedung> は <１００年前:ひゃくねんまえ:100 tahun lalu> に <建てられました:たてられました:dibangun>",
+              "kalimat": "この \u003c建物:たてもの:gedung\u003e は \u003c１００年前:ひゃくねんまえ:100 tahun lalu\u003e に \u003c建てられました:たてられました:dibangun\u003e",
               "terjemahan": "Gedung ini dibangun 100 tahun lalu."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <先生:せんせい:guru> に <褒められました:ほめられました:dipuji>",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c先生:せんせい:guru\u003e に \u003c褒められました:ほめられました:dipuji\u003e",
               "terjemahan": "Saya dipuji guru."
             }
           }
@@ -3611,14 +3623,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<会議:かいぎ:rapat> は <来週:らいしゅう:minggu depan> <開かれます:ひらかれます:diadakan>",
+              "kalimat": "\u003c会議:かいぎ:rapat\u003e は \u003c来週:らいしゅう:minggu depan\u003e \u003c開かれます:ひらかれます:diadakan\u003e",
               "terjemahan": "Rapat akan diadakan minggu depan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <歌:うた:lagu> は よく <歌われます:うたわれます:dinyanyikan>",
+              "kalimat": "この \u003c歌:うた:lagu\u003e は よく \u003c歌われます:うたわれます:dinyanyikan\u003e",
               "terjemahan": "Lagu ini sering dinyanyikan."
             }
           }
@@ -3633,14 +3645,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <友達:ともだち:teman> に <自転車:じてんしゃ:sepeda> を <壊されました:こわされました:dirusak>",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c友達:ともだち:teman\u003e に \u003c自転車:じてんしゃ:sepeda\u003e を \u003c壊されました:こわされました:dirusak\u003e",
               "terjemahan": "Sepeda saya dirusak teman."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <弟:おとうと:adik> に <ケーキ::kue> を <食べられました:たべられました:dimakan>",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c弟:おとうと:adik\u003e に \u003cケーキ::kue\u003e を \u003c食べられました:たべられました:dimakan\u003e",
               "terjemahan": "Kue saya dimakan adik."
             }
           }
@@ -3649,6 +3661,7 @@
     ]
   },
   {
+    "id": "bp-d6200d0c5cd7",
     "lesson": "Lesson 38",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -3661,14 +3674,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <片づける:かたづける:merapikan> の が <好きです:すきです:suka>",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c片づける:かたづける:merapikan\u003e の が \u003c好きです:すきです:suka\u003e",
               "terjemahan": "Saya suka merapikan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<日本語:にほんご:bahasa Jepang> を <話す:はなす:berbicara> の が <楽しい:たのしい:menyenangkan> です",
+              "kalimat": "\u003c日本語:にほんご:bahasa Jepang\u003e を \u003c話す:はなす:berbicara\u003e の が \u003c楽しい:たのしい:menyenangkan\u003e です",
               "terjemahan": "Berbicara bahasa Jepang menyenangkan."
             }
           }
@@ -3683,14 +3696,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<毎日:まいにち:setiap hari> <勉強する:べんきょうする:belajar> の は <大変:たいへん:berat> です",
+              "kalimat": "\u003c毎日:まいにち:setiap hari\u003e \u003c勉強する:べんきょうする:belajar\u003e の は \u003c大変:たいへん:berat\u003e です",
               "terjemahan": "Belajar setiap hari berat."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<早く:はやく:cepat> <起きる:おきる:bangun> の は <苦手:にがて:tidak pandai> です",
+              "kalimat": "\u003c早く:はやく:cepat\u003e \u003c起きる:おきる:bangun\u003e の は \u003c苦手:にがて:tidak pandai\u003e です",
               "terjemahan": "Saya tidak pandai bangun pagi."
             }
           }
@@ -3705,14 +3718,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <弟:おとうと:adik> が <ゲーム::game> を する の を <見ました:みました:melihat>",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c弟:おとうと:adik\u003e が \u003cゲーム::game\u003e を する の を \u003c見ました:みました:melihat\u003e",
               "terjemahan": "Saya melihat adik bermain game."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <彼:かれ:dia> が <来る:くる:datang> の を <待って:まって:menunggu> います",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c彼:かれ:dia\u003e が \u003c来る:くる:datang\u003e の を \u003c待って:まって:menunggu\u003e います",
               "terjemahan": "Saya menunggu dia datang."
             }
           }
@@ -3721,6 +3734,7 @@
     ]
   },
   {
+    "id": "bp-64ac19b060c6",
     "lesson": "Lesson 39",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -3733,14 +3747,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<遅れて:おくれて:terlambat>、すみません",
+              "kalimat": "\u003c遅れて:おくれて:terlambat\u003e、すみません",
               "terjemahan": "Maaf saya terlambat."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<バス::bus> が <来なくて:こなくて:tidak datang>、<遅れました:おくれました:terlambat>",
+              "kalimat": "\u003cバス::bus\u003e が \u003c来なくて:こなくて:tidak datang\u003e、\u003c遅れました:おくれました:terlambat\u003e",
               "terjemahan": "Karena bus tidak datang, saya terlambat."
             }
           }
@@ -3755,14 +3769,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<雨:あめ:hujan> が <降っている:ふっている:turun> ので、<行きません:いきません:tidak pergi>",
+              "kalimat": "\u003c雨:あめ:hujan\u003e が \u003c降っている:ふっている:turun\u003e ので、\u003c行きません:いきません:tidak pergi\u003e",
               "terjemahan": "Karena hujan, saya tidak pergi."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<用事:ようじ:urusan> が ある ので、<先に:さきに:duluan> <帰ります:かえります:pulang>",
+              "kalimat": "\u003c用事:ようじ:urusan\u003e が ある ので、\u003c先に:さきに:duluan\u003e \u003c帰ります:かえります:pulang\u003e",
               "terjemahan": "Karena ada urusan, saya pulang duluan."
             }
           }
@@ -3777,14 +3791,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<雨:あめ:hujan> が <降った:ふった:turun> ために、<試合:しあい:pertandingan> が <中止:ちゅうし:dibatalkan> に なりました",
+              "kalimat": "\u003c雨:あめ:hujan\u003e が \u003c降った:ふった:turun\u003e ために、\u003c試合:しあい:pertandingan\u003e が \u003c中止:ちゅうし:dibatalkan\u003e に なりました",
               "terjemahan": "Karena hujan, pertandingan dibatalkan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<事故:じこ:kecelakaan> の ために、<電車:でんしゃ:kereta> が <遅れました:おくれました:terlambat>",
+              "kalimat": "\u003c事故:じこ:kecelakaan\u003e の ために、\u003c電車:でんしゃ:kereta\u003e が \u003c遅れました:おくれました:terlambat\u003e",
               "terjemahan": "Karena kecelakaan, kereta terlambat."
             }
           }
@@ -3793,6 +3807,7 @@
     ]
   },
   {
+    "id": "bp-ea93f757a548",
     "lesson": "Lesson 40",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -3805,14 +3820,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<友達:ともだち:teman> が <できた:できた:berhasil mendapat> か どうか、<心配:しんぱい:khawatir> です",
+              "kalimat": "\u003c友達:ともだち:teman\u003e が \u003cできた:できた:berhasil mendapat\u003e か どうか、\u003c心配:しんぱい:khawatir\u003e です",
               "terjemahan": "Saya khawatir apakah sudah mendapat teman atau belum."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<明日:あした:besok> <雨:あめ:hujan> が <降る:ふる:turun> か どうか、<分かりません:わかりません:tidak tahu>",
+              "kalimat": "\u003c明日:あした:besok\u003e \u003c雨:あめ:hujan\u003e が \u003c降る:ふる:turun\u003e か どうか、\u003c分かりません:わかりません:tidak tahu\u003e",
               "terjemahan": "Saya tidak tahu apakah besok hujan atau tidak."
             }
           }
@@ -3827,14 +3842,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <料理:りょうり:masakan> を <食べて:たべて:makan> みます",
+              "kalimat": "この \u003c料理:りょうり:masakan\u003e を \u003c食べて:たべて:makan\u003e みます",
               "terjemahan": "Saya akan mencoba makan masakan ini."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<日本語:にほんご:bahasa Jepang> で <話して:はなして:berbicara> みます",
+              "kalimat": "\u003c日本語:にほんご:bahasa Jepang\u003e で \u003c話して:はなして:berbicara\u003e みます",
               "terjemahan": "Saya akan mencoba berbicara dalam bahasa Jepang."
             }
           }
@@ -3849,14 +3864,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<日本:にほん:Jepang> の <温泉:おんせん:onsen> に <入って:はいって:masuk> みたいです",
+              "kalimat": "\u003c日本:にほん:Jepang\u003e の \u003c温泉:おんせん:onsen\u003e に \u003c入って:はいって:masuk\u003e みたいです",
               "terjemahan": "Saya ingin mencoba masuk onsen Jepang."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "その <映画:えいが:film> を <見て:みて:menonton> みたいです",
+              "kalimat": "その \u003c映画:えいが:film\u003e を \u003c見て:みて:menonton\u003e みたいです",
               "terjemahan": "Saya ingin mencoba menonton film itu."
             }
           }
@@ -3865,6 +3880,7 @@
     ]
   },
   {
+    "id": "bp-d509be4d49af",
     "lesson": "Lesson 41",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -3877,14 +3893,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<先生:せんせい:guru> に <辞書:じしょ:kamus> を <いただきました:いただきました:menerima>",
+              "kalimat": "\u003c先生:せんせい:guru\u003e に \u003c辞書:じしょ:kamus\u003e を \u003cいただきました:いただきました:menerima\u003e",
               "terjemahan": "Saya menerima kamus dari guru."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<お客様:おきゃくさま:tamu> に <お土産:おみやげ:oleh-oleh> を いただきました",
+              "kalimat": "\u003cお客様:おきゃくさま:tamu\u003e に \u003cお土産:おみやげ:oleh-oleh\u003e を いただきました",
               "terjemahan": "Saya menerima oleh-oleh dari tamu."
             }
           }
@@ -3899,14 +3915,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<先生:せんせい:guru> は <私:わたし:saya> に <辞書:じしょ:kamus> を <くださいました:くださいました:memberi>",
+              "kalimat": "\u003c先生:せんせい:guru\u003e は \u003c私:わたし:saya\u003e に \u003c辞書:じしょ:kamus\u003e を \u003cくださいました:くださいました:memberi\u003e",
               "terjemahan": "Guru memberi saya kamus."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<社長:しゃちょう:direktur> は <私:わたし:saya> に <お土産:おみやげ:oleh-oleh> を くださいました",
+              "kalimat": "\u003c社長:しゃちょう:direktur\u003e は \u003c私:わたし:saya\u003e に \u003cお土産:おみやげ:oleh-oleh\u003e を くださいました",
               "terjemahan": "Direktur memberi saya oleh-oleh."
             }
           }
@@ -3921,14 +3937,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <弟:おとうと:adik> に <本:ほん:buku> を <やりました:やりました:memberi>",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c弟:おとうと:adik\u003e に \u003c本:ほん:buku\u003e を \u003cやりました:やりました:memberi\u003e",
               "terjemahan": "Saya memberi buku kepada adik."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<花:はな:bunga> に <水:みず:air> を <やります:やります:memberi>",
+              "kalimat": "\u003c花:はな:bunga\u003e に \u003c水:みず:air\u003e を \u003cやります:やります:memberi\u003e",
               "terjemahan": "Saya menyirami bunga."
             }
           }
@@ -3937,6 +3953,7 @@
     ]
   },
   {
+    "id": "bp-0da934e3b76c",
     "lesson": "Lesson 42",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -3949,14 +3966,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <部屋:へや:kamar> は <会議:かいぎ:rapat> に <使います:つかいます:menggunakan>",
+              "kalimat": "この \u003c部屋:へや:kamar\u003e は \u003c会議:かいぎ:rapat\u003e に \u003c使います:つかいます:menggunakan\u003e",
               "terjemahan": "Kamar ini digunakan untuk rapat."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<ボーナス::bonus> は <旅行:りょこう:perjalanan> に <使います:つかいます:menggunakan>",
+              "kalimat": "\u003cボーナス::bonus\u003e は \u003c旅行:りょこう:perjalanan\u003e に \u003c使います:つかいます:menggunakan\u003e",
               "terjemahan": "Bonus digunakan untuk perjalanan."
             }
           }
@@ -3971,14 +3988,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<家族:かぞく:keluarga> の ために、<働いて:はたらいて:bekerja> います",
+              "kalimat": "\u003c家族:かぞく:keluarga\u003e の ために、\u003c働いて:はたらいて:bekerja\u003e います",
               "terjemahan": "Saya bekerja untuk keluarga."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<家:いえ:rumah> を <買う:かう:membeli> ために、<お金:おかね:uang> を <貯めて:ためて:menabung> います",
+              "kalimat": "\u003c家:いえ:rumah\u003e を \u003c買う:かう:membeli\u003e ために、\u003cお金:おかね:uang\u003e を \u003c貯めて:ためて:menabung\u003e います",
               "terjemahan": "Saya menabung untuk membeli rumah."
             }
           }
@@ -3993,14 +4010,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <包丁:ほうちょう:pisau dapur> は <野菜:やさい:sayur> を <切る:きる:memotong> の に <使います:つかいます:menggunakan>",
+              "kalimat": "この \u003c包丁:ほうちょう:pisau dapur\u003e は \u003c野菜:やさい:sayur\u003e を \u003c切る:きる:memotong\u003e の に \u003c使います:つかいます:menggunakan\u003e",
               "terjemahan": "Pisau ini digunakan untuk memotong sayur."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <機械:きかい:mesin> は <紙:かみ:kertas> を <切る:きる:memotong> の に <使います:つかいます:menggunakan>",
+              "kalimat": "この \u003c機械:きかい:mesin\u003e は \u003c紙:かみ:kertas\u003e を \u003c切る:きる:memotong\u003e の に \u003c使います:つかいます:menggunakan\u003e",
               "terjemahan": "Mesin ini digunakan untuk memotong kertas."
             }
           }
@@ -4009,6 +4026,7 @@
     ]
   },
   {
+    "id": "bp-d44078de25bd",
     "lesson": "Lesson 43",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -4021,14 +4039,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<毎日:まいにち:setiap hari> <楽しい:たのしい:menyenangkan> そうです",
+              "kalimat": "\u003c毎日:まいにち:setiap hari\u003e \u003c楽しい:たのしい:menyenangkan\u003e そうです",
               "terjemahan": "Sepertinya setiap hari menyenangkan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <ケーキ::kue> は <おいしい:おいしい:enak> そうです",
+              "kalimat": "この \u003cケーキ::kue\u003e は \u003cおいしい:おいしい:enak\u003e そうです",
               "terjemahan": "Kue ini terlihat enak."
             }
           }
@@ -4043,14 +4061,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<ミラー::Miller> さん は <元気:げんき:sehat> な ようです",
+              "kalimat": "\u003cミラー::Miller\u003e さん は \u003c元気:げんき:sehat\u003e な ようです",
               "terjemahan": "Sepertinya Sdr. Miller sehat."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<外:そと:luar> は <雨:あめ:hujan> が <降っている:ふっている:turun> ようです",
+              "kalimat": "\u003c外:そと:luar\u003e は \u003c雨:あめ:hujan\u003e が \u003c降っている:ふっている:turun\u003e ようです",
               "terjemahan": "Sepertinya di luar hujan."
             }
           }
@@ -4065,14 +4083,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<明日:あした:besok> は <雪:ゆき:salju> が <降る:ふる:turun> らしいです",
+              "kalimat": "\u003c明日:あした:besok\u003e は \u003c雪:ゆき:salju\u003e が \u003c降る:ふる:turun\u003e らしいです",
               "terjemahan": "Katanya besok akan turun salju."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "あの <店:みせ:toko> は <おいしい:おいしい:enak> らしいです",
+              "kalimat": "あの \u003c店:みせ:toko\u003e は \u003cおいしい:おいしい:enak\u003e らしいです",
               "terjemahan": "Katanya toko itu enak."
             }
           }
@@ -4081,6 +4099,7 @@
     ]
   },
   {
+    "id": "bp-31ff6ebea916",
     "lesson": "Lesson 44",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -4093,14 +4112,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "この <写真:しゃしん:foto> みたいに して ください",
+              "kalimat": "この \u003c写真:しゃしん:foto\u003e みたいに して ください",
               "terjemahan": "Tolong lakukan seperti foto ini."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<鳥:とり:burung> みたいに <飛びたい:とびたい:ingin terbang> です",
+              "kalimat": "\u003c鳥:とり:burung\u003e みたいに \u003c飛びたい:とびたい:ingin terbang\u003e です",
               "terjemahan": "Saya ingin terbang seperti burung."
             }
           }
@@ -4115,14 +4134,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<彼:かれ:dia> は <子供:こども:anak> みたいな <人:ひと:orang> です",
+              "kalimat": "\u003c彼:かれ:dia\u003e は \u003c子供:こども:anak\u003e みたいな \u003c人:ひと:orang\u003e です",
               "terjemahan": "Dia orang yang seperti anak-anak."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "これ は <夢:ゆめ:mimpi> みたいな <話:はなし:cerita> です",
+              "kalimat": "これ は \u003c夢:ゆめ:mimpi\u003e みたいな \u003c話:はなし:cerita\u003e です",
               "terjemahan": "Ini cerita seperti mimpi."
             }
           }
@@ -4137,14 +4156,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<外:そと:luar> は <雨:あめ:hujan> みたいです",
+              "kalimat": "\u003c外:そと:luar\u003e は \u003c雨:あめ:hujan\u003e みたいです",
               "terjemahan": "Sepertinya di luar hujan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<ミラー::Miller> さん は <風邪:かぜ:masuk angin> みたいです",
+              "kalimat": "\u003cミラー::Miller\u003e さん は \u003c風邪:かぜ:masuk angin\u003e みたいです",
               "terjemahan": "Sepertinya Sdr. Miller masuk angin."
             }
           }
@@ -4153,29 +4172,30 @@
     ]
   },
   {
+    "id": "bp-d231ac129853",
     "lesson": "Lesson 45",
     "buku": "Minna no Nihongo 2",
     "pola": [
       {
         "no_bunpou": "1",
         "nama_pola": "Dalam kasus 場合は",
-        "rumus": "[～:kalimat biasa] + <場合:ばあい:kasus> + は、[～:kalimat]",
+        "rumus": "[～:kalimat biasa] + \u003c場合:ばあい:kasus\u003e + は、[～:kalimat]",
         "deskripsi": "場合は digunakan untuk menyatakan kondisi khusus atau situasi tertentu.",
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "<コース::jalur> を <まちがえた:まちがえた:salah> <場合:ばあい:kasus> は、どう したら いいですか",
+              "kalimat": "\u003cコース::jalur\u003e を \u003cまちがえた:まちがえた:salah\u003e \u003c場合:ばあい:kasus\u003e は、どう したら いいですか",
               "terjemahan": "Kalau salah jalur, harus bagaimana?"
             },
             "jawaban": {
-              "kalimat": "<駅員:えきいん:petugas stasiun> に <聞いて:きいて:bertanya> ください",
+              "kalimat": "\u003c駅員:えきいん:petugas stasiun\u003e に \u003c聞いて:きいて:bertanya\u003e ください",
               "terjemahan": "Tolong tanyakan kepada petugas stasiun."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<雨:あめ:hujan> の <場合:ばあい:kasus> は、<試合:しあい:pertandingan> を <中止します:ちゅうしします:membatalkan>",
+              "kalimat": "\u003c雨:あめ:hujan\u003e の \u003c場合:ばあい:kasus\u003e は、\u003c試合:しあい:pertandingan\u003e を \u003c中止します:ちゅうしします:membatalkan\u003e",
               "terjemahan": "Kalau hujan, pertandingan dibatalkan."
             }
           }
@@ -4189,21 +4209,21 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "<熱:ねつ:demam> が ある <場合:ばあい:kasus> は、どう したら いいですか",
+              "kalimat": "\u003c熱:ねつ:demam\u003e が ある \u003c場合:ばあい:kasus\u003e は、どう したら いいですか",
               "terjemahan": "Kalau demam, harus bagaimana?"
             },
             "jawaban": {
-              "kalimat": "<病院:びょういん:rumah sakit> へ <行ったら:いったら:jika pergi> いいですよ",
+              "kalimat": "\u003c病院:びょういん:rumah sakit\u003e へ \u003c行ったら:いったら:jika pergi\u003e いいですよ",
               "terjemahan": "Sebaiknya pergi ke rumah sakit."
             }
           },
           {
             "pertanyaan": {
-              "kalimat": "この <薬:くすり:obat> は いつ <飲んだら:のんだら:jika minum> いいですか",
+              "kalimat": "この \u003c薬:くすり:obat\u003e は いつ \u003c飲んだら:のんだら:jika minum\u003e いいですか",
               "terjemahan": "Obat ini diminum kapan?"
             },
             "jawaban": {
-              "kalimat": "<食事:しょくじ:makan> の <後:あと:setelah> に <飲んで:のんで:minum> ください",
+              "kalimat": "\u003c食事:しょくじ:makan\u003e の \u003c後:あと:setelah\u003e に \u003c飲んで:のんで:minum\u003e ください",
               "terjemahan": "Tolong minum setelah makan."
             }
           }
@@ -4218,14 +4238,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<雨:あめ:hujan> が <降っても:ふっても:meskipun turun>、<試合:しあい:pertandingan> は あります",
+              "kalimat": "\u003c雨:あめ:hujan\u003e が \u003c降っても:ふっても:meskipun turun\u003e、\u003c試合:しあい:pertandingan\u003e は あります",
               "terjemahan": "Meskipun hujan, pertandingan tetap ada."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<高くても:たかくても:meskipun mahal>、<買います:かいます:membeli>",
+              "kalimat": "\u003c高くても:たかくても:meskipun mahal\u003e、\u003c買います:かいます:membeli\u003e",
               "terjemahan": "Meskipun mahal, saya beli."
             }
           }
@@ -4234,6 +4254,7 @@
     ]
   },
   {
+    "id": "bp-a767bde2b3e2",
     "lesson": "Lesson 46",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -4246,14 +4267,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<先週:せんしゅう:minggu lalu> <直して:なおして:memperbaiki> もらった ばかり なのに、また <壊れました:こわれました:rusak>",
+              "kalimat": "\u003c先週:せんしゅう:minggu lalu\u003e \u003c直して:なおして:memperbaiki\u003e もらった ばかり なのに、また \u003c壊れました:こわれました:rusak\u003e",
               "terjemahan": "Padahal baru minggu lalu diperbaiki, tapi rusak lagi."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<今:いま:sekarang> <食べた:たべた:makan> ばかり です",
+              "kalimat": "\u003c今:いま:sekarang\u003e \u003c食べた:たべた:makan\u003e ばかり です",
               "terjemahan": "Saya baru saja makan."
             }
           }
@@ -4268,14 +4289,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<今:いま:sekarang> <食べている:たべている:sedang makan> ところ です",
+              "kalimat": "\u003c今:いま:sekarang\u003e \u003c食べている:たべている:sedang makan\u003e ところ です",
               "terjemahan": "Sekarang sedang makan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "これから <出かける:でかける:pergi keluar> ところ です",
+              "kalimat": "これから \u003c出かける:でかける:pergi keluar\u003e ところ です",
               "terjemahan": "Saya baru akan pergi."
             }
           }
@@ -4290,14 +4311,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<今:いま:sekarang> <駅:えき:stasiun> に <着いた:ついた:tiba> ところ です",
+              "kalimat": "\u003c今:いま:sekarang\u003e \u003c駅:えき:stasiun\u003e に \u003c着いた:ついた:tiba\u003e ところ です",
               "terjemahan": "Saya baru saja tiba di stasiun."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<今:いま:sekarang> <終わった:おわった:selesai> ところ です",
+              "kalimat": "\u003c今:いま:sekarang\u003e \u003c終わった:おわった:selesai\u003e ところ です",
               "terjemahan": "Baru saja selesai."
             }
           }
@@ -4306,6 +4327,7 @@
     ]
   },
   {
+    "id": "bp-056346418f9c",
     "lesson": "Lesson 47",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -4318,14 +4340,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<ミラー::Miller> さん は <婚約した:こんやくした:bertunangan> そうです",
+              "kalimat": "\u003cミラー::Miller\u003e さん は \u003c婚約した:こんやくした:bertunangan\u003e そうです",
               "terjemahan": "Katanya Sdr. Miller sudah bertunangan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<明日:あした:besok> は <雨:あめ:hujan> が <降る:ふる:turun> そうです",
+              "kalimat": "\u003c明日:あした:besok\u003e は \u003c雨:あめ:hujan\u003e が \u003c降る:ふる:turun\u003e そうです",
               "terjemahan": "Katanya besok hujan."
             }
           }
@@ -4340,14 +4362,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<道:みち:jalan> が <ぬれています:ぬれています:basah>。<夜:よる:malam> <雨:あめ:hujan> が <降った:ふった:turun> ようです",
+              "kalimat": "\u003c道:みち:jalan\u003e が \u003cぬれています:ぬれています:basah\u003e。\u003c夜:よる:malam\u003e \u003c雨:あめ:hujan\u003e が \u003c降った:ふった:turun\u003e ようです",
               "terjemahan": "Jalan basah. Sepertinya tadi malam hujan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<誰も:だれも:siapa pun> いない ようです",
+              "kalimat": "\u003c誰も:だれも:siapa pun\u003e いない ようです",
               "terjemahan": "Sepertinya tidak ada siapa-siapa."
             }
           }
@@ -4362,14 +4384,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "あの <店:みせ:toko> は <人気:にんき:populer> が ある らしいです",
+              "kalimat": "あの \u003c店:みせ:toko\u003e は \u003c人気:にんき:populer\u003e が ある らしいです",
               "terjemahan": "Katanya toko itu populer."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<田中:たなか:Tanaka> さん は <来ない:こない:tidak datang> らしいです",
+              "kalimat": "\u003c田中:たなか:Tanaka\u003e さん は \u003c来ない:こない:tidak datang\u003e らしいです",
               "terjemahan": "Katanya Sdr. Tanaka tidak datang."
             }
           }
@@ -4378,6 +4400,7 @@
     ]
   },
   {
+    "id": "bp-6165f86bf58e",
     "lesson": "Lesson 48",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -4390,14 +4413,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<先生:せんせい:guru> は <学生:がくせい:mahasiswa> に <作文:さくぶん:karangan> を <書かせました:かかせました:menyuruh menulis>",
+              "kalimat": "\u003c先生:せんせい:guru\u003e は \u003c学生:がくせい:mahasiswa\u003e に \u003c作文:さくぶん:karangan\u003e を \u003c書かせました:かかせました:menyuruh menulis\u003e",
               "terjemahan": "Guru menyuruh siswa menulis karangan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<母:はは:ibu> は <子供:こども:anak> を <外:そと:luar> で <遊ばせました:あそばせました:membiarkan bermain>",
+              "kalimat": "\u003c母:はは:ibu\u003e は \u003c子供:こども:anak\u003e を \u003c外:そと:luar\u003e で \u003c遊ばせました:あそばせました:membiarkan bermain\u003e",
               "terjemahan": "Ibu membiarkan anak bermain di luar."
             }
           }
@@ -4411,7 +4434,7 @@
         "contoh": [
           {
             "pertanyaan": {
-              "kalimat": "<今日:きょう:hari ini> は <早く:はやく:cepat> <帰らせて:かえらせて:memulangkan> いただけません か",
+              "kalimat": "\u003c今日:きょう:hari ini\u003e は \u003c早く:はやく:cepat\u003e \u003c帰らせて:かえらせて:memulangkan\u003e いただけません か",
               "terjemahan": "Bisakah saya pulang cepat hari ini?"
             },
             "jawaban": {
@@ -4421,7 +4444,7 @@
           },
           {
             "pertanyaan": {
-              "kalimat": "この <仕事:しごと:pekerjaan> を <やらせて:やらせて:membiarkan mengerjakan> いただけません か",
+              "kalimat": "この \u003c仕事:しごと:pekerjaan\u003e を \u003cやらせて:やらせて:membiarkan mengerjakan\u003e いただけません か",
               "terjemahan": "Bisakah saya mengerjakan pekerjaan ini?"
             },
             "jawaban": {
@@ -4440,14 +4463,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> に も <一言:ひとこと:sepatah kata> <言わせて:いわせて:membiarkan berbicara> ください",
+              "kalimat": "\u003c私:わたし:saya\u003e に も \u003c一言:ひとこと:sepatah kata\u003e \u003c言わせて:いわせて:membiarkan berbicara\u003e ください",
               "terjemahan": "Izinkan saya juga berbicara sepatah kata."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> に <説明:せつめい:penjelasan> させて ください",
+              "kalimat": "\u003c私:わたし:saya\u003e に \u003c説明:せつめい:penjelasan\u003e させて ください",
               "terjemahan": "Izinkan saya menjelaskan."
             }
           }
@@ -4456,6 +4479,7 @@
     ]
   },
   {
+    "id": "bp-81c2ca564590",
     "lesson": "Lesson 49",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -4468,14 +4492,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "ただ今 <準備:じゅんび:persiapan> して おります",
+              "kalimat": "ただ今 \u003c準備:じゅんび:persiapan\u003e して おります",
               "terjemahan": "Saat ini kami sedang menyiapkan."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<東京:とうきょう:Tokyo> に <住んで:すんで:tinggal> おります",
+              "kalimat": "\u003c東京:とうきょう:Tokyo\u003e に \u003c住んで:すんで:tinggal\u003e おります",
               "terjemahan": "Saya tinggal di Tokyo."
             }
           }
@@ -4490,14 +4514,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "こちら は <受付:うけつけ:resepsionis> で ございます",
+              "kalimat": "こちら は \u003c受付:うけつけ:resepsionis\u003e で ございます",
               "terjemahan": "Ini adalah resepsionis."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<資料:しりょう:materi> は こちら で ございます",
+              "kalimat": "\u003c資料:しりょう:materi\u003e は こちら で ございます",
               "terjemahan": "Materinya ada di sini."
             }
           }
@@ -4512,14 +4536,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "よろしく お<伝え:つたえ:menyampaikan> ください",
+              "kalimat": "よろしく お\u003c伝え:つたえ:menyampaikan\u003e ください",
               "terjemahan": "Tolong sampaikan salam."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "こちら に お<掛け:かけ:duduk> ください",
+              "kalimat": "こちら に お\u003c掛け:かけ:duduk\u003e ください",
               "terjemahan": "Silakan duduk di sini."
             }
           }
@@ -4534,14 +4558,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<先生:せんせい:guru> に <教えて:おしえて:mengajari> いただきました",
+              "kalimat": "\u003c先生:せんせい:guru\u003e に \u003c教えて:おしえて:mengajari\u003e いただきました",
               "terjemahan": "Saya diajari oleh guru."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<社長:しゃちょう:direktur> に <説明して:せつめいして:menjelaskan> いただきました",
+              "kalimat": "\u003c社長:しゃちょう:direktur\u003e に \u003c説明して:せつめいして:menjelaskan\u003e いただきました",
               "terjemahan": "Saya dijelaskan oleh direktur."
             }
           }
@@ -4550,6 +4574,7 @@
     ]
   },
   {
+    "id": "bp-7460d8443506",
     "lesson": "Lesson 50",
     "buku": "Minna no Nihongo 2",
     "pola": [
@@ -4562,17 +4587,17 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<社長:しゃちょう:direktur> は <会議室:かいぎしつ:ruang rapat> に <いらっしゃいます:いらっしゃいます:ada (hormat)>",
+              "kalimat": "\u003c社長:しゃちょう:direktur\u003e は \u003c会議室:かいぎしつ:ruang rapat\u003e に \u003cいらっしゃいます:いらっしゃいます:ada (hormat)\u003e",
               "terjemahan": "Direktur ada di ruang rapat."
             }
           },
           {
             "pertanyaan": {
-              "kalimat": "<先生:せんせい:guru> は <何:なに:apa> を して いらっしゃいます か",
+              "kalimat": "\u003c先生:せんせい:guru\u003e は \u003c何:なに:apa\u003e を して いらっしゃいます か",
               "terjemahan": "Apa yang sedang dilakukan guru?"
             },
             "jawaban": {
-              "kalimat": "<新聞:しんぶん:koran> を <読んで:よんで:membaca> いらっしゃいます",
+              "kalimat": "\u003c新聞:しんぶん:koran\u003e を \u003c読んで:よんで:membaca\u003e いらっしゃいます",
               "terjemahan": "Sedang membaca koran."
             }
           }
@@ -4587,14 +4612,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<社長:しゃちょう:direktur> は もう お<帰り:かえり:pulang> に なりました",
+              "kalimat": "\u003c社長:しゃちょう:direktur\u003e は もう お\u003c帰り:かえり:pulang\u003e に なりました",
               "terjemahan": "Direktur sudah pulang."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<先生:せんせい:guru> は <新聞:しんぶん:koran> を お<読み:よみ:membaca> に なります",
+              "kalimat": "\u003c先生:せんせい:guru\u003e は \u003c新聞:しんぶん:koran\u003e を お\u003c読み:よみ:membaca\u003e に なります",
               "terjemahan": "Guru membaca koran."
             }
           }
@@ -4609,14 +4634,14 @@
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<心:こころ:hati> から <感謝:かんしゃ:rasa syukur> いたします",
+              "kalimat": "\u003c心:こころ:hati\u003e から \u003c感謝:かんしゃ:rasa syukur\u003e いたします",
               "terjemahan": "Saya mengucapkan terima kasih dari hati."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> が ご<案内:あんない:panduan> いたします",
+              "kalimat": "\u003c私:わたし:saya\u003e が ご\u003c案内:あんない:panduan\u003e いたします",
               "terjemahan": "Saya akan memandu."
             }
           }
@@ -4625,20 +4650,20 @@
       {
         "no_bunpou": "4",
         "nama_pola": "Rendah hati 申します",
-        "rumus": "[～:nama] + と + <申します:もうします:bernama>",
+        "rumus": "[～:nama] + と + \u003c申します:もうします:bernama\u003e",
         "deskripsi": "申します adalah bentuk rendah hati dari 言います, sering dipakai untuk memperkenalkan nama.",
         "contoh": [
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <田中:たなか:Tanaka> と <申します:もうします:bernama>",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003c田中:たなか:Tanaka\u003e と \u003c申します:もうします:bernama\u003e",
               "terjemahan": "Nama saya Tanaka."
             }
           },
           {
             "pertanyaan": null,
             "jawaban": {
-              "kalimat": "<私:わたし:saya> は <ミラー::Miller> と <申します:もうします:bernama>",
+              "kalimat": "\u003c私:わたし:saya\u003e は \u003cミラー::Miller\u003e と \u003c申します:もうします:bernama\u003e",
               "terjemahan": "Nama saya Miller."
             }
           }

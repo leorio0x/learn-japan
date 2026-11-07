@@ -118,7 +118,7 @@
     </div>
 
     <p class="mb-3 text-xs text-navy/50">
-        Klik dua kali pada kata untuk melihat furigana dan artinya.
+        Klik pada kata untuk melihat furigana dan artinya.
     </p>
 
     {#if loading || loadingStories}
