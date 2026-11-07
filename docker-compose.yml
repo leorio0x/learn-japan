@@ -36,3 +36,17 @@ services:
         limits:
           memory: 64M
     restart: unless-stopped
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: learn-japan-tunnel
+    command: tunnel --no-autoupdate run
+    environment:
+      TUNNEL_TOKEN: ${CLOUDFLARE_TUNNEL_TOKEN}
+    depends_on:
+      - frontend
+    deploy:
+      resources:
+        limits:
+          memory: 64M
+    restart: unless-stopped

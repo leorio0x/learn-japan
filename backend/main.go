@@ -41,8 +41,11 @@ func main() {
 	authManager := auth.NewManager(crudPassword, os.Getenv("SESSION_SECRET"))
 
 	app := fiber.New(fiber.Config{
-		AppName:   "learn-japan",
-		BodyLimit: 10 * 1024 * 1024,
+		AppName:                 "learn-japan",
+		BodyLimit:               10 * 1024 * 1024,
+		ProxyHeader:             "X-Forwarded-For",
+		EnableTrustedProxyCheck: true,
+		TrustedProxies:          []string{"127.0.0.1", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"},
 		ErrorHandler: func(c *fiber.Ctx, err error) error {
 			code := fiber.StatusInternalServerError
 			var e *fiber.Error
@@ -57,7 +60,7 @@ func main() {
 	app.Use(etag.New())
 	app.Use(logger.New())
 	app.Use(cors.New(cors.Config{
-		AllowOrigins: "*",
+		AllowOrigins: "https://ansatsu.hirsuta.id",
 		AllowHeaders: "Origin, Content-Type, Accept, Authorization",
 		AllowMethods: "GET,POST,PUT,DELETE,OPTIONS",
 	}))

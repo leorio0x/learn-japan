@@ -106,6 +106,7 @@ func (m *Manager) Login(c *fiber.Ctx) error {
 		Value:    m.issue(),
 		Path:     "/api",
 		HTTPOnly: true,
+		Secure:   c.Get(fiber.HeaderXForwardedProto) == "https",
 		SameSite: "Lax",
 		MaxAge:   int(tokenTTL.Seconds()),
 	})
@@ -124,6 +125,7 @@ func (m *Manager) Logout(c *fiber.Ctx) error {
 		Value:    "",
 		Path:     "/api",
 		HTTPOnly: true,
+		Secure:   c.Get(fiber.HeaderXForwardedProto) == "https",
 		SameSite: "Lax",
 		MaxAge:   -1,
 	})
