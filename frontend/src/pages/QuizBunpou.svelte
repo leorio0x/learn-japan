@@ -14,8 +14,6 @@
 
     let phase = $state("setup");
     let batchSize = $state(10);
-    let hideKanji = $state(false);
-    let qHide = $state(false);
 
     let questions = $state([]);
     let index = $state(0);
@@ -109,7 +107,6 @@
         selectedOption = "";
         answered = false;
         answerOk = false;
-        qHide = hideKanji;
     }
 
     function sameAnswer(a, b) {
@@ -227,19 +224,6 @@
                 </div>
             </div>
 
-            <label
-                class="flex cursor-pointer items-center justify-between rounded-xl bg-sage/10 px-4 py-3"
-            >
-                <span class="text-sm font-semibold text-ink"
-                    >Sembunyikan kanji</span
-                >
-                <input
-                    type="checkbox"
-                    class="h-5 w-5 accent-steel"
-                    bind:checked={hideKanji}
-                />
-            </label>
-
             <div
                 class="flex flex-wrap items-center justify-between gap-3 border-t border-navy/10 pt-4"
             >
@@ -289,19 +273,8 @@
                 <BunpouSentence
                     kalimat={current.soal}
                     showTerjemahan={false}
-                    hideKanji={qHide}
                     className="mt-3 block text-2xl font-bold leading-relaxed text-cream sm:text-3xl"
                 />
-                <label
-                    class="mt-4 inline-flex cursor-pointer items-center gap-2 text-xs text-cream/60"
-                >
-                    <input
-                        type="checkbox"
-                        class="h-4 w-4 accent-sage"
-                        bind:checked={qHide}
-                    />
-                    Sembunyikan kanji
-                </label>
             </div>
 
             {#if current.type === "pilihan"}
@@ -326,7 +299,6 @@
                             <BunpouSentence
                                 kalimat={option}
                                 showTerjemahan={false}
-                                hideKanji={qHide}
                                 className="text-base font-semibold text-ink"
                             />
                         </button>
