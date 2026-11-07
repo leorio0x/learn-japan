@@ -18,7 +18,7 @@ di data/rules.md.
 - CRUD untuk kanji yang dimana hasil input disimpan sesuai dengan format yang sudah dijelaskan
   di data/rules.md.
 
-## CRUD kaiwa
+## CRUD Bunpou
 
-CRUD untuk kaiwa yang dimana hasil input disimpan sesuai dengan format yang sudah dijelaskan
+CRUD untuk bunpou yang dimana hasil input disimpan sesuai dengan format yang sudah dijelaskan
 di data/rules.md.

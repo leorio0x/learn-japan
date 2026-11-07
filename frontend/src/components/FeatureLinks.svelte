@@ -35,16 +35,16 @@
                 authRequired: true,
             },
         ],
-        kaiwa: [
+        bunpou: [
             {
-                id: "quiz-kaiwa",
-                label: "Tebak Kaiwa",
+                id: "quiz-bunpou",
+                label: "Tebak Bunpou",
                 icon: "quiz",
                 primary: true,
             },
             {
-                id: "crud-kaiwa",
-                label: "Kelola Kaiwa",
+                id: "crud-bunpou",
+                label: "Kelola Bunpou",
                 icon: "crud",
                 authRequired: true,
             },

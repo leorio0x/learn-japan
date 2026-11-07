@@ -1,13 +1,13 @@
-package kaiwa
+package bunpou
 
 import "github.com/gofiber/fiber/v2"
 
-// RegisterRoutes mendaftarkan seluruh route fitur kaiwa.
+// RegisterRoutes mendaftarkan seluruh route fitur bunpou.
 // protect adalah middleware autentikasi yang dipasang pada endpoint mutasi (CRUD).
 func RegisterRoutes(app fiber.Router, repo *Repository, protect fiber.Handler) {
 	handler := NewHandler(NewService(repo))
 
-	group := app.Group("/kaiwa")
+	group := app.Group("/bunpou")
 	group.Get("/", handler.List)
 	group.Get("/:id", handler.Get)
 	group.Post("/bulk-delete", protect, handler.BulkDelete)

@@ -1,4 +1,4 @@
-package kaiwa
+package bunpou
 
 import (
 	"encoding/json"
@@ -8,10 +8,10 @@ import (
 	"sync"
 )
 
-// ErrNotFound dikembalikan ketika kaiwa dengan id tertentu tidak ditemukan.
-var ErrNotFound = errors.New("kaiwa tidak ditemukan")
+// ErrNotFound dikembalikan ketika bunpou dengan id tertentu tidak ditemukan.
+var ErrNotFound = errors.New("bunpou tidak ditemukan")
 
-// Repository menyimpan data kaiwa pada sebuah file JSON.
+// Repository menyimpan data bunpou pada sebuah file JSON.
 type Repository struct {
 	path string
 	mu   sync.RWMutex
@@ -22,31 +22,43 @@ func NewRepository(path string) *Repository {
 	return &Repository{path: path}
 }
 
-func (r *Repository) readLocked() ([]Kaiwa, error) {
+func (r *Repository) readLocked() ([]Bunpou, error) {
 	data, err := os.ReadFile(r.path)
 	if err != nil {
 		if os.IsNotExist(err) {
-			return []Kaiwa{}, nil
+			return []Bunpou{}, nil
 		}
 		return nil, err
 	}
 	if len(data) == 0 {
-		return []Kaiwa{}, nil
+		return []Bunpou{}, nil
 	}
-	var list []Kaiwa
+	var list []Bunpou
 	if err := json.Unmarshal(data, &list); err != nil {
 		return nil, err
 	}
 	if list == nil {
-		list = []Kaiwa{}
+		list = []Bunpou{}
 	}
+	missingID := false
 	for i := range list {
 		list[i].normalize()
+		if list[i].ID == "" {
+			list[i].ID = newID()
+			missingID = true
+		}
+	}
+	// Data yang ditulis manual mengikuti format tidak memiliki id.
+	// Lengkapi lalu simpan agar CRUD tetap dapat mengubah dan menghapus data.
+	if missingID {
+		if err := r.writeLocked(list); err != nil {
+			return nil, err
+		}
 	}
 	return list, nil
 }
 
-func (r *Repository) writeLocked(list []Kaiwa) error {
+func (r *Repository) writeLocked(list []Bunpou) error {
 	if err := os.MkdirAll(filepath.Dir(r.path), 0o755); err != nil {
 		return err
 	}
@@ -58,66 +70,66 @@ func (r *Repository) writeLocked(list []Kaiwa) error {
 	return os.WriteFile(r.path, data, 0o644)
 }
 
-// FindAll mengembalikan seluruh data kaiwa.
-func (r *Repository) FindAll() ([]Kaiwa, error) {
-	r.mu.RLock()
-	defer r.mu.RUnlock()
+// FindAll mengembalikan seluruh data bunpou.
+func (r *Repository) FindAll() ([]Bunpou, error) {
+	r.mu.Lock()
+	defer r.mu.Unlock()
 	return r.readLocked()
 }
 
-// FindByID mengembalikan kaiwa berdasarkan id.
-func (r *Repository) FindByID(id string) (Kaiwa, error) {
-	r.mu.RLock()
-	defer r.mu.RUnlock()
+// FindByID mengembalikan bunpou berdasarkan id.
+func (r *Repository) FindByID(id string) (Bunpou, error) {
+	r.mu.Lock()
+	defer r.mu.Unlock()
 	list, err := r.readLocked()
 	if err != nil {
-		return Kaiwa{}, err
+		return Bunpou{}, err
 	}
-	for _, k := range list {
-		if k.ID == id {
-			return k, nil
+	for _, b := range list {
+		if b.ID == id {
+			return b, nil
 		}
 	}
-	return Kaiwa{}, ErrNotFound
+	return Bunpou{}, ErrNotFound
 }
 
-// Create menambahkan kaiwa baru.
-func (r *Repository) Create(k Kaiwa) (Kaiwa, error) {
+// Create menambahkan bunpou baru.
+func (r *Repository) Create(b Bunpou) (Bunpou, error) {
 	r.mu.Lock()
 	defer r.mu.Unlock()
 	list, err := r.readLocked()
 	if err != nil {
-		return Kaiwa{}, err
+		return Bunpou{}, err
 	}
-	list = append(list, k)
+	list = append(list, b)
 	if err := r.writeLocked(list); err != nil {
-		return Kaiwa{}, err
+		return Bunpou{}, err
 	}
-	return k, nil
+	return b, nil
 }
 
-// Update memperbarui kaiwa berdasarkan id.
-func (r *Repository) Update(id string, k Kaiwa) (Kaiwa, error) {
+// Update memperbarui bunpou berdasarkan id.
+func (r *Repository) Update(id string, b Bunpou) (Bunpou, error) {
 	r.mu.Lock()
 	defer r.mu.Unlock()
 	list, err := r.readLocked()
 	if err != nil {
-		return Kaiwa{}, err
+		return Bunpou{}, err
 	}
 	for i := range list {
 		if list[i].ID == id {
-			k.ID = id
-			list[i] = k
+			b.ID = id
+			list[i] = b
 			if err := r.writeLocked(list); err != nil {
-				return Kaiwa{}, err
+				return Bunpou{}, err
 			}
-			return k, nil
+			return b, nil
 		}
 	}
-	return Kaiwa{}, ErrNotFound
+	return Bunpou{}, ErrNotFound
 }
 
-// Delete menghapus kaiwa berdasarkan id.
+// Delete menghapus bunpou berdasarkan id.
 func (r *Repository) Delete(id string) error {
 	r.mu.Lock()
 	defer r.mu.Unlock()
@@ -134,7 +146,7 @@ func (r *Repository) Delete(id string) error {
 	return ErrNotFound
 }
 
-// DeleteMany menghapus beberapa kaiwa sekaligus berdasarkan daftar id.
+// DeleteMany menghapus beberapa bunpou sekaligus berdasarkan daftar id.
 // Mengembalikan jumlah data yang benar-benar terhapus.
 func (r *Repository) DeleteMany(ids []string) (int, error) {
 	if len(ids) == 0 {
@@ -150,14 +162,14 @@ func (r *Repository) DeleteMany(ids []string) (int, error) {
 	if err != nil {
 		return 0, err
 	}
-	kept := make([]Kaiwa, 0, len(list))
+	kept := make([]Bunpou, 0, len(list))
 	removed := 0
-	for _, k := range list {
-		if _, ok := want[k.ID]; ok {
+	for _, b := range list {
+		if _, ok := want[b.ID]; ok {
 			removed++
 			continue
 		}
-		kept = append(kept, k)
+		kept = append(kept, b)
 	}
 	if removed == 0 {
 		return 0, nil

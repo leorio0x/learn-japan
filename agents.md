@@ -1,6 +1,6 @@
 # Ringkasan App
 
-app untuk quiz kotoba, kanji dan kaiwa bahasa jepang
+app untuk quiz kotoba, kanji dan bunpou bahasa jepang, referensi materi aplikasi ini dari buku minna no nihongo 1&2
 
 # Backend
 
@@ -15,7 +15,7 @@ untuk spesifikasi tech stack dan detail lainnya lihat di frontend/rules.md
 untuk format datanya lihat di data/rules.md
 untuk data kotoba lihat di data/kotoba.json
 untuk data kanji lihat di data/kanji.json
-untuk data kaiwa lihat di data/kaiwa.json
+untuk data bunpou lihat di data/bunpou.json
 
 # Containerization
 
@@ -43,7 +43,7 @@ setiap fixing performance tuliskan di folder postmortems/performance-fix dengan 
 - bisa sortir quiz berdasarkan lesson
 - setiap batch pertanyaan ada akhir dan skornya
 
-## Tebak Kaiwa
+## Tebak bunpou
 
 - tebak pertanyaan dari sebuah jawaban
 - tebak jawaban dari suatu pertanyaan

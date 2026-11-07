@@ -12,8 +12,8 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/recover"
 
 	"learn-japan/backend/internal/auth"
+	"learn-japan/backend/internal/bunpou"
 	"learn-japan/backend/internal/dokkai"
-	"learn-japan/backend/internal/kaiwa"
 	"learn-japan/backend/internal/kanji"
 	"learn-japan/backend/internal/kotoba"
 )
@@ -28,14 +28,14 @@ func env(key, fallback string) string {
 func main() {
 	dataPath := env("DATA_PATH", "../data/kotoba.json")
 	kanjiPath := env("KANJI_DATA_PATH", "../data/kanji.json")
-	kaiwaPath := env("KAIWA_DATA_PATH", "../data/kaiwa.json")
+	bunpouPath := env("BUNPOU_DATA_PATH", "../data/bunpou.json")
 	dokkaiPath := env("DOKKAI_DATA_PATH", "../data/dokkai")
 	port := env("PORT", "3000")
 	crudPassword := env("CRUD_PASSWORD", "armanganteng123#")
 
 	kotobaRepo := kotoba.NewRepository(dataPath)
 	kanjiRepo := kanji.NewRepository(kanjiPath)
-	kaiwaRepo := kaiwa.NewRepository(kaiwaPath)
+	bunpouRepo := bunpou.NewRepository(bunpouPath)
 	dokkaiRepo := dokkai.NewRepository(dokkaiPath)
 
 	authManager := auth.NewManager(crudPassword, os.Getenv("SESSION_SECRET"))
@@ -72,11 +72,11 @@ func main() {
 	authManager.RegisterRoutes(api)
 	kotoba.RegisterRoutes(api, kotobaRepo, authManager.Middleware)
 	kanji.RegisterRoutes(api, kanjiRepo, authManager.Middleware)
-	kaiwa.RegisterRoutes(api, kaiwaRepo, authManager.Middleware)
+	bunpou.RegisterRoutes(api, bunpouRepo, authManager.Middleware)
 	dokkai.RegisterRoutes(api, dokkaiRepo, authManager.Middleware)
 
 	log.Printf("server berjalan di http://localhost:%s", port)
-	log.Printf("data kotoba: %s | data kanji: %s | data kaiwa: %s | data dokkai: %s", dataPath, kanjiPath, kaiwaPath, dokkaiPath)
+	log.Printf("data kotoba: %s | data kanji: %s | data bunpou: %s | data dokkai: %s", dataPath, kanjiPath, bunpouPath, dokkaiPath)
 	if err := app.Listen(":" + port); err != nil {
 		log.Fatal(err)
 	}

@@ -22,13 +22,11 @@
         <path
             d="M18.375 2.625a2.121 2.121 0 1 1 3 3L12 15l-4 1 1-4z"
         />
-    {:else if name === "kaiwa"}
-        <path
-            d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"
-        />
-        <path d="M8 12h.01" />
-        <path d="M12 12h.01" />
-        <path d="M16 12h.01" />
+    {:else if name === "bunpou"}
+        <path d="M4 4h16v16H4z" />
+        <path d="M8 8h8" />
+        <path d="M8 12h8" />
+        <path d="M8 16h5" />
     {:else if name === "kanji"}
         <path d="M4 7V4h16v3" />
         <path d="M9 20h6" />

@@ -94,23 +94,23 @@ export const api = {
       body: JSON.stringify({ ids })
     }).then(handle),
 
-  listKaiwa: (params) => fetch(`${BASE}/kaiwa${query(params)}`).then(handle),
-  getKaiwa: (id) => fetch(`${BASE}/kaiwa/${id}`).then(handle),
-  createKaiwa: (payload) =>
-    fetch(`${BASE}/kaiwa`, {
+  listBunpou: (params) => fetch(`${BASE}/bunpou${query(params)}`).then(handle),
+  getBunpou: (id) => fetch(`${BASE}/bunpou/${id}`).then(handle),
+  createBunpou: (payload) =>
+    fetch(`${BASE}/bunpou`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
     }).then(handle),
-  updateKaiwa: (id, payload) =>
-    fetch(`${BASE}/kaiwa/${id}`, {
+  updateBunpou: (id, payload) =>
+    fetch(`${BASE}/bunpou/${id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
     }).then(handle),
-  removeKaiwa: (id) => fetch(`${BASE}/kaiwa/${id}`, { method: 'DELETE' }).then(handle),
-  bulkRemoveKaiwa: (ids) =>
-    fetch(`${BASE}/kaiwa/bulk-delete`, {
+  removeBunpou: (id) => fetch(`${BASE}/bunpou/${id}`, { method: 'DELETE' }).then(handle),
+  bulkRemoveBunpou: (ids) =>
+    fetch(`${BASE}/bunpou/bulk-delete`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ ids })

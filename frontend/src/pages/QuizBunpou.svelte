@@ -1,12 +1,14 @@
-<script>
+﻿<script>
     import { onMount } from "svelte";
     import { api } from "../lib/api.js";
     import {
-        shuffle,
-        uniqueSortedLessons,
-        normalizeAnswer,
-    } from "../lib/quiz.js";
-    import Furigana from "../components/Furigana.svelte";
+        plainText,
+        sortLessons,
+        lessonLabel,
+        targetAnswers,
+    } from "../lib/bunpou.js";
+    import { shuffle, normalizeAnswer } from "../lib/quiz.js";
+    import BunpouSentence from "../components/BunpouSentence.svelte";
 
     let items = $state([]);
     let loading = $state(true);
@@ -29,12 +31,13 @@
     let answered = $state(false);
     let answerOk = $state(false);
 
-    const lessons = $derived(uniqueSortedLessons(items));
+    const lessons = $derived(sortLessons(items));
     const current = $derived(questions[index] ?? null);
     const total = $derived(questions.length);
     const accuracy = $derived(
         total ? Math.round((correctCount / total) * 100) : 0,
     );
+    const availablePairs = $derived(buildPairs().length);
 
     const batchOptions = [
         { value: 5, label: "5 soal" },
@@ -55,7 +58,7 @@
         loading = true;
         error = "";
         try {
-            items = (await api.listKaiwa()) || [];
+            items = (await api.listBunpou()) || [];
         } catch (e) {
             error = e.message;
         } finally {
@@ -65,24 +68,26 @@
 
     function lessonPool() {
         if (lesson === "all") return items;
-        return items.filter((k) => String(k.lesson) === lesson);
+        return items.filter((b) => String(b.lesson) === lesson);
     }
 
     function buildPairs() {
         const out = [];
-        for (const k of lessonPool()) {
-            for (const pola of k.pola || []) {
+        for (const b of lessonPool()) {
+            for (const pola of b.pola || []) {
                 for (const contoh of pola.contoh || []) {
-                    const p = contoh.pertanyaan || [];
-                    const j = contoh.jawaban || [];
-                    const n = Math.min(p.length, j.length);
-                    for (let i = 0; i < n; i++) {
-                        out.push({
-                            kaiwa: k,
-                            pertanyaan: p[i],
-                            jawaban: j[i],
-                        });
+                    if (
+                        !contoh?.pertanyaan?.kalimat ||
+                        !contoh?.jawaban?.kalimat
+                    ) {
+                        continue;
                     }
+                    out.push({
+                        bunpou: b,
+                        pola,
+                        pertanyaan: contoh.pertanyaan,
+                        jawaban: contoh.jawaban,
+                    });
                 }
             }
         }
@@ -123,8 +128,8 @@
         return q.side === "pertanyaan" ? q.pair.jawaban : q.pair.pertanyaan;
     }
 
-    function answerLabel(d) {
-        return d["hiragana/katakana"] || d.kanji || "";
+    function answerLabel(kalimat) {
+        return plainText(kalimat, "kanji");
     }
 
     function submit(event) {
@@ -132,10 +137,7 @@
         if (answered || !answerInput.trim()) return;
         const target = targetOf(current);
         const norm = normalizeAnswer(answerInput);
-        const targets = [];
-        if (target["hiragana/katakana"])
-            targets.push(target["hiragana/katakana"]);
-        if (target.kanji) targets.push(target.kanji);
+        const targets = targetAnswers(target.kalimat);
         answerOk = targets.some((t) => normalizeAnswer(t) === norm);
         answered = true;
         if (answerOk) correctCount += 1;
@@ -158,7 +160,7 @@
 <div class="mx-auto max-w-2xl">
     {#if loading}
         <div class="card flex items-center justify-center p-16 text-navy/60">
-            <span class="animate-pulse">Memuat data kaiwa...</span>
+            <span class="animate-pulse">Memuat data bunpou...</span>
         </div>
     {:else if error}
         <div class="card border-red-300 p-8 text-center text-red-700">
@@ -168,14 +170,16 @@
         </div>
     {:else if !items.length}
         <div class="card p-10 text-center">
-            <p class="text-lg font-semibold text-ink">Belum ada kaiwa</p>
+            <p class="text-lg font-semibold text-ink">Belum ada bunpou</p>
             <p class="mt-1 text-sm text-navy/60">
-                Tambahkan kaiwa melalui halaman Kelola Kaiwa terlebih dahulu.
+                Tambahkan bunpou melalui halaman Kelola Bunpou terlebih dahulu.
             </p>
         </div>
     {:else if phase === "setup"}
         <div class="mb-5 text-center">
-            <h1 class="text-xl font-bold text-ink sm:text-2xl">Tebak Kaiwa</h1>
+            <h1 class="text-xl font-bold text-ink sm:text-2xl">
+                Tebak Bunpou
+            </h1>
             <p class="mt-1 text-sm text-navy/60">
                 Tebak pertanyaan dari sebuah jawaban atau sebaliknya
             </p>
@@ -212,7 +216,7 @@
                     <select id="lesson" class="input" bind:value={lesson}>
                         <option value="all">Semua lesson</option>
                         {#each lessons as l}
-                            <option value={l}>Lesson {l}</option>
+                            <option value={l}>{lessonLabel(l)}</option>
                         {/each}
                     </select>
                 </div>
@@ -245,15 +249,15 @@
                 class="flex flex-wrap items-center justify-between gap-3 border-t border-navy/10 pt-4"
             >
                 <p class="text-sm text-navy/60">
-                    {buildPairs().length} soal tersedia
+                    {availablePairs} soal tersedia
                     {#if lesson !== "all"}<span class="text-navy/40"
-                            >(Lesson {lesson})</span
+                            >({lessonLabel(lesson)})</span
                         >{/if}
                 </p>
                 <button
                     class="btn-primary"
                     onclick={start}
-                    disabled={!buildPairs().length}>Mulai Quiz</button
+                    disabled={!availablePairs}>Mulai Quiz</button
                 >
             </div>
         </div>
@@ -281,11 +285,11 @@
                 >
                     {current.side === "pertanyaan" ? "Pertanyaan" : "Jawaban"}
                 </p>
-                <Furigana
-                    kanji={promptOf(current).kanji}
-                    kana={promptOf(current)["hiragana/katakana"]}
-                    className="mt-3 block font-jp text-3xl font-bold text-cream sm:text-4xl"
+                <BunpouSentence
+                    kalimat={promptOf(current).kalimat}
+                    showTerjemahan={false}
                     hideKanji={qHide}
+                    className="mt-3 block text-2xl font-bold leading-relaxed text-cream sm:text-3xl"
                 />
                 <label
                     class="mt-4 inline-flex cursor-pointer items-center gap-2 text-xs text-cream/60"
@@ -303,8 +307,8 @@
                 <div>
                     <label class="label" for="answer">
                         {current.side === "pertanyaan"
-                            ? "Jawaban (hiragana / katakana)"
-                            : "Pertanyaan (hiragana / katakana)"}
+                            ? "Jawaban (kalimat Jepang)"
+                            : "Pertanyaan (kalimat Jepang)"}
                     </label>
                     <input
                         id="answer"
@@ -316,22 +320,18 @@
                         bind:value={answerInput}
                         disabled={answered}
                         autocomplete="off"
-                        placeholder="tulis dalam hiragana / katakana"
+                        placeholder="tulis kalimat bahasa Jepang"
                     />
                     {#if answered && !answerOk}
-                        <p class="mt-1 text-xs text-red-600">
-                            Jawaban yang tepat: <span
-                                class="font-jp font-semibold"
-                                >{answerLabel(targetOf(current))}</span
-                            >
-                            {#if targetOf(current).kanji &&
-                            targetOf(current)["hiragana/katakana"]}
-                                <span class="text-navy/50">·</span>
-                                <span class="font-jp font-semibold text-ink"
-                                    >{targetOf(current).kanji}</span
-                                >
-                            {/if}
+                        <p class="mt-2 text-xs text-red-600">
+                            Jawaban yang tepat:
                         </p>
+                        <BunpouSentence
+                            kalimat={targetOf(current).kalimat}
+                            terjemahan={targetOf(current).terjemahan}
+                            hideKanji={qHide}
+                            className="mt-1 text-base font-semibold text-ink"
+                        />
                     {/if}
                 </div>
 
@@ -348,26 +348,21 @@
                 <div
                     class="flex flex-col gap-3 border-t border-navy/10 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-5"
                 >
-                    <p
-                        class="text-sm font-semibold {answerOk
-                            ? 'text-sage'
-                            : 'text-red-600'}"
-                    >
-                        {answerOk ? "Benar!" : "Kurang tepat"}
-                        <span class="ml-1 font-normal text-navy/70">
-                            Jawaban: <span
-                                class="font-jp font-semibold text-ink"
-                                >{answerLabel(targetOf(current))}</span
-                            >
-                            {#if targetOf(current).kanji &&
-                            targetOf(current)["hiragana/katakana"]}
-                                <span class="text-navy/50">·</span>
-                                <span class="font-jp font-semibold text-ink"
-                                    >{targetOf(current).kanji}</span
-                                >
-                            {/if}
-                        </span>
-                    </p>
+                    <div class="min-w-0">
+                        <p
+                            class="text-sm font-semibold {answerOk
+                                ? 'text-sage'
+                                : 'text-red-600'}"
+                        >
+                            {answerOk ? "Benar!" : "Kurang tepat"}
+                        </p>
+                        <BunpouSentence
+                            kalimat={targetOf(current).kalimat}
+                            terjemahan={targetOf(current).terjemahan}
+                            hideKanji={qHide}
+                            className="mt-1 block text-base font-semibold text-ink"
+                        />
+                    </div>
                     <button class="btn-primary shrink-0" onclick={next}>
                         {index + 1 >= total
                             ? "Lihat Hasil"
@@ -407,14 +402,14 @@
                                 class="font-bold {r.correct
                                     ? 'text-sage'
                                     : 'text-red-500'}"
-                                >{r.correct ? "✓" : "✕"}</span
+                                >{r.correct ? "✓" : "✗"}</span
                             >
                             <span class="font-jp font-semibold text-ink"
-                                >{answerLabel(promptOf(r.q))}</span
+                                >{answerLabel(promptOf(r.q).kalimat)}</span
                             >
                             <span class="text-navy/40">→</span>
                             <span class="font-jp text-sage"
-                                >{answerLabel(targetOf(r.q))}</span
+                                >{answerLabel(targetOf(r.q).kalimat)}</span
                             >
                         </div>
                         {#if !r.correct}
@@ -432,8 +427,7 @@
                 <button class="btn-ghost" onclick={() => (phase = "setup")}
                     >Kembali</button
                 >
-                <button class="btn-primary" onclick={start}>Ulangi Batch</button
-                >
+                <button class="btn-primary" onclick={start}>Ulangi Batch</button>
             </div>
         </div>
     {/if}

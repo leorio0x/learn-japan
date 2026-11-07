@@ -1,0 +1,41 @@
+[
+  {
+    "lesson": "Lesson 1",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "",
+        "nama_pola": "A adalah B",
+        "rumus": "[～:orang|kata benda] + は + [～:orang|kata benda] + desu",
+        "deskripsi": "Digunakan untuk menyatakan bahwa subjek adalah suatu hal/orang.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "私　は　<会社員:かいしゃいん:pegawai perusahaan> です",
+              "terjemahan": "saya adalah pegawai perusahaan"
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "",
+        "nama_pola": "A bukanlah B",
+        "rumus": "[～:orang|kata benda] + は + [～:|kata benda] + です + か",
+        "deskripsi": "Partikel 'ka' di akhir kalimat digunakan untuk membentuk kalimat tanya.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "<サントス::santos> さん は <学生:がくせい:mahasiswa> です か",
+              "terjemahan": "Apakah Sdr. Santos mahasiswa?"
+            },
+            "jawaban": {
+              "kalimat": "<はい:hai:ya>、<学生:がくせい:mahasiswa> です",
+              "terjemahan": "Ya, benar (mahasiswa)."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -3,13 +3,13 @@
   import Navbar from './components/Navbar.svelte'
   import Kotoba from './pages/Kotoba.svelte'
   import Kanji from './pages/Kanji.svelte'
-  import Kaiwa from './pages/Kaiwa.svelte'
+  import Bunpou from './pages/Bunpou.svelte'
   import Quiz from './pages/Quiz.svelte'
   import QuizKanji from './pages/QuizKanji.svelte'
-  import QuizKaiwa from './pages/QuizKaiwa.svelte'
+  import QuizBunpou from './pages/QuizBunpou.svelte'
   import Crud from './pages/Crud.svelte'
   import CrudKanji from './pages/CrudKanji.svelte'
-  import CrudKaiwa from './pages/CrudKaiwa.svelte'
+  import CrudBunpou from './pages/CrudBunpou.svelte'
   import CrudDokkai from './pages/CrudDokkai.svelte'
   import CrudGate from './components/CrudGate.svelte'
   import DokkaiView from './components/DokkaiView.svelte'
@@ -21,16 +21,16 @@
     '/': 'kotoba',
     '/kotoba': 'kotoba',
     '/kanji': 'kanji',
-    '/kaiwa': 'kaiwa',
+    '/bunpou': 'bunpou',
     '/quiz/kotoba': 'quiz-kotoba',
     '/quiz/kanji': 'quiz-kanji',
-    '/quiz/kaiwa': 'quiz-kaiwa',
+    '/quiz/bunpou': 'quiz-bunpou',
     '/dokkai': 'dokkai',
     '/dokkai/kotoba': 'dokkai-kotoba',
     '/dokkai/kanji': 'dokkai-kanji',
     '/kelola/kotoba': 'crud-kotoba',
     '/kelola/kanji': 'crud-kanji',
-    '/kelola/kaiwa': 'crud-kaiwa',
+    '/kelola/bunpou': 'crud-bunpou',
     '/kelola/dokkai': 'crud-dokkai',
     '/ansatsunoadmin': 'admin'
   }
@@ -83,14 +83,14 @@
       <Kotoba onNavigate={navigate} />
     {:else if page === 'kanji'}
       <Kanji onNavigate={navigate} />
-    {:else if page === 'kaiwa'}
-      <Kaiwa onNavigate={navigate} />
+    {:else if page === 'bunpou'}
+      <Bunpou onNavigate={navigate} />
     {:else if page === 'quiz-kotoba'}
       <Quiz />
     {:else if page === 'quiz-kanji'}
       <QuizKanji />
-    {:else if page === 'quiz-kaiwa'}
-      <QuizKaiwa />
+    {:else if page === 'quiz-bunpou'}
+      <QuizBunpou />
     {:else if page === 'dokkai-kotoba'}
       <DokkaiView type="kotoba" onNavigate={navigate} />
     {:else if page === 'dokkai-kanji'}
@@ -101,8 +101,8 @@
       <CrudGate><Crud /></CrudGate>
     {:else if page === 'crud-kanji'}
       <CrudGate><CrudKanji /></CrudGate>
-    {:else if page === 'crud-kaiwa'}
-      <CrudGate><CrudKaiwa /></CrudGate>
+    {:else if page === 'crud-bunpou'}
+      <CrudGate><CrudBunpou /></CrudGate>
     {:else if page === 'crud-dokkai'}
       <CrudGate><CrudDokkai onNavigate={navigate} /></CrudGate>
     {:else if page === 'admin'}
@@ -113,6 +113,6 @@
   </main>
 
   <footer class="border-t border-navy/10 py-5 text-center text-xs text-navy/50">
-    Learn Japan &middot; Quiz Kotoba, Kanji, Kaiwa &amp; Dokkai
+    Learn Japan &middot; Quiz Kotoba, Kanji, Bunpou &amp; Dokkai
   </footer>
 </div>

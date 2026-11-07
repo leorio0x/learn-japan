@@ -23,10 +23,10 @@
             icon: "kanji",
         },
         {
-            id: "crud-kaiwa",
-            label: "Kelola Kaiwa",
-            desc: "Tambah, ubah, hapus percakapan",
-            icon: "kaiwa",
+            id: "crud-bunpou",
+            label: "Kelola Bunpou",
+            desc: "Tambah, ubah, hapus pola bunpou",
+            icon: "bunpou",
         },
         {
             id: "crud-dokkai",

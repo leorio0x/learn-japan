@@ -6,8 +6,8 @@ format untuk kotoba.json :
 format untuk kanji.json :
 ./format/kanji.json
 
-format untuk kaiwa.json :
-./format/kaiwa.json
+format untuk bunpou.json :
+./format/bunpou.json
 
 format untuk dokkai.json :
 ./format/dokkai.json

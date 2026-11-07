@@ -6,7 +6,7 @@
   const items = [
     { id: "kotoba", label: "Kotoba", icon: "語" },
     { id: "kanji", label: "Kanji", icon: "漢" },
-    { id: "kaiwa", label: "Kaiwa", icon: "会" },
+    { id: "bunpou", label: "Bunpou", icon: "文" },
     { id: "dokkai", label: "Dokkai", icon: "読" },
   ];
 
@@ -50,7 +50,7 @@
           >Learn Japan</span
         >
         <span class="hidden text-[11px] text-cream/60 sm:block"
-          >Quiz Kotoba, Kanji &amp; Kaiwa</span
+          >Quiz Kotoba, Kanji &amp; Bunpou</span
         >
       </span>
     </button>

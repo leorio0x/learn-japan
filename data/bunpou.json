@@ -1,0 +1,164 @@
+[
+  {
+    "id": "bp-d4fb3ca1d50f",
+    "lesson": "Lesson 1",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "A adalah B",
+        "rumus": "[～:orang|kata benda] + は + [～:orang|kata benda] + です",
+        "deskripsi": "Digunakan untuk menyatakan bahwa subjek adalah suatu hal atau orang. Partikel は dibaca 'wa' dan menandai topik kalimat.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は　<マイク・ミラー::Mike Miller> です",
+              "terjemahan": "Saya adalah Mike Miller."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は　<会社員:かいしゃいん:pegawai perusahaan> です",
+              "terjemahan": "Saya adalah pegawai perusahaan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<サントス::Santos> さん は　<学生:がくせい:mahasiswa> です",
+              "terjemahan": "Sdr. Santos adalah mahasiswa."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "A bukanlah B",
+        "rumus": "[～:orang|kata benda] + は + [～:orang|kata benda] + じゃありません",
+        "deskripsi": "Bentuk negatif dari です. じゃありません digunakan dalam percakapan sehari-hari, sedangkan では ありません lebih formal.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<サントス::Santos> さん は　<学生:がくせい:mahasiswa> じゃありません",
+              "terjemahan": "Sdr. Santos bukan mahasiswa."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は　<先生:せんせい:guru> では ありません",
+              "terjemahan": "Saya bukan guru."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Apakah A adalah B?",
+        "rumus": "[～:orang|kata benda] + は + [～:|kata benda] + です + か",
+        "deskripsi": "Partikel か di akhir kalimat digunakan untuk membentuk kalimat tanya. Jawaban diawali はい jika benar dan いいえ jika tidak.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "<ミラー::Miller> さん は　<会社員:かいしゃいん:pegawai perusahaan> ですか",
+              "terjemahan": "Apakah Sdr. Miller pegawai perusahaan?"
+            },
+            "jawaban": {
+              "kalimat": "はい、<会社員:かいしゃいん:pegawai perusahaan> です",
+              "terjemahan": "Ya, (beliau) pegawai perusahaan."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "<サントス::Santos> さん は　<学生:がくせい:mahasiswa> ですか",
+              "terjemahan": "Apakah Sdr. Santos mahasiswa?"
+            },
+            "jawaban": {
+              "kalimat": "いいえ、<学生:がくせい:mahasiswa> じゃありません。<会社員:かいしゃいん:pegawai perusahaan> です",
+              "terjemahan": "Tidak, bukan mahasiswa. (Beliau) pegawai perusahaan."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "<あなた:あなた:Anda> は　<ミラー::Miller> さん ですか",
+              "terjemahan": "Apakah Anda Sdr. Miller?"
+            },
+            "jawaban": {
+              "kalimat": "はい、<ミラー::Miller> です",
+              "terjemahan": "Ya, saya Miller."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "A juga B",
+        "rumus": "[～:orang|kata benda] + も + [～:orang|kata benda] + です",
+        "deskripsi": "Partikel も menggantikan は untuk menyatakan 'juga'. Digunakan ketika subjek memiliki sifat atau keterangan yang sama dengan subjek sebelumnya.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<サントス::Santos> さん も　<会社員:かいしゃいん:pegawai perusahaan> です",
+              "terjemahan": "Sdr. Santos juga pegawai perusahaan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> も　<学生:がくせい:mahasiswa> です",
+              "terjemahan": "Saya juga mahasiswa."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "5",
+        "nama_pola": "B milik A",
+        "rumus": "[～:orang|kata benda] + の + [～:orang|kata benda]",
+        "deskripsi": "Partikel の menghubungkan dua kata benda. Pola ini menyatakan kepemilikan, asal, atau afiliasi.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は　<IMC::IMC> の <社員:しゃいん:karyawan> です",
+              "terjemahan": "Saya adalah karyawan IMC."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<ミラー::Miller> さん は　<大学:だいがく:universitas> の <学生:がくせい:mahasiswa> です",
+              "terjemahan": "Sdr. Miller adalah mahasiswa universitas."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "6",
+        "nama_pola": "Akhiran sopan ～さん",
+        "rumus": "[～:nama orang] + さん",
+        "deskripsi": "Akhiran さん ditambahkan setelah nama orang untuk menyebut orang lain dengan sopan. Jangan gunakan さん untuk diri sendiri.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<ミラー::Miller> さん は　<会社員:かいしゃいん:pegawai perusahaan> です",
+              "terjemahan": "Sdr. Miller adalah pegawai perusahaan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<田中:たなか:Tanaka> さん は　<先生:せんせい:guru> です",
+              "terjemahan": "Sdr. Tanaka adalah guru."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

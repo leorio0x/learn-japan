@@ -1,10 +1,12 @@
-<script>
+﻿<script>
     import { onMount } from "svelte";
     import { api } from "../lib/api.js";
-    import Furigana from "../components/Furigana.svelte";
+    import { lessonLabel } from "../lib/bunpou.js";
+    import BunpouRumus from "../components/BunpouRumus.svelte";
+    import BunpouSentence from "../components/BunpouSentence.svelte";
     import Pagination from "../components/Pagination.svelte";
 
-    const bukuOptions = ["minna no nihonggo 1", "minna no nihonggo 2"];
+    const bukuOptions = ["Minna no Nihongo 1", "Minna no Nihongo 2"];
 
     let items = $state([]);
     let loading = $state(true);
@@ -25,31 +27,23 @@
     let showBulkDeleteConfirm = $state(false);
     let bulkDeleting = $state(false);
 
-    function searchValues(k) {
-        const values = [k.buku, k.lesson];
-        for (const p of k.pola || []) {
-            values.push(p.pola_pertanyaan, p.pola_jawaban, p.deskripsi);
+    function searchValues(b) {
+        const values = [b.buku, b.lesson];
+        for (const p of b.pola || []) {
+            values.push(p.no_bunpou, p.nama_pola, p.rumus, p.deskripsi);
             for (const c of p.contoh || []) {
-                for (const d of [
-                    ...(c.pertanyaan || []),
-                    ...(c.jawaban || []),
-                ]) {
-                    values.push(
-                        d.kanji,
-                        d["hiragana/katakana"],
-                        d.terjemahan,
-                    );
-                }
+                values.push(c.pertanyaan?.kalimat, c.pertanyaan?.terjemahan);
+                values.push(c.jawaban?.kalimat, c.jawaban?.terjemahan);
             }
         }
         return values;
     }
 
     const filtered = $derived(
-        items.filter((k) => {
+        items.filter((b) => {
             const q = search.trim().toLowerCase();
             if (!q) return true;
-            return searchValues(k)
+            return searchValues(b)
                 .filter(Boolean)
                 .some((v) => String(v).toLowerCase().includes(q));
         }),
@@ -76,18 +70,19 @@
 
     onMount(load);
 
-    function emptyDialog() {
-        return { kanji: "", kana: "", terjemahan: "" };
+    function emptyKalimat() {
+        return { kalimat: "", terjemahan: "" };
     }
 
     function emptyContoh() {
-        return { pertanyaan: [emptyDialog()], jawaban: [emptyDialog()] };
+        return { pertanyaan: null, jawaban: emptyKalimat() };
     }
 
     function emptyPola() {
         return {
-            pola_pertanyaan: "",
-            pola_jawaban: "",
+            no_bunpou: "",
+            nama_pola: "",
+            rumus: "",
             deskripsi: "",
             contoh: [emptyContoh()],
         };
@@ -95,9 +90,9 @@
 
     function emptyForm() {
         return {
+            lesson: "",
+            buku: bukuOptions[0],
             pola: [emptyPola()],
-            buku: "minna no nihonggo 1",
-            lesson: "1",
         };
     }
 
@@ -105,7 +100,7 @@
         loading = true;
         error = "";
         try {
-            items = (await api.listKaiwa()) || [];
+            items = (await api.listBunpou()) || [];
         } catch (e) {
             error = e.message;
         } finally {
@@ -128,27 +123,23 @@
         );
     }
     function addPertanyaan(pi, ci) {
-        const c = form.pola[pi].contoh[ci];
-        c.pertanyaan = [...c.pertanyaan, emptyDialog()];
+        form.pola[pi].contoh[ci].pertanyaan = emptyKalimat();
     }
-    function removePertanyaan(pi, ci, di) {
-        const c = form.pola[pi].contoh[ci];
-        c.pertanyaan = c.pertanyaan.filter((_, i) => i !== di);
-    }
-    function addJawaban(pi, ci) {
-        const c = form.pola[pi].contoh[ci];
-        c.jawaban = [...c.jawaban, emptyDialog()];
-    }
-    function removeJawaban(pi, ci, di) {
-        const c = form.pola[pi].contoh[ci];
-        c.jawaban = c.jawaban.filter((_, i) => i !== di);
+    function removePertanyaan(pi, ci) {
+        form.pola[pi].contoh[ci].pertanyaan = null;
     }
 
-    function toFormDialog(d) {
+    function toFormKalimat(k) {
         return {
-            kanji: d.kanji || "",
-            kana: d["hiragana/katakana"] || "",
-            terjemahan: d.terjemahan || "",
+            kalimat: k?.kalimat || "",
+            terjemahan: k?.terjemahan || "",
+        };
+    }
+
+    function toFormContoh(c) {
+        return {
+            pertanyaan: c?.pertanyaan ? toFormKalimat(c.pertanyaan) : null,
+            jawaban: toFormKalimat(c?.jawaban),
         };
     }
 
@@ -159,29 +150,23 @@
         showForm = true;
     }
 
-    function openEdit(k) {
+    function openEdit(b) {
         form = {
-            pola: (k.pola || []).length
-                ? k.pola.map((p) => ({
-                      pola_pertanyaan: p.pola_pertanyaan || "",
-                      pola_jawaban: p.pola_jawaban || "",
+            lesson: b.lesson || "",
+            buku: b.buku || bukuOptions[0],
+            pola: (b.pola || []).length
+                ? b.pola.map((p) => ({
+                      no_bunpou: p.no_bunpou || "",
+                      nama_pola: p.nama_pola || "",
+                      rumus: p.rumus || "",
                       deskripsi: p.deskripsi || "",
                       contoh: (p.contoh || []).length
-                          ? p.contoh.map((c) => ({
-                                pertanyaan: (c.pertanyaan || []).length
-                                    ? c.pertanyaan.map(toFormDialog)
-                                    : [emptyDialog()],
-                                jawaban: (c.jawaban || []).length
-                                    ? c.jawaban.map(toFormDialog)
-                                    : [emptyDialog()],
-                            }))
+                          ? p.contoh.map(toFormContoh)
                           : [emptyContoh()],
                   }))
                 : [emptyPola()],
-            buku: k.buku || "minna no nihonggo 1",
-            lesson: k.lesson || "1",
         };
-        editingId = k.id;
+        editingId = b.id;
         formError = "";
         showForm = true;
     }
@@ -193,79 +178,76 @@
         form = emptyForm();
     }
 
-    function cleanDialog(d) {
-        return {
-            kanji: d.kanji.trim(),
-            "hiragana/katakana": d.kana.trim(),
-            terjemahan: d.terjemahan.trim(),
-        };
+    function cleanKalimat(k) {
+        if (!k) return null;
+        const kalimat = String(k.kalimat || "").trim();
+        const terjemahan = String(k.terjemahan || "").trim();
+        if (!kalimat) return null;
+        return { kalimat, terjemahan };
     }
 
-    function isDialogEmpty(d) {
-        return d.kanji.trim() === "" && d.kana.trim() === "";
+    function buildPayload() {
+        const pola = form.pola
+            .map((p) => ({
+                no_bunpou: String(p.no_bunpou || "").trim(),
+                nama_pola: String(p.nama_pola || "").trim(),
+                rumus: String(p.rumus || "").trim(),
+                deskripsi: String(p.deskripsi || "").trim(),
+                contoh: p.contoh
+                    .map((c) => ({
+                        pertanyaan: cleanKalimat(c.pertanyaan),
+                        jawaban: cleanKalimat(c.jawaban),
+                    }))
+                    .filter((c) => c.pertanyaan || c.jawaban),
+            }))
+            .filter(
+                (p) =>
+                    p.no_bunpou ||
+                    p.nama_pola ||
+                    p.rumus ||
+                    p.deskripsi ||
+                    p.contoh.length,
+            );
+        return {
+            lesson: String(form.lesson || "").trim(),
+            buku: String(form.buku || "").trim(),
+            pola,
+        };
     }
 
     async function submit(event) {
         event.preventDefault();
         formError = "";
 
-        const pola = form.pola
-            .map((p) => ({
-                pola_pertanyaan: p.pola_pertanyaan.trim(),
-                pola_jawaban: p.pola_jawaban.trim(),
-                deskripsi: p.deskripsi.trim(),
-                contoh: p.contoh
-                    .map((c) => ({
-                        pertanyaan: c.pertanyaan
-                            .filter((d) => !isDialogEmpty(d))
-                            .map(cleanDialog),
-                        jawaban: c.jawaban
-                            .filter((d) => !isDialogEmpty(d))
-                            .map(cleanDialog),
-                    }))
-                    .filter((c) => c.pertanyaan.length || c.jawaban.length),
-            }))
-            .filter(
-                (p) =>
-                    p.pola_pertanyaan ||
-                    p.pola_jawaban ||
-                    p.deskripsi ||
-                    p.contoh.length,
-            );
+        const payload = buildPayload();
 
-        if (!pola.length) {
+        if (!payload.pola.length) {
             formError = "Minimal satu pola wajib diisi";
             return;
         }
-        for (const [pi, p] of pola.entries()) {
+        for (const [pi, p] of payload.pola.entries()) {
+            if (!p.nama_pola && !p.rumus) {
+                formError = `Pola ke-${pi + 1} wajib memiliki nama pola atau rumus`;
+                return;
+            }
             if (!p.contoh.length) {
                 formError = `Pola ke-${pi + 1} harus memiliki minimal satu contoh`;
                 return;
             }
             for (const [ci, c] of p.contoh.entries()) {
-                if (!c.pertanyaan.length) {
-                    formError = `Contoh ke-${ci + 1} pada pola ke-${pi + 1} harus memiliki pertanyaan`;
-                    return;
-                }
-                if (!c.jawaban.length) {
+                if (!c.jawaban) {
                     formError = `Contoh ke-${ci + 1} pada pola ke-${pi + 1} harus memiliki jawaban`;
                     return;
                 }
             }
         }
 
-        const payload = {
-            pola,
-            buku: form.buku.trim(),
-            lesson: form.lesson.trim(),
-        };
-
         saving = true;
         try {
             if (editingId) {
-                await api.updateKaiwa(editingId, payload);
+                await api.updateBunpou(editingId, payload);
             } else {
-                await api.createKaiwa(payload);
+                await api.createBunpou(payload);
             }
             await load();
             closeForm();
@@ -280,7 +262,7 @@
         if (!deleteTarget) return;
         deleting = true;
         try {
-            await api.removeKaiwa(deleteTarget.id);
+            await api.removeBunpou(deleteTarget.id);
             deleteTarget = null;
             await load();
         } catch (e) {
@@ -314,7 +296,7 @@
         bulkDeleting = true;
         error = "";
         try {
-            await api.bulkRemoveKaiwa(selectedIds);
+            await api.bulkRemoveBunpou(selectedIds);
             selectedIds = [];
             selectMode = false;
             showBulkDeleteConfirm = false;
@@ -332,9 +314,9 @@
         class="mb-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between"
     >
         <div>
-            <h1 class="text-xl font-bold text-ink sm:text-2xl">Kelola Kaiwa</h1>
+            <h1 class="text-xl font-bold text-ink sm:text-2xl">Kelola Bunpou</h1>
             <p class="mt-1 text-sm text-navy/60">
-                Tambah, ubah, dan hapus percakapan beserta artinya
+                Tambah, ubah, dan hapus pola bunpou beserta contohnya
             </p>
         </div>
         {#if !showForm}
@@ -351,7 +333,7 @@
                     >
                     <button
                         class="btn-primary w-full sm:w-auto"
-                        onclick={openCreate}>+ Tambah Kaiwa</button
+                        onclick={openCreate}>+ Tambah Bunpou</button
                     >
                 {/if}
             </div>
@@ -362,7 +344,7 @@
         <form class="card mb-5 p-4 sm:p-5" onsubmit={submit}>
             <div class="mb-4 flex items-center justify-between">
                 <h2 class="font-bold text-ink">
-                    {editingId ? "Ubah Kaiwa" : "Kaiwa Baru"}
+                    {editingId ? "Ubah Bunpou" : "Bunpou Baru"}
                 </h2>
                 <button
                     type="button"
@@ -371,7 +353,27 @@
                 >
             </div>
 
-            <div class="space-y-4">
+            <div class="grid gap-3.5 sm:grid-cols-2">
+                <div>
+                    <label class="label" for="buku">Buku</label>
+                    <select id="buku" class="input" bind:value={form.buku}>
+                        {#each bukuOptions as b}
+                            <option value={b}>{b}</option>
+                        {/each}
+                    </select>
+                </div>
+                <div>
+                    <label class="label" for="lesson">Lesson</label>
+                    <input
+                        id="lesson"
+                        class="input"
+                        bind:value={form.lesson}
+                        placeholder="Lesson 1"
+                    />
+                </div>
+            </div>
+
+            <div class="mt-4 space-y-4">
                 {#each form.pola as _, pi}
                     <fieldset
                         class="rounded-xl border border-navy/10 bg-cream/40 p-3.5"
@@ -382,34 +384,36 @@
                             Pola {pi + 1}
                         </legend>
 
-                        <div class="space-y-2">
-                            <div
-                                class="grid gap-2 sm:grid-cols-[1fr_1fr_auto]"
-                            >
-                                <input
-                                    class="input font-jp"
-                                    bind:value={form.pola[pi].pola_pertanyaan}
-                                    placeholder="pola pertanyaan"
-                                />
-                                <input
-                                    class="input font-jp"
-                                    bind:value={form.pola[pi].pola_jawaban}
-                                    placeholder="pola jawaban"
-                                />
-                                <button
-                                    type="button"
-                                    class="shrink-0 rounded-xl border border-red-300 px-3 text-lg font-bold text-red-500 transition hover:bg-red-500/10 disabled:opacity-40"
-                                    onclick={() => removePola(pi)}
-                                    disabled={form.pola.length <= 1}
-                                    aria-label="Hapus pola">−</button
-                                >
-                            </div>
+                        <div class="grid gap-2 sm:grid-cols-[7rem_1fr_auto]">
                             <input
                                 class="input"
-                                bind:value={form.pola[pi].deskripsi}
-                                placeholder="deskripsi pola (opsional)"
+                                bind:value={form.pola[pi].no_bunpou}
+                                placeholder="No. bunpou"
                             />
+                            <input
+                                class="input font-jp"
+                                bind:value={form.pola[pi].nama_pola}
+                                placeholder="nama pola, contoh: A adalah B"
+                            />
+                            <button
+                                type="button"
+                                class="shrink-0 rounded-xl border border-red-300 px-3 text-lg font-bold text-red-500 transition hover:bg-red-500/10 disabled:opacity-40"
+                                onclick={() => removePola(pi)}
+                                disabled={form.pola.length <= 1}
+                                aria-label="Hapus pola">✕</button
+                            >
                         </div>
+                        <input
+                            class="input mt-2 font-jp"
+                            bind:value={form.pola[pi].rumus}
+                            placeholder="rumus, contoh: [～:orang|kata benda] + は + [～:orang|kata benda] + です"
+                        />
+                        <textarea
+                            class="input mt-2"
+                            rows="2"
+                            bind:value={form.pola[pi].deskripsi}
+                            placeholder="deskripsi pola"
+                        ></textarea>
 
                         <div class="mt-3 space-y-3">
                             {#each form.pola[pi].contoh as _, ci}
@@ -431,62 +435,47 @@
                                             disabled={form.pola[pi].contoh
                                                 .length <= 1}
                                             aria-label="Hapus contoh"
-                                            >−</button
+                                            >✕</button
                                         >
                                     </div>
 
-                                    <div class="space-y-2">
-                                        <p
-                                            class="text-[11px] font-semibold uppercase tracking-wide text-navy/50"
-                                        >
-                                            Pertanyaan
-                                        </p>
-                                        {#each form.pola[pi].contoh[ci]
-                                            .pertanyaan as _, di}
+                                    {#if form.pola[pi].contoh[ci].pertanyaan}
+                                        <div class="space-y-2">
                                             <div
-                                                class="grid gap-2 sm:grid-cols-[1fr_1fr_1fr_auto]"
+                                                class="flex items-center justify-between"
                                             >
-                                                <input
-                                                    class="input font-jp"
-                                                    bind:value={form.pola[pi]
-                                                        .contoh[ci].pertanyaan[
-                                                        di
-                                                    ].kanji}
-                                                    placeholder="bentuk full kanji"
-                                                />
-                                                <input
-                                                    class="input font-jp"
-                                                    bind:value={form.pola[pi]
-                                                        .contoh[ci].pertanyaan[
-                                                        di
-                                                    ].kana}
-                                                    placeholder="hiragana/katakana (opsional)"
-                                                />
-                                                <input
-                                                    class="input"
-                                                    bind:value={form.pola[pi]
-                                                        .contoh[ci].pertanyaan[
-                                                        di
-                                                    ].terjemahan}
-                                                    placeholder="terjemahan"
-                                                />
+                                                <p
+                                                    class="text-[11px] font-semibold uppercase tracking-wide text-navy/50"
+                                                >
+                                                    Pertanyaan (opsional)
+                                                </p>
                                                 <button
                                                     type="button"
-                                                    class="shrink-0 rounded-xl border border-red-300 px-3 text-lg font-bold text-red-500 transition hover:bg-red-500/10 disabled:opacity-40"
+                                                    class="text-[11px] font-semibold text-red-500 hover:underline"
                                                     onclick={() =>
                                                         removePertanyaan(
                                                             pi,
                                                             ci,
-                                                            di,
-                                                        )}
-                                                    disabled={form.pola[pi]
-                                                        .contoh[ci].pertanyaan
-                                                        .length <= 1}
-                                                    aria-label="Hapus pertanyaan"
-                                                    >−</button
+                                                        )}>Hapus pertanyaan</button
                                                 >
                                             </div>
-                                        {/each}
+                                            <textarea
+                                                class="input font-jp"
+                                                rows="2"
+                                                bind:value={form.pola[pi]
+                                                    .contoh[ci].pertanyaan
+                                                    .kalimat}
+                                                placeholder="kalimat pertanyaan, contoh: <はい:hai:ya>、<学生:がくせい:mahasiswa> です"
+                                            ></textarea>
+                                            <input
+                                                class="input"
+                                                bind:value={form.pola[pi]
+                                                    .contoh[ci].pertanyaan
+                                                    .terjemahan}
+                                                placeholder="terjemahan pertanyaan"
+                                            />
+                                        </div>
+                                    {:else}
                                         <button
                                             type="button"
                                             class="rounded-lg border border-steel/30 px-3 py-1.5 text-xs font-semibold text-navy transition hover:bg-cream/70"
@@ -494,7 +483,7 @@
                                                 addPertanyaan(pi, ci)}
                                             >+ Tambah pertanyaan</button
                                         >
-                                    </div>
+                                    {/if}
 
                                     <div class="mt-3 space-y-2">
                                         <p
@@ -502,55 +491,21 @@
                                         >
                                             Jawaban
                                         </p>
-                                        {#each form.pola[pi].contoh[ci]
-                                            .jawaban as _, di}
-                                            <div
-                                                class="grid gap-2 sm:grid-cols-[1fr_1fr_1fr_auto]"
-                                            >
-                                                <input
-                                                    class="input font-jp"
-                                                    bind:value={form.pola[pi]
-                                                        .contoh[ci].jawaban[di]
-                                                        .kanji}
-                                                    placeholder="bentuk full kanji"
-                                                />
-                                                <input
-                                                    class="input font-jp"
-                                                    bind:value={form.pola[pi]
-                                                        .contoh[ci].jawaban[di]
-                                                        .kana}
-                                                    placeholder="hiragana/katakana (opsional)"
-                                                />
-                                                <input
-                                                    class="input"
-                                                    bind:value={form.pola[pi]
-                                                        .contoh[ci].jawaban[di]
-                                                        .terjemahan}
-                                                    placeholder="terjemahan"
-                                                />
-                                                <button
-                                                    type="button"
-                                                    class="shrink-0 rounded-xl border border-red-300 px-3 text-lg font-bold text-red-500 transition hover:bg-red-500/10 disabled:opacity-40"
-                                                    onclick={() =>
-                                                        removeJawaban(
-                                                            pi,
-                                                            ci,
-                                                            di,
-                                                        )}
-                                                    disabled={form.pola[pi]
-                                                        .contoh[ci].jawaban
-                                                        .length <= 1}
-                                                    aria-label="Hapus jawaban"
-                                                    >−</button
-                                                >
-                                            </div>
-                                        {/each}
-                                        <button
-                                            type="button"
-                                            class="rounded-lg border border-steel/30 px-3 py-1.5 text-xs font-semibold text-navy transition hover:bg-cream/70"
-                                            onclick={() => addJawaban(pi, ci)}
-                                            >+ Tambah jawaban</button
-                                        >
+                                        <textarea
+                                            class="input font-jp"
+                                            rows="2"
+                                            bind:value={form.pola[pi].contoh[
+                                                ci
+                                            ].jawaban.kalimat}
+                                            placeholder="kalimat jawaban, contoh: <学生:がくせい:mahasiswa> です"
+                                        ></textarea>
+                                        <input
+                                            class="input"
+                                            bind:value={form.pola[pi].contoh[
+                                                ci
+                                            ].jawaban.terjemahan}
+                                            placeholder="terjemahan jawaban"
+                                        />
                                     </div>
                                 </div>
                             {/each}
@@ -571,26 +526,6 @@
                 onclick={addPola}>+ Tambah pola</button
             >
 
-            <div class="mt-4 grid gap-3.5 sm:grid-cols-2">
-                <div>
-                    <label class="label" for="buku">Buku</label>
-                    <select id="buku" class="input" bind:value={form.buku}>
-                        {#each bukuOptions as b}
-                            <option value={b}>{b}</option>
-                        {/each}
-                    </select>
-                </div>
-                <div>
-                    <label class="label" for="lesson">Lesson</label>
-                    <input
-                        id="lesson"
-                        class="input"
-                        bind:value={form.lesson}
-                        placeholder="1"
-                    />
-                </div>
-            </div>
-
             {#if formError}
                 <p
                     class="mt-3 rounded-lg bg-red-500/10 px-3 py-2 text-sm text-red-700"
@@ -610,7 +545,7 @@
                         ? "Menyimpan..."
                         : editingId
                           ? "Simpan Perubahan"
-                          : "Tambah Kaiwa"}
+                          : "Tambah Bunpou"}
                 </button>
             </div>
         </form>
@@ -621,7 +556,7 @@
             class="input"
             bind:value={search}
             oninput={() => (page = 1)}
-            placeholder="Cari kaiwa, terjemahan, buku, atau lesson..."
+            placeholder="Cari bunpou, rumus, terjemahan, buku, atau lesson..."
         />
     </div>
 
@@ -662,56 +597,59 @@
     {:else if !filtered.length}
         <div class="card p-10 text-center">
             <p class="font-semibold text-ink">
-                {search ? "Tidak ada hasil" : "Belum ada kaiwa"}
+                {search ? "Tidak ada hasil" : "Belum ada bunpou"}
             </p>
             <p class="mt-1 text-sm text-navy/60">
                 {search
                     ? "Coba kata kunci lain."
-                    : 'Klik "Tambah Kaiwa" untuk memulai.'}
+                    : 'Klik "Tambah Bunpou" untuk memulai.'}
             </p>
         </div>
     {:else}
         <ul class="space-y-2.5">
-            {#each paged as k (k.id)}
+            {#each paged as b (b.id)}
                 <li class="card p-3.5 sm:p-4">
                     <div class="flex items-start gap-3">
                         {#if selectMode}
                             <input
                                 type="checkbox"
                                 class="mt-0.5 h-4 w-4 shrink-0 accent-steel"
-                                checked={isSelected(k.id)}
-                                onchange={() => toggleSelect(k.id)}
-                                aria-label="Pilih kaiwa"
+                                checked={isSelected(b.id)}
+                                onchange={() => toggleSelect(b.id)}
+                                aria-label="Pilih bunpou"
                             />
                         {/if}
                         <div class="min-w-0 flex-1 space-y-2">
-                            {#each k.pola || [] as p}
-                                {#if p.pola_pertanyaan ||
-                                    p.pola_jawaban ||
-                                    p.deskripsi}
-                                    <div class="space-y-0.5">
-                                        <p class="text-[11px] text-navy/50">
-                                            <span class="font-jp"
-                                                >{p.pola_pertanyaan}</span
-                                            >
-                                            <span class="text-navy/30">→</span>
-                                            <span class="font-jp"
-                                                >{p.pola_jawaban}</span
-                                            >
+                            {#each b.pola || [] as p}
+                                <div class="space-y-0.5">
+                                    {#if p.no_bunpou || p.nama_pola}
+                                        <p
+                                            class="text-sm font-semibold text-ink"
+                                        >
+                                            {#if p.no_bunpou}<span
+                                                    class="mr-1.5 rounded bg-sage/15 px-1.5 py-0.5 text-[10px] font-bold text-navy/70"
+                                                    >{p.no_bunpou}</span
+                                                >{/if}{p.nama_pola}
                                         </p>
-                                        {#if p.deskripsi}
-                                            <p class="text-[11px] text-navy/40">
-                                                {p.deskripsi}
-                                            </p>
-                                        {/if}
-                                    </div>
-                                {/if}
+                                    {/if}
+                                    {#if p.rumus}
+                                        <BunpouRumus
+                                            rumus={p.rumus}
+                                            className="text-xs text-steel"
+                                        />
+                                    {/if}
+                                    {#if p.deskripsi}
+                                        <p class="text-[11px] text-navy/45">
+                                            {p.deskripsi}
+                                        </p>
+                                    {/if}
+                                </div>
 
                                 {#each p.contoh || [] as c}
                                     <div
                                         class="space-y-1.5 rounded-lg border border-navy/10 bg-cream/30 p-2.5"
                                     >
-                                        {#each c.pertanyaan || [] as q}
+                                        {#if c.pertanyaan}
                                             <div
                                                 class="flex items-start gap-2"
                                             >
@@ -719,65 +657,45 @@
                                                     class="mt-0.5 shrink-0 rounded-md bg-steel/10 px-1.5 py-0.5 text-[10px] font-bold uppercase text-navy/60"
                                                     >P</span
                                                 >
-                                                <div class="min-w-0">
-                                                    <Furigana
-                                                        kanji={q.kanji}
-                                                        kana={q[
-                                                            "hiragana/katakana"
-                                                        ]}
-                                                        className="font-jp text-base font-semibold text-ink"
-                                                    />
-                                                    {#if q.terjemahan}
-                                                        <p
-                                                            class="text-xs text-navy/50"
-                                                        >
-                                                            {q.terjemahan}
-                                                        </p>
-                                                    {/if}
-                                                </div>
+                                                <BunpouSentence
+                                                    kalimat={c.pertanyaan
+                                                        .kalimat}
+                                                    terjemahan={c.pertanyaan
+                                                        .terjemahan}
+                                                    className="text-base font-semibold text-ink"
+                                                />
                                             </div>
-                                        {/each}
-
-                                        {#each c.jawaban || [] as j}
+                                        {/if}
+                                        {#if c.jawaban}
                                             <div
                                                 class="flex items-start gap-2"
                                             >
                                                 <span
                                                     class="mt-0.5 shrink-0 rounded-md bg-sage/15 px-1.5 py-0.5 text-[10px] font-bold uppercase text-navy/60"
-                                                    >J</span
+                                                    >{c.pertanyaan ? "J" : "Contoh"}</span
                                                 >
-                                                <div class="min-w-0">
-                                                    <Furigana
-                                                        kanji={j.kanji}
-                                                        kana={j[
-                                                            "hiragana/katakana"
-                                                        ]}
-                                                        className="font-jp text-base font-semibold text-sage"
-                                                    />
-                                                    {#if j.terjemahan}
-                                                        <p
-                                                            class="text-xs text-navy/50"
-                                                        >
-                                                            {j.terjemahan}
-                                                        </p>
-                                                    {/if}
-                                                </div>
+                                                <BunpouSentence
+                                                    kalimat={c.jawaban.kalimat}
+                                                    terjemahan={c.jawaban
+                                                        .terjemahan}
+                                                    className="text-base font-semibold text-sage"
+                                                />
                                             </div>
-                                        {/each}
+                                        {/if}
                                     </div>
                                 {/each}
                             {/each}
 
                             <div class="flex flex-wrap gap-1.5">
-                                {#if k.buku}
+                                {#if b.buku}
                                     <span
                                         class="rounded-md bg-navy/5 px-2 py-0.5 text-[11px] font-medium text-navy/70"
-                                        >{k.buku}</span
+                                        >{b.buku}</span
                                     >
                                 {/if}
                                 <span
                                     class="rounded-md bg-sand/40 px-2 py-0.5 text-[11px] font-medium text-navy/70"
-                                    >Lesson {k.lesson}</span
+                                    >{lessonLabel(b.lesson)}</span
                                 >
                             </div>
                         </div>
@@ -786,13 +704,13 @@
                             <div class="flex shrink-0 gap-1.5">
                                 <button
                                     class="rounded-lg border border-steel/25 px-2.5 py-1.5 text-xs font-semibold text-navy hover:bg-cream/70"
-                                    onclick={() => openEdit(k)}
+                                    onclick={() => openEdit(b)}
                                 >
                                     Ubah
                                 </button>
                                 <button
                                     class="rounded-lg border border-red-300 px-2.5 py-1.5 text-xs font-semibold text-red-600 hover:bg-red-500/10"
-                                    onclick={() => (deleteTarget = k)}
+                                    onclick={() => (deleteTarget = b)}
                                 >
                                     Hapus
                                 </button>
@@ -803,7 +721,7 @@
             {/each}
         </ul>
         <p class="mt-3 text-center text-xs text-navy/50">
-            Menampilkan {rangeStart}–{rangeEnd} dari {filtered.length} kaiwa
+            Menampilkan {rangeStart}–{rangeEnd} dari {filtered.length} bunpou
         </p>
         <Pagination
             page={currentPage}
@@ -818,24 +736,13 @@
         class="fixed inset-0 z-40 flex items-center justify-center bg-ink/60 p-4 backdrop-blur-sm"
     >
         <div class="card w-full max-w-sm p-5 sm:p-6">
-            <h3 class="text-lg font-bold text-ink">Hapus kaiwa ini?</h3>
+            <h3 class="text-lg font-bold text-ink">Hapus bunpou ini?</h3>
             <p class="mt-2 text-sm text-navy/70">
-                <span class="font-jp font-semibold text-ink"
-                    >{deleteTarget.pola?.[0]?.contoh?.[0]?.pertanyaan?.[0]?.[
-                        "hiragana/katakana"
-                    ] ||
-                        deleteTarget.pola?.[0]?.contoh?.[0]?.pertanyaan?.[0]
-                            ?.kanji ||
-                        "—"}</span
-                >
-                <span class="text-navy/40">→</span>
-                <span class="font-jp font-semibold text-ink"
-                    >{deleteTarget.pola?.[0]?.contoh?.[0]?.jawaban?.[0]?.[
-                        "hiragana/katakana"
-                    ] ||
-                        deleteTarget.pola?.[0]?.contoh?.[0]?.jawaban?.[0]
-                            ?.kanji ||
-                        "—"}</span
+                <span class="font-semibold text-ink"
+                    >{deleteTarget.pola?.[0]?.nama_pola ||
+                        deleteTarget.pola?.[0]?.rumus ||
+                        lessonLabel(deleteTarget.lesson) ||
+                        "-"}</span
                 >
             </p>
             <p class="mt-1 text-xs text-navy/50">
@@ -867,9 +774,9 @@
         class="fixed inset-0 z-40 flex items-center justify-center bg-ink/60 p-4 backdrop-blur-sm"
     >
         <div class="card w-full max-w-sm p-5 sm:p-6">
-            <h3 class="text-lg font-bold text-ink">Hapus kaiwa terpilih?</h3>
+            <h3 class="text-lg font-bold text-ink">Hapus bunpou terpilih?</h3>
             <p class="mt-2 text-sm text-navy/70">
-                {selectedIds.length} kaiwa akan dihapus permanen.
+                {selectedIds.length} bunpou akan dihapus permanen.
             </p>
             <p class="mt-1 text-xs text-navy/50">
                 Tindakan ini tidak dapat dibatalkan.
