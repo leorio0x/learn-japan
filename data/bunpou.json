@@ -160,5 +160,4490 @@
         ]
       }
     ]
+  },
+  {
+    "id": "bp-680c3132ab0f",
+    "lesson": "Lesson 2",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Kata tunjuk benda",
+        "rumus": "[～:kata tunjuk] + は + [～:kata benda] + です",
+        "deskripsi": "Kata tunjuk これ (ini), それ (itu), あれ (itu di sana), dan どれ (yang mana) digunakan untuk menunjuk benda.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "これ は　<私:わたし:saya> の <本:ほん:buku> です",
+              "terjemahan": "Ini buku saya."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "それ は　<何:なん:apa> ですか",
+              "terjemahan": "Itu apa?"
+            },
+            "jawaban": {
+              "kalimat": "これ は　<辞書:じしょ:kamus> です",
+              "terjemahan": "Ini kamus."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Kata tunjuk + kata benda",
+        "rumus": "[～:kata tunjuk] + [～:kata benda] + は + [～:kata benda] + です",
+        "deskripsi": "この (ini), その (itu), あの (itu di sana), dan どの (yang mana) selalu diikuti kata benda.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <本:ほん:buku> は　<私:わたし:saya> の です",
+              "terjemahan": "Buku ini milik saya."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "あの <人:ひと:orang> は　<ミラー::Miller> さん です",
+              "terjemahan": "Orang itu adalah Sdr. Miller."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Kepemilikan dengan の",
+        "rumus": "[～:kata benda] + は + [～:orang] + の + です",
+        "deskripsi": "Partikel の dapat menggantikan kata benda yang sudah disebutkan, misalnya 私のです (milik saya).",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <傘:かさ:payung> は　<私:わたし:saya> の です",
+              "terjemahan": "Payung ini milik saya."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "あの <車:くるま:mobil> は　<田中:たなか:Tanaka> さん の です",
+              "terjemahan": "Mobil itu milik Sdr. Tanaka."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Konfirmasi そうです",
+        "rumus": "はい、そうです／いいえ、そうじゃありません",
+        "deskripsi": "そうです digunakan untuk menyatakan 'benar/itu betul', sedangkan そうじゃありません digunakan untuk menyangkal.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "それ は　<辞書:じしょ:kamus> ですか",
+              "terjemahan": "Apakah itu kamus?"
+            },
+            "jawaban": {
+              "kalimat": "はい、そうです",
+              "terjemahan": "Ya, benar."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "これ は　<雑誌:ざっし:majalah> ですか",
+              "terjemahan": "Apakah ini majalah?"
+            },
+            "jawaban": {
+              "kalimat": "いいえ、そうじゃありません。<辞書:じしょ:kamus> です",
+              "terjemahan": "Tidak, bukan. Ini kamus."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-954d259c6aaf",
+    "lesson": "Lesson 3",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Kata tunjuk tempat",
+        "rumus": "[～:kata tunjuk tempat] + は + [～:kata benda|tempat] + です",
+        "deskripsi": "ここ (di sini), そこ (di situ), あそこ (di sana), dan どこ (di mana) digunakan untuk menunjuk tempat.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "ここ は　<食堂:しょくどう:kantin> です",
+              "terjemahan": "Di sini adalah kantin."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "そこ は　<受付:うけつけ:resepsionis> です",
+              "terjemahan": "Di situ adalah resepsionis."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "A berada di B",
+        "rumus": "[～:kata benda|tempat] + は + [～:kata benda|tempat] + です",
+        "deskripsi": "Pola ini menyatakan posisi suatu benda atau tempat.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<エレベーター::lift> は　あそこ です",
+              "terjemahan": "Lift ada di sana."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<受付:うけつけ:resepsionis> は　<１階:いっかい:lantai satu> です",
+              "terjemahan": "Resepsionis ada di lantai 1."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Menanyakan lokasi",
+        "rumus": "[～:kata benda|tempat] + は + どこ + ですか",
+        "deskripsi": "どこ digunakan untuk menanyakan letak suatu tempat atau benda.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "<受付:うけつけ:resepsionis> は　どこ ですか",
+              "terjemahan": "Resepsionis di mana?"
+            },
+            "jawaban": {
+              "kalimat": "あそこ です",
+              "terjemahan": "Di sana."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "<トイレ::toilet> は　どこ ですか",
+              "terjemahan": "Toilet di mana?"
+            },
+            "jawaban": {
+              "kalimat": "<２階:にかい:lantai dua> です",
+              "terjemahan": "Di lantai 2."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Menanyakan harga",
+        "rumus": "[～:kata benda] + は + いくら + ですか",
+        "deskripsi": "いくら digunakan untuk menanyakan harga suatu barang.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "この <傘:かさ:payung> は　いくら ですか",
+              "terjemahan": "Payung ini berapa harganya?"
+            },
+            "jawaban": {
+              "kalimat": "<３０００円:さんぜんえん:3000 yen> です",
+              "terjemahan": "3000 yen."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "5",
+        "nama_pola": "Menyatakan lantai",
+        "rumus": "[～:kata benda|tempat] + は + [～:angka] + 階 + です",
+        "deskripsi": "Kata 階 digunakan untuk menyebut lantai sebuah bangunan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<食堂:しょくどう:kantin> は　<７階:ななかい:lantai tujuh> です",
+              "terjemahan": "Kantin ada di lantai 7."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<売り場:うりば:tempat penjualan> は　<３階:さんかい:lantai tiga> です",
+              "terjemahan": "Tempat penjualan ada di lantai 3."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "6",
+        "nama_pola": "Juga (tempat)",
+        "rumus": "[～:kata benda|tempat] + も + [～:kata benda|tempat] + です",
+        "deskripsi": "Partikel も digunakan untuk menyatakan 'juga' pada tempat atau benda.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<トイレ::toilet> も　<２階:にかい:lantai dua> です",
+              "terjemahan": "Toilet juga ada di lantai 2."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<電話:でんわ:telepon> も　あそこ です",
+              "terjemahan": "Telepon juga ada di sana."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-33aaaf906b4a",
+    "lesson": "Lesson 4",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Bentuk sopan kata kerja",
+        "rumus": "[～:kata kerja] + ます／ません／ました／ませんでした",
+        "deskripsi": "Kata kerja bentuk sopan berubah sesuai waktu dan bentuk positif/negatif.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<毎朝:まいあさ:setiap pagi> <６時:ろくじ:jam enam> に <起きます:おきます:bangun>",
+              "terjemahan": "Setiap pagi bangun jam 6."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<昨日:きのう:kemarin> <勉強しました:べんきょうしました:belajar>",
+              "terjemahan": "Kemarin belajar."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<昨日:きのう:kemarin> <勉強しませんでした:べんきょうしませんでした:tidak belajar>",
+              "terjemahan": "Kemarin tidak belajar."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Partikel waktu に",
+        "rumus": "[～:waktu] + に + [～:kata kerja] + ます",
+        "deskripsi": "Partikel に digunakan setelah waktu tertentu untuk menunjukkan kapan suatu kegiatan dilakukan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<毎晩:まいばん:setiap malam> <１１時:じゅういちじ:jam sebelas> に <寝ます:ねます:tidur>",
+              "terjemahan": "Setiap malam tidur jam 11."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<日曜日:にちようび:Minggu> に <働きません:はたらきません:tidak bekerja>",
+              "terjemahan": "Pada hari Minggu tidak bekerja."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Dari ... sampai ...",
+        "rumus": "[～:waktu|tempat] + から + [～:waktu|tempat] + まで + [～:kata kerja] + ます",
+        "deskripsi": "から menunjukkan titik awal, sedangkan まで menunjukkan titik akhir.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<９時:くじ:jam sembilan> から <５時:ごじ:jam lima> まで <働きます:はたらきます:bekerja>",
+              "terjemahan": "Bekerja dari jam 9 sampai jam 5."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<月曜日:げつようび:Senin> から <金曜日:きんようび:Jumat> まで <働きます:はたらきます:bekerja>",
+              "terjemahan": "Bekerja dari hari Senin sampai Jumat."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Dan (と)",
+        "rumus": "[～:kata benda] + と + [～:kata benda]",
+        "deskripsi": "Partikel と menghubungkan dua kata benda atau lebih, setara dengan 'dan'.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<土曜日:どようび:Sabtu> と <日曜日:にちようび:Minggu> は <休みます:やすみます:libur>",
+              "terjemahan": "Sabtu dan Minggu libur."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<月曜日:げつようび:Senin> と <水曜日:すいようび:Rabu> に <働きます:はたらきます:bekerja>",
+              "terjemahan": "Bekerja pada hari Senin dan Rabu."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "5",
+        "nama_pola": "Partikel akhir ね／よ",
+        "rumus": "[～:kalimat] + ね／よ",
+        "deskripsi": "ね digunakan untuk meminta persetujuan, sedangkan よ digunakan untuk memberi informasi baru kepada lawan bicara.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<ミラー::Miller> さん は　<会社員:かいしゃいん:pegawai perusahaan> です ね",
+              "terjemahan": "Sdr. Miller pegawai perusahaan, ya."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "これ は　<私:わたし:saya> の <本:ほん:buku> です よ",
+              "terjemahan": "Ini buku saya, lho."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "6",
+        "nama_pola": "Durasi 時間／分",
+        "rumus": "[～:angka] + 時間／分",
+        "deskripsi": "時間 dan 分 digunakan untuk menyatakan lama waktu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<毎日:まいにち:setiap hari> <２時間:にじかん:dua jam> <勉強します:べんきょうします:belajar>",
+              "terjemahan": "Setiap hari belajar 2 jam."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<毎朝:まいあさ:setiap pagi> <３０分:さんじゅっぷん:30 menit> <走ります:はしります:berlari>",
+              "terjemahan": "Setiap pagi berlari 30 menit."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-91538d512489",
+    "lesson": "Lesson 5",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Partikel へ (arah)",
+        "rumus": "[～:tempat] + へ + [～:kata kerja] + ます",
+        "deskripsi": "Partikel へ menunjukkan arah atau tujuan gerakan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<明日:あした:besok> <京都:きょうと:Kyoto> へ <行きます:いきます:pergi>",
+              "terjemahan": "Besok pergi ke Kyoto."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<来週:らいしゅう:minggu depan> <日本:にほん:Jepang> へ <来ます:きます:datang>",
+              "terjemahan": "Minggu depan datang ke Jepang."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Partikel で (transportasi)",
+        "rumus": "[～:tempat] + へ + [～:kendaraan] + で + 行きます",
+        "deskripsi": "Partikel で menunjukkan alat transportasi yang digunakan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<学校:がっこう:sekolah> へ <バス::bus> で <行きます:いきます:pergi>",
+              "terjemahan": "Pergi ke sekolah naik bus."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<日本:にほん:Jepang> へ <飛行機:ひこうき:pesawat> で <行きます:いきます:pergi>",
+              "terjemahan": "Pergi ke Jepang naik pesawat."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Partikel と (bersama)",
+        "rumus": "[～:orang] + と + [～:kata kerja] + ます",
+        "deskripsi": "Partikel と menunjukkan orang yang diajak melakukan kegiatan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<友達:ともだち:teman> と <京都:きょうと:Kyoto> へ <行きます:いきます:pergi>",
+              "terjemahan": "Pergi ke Kyoto bersama teman."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<家族:かぞく:keluarga> と <日本:にほん:Jepang> へ <来ました:きました:datang>",
+              "terjemahan": "Datang ke Jepang bersama keluarga."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Kapan (いつ)",
+        "rumus": "いつ + [～:kata kerja] + ます + か",
+        "deskripsi": "いつ digunakan untuk menanyakan waktu terjadinya suatu kegiatan.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "いつ <日本:にほん:Jepang> へ <来ました:きました:datang> か",
+              "terjemahan": "Kapan datang ke Jepang?"
+            },
+            "jawaban": {
+              "kalimat": "<去年:きょねん:tahun lalu> の <３月:さんがつ:Maret> です",
+              "terjemahan": "Maret tahun lalu."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "いつ <京都:きょうと:Kyoto> へ <行きます:いきます:pergi> か",
+              "terjemahan": "Kapan pergi ke Kyoto?"
+            },
+            "jawaban": {
+              "kalimat": "<来週:らいしゅう:minggu depan> です",
+              "terjemahan": "Minggu depan."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-5702ade3b050",
+    "lesson": "Lesson 6",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Partikel を (objek)",
+        "rumus": "[～:kata benda] + を + [～:kata kerja] + ます",
+        "deskripsi": "Partikel を menandai objek langsung dari kata kerja.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<毎朝:まいあさ:setiap pagi> <パン::roti> を <食べます:たべます:makan>",
+              "terjemahan": "Setiap pagi makan roti."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<昨日:きのう:kemarin> <映画:えいが:film> を <見ました:みました:menonton>",
+              "terjemahan": "Kemarin menonton film."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Partikel で (tempat)",
+        "rumus": "[～:tempat] + で + [～:kata benda] + を + [～:kata kerja] + ます",
+        "deskripsi": "Partikel で menunjukkan tempat berlangsungnya suatu kegiatan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<図書館:としょかん:perpustakaan> で <本:ほん:buku> を <読みます:よみます:membaca>",
+              "terjemahan": "Membaca buku di perpustakaan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<食堂:しょくどう:kantin> で <昼ご飯:ひるごはん:makan siang> を <食べます:たべます:makan>",
+              "terjemahan": "Makan siang di kantin."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Ajakan ませんか",
+        "rumus": "[～:kata kerja] + ません + か",
+        "deskripsi": "Pola ini digunakan untuk mengajak lawan bicara melakukan sesuatu dengan sopan.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "<一緒:いっしょ:bersama> に <映画:えいが:film> を <見ませんか:みませんか:mau menonton?>",
+              "terjemahan": "Mau menonton film bersama?"
+            },
+            "jawaban": {
+              "kalimat": "ええ、<見ましょう:みましょう:mari menonton>",
+              "terjemahan": "Ya, ayo menonton."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "<一緒:いっしょ:bersama> に <昼ご飯:ひるごはん:makan siang> を <食べませんか:たべませんか:mau makan?>",
+              "terjemahan": "Mau makan siang bersama?"
+            },
+            "jawaban": {
+              "kalimat": "ええ、<食べましょう:たべましょう:mari makan>",
+              "terjemahan": "Ya, ayo makan."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Ajakan ましょう",
+        "rumus": "[～:kata kerja] + ましょう",
+        "deskripsi": "Pola ini digunakan untuk mengajak atau menyatakan ajakan secara aktif.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<少し:すこし:sebentar> <休みましょう:やすみましょう:mari istirahat>",
+              "terjemahan": "Mari istirahat sebentar."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<駅:えき:stasiun> で <会いましょう:あいましょう:mari bertemu>",
+              "terjemahan": "Mari bertemu di stasiun."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-3f9cd4daa910",
+    "lesson": "Lesson 7",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Partikel で (alat)",
+        "rumus": "[～:kata benda|alat] + で + [～:kata benda] + を + [～:kata kerja] + ます",
+        "deskripsi": "Partikel で menunjukkan alat, bahan, atau cara yang digunakan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<箸:はし:sumpit> で <ご飯:ごはん:nasi> を <食べます:たべます:makan>",
+              "terjemahan": "Makan nasi dengan sumpit."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<日本語:にほんご:bahasa Jepang> で <手紙:てがみ:surat> を <書きます:かきます:menulis>",
+              "terjemahan": "Menulis surat dalam bahasa Jepang."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Memberi (あげます)",
+        "rumus": "[～:orang] + に + [～:kata benda] + を + あげます",
+        "deskripsi": "Pola ini digunakan ketika memberi sesuatu kepada orang lain.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<田中:たなか:Tanaka> さん に <花:はな:bunga> を <あげます:あげます:memberi>",
+              "terjemahan": "Memberi bunga kepada Sdr. Tanaka."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<友達:ともだち:teman> に <本:ほん:buku> を <あげました:あげました:memberi>",
+              "terjemahan": "Memberi buku kepada teman."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Menerima (もらいます)",
+        "rumus": "[～:orang] + に + [～:kata benda] + を + もらいます",
+        "deskripsi": "Pola ini digunakan ketika menerima sesuatu dari orang lain.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<先生:せんせい:guru> に <辞書:じしょ:kamus> を <もらいました:もらいました:menerima>",
+              "terjemahan": "Menerima kamus dari guru."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<友達:ともだち:teman> に <写真:しゃしん:foto> を <もらいます:もらいます:menerima>",
+              "terjemahan": "Menerima foto dari teman."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Sudah (もう～ました)",
+        "rumus": "もう + [～:kata kerja] + ました",
+        "deskripsi": "もう dengan bentuk lampau digunakan untuk menyatakan bahwa suatu kegiatan sudah selesai.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "もう <昼ご飯:ひるごはん:makan siang> を <食べました:たべました:makan>",
+              "terjemahan": "Sudah makan siang."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "もう <宿題:しゅくだい:PR> を <しました:しました:melakukan>",
+              "terjemahan": "Sudah mengerjakan PR."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-26391bdb6987",
+    "lesson": "Lesson 8",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Kata sifat い",
+        "rumus": "[～:kata sifat い] + です／くないです",
+        "deskripsi": "Kata sifat い berubah menjadi くないです pada bentuk negatif.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <本:ほん:buku> は <面白い:おもしろい:menarik> です",
+              "terjemahan": "Buku ini menarik."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <映画:えいが:film> は <面白くない:おもしろくない:tidak menarik> です",
+              "terjemahan": "Film ini tidak menarik."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Kata sifat な",
+        "rumus": "[～:kata sifat な] + です／じゃありません",
+        "deskripsi": "Kata sifat な tidak berubah pada bentuk positif, tetapi menjadi じゃありません pada bentuk negatif.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<京都:きょうと:Kyoto> は <静か:しずか:tenang> です",
+              "terjemahan": "Kyoto tenang."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <部屋:へや:kamar> は <静かじゃありません:しずかじゃありません:tidak tenang>",
+              "terjemahan": "Kamar ini tidak tenang."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "N は N が ～",
+        "rumus": "[～:orang|kata benda] + は + [～:kata benda] + が + [～:kata sifat] + です",
+        "deskripsi": "Pola ini digunakan untuk menjelaskan sifat atau keadaan bagian tertentu dari topik.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "あの <人:ひと:orang> は <背:せ:tinggi badan> が <高い:たかい:tinggi> です",
+              "terjemahan": "Orang itu tinggi."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<象:ぞう:gajah> は <鼻:はな:hidung> が <長い:ながい:panjang> です",
+              "terjemahan": "Gajah berhidung panjang."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "とても／あまり",
+        "rumus": "とても + [～:kata sifat] + です／あまり + [～:kata sifat] + くないです",
+        "deskripsi": "とても berarti 'sangat', sedangkan あまり digunakan bersama bentuk negatif dan berarti 'tidak begitu'.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <料理:りょうり:masakan> は とても <おいしい:おいしい:enak> です",
+              "terjemahan": "Masakan ini sangat enak."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <部屋:へや:kamar> は あまり <広くない:ひろくない:tidak luas> です",
+              "terjemahan": "Kamar ini tidak begitu luas."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "5",
+        "nama_pola": "どんな N",
+        "rumus": "どんな + [～:kata benda] + ですか",
+        "deskripsi": "どんな digunakan untuk menanyakan sifat atau keadaan suatu benda.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "<奈良:なら:Nara> は どんな <町:まち:kota> ですか",
+              "terjemahan": "Nara itu kota seperti apa?"
+            },
+            "jawaban": {
+              "kalimat": "<静か:しずか:tenang> な <町:まち:kota> です",
+              "terjemahan": "Kota yang tenang."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "6",
+        "nama_pola": "Tetapi (～が)",
+        "rumus": "[～:kalimat] + が + [～:kalimat]",
+        "deskripsi": "Partikel が dapat menghubungkan dua kalimat yang berlawanan, setara dengan 'tetapi'.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <レストラン::restoran> は <安い:やすい:murah> です が、<おいしくない:おいしくない:tidak enak> です",
+              "terjemahan": "Restoran ini murah, tetapi tidak enak."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <本:ほん:buku> は <面白い:おもしろい:menarik> です が、<高い:たかい:mahal> です",
+              "terjemahan": "Buku ini menarik, tetapi mahal."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-efff7183e9de",
+    "lesson": "Lesson 9",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Suka／tidak suka",
+        "rumus": "[～:orang] + は + [～:kata benda] + が + 好きです／嫌いです",
+        "deskripsi": "好き dan 嫌い digunakan untuk menyatakan kesukaan atau ketidaksukaan terhadap sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <日本:にほん:Jepang> の <料理:りょうり:masakan> が <好きです:すきです:suka>",
+              "terjemahan": "Saya suka masakan Jepang."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <野菜:やさい:sayur> が <嫌いです:きらいです:tidak suka>",
+              "terjemahan": "Saya tidak suka sayur."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Pandai／tidak pandai",
+        "rumus": "[～:orang] + は + [～:kata benda] + が + 上手です／下手です",
+        "deskripsi": "上手 dan 下手 digunakan untuk menilai kemampuan seseorang dalam suatu hal.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<ミラー::Miller> さん は <日本語:にほんご:bahasa Jepang> が <上手:じょうず:pandai> です",
+              "terjemahan": "Sdr. Miller pandai bahasa Jepang."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <歌:うた:lagu> が <下手:へた:tidak pandai> です",
+              "terjemahan": "Saya tidak pandai bernyanyi."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Mengerti (わかります)",
+        "rumus": "[～:orang] + は + [～:kata benda] + が + わかります",
+        "deskripsi": "わかります digunakan untuk menyatakan pemahaman terhadap sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <日本語:にほんご:bahasa Jepang> が 少し <わかります:わかります:mengerti>",
+              "terjemahan": "Saya sedikit mengerti bahasa Jepang."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<ミラー::Miller> さん は <漢字:かんじ:kanji> が <わかります:わかります:mengerti>",
+              "terjemahan": "Sdr. Miller mengerti kanji."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Memiliki (あります)",
+        "rumus": "[～:orang] + は + [～:kata benda] + が + あります",
+        "deskripsi": "あります digunakan untuk menyatakan kepemilikan benda atau hal yang tidak bergerak.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <車:くるま:mobil> が あります",
+              "terjemahan": "Saya punya mobil."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<田中:たなか:Tanaka> さん は <時間:じかん:waktu> が あります",
+              "terjemahan": "Sdr. Tanaka punya waktu."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "5",
+        "nama_pola": "Ingin memiliki (ほしいです)",
+        "rumus": "[～:orang] + は + [～:kata benda] + が + ほしいです",
+        "deskripsi": "ほしいです digunakan untuk menyatakan keinginan memiliki sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <新しい:あたらしい:baru> <車:くるま:mobil> が <ほしいです:ほしいです:ingin>",
+              "terjemahan": "Saya ingin mobil baru."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <大きい:おおきい:besar> <家:いえ:rumah> が <ほしいです:ほしいです:ingin>",
+              "terjemahan": "Saya ingin rumah besar."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "6",
+        "nama_pola": "Alasan dengan から",
+        "rumus": "[～:kalimat] + から",
+        "deskripsi": "から digunakan untuk menyatakan alasan. Pertanyaan 'mengapa' memakai どうして.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "どうして <新聞:しんぶん:koran> を <読みません:よみません:tidak membaca> か",
+              "terjemahan": "Mengapa tidak membaca koran?"
+            },
+            "jawaban": {
+              "kalimat": "<時間:じかん:waktu> が ありません から",
+              "terjemahan": "Karena tidak ada waktu."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "どうして <毎日:まいにち:setiap hari> <日本語:にほんご:bahasa Jepang> を <勉強します:べんきょうします:belajar> か",
+              "terjemahan": "Mengapa setiap hari belajar bahasa Jepang?"
+            },
+            "jawaban": {
+              "kalimat": "<日本語:にほんご:bahasa Jepang> が <好きです:すきです:suka> から",
+              "terjemahan": "Karena suka bahasa Jepang."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-337cbc9f5e1a",
+    "lesson": "Lesson 10",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Benda ada (あります)",
+        "rumus": "[～:tempat] + に + [～:kata benda] + が + あります",
+        "deskripsi": "あります digunakan untuk menyatakan keberadaan benda mati.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<机:つくえ:meja> の <上:うえ:atas> に <本:ほん:buku> が あります",
+              "terjemahan": "Di atas meja ada buku."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<冷蔵庫:れいぞうこ:kulkas> の <中:なか:dalam> に <牛乳:ぎゅうにゅう:susu> が あります",
+              "terjemahan": "Di dalam kulkas ada susu."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Orang/hewan ada (います)",
+        "rumus": "[～:tempat] + に + [～:orang|hewan] + が + います",
+        "deskripsi": "います digunakan untuk menyatakan keberadaan orang atau hewan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<教室:きょうしつ:ruang kelas> に <学生:がくせい:mahasiswa> が います",
+              "terjemahan": "Di ruang kelas ada mahasiswa."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<庭:にわ:halaman> に <犬:いぬ:anjing> が います",
+              "terjemahan": "Di halaman ada anjing."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Keberadaan dengan topik",
+        "rumus": "[～:kata benda|orang] + は + [～:tempat] + に + あります／います",
+        "deskripsi": "Pola ini menyatakan letak suatu benda atau orang dengan benda/orang sebagai topik.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<ミラー::Miller> さん は <事務所:じむしょ:kantor> に います",
+              "terjemahan": "Sdr. Miller ada di kantor."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<本:ほん:buku> は <机:つくえ:meja> の <上:うえ:atas> に あります",
+              "terjemahan": "Buku ada di atas meja."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Posisi benda",
+        "rumus": "[～:kata benda] + の + [～:posisi] + に + [～:kata benda] + が + あります／います",
+        "deskripsi": "Posisi seperti 上, 下, 前, 後ろ, 右, 左, 隣, 近く, 中, dan 外 digunakan untuk menjelaskan letak.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<机:つくえ:meja> の <下:した:bawah> に <猫:ねこ:kucing> が います",
+              "terjemahan": "Di bawah meja ada kucing."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<駅:えき:stasiun> の <前:まえ:depan> に <店:みせ:toko> が あります",
+              "terjemahan": "Di depan stasiun ada toko."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "5",
+        "nama_pola": "Menanyakan lokasi",
+        "rumus": "[～:kata benda|orang] + は + どこ + に + あります／います + か",
+        "deskripsi": "どこに digunakan untuk menanyakan letak benda atau orang.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "<切手:きって:perangko> は どこ に あります か",
+              "terjemahan": "Di mana ada perangko?"
+            },
+            "jawaban": {
+              "kalimat": "<引き出し:ひきだし:laci> の <中:なか:dalam> に あります",
+              "terjemahan": "Ada di dalam laci."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "<ミラー::Miller> さん は どこ に います か",
+              "terjemahan": "Di mana Sdr. Miller?"
+            },
+            "jawaban": {
+              "kalimat": "<会議室:かいぎしつ:ruang rapat> に います",
+              "terjemahan": "Di ruang rapat."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "6",
+        "nama_pola": "Dan lain-lain (や～など)",
+        "rumus": "[～:kata benda] + や + [～:kata benda] + など",
+        "deskripsi": "や menghubungkan beberapa kata benda dengan nuansa 'dan lain-lain', sering dilengkapi など.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<机:つくえ:meja> の 上に <本:ほん:buku> や <ペン::pena> などが あります",
+              "terjemahan": "Di atas meja ada buku, pena, dan lain-lain."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<冷蔵庫:れいぞうこ:kulkas> の 中に <野菜:やさい:sayur> や <肉:にく:daging> などが あります",
+              "terjemahan": "Di dalam kulkas ada sayur, daging, dan lain-lain."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-52a2e17a063f",
+    "lesson": "Lesson 11",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Menyatakan jumlah benda",
+        "rumus": "[～:kata benda] + を + [～:jumlah] + [～:kata kerja] + ます",
+        "deskripsi": "Satuan seperti つ, 人, 枚, 台, 回, dan 番 digunakan sesuai jenis benda atau kegiatannya.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "りんご を　<４つ:よっつ:empat buah> <買います:かいます:membeli>",
+              "terjemahan": "Membeli empat apel."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<切手:きって:perangko> を　<３枚:さんまい:tiga lembar> <買います:かいます:membeli>",
+              "terjemahan": "Membeli tiga lembar perangko."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Perkiraan ぐらい",
+        "rumus": "[～:jumlah] + ぐらい",
+        "deskripsi": "ぐらい digunakan untuk menyatakan perkiraan jumlah atau lama waktu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<家:いえ:rumah> から <駅:えき:stasiun> まで <１０分:じゅっぷん:10 menit> ぐらい かかります",
+              "terjemahan": "Dari rumah ke stasiun memakan waktu sekitar 10 menit."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<３０人:さんじゅうにん:30 orang> ぐらい <来ました:きました:datang>",
+              "terjemahan": "Sekitar 30 orang datang."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Berapa lama (どのくらい)",
+        "rumus": "どのくらい + [～:kata kerja] + ます + か",
+        "deskripsi": "どのくらい digunakan untuk menanyakan lama waktu atau jumlah perkiraan.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "<大阪:おおさか:Osaka> から <東京:とうきょう:Tokyo> まで どのくらい かかります か",
+              "terjemahan": "Dari Osaka ke Tokyo berapa lama?"
+            },
+            "jawaban": {
+              "kalimat": "<新幹線:しんかんせん:Shinkansen> で <２時間半:にじかんはん:dua setengah jam> ぐらい です",
+              "terjemahan": "Sekitar dua setengah jam dengan Shinkansen."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Frekuensi ～に～回",
+        "rumus": "[～:waktu] + に + [～:angka] + 回",
+        "deskripsi": "Pola ini menyatakan berapa kali suatu kegiatan dilakukan dalam periode tertentu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<１か月:いっかげつ:satu bulan> に <２回:にかい:dua kali> <映画:えいが:film> を <見ます:みます:menonton>",
+              "terjemahan": "Sebulan dua kali menonton film."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<１週間:いっしゅうかん:satu minggu> に <３回:さんかい:tiga kali> <日本語:にほんご:bahasa Jepang> を <勉強します:べんきょうします:belajar>",
+              "terjemahan": "Seminggu tiga kali belajar bahasa Jepang."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "5",
+        "nama_pola": "Hanya だけ",
+        "rumus": "[～:kata benda] + だけ",
+        "deskripsi": "だけ digunakan untuk menyatakan 'hanya' atau 'saja'.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<朝ご飯:あさごはん:sarapan> は <パン::roti> だけ <食べます:たべます:makan>",
+              "terjemahan": "Sarapan hanya makan roti."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<日曜日:にちようび:Minggu> だけ <休みます:やすみます:libur>",
+              "terjemahan": "Hanya hari Minggu libur."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "6",
+        "nama_pola": "Menyatakan durasi",
+        "rumus": "[～:angka] + 時間／日／週間／か月／年",
+        "deskripsi": "Satuan waktu digunakan untuk menyatakan lama suatu kegiatan atau keadaan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<毎日:まいにち:setiap hari> <２時間:にじかん:dua jam> <勉強します:べんきょうします:belajar>",
+              "terjemahan": "Setiap hari belajar dua jam."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<日本:にほん:Jepang> に <１年:いちねん:satu tahun> います",
+              "terjemahan": "Tinggal di Jepang selama satu tahun."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-fb5c61cff595",
+    "lesson": "Lesson 12",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Bentuk lampau kata benda",
+        "rumus": "[～:kata benda] + でした／じゃありませんでした",
+        "deskripsi": "Kata benda memakai でした pada bentuk lampau positif dan じゃありませんでした pada bentuk lampau negatif.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<昨日:きのう:kemarin> は <日曜日:にちようび:Minggu> でした",
+              "terjemahan": "Kemarin adalah hari Minggu."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<一昨日:おととい:kemarin lusa> は <休み:やすみ:libur> じゃありませんでした",
+              "terjemahan": "Kemarin lusa bukan hari libur."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Bentuk lampau kata sifat い",
+        "rumus": "[～:kata sifat い] + かったです／くなかったです",
+        "deskripsi": "Kata sifat い berubah menjadi かったです pada lampau positif dan くなかったです pada lampau negatif.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<昨日:きのう:kemarin> は <暑かった:あつかった:panas> です",
+              "terjemahan": "Kemarin panas."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<昨日:きのう:kemarin> は <寒くなかった:さむくなかった:tidak dingin> です",
+              "terjemahan": "Kemarin tidak dingin."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Bentuk lampau kata sifat な",
+        "rumus": "[～:kata sifat な] + でした／じゃありませんでした",
+        "deskripsi": "Kata sifat な memakai でした pada lampau positif dan じゃありませんでした pada lampau negatif.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<奈良:なら:Nara> は <静か:しずか:tenang> でした",
+              "terjemahan": "Nara tenang."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<京都:きょうと:Kyoto> は <静か:しずか:tenang> じゃありませんでした",
+              "terjemahan": "Kyoto tidak tenang."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Perbandingan より",
+        "rumus": "[～:kata benda] + は + [～:kata benda] + より + [～:kata sifat] + です",
+        "deskripsi": "より menunjukkan pembanding: A lebih ... daripada B.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<東京:とうきょう:Tokyo> は <大阪:おおさか:Osaka> より <大きい:おおきい:besar> です",
+              "terjemahan": "Tokyo lebih besar daripada Osaka."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<新幹線:しんかんせん:Shinkansen> は <バス::bus> より <速い:はやい:cepat> です",
+              "terjemahan": "Shinkansen lebih cepat daripada bus."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "5",
+        "nama_pola": "Perbandingan どちら",
+        "rumus": "[～:kata benda] + と + [～:kata benda] + と どちらが + [～:kata sifat] + ですか",
+        "deskripsi": "どちらが digunakan untuk menanyakan mana yang lebih ... di antara dua pilihan.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "<日本:にほん:Jepang> と <中国:ちゅうごく:China> と どちらが <広い:ひろい:luas> ですか",
+              "terjemahan": "Mana yang lebih luas, Jepang atau China?"
+            },
+            "jawaban": {
+              "kalimat": "<中国:ちゅうごく:China> の ほうが <広い:ひろい:luas> です",
+              "terjemahan": "China lebih luas."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "6",
+        "nama_pola": "Paling 一番",
+        "rumus": "[～:kata benda] + の 中で 一番 + [～:kata sifat] + です",
+        "deskripsi": "一番 digunakan untuk menyatakan yang paling ... dalam suatu kelompok.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<日本:にほん:Jepang> の 中で <富士山:ふじさん:Gunung Fuji> が 一番 <高い:たかい:tinggi> です",
+              "terjemahan": "Di Jepang, Gunung Fuji yang paling tinggi."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<果物:くだもの:buah> の 中で <りんご::apel> が 一番 <好きです:すきです:suka>",
+              "terjemahan": "Di antara buah-buahan, saya paling suka apel."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "7",
+        "nama_pola": "Tidak sebanding ほど",
+        "rumus": "[～:kata benda] + は + [～:kata benda] + ほど + [～:kata sifat] + くないです",
+        "deskripsi": "ほど dengan bentuk negatif menyatakan 'tidak se...' dibandingkan sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<東京:とうきょう:Tokyo> は <大阪:おおさか:Osaka> ほど <暑くない:あつくない:tidak panas> です",
+              "terjemahan": "Tokyo tidak sepanas Osaka."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<今日:きょう:hari ini> は <昨日:きのう:kemarin> ほど <寒くない:さむくない:tidak dingin> です",
+              "terjemahan": "Hari ini tidak sedingin kemarin."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-cecd423155d3",
+    "lesson": "Lesson 13",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Ingin benda (ほしい)",
+        "rumus": "[～:orang] + は + [～:kata benda] + が + ほしいです",
+        "deskripsi": "ほしいです digunakan untuk menyatakan keinginan memiliki sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <新しい:あたらしい:baru> <車:くるま:mobil> が <ほしいです:ほしいです:ingin>",
+              "terjemahan": "Saya ingin mobil baru."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <時間:じかん:waktu> が <ほしいです:ほしいです:ingin>",
+              "terjemahan": "Saya ingin waktu."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Ingin melakukan (たい)",
+        "rumus": "[～:kata kerja] + たいです",
+        "deskripsi": "Bentuk ます tanpa ます ditambah たいです menyatakan keinginan melakukan sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<日本:にほん:Jepang> へ <行きたい:いきたい:ingin pergi> です",
+              "terjemahan": "Saya ingin pergi ke Jepang."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<寿司:すし:sushi> を <食べたい:たべたい:ingin makan> です",
+              "terjemahan": "Saya ingin makan sushi."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Pergi untuk melakukan sesuatu",
+        "rumus": "[～:tempat] + へ + [～:kata kerja] + に + 行きます",
+        "deskripsi": "Kata kerja bentuk ます tanpa ます + に menunjukkan tujuan pergi.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<京都:きょうと:Kyoto> へ <桜:さくら:sakura> を <見:み:melihat> に <行きます:いきます:pergi>",
+              "terjemahan": "Pergi ke Kyoto untuk melihat sakura."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<デパート::department store> へ <買い物:かいもの:belanja> に <行きます:いきます:pergi>",
+              "terjemahan": "Pergi ke department store untuk berbelanja."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Datang untuk melakukan sesuatu",
+        "rumus": "[～:tempat] + へ + [～:kata kerja] + に + 来ました",
+        "deskripsi": "Pola ini menjelaskan tujuan seseorang datang ke suatu tempat.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "<日本:にほん:Jepang> へ <何:なに:apa> を しに <来ました:きました:datang> か",
+              "terjemahan": "Datang ke Jepang untuk melakukan apa?"
+            },
+            "jawaban": {
+              "kalimat": "<日本語:にほんご:bahasa Jepang> を <勉強し:べんきょうし:belajar> に <来ました:きました:datang>",
+              "terjemahan": "Datang untuk belajar bahasa Jepang."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-0cf1f26bf277",
+    "lesson": "Lesson 14",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Permintaan てください",
+        "rumus": "[～:kata kerja] + て + ください",
+        "deskripsi": "Pola ini digunakan untuk meminta lawan bicara melakukan sesuatu dengan sopan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "ちょっと <待って:まって:menunggu> ください",
+              "terjemahan": "Tolong tunggu sebentar."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "ここ に <名前:なまえ:nama> を <書いて:かいて:menulis> ください",
+              "terjemahan": "Tolong tulis nama di sini."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Sedang melakukan ています",
+        "rumus": "[～:kata kerja] + て + います",
+        "deskripsi": "Pola ini menyatakan kegiatan yang sedang berlangsung.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<今:いま:sekarang> <ご飯:ごはん:nasi> を <食べています:たべています:sedang makan>",
+              "terjemahan": "Sekarang sedang makan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<ミラー::Miller> さん は <電話:でんわ:telepon> を かけています",
+              "terjemahan": "Sdr. Miller sedang menelepon."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Tawaran ましょうか",
+        "rumus": "[～:kata kerja] + ましょう + か",
+        "deskripsi": "Pola ini digunakan untuk menawarkan bantuan atau mengajukan diri melakukan sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<荷物:にもつ:barang> を <持ちましょうか:もちましょうか:mau membawa?>",
+              "terjemahan": "Mau saya bantu membawa barang?"
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<タクシー::taksi> を <呼びましょうか:よびましょうか:mau memanggilkan?>",
+              "terjemahan": "Mau saya panggilkan taksi?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-13796fb7137c",
+    "lesson": "Lesson 15",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Izin てもいいです",
+        "rumus": "[～:kata kerja] + ても + いいです",
+        "deskripsi": "Pola ini digunakan untuk meminta atau memberi izin.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "ここ に <座って:すわって:duduk> も いいですか",
+              "terjemahan": "Boleh saya duduk di sini?"
+            },
+            "jawaban": {
+              "kalimat": "はい、いいです",
+              "terjemahan": "Ya, boleh."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "<写真:しゃしん:foto> を <撮って:とって:mengambil> も いいですか",
+              "terjemahan": "Boleh saya mengambil foto?"
+            },
+            "jawaban": {
+              "kalimat": "ええ、いいですよ",
+              "terjemahan": "Ya, boleh."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Larangan てはいけません",
+        "rumus": "[～:kata kerja] + ては + いけません",
+        "deskripsi": "Pola ini digunakan untuk menyatakan larangan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "ここ で <タバコ::rokok> を <吸って:すって:menghisap> は いけません",
+              "terjemahan": "Dilarang merokok di sini."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<授業中:じゅぎょうちゅう:saat pelajaran> に <話して:はなして:berbicara> は いけません",
+              "terjemahan": "Dilarang berbicara saat pelajaran."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Keadaan ています",
+        "rumus": "[～:kata kerja] + て + います",
+        "deskripsi": "Bentuk ています juga dapat menyatakan keadaan atau kondisi yang berlangsung.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <東京:とうきょう:Tokyo> に <住んでいます:すんでいます:tinggal>",
+              "terjemahan": "Saya tinggal di Tokyo."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "<田中:たなか:Tanaka> さん を <知って:しって:mengenal> います か",
+              "terjemahan": "Apakah Anda mengenal Sdr. Tanaka?"
+            },
+            "jawaban": {
+              "kalimat": "はい、<知って:しって:mengenal> います",
+              "terjemahan": "Ya, saya mengenalnya."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Kata sifat bentuk て",
+        "rumus": "[～:kata sifat い] + くて／[～:kata sifat な] + で",
+        "deskripsi": "Bentuk て kata sifat digunakan untuk menggabungkan dua sifat.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <部屋:へや:kamar> は <広くて:ひろくて:luas> <明るい:あかるい:terang> です",
+              "terjemahan": "Kamar ini luas dan terang."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<京都:きょうと:Kyoto> は <静か:しずか:tenang> で <きれい:きれい:indah> です",
+              "terjemahan": "Kyoto tenang dan indah."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-9c3061d02ce3",
+    "lesson": "Lesson 16",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Urutan kegiatan て",
+        "rumus": "[～:kata kerja] + て、[～:kata kerja] + ます",
+        "deskripsi": "Bentuk て dapat menghubungkan beberapa kegiatan yang dilakukan berurutan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<朝:あさ:pagi> <起きて:おきて:bangun>、<シャワー::shower> を <浴びて:あびて:mandi>、<会社:かいしゃ:kantor> へ <行きます:いきます:pergi>",
+              "terjemahan": "Bangun, mandi, lalu pergi ke kantor."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<家:いえ:rumah> へ <帰って:かえって:pulang>、<ご飯:ごはん:nasi> を <食べます:たべます:makan>",
+              "terjemahan": "Pulang ke rumah lalu makan."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Setelah てから",
+        "rumus": "[～:kata kerja] + てから、[～:kalimat]",
+        "deskripsi": "てから menunjukkan bahwa kegiatan kedua dilakukan setelah kegiatan pertama selesai.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<仕事:しごと:pekerjaan> が <終わってから:おわってから:setelah selesai>、<映画:えいが:film> を <見ます:みます:menonton>",
+              "terjemahan": "Setelah pekerjaan selesai, menonton film."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<薬:くすり:obat> を <飲んでから:のんでから:setelah minum>、<寝ます:ねます:tidur>",
+              "terjemahan": "Setelah minum obat, tidur."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Alasan て／で",
+        "rumus": "[～:kalimat] + て／で、[～:kalimat]",
+        "deskripsi": "Bentuk て dapat menyatakan sebab, alasan, atau kondisi yang menyebabkan sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<風邪:かぜ:masuk angin> を <ひいて:ひいて:terkena>、<学校:がっこう:sekolah> を <休みました:やすみました:libur>",
+              "terjemahan": "Karena masuk angin, tidak masuk sekolah."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<用事:ようじ:urusan> が あって、<行きませんでした:いきませんでした:tidak pergi>",
+              "terjemahan": "Karena ada urusan, tidak pergi."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-c2bb64211536",
+    "lesson": "Lesson 17",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Larangan ないでください",
+        "rumus": "[～:kata kerja] + ないで + ください",
+        "deskripsi": "Pola ini digunakan untuk meminta seseorang jangan melakukan sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "ここ で <写真:しゃしん:foto> を <撮らないで:とらないで:jangan mengambil> ください",
+              "terjemahan": "Tolong jangan mengambil foto di sini."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<心配:しんぱい:khawatir> しないで ください",
+              "terjemahan": "Tolong jangan khawatir."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Keharusan なければなりません",
+        "rumus": "[～:kata kerja] + なければ + なりません",
+        "deskripsi": "Pola ini menyatakan bahwa sesuatu harus dilakukan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<毎日:まいにち:setiap hari> <薬:くすり:obat> を <飲まなければ:のまなければ:harus minum> なりません",
+              "terjemahan": "Setiap hari harus minum obat."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<明日:あした:besok> <早く:はやく:cepat> <起きなければ:おきなければ:harus bangun> なりません",
+              "terjemahan": "Besok harus bangun pagi."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Tidak harus なくてもいいです",
+        "rumus": "[～:kata kerja] + なくても + いいです",
+        "deskripsi": "Pola ini menyatakan bahwa sesuatu tidak perlu dilakukan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<明日:あした:besok> は <来なくても:こなくても:tidak perlu datang> いいです",
+              "terjemahan": "Besok tidak perlu datang."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<全部:ぜんぶ:semua> <食べなくても:たべなくても:tidak perlu makan> いいです",
+              "terjemahan": "Tidak perlu makan semuanya."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Tanpa melakukan ないで",
+        "rumus": "[～:kata kerja] + ないで、[～:kalimat]",
+        "deskripsi": "Bentuk ないで menyatakan melakukan sesuatu tanpa melakukan kegiatan lain.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<朝ご飯:あさごはん:sarapan> を <食べないで:たべないで:tanpa makan>、<学校:がっこう:sekolah> へ <行きました:いきました:pergi>",
+              "terjemahan": "Pergi ke sekolah tanpa makan sarapan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<傘:かさ:payung> を <持たないで:もたないで:tanpa membawa>、<出かけました:でかけました:pergi keluar>",
+              "terjemahan": "Pergi keluar tanpa membawa payung."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-2a0d9a96fed4",
+    "lesson": "Lesson 18",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Bisa ことができます",
+        "rumus": "[～:kata kerja] + こと + が + できます",
+        "deskripsi": "Pola ini menyatakan kemampuan melakukan sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <日本語:にほんご:bahasa Jepang> を <話す:はなす:berbicara> こと が できます",
+              "terjemahan": "Saya bisa berbicara bahasa Jepang."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "ここ で <写真:しゃしん:foto> を <撮る:とる:mengambil> こと が できます",
+              "terjemahan": "Di sini bisa mengambil foto."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Sebelum 前に",
+        "rumus": "[～:kata kerja] + 前に、[～:kalimat]",
+        "deskripsi": "前に menunjukkan bahwa kegiatan kedua dilakukan sebelum kegiatan pertama.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<寝る:ねる:tidur> 前に、<歯:は:gigi> を <磨きます:みがきます:menyikat>",
+              "terjemahan": "Sebelum tidur, menyikat gigi."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<食事:しょくじ:makan> の 前に、<手:て:tangan> を <洗います:あらいます:mencuci>",
+              "terjemahan": "Sebelum makan, mencuci tangan."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Hobi 趣味は～ことです",
+        "rumus": "[～:orang] + の <趣味:しゅみ:hobi> は + [～:kata kerja] + こと + です",
+        "deskripsi": "Pola ini digunakan untuk menjelaskan hobi dengan kata kerja bentuk kamus + こと.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> の <趣味:しゅみ:hobi> は <映画:えいが:film> を <見る:みる:menonton> こと です",
+              "terjemahan": "Hobi saya menonton film."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> の <趣味:しゅみ:hobi> は <写真:しゃしん:foto> を <撮る:とる:memotret> こと です",
+              "terjemahan": "Hobi saya memotret."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-54b8d2a214e8",
+    "lesson": "Lesson 19",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Pengalaman たことがあります",
+        "rumus": "[～:kata kerja] + た + こと + が + あります",
+        "deskripsi": "Pola ini menyatakan pernah melakukan sesuatu di masa lalu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <富士山:ふじさん:Gunung Fuji> に <登った:のぼった:mendaki> こと が あります",
+              "terjemahan": "Saya pernah mendaki Gunung Fuji."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<日本:にほん:Jepang> で <温泉:おんせん:onsen> に <入った:はいった:masuk> こと が あります",
+              "terjemahan": "Saya pernah masuk onsen di Jepang."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Belum pernah たことがありません",
+        "rumus": "[～:kata kerja] + た + こと + が + ありません",
+        "deskripsi": "Pola ini menyatakan belum pernah melakukan sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <一度も:いちども:sekali pun> <海外:かいがい:luar negeri> へ <行った:いった:pergi> こと が ありません",
+              "terjemahan": "Saya belum pernah pergi ke luar negeri sekali pun."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<納豆:なっとう:natto> を <食べた:たべた:makan> こと が ありません",
+              "terjemahan": "Saya belum pernah makan natto."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Melakukan hal-hal たり～たり",
+        "rumus": "[～:kata kerja] + たり、[～:kata kerja] + たり + します",
+        "deskripsi": "Pola ini menyebutkan beberapa kegiatan sebagai contoh, tidak harus berurutan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<日曜日:にちようび:Minggu> は <本:ほん:buku> を <読んだり:よんだり:membaca>、<音楽:おんがく:musik> を <聞いたり:きいたり:mendengarkan> します",
+              "terjemahan": "Pada hari Minggu saya membaca buku, mendengarkan musik, dan sebagainya."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<週末:しゅうまつ:akhir pekan> は <掃除:そうじ:membersihkan> したり、<洗濯:せんたく:mencuci> したり します",
+              "terjemahan": "Akhir pekan saya membersihkan, mencuci, dan sebagainya."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Menjadi く／に なります",
+        "rumus": "[～:kata sifat い] + く + なります／[～:kata sifat な] + に + なります",
+        "deskripsi": "Pola ini menyatakan perubahan keadaan atau sifat.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<日本語:にほんご:bahasa Jepang> が <上手く:うまく:pandai> なりました",
+              "terjemahan": "Bahasa Jepang saya menjadi lebih pandai."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<部屋:へや:kamar> が <きれい:きれい:bersih> に なりました",
+              "terjemahan": "Kamar menjadi bersih."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-94ca7cbab29f",
+    "lesson": "Lesson 20",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Bentuk biasa kata kerja",
+        "rumus": "[～:kata kerja] + 辞書形／ない形／た形／なかった形",
+        "deskripsi": "Bentuk biasa digunakan dalam percakapan santai dengan orang yang akrab.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<明日:あした:besok> <学校:がっこう:sekolah> へ <行く:いく:pergi>",
+              "terjemahan": "Besok pergi ke sekolah."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<今日:きょう:hari ini> は <行かない:いかない:tidak pergi>",
+              "terjemahan": "Hari ini tidak pergi."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Bentuk biasa kata sifat dan kata benda",
+        "rumus": "[～:kata sifat|kata benda] + だ／じゃない／だった／じゃなかった",
+        "deskripsi": "Kata sifat dan kata benda juga memiliki bentuk biasa untuk percakapan santai.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <本:ほん:buku> は <面白い:おもしろい:menarik>",
+              "terjemahan": "Buku ini menarik."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "それ は <私:わたし:saya> の じゃない",
+              "terjemahan": "Itu bukan milik saya."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Ajakan kasual ない？",
+        "rumus": "[～:kata kerja] + ない + ？",
+        "deskripsi": "Bentuk ない dengan intonasi tanya digunakan untuk mengajak secara santai.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "<一緒:いっしょ:bersama> に <行かない:いかない:tidak pergi?>",
+              "terjemahan": "Mau pergi bersama?"
+            },
+            "jawaban": {
+              "kalimat": "うん、<行こう:いこう:ayo pergi>",
+              "terjemahan": "Ya, ayo pergi."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "<一緒:いっしょ:bersama> に <昼ご飯:ひるごはん:makan siang> を <食べない:たべない:tidak makan?>",
+              "terjemahan": "Mau makan siang bersama?"
+            },
+            "jawaban": {
+              "kalimat": "いいね、<食べよう:たべよう:ayo makan>",
+              "terjemahan": "Bagus, ayo makan."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-30118aafd3d9",
+    "lesson": "Lesson 21",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Pendapat と思います",
+        "rumus": "[～:kalimat biasa] + と + 思います",
+        "deskripsi": "Pola ini digunakan untuk menyampaikan pendapat atau dugaan sendiri.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<明日:あした:besok> は <雨:あめ:hujan> が <降る:ふる:turun> と <思います:おもいます:berpikir>",
+              "terjemahan": "Saya pikir besok akan hujan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <映画:えいが:film> は <面白い:おもしろい:menarik> と <思います:おもいます:berpikir>",
+              "terjemahan": "Saya pikir film ini menarik."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Kutipan と言います",
+        "rumus": "[～:kalimat biasa] + と + 言います",
+        "deskripsi": "Pola ini digunakan untuk mengutip perkataan seseorang.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<ミラー::Miller> さん は <明日:あした:besok> <来る:くる:datang> と <言いました:いいました:berkata>",
+              "terjemahan": "Sdr. Miller berkata akan datang besok."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<先生:せんせい:guru> は <宿題:しゅくだい:PR> を <出す:だす:memberi> と <言いました:いいました:berkata>",
+              "terjemahan": "Guru berkata akan memberi PR."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Kemungkinan でしょう",
+        "rumus": "[～:kalimat biasa] + でしょう",
+        "deskripsi": "でしょう digunakan untuk menyatakan dugaan atau kemungkinan yang cukup kuat.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<明日:あした:besok> は <晴れる:はれる:cerah> でしょう",
+              "terjemahan": "Besok mungkin cerah."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<ミラー::Miller> さん は もう <帰った:かえった:pulang> でしょう",
+              "terjemahan": "Sdr. Miller mungkin sudah pulang."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Mungkin かもしれません",
+        "rumus": "[～:kalimat biasa] + かもしれません",
+        "deskripsi": "かもしれません menyatakan kemungkinan yang lebih lemah daripada でしょう.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<明日:あした:besok> は <雨:あめ:hujan> が <降る:ふる:turun> かもしれません",
+              "terjemahan": "Besok mungkin hujan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<彼:かれ:dia> は <来ない:こない:tidak datang> かもしれません",
+              "terjemahan": "Dia mungkin tidak datang."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-2b93193d53f1",
+    "lesson": "Lesson 22",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Preferensi がいいです",
+        "rumus": "[～:kata benda] + が + いいです",
+        "deskripsi": "Pola ini digunakan untuk menyatakan pilihan atau preferensi.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "どんな <部屋:へや:kamar> が いいですか",
+              "terjemahan": "Kamar seperti apa yang Anda inginkan?"
+            },
+            "jawaban": {
+              "kalimat": "<明るい:あかるい:terang> <部屋:へや:kamar> が いいです",
+              "terjemahan": "Kamar yang terang."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Memilih にします",
+        "rumus": "[～:kata benda] + に + します",
+        "deskripsi": "Pola ini digunakan untuk menyatakan pilihan yang diambil.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は これ に します",
+              "terjemahan": "Saya pilih yang ini."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<コーヒー::kopi> に します",
+              "terjemahan": "Saya pilih kopi."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Menawarkan はどうですか",
+        "rumus": "[～:kata benda] + は + どうですか",
+        "deskripsi": "Pola ini digunakan untuk menawarkan atau meminta pendapat tentang sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "この <部屋:へや:kamar> は どうですか",
+              "terjemahan": "Bagaimana dengan kamar ini?"
+            },
+            "jawaban": {
+              "kalimat": "いいですね",
+              "terjemahan": "Bagus ya."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-091940425c58",
+    "lesson": "Lesson 23",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Ketika (kata benda) のとき",
+        "rumus": "[～:kata benda] + の とき、[～:kalimat]",
+        "deskripsi": "Pola ini menyatakan waktu atau keadaan ketika masih menjadi sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<子供:こども:anak> の とき、<東京:とうきょう:Tokyo> に <住んでいました:すんでいました:tinggal>",
+              "terjemahan": "Waktu kecil, saya tinggal di Tokyo."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<学生:がくせい:mahasiswa> の とき、よく <旅行:りょこう:perjalanan> を しました",
+              "terjemahan": "Waktu menjadi mahasiswa, sering melakukan perjalanan."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Ketika (kata kerja) とき",
+        "rumus": "[～:kata kerja] + とき、[～:kalimat]",
+        "deskripsi": "Pola ini menyatakan waktu ketika suatu kegiatan dilakukan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<日本:にほん:Jepang> へ <行く:いく:pergi> とき、<お土産:おみやげ:oleh-oleh> を <買います:かいます:membeli>",
+              "terjemahan": "Ketika pergi ke Jepang, membeli oleh-oleh."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<家:いえ:rumah> を <出る:でる:keluar> とき、<電気:でんき:lampu> を <消します:けします:mematikan>",
+              "terjemahan": "Ketika keluar rumah, mematikan lampu."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Jika/ketika と",
+        "rumus": "[～:kata kerja] + と、[～:kalimat]",
+        "deskripsi": "Pola ini menyatakan hasil atau kejadian yang otomatis terjadi setelah suatu tindakan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <ボタン::tombol> を <押す:おす:menekan> と、<お釣り:おつり:kembalian> が <出ます:でます:keluar>",
+              "terjemahan": "Jika menekan tombol ini, kembalian akan keluar."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<春:はる:musim semi> に なる と、<桜:さくら:sakura> が <咲きます:さきます:mekar>",
+              "terjemahan": "Ketika musim semi tiba, sakura mekar."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-b190683e088d",
+    "lesson": "Lesson 24",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Melakukan untuk orang てあげます",
+        "rumus": "[～:orang] + に + [～:kata kerja] + て + あげます",
+        "deskripsi": "Pola ini menyatakan melakukan sesuatu untuk orang lain.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <田中:たなか:Tanaka> さん に <本:ほん:buku> を <貸して:かして:meminjamkan> あげました",
+              "terjemahan": "Saya meminjamkan buku kepada Sdr. Tanaka."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <友達:ともだち:teman> に <日本語:にほんご:bahasa Jepang> を <教えて:おしえて:mengajari> あげました",
+              "terjemahan": "Saya mengajari teman bahasa Jepang."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Menerima bantuan てもらいます",
+        "rumus": "[～:orang] + に + [～:kata kerja] + て + もらいます",
+        "deskripsi": "Pola ini menyatakan menerima bantuan atau jasa dari orang lain.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <田中:たなか:Tanaka> さん に <写真:しゃしん:foto> を <撮って:とって:memotret> もらいました",
+              "terjemahan": "Saya minta Sdr. Tanaka memotretkan saya."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <先生:せんせい:guru> に <日本語:にほんご:bahasa Jepang> を <教えて:おしえて:mengajari> もらいました",
+              "terjemahan": "Saya diajari bahasa Jepang oleh guru."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Orang melakukan untuk saya てくれます",
+        "rumus": "[～:orang] + は + [～:kata kerja] + て + くれます",
+        "deskripsi": "Pola ini menyatakan orang lain melakukan sesuatu untuk saya.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<田中:たなか:Tanaka> さん は <私:わたし:saya> に <本:ほん:buku> を <貸して:かして:meminjamkan> くれました",
+              "terjemahan": "Sdr. Tanaka meminjamkan buku kepada saya."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<友達:ともだち:teman> は <私:わたし:saya> を <助けて:たすけて:menolong> くれました",
+              "terjemahan": "Teman menolong saya."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Permintaan sopan ていただけませんか",
+        "rumus": "[～:kata kerja] + て + いただけません + か",
+        "deskripsi": "Pola ini digunakan untuk meminta bantuan dengan sangat sopan.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "すみませんが、<写真:しゃしん:foto> を <撮って:とって:memotret> いただけません か",
+              "terjemahan": "Maaf, bisakah Anda memotretkan saya?"
+            },
+            "jawaban": {
+              "kalimat": "ええ、いいですよ",
+              "terjemahan": "Ya, boleh."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "この <書類:しょるい:dokumen> を <見て:みて:melihat> いただけません か",
+              "terjemahan": "Bisakah Anda melihat dokumen ini?"
+            },
+            "jawaban": {
+              "kalimat": "はい、いいですよ",
+              "terjemahan": "Ya, boleh."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bp-f45c3ca84f5d",
+    "lesson": "Lesson 25",
+    "buku": "Minna no Nihongo 1",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Jika/setelah たら",
+        "rumus": "[～:kalimat biasa] + ら、[～:kalimat]",
+        "deskripsi": "たら digunakan untuk menyatakan syarat, 'jika' atau 'setelah' sesuatu terjadi.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<時間:じかん:waktu> が あったら、<映画:えいが:film> を <見ましょう:みましょう:mari menonton>",
+              "terjemahan": "Kalau ada waktu, ayo menonton film."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<雨:あめ:hujan> が <降ったら:ふったら:jika turun>、<行きません:いきません:tidak pergi>",
+              "terjemahan": "Kalau hujan, tidak pergi."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Meskipun ても",
+        "rumus": "[～:kata kerja] + ても、[～:kalimat]",
+        "deskripsi": "ても digunakan untuk menyatakan 'meskipun' atau 'walaupun'.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<雨:あめ:hujan> が <降っても:ふっても:meskipun turun>、<行きます:いきます:pergi>",
+              "terjemahan": "Meskipun hujan, saya pergi."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<高くても:たかくても:meskipun mahal>、<買います:かいます:membeli>",
+              "terjemahan": "Meskipun mahal, saya beli."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Walaupun のに",
+        "rumus": "[～:kalimat biasa] + のに、[～:kalimat]",
+        "deskripsi": "のに menyatakan pertentangan atau kekecewaan: 'walaupun seharusnya...'.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<一生懸命:いっしょうけんめい:bersungguh-sungguh> <勉強した:べんきょうした:belajar> のに、<試験:しけん:ujian> に <落ちました:おちました:gagal>",
+              "terjemahan": "Walaupun sudah belajar bersungguh-sungguh, gagal ujian."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<薬:くすり:obat> を <飲んだ:のんだ:minum> のに、まだ <痛い:いたい:sakit> です",
+              "terjemahan": "Walaupun sudah minum obat, masih sakit."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 26",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Penjelasan んです",
+        "rumus": "[～:kalimat biasa] + んです",
+        "deskripsi": "んです digunakan untuk menjelaskan alasan, keadaan, atau latar belakang suatu hal.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "どうして <遅れました:おくれました:terlambat> か",
+              "terjemahan": "Mengapa terlambat?"
+            },
+            "jawaban": {
+              "kalimat": "<バス::bus> が <来なかった:こなかった:tidak datang> んです",
+              "terjemahan": "Karena bus tidak datang."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "どうして <休みました:やすみました:libur> か",
+              "terjemahan": "Mengapa libur?"
+            },
+            "jawaban": {
+              "kalimat": "<病気:びょうき:sakit> なんです",
+              "terjemahan": "Karena sakit."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Menanyakan penjelasan んですか",
+        "rumus": "[～:kalimat biasa] + んですか",
+        "deskripsi": "んですか digunakan untuk meminta penjelasan atau informasi lebih lanjut.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "<毎日:まいにち:setiap hari> <何:なに:apa> を <食べて:たべて:makan> いる んですか",
+              "terjemahan": "Setiap hari makan apa?"
+            },
+            "jawaban": {
+              "kalimat": "<野菜:やさい:sayur> を <食べて:たべて:makan> います",
+              "terjemahan": "Makan sayur."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "<どこ:どこ:di mana> に <住んで:すんで:tinggal> いる んですか",
+              "terjemahan": "Tinggal di mana?"
+            },
+            "jawaban": {
+              "kalimat": "<東京:とうきょう:Tokyo> に <住んで:すんで:tinggal> います",
+              "terjemahan": "Tinggal di Tokyo."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Mengawali permintaan んですが",
+        "rumus": "[～:kalimat biasa] + んですが、...",
+        "deskripsi": "んですが digunakan untuk membuka pembicaraan sebelum meminta bantuan atau informasi.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "すみません、<駅:えき:stasiun> へ <行きたい:いきたい:ingin pergi> んですが、<道:みち:jalan> を <教えて:おしえて:menunjukkan> ください",
+              "terjemahan": "Maaf, saya ingin pergi ke stasiun, tolong tunjukkan jalannya."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<日本語:にほんご:bahasa Jepang> を <勉強して:べんきょうして:belajar> いる んですが、いい <本:ほん:buku> を <教えて:おしえて:memberitahu> ください",
+              "terjemahan": "Saya sedang belajar bahasa Jepang, tolong rekomendasikan buku yang bagus."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Saran たらいいですか",
+        "rumus": "[～:kata kerja] + たら + いいですか",
+        "deskripsi": "たらいいですか digunakan untuk meminta saran tentang apa yang sebaiknya dilakukan.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "<ごみ:ごみ:sampah> は どこ に <出したら:だしたら:jika mengeluarkan> いいですか",
+              "terjemahan": "Sampah sebaiknya dibuang di mana?"
+            },
+            "jawaban": {
+              "kalimat": "あの <箱:はこ:kotak> に <出して:だして:mengeluarkan> ください",
+              "terjemahan": "Tolong buang ke kotak itu."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "<日本語:にほんご:bahasa Jepang> を <勉強したい:べんきょうしたい:ingin belajar> んですが、どこ で <習ったら:ならったら:jika belajar> いいですか",
+              "terjemahan": "Saya ingin belajar bahasa Jepang, sebaiknya belajar di mana?"
+            },
+            "jawaban": {
+              "kalimat": "<大学:だいがく:universitas> で <習ったら:ならったら:jika belajar> いいですよ",
+              "terjemahan": "Sebaiknya belajar di universitas."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "5",
+        "nama_pola": "Permintaan sopan ていただけませんか",
+        "rumus": "[～:kata kerja] + て + いただけません + か",
+        "deskripsi": "Pola ini digunakan untuk meminta bantuan dengan sangat sopan.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "すみません、<写真:しゃしん:foto> を <撮って:とって:memotret> いただけません か",
+              "terjemahan": "Maaf, bisakah Anda memotretkan saya?"
+            },
+            "jawaban": {
+              "kalimat": "ええ、いいですよ",
+              "terjemahan": "Ya, boleh."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 27",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Bentuk potensial",
+        "rumus": "[～:kata kerja] + 可能形",
+        "deskripsi": "Bentuk potensial menyatakan kemampuan melakukan sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <日本語:にほんご:bahasa Jepang> が <話せます:はなせます:bisa berbicara>",
+              "terjemahan": "Saya bisa berbicara bahasa Jepang."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<ミラー::Miller> さん は <何:なん:apa> でも <作れます:つくれます:bisa membuat>",
+              "terjemahan": "Sdr. Miller bisa membuat apa saja."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Hanya しか～ません",
+        "rumus": "[～:kata benda] + しか + [～:kata kerja] + ません",
+        "deskripsi": "しか bersama bentuk negatif berarti 'hanya'.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<冷蔵庫:れいぞうこ:kulkas> に <卵:たまご:telur> しか ありません",
+              "terjemahan": "Di kulkas hanya ada telur."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<日本語:にほんご:bahasa Jepang> しか <話せません:はなせません:tidak bisa berbicara>",
+              "terjemahan": "Saya hanya bisa berbicara bahasa Jepang."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Terlihat/terdengar",
+        "rumus": "[～:tempat] + から + [～:kata benda] + が + 見えます／聞こえます",
+        "deskripsi": "見えます dan 聞こえます menyatakan sesuatu terlihat atau terdengar secara alami.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "ここ から <富士山:ふじさん:Gunung Fuji> が <見えます:みえます:terlihat>",
+              "terjemahan": "Dari sini Gunung Fuji terlihat."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<隣:となり:sebelah> の <部屋:へや:kamar> から <音楽:おんがく:musik> が <聞こえます:きこえます:terdengar>",
+              "terjemahan": "Dari kamar sebelah terdengar musik."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Bisa (kata benda) ができます",
+        "rumus": "[～:orang] + は + [～:kata benda] + が + できます",
+        "deskripsi": "できます dapat digunakan untuk menyatakan kemampuan dalam bidang atau keterampilan tertentu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <料理:りょうり:masakan> が <できます:できます:bisa>",
+              "terjemahan": "Saya bisa memasak."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<田中:たなか:Tanaka> さん は <英語:えいご:bahasa Inggris> が できます",
+              "terjemahan": "Sdr. Tanaka bisa bahasa Inggris."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 28",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Sambil ながら",
+        "rumus": "[～:kata kerja] + ながら、[～:kalimat]",
+        "deskripsi": "ながら menunjukkan dua kegiatan yang dilakukan bersamaan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<音楽:おんがく:musik> を <聞きながら:ききながら:sambil mendengarkan>、<勉強します:べんきょうします:belajar>",
+              "terjemahan": "Belajar sambil mendengarkan musik."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<コーヒー::kopi> を <飲みながら:のみながら:sambil minum>、<話します:はなします:berbicara>",
+              "terjemahan": "Berbicara sambil minum kopi."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Kebiasaan ています",
+        "rumus": "[～:kata kerja] + て + います",
+        "deskripsi": "ています dapat menyatakan kebiasaan atau kegiatan yang dilakukan berulang.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<毎朝:まいあさ:setiap pagi> <ジョギング::jogging> を して います",
+              "terjemahan": "Setiap pagi saya jogging."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<週:しゅう:minggu> に <２回:にかい:dua kali> <映画:えいが:film> を <見て:みて:menonton> います",
+              "terjemahan": "Dalam seminggu dua kali menonton film."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Alasan berlapis し、し",
+        "rumus": "[～:kalimat biasa] + し、[～:kalimat biasa] + し",
+        "deskripsi": "し digunakan untuk menyebutkan beberapa alasan atau sifat secara berdampingan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<出張:しゅっちょう:perjalanan bisnis> も <多い:おおい:banyak> し、<試験:しけん:ujian> も あります し、<忙しい:いそがしい:sibuk> です",
+              "terjemahan": "Perjalanan bisnis banyak, ujian juga ada, jadi sibuk."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <店:みせ:toko> は <安い:やすい:murah> し、<おいしい:おいしい:enak> し、<人気:にんき:populer> です",
+              "terjemahan": "Toko ini murah, enak, dan populer."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Selain itu それに",
+        "rumus": "[～:kalimat] + それに + [～:kalimat]",
+        "deskripsi": "それに digunakan untuk menambahkan informasi lain.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<部屋:へや:kamar> は <広い:ひろい:luas> です。それに、<明るい:あかるい:terang> です",
+              "terjemahan": "Kamarnya luas. Selain itu, terang."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "5",
+        "nama_pola": "Oleh karena itu それで",
+        "rumus": "[～:kalimat] + それで + [～:kalimat]",
+        "deskripsi": "それで digunakan untuk menyatakan akibat atau kesimpulan dari kalimat sebelumnya.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<昨日:きのう:kemarin> は <忙しかった:いそがしかった:sibuk> です。それで、<行きませんでした:いきませんでした:tidak pergi>",
+              "terjemahan": "Kemarin sibuk. Oleh karena itu, tidak pergi."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 29",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Terlanjur/penyesalan てしまいました",
+        "rumus": "[～:kata kerja] + て + しまいました",
+        "deskripsi": "てしまいました menyatakan sesuatu sudah terjadi, sering dengan nuansa penyesalan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<財布:さいふ:dompet> を <忘れて:わすれて:lupa> しまいました",
+              "terjemahan": "Saya lupa dompet."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<電車:でんしゃ:kereta> に <乗って:のって:naik> しまいました",
+              "terjemahan": "Saya terlanjur naik kereta."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Akan selesai てしまいます",
+        "rumus": "[～:kata kerja] + て + しまいます",
+        "deskripsi": "てしまいます menyatakan kegiatan yang akan selesai atau berakibat tuntas.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <ケーキ::kue> は 一人 で <食べて:たべて:makan> しまいます",
+              "terjemahan": "Kue ini akan saya habiskan sendirian."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<明日:あした:besok> まで に <宿題:しゅくだい:PR> を して しまいます",
+              "terjemahan": "Saya akan menyelesaikan PR sebelum besok."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 30",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Persiapan ておきます",
+        "rumus": "[～:kata kerja] + て + おきます",
+        "deskripsi": "ておきます menyatakan melakukan sesuatu sebagai persiapan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<会議:かいぎ:rapat> の 前に、<資料:しりょう:materi> を <準備して:じゅんびして:menyiapkan> おきます",
+              "terjemahan": "Sebelum rapat, menyiapkan materi."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<明日:あした:besok> の <朝:あさ:pagi>、<パン::roti> を <買って:かって:membeli> おきます",
+              "terjemahan": "Besok pagi, membeli roti untuk persiapan."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Keharusan ておかないと",
+        "rumus": "[～:kata kerja] + て + おかないと",
+        "deskripsi": "ておかないと menyatakan bahwa sesuatu harus disiapkan atau dilakukan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<非常袋:ひじょうぶくろ:tas darurat> を <準備して:じゅんびして:menyiapkan> おかないと",
+              "terjemahan": "Saya harus menyiapkan tas darurat."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<明日:あした:besok> の <資料:しりょう:materi> を <作って:つくって:membuat> おかないと",
+              "terjemahan": "Saya harus membuat materi untuk besok."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Keadaan てあります",
+        "rumus": "[～:kata benda] + が + [～:kata kerja] + て + あります",
+        "deskripsi": "てあります menyatakan keadaan yang dihasilkan dari tindakan yang disengaja.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<壁:かべ:dinding> に <地図:ちず:peta> が <貼って:はって:menempel> あります",
+              "terjemahan": "Di dinding terpasang peta."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<机:つくえ:meja> の 上に <資料:しりょう:materi> が <置いて:おいて:diletakkan> あります",
+              "terjemahan": "Di atas meja ada materi yang diletakkan."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 31",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Niat ～（よ）うと思います",
+        "rumus": "[～:kata kerja] + （よ）う + と + 思います",
+        "deskripsi": "Bentuk volitional + と思います menyatakan niat atau rencana pembicara.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <料理:りょうり:masakan> を <習おう:ならおう:akan belajar> と <思って:おもって:berpikir> います",
+              "terjemahan": "Saya berpikir akan belajar memasak."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<夏休み:なつやすみ:libur musim panas> に <日本:にほん:Jepang> へ <行こう:いこう:akan pergi> と <思います:おもいます:berpikir>",
+              "terjemahan": "Saya berpikir akan pergi ke Jepang saat libur musim panas."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Rencana つもりです",
+        "rumus": "[～:kata kerja] + つもりです",
+        "deskripsi": "つもりです menyatakan rencana atau niat yang sudah dipikirkan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<来年:らいねん:tahun depan> <日本:にほん:Jepang> へ <行く:いく:pergi> つもりです",
+              "terjemahan": "Tahun depan saya berencana pergi ke Jepang."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<今日:きょう:hari ini> は <家:いえ:rumah> で <勉強する:べんきょうする:belajar> つもりです",
+              "terjemahan": "Hari ini saya berencana belajar di rumah."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Jadwal 予定です",
+        "rumus": "[～:kata kerja] + 予定です",
+        "deskripsi": "予定です menyatakan jadwal atau rencana yang sudah ditentukan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<来月:らいげつ:bulan depan> <大阪:おおさか:Osaka> へ <出張:しゅっちょう:perjalanan bisnis> する 予定です",
+              "terjemahan": "Bulan depan saya dijadwalkan perjalanan bisnis ke Osaka."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<会議:かいぎ:rapat> は <３時:さんじ:jam tiga> から の 予定です",
+              "terjemahan": "Rapat dijadwalkan mulai jam tiga."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 32",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Saran たほうがいいです",
+        "rumus": "[～:kata kerja] + た + ほうが + いいです",
+        "deskripsi": "Pola ini digunakan untuk menyarankan agar melakukan sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<早く:はやく:cepat> <寝た:ねた:tidur> ほうが いいですよ",
+              "terjemahan": "Sebaiknya tidur cepat."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<病院:びょういん:rumah sakit> へ <行った:いった:pergi> ほうが いいです",
+              "terjemahan": "Sebaiknya pergi ke rumah sakit."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Saran negatif ないほうがいいです",
+        "rumus": "[～:kata kerja] + ない + ほうが + いいです",
+        "deskripsi": "Pola ini digunakan untuk menyarankan agar tidak melakukan sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<無理:むり:memaksakan diri> を しない ほうが いいですよ",
+              "terjemahan": "Sebaiknya jangan memaksakan diri."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<今日:きょう:hari ini> は <お酒:おさけ:minuman keras> を <飲まない:のまない:tidak minum> ほうが いいです",
+              "terjemahan": "Hari ini sebaiknya jangan minum alkohol."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Saran たらどうですか",
+        "rumus": "[～:kata kerja] + たら + どうですか",
+        "deskripsi": "Pola ini digunakan untuk menyarankan suatu tindakan dengan lembut.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<少し:すこし:sedikit> <休んだら:やすんだら:jika istirahat> どうですか",
+              "terjemahan": "Bagaimana kalau istirahat sebentar?"
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<先生:せんせい:guru> に <聞いたら:きいたら:jika bertanya> どうですか",
+              "terjemahan": "Bagaimana kalau bertanya kepada guru?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 33",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Arti という意味です",
+        "rumus": "[～:kata] + と いう <意味:いみ:arti> です",
+        "deskripsi": "Pola ini digunakan untuk menjelaskan arti suatu kata atau ungkapan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "「<大丈夫:だいじょうぶ:tidak apa-apa>」は「tidak apa-apa」と いう <意味:いみ:arti> です",
+              "terjemahan": "‘Daijoubu’ berarti ‘tidak apa-apa’."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "「<お疲れ様:おつかれさま:terima kasih atas kerja keras>」は「terima kasih atas kerja keras」と いう <意味:いみ:arti> です",
+              "terjemahan": "‘Otsukaresama’ berarti ‘terima kasih atas kerja keras’."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Bagaimana mengatakan",
+        "rumus": "[～:arti] + は + [～:bahasa] + で + 何と + 言います + か",
+        "deskripsi": "Pola ini digunakan untuk menanyakan cara mengatakan sesuatu dalam bahasa tertentu.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "「terima kasih」は <日本語:にほんご:bahasa Jepang> で 何と <言います:いいます:mengatakan> か",
+              "terjemahan": "Bagaimana mengatakan ‘terima kasih’ dalam bahasa Jepang?"
+            },
+            "jawaban": {
+              "kalimat": "「<ありがとう::terima kasih>」と <言います:いいます:mengatakan>",
+              "terjemahan": "Dikatakan ‘arigatou’."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Tertulis と書いてあります",
+        "rumus": "[～:tempat] + に + [～:kata] + と + 書いて + あります",
+        "deskripsi": "Pola ini menyatakan tulisan atau keterangan yang tertera di suatu tempat.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<看板:かんばん:papan tanda> に「<立入禁止:たちいりきんし:dilarang masuk>」と <書いて:かいて:tertulis> あります",
+              "terjemahan": "Di papan tanda tertulis ‘Dilarang masuk’."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<箱:はこ:kotak> に「<壊れ物:こわれもの:barang mudah pecah>」と <書いて:かいて:tertulis> あります",
+              "terjemahan": "Di kotak tertulis ‘Barang mudah pecah’."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 34",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Sesuai とおりに",
+        "rumus": "[～:kata kerja] + とおりに、[～:kalimat]",
+        "deskripsi": "とおりに menyatakan melakukan sesuatu sesuai dengan contoh atau tindakan sebelumnya.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> が <した:した:melakukan> とおりに、して ください",
+              "terjemahan": "Tolong lakukan seperti yang saya lakukan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<説明書:せつめいしょ:petunjuk> の とおりに、<薬:くすり:obat> を <飲んで:のんで:minum> ください",
+              "terjemahan": "Tolong minum obat sesuai petunjuk."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Sesuai (kata benda) のとおりに",
+        "rumus": "[～:kata benda] + の とおりに、[～:kalimat]",
+        "deskripsi": "Pola ini menyatakan melakukan sesuatu sesuai dengan benda atau keterangan tertentu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<地図:ちず:peta> の とおりに、<歩いて:あるいて:berjalan> ください",
+              "terjemahan": "Tolong berjalan sesuai peta."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<黒板:こくばん:papan tulis> の とおりに、<書いて:かいて:menulis> ください",
+              "terjemahan": "Tolong tulis sesuai papan tulis."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Setelah あとで",
+        "rumus": "[～:kata kerja] + た + あとで、[～:kalimat]",
+        "deskripsi": "あとで menyatakan bahwa kegiatan kedua dilakukan setelah kegiatan pertama selesai.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<仕事:しごと:pekerjaan> が <終わった:おわった:selesai> あとで、<飲みます:のみます:minum>",
+              "terjemahan": "Setelah pekerjaan selesai, minum."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<ご飯:ごはん:makan> を <食べた:たべた:makan> あとで、<薬:くすり:obat> を <飲みます:のみます:minum>",
+              "terjemahan": "Setelah makan, minum obat."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 35",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Jika たら",
+        "rumus": "[～:kalimat biasa] + ら、[～:kalimat]",
+        "deskripsi": "たら menyatakan syarat atau kondisi: jika/setelah sesuatu terjadi.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<安かったら:やすかったら:jika murah>、<買います:かいます:membeli>",
+              "terjemahan": "Kalau murah, saya beli."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<時間:じかん:waktu> が あったら、<映画:えいが:film> を <見ます:みます:menonton>",
+              "terjemahan": "Kalau ada waktu, menonton film."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Jika ば",
+        "rumus": "[～:kata kerja] + ば、[～:kalimat]",
+        "deskripsi": "ば menyatakan syarat yang lebih umum atau logis.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<薬:くすり:obat> を <飲めば:のめば:jika minum>、<治ります:なおります:sembuh>",
+              "terjemahan": "Kalau minum obat, sembuh."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<時間:じかん:waktu> が あれば、<行きます:いきます:pergi>",
+              "terjemahan": "Kalau ada waktu, saya pergi."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Jika/ketika と",
+        "rumus": "[～:kata kerja] + と、[～:kalimat]",
+        "deskripsi": "と menyatakan akibat alami yang otomatis terjadi.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<ボタン::tombol> を <押す:おす:menekan> と、<電気:でんき:lampu> が <つきます:つきます:menyala>",
+              "terjemahan": "Kalau menekan tombol, lampu menyala."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<春:はる:musim semi> に なる と、<桜:さくら:sakura> が <咲きます:さきます:mekar>",
+              "terjemahan": "Kalau musim semi tiba, sakura mekar."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Jika なら",
+        "rumus": "[～:kata benda] + なら、[～:kalimat]",
+        "deskripsi": "なら digunakan untuk membicarakan sesuatu berdasarkan topik yang disebutkan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<京都:きょうと:Kyoto> なら、<桜:さくら:sakura> が <きれい:きれい:indah> です",
+              "terjemahan": "Kalau Kyoto, sakuranya indah."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<寿司:すし:sushi> なら、この <店:みせ:toko> が <いい:いい:bagus> です",
+              "terjemahan": "Kalau sushi, toko ini bagus."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 36",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Usaha ようにしています",
+        "rumus": "[～:kata kerja] + ように + して + います",
+        "deskripsi": "Pola ini menyatakan usaha atau kebiasaan yang sengaja dilakukan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<毎日:まいにち:setiap hari> <運動:うんどう:olahraga> する ように して います",
+              "terjemahan": "Saya berusaha berolahraga setiap hari."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<甘い物:あまいもの:makanan manis> を <食べない:たべない:tidak makan> ように して います",
+              "terjemahan": "Saya berusaha tidak makan makanan manis."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Perubahan ようになります",
+        "rumus": "[～:kata kerja] + ように + なります",
+        "deskripsi": "Pola ini menyatakan perubahan kemampuan atau kebiasaan menjadi lebih baik.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<日本語:にほんご:bahasa Jepang> が <話せる:はなせる:bisa berbicara> ように なりました",
+              "terjemahan": "Sekarang saya bisa berbicara bahasa Jepang."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<毎朝:まいあさ:setiap pagi> <走る:はしる:berlari> ように なりました",
+              "terjemahan": "Sekarang saya jadi berlari setiap pagi."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Tujuan ように",
+        "rumus": "[～:kata kerja] + ように、[～:kalimat]",
+        "deskripsi": "Pola ini menyatakan tujuan agar suatu keadaan terjadi atau tidak terjadi.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<忘れない:わすれない:tidak lupa> ように、<メモ::catatan> します",
+              "terjemahan": "Saya mencatat agar tidak lupa."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<風邪:かぜ:masuk angin> を ひかない ように、<気をつけます:きをつけます:berhati-hati>",
+              "terjemahan": "Saya berhati-hati agar tidak masuk angin."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Tujuan ために",
+        "rumus": "[～:kata kerja] + ために、[～:kalimat]",
+        "deskripsi": "Pola ini menyatakan tujuan dilakukannya suatu tindakan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<日本:にほん:Jepang> へ <留学する:りゅうがくする:belajar di luar negeri> ために、<お金:おかね:uang> を <貯めて:ためて:menabung> います",
+              "terjemahan": "Saya menabung untuk belajar ke Jepang."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<家:いえ:rumah> を <買う:かう:membeli> ために、<働いて:はたらいて:bekerja> います",
+              "terjemahan": "Saya bekerja untuk membeli rumah."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 37",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Kalimat pasif",
+        "rumus": "[～:kata benda] + は + [～:orang] + に + [～:kata kerja pasif]",
+        "deskripsi": "Bentuk pasif digunakan ketika subjek menerima tindakan dari orang lain.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <建物:たてもの:gedung> は <１００年前:ひゃくねんまえ:100 tahun lalu> に <建てられました:たてられました:dibangun>",
+              "terjemahan": "Gedung ini dibangun 100 tahun lalu."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <先生:せんせい:guru> に <褒められました:ほめられました:dipuji>",
+              "terjemahan": "Saya dipuji guru."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Pasif tanpa pelaku",
+        "rumus": "[～:kata benda] + が + [～:kata kerja pasif]",
+        "deskripsi": "Pasif dapat digunakan untuk menyatakan suatu kegiatan tanpa menyebut pelakunya.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<会議:かいぎ:rapat> は <来週:らいしゅう:minggu depan> <開かれます:ひらかれます:diadakan>",
+              "terjemahan": "Rapat akan diadakan minggu depan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <歌:うた:lagu> は よく <歌われます:うたわれます:dinyanyikan>",
+              "terjemahan": "Lagu ini sering dinyanyikan."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Pasif merugikan",
+        "rumus": "[～:orang] + は + [～:orang] + に + [～:kata benda] + を + [～:kata kerja pasif]",
+        "deskripsi": "Bentuk pasif juga dapat menyatakan kerugian atau gangguan yang diterima subjek.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <友達:ともだち:teman> に <自転車:じてんしゃ:sepeda> を <壊されました:こわされました:dirusak>",
+              "terjemahan": "Sepeda saya dirusak teman."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <弟:おとうと:adik> に <ケーキ::kue> を <食べられました:たべられました:dimakan>",
+              "terjemahan": "Kue saya dimakan adik."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 38",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Nominalisasi のが",
+        "rumus": "[～:kata kerja] + の + が + [～:kata sifat|kata kerja]",
+        "deskripsi": "の mengubah kata kerja menjadi frasa kata benda yang menjadi subjek kalimat.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <片づける:かたづける:merapikan> の が <好きです:すきです:suka>",
+              "terjemahan": "Saya suka merapikan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<日本語:にほんご:bahasa Jepang> を <話す:はなす:berbicara> の が <楽しい:たのしい:menyenangkan> です",
+              "terjemahan": "Berbicara bahasa Jepang menyenangkan."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Nominalisasi のは",
+        "rumus": "[～:kata kerja] + の + は + [～:kata sifat|kata kerja]",
+        "deskripsi": "のは menjadikan kegiatan sebagai topik pembicaraan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<毎日:まいにち:setiap hari> <勉強する:べんきょうする:belajar> の は <大変:たいへん:berat> です",
+              "terjemahan": "Belajar setiap hari berat."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<早く:はやく:cepat> <起きる:おきる:bangun> の は <苦手:にがて:tidak pandai> です",
+              "terjemahan": "Saya tidak pandai bangun pagi."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Nominalisasi のを",
+        "rumus": "[～:kata kerja] + の + を + [～:kata kerja]",
+        "deskripsi": "のを menjadikan kegiatan sebagai objek dari kata kerja lain.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <弟:おとうと:adik> が <ゲーム::game> を する の を <見ました:みました:melihat>",
+              "terjemahan": "Saya melihat adik bermain game."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <彼:かれ:dia> が <来る:くる:datang> の を <待って:まって:menunggu> います",
+              "terjemahan": "Saya menunggu dia datang."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 39",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Alasan て／で",
+        "rumus": "[～:kalimat] + て／で、[～:kalimat]",
+        "deskripsi": "Bentuk て dapat menyatakan alasan atau sebab yang menyebabkan keadaan berikutnya.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<遅れて:おくれて:terlambat>、すみません",
+              "terjemahan": "Maaf saya terlambat."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<バス::bus> が <来なくて:こなくて:tidak datang>、<遅れました:おくれました:terlambat>",
+              "terjemahan": "Karena bus tidak datang, saya terlambat."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Alasan ので",
+        "rumus": "[～:kalimat biasa] + ので、[～:kalimat]",
+        "deskripsi": "ので digunakan untuk menyatakan alasan dengan nuansa sopan dan objektif.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<雨:あめ:hujan> が <降っている:ふっている:turun> ので、<行きません:いきません:tidak pergi>",
+              "terjemahan": "Karena hujan, saya tidak pergi."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<用事:ようじ:urusan> が ある ので、<先に:さきに:duluan> <帰ります:かえります:pulang>",
+              "terjemahan": "Karena ada urusan, saya pulang duluan."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Alasan ために",
+        "rumus": "[～:kalimat biasa] + ために、[～:kalimat]",
+        "deskripsi": "ために menyatakan sebab atau pengaruh yang lebih formal.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<雨:あめ:hujan> が <降った:ふった:turun> ために、<試合:しあい:pertandingan> が <中止:ちゅうし:dibatalkan> に なりました",
+              "terjemahan": "Karena hujan, pertandingan dibatalkan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<事故:じこ:kecelakaan> の ために、<電車:でんしゃ:kereta> が <遅れました:おくれました:terlambat>",
+              "terjemahan": "Karena kecelakaan, kereta terlambat."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 40",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Apakah atau tidak かどうか",
+        "rumus": "[～:kalimat biasa] + か + どうか、[～:kalimat]",
+        "deskripsi": "かどうか digunakan untuk menyatakan pertanyaan tidak langsung 'apakah ... atau tidak'.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<友達:ともだち:teman> が <できた:できた:berhasil mendapat> か どうか、<心配:しんぱい:khawatir> です",
+              "terjemahan": "Saya khawatir apakah sudah mendapat teman atau belum."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<明日:あした:besok> <雨:あめ:hujan> が <降る:ふる:turun> か どうか、<分かりません:わかりません:tidak tahu>",
+              "terjemahan": "Saya tidak tahu apakah besok hujan atau tidak."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Mencoba てみます",
+        "rumus": "[～:kata kerja] + て + みます",
+        "deskripsi": "てみます menyatakan mencoba melakukan sesuatu untuk melihat hasilnya.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <料理:りょうり:masakan> を <食べて:たべて:makan> みます",
+              "terjemahan": "Saya akan mencoba makan masakan ini."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<日本語:にほんご:bahasa Jepang> で <話して:はなして:berbicara> みます",
+              "terjemahan": "Saya akan mencoba berbicara dalam bahasa Jepang."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Ingin mencoba てみたいです",
+        "rumus": "[～:kata kerja] + て + みたいです",
+        "deskripsi": "Pola ini menyatakan keinginan untuk mencoba melakukan sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<日本:にほん:Jepang> の <温泉:おんせん:onsen> に <入って:はいって:masuk> みたいです",
+              "terjemahan": "Saya ingin mencoba masuk onsen Jepang."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "その <映画:えいが:film> を <見て:みて:menonton> みたいです",
+              "terjemahan": "Saya ingin mencoba menonton film itu."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 41",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Menerima (hormat) いただきます",
+        "rumus": "[～:orang] + に + [～:kata benda] + を + いただきます",
+        "deskripsi": "いただきます adalah bentuk hormat dari もらいます, digunakan ketika menerima sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<先生:せんせい:guru> に <辞書:じしょ:kamus> を <いただきました:いただきました:menerima>",
+              "terjemahan": "Saya menerima kamus dari guru."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<お客様:おきゃくさま:tamu> に <お土産:おみやげ:oleh-oleh> を いただきました",
+              "terjemahan": "Saya menerima oleh-oleh dari tamu."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Memberi (hormat) くださいます",
+        "rumus": "[～:orang] + は + [～:orang] + に + [～:kata benda] + を + くださいます",
+        "deskripsi": "くださいます digunakan ketika orang yang lebih tinggi memberi sesuatu kepada pembicara.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<先生:せんせい:guru> は <私:わたし:saya> に <辞書:じしょ:kamus> を <くださいました:くださいました:memberi>",
+              "terjemahan": "Guru memberi saya kamus."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<社長:しゃちょう:direktur> は <私:わたし:saya> に <お土産:おみやげ:oleh-oleh> を くださいました",
+              "terjemahan": "Direktur memberi saya oleh-oleh."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Memberi kepada bawahan やります",
+        "rumus": "[～:orang] + に + [～:kata benda] + を + やります",
+        "deskripsi": "やります digunakan ketika memberi kepada orang yang lebih rendah, anak, hewan, atau tanaman.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <弟:おとうと:adik> に <本:ほん:buku> を <やりました:やりました:memberi>",
+              "terjemahan": "Saya memberi buku kepada adik."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<花:はな:bunga> に <水:みず:air> を <やります:やります:memberi>",
+              "terjemahan": "Saya menyirami bunga."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 42",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Menggunakan untuk に使います",
+        "rumus": "[～:kata benda] + は + [～:kata benda] + に + 使います",
+        "deskripsi": "Pola ini menyatakan tujuan penggunaan suatu benda.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <部屋:へや:kamar> は <会議:かいぎ:rapat> に <使います:つかいます:menggunakan>",
+              "terjemahan": "Kamar ini digunakan untuk rapat."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<ボーナス::bonus> は <旅行:りょこう:perjalanan> に <使います:つかいます:menggunakan>",
+              "terjemahan": "Bonus digunakan untuk perjalanan."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Tujuan ために",
+        "rumus": "[～:kata benda] + の ために、[～:kalimat]",
+        "deskripsi": "ために menyatakan tujuan atau pihak yang diuntungkan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<家族:かぞく:keluarga> の ために、<働いて:はたらいて:bekerja> います",
+              "terjemahan": "Saya bekerja untuk keluarga."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<家:いえ:rumah> を <買う:かう:membeli> ために、<お金:おかね:uang> を <貯めて:ためて:menabung> います",
+              "terjemahan": "Saya menabung untuk membeli rumah."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Untuk のに使います",
+        "rumus": "[～:kata kerja] + の + に + 使います",
+        "deskripsi": "Pola ini menyatakan kegunaan suatu benda untuk melakukan kegiatan tertentu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <包丁:ほうちょう:pisau dapur> は <野菜:やさい:sayur> を <切る:きる:memotong> の に <使います:つかいます:menggunakan>",
+              "terjemahan": "Pisau ini digunakan untuk memotong sayur."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <機械:きかい:mesin> は <紙:かみ:kertas> を <切る:きる:memotong> の に <使います:つかいます:menggunakan>",
+              "terjemahan": "Mesin ini digunakan untuk memotong kertas."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 43",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Kesan そうです",
+        "rumus": "[～:kata sifat|kata kerja] + そうです",
+        "deskripsi": "そうです menyatakan kesan atau dugaan berdasarkan penglihatan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<毎日:まいにち:setiap hari> <楽しい:たのしい:menyenangkan> そうです",
+              "terjemahan": "Sepertinya setiap hari menyenangkan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <ケーキ::kue> は <おいしい:おいしい:enak> そうです",
+              "terjemahan": "Kue ini terlihat enak."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Sepertinya ようです",
+        "rumus": "[～:kalimat biasa] + ようです",
+        "deskripsi": "ようです menyatakan dugaan berdasarkan bukti atau keadaan yang diamati.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<ミラー::Miller> さん は <元気:げんき:sehat> な ようです",
+              "terjemahan": "Sepertinya Sdr. Miller sehat."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<外:そと:luar> は <雨:あめ:hujan> が <降っている:ふっている:turun> ようです",
+              "terjemahan": "Sepertinya di luar hujan."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Katanya らしいです",
+        "rumus": "[～:kalimat biasa] + らしいです",
+        "deskripsi": "らしいです menyatakan informasi yang didengar atau dugaan berdasarkan ciri tertentu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<明日:あした:besok> は <雪:ゆき:salju> が <降る:ふる:turun> らしいです",
+              "terjemahan": "Katanya besok akan turun salju."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "あの <店:みせ:toko> は <おいしい:おいしい:enak> らしいです",
+              "terjemahan": "Katanya toko itu enak."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 44",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Seperti みたいに",
+        "rumus": "[～:kata benda] + みたいに + [～:kata kerja]",
+        "deskripsi": "みたいに menyatakan kemiripan dengan sesuatu dalam melakukan tindakan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "この <写真:しゃしん:foto> みたいに して ください",
+              "terjemahan": "Tolong lakukan seperti foto ini."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<鳥:とり:burung> みたいに <飛びたい:とびたい:ingin terbang> です",
+              "terjemahan": "Saya ingin terbang seperti burung."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Seperti みたいな",
+        "rumus": "[～:kata benda] + みたいな + [～:kata benda]",
+        "deskripsi": "みたいな menyatakan kemiripan yang menerangkan kata benda.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<彼:かれ:dia> は <子供:こども:anak> みたいな <人:ひと:orang> です",
+              "terjemahan": "Dia orang yang seperti anak-anak."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "これ は <夢:ゆめ:mimpi> みたいな <話:はなし:cerita> です",
+              "terjemahan": "Ini cerita seperti mimpi."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Sepertinya みたいです",
+        "rumus": "[～:kata benda|kalimat] + みたいです",
+        "deskripsi": "みたいです menyatakan dugaan atau kemiripan berdasarkan keadaan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<外:そと:luar> は <雨:あめ:hujan> みたいです",
+              "terjemahan": "Sepertinya di luar hujan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<ミラー::Miller> さん は <風邪:かぜ:masuk angin> みたいです",
+              "terjemahan": "Sepertinya Sdr. Miller masuk angin."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 45",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Dalam kasus 場合は",
+        "rumus": "[～:kalimat biasa] + <場合:ばあい:kasus> + は、[～:kalimat]",
+        "deskripsi": "場合は digunakan untuk menyatakan kondisi khusus atau situasi tertentu.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "<コース::jalur> を <まちがえた:まちがえた:salah> <場合:ばあい:kasus> は、どう したら いいですか",
+              "terjemahan": "Kalau salah jalur, harus bagaimana?"
+            },
+            "jawaban": {
+              "kalimat": "<駅員:えきいん:petugas stasiun> に <聞いて:きいて:bertanya> ください",
+              "terjemahan": "Tolong tanyakan kepada petugas stasiun."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<雨:あめ:hujan> の <場合:ばあい:kasus> は、<試合:しあい:pertandingan> を <中止します:ちゅうしします:membatalkan>",
+              "terjemahan": "Kalau hujan, pertandingan dibatalkan."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Saran たらいいですか",
+        "rumus": "[～:kata kerja] + たら + いいですか",
+        "deskripsi": "Pola ini digunakan untuk meminta saran tentang tindakan yang sebaiknya dilakukan.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "<熱:ねつ:demam> が ある <場合:ばあい:kasus> は、どう したら いいですか",
+              "terjemahan": "Kalau demam, harus bagaimana?"
+            },
+            "jawaban": {
+              "kalimat": "<病院:びょういん:rumah sakit> へ <行ったら:いったら:jika pergi> いいですよ",
+              "terjemahan": "Sebaiknya pergi ke rumah sakit."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "この <薬:くすり:obat> は いつ <飲んだら:のんだら:jika minum> いいですか",
+              "terjemahan": "Obat ini diminum kapan?"
+            },
+            "jawaban": {
+              "kalimat": "<食事:しょくじ:makan> の <後:あと:setelah> に <飲んで:のんで:minum> ください",
+              "terjemahan": "Tolong minum setelah makan."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Meskipun ても",
+        "rumus": "[～:kata kerja] + ても、[～:kalimat]",
+        "deskripsi": "ても menyatakan bahwa keadaan kedua tetap terjadi meskipun kondisi pertama terpenuhi.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<雨:あめ:hujan> が <降っても:ふっても:meskipun turun>、<試合:しあい:pertandingan> は あります",
+              "terjemahan": "Meskipun hujan, pertandingan tetap ada."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<高くても:たかくても:meskipun mahal>、<買います:かいます:membeli>",
+              "terjemahan": "Meskipun mahal, saya beli."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 46",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Baru saja たばかりです",
+        "rumus": "[～:kata kerja] + た + ばかりです",
+        "deskripsi": "たばかりです menyatakan bahwa suatu tindakan baru saja selesai dilakukan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<先週:せんしゅう:minggu lalu> <直して:なおして:memperbaiki> もらった ばかり なのに、また <壊れました:こわれました:rusak>",
+              "terjemahan": "Padahal baru minggu lalu diperbaiki, tapi rusak lagi."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<今:いま:sekarang> <食べた:たべた:makan> ばかり です",
+              "terjemahan": "Saya baru saja makan."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Sedang ところです",
+        "rumus": "[～:kata kerja] + ところです",
+        "deskripsi": "ところです menyatakan kegiatan yang sedang berlangsung atau baru akan dilakukan.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<今:いま:sekarang> <食べている:たべている:sedang makan> ところ です",
+              "terjemahan": "Sekarang sedang makan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "これから <出かける:でかける:pergi keluar> ところ です",
+              "terjemahan": "Saya baru akan pergi."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Baru saja たところです",
+        "rumus": "[～:kata kerja] + た + ところです",
+        "deskripsi": "たところです menyatakan bahwa suatu tindakan baru saja selesai pada saat berbicara.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<今:いま:sekarang> <駅:えき:stasiun> に <着いた:ついた:tiba> ところ です",
+              "terjemahan": "Saya baru saja tiba di stasiun."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<今:いま:sekarang> <終わった:おわった:selesai> ところ です",
+              "terjemahan": "Baru saja selesai."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 47",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Kabar そうです",
+        "rumus": "[～:kalimat biasa] + そうです",
+        "deskripsi": "そうです menyatakan informasi yang didengar dari orang lain.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<ミラー::Miller> さん は <婚約した:こんやくした:bertunangan> そうです",
+              "terjemahan": "Katanya Sdr. Miller sudah bertunangan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<明日:あした:besok> は <雨:あめ:hujan> が <降る:ふる:turun> そうです",
+              "terjemahan": "Katanya besok hujan."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Sepertinya ようです",
+        "rumus": "[～:kalimat biasa] + ようです",
+        "deskripsi": "ようです menyatakan dugaan berdasarkan bukti atau keadaan yang terlihat.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<道:みち:jalan> が <ぬれています:ぬれています:basah>。<夜:よる:malam> <雨:あめ:hujan> が <降った:ふった:turun> ようです",
+              "terjemahan": "Jalan basah. Sepertinya tadi malam hujan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<誰も:だれも:siapa pun> いない ようです",
+              "terjemahan": "Sepertinya tidak ada siapa-siapa."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Katanya らしいです",
+        "rumus": "[～:kalimat biasa] + らしいです",
+        "deskripsi": "らしいです menyatakan kabar atau dugaan berdasarkan informasi yang beredar.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "あの <店:みせ:toko> は <人気:にんき:populer> が ある らしいです",
+              "terjemahan": "Katanya toko itu populer."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<田中:たなか:Tanaka> さん は <来ない:こない:tidak datang> らしいです",
+              "terjemahan": "Katanya Sdr. Tanaka tidak datang."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 48",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Kausatif させます",
+        "rumus": "[～:orang] + は + [～:orang] + に + [～:kata kerja] + させます",
+        "deskripsi": "Bentuk kausatif menyatakan menyuruh atau membiarkan orang lain melakukan sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<先生:せんせい:guru> は <学生:がくせい:mahasiswa> に <作文:さくぶん:karangan> を <書かせました:かかせました:menyuruh menulis>",
+              "terjemahan": "Guru menyuruh siswa menulis karangan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<母:はは:ibu> は <子供:こども:anak> を <外:そと:luar> で <遊ばせました:あそばせました:membiarkan bermain>",
+              "terjemahan": "Ibu membiarkan anak bermain di luar."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Izin sopan させていただけませんか",
+        "rumus": "[～:kata kerja] + させて + いただけません + か",
+        "deskripsi": "Pola ini digunakan untuk meminta izin melakukan sesuatu dengan sangat sopan.",
+        "contoh": [
+          {
+            "pertanyaan": {
+              "kalimat": "<今日:きょう:hari ini> は <早く:はやく:cepat> <帰らせて:かえらせて:memulangkan> いただけません か",
+              "terjemahan": "Bisakah saya pulang cepat hari ini?"
+            },
+            "jawaban": {
+              "kalimat": "ええ、いいですよ",
+              "terjemahan": "Ya, boleh."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "この <仕事:しごと:pekerjaan> を <やらせて:やらせて:membiarkan mengerjakan> いただけません か",
+              "terjemahan": "Bisakah saya mengerjakan pekerjaan ini?"
+            },
+            "jawaban": {
+              "kalimat": "はい、お願いします",
+              "terjemahan": "Ya, silakan."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Izinkan saya させてください",
+        "rumus": "[～:kata kerja] + させて + ください",
+        "deskripsi": "Pola ini digunakan untuk meminta izin agar diri sendiri melakukan sesuatu.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> に も <一言:ひとこと:sepatah kata> <言わせて:いわせて:membiarkan berbicara> ください",
+              "terjemahan": "Izinkan saya juga berbicara sepatah kata."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> に <説明:せつめい:penjelasan> させて ください",
+              "terjemahan": "Izinkan saya menjelaskan."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 49",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Sedang (hormat) ております",
+        "rumus": "[～:kata kerja] + て + おります",
+        "deskripsi": "ております adalah bentuk hormat dari ています, digunakan dalam situasi formal.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "ただ今 <準備:じゅんび:persiapan> して おります",
+              "terjemahan": "Saat ini kami sedang menyiapkan."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<東京:とうきょう:Tokyo> に <住んで:すんで:tinggal> おります",
+              "terjemahan": "Saya tinggal di Tokyo."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Kopula sopan でございます",
+        "rumus": "[～:kata benda] + で + ございます",
+        "deskripsi": "でございます adalah bentuk sopan dari です.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "こちら は <受付:うけつけ:resepsionis> で ございます",
+              "terjemahan": "Ini adalah resepsionis."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<資料:しりょう:materi> は こちら で ございます",
+              "terjemahan": "Materinya ada di sini."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Permintaan hormat お～ください",
+        "rumus": "お + [～:kata kerja] + ください",
+        "deskripsi": "Pola ini digunakan untuk meminta sesuatu dengan hormat.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "よろしく お<伝え:つたえ:menyampaikan> ください",
+              "terjemahan": "Tolong sampaikan salam."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "こちら に お<掛け:かけ:duduk> ください",
+              "terjemahan": "Silakan duduk di sini."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Menerima (hormat) ていただきます",
+        "rumus": "[～:orang] + に + [～:kata kerja] + て + いただきます",
+        "deskripsi": "Pola ini menyatakan menerima bantuan dari orang lain dengan hormat.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<先生:せんせい:guru> に <教えて:おしえて:mengajari> いただきました",
+              "terjemahan": "Saya diajari oleh guru."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<社長:しゃちょう:direktur> に <説明して:せつめいして:menjelaskan> いただきました",
+              "terjemahan": "Saya dijelaskan oleh direktur."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": "Lesson 50",
+    "buku": "Minna no Nihongo 2",
+    "pola": [
+      {
+        "no_bunpou": "1",
+        "nama_pola": "Hormat ていらっしゃいます",
+        "rumus": "[～:orang] + は + [～:kata kerja] + て + いらっしゃいます",
+        "deskripsi": "いらっしゃいます adalah bentuk hormat dari います, dan ていらっしゃいます untuk kegiatan orang yang dihormati.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<社長:しゃちょう:direktur> は <会議室:かいぎしつ:ruang rapat> に <いらっしゃいます:いらっしゃいます:ada (hormat)>",
+              "terjemahan": "Direktur ada di ruang rapat."
+            }
+          },
+          {
+            "pertanyaan": {
+              "kalimat": "<先生:せんせい:guru> は <何:なに:apa> を して いらっしゃいます か",
+              "terjemahan": "Apa yang sedang dilakukan guru?"
+            },
+            "jawaban": {
+              "kalimat": "<新聞:しんぶん:koran> を <読んで:よんで:membaca> いらっしゃいます",
+              "terjemahan": "Sedang membaca koran."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "2",
+        "nama_pola": "Hormat お～になります",
+        "rumus": "お + [～:kata kerja] + に + なります",
+        "deskripsi": "Pola ini digunakan untuk menyatakan tindakan orang yang dihormati.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<社長:しゃちょう:direktur> は もう お<帰り:かえり:pulang> に なりました",
+              "terjemahan": "Direktur sudah pulang."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<先生:せんせい:guru> は <新聞:しんぶん:koran> を お<読み:よみ:membaca> に なります",
+              "terjemahan": "Guru membaca koran."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "3",
+        "nama_pola": "Rendah hati いたします",
+        "rumus": "[～:kata kerja] + いたします",
+        "deskripsi": "いたします adalah bentuk rendah hati dari します, digunakan untuk merendahkan diri.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<心:こころ:hati> から <感謝:かんしゃ:rasa syukur> いたします",
+              "terjemahan": "Saya mengucapkan terima kasih dari hati."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> が ご<案内:あんない:panduan> いたします",
+              "terjemahan": "Saya akan memandu."
+            }
+          }
+        ]
+      },
+      {
+        "no_bunpou": "4",
+        "nama_pola": "Rendah hati 申します",
+        "rumus": "[～:nama] + と + <申します:もうします:bernama>",
+        "deskripsi": "申します adalah bentuk rendah hati dari 言います, sering dipakai untuk memperkenalkan nama.",
+        "contoh": [
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <田中:たなか:Tanaka> と <申します:もうします:bernama>",
+              "terjemahan": "Nama saya Tanaka."
+            }
+          },
+          {
+            "pertanyaan": null,
+            "jawaban": {
+              "kalimat": "<私:わたし:saya> は <ミラー::Miller> と <申します:もうします:bernama>",
+              "terjemahan": "Nama saya Miller."
+            }
+          }
+        ]
+      }
+    ]
   }
 ]
