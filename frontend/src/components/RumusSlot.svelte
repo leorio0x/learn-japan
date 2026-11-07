@@ -7,7 +7,7 @@
         autoUpdate,
     } from "@floating-ui/dom";
 
-    let { value = "～", categories = [] } = $props();
+    let { value = "～", categories = [], tone = "default" } = $props();
 
     let open = $state(false);
     let reference = $state(null);
@@ -56,8 +56,13 @@
 <button
     type="button"
     bind:this={reference}
-    class="mx-0.5 inline-flex items-center rounded-md border-b-2 border-dotted border-steel/70 px-0.5 font-jp font-semibold text-steel transition hover:bg-sand/40 focus:outline-none focus-visible:ring-2 focus-visible:ring-steel/40 {open
-        ? 'bg-sand/60'
+    class="mx-0.5 inline-flex items-center rounded-md border-b-2 border-dotted px-0.5 font-jp font-semibold transition focus:outline-none focus-visible:ring-2 {tone ===
+    'dark'
+        ? 'border-sand/60 text-sand hover:bg-cream/10 focus-visible:ring-sand/40'
+        : 'border-steel/70 text-steel hover:bg-sand/40 focus-visible:ring-steel/40'} {open
+        ? tone === 'dark'
+            ? 'bg-cream/10'
+            : 'bg-sand/60'
         : ''}"
     onpointerenter={(event) => {
         if (event.pointerType === "mouse") show();

@@ -81,7 +81,7 @@
     </div>
 
     <div
-        class="card mb-4 flex flex-col gap-4 p-4 sm:flex-row sm:items-end sm:p-5"
+        class="mb-4 flex flex-col gap-4 rounded-2xl border border-steel/20 bg-cream/80 p-4 shadow-sm backdrop-blur sm:flex-row sm:items-end sm:p-5"
     >
         <div class="flex-1">
             <label class="label" for="lesson">Filter lesson</label>
@@ -100,7 +100,7 @@
 
         <button
             type="button"
-            class="flex items-center gap-2.5 rounded-xl border border-steel/30 bg-white px-3.5 py-2.5 text-sm font-semibold text-navy transition hover:bg-cream/60"
+            class="flex items-center gap-2.5 rounded-xl border border-steel/30 bg-cream px-3.5 py-2.5 text-sm font-semibold text-navy transition hover:bg-sand/40"
             onclick={() => (hideKanji = !hideKanji)}
             aria-pressed={hideKanji}
         >
@@ -110,7 +110,7 @@
                     : 'bg-navy/20'}"
             >
                 <span
-                    class="absolute h-4 w-4 rounded-full bg-white shadow transition-all {hideKanji
+                    class="absolute h-4 w-4 rounded-full bg-cream shadow transition-all {hideKanji
                         ? 'left-4'
                         : 'left-0.5'}"
                 ></span>
@@ -125,119 +125,201 @@
     </p>
 
     {#if loading}
-        <div class="card p-12 text-center text-navy/60">
+        <div
+            class="rounded-2xl border border-steel/20 bg-cream/80 p-12 text-center text-navy/60 shadow-sm"
+        >
             <span class="animate-pulse">Memuat data...</span>
         </div>
     {:else if error}
-        <div class="card border-red-300 p-8 text-center text-red-700">
+        <div
+            class="rounded-2xl border border-sand bg-cream/80 p-8 text-center text-ink shadow-sm"
+        >
             <p class="font-semibold">{error}</p>
             <button class="btn-primary mt-4" onclick={load}>Coba lagi</button>
         </div>
     {:else if !patterns.length}
-        <div class="card p-10 text-center">
+        <div
+            class="rounded-2xl border border-steel/20 bg-cream/80 p-10 text-center shadow-sm"
+        >
             <p class="font-semibold text-ink">Tidak ada bunpou</p>
             <p class="mt-1 text-sm text-navy/60">
                 Belum ada bunpou untuk lesson ini.
             </p>
         </div>
     {:else}
-        <ul class="space-y-3">
-            {#each paged as item (item.key)}
+        <ul class="space-y-4">
+            {#each paged as item, i (item.key)}
                 {@const b = item.bunpou}
                 {@const pola = item.pola}
-                <li class="card p-4 sm:p-5">
-                    <div class="mb-3 flex flex-wrap gap-1.5">
-                        {#if b.buku}
-                            <span
-                                class="rounded-md bg-navy/5 px-2 py-0.5 text-[11px] font-medium text-navy/70"
-                                >{b.buku}</span
-                            >
-                        {/if}
-                        <span
-                            class="rounded-md bg-sand/40 px-2 py-0.5 text-[11px] font-medium text-navy/70"
-                            >{lessonLabel(b.lesson)}</span
-                        >
-                        {#if pola.no_bunpou}
-                            <span
-                                class="rounded-md bg-sage/15 px-2 py-0.5 text-[11px] font-semibold text-navy/70"
-                                >No. {pola.no_bunpou}</span
-                            >
-                        {/if}
-                    </div>
-
-                    {#if pola.nama_pola}
-                        <h2 class="text-lg font-bold text-ink">
-                            {pola.nama_pola}
-                        </h2>
-                    {/if}
-
-                    {#if pola.rumus}
+                {@const nomor = pola.no_bunpou || String(rangeStart + i).padStart(2, "0")}
+                <li
+                    class="group relative overflow-hidden rounded-3xl border border-steel/20 bg-cream shadow-sm transition duration-300 hover:-translate-y-0.5 hover:border-sage/50 hover:shadow-md"
+                >
+                    <div class="grid sm:grid-cols-[10rem_1fr]">
                         <div
-                            class="mt-2 rounded-xl border border-steel/20 bg-cream/50 px-3.5 py-2.5"
+                            class="relative overflow-hidden bg-gradient-to-br from-ink via-navy to-steel p-4 text-cream sm:p-5"
                         >
-                            <p
-                                class="text-[10px] font-semibold uppercase tracking-wide text-navy/45"
+                            <span
+                                class="pointer-events-none absolute -right-4 -top-5 select-none font-jp text-7xl font-black leading-none text-cream/10"
+                                >文</span
                             >
-                                Rumus
-                            </p>
-                            <BunpouRumus
-                                rumus={pola.rumus}
-                                className="text-base text-ink sm:text-lg"
-                            />
-                        </div>
-                    {/if}
 
-                    {#if pola.deskripsi}
-                        <p class="mt-2 text-sm leading-relaxed text-navy/65">
-                            {pola.deskripsi}
-                        </p>
-                    {/if}
-
-                    {#if pola.contoh?.length}
-                        <div class="mt-3 space-y-2.5">
-                            {#each pola.contoh as contoh, ci}
-                                <div
-                                    class="rounded-lg border border-navy/10 bg-cream/30 p-3"
+                            <div
+                                class="relative flex items-center gap-3 sm:flex-col sm:items-start sm:gap-0"
+                            >
+                                <span
+                                    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-sand text-lg font-black text-ink shadow-md"
+                                    >{nomor}</span
                                 >
-                                    {#if contoh.pertanyaan}
-                                        <div class="flex items-start gap-2.5">
-                                            <span
-                                                class="mt-1 shrink-0 rounded-md bg-steel/10 px-1.5 py-0.5 text-[10px] font-bold uppercase text-navy/60"
-                                                >P</span
-                                            >
-                                            <BunpouSentence
-                                                kalimat={contoh.pertanyaan.kalimat}
-                                                terjemahan={contoh.pertanyaan
-                                                    .terjemahan}
-                                                {hideKanji}
-                                                className="text-lg font-semibold text-ink"
-                                            />
-                                        </div>
-                                    {/if}
-
-                                    {#if contoh.jawaban}
-                                        <div
-                                            class="flex items-start gap-2.5 {contoh.pertanyaan
-                                                ? 'mt-2.5'
-                                                : ''}"
+                                <div class="min-w-0">
+                                    <p
+                                        class="text-[9px] font-bold uppercase tracking-[0.25em] text-sand/80"
+                                    >
+                                        Bunpou
+                                    </p>
+                                    <p
+                                        class="mt-0.5 truncate text-sm font-semibold text-cream"
+                                    >
+                                        {lessonLabel(b.lesson)}
+                                    </p>
+                                    {#if b.buku}
+                                        <p
+                                            class="mt-0.5 text-[10px] leading-snug text-cream/50"
                                         >
-                                            <span
-                                                class="mt-1 shrink-0 rounded-md bg-sage/15 px-1.5 py-0.5 text-[10px] font-bold uppercase text-navy/60"
-                                                >{contoh.pertanyaan ? "J" : "Contoh"}</span
-                                            >
-                                            <BunpouSentence
-                                                kalimat={contoh.jawaban.kalimat}
-                                                terjemahan={contoh.jawaban
-                                                    .terjemahan}
-                                                {hideKanji}
-                                                className="text-lg font-semibold text-sage"
-                                            />
-                                        </div>
+                                            {b.buku}
+                                        </p>
                                     {/if}
                                 </div>
-                            {/each}
+                            </div>
+
+                            {#if pola.nama_pola}
+                                <div
+                                    class="relative mt-4 hidden border-t border-dashed border-cream/15 pt-3 sm:block"
+                                >
+                                    <p
+                                        class="text-[9px] font-bold uppercase tracking-[0.2em] text-cream/40"
+                                    >
+                                        Pola
+                                    </p>
+                                    <p
+                                        class="mt-1 text-sm leading-snug text-cream/80"
+                                    >
+                                        {pola.nama_pola}
+                                    </p>
+                                </div>
+                            {/if}
                         </div>
-                    {/if}
+
+                        <div class="relative p-4 sm:p-5">
+                            {#if pola.nama_pola}
+                                <h2
+                                    class="text-lg font-bold text-ink sm:hidden"
+                                >
+                                    {pola.nama_pola}
+                                </h2>
+                            {/if}
+
+                            {#if pola.rumus}
+                                <div
+                                    class="mt-3 rounded-xl border border-dashed border-steel/30 bg-sand/30 px-3.5 py-2.5"
+                                >
+                                    <p
+                                        class="text-[9px] font-bold uppercase tracking-[0.2em] text-steel/70"
+                                    >
+                                        Rumus
+                                    </p>
+                                    <BunpouRumus
+                                        rumus={pola.rumus}
+                                        className="mt-1 block text-base leading-relaxed text-ink sm:text-lg"
+                                    />
+                                </div>
+                            {/if}
+
+                            {#if pola.deskripsi}
+                                <p
+                                    class="mt-3 text-sm leading-relaxed text-navy/65"
+                                >
+                                    {pola.deskripsi}
+                                </p>
+                            {/if}
+
+                            {#if pola.contoh?.length}
+                                <div class="mt-4 space-y-2.5">
+                                    {#each pola.contoh as contoh, ci}
+                                        <div
+                                            class="rounded-xl border border-steel/15 bg-sand/20 p-3"
+                                        >
+                                            <div
+                                                class="mb-2 flex items-center gap-2"
+                                            >
+                                                <span
+                                                    class="rounded bg-sand/60 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide text-navy/60"
+                                                    >Contoh {ci + 1}</span
+                                                >
+                                                <span
+                                                    class="h-px flex-1 bg-gradient-to-r from-steel/25 to-transparent"
+                                                ></span>
+                                            </div>
+
+                                            <div class="space-y-2">
+                                                {#if contoh.pertanyaan}
+                                                    <div
+                                                        class="flex items-start gap-2"
+                                                    >
+                                                        <span
+                                                            class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-md bg-steel text-[10px] font-bold text-cream"
+                                                            >P</span
+                                                        >
+                                                        <div
+                                                            class="min-w-0 flex-1 rounded-lg bg-cream px-3 py-2 ring-1 ring-steel/10"
+                                                        >
+                                                            <BunpouSentence
+                                                                kalimat={contoh
+                                                                    .pertanyaan
+                                                                    .kalimat}
+                                                                terjemahan={contoh
+                                                                    .pertanyaan
+                                                                    .terjemahan}
+                                                                {hideKanji}
+                                                                className="text-base font-semibold text-ink sm:text-lg"
+                                                            />
+                                                        </div>
+                                                    </div>
+                                                {/if}
+
+                                                {#if contoh.jawaban}
+                                                    <div
+                                                        class="flex items-start gap-2"
+                                                    >
+                                                        <span
+                                                            class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-md bg-sage text-[10px] font-bold text-cream"
+                                                            >{contoh.pertanyaan
+                                                                ? "J"
+                                                                : "C"}</span
+                                                        >
+                                                        <div
+                                                            class="min-w-0 flex-1 rounded-lg bg-sage/10 px-3 py-2 ring-1 ring-sage/20"
+                                                        >
+                                                            <BunpouSentence
+                                                                kalimat={contoh
+                                                                    .jawaban
+                                                                    .kalimat}
+                                                                terjemahan={contoh
+                                                                    .jawaban
+                                                                    .terjemahan}
+                                                                {hideKanji}
+                                                                className="text-base font-semibold text-navy sm:text-lg"
+                                                            />
+                                                        </div>
+                                                    </div>
+                                                {/if}
+                                            </div>
+                                        </div>
+                                    {/each}
+                                </div>
+                            {/if}
+                        </div>
+                    </div>
                 </li>
             {/each}
         </ul>
