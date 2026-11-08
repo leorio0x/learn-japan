@@ -32,7 +32,8 @@ terdapat 4 jenis soal:
 - di setiap isi attribute data jika terdapat text dengan format <kanji:kana:arti>, tolong render dengan floating-ui
 - tetap tampilkan spasi pada data pertanyaan soal karegori [bintang,jtest], jangan gunakan format penulisan jepang tanpa spasi
 - opsi filter atau pemilihan multi-kategori untuk sesi latihan soal (gunakan CSS GRID, 4 col perbaris)
+- default jenis soal yang aktif = Pilihan ganda
 
 ## 1.2. Halaman CRUD bunpou
 
-sesuaikan input dengan format `data/format/soal_bunpou.json`
+sesuaikan input dengan format `data/format/latihan_soal/*`

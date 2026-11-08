@@ -30,7 +30,7 @@
 
     let phase = $state("setup");
     let batchSize = $state(10);
-    let selectedTypes = $state([...allTypes]);
+    let selectedTypes = $state(["pg"]);
 
     let questions = $state([]);
     let index = $state(0);
