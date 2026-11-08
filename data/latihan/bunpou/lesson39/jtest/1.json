@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "39",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. 引いて 2. 風邪を 3. 学校を休みました ]。",
+    "jawaban": "かぜをひいてがっこうをやすみました"
+  },
+  {
+    "lesson": "39",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "田中さんは [1. ある 2. 熱が 3. ので ] 早退しました。",
+    "jawaban": "ねつがあるので"
+  },
+  {
+    "lesson": "39",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "雨が [1. ために 2. 降っている 3. 中止になりました ]。",
+    "jawaban": "ふっているためにちゅうしになりました"
+  },
+  {
+    "lesson": "39",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. 事故 2. で 3. 電車が ] 遅れました。",
+    "jawaban": "じこででんしゃが"
+  },
+  {
+    "lesson": "39",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<地震:じしん:gempa> [1. の 2. ために 3. ビルが ] 倒れました。",
+    "jawaban": "のためにびるが"
+  },
+  {
+    "lesson": "39",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. 病気 2. で 3. 会社を休みました ]。",
+    "jawaban": "びょうきでかいしゃをやすみました"
+  }
+]

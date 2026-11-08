@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "27",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. とても 2. <日本語:にほんご:bahasa Jepang>が 3. <上手に:じょうずに:dengan pandai> 4. <話せます:はなせます:bisa berbicara> ]",
+    "jawaban": "にほんごがとてもじょうずにはなせます"
+  },
+  {
+    "lesson": "27",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "この [1. <部屋:へや:kamar> 2. から 3. <海:うみ:laut>が ] <見えます:みえます:terlihat>",
+    "jawaban": "へやからうみが"
+  },
+  {
+    "lesson": "27",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<冷蔵庫:れいぞうこ:kulkas>に [1. <水:みず:air> 2. しか ] ありません",
+    "jawaban": "みずしか"
+  },
+  {
+    "lesson": "27",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "ここから <富士山:ふじさん:Gunung Fuji>が [1. はっきり 2. <見えます:みえます:terlihat> ]",
+    "jawaban": "はっきりみえます"
+  },
+  {
+    "lesson": "27",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<田中:たなか:Tanaka>さんは [1. <ピアノ:ぴあの:piano> 2. が 3. できます ]",
+    "jawaban": "ぴあのができます"
+  },
+  {
+    "lesson": "27",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <私:わたし:saya>は 2. <漢字:かんじ:kanji>が 3. <読めます:よめます:bisa membaca> ]",
+    "jawaban": "わたしはかんじがよめます"
+  }
+]

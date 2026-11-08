@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "44",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "彼は [1. 笑います 2. 子供 3. みたいに ]。",
+    "jawaban": "こどもみたいにわらいます"
+  },
+  {
+    "lesson": "44",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "この部屋は [1. 寒いです 2. 冷蔵庫 3. みたいに ]。",
+    "jawaban": "れいぞうこみたいにさむいです"
+  },
+  {
+    "lesson": "44",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "空が暗いです。雨が [1. です 2. 降る 3. みたい ]。",
+    "jawaban": "ふるみたいです"
+  },
+  {
+    "lesson": "44",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "彼女は [1. 話します 2. 男の子 3. みたいに ]。",
+    "jawaban": "おとこのこみたいにはなします"
+  },
+  {
+    "lesson": "44",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "あの人は [1. 優しいです 2. お母さん 3. みたいに ]。",
+    "jawaban": "おかあさんみたいにやさしいです"
+  },
+  {
+    "lesson": "44",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "これは [1. です 2. 本物 3. みたい ]。",
+    "jawaban": "ほんものみたいです"
+  }
+]

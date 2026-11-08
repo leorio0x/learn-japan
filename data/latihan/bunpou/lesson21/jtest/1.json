@@ -1,0 +1,51 @@
+[
+  {
+    "lesson": "21",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <降る:ふる:turun> 2. <雨:あめ:hujan>が 3. と ] <思い:おもい:berpikir>ます",
+    "jawaban": "あめがふると"
+  },
+  {
+    "lesson": "21",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<田中:たなか:Tanaka>さんは [1. <留学する:りゅうがくする:studi di luar negeri> 2. と 3. <日本:にほん:Jepang>へ ] <言いました:いいました:berkata>",
+    "jawaban": "にほんへりゅうがくすると"
+  },
+  {
+    "lesson": "21",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<私:わたし:saya>は [1. <彼:かれ:dia> 2. は 3. <日本人:にほんじん:orang Jepang>だ 4. と ] <思い:おもい:berpikir>ます",
+    "jawaban": "かれはにほんじんだと"
+  },
+  {
+    "lesson": "21",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <物価:ぶっか:harga> 2. <日本:にほん:Jepang>の 3. は ] <高い:たかい:mahal>と <思い:おもい:berpikir>ます",
+    "jawaban": "にほんのぶっかは"
+  },
+  {
+    "lesson": "21",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. でしょう 2. <明日:あした:besok>は 3. <雨:あめ:hujan> ]",
+    "jawaban": "あしたはあめでしょう"
+  },
+  {
+    "lesson": "21",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. かもしれません 2. <田中:たなか:Tanaka>さんは 3. <来ない:こない:tidak datang> ]",
+    "jawaban": "たなかさんはこないかもしれません"
+  },
+  {
+    "lesson": "21",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<先生:せんせい:guru>は [1. <日本語:にほんご:bahasa Jepang> 2. <勉強:べんきょう:belajar> 3. について ] <話しました:はなしました:berbicara>",
+    "jawaban": "にほんごのべんきょうについて"
+  }
+]

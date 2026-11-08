@@ -1,0 +1,75 @@
+[
+  {
+    "lesson": "32",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんは かぜを ひきました。<頭:あたま:kepala> が <痛い:いたい:sakit> し、<熱:ねつ:demam> も あります。<田中:たなか:Tanaka>さんは <病院:びょういん:rumah sakit> へ <行きました:いきました:pergi>。\n\n<医者:いしゃ:dokter> は「<風邪:かぜ:flu> です。この <薬:くすり:obat> を <飲んで:のんで:minum> ください。それから、<今夜:こんや:malam ini> は 早く <寝た:ねた:tidur> ほうが いいです。お<風呂:ふろ:mandi> には <入らない:はいらない:tidak masuk> ほうが いいです」と <言いました:いいました:berkata>。\n\n<田中:たなか:Tanaka>さんは「<仕事:しごと:pekerjaan> が たくさん ありますが、<会社:かいしゃ:perusahaan> を <休んだ:やすんだ:libur> ほうが いいですか」と <聞きました:ききました:bertanya>。<医者:いしゃ:dokter> は「はい、<今日:きょう:hari ini> は <無理:むり:memaksakan> を <しない:しない:tidak melakukan> ほうが いいです。<明日:あした:besok> も <熱:ねつ:demam> が あったら、また <病院:びょういん:rumah sakit> へ <来て:きて:datang> ください」と <言いました:いいました:berkata>。\n\n<田中:たなか:Tanaka>さんは「わかりました。ゆっくり <休みます:やすみます:beristirahat>」と <言いました:いいました:berkata>。<医者:いしゃ:dokter> は「お<大事:だいじ:semoga lekas sembuh> に」と <言いました:いいました:berkata>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは どうしましたか。",
+        "pilihan_jawaban": [
+          "かぜを ひきました",
+          "<足:あし:kaki> を けがしました",
+          "<お腹:おなか:perut> が 痛くなりました",
+          "<歯:は:gigi> が 痛くなりました"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<田中:たなか:Tanaka>さんの <症状:しょうじょう:gejala> は <何:なに:apa> ですか。",
+        "pilihan_jawaban": [
+          "<頭:あたま:kepala> が <痛い:いたい:sakit> し、<熱:ねつ:demam> も あります",
+          "<お腹:おなか:perut> が 痛いです",
+          "<目:め:mata> が <痛い:いたい:sakit> です",
+          "<咳:せき:batuk> だけ です"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<医者:いしゃ:dokter> は <田中:たなか:Tanaka>さんに <何:なに:apa> を <飲む:のむ:minum> ように <言いました:いいました:berkata> か。",
+        "pilihan_jawaban": [
+          "この <薬:くすり:obat>",
+          "お<茶:ちゃ:teh>",
+          "コーヒー",
+          "<水:みず:air>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<今夜:こんや:malam ini>、<田中:たなか:Tanaka>さんは お<風呂:ふろ:mandi> に <入った:はいった:masuk> ほうが いいですか。",
+        "pilihan_jawaban": [
+          "いいえ、<入らない:はいらない:tidak masuk> ほうが いいです",
+          "はい、<入った:はいった:masuk> ほうが いいです",
+          "はい、ゆっくり <入った:はいった:masuk> ほうが いいです",
+          "お<風呂:ふろ:mandi> は <関係:かんけい:hubungan> が ありません"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <会社:かいしゃ:perusahaan> を <休んだ:やすんだ:libur> ほうが いいですか。",
+        "pilihan_jawaban": [
+          "はい、<休んだ:やすんだ:libur> ほうが いいです",
+          "いいえ、<休まない:やすまない:tidak libur> ほうが いいです",
+          "いいえ、<会社:かいしゃ:perusahaan> へ <行った:いった:pergi> ほうが いいです",
+          "<分かりません:わかりません:tidak tahu>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<明日:あした:besok> も <熱:ねつ:demam> が あったら、どう しますか。",
+        "pilihan_jawaban": [
+          "また <病院:びょういん:rumah sakit> へ <行きます:いきます:pergi>",
+          "<会社:かいしゃ:perusahaan> へ <行きます:いきます:pergi>",
+          "<薬:くすり:obat> を <飲みません:のみません:tidak minum>",
+          "お<風呂:ふろ:mandi> に <入ります:はいります:masuk>"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

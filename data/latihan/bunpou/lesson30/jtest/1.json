@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "30",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<会議:かいぎ:rapat>の <前:まえ:sebelum>に [1. <資料:しりょう:materi>を 2. <読んで:よんで:membaca> 3. おきます ]",
+    "jawaban": "しりょうをよんでおきます"
+  },
+  {
+    "lesson": "30",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<壁:かべ:dinding>に [1. <カレンダー:かれんだー:kalender>が 2. <掛けて:かけて:menggantung> 3. あります ]",
+    "jawaban": "かれんだーがかけてあります"
+  },
+  {
+    "lesson": "30",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<机:つくえ:meja>の <上:うえ:atas>に [1. <資料:しりょう:materi>が 2. <置いて:おいて:meletakkan> 3. あります ]",
+    "jawaban": "しりょうがおいてあります"
+  },
+  {
+    "lesson": "30",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<パーティー:ぱーてぃー:pesta>の <前:まえ:sebelum>に [1. <部屋:へや:kamar>を 2. <きれいに:きれいに:bersih> 3. しておきます ]",
+    "jawaban": "へやをきれいにしておきます"
+  },
+  {
+    "lesson": "30",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<玄関:げんかん:pintu masuk>に [1. <花:はな:bunga>が 2. <飾って:かざって:menghias> 3. あります ]",
+    "jawaban": "はながかざってあります"
+  },
+  {
+    "lesson": "30",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<使った:つかった:memakai> <物:もの:barang>は [1. <元:もと:semula>の <所:ところ:tempat>に 2. <戻して:もどして:mengembalikan> 3. おいて ] ください",
+    "jawaban": "もとのところにもどしておいて"
+  }
+]

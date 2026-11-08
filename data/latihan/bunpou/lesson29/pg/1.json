@@ -1,0 +1,96 @@
+[
+  {
+    "lesson": "29",
+    "kategori": "pilihan ganda",
+    "soal": "<財布:さいふ:dompet> を <落として:おとして:menjatuhkan> ___。",
+    "pilihan_jawaban": ["しまいました", "おきました", "ありました", "みました"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "29",
+    "kategori": "pilihan ganda",
+    "soal": "ケーキを <全部:ぜんぶ:semua> <食べて:たべて:makan> ___。",
+    "pilihan_jawaban": ["しまいました", "おきました", "います", "ください"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "29",
+    "kategori": "pilihan ganda",
+    "soal": "<電車:でんしゃ:kereta> に <間に合わなくて:まにあわなくて:tidak tepat waktu>、<遅れて:おくれて:terlambat> ___。",
+    "pilihan_jawaban": ["しまいました", "おきました", "いました", "ください"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "29",
+    "kategori": "pilihan ganda",
+    "soal": "この <本:ほん:buku> は もう <読んで:よんで:membaca> ___。",
+    "pilihan_jawaban": ["しまいました", "おきました", "あります", "います"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "29",
+    "kategori": "pilihan ganda",
+    "soal": "<宿題:しゅくだい:PR> を <忘れて:わすれて:lupa> ___。",
+    "pilihan_jawaban": ["しまいました", "おきました", "ください", "いました"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "29",
+    "kategori": "pilihan ganda",
+    "soal": "コップが ___ しまいました。",
+    "pilihan_jawaban": ["割れて", "割って", "割れ", "割ります"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "29",
+    "kategori": "pilihan ganda",
+    "soal": "<白い:しろい:putih> シャツが <汚れて:よごれて:kotor> ___。",
+    "pilihan_jawaban": ["しまいました", "おきました", "あります", "ください"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "29",
+    "kategori": "pilihan ganda",
+    "soal": "<電車:でんしゃ:kereta> が ___ しまいました。",
+    "pilihan_jawaban": ["止まって", "止めて", "止まり", "止まります"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "29",
+    "kategori": "pilihan ganda",
+    "soal": "<窓:まど:jendela> が ___ います。",
+    "pilihan_jawaban": ["開いて", "開けて", "開き", "開きます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "29",
+    "kategori": "pilihan ganda",
+    "soal": "<明日:あした:besok> この ケーキを <食べて:たべて:makan> ___。",
+    "pilihan_jawaban": ["しまいます", "しまいました", "おきます", "います"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "29",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya tidak sengaja menjatuhkan dompet.",
+    "pilihan_jawaban": [
+      "財布を落としてしまいました",
+      "財布を落としておきました",
+      "財布を落としてあります",
+      "財布を落としました"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "29",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya sudah menghabiskan kue.",
+    "pilihan_jawaban": [
+      "ケーキを全部食べてしまいました",
+      "ケーキを全部食べておきました",
+      "ケーキを全部食べてあります",
+      "ケーキを全部食べました"
+    ],
+    "jawaban_benar": "a"
+  }
+]

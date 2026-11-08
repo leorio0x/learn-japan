@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "28",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <毎晩:まいばん:setiap malam> 2. <音楽:おんがく:musik>を 3. <聞きながら:ききながら:sambil mendengarkan> ] <日本語:にほんご:bahasa Jepang>を <勉強します:べんきょうします:belajar>",
+    "jawaban": "まいばんおんがくをききながら"
+  },
+  {
+    "lesson": "28",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. この <店:みせ:toko>は 2. <安い:やすい:murah>し 3. <おいしい:おいしい:enak>し ] <人気:にんき:populer>が あります",
+    "jawaban": "このみせはやすいしおいしいし"
+  },
+  {
+    "lesson": "28",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<田中:たなか:Tanaka>さんは [1. <毎朝:まいあさ:setiap pagi> 2. ジョギングを 3. して ] います",
+    "jawaban": "まいあさじょぎんぐをして"
+  },
+  {
+    "lesson": "28",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<雨:あめ:hujan>が 降りました。[1. それで 2. <行きませんでした:いきませんでした:tidak pergi> ]",
+    "jawaban": "それでいきませんでした"
+  },
+  {
+    "lesson": "28",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <田中:たなか:Tanaka>さんは 2. <歌:うた:lagu>が 3. <上手:じょうず:pandai> ] です",
+    "jawaban": "たなかさんはうたがじょうず"
+  },
+  {
+    "lesson": "28",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<マリア:まりあ:Maria>さんは [1. <小説:しょうせつ:novel>を 2. <書いて:かいて:menulis> 3. います ]",
+    "jawaban": "しょうせつをかいています"
+  }
+]

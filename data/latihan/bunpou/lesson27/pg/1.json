@@ -1,0 +1,96 @@
+[
+  {
+    "lesson": "27",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka>さんは <日本語:にほんご:bahasa Jepang> が ___。",
+    "pilihan_jawaban": ["話します", "話せます", "話して", "話す"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "27",
+    "kategori": "pilihan ganda",
+    "soal": "わたしは <漢字:かんじ:kanji> が ___。",
+    "pilihan_jawaban": ["読みます", "読めます", "読んで", "読む"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "27",
+    "kategori": "pilihan ganda",
+    "soal": "この <部屋:へや:kamar> から <海:うみ:laut> が ___。",
+    "pilihan_jawaban": ["見ます", "見えます", "見せます", "見て"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "27",
+    "kategori": "pilihan ganda",
+    "soal": "<隣:となり:sebelah> の <部屋:へや:kamar> から <音:おと:suara> が ___。",
+    "pilihan_jawaban": ["聞きます", "聞こえます", "聞かせます", "聞いて"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "27",
+    "kategori": "pilihan ganda",
+    "soal": "<冷蔵庫:れいぞうこ:kulkas> に <水:みず:air> ___ ありません。",
+    "pilihan_jawaban": ["だけ", "しか", "も", "が"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "27",
+    "kategori": "pilihan ganda",
+    "soal": "わたしは ひらがな ___ <書けません:かけません:tidak bisa menulis>。",
+    "pilihan_jawaban": ["だけ", "しか", "も", "は"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "27",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka>さんは ピアノが ___。",
+    "pilihan_jawaban": ["できます", "します", "なります", "あります"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "27",
+    "kategori": "pilihan ganda",
+    "soal": "ここから <富士山:ふじさん:Gunung Fuji> が はっきり ___。",
+    "pilihan_jawaban": ["見ます", "見えます", "見て", "見せます"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "27",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke bentuk potensial (可能形) \n 飲みます (Minum)",
+    "pilihan_jawaban": ["飲めます", "飲みます", "飲ませます", "飲んで"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "27",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke bentuk potensial (可能形) \n 来ます (Datang)",
+    "pilihan_jawaban": ["こられます", "きます", "こさせます", "きて"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "27",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya bisa membaca kanji.",
+    "pilihan_jawaban": [
+      "私は漢字が読めます",
+      "私は漢字を読みます",
+      "私は漢字が読みます",
+      "私は漢字が読めません"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "27",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Di sini hanya ada air.",
+    "pilihan_jawaban": [
+      "ここには水しかありません",
+      "ここには水だけあります",
+      "ここには水しかあります",
+      "ここには水だけしかありません"
+    ],
+    "jawaban_benar": "a"
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "lesson": "25",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんは <田舎:いなか:kampung halaman> で <生まれました:うまれました:lahir>。<田中:たなか:Tanaka>さんは「<子供:こども:anak> の とき、<田舎:いなか:kampung halaman> は <静か:しずか:tenang> で、とても <好き:すき:suka> でした。でも、<今:いま:sekarang> は <便利:べんり:praktis> な <町:まち:kota> に <住みたい:すみたい:ingin tinggal> と <思います:おもいます:berpikir>」と <言いました:いいました:berkata>。\n\n<田中:たなか:Tanaka>さんは 18 <歳:さい:umur> の とき、<専門学校:せんもんがっこう:sekolah kejuruan> に <入りました:はいりました:masuk>。<専門学校:せんもんがっこう:sekolah kejuruan> を <卒業:そつぎょう:lulus> した あと、<就職:しゅうしょく:mendapat pekerjaan> しました。<田中:たなか:Tanaka>さんは「<一生懸命:いっしょうけんめい:dengan giat> <働いて:はたらいて:bekerja> も、<給料:きゅうりょう:gaji> が <安かった:やすかった:murah> です。でも、<仕事:しごと:pekerjaan> が <好き:すき:suka> でしたから、<頑張りました:がんばりました:berusaha keras>」と <言いました:いいました:berkata>。\n\n<田中:たなか:Tanaka>さんは 30 <歳:さい:umur> で <結婚:けっこん:menikah> しました。それから、<子供:こども:anak> が 二人 <生まれました:うまれました:lahir>。<田中:たなか:Tanaka>さんは「<子供:こども:anak> が <小さい:ちいさい:kecil> とき、<暇:ひま:waktu luang> な とき は いつも <一緒:いっしょ:bersama> に <遊びました:あそびました:bermain>。<今:いま:sekarang> は <忙しい:いそがしい:sibuk> ですが、<時間:じかん:waktu> が あったら、また <家族:かぞく:keluarga> と <旅行:りょこう:perjalanan> したいです」と <言いました:いいました:berkata>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは どこで <生まれました:うまれました:lahir> か。",
+        "pilihan_jawaban": [
+          "<田舎:いなか:kampung halaman>",
+          "<東京:とうきょう:Tokyo>",
+          "<大阪:おおさか:Osaka>",
+          "<外国:がいこく:luar negeri>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <子供:こども:anak> の とき、<田舎:いなか:kampung halaman> について どう <思いました:おもいました:berpikir> か。",
+        "pilihan_jawaban": [
+          "<静か:しずか:tenang> で、とても <好き:すき:suka> でした",
+          "<便利:べんり:praktis> で、とても <好き:すき:suka> でした",
+          "<うるさい:うるさい:berisik> で、<嫌い:きらい:tidak suka> でした",
+          "<忙しい:いそがしい:sibuk> で、<嫌い:きらい:tidak suka> でした"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <専門学校:せんもんがっこう:sekolah kejuruan> を <卒業:そつぎょう:lulus> した あと、<何:なに:apa> を しましたか。",
+        "pilihan_jawaban": [
+          "<就職:しゅうしょく:mendapat pekerjaan> しました",
+          "<大学:だいがく:universitas> に <入りました:はいりました:masuk>",
+          "<結婚:けっこん:menikah> しました",
+          "<外国:がいこく:luar negeri> へ <留学:りゅうがく:studi luar negeri> しました"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<給料:きゅうりょう:gaji> が <安かった:やすかった:murah> のに、どうして <田中:たなか:Tanaka>さんは <頑張りました:がんばりました:berusaha keras> か。",
+        "pilihan_jawaban": [
+          "<仕事:しごと:pekerjaan> が <好き:すき:suka> でしたから",
+          "<給料:きゅうりょう:gaji> が <高かった:たかかった:tinggi> ですから",
+          "<仕事:しごと:pekerjaan> が <暇:ひま:waktu luang> でしたから",
+          "<会社:かいしゃ:perusahaan> が <家:いえ:rumah> の <近く:ちかく:dekat> でしたから"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <暇:ひま:waktu luang> な とき、いつも <何:なに:apa> を しましたか。",
+        "pilihan_jawaban": [
+          "<子供:こども:anak> と <一緒:いっしょ:bersama> に <遊びました:あそびました:bermain>",
+          "<一人:ひとり:sendiri> で <旅行:りょこう:perjalanan> しました",
+          "<会社:かいしゃ:perusahaan> で <働きました:はたらきました:bekerja>",
+          "<日本語:にほんご:bahasa Jepang> を <勉強:べんきょう:belajar> しました"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <時間:じかん:waktu> が あったら、<何:なに:apa> を したいですか。",
+        "pilihan_jawaban": [
+          "<家族:かぞく:keluarga> と <旅行:りょこう:perjalanan> したいです",
+          "<田舎:いなか:kampung halaman> に <住みたい:すみたい:ingin tinggal> です",
+          "<新しい:あたらしい:baru> <車:くるま:mobil> を <買いたい:かいたい:ingin membeli> です",
+          "<仕事:しごと:pekerjaan> を <辞めたい:やめたい:ingin berhenti> です"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

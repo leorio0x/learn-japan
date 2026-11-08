@@ -1,0 +1,96 @@
+[
+  {
+    "lesson": "22",
+    "kategori": "pilihan ganda",
+    "soal": "これは ミラーさんが ___ ケーキです。",
+    "pilihan_jawaban": ["作ります", "作った", "作って", "作り"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "22",
+    "kategori": "pilihan ganda",
+    "soal": "あそこに ___ <人:ひと:orang> は <田中:たなか:Tanaka>さんです。",
+    "pilihan_jawaban": ["います", "いる", "いて", "い"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "22",
+    "kategori": "pilihan ganda",
+    "soal": "きのう ___ <本:ほん:buku> は とても おもしろかったです。",
+    "pilihan_jawaban": ["買います", "買った", "買って", "買い"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "22",
+    "kategori": "pilihan ganda",
+    "soal": "あの ___ <人:ひと:orang> は だれですか。",
+    "pilihan_jawaban": ["<眼鏡:めがね:kacamata>を かけます", "<眼鏡:めがね:kacamata>を かけて", "<眼鏡:めがね:kacamata>を かけている", "<眼鏡:めがね:kacamata>を かけ"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "22",
+    "kategori": "pilihan ganda",
+    "soal": "わたしは <赤い:あかい:merah> ___ が <好き:すき:suka> です。",
+    "pilihan_jawaban": ["<帽子:ぼうし:topi>な", "<帽子:ぼうし:topi>の", "<帽子:ぼうし:topi>", "<帽子:ぼうし:topi>を"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "22",
+    "kategori": "pilihan ganda",
+    "soal": "A: コーヒーと <紅茶:こうちゃ:teh> と どちらが いいですか。B: ___ します。",
+    "pilihan_jawaban": ["コーヒーを", "コーヒーが", "コーヒーに", "コーヒーで"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "22",
+    "kategori": "pilihan ganda",
+    "soal": "A: この セーターは どうですか。B: そうですね。___ が いいです。",
+    "pilihan_jawaban": ["<青い:あおい:biru>", "<青い:あおい:biru>の", "<青く:あおく:biru>", "<青:あお:biru>"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "22",
+    "kategori": "pilihan ganda",
+    "soal": "これは ___ <部屋:へや:kamar> です。",
+    "pilihan_jawaban": ["きれい", "きれいな", "きれいに", "きれいだ"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "22",
+    "kategori": "pilihan ganda",
+    "soal": "___ <人:ひと:orang> は マリアさんです。",
+    "pilihan_jawaban": ["<背が高い:せがたかい:tinggi>", "<背が高く:せがたかく:tinggi>", "<背が高くて:せがたかくて:tinggi>", "<背が高い:せがたかい:tinggi>の"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "22",
+    "kategori": "pilihan ganda",
+    "soal": "<寒い:さむい:dingin> ですから、___ を <着ます:きます:memakai>。",
+    "pilihan_jawaban": ["<帽子:ぼうし:topi>", "<コート:こーと:mantel>", "<眼鏡:めがね:kacamata>", "<靴下:くつした:kaos kaki>"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "22",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Ini adalah kue yang saya buat kemarin.",
+    "pilihan_jawaban": [
+      "これは私がきのう作ったケーキです",
+      "これは私がきのう作るケーキです",
+      "これは私がきのう作ってケーキです",
+      "これはきのう私が作ったケーキでした"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "22",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Orang yang memakai kacamata itu adalah Tanaka-san.",
+    "pilihan_jawaban": [
+      "眼鏡をかけている人は田中さんです",
+      "眼鏡をかけて人は田中さんです",
+      "眼鏡をかけます人は田中さんです",
+      "眼鏡をかけている人が田中さんです"
+    ],
+    "jawaban_benar": "a"
+  }
+]

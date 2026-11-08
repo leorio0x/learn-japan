@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "31",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <来年:らいねん:tahun depan> 2. <日本:にほん:Jepang>へ 3. <行こう:いこう:mari pergi> ] と 思います",
+    "jawaban": "らいねんにほんへいこう"
+  },
+  {
+    "lesson": "31",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<私:わたし:saya>は [1. <大学院:だいがくいん:pascasarjana>に 2. <入る:はいる:masuk> 3. つもりです ]",
+    "jawaban": "だいがくいんにはいるつもりです"
+  },
+  {
+    "lesson": "31",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<田中:たなか:Tanaka>さんは [1. <来月:らいげつ:bulan depan> 2. <結婚:けっこん:menikah>する 3. <予定:よてい:rencana>です ]",
+    "jawaban": "らいげつけっこんするよていです"
+  },
+  {
+    "lesson": "31",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <会議:かいぎ:rapat>は 2. <3時:さんじ:pukul 3>に 3. <始まる:はじまる:mulai> ] 予定です",
+    "jawaban": "かいぎはさんじにはじまる"
+  },
+  {
+    "lesson": "31",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<私:わたし:saya>は [1. <毎日:まいにち:setiap hari> 2. <日本語:にほんご:bahasa Jepang>を 3. <勉強する:べんきょうする:belajar> ] つもりです",
+    "jawaban": "まいにちにほんごをべんきょうする"
+  },
+  {
+    "lesson": "31",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <夏休み:なつやすみ:libur musim panas>に 2. <国:くに:negara>へ 3. <帰る:かえる:pulang> ] つもりです",
+    "jawaban": "なつやすみにくにへかえる"
+  }
+]

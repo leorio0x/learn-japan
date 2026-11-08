@@ -1,0 +1,65 @@
+[
+  {
+    "lesson": "44",
+    "kategori": "dokkai",
+    "dokkai": "<昨日:きのう:kemarin>、<妹:いもうと:adik perempuan>と<美容院:びよういん:salon>へ行きました。妹は<髪:かみ:rambut>を<切りたかった:きりたかった:ingin memotong>ようです。<美容師:びようし:penata rambut>さんに「どんな<髪型:かみがた:gaya rambut>にしますか」と<聞かれました:きかれました:ditanya>。妹は「<雑誌:ざっし:majalah>のモデルみたいにしてください」と<言いました:いいました:berkata>。それから、<一時間:いちじかん:satu jam>くらいかかりました。妹の<新しい:あたらしい:baru>髪型は、まるで<別:べつ:lain>の人のようです。妹は<鏡:かがみ:cermin>を<見て:みて:melihat>、<子供:こども:anak>みたいに<喜びました:よろこびました:senang>。わたしも<来月:らいげつ:bulan depan>、<少し:すこし:sedikit><短く:みじかく:pendek>してみたいです。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "昨日、どこへ行きましたか。",
+        "pilihan_jawaban": ["美容院", "病院", "学校", "会社"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "妹は何をしたかったですか。",
+        "pilihan_jawaban": [
+          "髪を切りたかった",
+          "髪を染めたかった",
+          "服を買いたかった",
+          "写真を撮りたかった"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "妹はどんな髪型にしましたか。",
+        "pilihan_jawaban": [
+          "雑誌のモデルみたいな髪型",
+          "子供みたいな髪型",
+          "男の子みたいな髪型",
+          "先生みたいな髪型"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "妹の新しい髪型はどうですか。",
+        "pilihan_jawaban": [
+          "まるで別の人のようです",
+          "とても短いです",
+          "少し変です",
+          "あまり変わっていません"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "妹はどうしましたか。",
+        "pilihan_jawaban": ["子供みたいに喜びました", "泣きました", "怒りました", "眠りました"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "わたしは来月何をしてみたいですか。",
+        "pilihan_jawaban": [
+          "少し短くしてみたい",
+          "パーマをかけてみたい",
+          "髪を長くしてみたい",
+          "髪を染めてみたい"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

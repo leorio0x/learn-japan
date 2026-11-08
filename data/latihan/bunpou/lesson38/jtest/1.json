@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "38",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. 聞く 2. 音楽を 3. のが ] 好きです。",
+    "jawaban": "おんがくをきくのが"
+  },
+  {
+    "lesson": "38",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "日本語を [1. のは 2. 毎日 3. 勉強する ] 楽しいです。",
+    "jawaban": "まいにちべんきょうするのは"
+  },
+  {
+    "lesson": "38",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "友達が [1. のを 2. 来る 3. 待っています ]。",
+    "jawaban": "くるのをまっています"
+  },
+  {
+    "lesson": "38",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. 育てる 2. 犬を 3. のが ] 好きです。",
+    "jawaban": "いぬをそだてるのが"
+  },
+  {
+    "lesson": "38",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "一人で [1. 旅行する 2. のが 3. 夏休みに ] 大好きです。",
+    "jawaban": "なつやすみにりょこうするのが"
+  },
+  {
+    "lesson": "38",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "母が [1. のを 2. 作った 3. 食べました ]。",
+    "jawaban": "つくったのをたべました"
+  }
+]

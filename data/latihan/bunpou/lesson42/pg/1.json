@@ -1,0 +1,106 @@
+[
+  {
+    "lesson": "42",
+    "kategori": "pilihan ganda",
+    "soal": "この包丁は 野菜を切る ___ 使います。",
+    "pilihan_jawaban": ["のに", "ために", "ように", "そうに"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "42",
+    "kategori": "pilihan ganda",
+    "soal": "このミキサーは 果物を ___ のに使います。",
+    "pilihan_jawaban": ["混ぜて", "混ぜる", "混ぜた", "混ぜます"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "42",
+    "kategori": "pilihan ganda",
+    "soal": "このはさみは 紙を ___ のに使います。",
+    "pilihan_jawaban": ["切って", "切った", "切る", "切ります"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "42",
+    "kategori": "pilihan ganda",
+    "soal": "はんこは 書類に名前を ___ に使います。",
+    "pilihan_jawaban": ["押す", "押して", "押すの", "押した"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "42",
+    "kategori": "pilihan ganda",
+    "soal": "このノートは 日本語を ___ に使います。",
+    "pilihan_jawaban": ["勉強して", "勉強するの", "勉強する", "勉強した"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "42",
+    "kategori": "pilihan ganda",
+    "soal": "家族 ___ ために、毎日働いています。",
+    "pilihan_jawaban": ["に", "の", "を", "で"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "42",
+    "kategori": "pilihan ganda",
+    "soal": "健康 ___ ために、毎朝歩いています。",
+    "pilihan_jawaban": ["に", "を", "の", "で"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "42",
+    "kategori": "pilihan ganda",
+    "soal": "この機械は 何 ___ 使いますか。",
+    "pilihan_jawaban": ["の", "を", "に", "で"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "42",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Pisau ini digunakan untuk memotong sayur.",
+    "pilihan_jawaban": [
+      "この包丁は野菜を切るのに使います",
+      "この包丁は野菜を切るために使います",
+      "この包丁は野菜を切るように使います",
+      "この包丁は野菜を切って使います"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "42",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya bekerja demi keluarga.",
+    "pilihan_jawaban": [
+      "家族のに働いています",
+      "家族をために働いています",
+      "家族のために働いています",
+      "家族でために働いています"
+    ],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "42",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n この箱は何に使いますか。",
+    "pilihan_jawaban": [
+      "Kotak ini ada di mana?",
+      "Kotak ini milik siapa?",
+      "Kotak ini digunakan untuk apa?",
+      "Kotak ini berapa harganya?"
+    ],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "42",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n このバッグは重い荷物を運ぶのに使います。",
+    "pilihan_jawaban": [
+      "Tas ini digunakan untuk membeli barang berat",
+      "Tas ini berisi barang berat",
+      "Tas ini digunakan untuk membawa barang berat",
+      "Tas ini dibuat dari barang berat"
+    ],
+    "jawaban_benar": "c"
+  }
+]

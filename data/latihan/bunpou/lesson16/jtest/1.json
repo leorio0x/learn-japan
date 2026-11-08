@@ -1,0 +1,58 @@
+[
+  {
+    "lesson": "16",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <朝:あさ:pagi> 2. <起きて:おきて:bangun> 3. シャワーを <浴びて:あびて:mandi> ] 会社へ 行きます",
+    "jawaban": "あさおきてしゃわーをあびて"
+  },
+  {
+    "lesson": "16",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. ごはんを <食べて:たべて:makan> 2. から 3. <学校:がっこう:sekolah>へ ] 行きます",
+    "jawaban": "ごはんをたべてからがっこうへ"
+  },
+  {
+    "lesson": "16",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<新宿:しんじゅく:Shinjuku>で [1. <電車:でんしゃ:kereta>を 2. <降りて:おりて:turun> 3. <地下鉄:ちかてつ:subway>に ] <乗り換えます:のりかえます:ganti>",
+    "jawaban": "でんしゃをおりてちかてつに"
+  },
+  {
+    "lesson": "16",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <家:いえ:rumah>から 2. <会社:かいしゃ:perusahaan>まで 3. どのくらい ] かかりますか",
+    "jawaban": "いえからかいしゃまでどのくらい"
+  },
+  {
+    "lesson": "16",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <銀行:ぎんこう:bank>で 2. お金を 3. <出して:だして:mengeluarkan> ] から 買い物を します",
+    "jawaban": "ぎんこうでおかねをだして"
+  },
+  {
+    "lesson": "16",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<東京:とうきょう:Tokyo>から <大阪:おおさか:Osaka>まで [1. <新幹線:しんかんせん:shinkansen>で 2. どのくらい 3. かかります ]か",
+    "jawaban": "しんかんせんでどのくらいかかります"
+  },
+  {
+    "lesson": "16",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <三番:さんばん:nomer tiga>の 2. <人:ひと:orang>は 3. <田中:たなか:Tanaka>さん ]です",
+    "jawaban": "さんばんのひとはたなかさん"
+  },
+  {
+    "lesson": "16",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <駅:えき:stasiun>で 2. バスを <降りて:おりて:turun> 3. <歩いて:あるいて:jalan kaki> ] <学校:がっこう:sekolah>へ 行きます",
+    "jawaban": "えきでばすをおりてあるいて"
+  }
+]

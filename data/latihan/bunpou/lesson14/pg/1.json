@@ -1,0 +1,115 @@
+[
+  {
+    "lesson": "14",
+    "kategori": "pilihan ganda",
+    "soal": "<窓:まど:jendela> を ___ ください。",
+    "pilihan_jawaban": ["開けて", "開けます", "開けた", "開けない"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "14",
+    "kategori": "pilihan ganda",
+    "soal": "<電気:でんき:lampu> を ___ ください。",
+    "pilihan_jawaban": ["消して", "消します", "消した", "消さない"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "14",
+    "kategori": "pilihan ganda",
+    "soal": "A: <暑い:あつい:panas> ですね。B: ええ、<エアコン:えあこん:AC> を ___。",
+    "pilihan_jawaban": ["つけましょうか", "つけますか", "つけました", "つけてください"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "14",
+    "kategori": "pilihan ganda",
+    "soal": "<今:いま:sekarang>、<田中:たなか:Tanaka>さんは <電話:でんわ:telepon> を ___。",
+    "pilihan_jawaban": ["かけています", "かけます", "かけてください", "かけました"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "14",
+    "kategori": "pilihan ganda",
+    "soal": "<すみません:すみません:permisi>、<駅:えき:stasiun> は どこですか。― ___ <行って:いって:pergi> ください。",
+    "pilihan_jawaban": ["まっすぐ", "ゆっくり", "すぐ", "また"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "14",
+    "kategori": "pilihan ganda",
+    "soal": "<友達:ともだち:teman> を <駅:えき:stasiun> で ___ います。",
+    "pilihan_jawaban": ["待って", "待ち", "待つ", "待た"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "14",
+    "kategori": "pilihan ganda",
+    "soal": "<荷物:にもつ:barang> を ___ ください。",
+    "pilihan_jawaban": ["持って", "持ち", "持つ", "持た"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "14",
+    "kategori": "pilihan ganda",
+    "soal": "<雨:あめ:hujan> が ___。",
+    "pilihan_jawaban": ["降っています", "降ります", "降ってください", "降りました"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "14",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Tolong buka jendela.",
+    "pilihan_jawaban": [
+      "窓を開けてください",
+      "窓を開けます",
+      "窓が開けてください",
+      "窓を開けないでください"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "14",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 駅で友達を待っています。",
+    "pilihan_jawaban": [
+      "Saya sedang menunggu teman di stasiun",
+      "Saya menunggu teman di sekolah",
+      "Saya akan menunggu teman di stasiun",
+      "Saya tidak menunggu teman di stasiun"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "14",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> が <手伝いましょうか:てつだいましょうか:mau membantu?>。",
+    "pilihan_jawaban": [
+      "Mau saya bantu?",
+      "Saya sudah membantu",
+      "Tolong bantu saya",
+      "Saya tidak bisa membantu"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "14",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<て形:てけい:bentuk te> \n あけます (Membuka)",
+    "pilihan_jawaban": ["あけて", "あけます", "あけた", "あけない"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "14",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<て形:てけい:bentuk te> \n まちます (Menunggu)",
+    "pilihan_jawaban": ["まって", "まちて", "まつて", "まった"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "14",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<て形:てけい:bentuk te> \n いそぎます (Buru-buru)",
+    "pilihan_jawaban": ["いそいで", "いそぎて", "いそいって", "いそいだ"],
+    "jawaban_benar": "a"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "lesson": "41",
+    "kategori": "dokkai",
+    "dokkai": "<先日:せんじつ:beberapa hari lalu>、わたしは<先生:せんせい:guru>に<日本語:にほんご:bahasa Jepang>の<本:ほん:buku>をいただきました。その本は<文法:ぶんぽう:tata bahasa>の<説明:せつめい:penjelasan>がとても<親切:しんせつ:ramah>でした。わたしは先生に<お礼:おれい:ucapan terima kasih>の<手紙:てがみ:surat>を<書きました:かきました:menulis>。そして、<妹:いもうと:adik perempuan>に<絵本:えほん:buku bergambar>をやりました。妹は絵本を<読んで:よんで:membaca>、とても<楽しそう:たのしそう:terlihat senang>でした。<母:はは:ibu>の<誕生日:たんじょうび:ulang tahun>には、<祖母:そぼ:nenek>がわたしに<花:はな:bunga>をくださいました。わたしはその花を母にあげました。母はとても<喜びました:よろこびました:senang>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "先日、だれに本をいただきましたか。",
+        "pilihan_jawaban": ["母", "先生", "妹", "祖母"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "その本はどうでしたか。",
+        "pilihan_jawaban": [
+          "文法の説明が親切でした",
+          "絵が多かったです",
+          "とても難しかったです",
+          "古かったです"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "わたしは先生に何を書きましたか。",
+        "pilihan_jawaban": ["お礼の手紙", "作文", "日記", "メール"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "妹に何をやりましたか。",
+        "pilihan_jawaban": ["花", "本", "絵本", "お菓子"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "祖母はわたしに何をくださいましたか。",
+        "pilihan_jawaban": ["花", "絵本", "本", "お年玉"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "わたしは花をどうしましたか。",
+        "pilihan_jawaban": ["母にあげました", "妹にあげました", "先生にあげました", "自分で使いました"],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

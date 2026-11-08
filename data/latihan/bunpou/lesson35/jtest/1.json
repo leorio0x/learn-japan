@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "35",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<春:はる:musim semi>に なると、[1. <花:はな:bunga>が 2. <咲きます:さきます:mekar> ]",
+    "jawaban": "はながさきます"
+  },
+  {
+    "lesson": "35",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <お金:おかね:uang>が 2. あれば 3. <旅行:りょこう:perjalanan>します ]",
+    "jawaban": "おかねがあればりょこうします"
+  },
+  {
+    "lesson": "35",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "この [1. ボタン 2. を 3. <押す:おす:menekan> ] と <ドア:どあ:pintu>が <開きます:あきます:terbuka>",
+    "jawaban": "ぼたんをおす"
+  },
+  {
+    "lesson": "35",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<明日:あした:besok> [1. <雨:あめ:hujan>が 2. <降ったら:ふったら:hujan turun> 3. <行きません:いきません:tidak pergi> ]",
+    "jawaban": "あめがふったらいきません"
+  },
+  {
+    "lesson": "35",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<日本語:にほんご:bahasa Jepang>が [1. <分かる:わかる:mengerti> 2. なら 3. この <本:ほん:buku>が <いい:いい:bagus> ] です",
+    "jawaban": "わかるならこのほんがいい"
+  },
+  {
+    "lesson": "35",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "A: <駅:えき:stasiun>へ どうやって 行きますか。B: この <道:みち:jalan>を [1. まっすぐ 2. <行く:いく:pergi> 3. と ] <着きます:つきます:tiba>",
+    "jawaban": "まっすぐいくと"
+  }
+]

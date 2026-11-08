@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "46",
+    "kategori": "bintang",
+    "soal": "わたしは ___ ___ ★ ___ です。",
+    "pilihan_jawaban": ["昼ご飯を", "食べた", "今", "ばかり"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "46",
+    "kategori": "bintang",
+    "soal": "これから ___ ___ ★ ___ です。",
+    "pilihan_jawaban": ["出かける", "すぐに", "支度をして", "ところ"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "46",
+    "kategori": "bintang",
+    "soal": "ちょうど今、___ ___ ★ ___ です。",
+    "pilihan_jawaban": ["駅に", "やっと", "着いた", "ところ"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "46",
+    "kategori": "bintang",
+    "soal": "わたしは ___ ___ ★ ___ です。",
+    "pilihan_jawaban": ["日本に", "来た", "先週", "ばかり"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "46",
+    "kategori": "bintang",
+    "soal": "今、___ ___ ★ ___ です。",
+    "pilihan_jawaban": ["作っている", "資料を", "会議の", "ところ"],
+    "jawaban_benar": "a"
+  }
+]

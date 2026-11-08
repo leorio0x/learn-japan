@@ -1,0 +1,55 @@
+[
+  {
+    "lesson": "50",
+    "kategori": "dokkai",
+    "dokkai": "<拝啓:はいけい:dengan hormat> <田中:たなか:Tanaka>様 <毎日:まいにち:setiap hari><寒く:さむく:dingin>なってまいりましたが、お<元気:げんき:sehat>でいらっしゃいますか。わたしは<先月:せんげつ:bulan lalu>から<東京:とうきょう:Tokyo>の<会社:かいしゃ:perusahaan>で<働いて:はたらいて:kerja>おります。こちらでの<生活:せいかつ:kehidupan>にもだいぶ<慣れました:なれました:terbiasa>。<先日:せんじつ:beberapa hari lalu>、<休み:やすみ:libur>の<日:ひ:hari>に<郊外:こうがい:pinggiran kota>にある<公園:こうえん:taman>へ<行きました:いきました:pergi>。そこでは<家族:かぞく:keluarga>が<楽しそう:たのしそう:terlihat senang>に<遊んで:あそんで:bermain>いました。わたしも<早く:はやく:cepat><家族:かぞく:keluarga>に<会いたい:あいたい:ingin bertemu>です。また、<近いうちに:ちかいうちに:dalam waktu dekat><お目にかかりたい:おめにかかりたい:ingin bertemu>と<存じて:ぞんじて:berpikir>おります。どうぞ、ご<家族:かぞく:keluarga>の<皆様:みなさま:semuanya>にもよろしくお<伝え:つたえ:sampaikan>ください。<敬具:けいぐ:hormat saya> <田中:たなか:Tanaka>より",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "手紙の書き出しは何ですか。",
+        "pilihan_jawaban": ["拝啓", "敬具", "こんにちは", "お元気ですか"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "わたしはいつから東京の会社で働いていますか。",
+        "pilihan_jawaban": ["去年から", "先月から", "今月から", "来月から"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "先日、どこへ行きましたか。",
+        "pilihan_jawaban": ["東京の会社", "先生の家", "郊外の公園", "海"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "公園で何が見えましたか。",
+        "pilihan_jawaban": [
+          "友達が勉強している",
+          "会社員が働いている",
+          "誰もいない",
+          "家族が楽しそうに遊んでいる"
+        ],
+        "jawaban_benar": "d"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "わたしは今、何をしたいと思っていますか。",
+        "pilihan_jawaban": [
+          "早く国へ帰りたい",
+          "早く家族に会いたい",
+          "早く結婚したい",
+          "早く仕事を辞めたい"
+        ],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "手紙の最後に何と書いてありますか。",
+        "pilihan_jawaban": ["拝啓", "ありがとう", "敬具", "さようなら"],
+        "jawaban_benar": "c"
+      }
+    ]
+  }
+]

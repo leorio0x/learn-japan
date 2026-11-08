@@ -1,0 +1,75 @@
+[
+  {
+    "lesson": "34",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんは <新しい:あたらしい:baru> <本棚:ほんだな:rak buku> を <買いました:かいました:membeli>。<本棚:ほんだな:rak buku> は <自分:じぶん:sendiri> で <組み立て:くみたて:merakit> ます。<田中:たなか:Tanaka>さんは <説明書:せつめいしょ:buku petunjuk> を よく <読んで:よんで:membaca> から、<説明書:せつめいしょ:buku petunjuk> に <書いて:かいて:tertulis> ある <とおりに:とおりに:sesuai> <組み立てました:くみたてました:merakit>。\n\nまず、<図:ず:gambar> の とおりに <線:せん:garis> を <引いて:ひいて:menarik>、<部品:ぶひん:komponen> を <並べました:ならべました:menjajarkan>。それから、<矢印:やじるし:tanda panah> の とおりに <組み立てました:くみたてました:merakit>。<組み立てた:くみたてた:merakit> あとで、<本棚:ほんだな:rak buku> に <本:ほん:buku> を <載せました:のせました:menaruh>。\n\n<マリア:まりあ:Maria>さんは「<上手:じょうず:pandai> に <できました:できました:berhasil> ね」と <言いました:いいました:berkata>。<田中:たなか:Tanaka>さんは「<説明書:せつめいしょ:buku petunjuk> の とおりに <したら:したら:melakukan>、<簡単:かんたん:mudah> でした」と <言いました:いいました:berkata>。\n\nその <あとで:あとで:setelah itu>、ふたりは <一緒:いっしょ:bersama> に ごはんを <作りました:つくりました:membuat>。<田中:たなか:Tanaka>さんは レシピの とおりに <材料:ざいりょう:bahan> を <入れて:いれて:memasukkan>、<料理:りょうり:masakan> を <作りました:つくりました:membuat>。ごはんを <食べた:たべた:makan> あとで、<二人:ふたり:dua orang> は お<茶:ちゃ:teh> を <飲みました:のみました:minum>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <何:なに:apa> を <買いました:かいました:membeli> か。",
+        "pilihan_jawaban": [
+          "<新しい:あたらしい:baru> <本棚:ほんだな:rak buku>",
+          "<新しい:あたらしい:baru> <机:つくえ:meja>",
+          "<新しい:あたらしい:baru> <いす:いす:kursi>",
+          "<新しい:あたらしい:baru> カレンダー"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは どうやって <本棚:ほんだな:rak buku> を <組み立てました:くみたてました:merakit> か。",
+        "pilihan_jawaban": [
+          "<説明書:せつめいしょ:buku petunjuk> に <書いて:かいて:tertulis> ある とおりに <組み立てました:くみたてました:merakit>",
+          "<自分:じぶん:sendiri> の <好き:すき:suka> な ように <組み立てました:くみたてました:merakit>",
+          "<マリア:まりあ:Maria>さんに <聞いて:きいて:bertanya> から <組み立てました:くみたてました:merakit>",
+          "<図:ず:gambar> を <見ないで:みないで:tidak melihat> <組み立てました:くみたてました:merakit>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "まず <何:なに:apa> を しましたか。",
+        "pilihan_jawaban": [
+          "<図:ず:gambar> の とおりに <線:せん:garis> を <引いて:ひいて:menarik>、<部品:ぶひん:komponen> を <並べました:ならべました:menjajarkan>",
+          "<本棚:ほんだな:rak buku> に <本:ほん:buku> を <載せました:のせました:menaruh>",
+          "ごはんを <作りました:つくりました:membuat>",
+          "お<茶:ちゃ:teh> を <飲みました:のみました:minum>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<本棚:ほんだな:rak buku> を <組み立てた:くみたてた:merakit> あとで <何:なに:apa> を しましたか。",
+        "pilihan_jawaban": [
+          "<本棚:ほんだな:rak buku> に <本:ほん:buku> を <載せました:のせました:menaruh>",
+          "<本棚:ほんだな:rak buku> を <売りました:うりました:menjual>",
+          "<本棚:ほんだな:rak buku> を <壊しました:こわしました:merusak>",
+          "<本棚:ほんだな:rak buku> を <戻しました:もどしました:mengembalikan>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは どうして <簡単:かんたん:mudah> に <できました:できました:berhasil> か。",
+        "pilihan_jawaban": [
+          "<説明書:せつめいしょ:buku petunjuk> の とおりに <した:した:melakukan> から",
+          "<マリア:まりあ:Maria>さんが <手伝った:てつだった:membantu> から",
+          "<本棚:ほんだな:rak buku> が <小さかった:ちいさかった:kecil> から",
+          "<工具:こうぐ:alat> が <新しかった:あたらしかった:baru> から"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "ごはんを <食べた:たべた:makan> あとで <何:なに:apa> を しましたか。",
+        "pilihan_jawaban": [
+          "お<茶:ちゃ:teh> を <飲みました:のみました:minum>",
+          "<本:ほん:buku> を <読みました:よみました:membaca>",
+          "<散歩:さんぽ:jalan-jalan> に <行きました:いきました:pergi>",
+          "<寝ました:ねました:tidur>"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

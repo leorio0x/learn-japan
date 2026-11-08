@@ -1,0 +1,106 @@
+[
+  {
+    "lesson": "39",
+    "kategori": "pilihan ganda",
+    "soal": "<風邪:かぜ:flu>を引い ___ 、学校を休みました。",
+    "pilihan_jawaban": ["て", "で", "ので", "ために"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "39",
+    "kategori": "pilihan ganda",
+    "soal": "<病気:びょうき:sakit>___ 、会社を休みました。",
+    "pilihan_jawaban": ["て", "で", "ので", "ために"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "39",
+    "kategori": "pilihan ganda",
+    "soal": "<忙しい:いそがしい:sibuk>___ 、パーティーに行けません。",
+    "pilihan_jawaban": ["て", "で", "ので", "ために"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "39",
+    "kategori": "pilihan ganda",
+    "soal": "<雨:あめ:hujan>が降っている ___ 、試合が中止になりました。",
+    "pilihan_jawaban": ["て", "で", "ので", "ために"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "39",
+    "kategori": "pilihan ganda",
+    "soal": "<事故:じこ:kecelakaan>___ 、電車が遅れました。",
+    "pilihan_jawaban": ["て", "で", "ので", "ために"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "39",
+    "kategori": "pilihan ganda",
+    "soal": "<地震:じしん:gempa>___ 、ビルが倒れました。",
+    "pilihan_jawaban": ["て", "で", "ので", "ために"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "39",
+    "kategori": "pilihan ganda",
+    "soal": "田中さんは<熱:ねつ:demam>がある ___ 、早退しました。",
+    "pilihan_jawaban": ["て", "で", "ので", "ために"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "39",
+    "kategori": "pilihan ganda",
+    "soal": "<台風:たいふう:topan>___ 、飛行機が飛びませんでした。",
+    "pilihan_jawaban": ["て", "で", "ので", "ために"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "39",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Karena hujan, saya tidak pergi.",
+    "pilihan_jawaban": [
+      "雨が降ったので、行きませんでした",
+      "雨が降っても、行きませんでした",
+      "雨が降るために、行きませんでした",
+      "雨が降って、行きました"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "39",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 遅刻したために、先生に注意されました。",
+    "pilihan_jawaban": [
+      "Karena terlambat, saya diperingatkan guru",
+      "Meskipun terlambat, saya dipuji guru",
+      "Karena guru terlambat, saya diperingatkan",
+      "Saya terlambat karena diperingatkan guru"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "39",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 彼は病気で、お見合いに行けませんでした。",
+    "pilihan_jawaban": [
+      "Dia tidak bisa pergi pertemuan perjodohan karena sakit",
+      "Dia pergi pertemuan perjodohan meskipun sakit",
+      "Dia sakit karena pertemuan perjodohan",
+      "Dia tidak sakit, jadi pergi"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "39",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 火事で、家が焼けました。",
+    "pilihan_jawaban": [
+      "Rumah terbakar karena kebakaran",
+      "Rumah dibangun karena kebakaran",
+      "Kebakaran terjadi karena rumah terbakar",
+      "Rumah tidak terbakar"
+    ],
+    "jawaban_benar": "a"
+  }
+]

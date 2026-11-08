@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "41",
+    "kategori": "bintang",
+    "soal": "わたしは ___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["辞書を", "先生に", "いただき", "ました"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "41",
+    "kategori": "bintang",
+    "soal": "先生は ___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["本を", "ください", "わたしに", "ました"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "41",
+    "kategori": "bintang",
+    "soal": "わたしは ___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["えさを", "犬に", "やり", "ました"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "41",
+    "kategori": "bintang",
+    "soal": "祖母は ___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["お年玉を", "ください", "わたしに", "ました"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "41",
+    "kategori": "bintang",
+    "soal": "田中さんは 後輩に ___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["三冊", "本を", "やり", "ました"],
+    "jawaban_benar": "c"
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "lesson": "23",
+    "kategori": "pilihan ganda",
+    "soal": "<子供:こども:anak> の ___、よく <川:かわ:sungai> で <泳ぎました:およぎました:berenang>。",
+    "pilihan_jawaban": ["とき", "ときに", "ときは", "時で"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "23",
+    "kategori": "pilihan ganda",
+    "soal": "<日本:にほん:Jepang> へ ___ とき、たくさん <写真:しゃしん:foto> を <撮りました:とりました:mengambil>。",
+    "pilihan_jawaban": ["行きます", "行った", "行って", "行き"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "23",
+    "kategori": "pilihan ganda",
+    "soal": "ごはんを ___ とき、「いただきます」と <言います:いいます:berkata>。",
+    "pilihan_jawaban": ["食べた", "食べる", "食べます", "食べて"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "23",
+    "kategori": "pilihan ganda",
+    "soal": "この ボタンを ___ と、<お湯:おゆ:air panas> が <出ます:でます:keluar>。",
+    "pilihan_jawaban": ["押します", "押す", "押して", "押した"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "23",
+    "kategori": "pilihan ganda",
+    "soal": "まっすぐ ___ と、<駅:えき:stasiun> が あります。",
+    "pilihan_jawaban": ["行きます", "行く", "行って", "行った"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "23",
+    "kategori": "pilihan ganda",
+    "soal": "<信号:しんごう:lampu lalu lintas> を <右:みぎ:kanan> へ ___ と、<郵便局:ゆうびんきょく:kantor pos> が <見えます:みえます:terlihat>。",
+    "pilihan_jawaban": ["曲がります", "曲がる", "曲がって", "曲がった"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "23",
+    "kategori": "pilihan ganda",
+    "soal": "<道:みち:jalan> を ___ とき、<車:くるま:mobil> に <気を付けます:きをつけます:berhati-hati>。",
+    "pilihan_jawaban": ["渡った", "渡る", "渡ります", "渡って"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "23",
+    "kategori": "pilihan ganda",
+    "soal": "<日本:にほん:Jepang> で ___ とき、いつも この <辞書:じしょ:kamus> を <使います:つかいます:memakai>。",
+    "pilihan_jawaban": ["勉強する", "勉強した", "勉強します", "勉強して"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "23",
+    "kategori": "pilihan ganda",
+    "soal": "あの <交差点:こうさてん:perempatan> を <左:ひだり:kiri> へ ___ と、<銀行:ぎんこう:bank> が あります。",
+    "pilihan_jawaban": ["曲がります", "曲がる", "曲がった", "曲がって"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "23",
+    "kategori": "pilihan ganda",
+    "soal": "<故障:こしょう:kerusakan> の ___、この <機械:きかい:mesin> は <動きません:うごきません:tidak bergerak>。",
+    "pilihan_jawaban": ["ときに", "とき", "時で", "ときは"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "23",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Ketika saya kecil, saya sering bermain di taman.",
+    "pilihan_jawaban": [
+      "子供のとき、よく公園で遊びました",
+      "子供のとき、よく公園を遊びました",
+      "子供ときに、よく公園で遊びました",
+      "子供のとき、よく公園で遊びます"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "23",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Kalau menekan tombol ini, air panas keluar.",
+    "pilihan_jawaban": [
+      "このボタンを押すと、お湯が出ます",
+      "このボタンを押すとき、お湯が出ます",
+      "このボタンを押したら、お湯を出ます",
+      "このボタンを押すと、お湯を出ます"
+    ],
+    "jawaban_benar": "a"
+  }
+]

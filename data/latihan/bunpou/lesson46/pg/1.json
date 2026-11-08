@@ -1,0 +1,106 @@
+[
+  {
+    "lesson": "46",
+    "kategori": "pilihan ganda",
+    "soal": "わたしは 今、昼ご飯を 食べた ___ です。",
+    "pilihan_jawaban": ["ばかり", "ところ", "ように", "ために"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "46",
+    "kategori": "pilihan ganda",
+    "soal": "ちょうど 今、駅に 着いた ___ です。",
+    "pilihan_jawaban": ["ばかり", "ところ", "ように", "ために"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "46",
+    "kategori": "pilihan ganda",
+    "soal": "これから 出かける ___ です。",
+    "pilihan_jawaban": ["ばかり", "ところ", "ように", "ために"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "46",
+    "kategori": "pilihan ganda",
+    "soal": "今、資料を 作っている ___ です。",
+    "pilihan_jawaban": ["ばかり", "ところ", "ように", "ために"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "46",
+    "kategori": "pilihan ganda",
+    "soal": "たった今、先生に 電話を かけた ___ です。",
+    "pilihan_jawaban": ["ばかり", "ところ", "ように", "ために"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "46",
+    "kategori": "pilihan ganda",
+    "soal": "わたしは 先週、日本に 来た ___ です。",
+    "pilihan_jawaban": ["ばかり", "ところ", "ように", "ために"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "46",
+    "kategori": "pilihan ganda",
+    "soal": "これから 会議が 始まる ___ です。",
+    "pilihan_jawaban": ["ばかり", "ところ", "ように", "ために"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "46",
+    "kategori": "pilihan ganda",
+    "soal": "さっき、メールを 送った ___ です。",
+    "pilihan_jawaban": ["ばかり", "ところ", "ように", "ために"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "46",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya baru saja makan.",
+    "pilihan_jawaban": [
+      "今、食べたばかりです",
+      "今から食べるところです",
+      "今、食べているところです",
+      "今、食べようとしています"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "46",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya akan makan sekarang.",
+    "pilihan_jawaban": [
+      "今から食べるところです",
+      "今、食べたばかりです",
+      "今、食べているところです",
+      "今、食べたいです"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "46",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya baru saja selesai makan.",
+    "pilihan_jawaban": [
+      "たった今、食べたところです",
+      "今から食べるところです",
+      "今、食べています",
+      "これから食べたいです"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "46",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 日本に来たばかりで、まだ一か月です。",
+    "pilihan_jawaban": [
+      "Saya baru datang ke Jepang, masih satu bulan",
+      "Saya sudah lama tinggal di Jepang",
+      "Saya akan datang ke Jepang bulan depan",
+      "Saya tidak datang ke Jepang"
+    ],
+    "jawaban_benar": "a"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "17",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["私は", "毎日", "薬を", "飲まなければ", "なりません"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "17",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["あしたは", "本当に", "会社へ", "来なくても", "いいです"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "17",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["美術館の", "中では", "写真を", "撮らないで", "ください"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "17",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["あしたの", "会議までに", "資料を", "読んで", "おきます"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "17",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["田中さんは", "今日", "とても", "頭が", "痛いです"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "17",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["今日は", "風邪ですから", "お風呂に", "入らないで", "ください"],
+    "jawaban_benar": "d"
+  }
+]

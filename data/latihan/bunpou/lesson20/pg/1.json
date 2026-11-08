@@ -1,0 +1,122 @@
+[
+  {
+    "lesson": "20",
+    "kategori": "pilihan ganda",
+    "soal": "<明日:あした:besok> は <雨:あめ:hujan> が ___ と 思います。",
+    "pilihan_jawaban": ["降る", "降ります", "降って", "降り"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "20",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka>さんは <来週:らいしゅう:minggu depan> <日本:にほん:Jepang> へ ___ と <言いました:いいました:berkata>。",
+    "pilihan_jawaban": ["行く", "行きます", "行って", "行き"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "20",
+    "kategori": "pilihan ganda",
+    "soal": "この <漢字:かんじ:kanji> の <読み方:よみかた:cara baca> を ___ と 思いますか。",
+    "pilihan_jawaban": ["知っています", "知っている", "知ります", "知って"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "20",
+    "kategori": "pilihan ganda",
+    "soal": "A: どうして <遅れました:おくれました:terlambat> か。B: <電車:でんしゃ:kereta> が ___ んです。",
+    "pilihan_jawaban": ["遅れた", "遅れます", "遅れて", "遅れ"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "20",
+    "kategori": "pilihan ganda",
+    "soal": "A: <元気:げんき:sehat> そうですね。B: ええ、<毎朝:まいあさ:setiap pagi> ジョギングを して ___ んです。",
+    "pilihan_jawaban": ["いる", "います", "いて", "い"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "20",
+    "kategori": "pilihan ganda",
+    "soal": "<すみません:すみません:permisi>、<駅:えき:stasiun> へ <行きたい:いきたい:ingin pergi> ___ が、どこですか。",
+    "pilihan_jawaban": ["んです", "ます", "ました", "て"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "20",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka>さんは <明日:あした:besok> <来ない:こない:tidak datang> ___ 思います。",
+    "pilihan_jawaban": ["と", "を", "が", "に"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "20",
+    "kategori": "pilihan ganda",
+    "soal": "<明日:あした:besok> は <学校:がっこう:sekolah> へ ___ と 思います。",
+    "pilihan_jawaban": ["行かない", "行きません", "行かないです", "行きませんでした"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "20",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya pikir dia orang Jepang.",
+    "pilihan_jawaban": [
+      "彼は日本人だと思います",
+      "彼は日本人と思います",
+      "彼は日本人ですと思います",
+      "彼は日本人だと思いました"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "20",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Mengapa Anda terlambat?",
+    "pilihan_jawaban": [
+      "どうして遅れたんですか",
+      "どうして遅れますか",
+      "どうして遅れたですか",
+      "どうして遅れるですか"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "20",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 先生は「おはよう」と言いました。",
+    "pilihan_jawaban": [
+      "Guru berkata \"selamat pagi\"",
+      "Guru berkata \"selamat malam\"",
+      "Guru bertanya \"apa kabar?\"",
+      "Guru berkata \"selamat tinggal\""
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "20",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke <普通形:ふつうけい:bentuk biasa> \n たべます (Makan)",
+    "pilihan_jawaban": ["たべる", "たべます", "たべて", "たべた"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "20",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke <普通形:ふつうけい:bentuk biasa> \n いきません (Tidak pergi)",
+    "pilihan_jawaban": ["いかない", "いきません", "いって", "いった"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "20",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke <普通形:ふつうけい:bentuk biasa> \n きれいです (Bersih/cantik)",
+    "pilihan_jawaban": ["きれいだ", "きれいです", "きれく", "きれいに"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "20",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke <普通形:ふつうけい:bentuk biasa> \n がくせいです (Pelajar)",
+    "pilihan_jawaban": ["がくせいだ", "がくせいです", "がくせいな", "がくせいに"],
+    "jawaban_benar": "a"
+  }
+]

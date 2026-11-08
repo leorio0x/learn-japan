@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "20",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["明日は", "雨が", "降る", "と", "思います"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "20",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["田中さんは", "来週", "日本へ", "行く", "と言いました"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "20",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["田中さんは", "今日", "どうして", "遅れた", "んですか"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "20",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["私は", "彼は", "日本人だ", "と", "思います"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "20",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["すみません", "駅へ", "行きたい", "んですが", "どこですか"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "20",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["田中さんは", "毎朝", "ジョギングを", "して", "いるんです"],
+    "jawaban_benar": "d"
+  }
+]

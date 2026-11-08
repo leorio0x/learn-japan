@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "49",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "どうぞ [1. ください 2. お 3. 座り ]。",
+    "jawaban": "おすわりください"
+  },
+  {
+    "lesson": "49",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "先生に [1. いただきました 2. 日本語を 3. 教えて ]。",
+    "jawaban": "にほんごをおしえていただきました"
+  },
+  {
+    "lesson": "49",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "こちらが [1. ございます 2. 受付 3. で ]。",
+    "jawaban": "うけつけでございます"
+  },
+  {
+    "lesson": "49",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "ただ今 [1. おります 2. 資料を 3. 用意して ]。",
+    "jawaban": "しりょうをよういしております"
+  },
+  {
+    "lesson": "49",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "どうぞ [1. 召し上がって 2. 遠慮なく 3. ください ]。",
+    "jawaban": "えんりょなくめしあがってください"
+  },
+  {
+    "lesson": "49",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "私は [1. 申します 2. 田中 3. と ]。",
+    "jawaban": "たなかともうします"
+  }
+]

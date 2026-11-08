@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "50",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "社長は今 [1. いらっしゃいます 2. 会議室に 3. たぶん ]。",
+    "jawaban": "たぶんかいぎしつにいらっしゃいます"
+  },
+  {
+    "lesson": "50",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "先生は何時に [1. なります 2. お帰りに 3. か ]。",
+    "jawaban": "なんじにおかえりになりますか"
+  },
+  {
+    "lesson": "50",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "私が [1. いたします 2. ご案内 3. すぐに ]。",
+    "jawaban": "すぐにごあんないいたします"
+  },
+  {
+    "lesson": "50",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "私は [1. 申します 2. 田中 3. と ]。",
+    "jawaban": "たなかともうします"
+  },
+  {
+    "lesson": "50",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "明日 [1. 伺います 2. 先生のお宅に 3. 午後 ]。",
+    "jawaban": "ごごせんせいのおたくにうかがいます"
+  },
+  {
+    "lesson": "50",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "どうぞ [1. ください 2. お 3. 召し上がり ]。",
+    "jawaban": "おめしあがりください"
+  }
+]

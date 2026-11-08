@@ -1,0 +1,70 @@
+[
+  {
+    "lesson": "18",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんの <趣味:しゅみ:hobi> は <写真:しゃしん:foto> を <撮る:とる:mengambil> ことです。<田中:たなか:Tanaka>さんは <上手:じょうず:pandai> に <写真:しゃしん:foto> を 撮る ことが できます。<休み:やすみ:libur> の <日:ひ:hari> は いつも <山:やま:gunung> へ <行きます:いきます:pergi>。\n\n<山:やま:gunung> の <上:うえ:atas> から きれいな <海:うみ:laut> が <見えます:みえます:terlihat>。<静か:しずか:tenang> ですから、<鳥:とり:burung> の <声:こえ:suara> も よく <聞こえます:きこえます:terdengar>。<田中:たなか:Tanaka>さんは <写真:しゃしん:foto> を <撮る:とる:mengambil> <前:まえ:sebelum> に、いつも <飲み物:のみもの:minuman> と <お弁当:おべんとう:bento> を <買って:かって:membeli> おきます。\n\nでも、<最近:さいきん:akhir-akhir ini> は <仕事:しごと:pekerjaan> が <忙しい:いそがしい:sibuk> ですから、なかなか <山:やま:gunung> へ <行く:いく:pergi> ことが できません。<田中:たなか:Tanaka>さんは「<時間:じかん:waktu> が あったら、また <山:やま:gunung> へ <行きたい:いきたい:ingin pergi> です」と <言いました:いいました:berkata>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka>さんの <趣味:しゅみ:hobi> は 何ですか。",
+        "pilihan_jawaban": [
+          "<写真:しゃしん:foto> を <撮る:とる:mengambil> こと",
+          "<山:やま:gunung> に <登る:のぼる:mendaki> こと",
+          "<歌:うた:lagu> を <歌う:うたう:menyanyi> こと",
+          "<料理:りょうり:masakan> を <作る:つくる:membuat> こと"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <写真:しゃしん:foto> を 撮る ことが できますか。",
+        "pilihan_jawaban": [
+          "はい、<上手:じょうず:pandai> に 撮る ことが できます",
+          "いいえ、できません",
+          "はい、少しだけ できます",
+          "いいえ、ぜんぜん できません"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<山:やま:gunung> の <上:うえ:atas> から 何が <見えます:みえます:terlihat> か。",
+        "pilihan_jawaban": ["きれいな <海:うみ:laut>", "きれいな <町:まち:kota>", "<大きな:おおきな:besar> <お寺:おてら:kuil>", "<高い:たかい:tinggi> ビル"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <写真:しゃしん:foto> を <撮る:とる:mengambil> <前:まえ:sebelum> に 何を しますか。",
+        "pilihan_jawaban": [
+          "<飲み物:のみもの:minuman> と <お弁当:おべんとう:bento> を <買って:かって:membeli> おきます",
+          "<写真:しゃしん:foto> を 撮ります",
+          "<家:いえ:rumah> へ <帰ります:かえります:pulang>",
+          "<友達:ともだち:teman> を <待ちます:まちます:menunggu>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<最近:さいきん:akhir-akhir ini>、<田中:たなか:Tanaka>さんは <山:やま:gunung> へ <行く:いく:pergi> ことが できますか。",
+        "pilihan_jawaban": [
+          "いいえ、なかなか できません",
+          "はい、いつも <行きます:いきます:pergi>",
+          "はい、<毎日:まいにち:setiap hari> <行きます:いきます:pergi>",
+          "いいえ、ぜんぜん <山:やま:gunung> が <好き:すき:suka> ではありません"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは どうしたいですか。",
+        "pilihan_jawaban": [
+          "また <山:やま:gunung> へ <行きたい:いきたい:ingin pergi> です",
+          "<仕事:しごと:pekerjaan> を <辞めたい:やめたい:ingin berhenti> です",
+          "<写真:しゃしん:foto> を やめたいです",
+          "<海:うみ:laut> へ <行きたくない:いきたくない:tidak ingin pergi> です"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

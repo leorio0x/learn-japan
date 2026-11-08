@@ -1,0 +1,110 @@
+[
+  {
+    "lesson": "15",
+    "kategori": "pilihan ganda",
+    "soal": "ここに <座っても:すわっても:duduk> ___ ですか。",
+    "pilihan_jawaban": ["いいです", "いけません", "ください", "います"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "15",
+    "kategori": "pilihan ganda",
+    "soal": "<写真:しゃしん:foto> を <撮っても:とっても:mengambil> ___ ですか。― ええ、いいですよ。",
+    "pilihan_jawaban": ["いいです", "いけません", "ください", "います"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "15",
+    "kategori": "pilihan ganda",
+    "soal": "ここで タバコを <吸っては:すっては:merokok> ___。",
+    "pilihan_jawaban": ["いけません", "いいです", "ください", "います"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "15",
+    "kategori": "pilihan ganda",
+    "soal": "<窓:まど:jendela> が <開けて:あけて:membuka> ___。",
+    "pilihan_jawaban": ["あります", "います", "いきます", "ください"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "15",
+    "kategori": "pilihan ganda",
+    "soal": "<会議:かいぎ:rapat> の <資料:しりょう:materi> は もう コピーして ___。",
+    "pilihan_jawaban": ["あります", "います", "おきます", "ください"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "15",
+    "kategori": "pilihan ganda",
+    "soal": "あした <友達:ともだち:teman> が 来ますから、ビールを <買って:かって:membeli> ___。",
+    "pilihan_jawaban": ["おきます", "あります", "います", "ください"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "15",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka>さんは <東京:とうきょう:Tokyo> に <住んで:すんで:tinggal> ___。",
+    "pilihan_jawaban": ["います", "あります", "ください", "おきます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "15",
+    "kategori": "pilihan ganda",
+    "soal": "ここで <待っても:まっても:menunggu> いいですか。― いいえ、___。",
+    "pilihan_jawaban": ["いけません", "いいです", "ください", "います"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "15",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka>さんの <住所:じゅうしょ:alamat> を <知って:しって:tahu> いますか。― いいえ、___。",
+    "pilihan_jawaban": ["知りません", "知っていません", "知ります", "知りませんでした"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "15",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n (Saya) boleh memakai kamus ini.",
+    "pilihan_jawaban": [
+      "この辞書を使ってもいいです",
+      "この辞書を使ってはいけません",
+      "この辞書を使ってください",
+      "この辞書を使っています"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "15",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Jangan makan di sini.",
+    "pilihan_jawaban": [
+      "ここで食べてはいけません",
+      "ここで食べてもいいです",
+      "ここで食べてください",
+      "ここで食べています"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "15",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<て形:てけい:bentuk te> \n つかいます (Memakai)",
+    "pilihan_jawaban": ["つかって", "つかいて", "つかいた", "つかった"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "15",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<て形:てけい:bentuk te> \n よびます (Memanggil)",
+    "pilihan_jawaban": ["よんで", "よびて", "よんだ", "よばない"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "15",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<て形:てけい:bentuk te> \n つくります (Membuat)",
+    "pilihan_jawaban": ["つくって", "つくりて", "つくった", "つくらない"],
+    "jawaban_benar": "a"
+  }
+]

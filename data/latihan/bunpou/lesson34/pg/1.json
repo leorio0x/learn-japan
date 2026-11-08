@@ -1,0 +1,101 @@
+[
+  {
+    "lesson": "34",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> が <言う:いう:berkata> ___ に して ください。",
+    "pilihan_jawaban": ["とおり", "どおり", "ところ", "あと"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "34",
+    "kategori": "pilihan ganda",
+    "soal": "<説明書:せつめいしょ:buku petunjuk> に <書いて:かいて:tertulis> ある ___ に <組み立てました:くみたてました:merakit>。",
+    "pilihan_jawaban": ["とおり", "どおり", "ところ", "あと"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "34",
+    "kategori": "pilihan ganda",
+    "soal": "<図:ず:gambar> の ___ に <線:せん:garis> を <引いて:ひいて:menarik> ください。",
+    "pilihan_jawaban": ["とおり", "どおり", "ところ", "あと"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "34",
+    "kategori": "pilihan ganda",
+    "soal": "ごはんを <食べた:たべた:makan> ___、<薬:くすり:obat> を <飲みます:のみます:minum>。",
+    "pilihan_jawaban": ["あとで", "まえに", "とき", "ながら"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "34",
+    "kategori": "pilihan ganda",
+    "soal": "<仕事:しごと:pekerjaan> が ___ あとで、<家:いえ:rumah> へ <帰ります:かえります:pulang>。",
+    "pilihan_jawaban": ["終わった", "終わる", "終わって", "終わり"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "34",
+    "kategori": "pilihan ganda",
+    "soal": "<先生:せんせい:guru> の <言う:いう:berkata> ___ に <書いて:かいて:menulis> ください。",
+    "pilihan_jawaban": ["とおり", "どおり", "あと", "まえ"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "34",
+    "kategori": "pilihan ganda",
+    "soal": "この <線:せん:garis> の ___ に <切って:きって:memotong> ください。",
+    "pilihan_jawaban": ["とおり", "どおり", "あと", "まえ"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "34",
+    "kategori": "pilihan ganda",
+    "soal": "シャワーを <浴びた:あびた:mandi> ___、<寝ます:ねます:tidur>。",
+    "pilihan_jawaban": ["あとで", "まえに", "とき", "ながら"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "34",
+    "kategori": "pilihan ganda",
+    "soal": "<料理:りょうり:masakan> を ___ あとで、<皿:さら:piring> を <洗います:あらいます:mencuci>。",
+    "pilihan_jawaban": ["作った", "作る", "作って", "作り"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "34",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Silakan lakukan sesuai yang saya katakan.",
+    "pilihan_jawaban": [
+      "私が言うとおりにしてください",
+      "私が言うどおりにしてください",
+      "私が言ったあとでしてください",
+      "私が言うまえにしてください"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "34",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Setelah pulang ke rumah, saya akan menelepon.",
+    "pilihan_jawaban": [
+      "家へ帰ったあとで、電話します",
+      "家へ帰るまえに、電話します",
+      "家へ帰りながら、電話します",
+      "家へ帰ると、電話します"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "34",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 説明書のとおりに組み立ててください。",
+    "pilihan_jawaban": [
+      "Silakan rakit sesuai buku petunjuk",
+      "Silakan baca buku petunjuknya",
+      "Silakan tulis buku petunjuknya",
+      "Silakan beli buku petunjuknya"
+    ],
+    "jawaban_benar": "a"
+  }
+]

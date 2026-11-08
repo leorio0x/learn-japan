@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "36",
+    "kategori": "bintang",
+    "soal": "わたしは ___ ___ ★ ___ なりました。",
+    "pilihan_jawaban": ["<話せる:はなせる:bisa berbicara>", "ように", "<日本語:にほんご:bahasa Jepang>が", "少しずつ"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "36",
+    "kategori": "bintang",
+    "soal": "毎朝 ___ ___ ★ ___ しています。",
+    "pilihan_jawaban": ["<運動:うんどう:olahraga>を", "ように", "三十分", "する"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "36",
+    "kategori": "bintang",
+    "soal": "わたしは ___ ___ ★ ___ 貯めています。",
+    "pilihan_jawaban": ["お金を", "ために", "<日本:にほん:Jepang>へ", "留学する"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "36",
+    "kategori": "bintang",
+    "soal": "このごろ、___ ___ ★ ___ しています。",
+    "pilihan_jawaban": ["<野菜:やさい:sayur>を", "食べる", "たくさん", "ように"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "36",
+    "kategori": "bintang",
+    "soal": "毎日練習して、___ ___ ★ ___ なりました。",
+    "pilihan_jawaban": ["<自転車:じてんしゃ:sepeda>に", "ように", "やっと", "乗れる"],
+    "jawaban_benar": "d"
+  }
+]

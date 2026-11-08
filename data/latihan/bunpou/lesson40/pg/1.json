@@ -1,0 +1,106 @@
+[
+  {
+    "lesson": "40",
+    "kategori": "pilihan ganda",
+    "soal": "明日、雨が降る ___ 、わかりません。",
+    "pilihan_jawaban": ["かどうか", "ために", "ように", "そうに"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "40",
+    "kategori": "pilihan ganda",
+    "soal": "この食べ物は おいしい ___ 、食べてみましょう。",
+    "pilihan_jawaban": ["かどうか", "ために", "ように", "そうに"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "40",
+    "kategori": "pilihan ganda",
+    "soal": "日本の生活に 慣れる ___ 、心配です。",
+    "pilihan_jawaban": ["かどうか", "ために", "ように", "そうに"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "40",
+    "kategori": "pilihan ganda",
+    "soal": "この靴を ___ みます。",
+    "pilihan_jawaban": ["はき", "はいて", "はく", "はいた"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "40",
+    "kategori": "pilihan ganda",
+    "soal": "その ケーキを ___ みたいです。",
+    "pilihan_jawaban": ["食べ", "食べて", "食べる", "食べた"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "40",
+    "kategori": "pilihan ganda",
+    "soal": "新しい ゲームを ___ みました。",
+    "pilihan_jawaban": ["やり", "やる", "やって", "やった"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "40",
+    "kategori": "pilihan ganda",
+    "soal": "日本語の テストを ___ みます。",
+    "pilihan_jawaban": ["受け", "受ける", "受けて", "受けた"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "40",
+    "kategori": "pilihan ganda",
+    "soal": "この 服は 私に ___ かどうか、着てみます。",
+    "pilihan_jawaban": ["合って", "合う", "合った", "合います"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "40",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya ingin mencoba memakan natto.",
+    "pilihan_jawaban": [
+      "納豆を食べてみます",
+      "納豆を食べてみたいです",
+      "納豆を食べたいです",
+      "納豆を食べています"
+    ],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "40",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya tidak tahu apakah ujiannya sulit.",
+    "pilihan_jawaban": [
+      "テストが難しいのを知りません",
+      "テストが難しいかどうか知りません",
+      "テストが難しくないかどうか知っています",
+      "テストが難しいために知りません"
+    ],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "40",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 一度、日本へ行ってみたいです。",
+    "pilihan_jawaban": [
+      "Saya sudah pergi ke Jepang sekali",
+      "Saya ingin mencoba pergi ke Jepang sekali",
+      "Saya tidak ingin pergi ke Jepang",
+      "Saya sedang pergi ke Jepang"
+    ],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "40",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n この機械を動かしてみました。",
+    "pilihan_jawaban": [
+      "Saya sudah menjalankan mesin ini",
+      "Saya ingin menjalankan mesin ini",
+      "Saya mencoba menjalankan mesin ini",
+      "Saya tidak bisa menjalankan mesin ini"
+    ],
+    "jawaban_benar": "c"
+  }
+]

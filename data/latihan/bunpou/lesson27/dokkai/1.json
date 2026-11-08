@@ -1,0 +1,75 @@
+[
+  {
+    "lesson": "27",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんの <家:いえ:rumah> は <海:うみ:laut> の <近く:ちかく:dekat> に あります。<田中:たなか:Tanaka>さんの <部屋:へや:kamar> の <窓:まど:jendela> から <海:うみ:laut> が よく <見えます:みえます:terlihat>。<夜:よる:malam> は <波:なみ:ombak> の <音:おと:suara> が <聞こえます:きこえます:terdengar>。\n\n<田中:たなか:Tanaka>さんは <ペット:ぺっと:hewan peliharaan> を <二匹:にひき:dua ekor> <飼って:かって:memelihara> います。<鳥:とり:burung> と <犬:いぬ:anjing> です。<鳥:とり:burung> は <歌:うた:lagu> が <歌えます:うたえます:bisa bernyanyi>。<犬:いぬ:anjing> は <走る:はしる:berlari> ことが <できます:できます:bisa>。\n\n<田中:たなか:Tanaka>さんの <趣味:しゅみ:hobi> は <写真:しゃしん:foto> です。<田中:たなか:Tanaka>さんは <日本語:にほんご:bahasa Jepang> が <話せます:はなせます:bisa berbicara> が、<英語:えいご:bahasa Inggris> は <少し:すこし:sedikit> しか <話せません:はなせません:tidak bisa berbicara>。<田中:たなか:Tanaka>さんは「<将来:しょうらい:masa depan>、<外国:がいこく:luar negeri> で <写真:しゃしん:foto> を <撮りたい:とりたい:ingin mengambil> です」と <言いました:いいました:berkata>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka>さんの <部屋:へや:kamar> の <窓:まど:jendela> から <何:なに:apa> が <見えます:みえます:terlihat> か。",
+        "pilihan_jawaban": [
+          "<海:うみ:laut>",
+          "<山:やま:gunung>",
+          "<公園:こうえん:taman>",
+          "<駅:えき:stasiun>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<夜:よる:malam> は <何:なに:apa> が <聞こえます:きこえます:terdengar> か。",
+        "pilihan_jawaban": [
+          "<波:なみ:ombak> の <音:おと:suara>",
+          "<鳥:とり:burung> の <声:こえ:suara>",
+          "<音楽:おんがく:musik>",
+          "<車:くるま:mobil> の <音:おと:suara>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは どんな <ペット:ぺっと:hewan peliharaan> を <飼って:かって:memelihara> いますか。",
+        "pilihan_jawaban": [
+          "<鳥:とり:burung> と <犬:いぬ:anjing>",
+          "<猫:ねこ:kucing> と <犬:いぬ:anjing>",
+          "<鳥:とり:burung> だけ",
+          "<魚:さかな:ikan> と <鳥:とり:burung>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <何語:なにご:bahasa apa> が <話せます:はなせます:bisa berbicara> か。",
+        "pilihan_jawaban": [
+          "<日本語:にほんご:bahasa Jepang>",
+          "<英語:えいご:bahasa Inggris>",
+          "<中国語:ちゅうごくご:bahasa Mandarin>",
+          "<フランス語:ふらんすご:bahasa Prancis>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <英語:えいご:bahasa Inggris> が どのくらい <話せます:はなせます:bisa berbicara> か。",
+        "pilihan_jawaban": [
+          "<少し:すこし:sedikit> しか <話せません:はなせません:tidak bisa berbicara>",
+          "とても <上手:じょうず:pandai> に <話せます:はなせます:bisa berbicara>",
+          "<全然:ぜんぜん:sama sekali> <話せません:はなせません:tidak bisa berbicara>",
+          "<英語:えいご:bahasa Inggris> は <分かりません:わかりません:tidak mengerti>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<田中:たなか:Tanaka>さんの <趣味:しゅみ:hobi> は <何:なに:apa> ですか。",
+        "pilihan_jawaban": [
+          "<写真:しゃしん:foto>",
+          "<歌:うた:lagu>",
+          "<山登り:やまのぼり:pendakian gunung>",
+          "<スポーツ:すぽーつ:olahraga>"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

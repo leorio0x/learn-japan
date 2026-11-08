@@ -1,0 +1,60 @@
+[
+  {
+    "lesson": "20",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんは <今:いま:sekarang> <日本語:にほんご:bahasa Jepang> を <勉強:べんきょう:belajar> して います。<田中:たなか:Tanaka>さんは <来年:らいねん:tahun depan> <日本:にほん:Jepang> へ <行く:いく:pergi> と 思っています。<日本:にほん:Jepang> の <大学:だいがく:universitas> で <経済:けいざい:ekonomi> を <勉強:べんきょう:belajar> したいんです。\n\n<田中:たなか:Tanaka>さんの <友達:ともだち:teman> の <マリア:まりあ:Maria>さんは「<日本:にほん:Jepang> の <生活:せいかつ:kehidupan> は どうですか」と <聞きました:ききました:bertanya>。<田中:たなか:Tanaka>さんは「<物価:ぶっか:harga> は <高い:たかい:mahal> と 思います。でも、<食べ物:たべもの:makanan> は <おいしい:おいしい:enak> です。それに、<人:ひと:orang> も <親切:しんせつ:baik> だと 思います」と <言いました:いいました:berkata>。\n\n<マリア:まりあ:Maria>さんは「<日本語:にほんご:bahasa Jepang> の <勉強:べんきょう:belajar> は <大変:たいへん:berat> ですか」と <聞きました:ききました:bertanya>。<田中:たなか:Tanaka>さんは「ええ、<漢字:かんじ:kanji> は <難しい:むずかしい:sulit> ですが、<毎日:まいにち:setiap hari> <練習:れんしゅう:latihan> して いますから、だんだん <上手:じょうず:pandai> に なると 思います」と <言いました:いいました:berkata>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <今:いま:sekarang> 何を していますか。",
+        "pilihan_jawaban": [
+          "<日本語:にほんご:bahasa Jepang> を <勉強:べんきょう:belajar> して います",
+          "<日本:にほん:Jepang> で <働いて:はたらいて:bekerja> います",
+          "<大学:だいがく:universitas> で <経済:けいざい:ekonomi> を <勉強:べんきょう:belajar> して います",
+          "<日本語:にほんご:bahasa Jepang> を <教えて:おしえて:mengajar> います"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <来年:らいねん:tahun depan> 何を したいですか。",
+        "pilihan_jawaban": [
+          "<日本:にほん:Jepang> へ <行って:いって:pergi> <大学:だいがく:universitas> で <経済:けいざい:ekonomi> を <勉強:べんきょう:belajar> したいです",
+          "<日本:にほん:Jepang> で <働きたい:はたらきたい:ingin bekerja> です",
+          "<日本語:にほんご:bahasa Jepang> の <先生:せんせい:guru> に なりたいです",
+          "<国:くに:negara> へ <帰りたい:かえりたい:ingin pulang> です"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <日本:にほん:Jepang> の <物価:ぶっか:harga> について どう 思いますか。",
+        "pilihan_jawaban": ["<高い:たかい:mahal> と 思います", "<安い:やすい:murah> と 思います", "わかりません", "あまり <高くない:たかくない:tidak mahal> と 思います"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <日本:にほん:Jepang> の <食べ物:たべもの:makanan> について どう 思いますか。",
+        "pilihan_jawaban": ["<おいしい:おいしい:enak> と 思います", "<まずい:まずい:tidak enak> と 思います", "<高い:たかい:mahal> と 思います", "<食べたくない:たべたくない:tidak ingin makan> です"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <日本:にほん:Jepang> の <人:ひと:orang> について どう 思いますか。",
+        "pilihan_jawaban": ["<親切:しんせつ:baik> だ と 思います", "<冷たい:つめたい:dingin> と 思います", "<忙しい:いそがしい:sibuk> と 思います", "わかりません"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <漢字:かんじ:kanji> の <勉強:べんきょう:belajar> について どう 思いますか。",
+        "pilihan_jawaban": [
+          "<難しい:むずかしい:sulit> ですが、だんだん <上手:じょうず:pandai> に なると 思います",
+          "<簡単:かんたん:mudah> だと 思います",
+          "<勉強:べんきょう:belajar> したくないです",
+          "もう <上手:じょうず:pandai> に なりました"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "43",
+    "kategori": "bintang",
+    "soal": "このケーキは ___ ___ ★ ___ そうです。",
+    "pilihan_jawaban": ["とても", "甘くて", "見た目が", "おいし"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "43",
+    "kategori": "bintang",
+    "soal": "空が暗いです。___ ___ ★ ___ そうです。",
+    "pilihan_jawaban": ["雨が", "降り", "きっと", "激しい"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "43",
+    "kategori": "bintang",
+    "soal": "この本は ___ ___ ★ ___ そうです。",
+    "pilihan_jawaban": ["表紙が", "つまらな", "地味で", "少し"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "43",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ です。",
+    "pilihan_jawaban": ["風邪を", "引いた", "田中さんは", "よう"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "43",
+    "kategori": "bintang",
+    "soal": "ニュースによると、___ ___ ★ ___ らしいです。",
+    "pilihan_jawaban": ["明日", "来る", "大きな", "台風が"],
+    "jawaban_benar": "a"
+  }
+]

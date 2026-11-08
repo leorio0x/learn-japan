@@ -1,0 +1,106 @@
+[
+  {
+    "lesson": "43",
+    "kategori": "pilihan ganda",
+    "soal": "この ケーキは とても ___ そうです。",
+    "pilihan_jawaban": ["おいし", "おいしく", "おいしい", "おいしかった"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "43",
+    "kategori": "pilihan ganda",
+    "soal": "空が 暗くなりました。今にも 雨が ___ そうです。",
+    "pilihan_jawaban": ["降って", "降り", "降る", "降った"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "43",
+    "kategori": "pilihan ganda",
+    "soal": "この 本は ___ そうです。",
+    "pilihan_jawaban": ["つまらなく", "つまらない", "つまらな", "つまらなかった"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "43",
+    "kategori": "pilihan ganda",
+    "soal": "田中さんは 風邪を 引いた ___ です。",
+    "pilihan_jawaban": ["ために", "よう", "のに", "ほど"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "43",
+    "kategori": "pilihan ganda",
+    "soal": "明日は 雪が 降る ___ です。",
+    "pilihan_jawaban": ["ように", "ために", "らしい", "のに"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "43",
+    "kategori": "pilihan ganda",
+    "soal": "この 部屋は 誰も いない ___ です。",
+    "pilihan_jawaban": ["ために", "のに", "よう", "ほど"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "43",
+    "kategori": "pilihan ganda",
+    "soal": "ニュースに よると、台風が 来る ___ です。",
+    "pilihan_jawaban": ["ように", "らしい", "ために", "のに"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "43",
+    "kategori": "pilihan ganda",
+    "soal": "この ナイフは ___ そうです。",
+    "pilihan_jawaban": ["新しく", "新しい", "新し", "新しかった"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "43",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Kue ini terlihat enak.",
+    "pilihan_jawaban": [
+      "このケーキはおいしそうです",
+      "このケーキはおいしいようです",
+      "このケーキはおいしいらしいです",
+      "このケーキはおいしかったです"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "43",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Sepertinya besok akan hujan.",
+    "pilihan_jawaban": [
+      "明日は雨が降りそうです",
+      "明日は雨が降るようです",
+      "明日は雨が降るらしいです",
+      "明日は雨が降ったようです"
+    ],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "43",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Kabar angin bilang ujiannya sulit.",
+    "pilihan_jawaban": [
+      "テストは難しそうです",
+      "テストは難しいようです",
+      "テストは難しいらしいです",
+      "テストは難しかったです"
+    ],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "43",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Dia terlihat bahagia.",
+    "pilihan_jawaban": [
+      "彼は幸せらしいです",
+      "彼は幸せなようです",
+      "彼は幸せでした",
+      "彼は幸せそうです"
+    ],
+    "jawaban_benar": "d"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "lesson": "48",
+    "kategori": "dokkai",
+    "dokkai": "わたしの<両親:りょうしん:orang tua>は<厳しい:きびしい:keras>です。子どものとき、両親はわたしに<毎日:まいにち:setiap hari><ピアノ:ピアノ:piano>を<練習:れんしゅう:latihan>させました。また、<塾:じゅく:bimbel>にも<通わせました:かよわせました:menyuruh pergi>。わたしはそれが<嫌:いや:tidak suka>でしたが、<我慢:がまん:sabar>しました。今は、両親に<感謝:かんしゃ:berterima kasih>しています。でも、わたしは<自分:じぶん:diri sendiri>の<子供:こども:anak>には、<自由:じゆう:bebas>に<遊ばせたい:あそばせたい:ingin membiarkan bermain>です。そして、<子供:こども:anak>が<好きな:すきな:suka>ことを<経験:けいけん:alami>させてあげたいです。<来週:らいしゅう:minggu depan>、<会社:かいしゃ:perusahaan>の<会議:かいぎ:rapat>で、この<意見:いけん:pendapat>を<発表:はっぴょう:presentasi>させていただく<予定:よてい:rencana>です。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "子どものとき、両親はわたしに何をさせましたか。",
+        "pilihan_jawaban": [
+          "毎日ピアノを練習させました",
+          "毎日ゲームをさせました",
+          "毎日テレビを見させました",
+          "毎日遊ばせました"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "わたしはピアノの練習が好きでしたか。",
+        "pilihan_jawaban": ["はい、大好きでした", "いいえ、嫌でした", "少し好きでした", "わかりません"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "今、両親についてどう思っていますか。",
+        "pilihan_jawaban": ["感謝しています", "嫌っています", "会いたくないです", "何も思っていません"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "わたしは自分の子供にどうしたいですか。",
+        "pilihan_jawaban": [
+          "毎日勉強させたい",
+          "自由に遊ばせたい",
+          "ピアノを習わせたい",
+          "厳しく育てたい"
+        ],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "来週、何をしますか。",
+        "pilihan_jawaban": [
+          "友達と旅行に行く",
+          "子供と遊ぶ",
+          "会議で意見を発表させていただく",
+          "両親に会いに行く"
+        ],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "わたしは子供に何をさせてあげたいですか。",
+        "pilihan_jawaban": [
+          "毎日ピアノを練習させてあげたい",
+          "塾に行かせてあげたい",
+          "早く寝かせてあげたい",
+          "好きなことを経験させてあげたい"
+        ],
+        "jawaban_benar": "d"
+      }
+    ]
+  }
+]

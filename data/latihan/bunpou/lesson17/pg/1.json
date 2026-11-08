@@ -1,0 +1,122 @@
+[
+  {
+    "lesson": "17",
+    "kategori": "pilihan ganda",
+    "soal": "ここで <写真:しゃしん:foto> を ___ ください。",
+    "pilihan_jawaban": ["撮らないで", "撮らなくて", "撮らない", "撮りません"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "17",
+    "kategori": "pilihan ganda",
+    "soal": "あした <会社:かいしゃ:perusahaan> へ ___ ください。― はい、わかりました。",
+    "pilihan_jawaban": ["来ないで", "来なくて", "来ない", "来ません"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "17",
+    "kategori": "pilihan ganda",
+    "soal": "<毎日:まいにち:setiap hari> <薬:くすり:obat> を ___ なりません。",
+    "pilihan_jawaban": ["飲まなければ", "飲まなくて", "飲まないで", "飲んで"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "17",
+    "kategori": "pilihan ganda",
+    "soal": "<あした:あした:besok> までに <宿題:しゅくだい:PR> を ___ なりません。",
+    "pilihan_jawaban": ["しなければ", "しなくて", "しないで", "して"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "17",
+    "kategori": "pilihan ganda",
+    "soal": "<日曜日:にちようび:hari Minggu> は <会社:かいしゃ:perusahaan> へ ___ いいです。",
+    "pilihan_jawaban": ["行かなくても", "行かなければ", "行かないで", "行かなくて"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "17",
+    "kategori": "pilihan ganda",
+    "soal": "<熱:ねつ:demam> が ありますから、<学校:がっこう:sekolah> へ ___ ください。",
+    "pilihan_jawaban": ["行かないで", "行かなければ", "行かなくても", "行って"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "17",
+    "kategori": "pilihan ganda",
+    "soal": "<頭:あたま:kepala> が ___。― それは いけませんね。",
+    "pilihan_jawaban": ["痛いです", "痛くです", "痛いになります", "痛くします"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "17",
+    "kategori": "pilihan ganda",
+    "soal": "どうしましたか。― <のど:のど:tenggorokan> が ___。",
+    "pilihan_jawaban": ["痛いです", "痛いになります", "痛くです", "痛くします"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "17",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya harus belajar bahasa Jepang setiap hari.",
+    "pilihan_jawaban": [
+      "毎日日本語を勉強しなければなりません",
+      "毎日日本語を勉強しなくてもいいです",
+      "毎日日本語を勉強しないでください",
+      "毎日日本語を勉強しています"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "17",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Tidak perlu minum obat itu.",
+    "pilihan_jawaban": [
+      "その薬を飲まなくてもいいです",
+      "その薬を飲まなければなりません",
+      "その薬を飲まないでください",
+      "その薬を飲んでいます"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "17",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 明日の会議までに資料を読んでおきます。",
+    "pilihan_jawaban": [
+      "Saya akan membaca materi sebelum rapat besok",
+      "Saya sudah membaca materi rapat besok",
+      "Saya tidak membaca materi rapat besok",
+      "Saya menulis materi rapat besok"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "17",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<ない形:ないけい:bentuk nai> \n のみます (Minum)",
+    "pilihan_jawaban": ["のまない", "のみない", "のむない", "のんで"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "17",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<ない形:ないけい:bentuk nai> \n いきます (Pergi)",
+    "pilihan_jawaban": ["いかない", "いきない", "いくない", "いって"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "17",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<ない形:ないけい:bentuk nai> \n します (Melakukan)",
+    "pilihan_jawaban": ["しない", "しません", "するない", "して"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "17",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<ない形:ないけい:bentuk nai> \n きます (Datang)",
+    "pilihan_jawaban": ["こない", "きない", "くるない", "きて"],
+    "jawaban_benar": "a"
+  }
+]

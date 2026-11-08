@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "39",
+    "kategori": "bintang",
+    "soal": "わたしは ___ ___ ★ ___ 、学校を休みました。",
+    "pilihan_jawaban": ["風邪を", "引い", "て", "昨日"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "39",
+    "kategori": "bintang",
+    "soal": "田中さんは ___ ___ ★ ___ 、早退しました。",
+    "pilihan_jawaban": ["熱が", "ある", "午後", "ので"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "39",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ 、試合が中止になりました。",
+    "pilihan_jawaban": ["強い", "雨が", "降っている", "ために"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "39",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ 、電車が遅れました。",
+    "pilihan_jawaban": ["事故", "で", "夜", "大きな"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "39",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ 、ビルが倒れました。",
+    "pilihan_jawaban": ["強い", "ために", "の", "地震"],
+    "jawaban_benar": "c"
+  }
+]

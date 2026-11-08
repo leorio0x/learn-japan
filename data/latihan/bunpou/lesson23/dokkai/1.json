@@ -1,0 +1,75 @@
+[
+  {
+    "lesson": "23",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんの <家:いえ:rumah> は <駅:えき:stasiun> の <近く:ちかく:dekat> に あります。<駅:えき:stasiun> を <出て:でて:keluar>、まっすぐ <歩く:あるく:berjalan> と、<大きい:おおきい:besar> <交差点:こうさてん:perempatan> が あります。\n\nその <交差点:こうさてん:perempatan> を <右:みぎ:kanan> へ <曲がる:まがる:belok> と、<橋:はし:jembatan> が あります。<橋:はし:jembatan> を <渡る:わたる:menyeberang> とき、<車:くるま:mobil> に <気を付けます:きをつけます:berhati-hati>。\n\n<橋:はし:jembatan> の <前:まえ:depan> に <小さい:ちいさい:kecil> パン<屋:や:toko> が あります。パン<屋:や:toko> の <角:かど:sudut> を <左:ひだり:kiri> へ <曲がる:まがる:belok> と、<田中:たなか:Tanaka>さんの <家:いえ:rumah> が あります。\n\n<田中:たなか:Tanaka>さんの <家:いえ:rumah> は <古い:ふるい:tua> ですが、とても <静か:しずか:tenang> です。<田中:たなか:Tanaka>さんは「<家:いえ:rumah> の <近く:ちかく:dekat> に <公園:こうえん:taman> が ある とき、とても <うれしい:うれしい:senang> です」と <言いました:いいました:berkata>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka>さんの <家:いえ:rumah> は どこに ありますか。",
+        "pilihan_jawaban": [
+          "<駅:えき:stasiun> の <近く:ちかく:dekat>",
+          "<公園:こうえん:taman> の <前:まえ:depan>",
+          "<橋:はし:jembatan> の <上:うえ:atas>",
+          "<学校:がっこう:sekolah> の <隣:となり:sebelah>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<駅:えき:stasiun> を <出て:でて:keluar>、まっすぐ <歩く:あるく:berjalan> と、<何:なに:apa> が ありますか。",
+        "pilihan_jawaban": [
+          "<大きい:おおきい:besar> <交差点:こうさてん:perempatan>",
+          "<銀行:ぎんこう:bank>",
+          "パン<屋:や:toko>",
+          "<公園:こうえん:taman>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<交差点:こうさてん:perempatan> を <右:みぎ:kanan> へ <曲がる:まがる:belok> と、<何:なに:apa> が ありますか。",
+        "pilihan_jawaban": [
+          "<橋:はし:jembatan>",
+          "<郵便局:ゆうびんきょく:kantor pos>",
+          "<学校:がっこう:sekolah>",
+          "パン<屋:や:toko>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<橋:はし:jembatan> を <渡る:わたる:menyeberang> とき、<何:なに:apa> に <気を付けます:きをつけます:berhati-hati> か。",
+        "pilihan_jawaban": [
+          "<車:くるま:mobil>",
+          "<自転車:じてんしゃ:sepeda>",
+          "<電車:でんしゃ:kereta>",
+          "<人:ひと:orang>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<田中:たなか:Tanaka>さんの <家:いえ:rumah> は どんな <家:いえ:rumah> ですか。",
+        "pilihan_jawaban": [
+          "<古い:ふるい:tua> ですが、とても <静か:しずか:tenang> な <家:いえ:rumah>",
+          "<新しい:あたらしい:baru> で <大きい:おおきい:besar> <家:いえ:rumah>",
+          "<古い:ふるい:tua> で <うるさい:うるさい:berisik> <家:いえ:rumah>",
+          "<駅:えき:stasiun> の <前:まえ:depan> に ある <家:いえ:rumah>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは どんな とき、とても <うれしい:うれしい:senang> ですか。",
+        "pilihan_jawaban": [
+          "<家:いえ:rumah> の <近く:ちかく:dekat> に <公園:こうえん:taman> が ある とき",
+          "<駅:えき:stasiun> まで <歩く:あるく:berjalan> とき",
+          "<橋:はし:jembatan> を <渡る:わたる:menyeberang> とき",
+          "パン<屋:や:toko> で パンを <買う:かう:membeli> とき"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

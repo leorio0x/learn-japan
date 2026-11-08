@@ -1,0 +1,106 @@
+[
+  {
+    "lesson": "49",
+    "kategori": "pilihan ganda",
+    "soal": "ただ今、資料を 用意 ___ おります。",
+    "pilihan_jawaban": ["して", "した", "する", "します"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "49",
+    "kategori": "pilihan ganda",
+    "soal": "こちらが 受付 ___ 。",
+    "pilihan_jawaban": ["でございます", "でいます", "であります", "でください"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "49",
+    "kategori": "pilihan ganda",
+    "soal": "どうぞ、お___ ください。",
+    "pilihan_jawaban": ["座り", "座る", "座って", "座ります"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "49",
+    "kategori": "pilihan ganda",
+    "soal": "先生に 日本語を 教えて ___ 。",
+    "pilihan_jawaban": ["いただきました", "くださいました", "やりました", "あげました"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "49",
+    "kategori": "pilihan ganda",
+    "soal": "お名前は 何と ___ か。",
+    "pilihan_jawaban": ["申します", "おっしゃいます", "言います", "話します"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "49",
+    "kategori": "pilihan ganda",
+    "soal": "少々 お待ち ___ 。",
+    "pilihan_jawaban": ["しています", "しております", "してください", "になります"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "49",
+    "kategori": "pilihan ganda",
+    "soal": "どうぞ 召し上がって ___ 。",
+    "pilihan_jawaban": ["いただきます", "おります", "ございます", "ください"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "49",
+    "kategori": "pilihan ganda",
+    "soal": "私は 田中と ___ 。",
+    "pilihan_jawaban": ["おっしゃいます", "なさいます", "申します", "いらっしゃいます"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "49",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Silakan duduk.",
+    "pilihan_jawaban": [
+      "どうぞお座りになります",
+      "どうぞ座らせてください",
+      "どうぞお座りください",
+      "どうぞお座りいたします"
+    ],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "49",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya menerima penjelasan dari guru.",
+    "pilihan_jawaban": [
+      "先生に説明していただきました",
+      "先生に説明してくださいました",
+      "先生に説明してやりました",
+      "先生に説明してあげました"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "49",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Ini adalah resepsionis.",
+    "pilihan_jawaban": [
+      "こちらが受付でいます",
+      "こちらが受付であります",
+      "こちらが受付でございます",
+      "こちらが受付でください"
+    ],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "49",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Mohon tunggu sebentar.",
+    "pilihan_jawaban": [
+      "少々お待ちいたします",
+      "少々お待ちください",
+      "少々お待ちになります",
+      "少々お待ちしております"
+    ],
+    "jawaban_benar": "b"
+  }
+]

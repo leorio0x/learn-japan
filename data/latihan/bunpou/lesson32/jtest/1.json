@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "32",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<風邪:かぜ:flu>ですから、[1. <薬:くすり:obat>を 2. <飲んだ:のんだ:minum> 3. ほうが ] いいです",
+    "jawaban": "くすりをのんだほうが"
+  },
+  {
+    "lesson": "32",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<熱:ねつ:demam>が ありますから、[1. お<風呂:ふろ:mandi>に 2. <入らない:はいらない:tidak masuk> 3. ほうが ] いいです",
+    "jawaban": "おふろにはいらないほうが"
+  },
+  {
+    "lesson": "32",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<頭:あたま:kepala>が <痛い:いたい:sakit>なら、[1. <病院:びょういん:rumah sakit>へ 2. <行ったら:いったら:pergi> 3. どうですか ]",
+    "jawaban": "びょういんへいったらどうですか"
+  },
+  {
+    "lesson": "32",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <毎日:まいにち:setiap hari> 2. 少し 3. <運動:うんどう:olahraga>した 4. ほうが ] いいです",
+    "jawaban": "まいにちすこしうんどうしたほうが"
+  },
+  {
+    "lesson": "32",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. お<酒:さけ:minuman keras>を 2. たくさん 3. <飲まない:のまない:tidak minum> 4. ほうが ] いいです",
+    "jawaban": "おさけをたくさんのまないほうが"
+  },
+  {
+    "lesson": "32",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<病気:びょうき:sakit>の ときは [1. <無理:むり:memaksakan>を 2. <しない:しない:tidak melakukan> 3. ほうが ] いいです",
+    "jawaban": "むりをしないほうが"
+  }
+]

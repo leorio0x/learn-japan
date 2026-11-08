@@ -1,0 +1,45 @@
+[
+  {
+    "lesson": "38",
+    "kategori": "dokkai",
+    "dokkai": "わたしの<家族:かぞく:keluarga>は<五人:ごにん:lima orang>です。<父:ちち:ayah>は<車:くるま:mobil>を<運転:うんてん:mengemudi>するのが<上手:じょうず:pandai>です。<母:はは:ibu>は<料理:りょうり:masakan>を<作る:つくる:membuat>のが<大好き:だいすき:sangat suka>です。わたしは<音楽:おんがく:musik>を<聞く:きく:mendengar>のが<好き:すき:suka>です。<妹:いもうと:adik perempuan>は<犬:いぬ:anjing>を<育てる:そだてる:memelihara>のが<上手:じょうず:pandai>です。でも、犬の<世話:せわ:perawatan>をするのは<大変:たいへん:berat>です。わたしたちは<毎年:まいとし:setiap tahun>、家族で<旅行:りょこう:perjalanan>するのを<楽しみにしています:たのしみにしています:menantikan>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "父は何が上手ですか。",
+        "pilihan_jawaban": ["車を運転すること", "料理を作ること", "音楽を聞くこと", "犬を育てること"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "母は何が大好きですか。",
+        "pilihan_jawaban": ["車を運転すること", "料理を作ること", "旅行すること", "犬を育てること"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "わたしは何が好きですか。",
+        "pilihan_jawaban": ["料理を作ること", "犬を育てること", "音楽を聞くこと", "旅行すること"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "妹は何が上手ですか。",
+        "pilihan_jawaban": ["音楽を聞くこと", "料理を作ること", "車を運転すること", "犬を育てること"],
+        "jawaban_benar": "d"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "犬の世話をするのはどうですか。",
+        "pilihan_jawaban": ["楽しいです", "簡単です", "大変です", "暇です"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "家族は毎年何を楽しみにしていますか。",
+        "pilihan_jawaban": ["家族で旅行すること", "車を運転すること", "料理を作ること", "犬を育てること"],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

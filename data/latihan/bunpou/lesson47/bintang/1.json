@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "47",
+    "kategori": "bintang",
+    "soal": "天気予報によると、___ ___ ★ ___ そうです。",
+    "pilihan_jawaban": ["雪が", "たくさん", "明日", "降る"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "47",
+    "kategori": "bintang",
+    "soal": "ニュースによると、___ ___ ★ ___ です。",
+    "pilihan_jawaban": ["来る", "台風が", "明日", "そう"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "47",
+    "kategori": "bintang",
+    "soal": "この部屋には ___ ___ ★ ___ です。",
+    "pilihan_jawaban": ["いない", "誰も", "たぶん", "よう"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "47",
+    "kategori": "bintang",
+    "soal": "田中さんは ___ ___ ★ ___ です。",
+    "pilihan_jawaban": ["明日", "来ない", "用事があるので", "らしい"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "47",
+    "kategori": "bintang",
+    "soal": "外は ___ ___ ★ ___ です。",
+    "pilihan_jawaban": ["寒い", "とても", "まるで冬のように", "よう"],
+    "jawaban_benar": "a"
+  }
+]

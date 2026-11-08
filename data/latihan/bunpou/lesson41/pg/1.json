@@ -1,0 +1,116 @@
+[
+  {
+    "lesson": "41",
+    "kategori": "pilihan ganda",
+    "soal": "わたしは 先生に 辞書を ___ 。",
+    "pilihan_jawaban": ["いただきました", "くださいました", "やりました", "あげました"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "41",
+    "kategori": "pilihan ganda",
+    "soal": "先生は わたしに 辞書を ___ 。",
+    "pilihan_jawaban": ["いただきました", "くださいました", "やりました", "あげました"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "41",
+    "kategori": "pilihan ganda",
+    "soal": "わたしは 犬に えさを ___ 。",
+    "pilihan_jawaban": ["いただきました", "くださいました", "やりました", "あげました"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "41",
+    "kategori": "pilihan ganda",
+    "soal": "祖母は わたしに お年玉を ___ 。",
+    "pilihan_jawaban": ["いただきました", "くださいました", "やりました", "あげました"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "41",
+    "kategori": "pilihan ganda",
+    "soal": "わたしは 部長に お土産を ___ 。",
+    "pilihan_jawaban": ["いただきました", "くださいました", "やりました", "あげました"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "41",
+    "kategori": "pilihan ganda",
+    "soal": "田中さんは 後輩に 本を ___ 。",
+    "pilihan_jawaban": ["いただきました", "くださいました", "やりました", "あげました"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "41",
+    "kategori": "pilihan ganda",
+    "soal": "先生は わたしたちに 日本語の文法を ___ 。",
+    "pilihan_jawaban": [
+      "教えていただきました",
+      "教えてくださいました",
+      "教えてやりました",
+      "教えてあげました"
+    ],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "41",
+    "kategori": "pilihan ganda",
+    "soal": "わたしは 先生に 発音を ___ 。",
+    "pilihan_jawaban": [
+      "直していただきました",
+      "直してくださいました",
+      "直してやりました",
+      "直してあげました"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "41",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Guru memberi saya buku.",
+    "pilihan_jawaban": [
+      "先生は私に本をくださいました",
+      "先生は私に本をいただきました",
+      "私は先生に本をやりました",
+      "先生は私に本をやりました"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "41",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya menerima bunga dari kakak.",
+    "pilihan_jawaban": [
+      "姉に花をいただきました",
+      "姉に花をくださいました",
+      "姉は私に花をいただきました",
+      "私が姉に花をやりました"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "41",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 犬に水をやりました。",
+    "pilihan_jawaban": [
+      "Saya memberi air kepada anjing",
+      "Saya menerima air dari anjing",
+      "Anjing memberi saya air",
+      "Saya meminta air kepada anjing"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "41",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 先生に昔話を読んでいただきました。",
+    "pilihan_jawaban": [
+      "Saya dibacakan cerita lama oleh guru",
+      "Saya membacakan cerita lama untuk guru",
+      "Guru meminta saya membaca cerita lama",
+      "Saya membaca cerita lama bersama guru"
+    ],
+    "jawaban_benar": "a"
+  }
+]

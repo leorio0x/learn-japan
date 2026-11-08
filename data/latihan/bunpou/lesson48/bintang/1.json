@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "48",
+    "kategori": "bintang",
+    "soal": "先生は ___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["漢字を", "書かせ", "学生に", "ます"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "48",
+    "kategori": "bintang",
+    "soal": "母は ___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["食べさせ", "野菜を", "子供に", "ます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "48",
+    "kategori": "bintang",
+    "soal": "すみません、___ ___ ★ ___ ください。",
+    "pilihan_jawaban": ["説明", "私に", "少し", "させて"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "48",
+    "kategori": "bintang",
+    "soal": "部長は ___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["田中さんを", "ました", "行かせ", "出張に"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "48",
+    "kategori": "bintang",
+    "soal": "父は ___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["通わせ", "塾に", "私を", "ました"],
+    "jawaban_benar": "a"
+  }
+]

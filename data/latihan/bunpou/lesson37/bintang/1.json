@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "37",
+    "kategori": "bintang",
+    "soal": "わたしは 電車で ___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["踏まれ", "足を", "ました", "人に"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "37",
+    "kategori": "bintang",
+    "soal": "駅前に ___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["ました", "建てられ", "去年", "大きなビルが"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "37",
+    "kategori": "bintang",
+    "soal": "この歌は ___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["若い人に", "ています", "世界中で", "歌われ"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "37",
+    "kategori": "bintang",
+    "soal": "わたしは 弟に ___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["全部", "ケーキを", "食べられ", "ました"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "37",
+    "kategori": "bintang",
+    "soal": "子供のとき、わたしは ___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["よく", "しかられ", "母に", "ました"],
+    "jawaban_benar": "b"
+  }
+]

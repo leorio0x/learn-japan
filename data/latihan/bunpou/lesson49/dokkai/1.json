@@ -1,0 +1,45 @@
+[
+  {
+    "lesson": "49",
+    "kategori": "dokkai",
+    "dokkai": "「いらっしゃいませ。<田中:たなか:Tanaka>様、お<待ち:まち:menunggu>しておりました。こちらが<会議室:かいぎしつ:ruang rapat>でございます。どうぞ、お<入り:はいり:masuk>ください。お<飲み物:のみもの:minuman>は<何:なに:apa>がよろしいでしょうか。<遠慮:えんりょ:ragu>なくおっしゃってください。<会議:かいぎ:rapat>は<十時:じゅうじ:jam 10>から<始まります:はじまります:mulai>。<資料:しりょう:dokumen>は<私:わたし:saya>が<用意:ようい:siapkan>いたしました。もし<足りない:たりない:kurang><場合:ばあい:kasus>は、お<知らせ:しらせ:memberitahu>ください。なお、<帰り:かえり:pulang>に<受付:うけつけ:resepsionis>で<領収書:りょうしゅうしょ:kwitansi>を<受け取って:うけとって:menerima>ください。よろしくお<願い:ねがい:mohon>いたします。」",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "田中様はどこへ案内されましたか。",
+        "pilihan_jawaban": ["会議室", "受付", "食堂", "駐車場"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "飲み物はどうしますか。",
+        "pilihan_jawaban": ["遠慮なく言ってください", "自分で取ってください", "後で聞きます", "飲みません"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "会議は何時から始まりますか。",
+        "pilihan_jawaban": ["九時から", "十時から", "十一時から", "十二時から"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "資料はだれが用意しましたか。",
+        "pilihan_jawaban": ["田中様", "案内した人", "先生", "受付の人"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "資料が足りない場合はどうしますか。",
+        "pilihan_jawaban": ["知らせてください", "自分で作ってください", "我慢してください", "帰ってください"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "帰りにどこで何をもらいますか。",
+        "pilihan_jawaban": ["受付で領収書", "会議室で資料", "食堂で飲み物", "駐車場で鍵"],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

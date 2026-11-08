@@ -1,0 +1,75 @@
+[
+  {
+    "lesson": "29",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんは きのう <大変:たいへん:berat> な <一日:いちにち:sehari> でした。<朝:あさ:pagi>、<電車:でんしゃ:kereta> に <間に合わなくて:まにあわなくて:tidak tepat waktu>、<会社:かいしゃ:perusahaan> に <遅れて:おくれて:terlambat> しまいました。\n\n<昼:ひる:siang>、<昼ごはん:ひるごはん:makan siang> を <食べながら:たべながら:sambil makan> <歩いて:あるいて:berjalan> いたら、コーヒーを <こぼして:こぼして:menumpahkan> しまいました。<白い:しろい:putih> シャツが <汚れて:よごれて:kotor> しまいました。\n\n<午後:ごご:sore>、<大切な:たいせつな:penting> <書類:しょるい:dokumen> を <なくして:なくして:menghilangkan> しまいました。<田中:たなか:Tanaka>さんは <事務所:じむしょ:kantor> を <探しました:さがしました:mencari> が、<見つかりませんでした:みつかりませんでした:tidak ditemukan>。\n\n<夜:よる:malam>、<家:いえ:rumah> に <帰って:かえって:pulang> から、<冷蔵庫:れいぞうこ:kulkas> の ケーキを <全部:ぜんぶ:semua> <食べて:たべて:makan> しまいました。<田中:たなか:Tanaka>さんは「<今日:きょう:hari ini> は <本当に:ほんとうに:sungguh> <困った:こまった:masalah> 一日でした」と <言いました:いいました:berkata>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは どうして <会社:かいしゃ:perusahaan> に <遅れました:おくれました:terlambat> か。",
+        "pilihan_jawaban": [
+          "<電車:でんしゃ:kereta> に <間に合わなかった:まにあわなかった:tidak tepat waktu> から",
+          "<朝:あさ:pagi> <寝坊:ねぼう:bangun kesiangan> したから",
+          "<会社:かいしゃ:perusahaan> が <遠い:とおい:jauh> から",
+          "<電車:でんしゃ:kereta> が <止まった:とまった:berhenti> から"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<田中:たなか:Tanaka>さんの シャツは どうして <汚れました:よごれました:kotor> か。",
+        "pilihan_jawaban": [
+          "コーヒーを <こぼして:こぼして:menumpahkan> しまったから",
+          "<雨:あめ:hujan> に <降られて:ふられて:kehujanan> しまったから",
+          "ごはんを <こぼして:こぼして:menumpahkan> しまったから",
+          "<泥:どろ:lumpur> で <汚れた:よごれた:kotor> から"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <午後:ごご:sore>、<何:なに:apa> を なくして しまいましたか。",
+        "pilihan_jawaban": [
+          "<大切な:たいせつな:penting> <書類:しょるい:dokumen>",
+          "<財布:さいふ:dompet>",
+          "<携帯電話:けいたいでんわ:telepon seluler>",
+          "<鍵:かぎ:kunci>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<書類:しょるい:dokumen> は <見つかりました:みつかりました:ditemukan> か。",
+        "pilihan_jawaban": [
+          "いいえ、<見つかりませんでした:みつかりませんでした:tidak ditemukan>",
+          "はい、<見つかりました:みつかりました:ditemukan>",
+          "はい、<事務所:じむしょ:kantor> に ありました",
+          "いいえ、<家:いえ:rumah> に あります"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <夜:よる:malam>、<何:なに:apa> を して しまいましたか。",
+        "pilihan_jawaban": [
+          "ケーキを <全部:ぜんぶ:semua> <食べて:たべて:makan> しまいました",
+          "<宿題:しゅくだい:PR> を <忘れて:わすれて:lupa> しまいました",
+          "<窓:まど:jendela> を <割って:わって:memecahkan> しまいました",
+          "<電車:でんしゃ:kereta> で <寝て:ねて:tidur> しまいました"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<田中:たなか:Tanaka>さんの 一日は どうでしたか。",
+        "pilihan_jawaban": [
+          "<大変:たいへん:berat> な 一日でした",
+          "<楽しい:たのしい:menyenangkan> 一日でした",
+          "<暇:ひま:waktu luang> な 一日でした",
+          "<普通:ふつう:biasa> の 一日でした"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

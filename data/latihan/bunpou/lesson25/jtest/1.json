@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "25",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <時間:じかん:waktu>が 2. あったら 3. <日本:にほん:Jepang>へ ] <行きます:いきます:pergi>",
+    "jawaban": "じかんがあったらにほんへ"
+  },
+  {
+    "lesson": "25",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <雨:あめ:hujan>が 2. 降っても 3. <試合:しあい:pertandingan>は ] あります",
+    "jawaban": "あめがふってもしあいは"
+  },
+  {
+    "lesson": "25",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <一生懸命:いっしょうけんめい:dengan giat> 2. <勉強:べんきょう:belajar>した 3. のに ] <試験:しけん:ujian>に <落ちました:おちました:gagal>",
+    "jawaban": "いっしょうけんめいべんきょうしたのに"
+  },
+  {
+    "lesson": "25",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <国:くに:negara>に 2. <着いたら:ついたら:tiba> 3. <電話:でんわ:telepon>を ] ください",
+    "jawaban": "くにについたらでんわを"
+  },
+  {
+    "lesson": "25",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. もし 2. <お金:おかね:uang>が 3. <一億:いちおく:seratus juta> あったら ] <何:なに:apa>を しますか",
+    "jawaban": "もしおかねがいちおくあったら"
+  },
+  {
+    "lesson": "25",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <安い:やすい:murah> 2. のに 3. どうして <買わない:かわない:tidak membeli> ] んですか",
+    "jawaban": "やすいのにどうしてかわない"
+  }
+]

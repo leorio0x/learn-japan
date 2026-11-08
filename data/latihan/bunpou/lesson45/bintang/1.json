@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "45",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ 、試合は中止です。",
+    "pilihan_jawaban": ["雨が", "降る", "強い", "場合"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "45",
+    "kategori": "bintang",
+    "soal": "パスポートを ___ ___ ★ ___ 、どうしたらいいですか。",
+    "pilihan_jawaban": ["場合", "なくした", "もし", "は"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "45",
+    "kategori": "bintang",
+    "soal": "雨が ___ ___ ★ ___ 、試合は行われます。",
+    "pilihan_jawaban": ["多少", "強く", "降っ", "ても"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "45",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ 、幸せになれます。",
+    "pilihan_jawaban": ["お金が", "なく", "たとえ", "ても"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "45",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ 、先生に聞いてください。",
+    "pilihan_jawaban": ["あった", "ことが", "わからない", "場合は"],
+    "jawaban_benar": "a"
+  }
+]

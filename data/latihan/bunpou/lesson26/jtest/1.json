@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "26",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "A: どうして <遅れた:おくれた:terlambat> んですか。B: [1. <電車:でんしゃ:kereta>が 2. <遅れた:おくれた:terlambat> 3. んです ]",
+    "jawaban": "でんしゃがおくれたんです"
+  },
+  {
+    "lesson": "26",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "すみません、[1. <漢字:かんじ:kanji>の 2. <読み方:よみかた:cara baca>を 3. <教えて:おしえて:mengajari> ] いただけませんか",
+    "jawaban": "かんじのよみかたをおしえて"
+  },
+  {
+    "lesson": "26",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "A: <切符:きっぷ:tiket>は どこで [1. <買ったら:かったら:membeli> 2. いいですか ]",
+    "jawaban": "かったらいいですか"
+  },
+  {
+    "lesson": "26",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "A: <気分:きぶん:perasaan>が <悪い:わるい:buruk> そうですね。B: ええ、ちょっと [1. <疲れた:つかれた:lelah> 2. んです ]",
+    "jawaban": "つかれたんです"
+  },
+  {
+    "lesson": "26",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <田中:たなか:Tanaka>さんは 2. どうして 3. <運動会:うんどうかい:pesta olahraga>に ] <参加しない:さんかしない:tidak ikut> んですか",
+    "jawaban": "たなかさんはどうしてうんどうかいに"
+  },
+  {
+    "lesson": "26",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. <日本:にほん:Jepang>へ 2. <留学:りゅうがく:studi luar negeri>したい 3. んですが ] いい <学校:がっこう:sekolah>を <紹介:しょうかい:memperkenalkan>して いただけませんか",
+    "jawaban": "にほんへりゅうがくしたいんですが"
+  }
+]

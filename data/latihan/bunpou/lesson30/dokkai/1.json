@@ -1,0 +1,75 @@
+[
+  {
+    "lesson": "30",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんの <会社:かいしゃ:perusahaan> では、<明日:あした:besok> <大切:たいせつ:penting> な ミーティングが あります。それで、<今日:きょう:hari ini>、みんなは <準備:じゅんび:persiapan> を して おきます。\n\n<田中:たなか:Tanaka>さんは <会議室:かいぎしつ:ruang rapat> の <準備:じゅんび:persiapan> を しました。<机:つくえ:meja> の <上:うえ:atas> に <資料:しりょう:materi> が <置いて:おいて:meletakkan> あります。<壁:かべ:dinding> に ポスターが <貼って:はって:menempel> あります。<花瓶:かびん:vas> に <花:はな:bunga> も <飾って:かざって:menghias> あります。\n\n<マリア:まりあ:Maria>さんは お<茶:ちゃ:teh> と <お菓子:おかし:kue> を <準備して:じゅんびして:mempersiapkan> おきました。<マリア:まりあ:Maria>さんは「<明日:あした:besok> は <お客:おきゃく:tamu> が <来ます:きます:datang> から、<玄関:げんかん:pintu masuk> も きれいに して おかないと」と <言いました:いいました:berkata>。\n\n<田中:たなか:Tanaka>さんは「いすは もう <並べて:ならべて:menjajarkan> ありますか」と <聞きました:ききました:bertanya>。<マリア:まりあ:Maria>さんは「はい、もう <並べて:ならべて:menjajarkan> あります」と <答えました:こたえました:menjawab>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<明日:あした:besok>、<会社:かいしゃ:perusahaan> で <何:なに:apa> が ありますか。",
+        "pilihan_jawaban": [
+          "<大切:たいせつ:penting> な ミーティング",
+          "<運動会:うんどうかい:pesta olahraga>",
+          "<パーティー:ぱーてぃー:pesta>",
+          "<試験:しけん:ujian>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<机:つくえ:meja> の <上:うえ:atas> に <何:なに:apa> が <置いて:おいて:meletakkan> ありますか。",
+        "pilihan_jawaban": [
+          "<資料:しりょう:materi>",
+          "<花:はな:bunga>",
+          "ポスター",
+          "お<菓子:かし:kue>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<壁:かべ:dinding> に <何:なに:apa> が <貼って:はって:menempel> ありますか。",
+        "pilihan_jawaban": [
+          "ポスター",
+          "<資料:しりょう:materi>",
+          "カレンダー",
+          "<写真:しゃしん:foto>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<マリア:まりあ:Maria>さんは <何:なに:apa> を <準備して:じゅんびして:mempersiapkan> おきましたか。",
+        "pilihan_jawaban": [
+          "お<茶:ちゃ:teh> と <お菓子:おかし:kue>",
+          "<資料:しりょう:materi> と ポスター",
+          "<花:はな:bunga> と カレンダー",
+          "いす と テーブル"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "どうして <玄関:げんかん:pintu masuk> も きれいに して おかないと いけませんか。",
+        "pilihan_jawaban": [
+          "<明日:あした:besok> <お客:おきゃく:tamu> が <来ます:きます:datang> から",
+          "<明日:あした:besok> <休み:やすみ:libur> ですから",
+          "<田中:たなか:Tanaka>さんが <来ます:きます:datang> から",
+          "<掃除:そうじ:bersih-bersih> の <日:ひ:hari> ですから"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "いすは もう <並べて:ならべて:menjajarkan> ありますか。",
+        "pilihan_jawaban": [
+          "はい、もう <並べて:ならべて:menjajarkan> あります",
+          "いいえ、まだ <並べて:ならべて:menjajarkan> ありません",
+          "いいえ、これから <並べます:ならべます:menjajarkan>",
+          "はい、でも まだ <準備:じゅんび:persiapan> して いません"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

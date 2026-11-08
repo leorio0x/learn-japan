@@ -1,0 +1,58 @@
+[
+  {
+    "lesson": "15",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. ここで 2. <写真:しゃしん:foto>を 3. <撮って:とって:mengambil> ]もいいですか",
+    "jawaban": "ここでしゃしんをとって"
+  },
+  {
+    "lesson": "15",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. この <部屋:へや:kamar>では 2. タバコを 3. <吸って:すって:merokok> ]はいけません",
+    "jawaban": "このへやではたばこをすって"
+  },
+  {
+    "lesson": "15",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<窓:まど:jendela> が [1. <大きく:おおきく:lebar> 2. <開けて:あけて:membuka> 3. あります ]",
+    "jawaban": "おおきくあけてあります"
+  },
+  {
+    "lesson": "15",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <会議:かいぎ:rapat>の <資料:しりょう:materi>を 2. コピーして 3. おきます ]",
+    "jawaban": "かいぎのしりょうをこぴーしておきます"
+  },
+  {
+    "lesson": "15",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<田中:たなか:Tanaka>さんは [1. <今:いま:sekarang> 2. <大阪:おおさか:Osaka>に 3. <住んで:すんで:tinggal> ]います",
+    "jawaban": "いまおおさかにすんで"
+  },
+  {
+    "lesson": "15",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <私:わたし:saya>は 2. <田中:たなか:Tanaka>さんの <住所:じゅうしょ:alamat>を 3. <知って:しって:tahu> ]います",
+    "jawaban": "わたしはたなかさんのじゅうしょをしって"
+  },
+  {
+    "lesson": "15",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. あした 2. <友達:ともだち:teman>が 3. <来ます:きます:datang>から ] ビールを 買っておきます",
+    "jawaban": "あしたともだちがきますから"
+  },
+  {
+    "lesson": "15",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. ここで 2. <待って:まって:menunggu> 3. もいいですか ]",
+    "jawaban": "ここでまってもいいですか"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "33",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "ここに [1. 「<入口:いりぐち:pintu masuk>」 2. と 3. <書いて:かいて:tertulis> ] あります",
+    "jawaban": "いりぐちとかいてあります"
+  },
+  {
+    "lesson": "33",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "「<使用禁止:しようきんし:dilarang pakai>」は [1. どういう 2. <意味:いみ:arti> 3. ですか ]",
+    "jawaban": "どういういみですか"
+  },
+  {
+    "lesson": "33",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "「ありがとう」は [1. <英語:えいご:bahasa Inggris>で 2. 何と 3. <言います:いいます:berkata> ] か",
+    "jawaban": "えいごでなんといいますか"
+  },
+  {
+    "lesson": "33",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<田中:たなか:Tanaka>さんに [1. 「あとで <電話:でんわ:telepon>します」 2. と 3. <伝えて:つたえて:menyampaikan> ] いただけませんか",
+    "jawaban": "あとででんわしますとつたえて"
+  },
+  {
+    "lesson": "33",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<壁:かべ:dinding>に [1. 「<禁煙:きんえん:dilarang merokok>」 2. と 3. <書いて:かいて:tertulis> ] あります",
+    "jawaban": "きんえんとかいてあります"
+  },
+  {
+    "lesson": "33",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. この <マーク:まーく:tanda>は 2. どういう 3. <意味:いみ:arti> ] ですか",
+    "jawaban": "このまーくはどういういみですか"
+  }
+]

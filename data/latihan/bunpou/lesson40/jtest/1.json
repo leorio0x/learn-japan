@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "40",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "明日 [1. かどうか 2. 雨が 3. 降る ] わかりません。",
+    "jawaban": "あめがふるかどうか"
+  },
+  {
+    "lesson": "40",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. 食べて 2. 納豆を 3. みたいです ]。",
+    "jawaban": "なっとうをたべてみたいです"
+  },
+  {
+    "lesson": "40",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "この靴を [1. みます 2. はいて 3. 一度 ]。",
+    "jawaban": "いちどはいてみます"
+  },
+  {
+    "lesson": "40",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. かどうか 2. テストが 3. 難しい ] 心配です。",
+    "jawaban": "てすとがむずかしいかどうか"
+  },
+  {
+    "lesson": "40",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "新しい [1. 動かして 2. 機械を 3. みました ]。",
+    "jawaban": "きかいをうごかしてみました"
+  },
+  {
+    "lesson": "40",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "日本の [1. 慣れる 2. 生活に 3. かどうか ] 心配です。",
+    "jawaban": "せいかつになれるかどうか"
+  }
+]

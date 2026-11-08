@@ -1,0 +1,50 @@
+[
+  {
+    "lesson": "14",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんは <毎朝:まいあさ:setiap pagi> 6<時:じ:jam> に <起きて:おきて:bangun>、<コーヒー:こーひー:kopi> を <飲みます:のみます:minum>。それから、<テレビ:てれび:TV> を <消して:けして:mematikan>、<会社:かいしゃ:perusahaan> へ <行きます:いきます:pergi>。\n\n<今朝:けさ:pagi ini>、<田中:たなか:Tanaka>さんは <部屋:へや:kamar> の <電気:でんき:lampu> を <つけました:つけました:menyalakan>。そして、<窓:まど:jendela> を <開けて:あけて:membuka>、<エアコン:えあこん:AC> を <消しました:けしました:mematikan>。<奥:おく:istri>さんは <今:いま:sekarang>、<部屋:へや:kamar> で <コーヒー:こーひー:kopi> を <飲んでいます:のんでいます:sedang minum>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <毎朝:まいあさ:setiap pagi> 何<時:じ:jam> に <起きます:おきます:bangun> か。",
+        "pilihan_jawaban": ["5<時:じ:jam>", "6<時:じ:jam>", "7<時:じ:jam>", "8<時:じ:jam>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<毎朝:まいあさ:setiap pagi> <起きて:おきて:bangun> から 何を <飲みます:のみます:minum> か。",
+        "pilihan_jawaban": ["コーヒー", "お<茶:ちゃ:teh>", "<水:みず:air>", "ジュース"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<今朝:けさ:pagi ini> <田中:たなか:Tanaka>さんは <部屋:へや:kamar> の <電気:でんき:lampu> を どうしましたか。",
+        "pilihan_jawaban": ["つけました", "消しました", "開けました", "閉めました"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<今朝:けさ:pagi ini> エアコンは どうしましたか。",
+        "pilihan_jawaban": ["つけました", "消しました", "開けました", "閉めました"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<今:いま:sekarang> <田中:たなか:Tanaka>さんの <奥:おく:istri>さんは 何を していますか。",
+        "pilihan_jawaban": [
+          "コーヒーを <作っています:つくっています:membuat>",
+          "コーヒーを <飲んでいます:のんでいます:sedang minum>",
+          "テレビを <見ています:みています:sedang menonton>",
+          "<料理:りょうり:masakan> を <作っています:つくっています:membuat>"
+        ],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <毎朝:まいあさ:setiap pagi> テレビを どうしますか。",
+        "pilihan_jawaban": ["つけます", "消します", "開けます", "買います"],
+        "jawaban_benar": "b"
+      }
+    ]
+  }
+]

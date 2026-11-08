@@ -6,12 +6,13 @@
     import BunpouSentence from "../components/BunpouSentence.svelte";
 
     const kategoriOptions = [
-        { value: "jtest", label: "J-Test" },
-        { value: "pg", label: "Pilihan ganda" },
-        { value: "bintang", label: "Bintang" },
-        { value: "dokkai", label: "Dokkai" },
-        { value: "acak", label: "Acak (semua jenis)" },
+        { value: "jtest", label: "J-Test", short: "J-Test" },
+        { value: "pg", label: "Pilihan ganda", short: "PG" },
+        { value: "bintang", label: "Bintang", short: "Bintang" },
+        { value: "dokkai", label: "Dokkai", short: "Dokkai" },
     ];
+
+    const allTypes = kategoriOptions.map((option) => option.value);
 
     const kategoriLabel = {
         jtest: "J-Test",
@@ -29,7 +30,7 @@
 
     let phase = $state("setup");
     let batchSize = $state(10);
-    let typeFilter = $state("acak");
+    let selectedTypes = $state([...allTypes]);
 
     let questions = $state([]);
     let index = $state(0);
@@ -47,11 +48,23 @@
         total ? Math.round((correctCount / total) * 100) : 0,
     );
 
-    const available = $derived(
-        typeFilter === "acak"
-            ? pool
-            : pool.filter((soal) => soal.kategori === typeFilter),
+    const allTypesSelected = $derived(
+        allTypes.every((type) => selectedTypes.includes(type)),
     );
+
+    const available = $derived(
+        pool.filter((soal) => selectedTypes.includes(soal.kategori)),
+    );
+
+    function toggleType(type) {
+        selectedTypes = selectedTypes.includes(type)
+            ? selectedTypes.filter((item) => item !== type)
+            : [...selectedTypes, type];
+    }
+
+    function selectAllTypes() {
+        selectedTypes = [...allTypes];
+    }
 
     const batchOptions = [
         { value: 5, label: "5 soal" },
@@ -238,7 +251,7 @@
         <div class="mb-5 text-center">
             <h1 class="text-xl font-bold text-ink sm:text-2xl">Latihan Bunpou</h1>
             <p class="mt-1 text-sm text-navy/60">
-                Pilih lesson dan jenis soal yang ingin dikerjakan.
+                Pilih lesson dan satu atau lebih jenis soal yang ingin dikerjakan.
             </p>
         </div>
 
@@ -257,13 +270,48 @@
                         {/each}
                     </select>
                 </div>
-                <div>
-                    <label class="label" for="jenis">Jenis soal</label>
-                    <select id="jenis" class="input" bind:value={typeFilter}>
+                <div class="sm:col-span-2">
+                    <div class="mb-2 flex items-center justify-between gap-3">
+                        <span class="label mb-0"
+                            >Jenis soal (bisa pilih lebih dari satu)</span
+                        >
+                        <button
+                            type="button"
+                            class="text-xs font-semibold text-steel transition hover:text-navy disabled:opacity-40"
+                            onclick={selectAllTypes}
+                            disabled={allTypesSelected}
+                            >Acak (semua)</button
+                        >
+                    </div>
+                    <div class="grid grid-cols-4 gap-2">
                         {#each kategoriOptions as option}
-                            <option value={option.value}>{option.label}</option>
+                            {@const active = selectedTypes.includes(
+                                option.value,
+                            )}
+                            <button
+                                type="button"
+                                class="flex min-h-[3.25rem] flex-col items-center justify-center rounded-xl border px-1 py-2 text-center transition {active
+                                    ? 'border-steel bg-navy text-cream shadow-sm'
+                                    : 'border-steel/25 bg-white text-navy/70 hover:border-steel/50 hover:bg-cream/60'}"
+                                onclick={() => toggleType(option.value)}
+                                aria-pressed={active}
+                            >
+                                <span
+                                    class="text-[10px] font-bold leading-tight sm:text-xs"
+                                    >{option.label}</span
+                                >
+                            </button>
                         {/each}
-                    </select>
+                    </div>
+                    {#if !selectedTypes.length}
+                        <p class="mt-2 text-xs font-medium text-red-600">
+                            Pilih minimal satu jenis soal.
+                        </p>
+                    {:else if allTypesSelected}
+                        <p class="mt-2 text-xs text-navy/50">
+                            Semua kategori aktif (acak).
+                        </p>
+                    {/if}
                 </div>
                 <div class="sm:col-span-2">
                     <label class="label" for="batch"

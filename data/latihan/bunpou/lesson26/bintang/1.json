@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "26",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["どうして", "きのう", "電車が", "遅れた", "んですか"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "26",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["すみません", "この", "漢字の", "読み方を", "教えていただけませんか"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "26",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["すみません", "この", "切符は", "どこで", "買ったらいいですか"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "26",
+    "kategori": "bintang",
+    "soal": "★ ___ ___ ___ ___。",
+    "pilihan_jawaban": ["田中さんは", "どうして", "運動会に", "参加しない", "んですか"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "26",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["わたしは", "日本へ", "留学したい", "んですが", "何をしたらいいですか"],
+    "jawaban_benar": "c"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "41",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. 辞書を 2. 先生に 3. いただきました ]。",
+    "jawaban": "せんせいにじしょをいただきました"
+  },
+  {
+    "lesson": "41",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "先生は [1. くださいました 2. わたしに 3. 本を ]。",
+    "jawaban": "わたしにほんをくださいました"
+  },
+  {
+    "lesson": "41",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. やりました 2. 犬に 3. えさを ]。",
+    "jawaban": "いぬにえさをやりました"
+  },
+  {
+    "lesson": "41",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "祖母は [1. お年玉を 2. わたしに 3. くださいました ]。",
+    "jawaban": "わたしにおとしだまをくださいました"
+  },
+  {
+    "lesson": "41",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. お土産を 2. 部長に 3. いただきました ]。",
+    "jawaban": "ぶちょうにおみやげをいただきました"
+  },
+  {
+    "lesson": "41",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "先生に [1. 読んで 2. 昔話を 3. いただきました ]。",
+    "jawaban": "むかしばなしをよんでいただきました"
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "lesson": "26",
+    "kategori": "pilihan ganda",
+    "soal": "どうして <遅れた:おくれた:terlambat> んですか。→ <電車:でんしゃ:kereta> が ___ んです。",
+    "pilihan_jawaban": ["遅れました", "遅れた", "遅れて", "遅れます"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "26",
+    "kategori": "pilihan ganda",
+    "soal": "A: どこで <切符:きっぷ:tiket> を ___ いいですか。B: あそこで <買って:かって:membeli> ください。",
+    "pilihan_jawaban": ["買うと", "買ったら", "買えば", "買うなら"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "26",
+    "kategori": "pilihan ganda",
+    "soal": "A: <気分:きぶん:perasaan> が <悪い:わるい:buruk> んですか。B: ええ、ちょっと ___ んです。",
+    "pilihan_jawaban": ["疲れました", "疲れた", "疲れて", "疲れます"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "26",
+    "kategori": "pilihan ganda",
+    "soal": "すみません、この <漢字:かんじ:kanji> の <読み方:よみかた:cara baca> を ___ いただけませんか。",
+    "pilihan_jawaban": ["教え", "教えて", "教えます", "教える"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "26",
+    "kategori": "pilihan ganda",
+    "soal": "A: <日本:にほん:Jepang> へ <留学:りゅうがく:studi luar negeri> したい ___ が、いい <学校:がっこう:sekolah> を <紹介して:しょうかいして:memperkenalkan> いただけませんか。",
+    "pilihan_jawaban": ["です", "んです", "ます", "の"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "26",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka>さんは どうして <運動会:うんどうかい:pesta olahraga> に ___ んですか。",
+    "pilihan_jawaban": ["参加しません", "参加しない", "参加して", "参加します"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "26",
+    "kategori": "pilihan ganda",
+    "soal": "A: ごみは どこに <出したら:だしたら:membuang> いいですか。B: あの <置き場:おきば:tempat pembuangan> に ___ いいです。",
+    "pilihan_jawaban": ["出すと", "出したら", "出せば", "出すなら"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "26",
+    "kategori": "pilihan ganda",
+    "soal": "わたしは <毎日:まいにち:setiap hari> <日本語:にほんご:bahasa Jepang> を <勉強:べんきょう:belajar> して いる ___。",
+    "pilihan_jawaban": ["んです", "です", "ます", "の"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "26",
+    "kategori": "pilihan ganda",
+    "soal": "<母:はは:ibu> は <病気:びょうき:sakit> ___。",
+    "pilihan_jawaban": ["なんです", "なのです", "んです", "ので"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "26",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Kenapa kamu terlambat?",
+    "pilihan_jawaban": [
+      "どうして遅れたんですか",
+      "どうして遅れますか",
+      "どうして遅れたですか",
+      "どうして遅れるんですか"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "26",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Maaf, bisakah Anda menjelaskan sedikit?",
+    "pilihan_jawaban": [
+      "すみません、ちょっと説明していただけませんか",
+      "すみません、ちょっと説明してあげませんか",
+      "すみません、ちょっと説明してもらいませんか",
+      "すみません、ちょっと説明してくださいませんか"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "26",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n どこで申し込んだらいいですか。",
+    "pilihan_jawaban": [
+      "Di mana sebaiknya saya mendaftar?",
+      "Kapan saya harus mendaftar?",
+      "Siapa yang mendaftar?",
+      "Apakah saya sudah mendaftar?"
+    ],
+    "jawaban_benar": "a"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "29",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "きのう [1. <落として:おとして:menjatuhkan> 2. <財布:さいふ:dompet>を 3. しまいました ]",
+    "jawaban": "さいふをおとしてしまいました"
+  },
+  {
+    "lesson": "29",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <ケーキ:けーき:kue>を 2. <全部:ぜんぶ:semua> 3. <食べて:たべて:makan> ] しまいました",
+    "jawaban": "けーきをぜんぶたべて"
+  },
+  {
+    "lesson": "29",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<電車:でんしゃ:kereta>に <間に合わなくて:まにあわなくて:tidak tepat waktu>、[1. <遅れて:おくれて:terlambat> 2. しまいました ]",
+    "jawaban": "おくれてしまいました"
+  },
+  {
+    "lesson": "29",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "この <本:ほん:buku>は もう [1. <読んで:よんで:membaca> 2. しまいました ]",
+    "jawaban": "よんでしまいました"
+  },
+  {
+    "lesson": "29",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<急に:きゅうに:tiba-tiba> [1. <止まって:とまって:berhenti> 2. <電車:でんしゃ:kereta>が 3. しまいました ]",
+    "jawaban": "でんしゃがとまってしまいました"
+  },
+  {
+    "lesson": "29",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <窓:まど:jendela>が 2. <開いて:あいて:terbuka> 3. います ]",
+    "jawaban": "まどがあいています"
+  }
+]

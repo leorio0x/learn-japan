@@ -31,6 +31,7 @@ terdapat 4 jenis soal:
 - opsi memilih jenis soal [jtest,pg,bintang,dokkai,acak]
 - di setiap isi attribute data jika terdapat text dengan format <kanji:kana:arti>, tolong render dengan floating-ui
 - tetap tampilkan spasi pada data pertanyaan soal karegori [bintang,jtest], jangan gunakan format penulisan jepang tanpa spasi
+- opsi filter atau pemilihan multi-kategori untuk sesi latihan soal (gunakan CSS GRID, 4 col perbaris)
 
 ## 1.2. Halaman CRUD bunpou
 

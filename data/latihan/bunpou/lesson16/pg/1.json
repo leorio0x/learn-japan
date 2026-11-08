@@ -1,0 +1,103 @@
+[
+  {
+    "lesson": "16",
+    "kategori": "pilihan ganda",
+    "soal": "<朝:あさ:pagi> <起きて:おきて:bangun>、シャワーを ___、<会社:かいしゃ:perusahaan> へ <行きます:いきます:pergi>。",
+    "pilihan_jawaban": ["浴びて", "浴びます", "浴びた", "浴びる"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "16",
+    "kategori": "pilihan ganda",
+    "soal": "ごはんを <食べて:たべて:makan> ___ <学校:がっこう:sekolah> へ <行きます:いきます:pergi>。",
+    "pilihan_jawaban": ["から", "まで", "より", "ほど"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "16",
+    "kategori": "pilihan ganda",
+    "soal": "<駅:えき:stasiun> で <電車:でんしゃ:kereta> を ___。",
+    "pilihan_jawaban": ["降ります", "乗ります", "乗り換えます", "出します"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "16",
+    "kategori": "pilihan ganda",
+    "soal": "<新宿:しんじゅく:Shinjuku> で <地下鉄:ちかてつ:subway> に ___。",
+    "pilihan_jawaban": ["乗り換えます", "降ります", "出します", "入ります"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "16",
+    "kategori": "pilihan ganda",
+    "soal": "<家:いえ:rumah> から <会社:かいしゃ:perusahaan> まで どのくらい ___ か。― 30分ぐらいです。",
+    "pilihan_jawaban": ["かかります", "あります", "います", "します"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "16",
+    "kategori": "pilihan ganda",
+    "soal": "___ やって <銀行:ぎんこう:bank> へ <行きます:いきます:pergi> か。― <歩いて:あるいて:berjalan kaki> 行きます。",
+    "pilihan_jawaban": ["どう", "どの", "どれ", "なに"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "16",
+    "kategori": "pilihan ganda",
+    "soal": "___ の <人:ひと:orang> は <田中:たなか:Tanaka>さんです。",
+    "pilihan_jawaban": ["三番", "三つ", "三人", "三年"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "16",
+    "kategori": "pilihan ganda",
+    "soal": "<毎朝:まいあさ:setiap pagi> シャワーを ___ <出かけます:でかけます:keluar rumah>。",
+    "pilihan_jawaban": ["浴びてから", "浴びますから", "浴びてまで", "浴びたから"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "16",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n (Saya) naik bus dari stasiun ke sekolah.",
+    "pilihan_jawaban": [
+      "駅から学校までバスに乗ります",
+      "駅まで学校からバスを降ります",
+      "駅から学校までバスを乗り換えます",
+      "駅で学校までバスを出します"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "16",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Setelah makan, saya pergi ke sekolah.",
+    "pilihan_jawaban": [
+      "ごはんを食べてから学校へ行きます",
+      "ごはんを食べて学校へ行きません",
+      "ごはんを食べるから学校へ行きます",
+      "ごはんを食べたから学校へ行きます"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "16",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<て形:てけい:bentuk te> \n のります (Naik)",
+    "pilihan_jawaban": ["のって", "のりて", "のった", "のらない"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "16",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<て形:てけい:bentuk te> \n おります (Turun)",
+    "pilihan_jawaban": ["おりて", "おりりて", "おりた", "おりない"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "16",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<て形:てけい:bentuk te> \n あびます (Mandi)",
+    "pilihan_jawaban": ["あびて", "あびりて", "あびた", "あびない"],
+    "jawaban_benar": "a"
+  }
+]

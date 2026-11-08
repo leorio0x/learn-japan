@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "42",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "この包丁は [1. 切る 2. 野菜を 3. のに ] 使います。",
+    "jawaban": "やさいをきるのに"
+  },
+  {
+    "lesson": "42",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "このミキサーは [1. 混ぜる 2. 果物を 3. のに ] 使います。",
+    "jawaban": "くだものをまぜるのに"
+  },
+  {
+    "lesson": "42",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは毎日 [1. 働いています 2. 家族 3. のために ]。",
+    "jawaban": "かぞくのためにはたらています"
+  },
+  {
+    "lesson": "42",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "このノートは [1. 勉強する 2. 日本語を 3. のに ] 使います。",
+    "jawaban": "にほんごをべんきょうするのに"
+  },
+  {
+    "lesson": "42",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "この箱は [1. 使います 2. 何 3. に 4. か ]。",
+    "jawaban": "なににつかいますか"
+  },
+  {
+    "lesson": "42",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "はんこは [1. 押す 2. 名前を 3. のに ] 使います。",
+    "jawaban": "なまえをおすのに"
+  }
+]

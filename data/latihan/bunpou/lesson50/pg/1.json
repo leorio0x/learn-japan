@@ -1,0 +1,111 @@
+[
+  {
+    "lesson": "50",
+    "kategori": "pilihan ganda",
+    "soal": "社長は 今、会議室に ___ 。",
+    "pilihan_jawaban": ["いらっしゃいます", "参ります", "おります", "伺います"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "50",
+    "kategori": "pilihan ganda",
+    "soal": "先生は 何時に お帰り ___ か。",
+    "pilihan_jawaban": ["いたします", "になります", "します", "なります"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "50",
+    "kategori": "pilihan ganda",
+    "soal": "私が ご案内 ___ 。",
+    "pilihan_jawaban": ["なさいます", "おっしゃいます", "いたします", "いらっしゃいます"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "50",
+    "kategori": "pilihan ganda",
+    "soal": "田中と ___ 。",
+    "pilihan_jawaban": ["おっしゃいます", "なさいます", "申します", "いらっしゃいます"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "50",
+    "kategori": "pilihan ganda",
+    "soal": "明日、先生のお宅に ___ 。",
+    "pilihan_jawaban": ["いらっしゃいます", "伺います", "おっしゃいます", "ご覧になります"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "50",
+    "kategori": "pilihan ganda",
+    "soal": "先生の お話を ___ 。",
+    "pilihan_jawaban": ["おっしゃいました", "伺いました", "なさいました", "いらっしゃいました"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "50",
+    "kategori": "pilihan ganda",
+    "soal": "その 写真を 拝見 ___ 。",
+    "pilihan_jawaban": ["なさいました", "おっしゃいました", "しました", "いらっしゃいました"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "50",
+    "kategori": "pilihan ganda",
+    "soal": "社長は 新聞を ___ 。",
+    "pilihan_jawaban": [
+      "お読みしています",
+      "お読みになっています",
+      "読んでいただいています",
+      "読ませていただいています"
+    ],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "50",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya akan mengantar (memandu).",
+    "pilihan_jawaban": [
+      "私がご案内なさいます",
+      "私がご案内いたします",
+      "私がご案内になります",
+      "私がご案内いらっしゃいます"
+    ],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "50",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Nama saya Tanaka. (bentuk rendah hati)",
+    "pilihan_jawaban": [
+      "田中とおっしゃいます",
+      "田中となさいます",
+      "田中といらっしゃいます",
+      "田中と申します"
+    ],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "50",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Apakah Anda baik-baik saja? (bentuk hormat)",
+    "pilihan_jawaban": [
+      "お元気でございますか",
+      "お元気いたしますか",
+      "お元気でいらっしゃいますか",
+      "お元気と申しますか"
+    ],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "50",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya akan berkunjung ke rumah Anda.",
+    "pilihan_jawaban": [
+      "お宅にいらっしゃいます",
+      "お宅におっしゃいます",
+      "お宅に伺います",
+      "お宅にご覧になります"
+    ],
+    "jawaban_benar": "c"
+  }
+]

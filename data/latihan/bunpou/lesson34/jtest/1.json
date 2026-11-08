@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "34",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <私:わたし:saya>が 2. <言う:いう:berkata> 3. とおりに ] して ください",
+    "jawaban": "わたしがいうとおりに"
+  },
+  {
+    "lesson": "34",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<説明書:せつめいしょ:buku petunjuk>に <書いて:かいて:tertulis> ある [1. とおりに 2. <組み立てました:くみたてました:merakit> ]",
+    "jawaban": "とおりにくみたてました"
+  },
+  {
+    "lesson": "34",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<ごはん:ごはん:nasi>を [1. <食べた:たべた:makan> 2. あとで 3. <薬:くすり:obat>を <飲みます:のみます:minum> ]",
+    "jawaban": "たべたあとでくすりをのみます"
+  },
+  {
+    "lesson": "34",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<図:ず:gambar>の [1. とおりに 2. <線:せん:garis>を <引いて:ひいて:menarik> ] ください",
+    "jawaban": "とおりにせんをひいて"
+  },
+  {
+    "lesson": "34",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<仕事:しごと:pekerjaan>が [1. <終わった:おわった:selesai> 2. あとで 3. <家:いえ:rumah>へ <帰ります:かえります:pulang> ]",
+    "jawaban": "おわったあとでいえへかえります"
+  },
+  {
+    "lesson": "34",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<シャワー:しゃわー:shower>を [1. <浴びた:あびた:mandi> 2. あとで 3. <寝ます:ねます:tidur> ]",
+    "jawaban": "あびたあとでねます"
+  }
+]

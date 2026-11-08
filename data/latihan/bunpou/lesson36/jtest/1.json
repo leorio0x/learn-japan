@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "36",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. 運動する 2. 毎朝 3. 三十分 ] ようにしています。",
+    "jawaban": "まいあささんじゅっぷんうんどうする"
+  },
+  {
+    "lesson": "36",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. 話せる 2. 日本語が 3. ように ] なりました。",
+    "jawaban": "にほんごがはなせるように"
+  },
+  {
+    "lesson": "36",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "忘れない [1. メモを 2. ように 3. します ]。",
+    "jawaban": "ようにめもをします"
+  },
+  {
+    "lesson": "36",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<日本:にほん:Jepang>へ [1. ために 2. 留学する 3. お金を ] 貯めています。",
+    "jawaban": "りゅうがくするためにおかねを"
+  },
+  {
+    "lesson": "36",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<健康:けんこう:kesehatan>のために、[1. 野菜を 2. 毎日 3. 食べる ] ようにしています。",
+    "jawaban": "まいにちやさいをたべる"
+  },
+  {
+    "lesson": "36",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "やっと [1. 乗れる 2. 自転車に 3. ように ] なりました。",
+    "jawaban": "じてんしゃにのれるように"
+  }
+]

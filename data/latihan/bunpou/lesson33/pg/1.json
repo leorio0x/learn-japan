@@ -1,0 +1,101 @@
+[
+  {
+    "lesson": "33",
+    "kategori": "pilihan ganda",
+    "soal": "「<使用禁止:しようきんし:dilarang pakai>」は どういう ___ ですか。",
+    "pilihan_jawaban": ["意味", "言葉", "書き方", "読み方"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "33",
+    "kategori": "pilihan ganda",
+    "soal": "「ありがとう」は <英語:えいご:bahasa Inggris> で <何:なん:apa> と ___ か。",
+    "pilihan_jawaban": ["言います", "話します", "書きます", "読みます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "33",
+    "kategori": "pilihan ganda",
+    "soal": "ここに 「<入口:いりぐち:pintu masuk>」と ___。",
+    "pilihan_jawaban": ["書いてあります", "書きます", "書いてください", "書いています"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "33",
+    "kategori": "pilihan ganda",
+    "soal": "<壁:かべ:dinding> に 「<禁煙:きんえん:dilarang merokok>」と ___。",
+    "pilihan_jawaban": ["書いてあります", "書きます", "書いてください", "書いています"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "33",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka>さんに 「あとで <電話:でんわ:telepon> します」と ___ いただけませんか。",
+    "pilihan_jawaban": ["伝えて", "伝えます", "伝える", "伝え"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "33",
+    "kategori": "pilihan ganda",
+    "soal": "「<立入禁止:たちいりきんし:dilarang masuk>」は 「<入って:はいって:masuk> は いけない」という ___ です。",
+    "pilihan_jawaban": ["意味", "こと", "もの", "の"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "33",
+    "kategori": "pilihan ganda",
+    "soal": "「ごみ」は <英語:えいご:bahasa Inggris> で <何:なん:apa> と ___ か。",
+    "pilihan_jawaban": ["言います", "話します", "書きます", "読みます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "33",
+    "kategori": "pilihan ganda",
+    "soal": "この マークは どういう ___ ですか。",
+    "pilihan_jawaban": ["意味", "字", "本", "話"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "33",
+    "kategori": "pilihan ganda",
+    "soal": "<机:つくえ:meja> の <上:うえ:atas> に 「<触らないで:さわらないで:jangan menyentuh> ください」と ___。",
+    "pilihan_jawaban": ["書いてあります", "書きます", "書いてください", "書いています"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "33",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Apa arti tanda ini?",
+    "pilihan_jawaban": [
+      "このマークはどういう意味ですか",
+      "このマークは何と言いますか",
+      "このマークはどこにありますか",
+      "このマークはどう書きますか"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "33",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Tolong sampaikan kepada Tanaka-san bahwa saya akan menelepon nanti.",
+    "pilihan_jawaban": [
+      "田中さんにあとで電話すると伝えていただけませんか",
+      "田中さんはあとで電話すると伝えていただけませんか",
+      "田中さんにあとで電話しますと伝えてあげませんか",
+      "田中さんにあとで電話すると言っていただけませんか"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "33",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 「入口」は英語で「entrance」と言います。",
+    "pilihan_jawaban": [
+      "\"Iriguchi\" dalam bahasa Inggris disebut \"entrance\"",
+      "\"Iriguchi\" dalam bahasa Jepang berarti \"pintu keluar\"",
+      "\"Entrance\" dalam bahasa Jepang disebut \"deguchi\"",
+      "\"Iriguchi\" adalah bahasa Inggris dari \"entrance\""
+    ],
+    "jawaban_benar": "a"
+  }
+]

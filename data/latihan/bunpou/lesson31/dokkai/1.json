@@ -1,0 +1,75 @@
+[
+  {
+    "lesson": "31",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんは <来年:らいねん:tahun depan> <日本:にほん:Jepang> の <大学院:だいがくいん:pascasarjana> に <入る:はいる:masuk> つもりです。<田中:たなか:Tanaka>さんは <今:いま:sekarang> <国:くに:negara> の <大学:だいがく:universitas> で <経済:けいざい:ekonomi> を <勉強:べんきょう:belajar> して います。\n\n<田中:たなか:Tanaka>さんは「<日本:にほん:Jepang> で <経済:けいざい:ekonomi> の <研究:けんきゅう:penelitian> を しようと <思います:おもいます:berpikir>。<日本:にほん:Jepang> の <会社:かいしゃ:perusahaan> で <働きたい:はたらきたい:ingin bekerja> です」と <言いました:いいました:berkata>。\n\n<田中:たなか:Tanaka>さんは <来月:らいげつ:bulan depan> <日本語:にほんご:bahasa Jepang> の <試験:しけん:ujian> を <受けます:うけます:mengikuti>。それから、<国:くに:negara> へ <帰る:かえる:pulang> <予定:よてい:rencana> です。<田中:たなか:Tanaka>さんは「<国:くに:negara> へ <帰ったら:かえったら:pulang>、<家族:かぞく:keluarga> と <一緒:いっしょ:bersama> に <旅行:りょこう:perjalanan> する つもりです。それから、また <日本:にほん:Jepang> へ <戻って:もどって:kembali> きます」と <言いました:いいました:berkata>。\n\n<田中:たなか:Tanaka>さんの <友達:ともだち:teman> は「<試験:しけん:ujian>、がんばって ください」と <言いました:いいました:berkata>。<田中:たなか:Tanaka>さんは「はい、<頑張ります:がんばります:berusaha>」と <答えました:こたえました:menjawab>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <来年:らいねん:tahun depan> <何:なに:apa> を する つもりですか。",
+        "pilihan_jawaban": [
+          "<日本:にほん:Jepang> の <大学院:だいがくいん:pascasarjana> に <入る:はいる:masuk>",
+          "<国:くに:negara> で <働く:はたらく:bekerja>",
+          "<日本:にほん:Jepang> で <先生:せんせい:guru> に なる",
+          "<外国:がいこく:luar negeri> へ <旅行:りょこう:perjalanan> する"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <今:いま:sekarang> <何:なに:apa> を <勉強:べんきょう:belajar> して いますか。",
+        "pilihan_jawaban": [
+          "<経済:けいざい:ekonomi>",
+          "<医学:いがく:kedokteran>",
+          "<法律:ほうりつ:hukum>",
+          "<文学:ぶんがく:sastra>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <日本:にほん:Jepang> で <何:なに:apa> を しようと <思って:おもって:berpikir> いますか。",
+        "pilihan_jawaban": [
+          "<経済:けいざい:ekonomi> の <研究:けんきゅう:penelitian> を しようと <思って:おもって:berpikir> います",
+          "<日本:にほん:Jepang> の <会社:かいしゃ:perusahaan> を <作りたい:つくりたい:ingin membuat> と <思って:おもって:berpikir> います",
+          "<日本語:にほんご:bahasa Jepang> の <先生:せんせい:guru> に なりたいと <思って:おもって:berpikir> います",
+          "<写真:しゃしん:foto> を <撮りたい:とりたい:ingin mengambil> と <思って:おもって:berpikir> います"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<来月:らいげつ:bulan depan> <何:なに:apa> が ありますか。",
+        "pilihan_jawaban": [
+          "<日本語:にほんご:bahasa Jepang> の <試験:しけん:ujian>",
+          "<大学院:だいがくいん:pascasarjana> の <入学式:にゅうがくしき:upacara masuk>",
+          "<旅行:りょこう:perjalanan>",
+          "<会社:かいしゃ:perusahaan> の ミーティング"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <国:くに:negara> へ <帰ったら:かえったら:pulang> <何:なに:apa> を する つもりですか。",
+        "pilihan_jawaban": [
+          "<家族:かぞく:keluarga> と <一緒:いっしょ:bersama> に <旅行:りょこう:perjalanan> する",
+          "すぐに <日本:にほん:Jepang> へ <戻る:もどる:kembali>",
+          "<会社:かいしゃ:perusahaan> で <働く:はたらく:bekerja>",
+          "<日本語:にほんご:bahasa Jepang> を <教える:おしえる:mengajar>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは また <日本:にほん:Jepang> へ <戻って:もどって:kembali> きますか。",
+        "pilihan_jawaban": [
+          "はい、<戻って:もどって:kembali> きます",
+          "いいえ、<戻りません:もどりません:tidak kembali>",
+          "いいえ、<国:くに:negara> に <住みます:すみます:tinggal>",
+          "<分かりません:わかりません:tidak tahu>"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

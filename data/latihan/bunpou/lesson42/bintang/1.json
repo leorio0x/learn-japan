@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "42",
+    "kategori": "bintang",
+    "soal": "この包丁は ___ ___ ★ ___ 使います。",
+    "pilihan_jawaban": ["切る", "野菜を", "のに", "いつも"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "42",
+    "kategori": "bintang",
+    "soal": "このミキサーは ___ ___ ★ ___ 使います。",
+    "pilihan_jawaban": ["果物を", "のに", "混ぜる", "よく"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "42",
+    "kategori": "bintang",
+    "soal": "このはさみは ___ ___ ★ ___ 使います。",
+    "pilihan_jawaban": ["のに", "紙を", "よく", "切る"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "42",
+    "kategori": "bintang",
+    "soal": "わたしは ___ ___ ★ ___ 働いています。",
+    "pilihan_jawaban": ["一生懸命", "毎日", "家族", "のために"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "42",
+    "kategori": "bintang",
+    "soal": "このノートは ___ ___ ★ ___ 使います。",
+    "pilihan_jawaban": ["日本語を", "のに", "勉強する", "毎日"],
+    "jawaban_benar": "c"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "lesson": "20",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <明日:あした:besok>は 2. <雨:あめ:hujan>が 3. <降る:ふる:turun> ] と 思います",
+    "jawaban": "あしたはあめがふる"
+  },
+  {
+    "lesson": "20",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <田中:たなか:Tanaka>さんは 2. <来週:らいしゅう:minggu depan> 3. <日本:にほん:Jepang>へ ] <行く:いく:pergi>と 言いました",
+    "jawaban": "たなかさんはらいしゅうにほんへ"
+  },
+  {
+    "lesson": "20",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. どうして 2. <遅れた:おくれた:terlambat> 3. んですか ]",
+    "jawaban": "どうしておくれたんですか"
+  },
+  {
+    "lesson": "20",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <私:わたし:saya>は 2. <彼:かれ:dia>は 3. <日本人:にほんじん:orang Jepang>だ ] と 思います",
+    "jawaban": "わたしはかれはにほんじんだ"
+  },
+  {
+    "lesson": "20",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. すみません 2. <駅:えき:stasiun>へ 3. <行きたい:いきたい:ingin pergi> ] んですが、どこですか",
+    "jawaban": "すみませんえきへいきたい"
+  },
+  {
+    "lesson": "20",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <田中:たなか:Tanaka>さんは 2. <毎朝:まいあさ:setiap pagi> 3. ジョギングを <して:して:melakukan> ] いるんです",
+    "jawaban": "たなかさんはまいあさじょぎんぐをして"
+  },
+  {
+    "lesson": "20",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <明日:あした:besok>は 2. <学校:がっこう:sekolah>へ 3. <行かない:いかない:tidak pergi> ] と 思います",
+    "jawaban": "あしたはがっこうへいかない"
+  },
+  {
+    "lesson": "20",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <先生:せんせい:guru>は 2. 「おはよう」 3. と <言いました:いいました:berkata> ]",
+    "jawaban": "せんせいはおはようといいました"
+  }
+]

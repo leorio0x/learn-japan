@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "34",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["私が", "言う", "とおりに", "して", "ください"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "34",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["説明書に", "書いて", "ある", "とおりに", "組み立てました"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "34",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["ごはんを", "食べた", "あとで", "薬を", "飲みます"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "34",
+    "kategori": "bintang",
+    "soal": "___ ★ ___ ___ ___。",
+    "pilihan_jawaban": ["図の", "とおりに", "線を", "引いて", "ください"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "34",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ___ ★。",
+    "pilihan_jawaban": ["仕事が", "終わった", "あとで", "家へ", "帰ります"],
+    "jawaban_benar": "e"
+  }
+]

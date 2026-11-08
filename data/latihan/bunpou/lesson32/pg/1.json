@@ -1,0 +1,101 @@
+[
+  {
+    "lesson": "32",
+    "kategori": "pilihan ganda",
+    "soal": "<風邪:かぜ:flu> ですから、<薬:くすり:obat> を ___ ほうが いいです。",
+    "pilihan_jawaban": ["飲む", "飲んだ", "飲んで", "飲み"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "32",
+    "kategori": "pilihan ganda",
+    "soal": "<熱:ねつ:demam> が ありますから、お<風呂:ふろ:mandi> に ___ ほうが いいです。",
+    "pilihan_jawaban": ["入る", "入った", "入らない", "入って"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "32",
+    "kategori": "pilihan ganda",
+    "soal": "<病気:びょうき:sakit> の ときは、<無理:むり:memaksakan> を ___ ほうが いいです。",
+    "pilihan_jawaban": ["する", "した", "しない", "して"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "32",
+    "kategori": "pilihan ganda",
+    "soal": "<頭:あたま:kepala> が <痛い:いたい:sakit> ですね。<病院:びょういん:rumah sakit> へ ___ どうですか。",
+    "pilihan_jawaban": ["行く", "行ったら", "行って", "行き"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "32",
+    "kategori": "pilihan ganda",
+    "soal": "早く <寝た:ねた:tidur> ___ いいですよ。",
+    "pilihan_jawaban": ["ほうが", "つもりが", "ことが", "のに"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "32",
+    "kategori": "pilihan ganda",
+    "soal": "お<酒:さけ:minuman keras> を たくさん <飲まない:のまない:tidak minum> ___ いいですよ。",
+    "pilihan_jawaban": ["ほうが", "つもりが", "ことが", "のに"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "32",
+    "kategori": "pilihan ganda",
+    "soal": "<毎日:まいにち:setiap hari> <運動:うんどう:olahraga> した ___ いいです。",
+    "pilihan_jawaban": ["ほうが", "つもりが", "ことが", "のに"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "32",
+    "kategori": "pilihan ganda",
+    "soal": "のどが <痛い:いたい:sakit> なら、ゆっくり ___ どうですか。",
+    "pilihan_jawaban": ["休む", "休んだら", "休んで", "休み"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "32",
+    "kategori": "pilihan ganda",
+    "soal": "A: どうしたんですか。B: のどが <痛い:いたい:sakit> んです。A: じゃあ、うがいを ___ いいですよ。",
+    "pilihan_jawaban": ["したほうが", "するほうが", "しないほうが", "してほうが"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "32",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Sebaiknya kamu minum obat.",
+    "pilihan_jawaban": [
+      "薬を飲んだほうがいいです",
+      "薬を飲むほうがいいです",
+      "薬を飲まないほうがいいです",
+      "薬を飲んでほうがいいです"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "32",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Sebaiknya jangan terlalu banyak bekerja.",
+    "pilihan_jawaban": [
+      "働きすぎないほうがいいです",
+      "働きすぎたほうがいいです",
+      "働きすぎるほうがいいです",
+      "働きすぎてほうがいいです"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "32",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 病院へ行ったらどうですか。",
+    "pilihan_jawaban": [
+      "Bagaimana kalau pergi ke rumah sakit?",
+      "Apakah kamu sudah pergi ke rumah sakit?",
+      "Pergilah ke rumah sakit sekarang",
+      "Kamu tidak perlu pergi ke rumah sakit"
+    ],
+    "jawaban_benar": "a"
+  }
+]

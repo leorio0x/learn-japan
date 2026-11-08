@@ -1,0 +1,70 @@
+[
+  {
+    "lesson": "19",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんは <日本:にほん:Jepang> の <文化:ぶんか:budaya> が <大好き:だいすき:sangat suka> です。<田中:たなか:Tanaka>さんは <一度:いちど:sekali> <京都:きょうと:Kyoto> へ <行った:いった:pergi> ことが あります。<京都:きょうと:Kyoto> で <お寺:おてら:kuil> を <見たり:みたり:melihat>、お<茶:ちゃ:teh> を <飲んだり:のんだり:minum> しました。\n\n<田中:たなか:Tanaka>さんは <前:まえ:sebelum> は <日本:にほん:Jepang> の <歌:うた:lagu> が あまり <わかりません:わかりません:tidak mengerti> でした。でも、<毎日:まいにち:setiap hari> <練習:れんしゅう:latihan> して、<今:いま:sekarang> は <日本語:にほんご:bahasa Jepang> の <歌:うた:lagu> が <上手:じょうず:pandai> に なりました。\n\n<田中:たなか:Tanaka>さんは <来月:らいげつ:bulan depan> から <茶道:さどう:upacara minum teh> を <習います:ならいます:belajar>。<茶道:さどう:upacara minum teh> は <静か:しずか:tenang> で、<体:からだ:badan> に いいです。<田中:たなか:Tanaka>さんは「だんだん <上手:じょうず:pandai> に なりたいです」と <言いました:いいました:berkata>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <京都:きょうと:Kyoto> へ <行った:いった:pergi> ことが ありますか。",
+        "pilihan_jawaban": [
+          "はい、<一度:いちど:sekali> 行った ことが あります",
+          "いいえ、<一度も:いちども:sekali pun> ありません",
+          "はい、<何度も:なんども:berkali-kali> <行きました:いきました:pergi>",
+          "いいえ、<行きたくない:いきたくない:tidak ingin pergi> です"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<京都:きょうと:Kyoto> で 何を しましたか。",
+        "pilihan_jawaban": [
+          "<お寺:おてら:kuil> を <見たり:みたり:melihat> お<茶:ちゃ:teh> を <飲んだり:のんだり:minum> しました",
+          "<写真:しゃしん:foto> を <撮ったり:とったり:mengambil> <山:やま:gunung> に <登ったり:のぼったり:mendaki> しました",
+          "<買い物:かいもの:belanja> を したり <歌:うた:lagu> を <歌ったり:うたったり:menyanyi> しました",
+          "<料理:りょうり:masakan> を <作ったり:つくったり:membuat> <掃除:そうじ:bersih-bersih> を したり しました"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<前:まえ:sebelum> は <日本語:にほんご:bahasa Jepang> の <歌:うた:lagu> が わかりましたか。",
+        "pilihan_jawaban": [
+          "いいえ、あまり <わかりませんでした:わかりませんでした:tidak mengerti>",
+          "はい、よく わかりました",
+          "はい、<上手:じょうず:pandai> に <歌いました:うたいました:menyanyi>",
+          "いいえ、<歌:うた:lagu> が <嫌い:きらい:benci> でした"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<今:いま:sekarang>、<日本語:にほんご:bahasa Jepang> の <歌:うた:lagu> は どうですか。",
+        "pilihan_jawaban": [
+          "<上手:じょうず:pandai> に なりました",
+          "<下手:へた:tidak mahir> に なりました",
+          "わかりません",
+          "<歌いません:うたいません:tidak menyanyi>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<来月:らいげつ:bulan depan> から 何を <習います:ならいます:belajar> か。",
+        "pilihan_jawaban": ["<茶道:さどう:upacara minum teh>", "<書道:しょどう:kaligrafi>", "<生け花:いけばな:ikebana>", "<柔道:じゅうどう:judo>"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは どうなりたいですか。",
+        "pilihan_jawaban": [
+          "だんだん <上手:じょうず:pandai> に なりたいです",
+          "<先生:せんせい:guru> に なりたいです",
+          "<医者:いしゃ:dokter> に なりたいです",
+          "<強く:つよく:kuat> なりたいです"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

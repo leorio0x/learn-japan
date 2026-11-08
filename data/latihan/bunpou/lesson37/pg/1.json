@@ -1,0 +1,96 @@
+[
+  {
+    "lesson": "37",
+    "kategori": "pilihan ganda",
+    "soal": "わたしは 先生に 作文を ___ 。",
+    "pilihan_jawaban": ["褒めました", "褒められました", "褒めさせました", "褒めてもらいました"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "37",
+    "kategori": "pilihan ganda",
+    "soal": "弟は 母に ___ 。",
+    "pilihan_jawaban": ["叱りました", "叱られました", "叱らせました", "叱ってもらいました"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "37",
+    "kategori": "pilihan ganda",
+    "soal": "<駅:えき:stasiun>の<前:まえ:depan>に 新しいビルが ___ 。",
+    "pilihan_jawaban": ["建てました", "建てさせました", "建てられました", "建ててもらいました"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "37",
+    "kategori": "pilihan ganda",
+    "soal": "この本は 世界中で ___ 。",
+    "pilihan_jawaban": ["読んでいます", "読まれています", "読ませています", "読んでもらっています"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "37",
+    "kategori": "pilihan ganda",
+    "soal": "わたしは 電車で 足を ___ 。",
+    "pilihan_jawaban": ["踏みました", "踏まれました", "踏ませました", "踏んでもらいました"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "37",
+    "kategori": "pilihan ganda",
+    "soal": "電車の中で、財布を ___ 。",
+    "pilihan_jawaban": ["盗みました", "盗まれました", "盗ませました", "盗んでもらいました"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "37",
+    "kategori": "pilihan ganda",
+    "soal": "わたしは 弟に ケーキを ___ 。",
+    "pilihan_jawaban": ["食べました", "食べさせました", "食べられました", "食べてもらいました"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "37",
+    "kategori": "pilihan ganda",
+    "soal": "<会議:かいぎ:rapat>は 来週 ___ 。",
+    "pilihan_jawaban": ["行います", "行われます", "行わせます", "行ってもらいます"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "37",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke bentuk pasif: 書きます",
+    "pilihan_jawaban": ["書きます", "書かれます", "書けます", "書かせます"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "37",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke bentuk pasif: 食べます",
+    "pilihan_jawaban": ["食べさせます", "食べられます", "食べます", "食べようとします"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "37",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya dipuji oleh guru.",
+    "pilihan_jawaban": [
+      "わたしは先生に褒められました",
+      "わたしは先生を褒めました",
+      "わたしは先生に褒めました",
+      "わたしは先生を褒められました"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "37",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 弟にケーキを食べられました。",
+    "pilihan_jawaban": [
+      "Saya memakan kue adik",
+      "Kue saya dimakan adik",
+      "Saya menyuruh adik makan kue",
+      "Saya diberi kue oleh adik"
+    ],
+    "jawaban_benar": "b"
+  }
+]

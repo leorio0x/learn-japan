@@ -1,0 +1,96 @@
+[
+  {
+    "lesson": "30",
+    "kategori": "pilihan ganda",
+    "soal": "<会議:かいぎ:rapat> の <前:まえ:sebelum> に、<資料:しりょう:materi> を <読んで:よんで:membaca> ___。",
+    "pilihan_jawaban": ["おきます", "あります", "しまいます", "います"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "30",
+    "kategori": "pilihan ganda",
+    "soal": "<明日:あした:besok> <試験:しけん:ujian> が ありますから、<今晩:こんばん:malam ini> <勉強:べんきょう:belajar> して ___。",
+    "pilihan_jawaban": ["おきます", "あります", "しまいます", "います"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "30",
+    "kategori": "pilihan ganda",
+    "soal": "<机:つくえ:meja> の <上:うえ:atas> に <資料:しりょう:materi> が <置いて:おいて:meletakkan> ___。",
+    "pilihan_jawaban": ["あります", "おきます", "います", "しまいます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "30",
+    "kategori": "pilihan ganda",
+    "soal": "<壁:かべ:dinding> に カレンダーが <掛けて:かけて:menggantung> ___。",
+    "pilihan_jawaban": ["あります", "おきます", "います", "しまいます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "30",
+    "kategori": "pilihan ganda",
+    "soal": "<玄関:げんかん:pintu masuk> に <花:はな:bunga> が <飾って:かざって:menghias> ___。",
+    "pilihan_jawaban": ["あります", "おきます", "います", "しまいます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "30",
+    "kategori": "pilihan ganda",
+    "soal": "パーティーの <前:まえ:sebelum> に、<部屋:へや:kamar> を きれいに して ___。",
+    "pilihan_jawaban": ["おきます", "あります", "います", "しまいます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "30",
+    "kategori": "pilihan ganda",
+    "soal": "<使った:つかった:memakai> <物:もの:barang> は <元:もと:semula> の <所:ところ:tempat> に <戻して:もどして:mengembalikan> ___ ください。",
+    "pilihan_jawaban": ["おいて", "あって", "いて", "しまって"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "30",
+    "kategori": "pilihan ganda",
+    "soal": "<明日:あした:besok> は 早く <起きなければ:おきなければ:harus bangun> なりませんから、<目覚まし時計:めざましどけい:jam weker> を かけて ___。",
+    "pilihan_jawaban": ["おきます", "あります", "います", "しまいます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "30",
+    "kategori": "pilihan ganda",
+    "soal": "ドアに <お知らせ:おしらせ:pengumuman> が <貼って:はって:menempel> ___。",
+    "pilihan_jawaban": ["あります", "おきます", "います", "しまいます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "30",
+    "kategori": "pilihan ganda",
+    "soal": "テーブルの <上:うえ:atas> に <お皿:おさら:piring> が <並べて:ならべて:menjajarkan> ___。",
+    "pilihan_jawaban": ["あります", "おきます", "います", "しまいます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "30",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya akan menyiapkan laporan sebelum rapat.",
+    "pilihan_jawaban": [
+      "会議の前に資料を読んでおきます",
+      "会議の前に資料を読んであります",
+      "会議の前に資料を読んでしまいます",
+      "会議の前に資料を読んでいます"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "30",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Di dinding terpasang poster.",
+    "pilihan_jawaban": [
+      "壁にポスターが貼ってあります",
+      "壁にポスターが貼っておきます",
+      "壁にポスターを貼ってあります",
+      "壁にポスターが貼っています"
+    ],
+    "jawaban_benar": "a"
+  }
+]

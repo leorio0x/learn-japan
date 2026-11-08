@@ -1,0 +1,60 @@
+[
+  {
+    "lesson": "37",
+    "kategori": "dokkai",
+    "dokkai": "わたしの<町:まち:kota>では、今、<駅:えき:stasiun>の<前:まえ:depan>に<大きな:おおきな:besar>ビルが<建てられています:たてられています:sedang dibangun>。このビルは<来年:らいねん:tahun depan>、<図書館:としょかん:perpustakaan>として<利用:りよう:pemanfaatan>されます。わたしは<小さい:ちいさい:kecil>ころ、この町で<育てられました:そだてられました:dibesarkan>。子どものとき、<友達:ともだち:teman>に<大切な:たいせつな:penting><本:ほん:buku>を<汚されました:よごされました:dikotori>。でも、その友達は<先生:せんせい:guru>に<注意:ちゅうい:peringatan>されました。今、わたしは<建築家:けんちくか:arsitek>になりたいと<思っています:おもっています:berpikir>。町の<建物:たてもの:bangunan>を<設計:せっけい:desain>するために、<一生懸命:いっしょうけんめい:dengan sekuat tenaga><勉強:べんきょう:belajar>しています。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "今、駅の前に何が建てられていますか。",
+        "pilihan_jawaban": ["大きな公園", "大きなビル", "新しい駅", "図書館"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "このビルは来年どうなりますか。",
+        "pilihan_jawaban": [
+          "病院として利用されます",
+          "店として利用されます",
+          "図書館として利用されます",
+          "壊されます"
+        ],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "わたしはどこで育てられましたか。",
+        "pilihan_jawaban": ["東京", "この町", "外国", "海の近く"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "子どものとき、友達に何をされましたか。",
+        "pilihan_jawaban": [
+          "大切な本を読まれました",
+          "大切な本を捨てられました",
+          "大切な本を盗まれました",
+          "大切な本を汚されました"
+        ],
+        "jawaban_benar": "d"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "その友達はどうなりましたか。",
+        "pilihan_jawaban": [
+          "先生に褒められました",
+          "母に叱られました",
+          "先生に注意されました",
+          "警察に捕まりました"
+        ],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "わたしは今、何になりたいと思っていますか。",
+        "pilihan_jawaban": ["先生", "医者", "建築家", "運転手"],
+        "jawaban_benar": "c"
+      }
+    ]
+  }
+]

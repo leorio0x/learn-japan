@@ -1,0 +1,58 @@
+[
+  {
+    "lesson": "18",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <田中:たなか:Tanaka>さんは 2. ピアノを 3. <弾く:ひく:memainkan> ] ことが できます",
+    "jawaban": "たなかさんはぴあのをひく"
+  },
+  {
+    "lesson": "18",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. ここから 2. <富士山:ふじさん:Gunung Fuji>が 3. <見えます:みえます:terlihat> ]",
+    "jawaban": "ここからふじさんがみえます"
+  },
+  {
+    "lesson": "18",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <私:わたし:saya>は 2. <寝る:ねる:tidur> <前に:まえに:sebelum> 3. <本:ほん:buku>を ] 読みます",
+    "jawaban": "わたしはねるまえにほんを"
+  },
+  {
+    "lesson": "18",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <田中:たなか:Tanaka>さんの <趣味:しゅみ:hobi>は 2. <切手:きって:perangko>を 3. <集める:あつめる:mengumpulkan> ] ことです",
+    "jawaban": "たなかさんのしゅみはきってをあつめる"
+  },
+  {
+    "lesson": "18",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <日本語:にほんご:bahasa Jepang>は 2. なかなか 3. <上手:じょうず:pandai>に ] なりません",
+    "jawaban": "にほんごはなかなかじょうずに"
+  },
+  {
+    "lesson": "18",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <父:ちち:ayah>は 2. ぜんぜん 3. お<酒:さけ:minuman keras>を ] 飲みません",
+    "jawaban": "ちちはぜんぜんおさけを"
+  },
+  {
+    "lesson": "18",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <私:わたし:saya>は 2. <日本語:にほんご:bahasa Jepang>を 3. <話す:はなす:berbicara> ] ことが できます",
+    "jawaban": "わたしはにほんごをはなす"
+  },
+  {
+    "lesson": "18",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <小鳥:ことり:burung kecil>の 2. <声:こえ:suara>が 3. <聞こえます:きこえます:terdengar> ]",
+    "jawaban": "ことりのこえがきこえます"
+  }
+]

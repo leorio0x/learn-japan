@@ -1,0 +1,96 @@
+[
+  {
+    "lesson": "36",
+    "kategori": "pilihan ganda",
+    "soal": "毎朝、<運動:うんどう:olahraga>する ___ しています。",
+    "pilihan_jawaban": ["ように", "ために", "そうに", "らしく"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "36",
+    "kategori": "pilihan ganda",
+    "soal": "<日本語:にほんご:bahasa Jepang>が話せる ___ なりました。",
+    "pilihan_jawaban": ["ために", "そうに", "ように", "らしく"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "36",
+    "kategori": "pilihan ganda",
+    "soal": "<忘れない:わすれない:tidak lupa> ___ 、メモしてください。",
+    "pilihan_jawaban": ["ように", "ために", "そうに", "らしく"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "36",
+    "kategori": "pilihan ganda",
+    "soal": "<日本:にほん:Jepang>へ行く ___ 、お金を貯めています。",
+    "pilihan_jawaban": ["ように", "ために", "そうに", "らしく"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "36",
+    "kategori": "pilihan ganda",
+    "soal": "<健康:けんこう:kesehatan>の ___ 、毎日野菜を食べています。",
+    "pilihan_jawaban": ["ために", "ように", "そうに", "らしく"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "36",
+    "kategori": "pilihan ganda",
+    "soal": "このごろ、<野菜:やさい:sayur>を食べる ___ しています。",
+    "pilihan_jawaban": ["ために", "ように", "そうに", "らしく"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "36",
+    "kategori": "pilihan ganda",
+    "soal": "やっと<自転車:じてんしゃ:sepeda>に乗れる ___ なりました。",
+    "pilihan_jawaban": ["ために", "そうに", "ように", "らしく"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "36",
+    "kategori": "pilihan ganda",
+    "soal": "<試験:しけん:ujian>に合格する ___ 、毎日勉強しています。",
+    "pilihan_jawaban": ["ように", "ために", "そうに", "らしく"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "36",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke bentuk 'bisa' (potensial): 泳ぎます",
+    "pilihan_jawaban": ["泳げる", "泳がれる", "泳ませる", "泳いだ"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "36",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke bentuk 'bisa' (potensial): 話します",
+    "pilihan_jawaban": ["話される", "話せる", "話させる", "話した"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "36",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya berusaha tidur cepat setiap hari.",
+    "pilihan_jawaban": [
+      "毎日早く寝るようにしています",
+      "毎日早く寝るためにしています",
+      "毎日早く寝そうにしています",
+      "毎日早く寝るらしくしています"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "36",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 毎朝、日本語を勉強するようにしています。",
+    "pilihan_jawaban": [
+      "Setiap pagi saya berusaha belajar bahasa Jepang",
+      "Setiap pagi saya dipaksa belajar bahasa Jepang",
+      "Setiap pagi saya bisa belajar bahasa Jepang",
+      "Setiap pagi saya ingin belajar bahasa Jepang"
+    ],
+    "jawaban_benar": "a"
+  }
+]

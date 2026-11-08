@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "24",
+    "kategori": "bintang",
+    "soal": "___ ★ ___ ___ ___。",
+    "pilihan_jawaban": ["私は", "友達に", "お菓子を", "送って", "あげました"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "24",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ___ ★。",
+    "pilihan_jawaban": ["田中さんは", "私に", "日本語を", "教えて", "くれました"],
+    "jawaban_benar": "e"
+  },
+  {
+    "lesson": "24",
+    "kategori": "bintang",
+    "soal": "★ ___ ___ ___ ___。",
+    "pilihan_jawaban": ["私は", "田中さんに", "駅まで", "送って", "もらいました"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "24",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["すみません", "この", "漢字の", "読み方を", "教えていただけませんか"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "24",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["友達が", "私の", "引っ越しを", "手伝って", "くれました"],
+    "jawaban_benar": "c"
+  }
+]

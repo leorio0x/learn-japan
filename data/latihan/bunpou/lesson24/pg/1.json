@@ -1,0 +1,96 @@
+[
+  {
+    "lesson": "24",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <友達:ともだち:teman> に <お菓子:おかし:kue> を ___ あげました。",
+    "pilihan_jawaban": ["送ります", "送って", "送る", "送り"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "24",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka>さんは <私:わたし:saya> に <日本語:にほんご:bahasa Jepang> を ___ くれました。",
+    "pilihan_jawaban": ["教えます", "教えて", "教える", "教え"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "24",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <田中:たなか:Tanaka>さんに <駅:えき:stasiun> まで ___ もらいました。",
+    "pilihan_jawaban": ["送ります", "送って", "送る", "送り"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "24",
+    "kategori": "pilihan ganda",
+    "soal": "A: すみません、この <漢字:かんじ:kanji> の <読み方:よみかた:cara baca> を ___ いただけませんか。",
+    "pilihan_jawaban": ["教えます", "教えて", "教える", "教え"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "24",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <母:はは:ibu> に セーターを ___ あげました。",
+    "pilihan_jawaban": ["買います", "買って", "買う", "買い"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "24",
+    "kategori": "pilihan ganda",
+    "soal": "<友達:ともだち:teman> が <私:わたし:saya> の <引っ越し:ひっこし:pindah rumah> を ___ くれました。",
+    "pilihan_jawaban": ["手伝います", "手伝って", "手伝う", "手伝い"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "24",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka>さんに <道:みち:jalan> を ___ もらいました。",
+    "pilihan_jawaban": ["説明します", "説明して", "説明する", "説明し"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "24",
+    "kategori": "pilihan ganda",
+    "soal": "<母:はは:ibu> が <私:わたし:saya> に <お弁当:おべんとう:bekal> を ___ くれました。",
+    "pilihan_jawaban": ["作ります", "作って", "作る", "作り"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "24",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <田中:たなか:Tanaka>さんに <会社:かいしゃ:perusahaan> を ___ あげました。",
+    "pilihan_jawaban": ["案内します", "案内して", "案内する", "案内し"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "24",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya diajari bahasa Jepang oleh Tanaka-san.",
+    "pilihan_jawaban": [
+      "田中さんに日本語を教えてもらいました",
+      "田中さんに日本語を教えてくれました",
+      "田中さんに日本語を教えてあげました",
+      "田中さんは日本語を教えてもらいました"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "24",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Tanaka-san membuatkan kue untuk saya.",
+    "pilihan_jawaban": [
+      "田中さんは私にケーキを作ってくれました",
+      "田中さんは私にケーキを作ってもらいました",
+      "田中さんは私にケーキを作ってあげました",
+      "私は田中さんにケーキを作ってくれました"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "24",
+    "kategori": "pilihan ganda",
+    "soal": "A: この <荷物:にもつ:barang> を <持ちましょう:もちましょう:mari membawa> か。B: ええ、___ いただけませんか。",
+    "pilihan_jawaban": ["持ちます", "持って", "持つ", "持ち"],
+    "jawaban_benar": "b"
+  }
+]

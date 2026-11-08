@@ -1,0 +1,50 @@
+[
+  {
+    "lesson": "39",
+    "kategori": "dokkai",
+    "dokkai": "<昨日:きのう:kemarin>、<東京:とうきょう:Tokyo>で<大きな:おおきな:besar><地震:じしん:gempa>がありました。地震のために、<電車:でんしゃ:kereta>が<止まりました:とまりました:berhenti>。それで、<多くの:おおくの:banyak><人:ひと:orang>が<駅:えき:stasiun>で<待っていました:まっていました:menunggu>。わたしは地震で電車が止まったので、<会社:かいしゃ:perusahaan>に<遅刻:ちこく:terlambat>しました。<社長:しゃちょう:direktur>は「<事故:じこ:kecelakaan>で遅れたのなら、<仕方:しかた:cara>がありませんね」と<言いました:いいました:berkata>。<夜:よる:malam>、<友達:ともだち:teman>から<電話:でんわ:telepon>がありました。友達の<家:いえ:rumah>は<火事:かじ:kebakaran>で<焼けました:やけました:terbakar>。わたしは<本当に:ほんとうに:sungguh><びっくりしました:びっくりしました:terkejut>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "昨日、東京で何がありましたか。",
+        "pilihan_jawaban": ["大きな地震", "大きな火事", "大きな台風", "大きな事故"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "なぜ電車が止まりましたか。",
+        "pilihan_jawaban": ["事故のため", "地震のため", "台風のため", "火事のため"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "わたしはなぜ会社に遅刻しましたか。",
+        "pilihan_jawaban": ["寝坊したから", "電車が止まったから", "事故にあったから", "病気になったから"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "社長は何と言いましたか。",
+        "pilihan_jawaban": [
+          "事故で遅れたのなら仕方がない",
+          "もっと早く来なさい",
+          "電車で来なさい",
+          "会社を休みなさい"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "友達の家はどうなりましたか。",
+        "pilihan_jawaban": ["地震で壊れた", "台風で飛ばされた", "火事で焼けた", "事故で壊れた"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "わたしはどうしましたか。",
+        "pilihan_jawaban": ["とても喜んだ", "本当にびっくりした", "少し眠くなった", "とても悲しくなった"],
+        "jawaban_benar": "b"
+      }
+    ]
+  }
+]

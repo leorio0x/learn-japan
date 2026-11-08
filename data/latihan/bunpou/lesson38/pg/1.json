@@ -1,0 +1,101 @@
+[
+  {
+    "lesson": "38",
+    "kategori": "pilihan ganda",
+    "soal": "わたしは 音楽を聞く ___ が好きです。",
+    "pilihan_jawaban": ["の", "に", "を", "で"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "38",
+    "kategori": "pilihan ganda",
+    "soal": "日本語を勉強する ___ は 楽しいです。",
+    "pilihan_jawaban": ["の", "に", "を", "で"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "38",
+    "kategori": "pilihan ganda",
+    "soal": "友達が来る ___ を 待っています。",
+    "pilihan_jawaban": ["の", "に", "が", "で"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "38",
+    "kategori": "pilihan ganda",
+    "soal": "母が作った ___ を 食べました。",
+    "pilihan_jawaban": ["に", "の", "が", "で"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "38",
+    "kategori": "pilihan ganda",
+    "soal": "赤ちゃんが 寝ている ___ を 見ました。",
+    "pilihan_jawaban": ["に", "が", "の", "で"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "38",
+    "kategori": "pilihan ganda",
+    "soal": "一人で 旅行する ___ が 大好きです。",
+    "pilihan_jawaban": ["の", "に", "を", "で"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "38",
+    "kategori": "pilihan ganda",
+    "soal": "この店で 食べる ___ は 高いです。",
+    "pilihan_jawaban": ["に", "を", "の", "で"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "38",
+    "kategori": "pilihan ganda",
+    "soal": "弟が けんかする ___ を やめさせました。",
+    "pilihan_jawaban": ["に", "の", "が", "で"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "38",
+    "kategori": "pilihan ganda",
+    "soal": "わたしは 犬を 育てる ___ が 好きです。",
+    "pilihan_jawaban": ["に", "を", "の", "で"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "38",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya suka membaca buku.",
+    "pilihan_jawaban": [
+      "本を読むのが好きです",
+      "本を読むのは好きです",
+      "本を読むのを好きです",
+      "本を読むのに好きです"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "38",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 毎朝散歩するのは気持ちがいいです。",
+    "pilihan_jawaban": [
+      "Berjalan kaki setiap pagi terasa menyenangkan",
+      "Berjalan kaki setiap pagi terasa membosankan",
+      "Saya tidak suka berjalan kaki setiap pagi",
+      "Saya akan berjalan kaki setiap pagi"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "38",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 父が入院したのを知りませんでした。",
+    "pilihan_jawaban": [
+      "Saya tidak tahu bahwa ayah dirawat inap",
+      "Saya tahu bahwa ayah keluar dari rumah sakit",
+      "Saya tidak tahu bahwa ayah bekerja",
+      "Saya tahu bahwa ayah sakit"
+    ],
+    "jawaban_benar": "a"
+  }
+]

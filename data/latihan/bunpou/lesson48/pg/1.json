@@ -1,0 +1,106 @@
+[
+  {
+    "lesson": "48",
+    "kategori": "pilihan ganda",
+    "soal": "先生は 学生に 漢字を ___ 。",
+    "pilihan_jawaban": ["書かせます", "書かれます", "書きます", "書けます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "48",
+    "kategori": "pilihan ganda",
+    "soal": "母は 子供に 野菜を ___ 。",
+    "pilihan_jawaban": ["食べさせます", "食べられます", "食べます", "食べようとします"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "48",
+    "kategori": "pilihan ganda",
+    "soal": "私に 説明 ___ いただけませんか。",
+    "pilihan_jawaban": ["させ", "させて", "して", "する"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "48",
+    "kategori": "pilihan ganda",
+    "soal": "すみません、ちょっと 考え ___ ください。",
+    "pilihan_jawaban": ["させ", "して", "させて", "する"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "48",
+    "kategori": "pilihan ganda",
+    "soal": "部長は 田中さんを 出張に ___ 。",
+    "pilihan_jawaban": ["行かれました", "行きました", "行かせました", "行けました"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "48",
+    "kategori": "pilihan ganda",
+    "soal": "父は 私を 塾に ___ 。",
+    "pilihan_jawaban": ["通わせました", "通いました", "通えました", "通われました"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "48",
+    "kategori": "pilihan ganda",
+    "soal": "先生は 生徒に 作文を ___ 。",
+    "pilihan_jawaban": ["書きました", "書かせました", "書かれました", "書けました"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "48",
+    "kategori": "pilihan ganda",
+    "soal": "母は 弟を 買い物に ___ 。",
+    "pilihan_jawaban": ["行きました", "行かせました", "行かれました", "行けました"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "48",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Guru menyuruh siswa membaca buku.",
+    "pilihan_jawaban": [
+      "先生は学生に本を読ませます",
+      "先生は学生に本を読まれます",
+      "先生は学生に本を読みます",
+      "先生は学生に本を読めます"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "48",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Bolehkah saya menjelaskan?",
+    "pilihan_jawaban": [
+      "説明していただけませんか",
+      "説明させていただけませんか",
+      "説明させてください",
+      "説明してください"
+    ],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "48",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Tolong izinkan saya mencoba.",
+    "pilihan_jawaban": [
+      "私に試してください",
+      "私を試させてください",
+      "私に試させてください",
+      "私が試してください"
+    ],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "48",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Ayah menyuruh saya belajar.",
+    "pilihan_jawaban": [
+      "父は私に勉強されました",
+      "父は私を勉強しました",
+      "父は私が勉強させました",
+      "父は私を勉強させました"
+    ],
+    "jawaban_benar": "d"
+  }
+]

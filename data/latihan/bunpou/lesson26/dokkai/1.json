@@ -1,0 +1,64 @@
+[
+  {
+    "lesson": "26",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんは <引っ越し:ひっこし:pindah rumah> を しました。でも、<ごみ:ごみ:sampah> の <出し方:だしかた:cara membuang> が わかりません。それで、<隣:となり:sebelah> の <人:ひと:orang> に <聞きました:ききました:bertanya>。「すみません、ごみは どこに <出したら:だしたら:membuang> いいですか」と <聞きました:ききました:bertanya>。\n\n<隣:となり:sebelah> の <人:ひと:orang> は「<燃える:もえる:dapat dibakar> ごみは <月:げつ:Senin>・<水:すい:Rabu>・<金:きん:Jumat> に <出して:だして:membuang> ください。<置き場:おきば:tempat pembuangan> は <建物:たてもの:gedung> の <横:よこ:sebelah> です」と <教えて:おしえて:mengajari> くれました。\n\n<田中:たなか:Tanaka>さんは「<瓶:びん:botol> と <缶:かん:kaleng> は どうしたら いいですか」と <聞きました:ききました:bertanya>。<隣:となり:sebelah> の <人:ひと:orang> は「それは <資源:しげん:sumber daya> ごみです。<第:だい:ke>3<火曜日:かようび:Selasa> に <出して:だして:membuang> ください」と <言いました:いいました:berkata>。\n\n<田中:たなか:Tanaka>さんは「どうも ありがとうございます。ちょっと <聞いて:きいて:bertanya> も いいですか。<粗大:そだい:besar> ごみは どこに <出せば:だせば:membuang> いいですか」と <聞きました:ききました:bertanya>。<隣:となり:sebelah> の <人:ひと:orang> は「<家具:かぐ:perabot> や <電気製品:でんきせいひん:barang elektronik> は <連絡:れんらく:menghubungi>して から <出して:だして:membuang> ください」と <説明:せつめい:penjelasan>して くれました。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <何:なに:apa> が わかりませんか。",
+        "pilihan_jawaban": [
+          "<ごみ:ごみ:sampah> の <出し方:だしかた:cara membuang>",
+          "<引っ越し:ひっこし:pindah rumah> の <仕方:しかた:cara>",
+          "<建物:たてもの:gedung> の <名前:なまえ:nama>",
+          "<隣:となり:sebelah> の <人:ひと:orang> の <名前:なまえ:nama>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<燃える:もえる:dapat dibakar> ごみは いつ <出します:だします:membuang> か。",
+        "pilihan_jawaban": [
+          "<月:げつ:Senin>・<水:すい:Rabu>・<金:きん:Jumat>",
+          "<火:か:Selasa>・<木:もく:Kamis>",
+          "<土:ど:Sabtu>・<日:にち:Minggu>",
+          "いつでも いいです"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<置き場:おきば:tempat pembuangan> は どこですか。",
+        "pilihan_jawaban": [
+          "<建物:たてもの:gedung> の <横:よこ:sebelah>",
+          "<建物:たてもの:gedung> の <前:まえ:depan>",
+          "<駅:えき:stasiun> の <近く:ちかく:dekat>",
+          "<公園:こうえん:taman> の <中:なか:dalam>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<瓶:びん:botol> と <缶:かん:kaleng> は いつ <出します:だします:membuang> か。",
+        "pilihan_jawaban": [
+          "<第:だい:ke>3<火曜日:かようび:Selasa>",
+          "<第:だい:ke>1<月曜日:げつようび:Senin>",
+          "<毎日:まいにち:setiap hari>",
+          "<金曜日:きんようび:Jumat>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<粗大:そだい:besar> ごみは どう しますか。",
+        "pilihan_jawaban": [
+          "<連絡:れんらく:menghubungi>して から <出します:だします:membuang>",
+          "<連絡:れんらく:menghubungi>しないで <出します:だします:membuang>",
+          "<毎日:まいにち:setiap hari> <出します:だします:membuang>",
+          "<置き場:おきば:tempat pembuangan> に <置いて:おいて:meletakkan> おきます"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

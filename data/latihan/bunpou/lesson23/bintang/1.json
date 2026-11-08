@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "23",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["子供の", "とき", "よく", "川で", "泳ぎました"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "23",
+    "kategori": "bintang",
+    "soal": "___ ★ ___ ___ ___。",
+    "pilihan_jawaban": ["日本へ", "行った", "とき", "写真を", "撮りました"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "23",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ___ ★。",
+    "pilihan_jawaban": ["この", "ボタンを", "押す", "と", "お湯が出ます"],
+    "jawaban_benar": "e"
+  },
+  {
+    "lesson": "23",
+    "kategori": "bintang",
+    "soal": "★ ___ ___ ___ ___。",
+    "pilihan_jawaban": ["まっすぐ", "行く", "と", "駅が", "あります"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "23",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["道を", "渡る", "とき", "車に", "気を付けます"],
+    "jawaban_benar": "d"
+  }
+]

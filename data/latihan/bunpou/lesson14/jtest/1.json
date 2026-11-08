@@ -1,0 +1,58 @@
+[
+  {
+    "lesson": "14",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <窓:まど:jendela>を 2. <開けて:あけて:membuka> 3. ください ]",
+    "jawaban": "まどをあけてください"
+  },
+  {
+    "lesson": "14",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<田中:たなか:Tanaka>さんは [1. <今:いま:sekarang> 2. <電話:でんわ:telepon>を 3. かけています ]",
+    "jawaban": "いまでんわをかけています"
+  },
+  {
+    "lesson": "14",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <暑い:あつい:panas>ですから 2. <エアコン:えあこん:AC>を 3. つけましょうか ]",
+    "jawaban": "あついですからえあこんをつけましょうか"
+  },
+  {
+    "lesson": "14",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<私:わたし:saya> が [1. <荷物:にもつ:barang>を 2. <駅:えき:stasiun>まで 3. <持ちましょう:もちましょう:mari membawa>か ]",
+    "jawaban": "にもつをえきまでもちましょうか"
+  },
+  {
+    "lesson": "14",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<友達:ともだち:teman> を [1. <駅:えき:stasiun>で 2. <30分:さんじゅっぷん:30 menit> 3. <待って:まって:menunggu> ]います",
+    "jawaban": "えきでさんじゅっぷんまって"
+  },
+  {
+    "lesson": "14",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<雨:あめ:hujan> が [1. <今:いま:sekarang> 2. <降って:ふって:turun> 3. います ]",
+    "jawaban": "いまふっています"
+  },
+  {
+    "lesson": "14",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <電気:でんき:lampu>を 2. <消して:けして:mematikan> 3. <部屋:へや:kamar>を ]<出て:でて:keluar>ください",
+    "jawaban": "でんきをけしてへやを"
+  },
+  {
+    "lesson": "14",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<私:わたし:saya> は [1. <毎朝:まいあさ:setiap pagi> 2. <コーヒー:こーひー:kopi>を 3. <飲んで:のんで:minum> ]います",
+    "jawaban": "まいあさこーひーをのんで"
+  }
+]

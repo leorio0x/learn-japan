@@ -1,0 +1,66 @@
+[
+  {
+    "lesson": "16",
+    "kategori": "dokkai",
+    "dokkai": "<マリア:まりあ:Maria>さんは <毎朝:まいあさ:setiap pagi> 7<時:じ:jam> に <起きて:おきて:bangun>、シャワーを <浴びて:あびて:mandi>、<朝:あさ:pagi> ごはんを <食べます:たべます:makan>。それから、<家:いえ:rumah> から <駅:えき:stasiun> まで <歩いて:あるいて:jalan kaki> 10<分:ぷん:menit> ぐらい かかります。\n\n<マリア:まりあ:Maria>さんは <電車:でんしゃ:kereta> に <乗って:のって:naik>、<新宿:しんじゅく:Shinjuku> で <降りて:おりて:turun>、<地下鉄:ちかてつ:subway> に <乗り換えます:のりかえます:ganti>。<会社:かいしゃ:perusahaan> まで 1<時間:じかん:jam> ぐらい かかります。\n\n<会社:かいしゃ:perusahaan> の <近く:ちかく:dekat> に <有名:ゆうめい:terkenal> な <お寺:おてら:kuil> が あります。<昼休み:ひるやすみ:istirahat siang> に、<マリア:まりあ:Maria>さんは <友達:ともだち:teman> と <お寺:おてら:kuil> へ <行きました:いきました:pergi>。「どうやって <行きます:いきます:pergi> か」「<歩いて:あるいて:jalan kaki> 行きましょう」と <話しました:はなしました:berbicara>。<お寺:おてら:kuil> は <静か:しずか:tenang> で、<緑:みどり:hijau> が <多かった:おおかった:banyak> です。\n\n<帰り:かえり:pulang> に、<マリア:まりあ:Maria>さんは スーパーで <野菜:やさい:sayur> を <買って:かって:membeli>、<家:いえ:rumah> で <晩:ばん:malam> ごはんを <作りました:つくりました:membuat>。とても <疲れました:つかれました:lelah> が、いい <一日:いちにち:sehari> でした。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<マリア:まりあ:Maria>さんは <毎朝:まいあさ:setiap pagi> 何<時:じ:jam> に <起きます:おきます:bangun> か。",
+        "pilihan_jawaban": ["6<時:じ:jam>", "7<時:じ:jam>", "8<時:じ:jam>", "9<時:じ:jam>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<家:いえ:rumah> から <駅:えき:stasiun> まで どのくらい かかりますか。",
+        "pilihan_jawaban": ["5<分:ぷん:menit>", "10<分:ぷん:menit>", "15<分:ぷん:menit>", "30<分:ぷん:menit>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<マリア:まりあ:Maria>さんは <新宿:しんじゅく:Shinjuku> で 何を しましたか。",
+        "pilihan_jawaban": [
+          "<電車:でんしゃ:kereta> を <降りて:おりて:turun> <地下鉄:ちかてつ:subway> に <乗り換えました:のりかえました:ganti>",
+          "バスに <乗りました:のりました:naik>",
+          "<お寺:おてら:kuil> へ <行きました:いきました:pergi>",
+          "<買い物:かいもの:belanja> を しました"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<会社:かいしゃ:perusahaan> まで どのくらい かかりますか。",
+        "pilihan_jawaban": ["30<分:ぷん:menit>", "1<時間:じかん:jam>", "1<時間半:じかんはん:jam setengah>", "2<時間:じかん:jam>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<昼休み:ひるやすみ:istirahat siang> に 何を しましたか。",
+        "pilihan_jawaban": [
+          "<友達:ともだち:teman> と <お寺:おてら:kuil> へ <行きました:いきました:pergi>",
+          "<買い物:かいもの:belanja> を しました",
+          "<家:いえ:rumah> へ <帰りました:かえりました:pulang>",
+          "<晩:ばん:malam> ごはんを <作りました:つくりました:membuat>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<帰り:かえり:pulang> に 何を <買いました:かいました:membeli> か。",
+        "pilihan_jawaban": ["<野菜:やさい:sayur>", "<お寺:おてら:kuil>", "<電車:でんしゃ:kereta>", "コーヒー"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "7",
+        "pertanyaan": "<家:いえ:rumah> で 何を しましたか。",
+        "pilihan_jawaban": [
+          "<晩:ばん:malam> ごはんを <作りました:つくりました:membuat>",
+          "シャワーを <浴びました:あびました:mandi>",
+          "<電車:でんしゃ:kereta> に <乗りました:のりました:naik>",
+          "<お寺:おてら:kuil> へ <行きました:いきました:pergi>"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

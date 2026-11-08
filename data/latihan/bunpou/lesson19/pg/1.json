@@ -1,0 +1,122 @@
+[
+  {
+    "lesson": "19",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <富士山:ふじさん:Gunung Fuji> に ___ ことが あります。",
+    "pilihan_jawaban": ["登った", "登る", "登って", "登り"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "19",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <一度も:いちども:sekali pun> <日本:にほん:Jepang> へ ___ ことが ありません。",
+    "pilihan_jawaban": ["行った", "行く", "行って", "行き"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "19",
+    "kategori": "pilihan ganda",
+    "soal": "<日曜日:にちようび:hari Minggu> は <掃除:そうじ:bersih-bersih> を ___、<洗濯:せんたく:mencuci> を します。",
+    "pilihan_jawaban": ["したり", "して", "した", "する"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "19",
+    "kategori": "pilihan ganda",
+    "soal": "<休み:やすみ:libur> の <日:ひ:hari> は <本:ほん:buku> を ___、<音楽:おんがく:musik> を 聞きます。",
+    "pilihan_jawaban": ["読んだり", "読んで", "読んだ", "読む"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "19",
+    "kategori": "pilihan ganda",
+    "soal": "<寒く:さむく:dingin> ___。",
+    "pilihan_jawaban": ["なりました", "しました", "いました", "ありました"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "19",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka>さんは <去年:きょねん:tahun lalu> <先生:せんせい:guru> に ___。",
+    "pilihan_jawaban": ["なりました", "しました", "いました", "ありました"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "19",
+    "kategori": "pilihan ganda",
+    "soal": "<部屋:へや:kamar> を きれいに ___。",
+    "pilihan_jawaban": ["しました", "なりました", "いました", "ありました"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "19",
+    "kategori": "pilihan ganda",
+    "soal": "この <料理:りょうり:masakan> は <体:からだ:badan> に ___。",
+    "pilihan_jawaban": ["いいです", "いくです", "いいになります", "よくします"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "19",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya pernah naik ke Gunung Fuji.",
+    "pilihan_jawaban": [
+      "富士山に登ったことがあります",
+      "富士山に登ることがあります",
+      "富士山に登っています",
+      "富士山に登りました"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "19",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Cuaca semakin dingin.",
+    "pilihan_jawaban": [
+      "だんだん寒くなりました",
+      "だんだん寒くしました",
+      "だんだん寒いにしました",
+      "だんだん寒いになりました"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "19",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 休みの日は掃除をしたり洗濯をしたりします。",
+    "pilihan_jawaban": [
+      "Pada hari libur saya melakukan hal-hal seperti bersih-bersih dan mencuci",
+      "Pada hari libur saya hanya tidur",
+      "Pada hari libur saya bekerja",
+      "Pada hari libur saya pergi ke sekolah"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "19",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<た形:たけい:bentuk ta> \n のぼります (Mendaki)",
+    "pilihan_jawaban": ["のぼった", "のぼりた", "のぼるた", "のぼって"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "19",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<た形:たけい:bentuk ta> \n いきます (Pergi)",
+    "pilihan_jawaban": ["いった", "いきた", "いくた", "いって"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "19",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<たり形:たりけい:bentuk tari> \n よみます (Membaca)",
+    "pilihan_jawaban": ["よんだり", "よみたり", "よむたり", "よんで"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "19",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke <い形容詞:いけいようし:kata sifat i> <く形:くけい:bentuk ku> \n さむい (Dingin)",
+    "pilihan_jawaban": ["さむく", "さむいに", "さむくて", "さむかった"],
+    "jawaban_benar": "a"
+  }
+]

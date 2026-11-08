@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "43",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "このケーキは [1. そうです 2. とても 3. おいし ]。",
+    "jawaban": "とてもおいしそうです"
+  },
+  {
+    "lesson": "43",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "今にも [1. 雨が 2. 降り 3. そうです ]。",
+    "jawaban": "あめがふりそうです"
+  },
+  {
+    "lesson": "43",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "田中さんは [1. 引いた 2. 風邪を 3. ようです ]。",
+    "jawaban": "かぜをひいたようです"
+  },
+  {
+    "lesson": "43",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "明日は [1. らしいです 2. 雪が 3. 降る ]。",
+    "jawaban": "ゆきがふるらしいです"
+  },
+  {
+    "lesson": "43",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "この部屋は [1. ようです 2. だれも 3. いない ]。",
+    "jawaban": "だれもいないようです"
+  },
+  {
+    "lesson": "43",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "ニュースによると、[1. 来る 2. 台風が 3. らしいです ]。",
+    "jawaban": "たいふうがくるらしいです"
+  }
+]

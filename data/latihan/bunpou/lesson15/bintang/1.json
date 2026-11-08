@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "15",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["すみません", "ここで", "写真を", "撮っても", "いいですか"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "15",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["この", "部屋では", "タバコを", "吸っては", "いけません"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "15",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["田中さんは", "今", "大阪に", "住んで", "います"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "15",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["部屋の", "窓が", "大きく", "開けて", "あります"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "15",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["あしたの", "会議の", "資料を", "コピーして", "おきます"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "15",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["すみません", "この", "パソコンを", "使っても", "いいですか"],
+    "jawaban_benar": "d"
+  }
+]

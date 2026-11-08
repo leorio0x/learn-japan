@@ -1,0 +1,58 @@
+[
+  {
+    "lesson": "17",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. ここで 2. <写真:しゃしん:foto>を 3. <撮らないで:とらないで:tidak mengambil> ] ください",
+    "jawaban": "ここでしゃしんをとらないで"
+  },
+  {
+    "lesson": "17",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <毎日:まいにち:setiap hari> 2. <薬:くすり:obat>を 3. <飲まなければ:のまなければ:harus minum> ] なりません",
+    "jawaban": "まいにちくすりをのまなければ"
+  },
+  {
+    "lesson": "17",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <日曜日:にちようび:hari Minggu>は 2. <会社:かいしゃ:perusahaan>へ 3. <行かなくても:いかなくても:tidak perlu pergi> ] いいです",
+    "jawaban": "にちようびはかいしゃへいかなくても"
+  },
+  {
+    "lesson": "17",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <明日:あした:besok>の <会議:かいぎ:rapat>までに 2. <資料:しりょう:materi>を 3. <読んで:よんで:membaca> ] おきます",
+    "jawaban": "あしたのかいぎまでにしりょうをよんで"
+  },
+  {
+    "lesson": "17",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <田中:たなか:Tanaka>さんは 2. <頭:あたま:kepala>が 3. <痛い:いたい:sakit> ]です",
+    "jawaban": "たなかさんはあたまがいたい"
+  },
+  {
+    "lesson": "17",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <風邪:かぜ:flu>ですから 2. お<風呂:ふろ:mandi>に 3. <入らないで:はいらないで:tidak masuk> ] ください",
+    "jawaban": "かぜですからおふろにはいらないで"
+  },
+  {
+    "lesson": "17",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <熱:ねつ:demam>が 2. ありますから 3. <学校:がっこう:sekolah>へ ] <行かないで:いかないで:tidak pergi>ください",
+    "jawaban": "ねつがありますからがっこうへ"
+  },
+  {
+    "lesson": "17",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <宿題:しゅくだい:PR>を 2. <忘れないで:わすれないで:tidak lupa> 3. ください ]",
+    "jawaban": "しゅくだいをわすれないでください"
+  }
+]

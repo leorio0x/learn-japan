@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "21",
+    "kategori": "bintang",
+    "soal": "___ ★ ___ ___ ___。",
+    "pilihan_jawaban": ["明日は", "雨が", "降る", "と", "思います"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "21",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["彼は", "日本へ", "留学する", "と", "言いました"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "21",
+    "kategori": "bintang",
+    "soal": "★ ___ ___ ___ ___。",
+    "pilihan_jawaban": ["たぶん", "あの話は", "うそ", "だ", "と思います"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "21",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ___ ★。",
+    "pilihan_jawaban": ["私は", "日本の", "物価", "について", "話しました"],
+    "jawaban_benar": "e"
+  },
+  {
+    "lesson": "21",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["この試合は", "きっと", "田中さんが", "勝つ", "でしょう"],
+    "jawaban_benar": "c"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "45",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "雨が降る [1. 試合は 2. 場合は 3. 中止です ]。",
+    "jawaban": "ばあいはしあいはちゅうしです"
+  },
+  {
+    "lesson": "45",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "パスポートを [1. 場合は 2. なくした 3. どうしたらいいですか ]。",
+    "jawaban": "なくしたばあいはどうしたらいいですか"
+  },
+  {
+    "lesson": "45",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "道が [1. どう 2. わからなかったら 3. したらいいですか ]。",
+    "jawaban": "わからなかったらどうしたらいいですか"
+  },
+  {
+    "lesson": "45",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "雨が [1. 試合は 2. 降っても 3. 行われます ]。",
+    "jawaban": "ふってもしあいはおこなわれます"
+  },
+  {
+    "lesson": "45",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. なくても 2. たとえ 3. お金が ] 幸せになれます。",
+    "jawaban": "たとえおかねがなくても"
+  },
+  {
+    "lesson": "45",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わからないことが [1. 先生に 2. あった場合は 3. 聞いてください ]。",
+    "jawaban": "あったばあいはせんせいにきいてください"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "50",
+    "kategori": "bintang",
+    "soal": "社長は今、___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["会議室に", "いらっしゃい", "たぶん", "ます"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "50",
+    "kategori": "bintang",
+    "soal": "先生は何時に ___ ___ ★ ___ か。",
+    "pilihan_jawaban": ["なり", "に", "お帰り", "ます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "50",
+    "kategori": "bintang",
+    "soal": "私が ___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["いたし", "ご案内", "すぐに", "ます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "50",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["申し", "田中と", "私は", "ます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "50",
+    "kategori": "bintang",
+    "soal": "明日、___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["伺い", "先生のお宅に", "午後", "ます"],
+    "jawaban_benar": "a"
+  }
+]

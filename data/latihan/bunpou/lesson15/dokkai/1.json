@@ -1,0 +1,45 @@
+[
+  {
+    "lesson": "15",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんは <東京:とうきょう:Tokyo> の <会社:かいしゃ:perusahaan> で <働いて:はたらいて:bekerja> います。<会社:かいしゃ:perusahaan> の <近く:ちかく:dekat> に <小さい:ちいさい:kecil> <部屋:へや:kamar> を <借りて:かりて:menyewa>、<一人:ひとり:sendiri> で <住んで:すんで:tinggal> います。\n\n<田中:たなか:Tanaka>さんの <会社:かいしゃ:perusahaan> では、<部屋:へや:kamar> で タバコを <吸っては:すっては:merokok> いけません。でも、<休み時間:やすみじかん:waktu istirahat> に <食堂:しょくどう:kantin> で コーヒーを <飲んでも:のんでも:minum> いいです。\n\n<明日:あした:besok>、<大切:たいせつ:penting> な <お客:おきゃく:pelanggan> さんが <来ます:きます:datang>。だから、<田中:たなか:Tanaka>さんは <会議室:かいぎしつ:ruang rapat> の <窓:まど:jendela> を <開けて:あけて:membuka> あります。そして、<椅子:いす:kursi> を きれいに して おきます。<机:つくえ:meja> の <上:うえ:atas> には <資料:しりょう:materi> が <置いて:おいて:meletakkan> あります。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは どこに <住んで:すんで:tinggal> いますか。",
+        "pilihan_jawaban": ["<東京:とうきょう:Tokyo> の <会社:かいしゃ:perusahaan> の <近く:ちかく:dekat> の <小さい:ちいさい:kecil> <部屋:へや:kamar>", "<大阪:おおさか:Osaka> の <大きい:おおきい:besar> <家:いえ:rumah>", "<会社:かいしゃ:perusahaan> の <中:なか:dalam>", "<友達:ともだち:teman> の <家:いえ:rumah>"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<田中:たなか:Tanaka>さんの <会社:かいしゃ:perusahaan> で タバコを <吸っても:すっても:merokok> いいですか。",
+        "pilihan_jawaban": ["いいえ、いけません", "はい、いいです", "<食堂:しょくどう:kantin> でなら いいです", "わかりません"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<休み時間:やすみじかん:waktu istirahat> に 何を しても いいですか。",
+        "pilihan_jawaban": ["コーヒーを <飲んでも:のんでも:minum> いいです", "タバコを <吸っても:すっても:merokok> いいです", "<写真:しゃしん:foto> を <撮っても:とっても:mengambil> いいです", "ゴルフを しても いいです"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <会議室:かいぎしつ:ruang rapat> の <窓:まど:jendela> を どうしましたか。",
+        "pilihan_jawaban": ["<開けて:あけて:membuka> あります", "<閉めて:しめて:menutup> あります", "<消して:けして:mematikan> あります", "コピーして あります"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<椅子:いす:kursi> は どうしますか。",
+        "pilihan_jawaban": ["きれいに して おきます", "<開けて:あけて:membuka> おきます", "<消して:けして:mematikan> おきます", "<買って:かって:membeli> おきます"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<机:つくえ:meja> の <上:うえ:atas> に 何が ありますか。",
+        "pilihan_jawaban": ["<資料:しりょう:materi>", "コーヒー", "<写真:しゃしん:foto>", "<窓:まど:jendela>"],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

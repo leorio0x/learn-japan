@@ -1,0 +1,115 @@
+[
+  {
+    "lesson": "18",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <日本語:にほんご:bahasa Jepang> を ___ ことが できます。",
+    "pilihan_jawaban": ["話す", "話し", "話して", "話した"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "18",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka>さんは ピアノを ___ ことが できます。",
+    "pilihan_jawaban": ["弾く", "弾き", "弾いて", "弾いた"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "18",
+    "kategori": "pilihan ganda",
+    "soal": "ここから <富士山:ふじさん:Gunung Fuji> が ___。",
+    "pilihan_jawaban": ["見えます", "見ます", "見せます", "見ています"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "18",
+    "kategori": "pilihan ganda",
+    "soal": "<静か:しずか:tenang> ですから、<小鳥:ことり:burung kecil> の <声:こえ:suara> が ___。",
+    "pilihan_jawaban": ["聞こえます", "聞きます", "聞かせます", "聞いています"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "18",
+    "kategori": "pilihan ganda",
+    "soal": "<日本:にほん:Jepang> へ <行く:いく:pergi> ___ に、<日本語:にほんご:bahasa Jepang> を <勉強します:べんきょうします:belajar>。",
+    "pilihan_jawaban": ["まえ", "あと", "から", "まで"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "18",
+    "kategori": "pilihan ganda",
+    "soal": "<漢字:かんじ:kanji> が なかなか ___。",
+    "pilihan_jawaban": ["覚えられません", "覚えます", "覚えました", "覚えましょう"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "18",
+    "kategori": "pilihan ganda",
+    "soal": "お<酒:さけ:minuman keras> は ぜんぜん ___。",
+    "pilihan_jawaban": ["飲みません", "飲みます", "飲みました", "飲みましょう"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "18",
+    "kategori": "pilihan ganda",
+    "soal": "<趣味:しゅみ:hobi> は <写真:しゃしん:foto> を ___ ことです。",
+    "pilihan_jawaban": ["撮る", "撮り", "撮って", "撮った"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "18",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n (Saya) bisa berbahasa Indonesia.",
+    "pilihan_jawaban": [
+      "インドネシア語ができます",
+      "インドネシア語を話すができます",
+      "インドネシア語ができません",
+      "インドネシア語をするができます"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "18",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Sebelum tidur, saya membaca buku.",
+    "pilihan_jawaban": [
+      "寝る前に本を読みます",
+      "寝た前に本を読みます",
+      "寝て前に本を読みます",
+      "寝ます前に本を読みます"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "18",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 田中さんの趣味は切手を集めることです。",
+    "pilihan_jawaban": [
+      "Hobi Tanaka-san adalah mengumpulkan perangko",
+      "Hobi Tanaka-san adalah membaca buku",
+      "Tanaka-san suka mengirim surat",
+      "Tanaka-san tidak punya hobi"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "18",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<辞書形:じしょけい:bentuk kamus> (Kamus) \n かきます (Menulis)",
+    "pilihan_jawaban": ["かく", "かき", "かいて", "かいた"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "18",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<辞書形:じしょけい:bentuk kamus> (Kamus) \n よみます (Membaca)",
+    "pilihan_jawaban": ["よむ", "よみ", "よんで", "よんだ"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "18",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke KK<辞書形:じしょけい:bentuk kamus> (Kamus) \n はなします (Berbicara)",
+    "pilihan_jawaban": ["はなす", "はなし", "はなして", "はなした"],
+    "jawaban_benar": "a"
+  }
+]

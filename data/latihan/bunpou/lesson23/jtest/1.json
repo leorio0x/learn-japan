@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "23",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <子供:こども:anak> 2. の 3. とき ] よく <川:かわ:sungai>で <泳ぎました:およぎました:berenang>",
+    "jawaban": "こどものとき"
+  },
+  {
+    "lesson": "23",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <日本:にほん:Jepang>へ 2. <行った:いった:pergi> 3. とき ] <写真:しゃしん:foto>を <撮りました:とりました:mengambil>",
+    "jawaban": "にほんへいったとき"
+  },
+  {
+    "lesson": "23",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "この [1. ボタン 2. を 3. <押す:おす:menekan> ] と <お湯:おゆ:air panas>が <出ます:でます:keluar>",
+    "jawaban": "ぼたんをおす"
+  },
+  {
+    "lesson": "23",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. まっすぐ 2. <行く:いく:pergi> 3. と ] <駅:えき:stasiun>が あります",
+    "jawaban": "まっすぐいくと"
+  },
+  {
+    "lesson": "23",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<信号:しんごう:lampu lalu lintas>を [1. <右:みぎ:kanan>へ 2. <曲がる:まがる:belok> 3. と ] <銀行:ぎんこう:bank>が <見えます:みえます:terlihat>",
+    "jawaban": "みぎへまがると"
+  },
+  {
+    "lesson": "23",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <道:みち:jalan>を 2. <渡る:わたる:menyeberang> 3. とき ] <車:くるま:mobil>に <気を付けます:きをつけます:berhati-hati>",
+    "jawaban": "みちをわたるとき"
+  }
+]

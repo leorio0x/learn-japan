@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "18",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["田中さんは", "ピアノを", "弾く", "ことが", "できます"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "18",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["ここから", "よく", "きれいな", "富士山が", "見えます"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "18",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["私は", "寝る", "前に", "日本語を", "勉強します"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "18",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["田中さんの", "趣味は", "切手を", "集める", "ことです"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "18",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["私の", "日本語は", "なかなか", "上手に", "なりません"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "18",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["父は", "家で", "ぜんぜん", "お酒を", "飲みません"],
+    "jawaban_benar": "d"
+  }
+]

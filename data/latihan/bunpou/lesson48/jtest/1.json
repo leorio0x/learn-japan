@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "48",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "先生は [1. 書かせます 2. 学生に 3. 漢字を ]。",
+    "jawaban": "がくせいにかんじをかかせます"
+  },
+  {
+    "lesson": "48",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "母は [1. 食べさせます 2. 子供に 3. 野菜を ]。",
+    "jawaban": "こどもにやさいをたべさせます"
+  },
+  {
+    "lesson": "48",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "すみません、[1. させて 2. 説明 3. ください ]。",
+    "jawaban": "せつめいさせてください"
+  },
+  {
+    "lesson": "48",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. いただけませんか 2. 私に 3. 説明させて ]。",
+    "jawaban": "わたしにせつめいさせていただけませんか"
+  },
+  {
+    "lesson": "48",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "部長は [1. 出張に 2. 田中さんを 3. 行かせました ]。",
+    "jawaban": "たなかさんをしゅっちょうにいかせました"
+  },
+  {
+    "lesson": "48",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "父は [1. 通わせました 2. 私を 3. 塾に ]。",
+    "jawaban": "わたしをじゅくにかよわせました"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "22",
+    "kategori": "bintang",
+    "soal": "___ ★ ___ ___ ___。",
+    "pilihan_jawaban": ["これは", "私が", "作った", "ケーキ", "です"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "22",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["あそこに", "いる", "人は", "田中さん", "です"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "22",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["きのう", "買った", "本は", "おもしろかった", "です"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "22",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ___ ★。",
+    "pilihan_jawaban": ["寒い", "ですから", "厚い", "コートを", "着ます"],
+    "jawaban_benar": "e"
+  },
+  {
+    "lesson": "22",
+    "kategori": "bintang",
+    "soal": "★ ___ ___ ___ ___。",
+    "pilihan_jawaban": ["あの", "眼鏡を", "かけて", "いる", "人は田中さんです"],
+    "jawaban_benar": "a"
+  }
+]

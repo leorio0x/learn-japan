@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "32",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["風邪ですから", "薬を", "飲んだ", "ほうが", "いいです"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "32",
+    "kategori": "bintang",
+    "soal": "★ ___ ___ ___ ___。",
+    "pilihan_jawaban": ["熱が ありますから", "お風呂に", "入らない", "ほうが", "いいです"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "32",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["頭が 痛いなら", "すぐ", "病院へ", "行ったら", "どうですか"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "32",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["毎日", "少し", "運動した", "ほうが", "いいです"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "32",
+    "kategori": "bintang",
+    "soal": "___ ★ ___ ___ ___。",
+    "pilihan_jawaban": ["お酒を", "たくさん", "飲まない", "ほうが", "いいです"],
+    "jawaban_benar": "b"
+  }
+]

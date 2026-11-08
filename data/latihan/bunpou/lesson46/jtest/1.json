@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "46",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. 昼ご飯を 2. 食べた 3. ばかり ] です。",
+    "jawaban": "ひるごはんをたべたばかり"
+  },
+  {
+    "lesson": "46",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "これから [1. ところ 2. 出かける 3. です ]。",
+    "jawaban": "でかけるところです"
+  },
+  {
+    "lesson": "46",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "ちょうど今 [1. ところ 2. 駅に 3. 着いた ] です。",
+    "jawaban": "えきについたところ"
+  },
+  {
+    "lesson": "46",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "今、[1. 作っている 2. 資料を 3. ところ ] です。",
+    "jawaban": "しりょうをつくっているところ"
+  },
+  {
+    "lesson": "46",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "先週 [1. 来た 2. 日本に 3. ばかり ] です。",
+    "jawaban": "にほんにきたばかり"
+  },
+  {
+    "lesson": "46",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "たった今 [1. 送った 2. メールを 3. ところ ] です。",
+    "jawaban": "めーるをおくったところ"
+  }
+]

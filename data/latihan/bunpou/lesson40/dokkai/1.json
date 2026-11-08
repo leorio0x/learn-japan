@@ -1,0 +1,60 @@
+[
+  {
+    "lesson": "40",
+    "kategori": "dokkai",
+    "dokkai": "<来月:らいげつ:bulan depan>、<会社:かいしゃ:perusahaan>の<運動会:うんどうかい:lomba olahraga>があります。わたしは<初めて:はじめて:pertama kali><マラソン:マラソン:maraton>に<参加:さんか:ikut>してみたいです。でも、<十:じゅう:sepuluh>キロ<走れる:はしれる:bisa berlari>かどうか、<心配:しんぱい:khawatir>です。それで、<毎朝:まいあさ:setiap pagi>、<公園:こうえん:taman>を<走って:はしって:berlari>みています。まだ<三:さん:tiga>キロしか走れません。でも、走ると<気持ち:きもち:perasaan>がいいです。まず、<新しい:あたらしい:baru><靴:くつ:sepatu>を<買って:かって:membeli>みます。そして、<本:ほん:buku>で<走り方:はしりかた:cara berlari>を<調べて:しらべて:memeriksa>みたいです。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "来月、何がありますか。",
+        "pilihan_jawaban": ["会社の運動会", "学校のテスト", "友達の結婚式", "家族の旅行"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "わたしは何をしてみたいですか。",
+        "pilihan_jawaban": [
+          "マラソンに参加してみたい",
+          "サッカーをしてみたい",
+          "料理を作ってみたい",
+          "日本語を勉強してみたい"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "何が心配ですか。",
+        "pilihan_jawaban": [
+          "十キロ走れるかどうか",
+          "会社を休めるかどうか",
+          "靴が合うかどうか",
+          "天気がいいかどうか"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "毎朝、何をしていますか。",
+        "pilihan_jawaban": ["公園を走ってみている", "公園で体操している", "家で寝ている", "本を読んでいる"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "今、どのくらい走れますか。",
+        "pilihan_jawaban": ["十キロ", "五キロ", "三キロ", "一キロ"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "まず、何をしますか。",
+        "pilihan_jawaban": [
+          "新しい靴を買ってみる",
+          "本を買ってみる",
+          "会社へ行ってみる",
+          "友達に会ってみる"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

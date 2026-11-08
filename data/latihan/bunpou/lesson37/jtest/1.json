@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "37",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. 褒められました 2. 先生に 3. 作文を ]。",
+    "jawaban": "せんせいにさくぶんをほめられました"
+  },
+  {
+    "lesson": "37",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<駅:えき:stasiun>の<前:まえ:depan>に [1. ビルが 2. 去年 3. 建てられました ]。",
+    "jawaban": "きょねんびるがたてられました"
+  },
+  {
+    "lesson": "37",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. 足を 2. 電車で 3. 踏まれました ]。",
+    "jawaban": "でんしゃであしをふまれました"
+  },
+  {
+    "lesson": "37",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "この本は [1. 読まれて 2. 世界中で 3. います ]。",
+    "jawaban": "せかいじゅうでよまれています"
+  },
+  {
+    "lesson": "37",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<会議:かいぎ:rapat>は [1. 行われます 2. 来週 3. 東京で ]。",
+    "jawaban": "らいしゅうとうきょうでおこなわれます"
+  },
+  {
+    "lesson": "37",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. ケーキを 2. 弟に 3. 食べられました ]。",
+    "jawaban": "おとうとにかえきをたべられました"
+  }
+]

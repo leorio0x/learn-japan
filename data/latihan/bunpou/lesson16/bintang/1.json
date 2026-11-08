@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "16",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["田中さんは", "毎朝", "シャワーを", "浴びて", "会社へ行きます"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "16",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["毎晩", "ごはんを", "食べてから", "歯を", "磨きます"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "16",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["新宿で", "電車を", "降りて", "地下鉄に", "乗り換えます"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "16",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["電車で", "家から", "会社まで", "どのくらい", "かかりますか"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "16",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["銀行で", "お金を", "出してから", "買い物を", "します"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "16",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["駅で", "バスを", "降りて", "歩いて", "学校へ行きます"],
+    "jawaban_benar": "d"
+  }
+]

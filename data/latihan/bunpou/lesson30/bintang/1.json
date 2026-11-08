@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "30",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["会議の", "前に", "資料を", "読んで", "おきます"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "30",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["壁に", "大きな", "カレンダーが", "掛けて", "あります"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "30",
+    "kategori": "bintang",
+    "soal": "___ ★ ___ ___ ___。",
+    "pilihan_jawaban": ["机の", "上に", "資料が", "置いて", "あります"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "30",
+    "kategori": "bintang",
+    "soal": "★ ___ ___ ___ ___。",
+    "pilihan_jawaban": ["パーティーの", "前に", "部屋を", "きれいに", "しておきます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "30",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["玄関に", "きれいな", "花が", "飾って", "あります"],
+    "jawaban_benar": "d"
+  }
+]

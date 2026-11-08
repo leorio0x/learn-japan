@@ -1,0 +1,75 @@
+[
+  {
+    "lesson": "33",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんは <駅:えき:stasiun> の <近く:ちかく:dekat> を <歩いて:あるいて:berjalan> いました。すると、<建物:たてもの:gedung> の <入口:いりぐち:pintu masuk> に <飾り:かざり:hiasan> が ありました。そこに 「<立入禁止:たちいりきんし:dilarang masuk>」と <書いて:かいて:tertulis> あります。\n\n<田中:たなか:Tanaka>さんは <友達:ともだち:teman> の <マリア:まりあ:Maria>さんに「『<立入禁止:たちいりきんし:dilarang masuk>』は どういう <意味:いみ:arti> ですか」と <聞きました:ききました:bertanya>。<マリア:まりあ:Maria>さんは「『<入って:はいって:masuk> は いけない』という <意味:いみ:arti> です」と <答えました:こたえました:menjawab>。\n\nそれから、ふたりは <喫茶店:きっさてん:kafe> へ <入りました:はいりました:masuk>。ドアに 「<営業中:えいぎょうちゅう:sedang buka>」と <書いて:かいて:tertulis> あります。<マリア:まりあ:Maria>さんは「『<営業中:えいぎょうちゅう:sedang buka>』は <英語:えいご:bahasa Inggris> で <何:なん:apa> と <言います:いいます:berkata> か」と <田中:たなか:Tanaka>さんに <聞きました:ききました:bertanya>。<田中:たなか:Tanaka>さんは「『open』と <言います:いいます:berkata>」と <答えました:こたえました:menjawab>。\n\n<田中:たなか:Tanaka>さんは <店員:てんいん:pelayan> に「すみません、<化粧室:けしょうしつ:toilet> は どこですか」と <聞きました:ききました:bertanya>。<店員:てんいん:pelayan> は「<奥:おく:bagian dalam> に あります。<ほか:ほか:lain> の <お客:おきゃく:tamu> に <聞いて:きいて:bertanya> も いいですよ」と <言いました:いいました:berkata>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<建物:たてもの:gedung> の <入口:いりぐち:pintu masuk> に <何:なん:apa> と <書いて:かいて:tertulis> ありますか。",
+        "pilihan_jawaban": [
+          "<立入禁止:たちいりきんし:dilarang masuk>",
+          "<使用禁止:しようきんし:dilarang pakai>",
+          "<営業中:えいぎょうちゅう:sedang buka>",
+          "<入口:いりぐち:pintu masuk>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "「<立入禁止:たちいりきんし:dilarang masuk>」は どういう <意味:いみ:arti> ですか。",
+        "pilihan_jawaban": [
+          "<入って:はいって:masuk> は いけない という <意味:いみ:arti>",
+          "<入って:はいって:masuk> も いい という <意味:いみ:arti>",
+          "<出て:でて:keluar> は いけない という <意味:いみ:arti>",
+          "<休み:やすみ:libur> という <意味:いみ:arti>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<喫茶店:きっさてん:kafe> の ドアに <何:なん:apa> と <書いて:かいて:tertulis> ありますか。",
+        "pilihan_jawaban": [
+          "<営業中:えいぎょうちゅう:sedang buka>",
+          "<準備中:じゅんびちゅう:dalam persiapan>",
+          "<本日休業:ほんじつきゅうぎょう:tutup hari ini>",
+          "<定休日:ていきゅうび:hari libur tetap>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "「<営業中:えいぎょうちゅう:sedang buka>」は <英語:えいご:bahasa Inggris> で <何:なん:apa> と <言います:いいます:berkata> か。",
+        "pilihan_jawaban": [
+          "open",
+          "close",
+          "entrance",
+          "exit"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <店員:てんいん:pelayan> に <何:なに:apa> を <聞きました:ききました:bertanya> か。",
+        "pilihan_jawaban": [
+          "<化粧室:けしょうしつ:toilet> は どこですか",
+          "<入口:いりぐち:pintu masuk> は どこですか",
+          "<営業中:えいぎょうちゅう:sedang buka> ですか",
+          "<メニュー:めにゅー:menu> は どこですか"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<化粧室:けしょうしつ:toilet> は どこに ありますか。",
+        "pilihan_jawaban": [
+          "<奥:おく:bagian dalam> に あります",
+          "<入口:いりぐち:pintu masuk> の <前:まえ:depan> に あります",
+          "<外:そと:luar> に あります",
+          "<2階:にかい:lantai 2> に あります"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

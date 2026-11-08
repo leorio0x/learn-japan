@@ -1,0 +1,103 @@
+[
+  {
+    "lesson": "31",
+    "kategori": "pilihan ganda",
+    "soal": "<来年:らいねん:tahun depan> <日本:にほん:Jepang> へ ___ と <思います:おもいます:berpikir>。",
+    "pilihan_jawaban": ["行く", "行こう", "行って", "行き"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "31",
+    "kategori": "pilihan ganda",
+    "soal": "<週末:しゅうまつ:akhir pekan> は <映画:えいが:film> を ___ と <思います:おもいます:berpikir>。",
+    "pilihan_jawaban": ["見る", "見よう", "見て", "見ます"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "31",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <大学院:だいがくいん:pascasarjana> に ___ つもりです。",
+    "pilihan_jawaban": ["入る", "入ろう", "入って", "入り"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "31",
+    "kategori": "pilihan ganda",
+    "soal": "<来年:らいねん:tahun depan> <日本:にほん:Jepang> へ ___ つもりです。",
+    "pilihan_jawaban": ["行く", "行こう", "行って", "行き"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "31",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka>さんは <来月:らいげつ:bulan depan> <結婚:けっこん:menikah>する ___ です。",
+    "pilihan_jawaban": ["つもり", "予定", "よう", "こと"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "31",
+    "kategori": "pilihan ganda",
+    "soal": "<会議:かいぎ:rapat> は <3時:さんじ:pukul 3> に ___ <予定:よてい:rencana> です。",
+    "pilihan_jawaban": ["始まる", "始まろう", "始まって", "始まり"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "31",
+    "kategori": "pilihan ganda",
+    "soal": "<夏休み:なつやすみ:libur musim panas> に <国:くに:negara> へ ___ つもりです。",
+    "pilihan_jawaban": ["帰る", "帰ろう", "帰って", "帰り"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "31",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <毎日:まいにち:setiap hari> <日本語:にほんご:bahasa Jepang> を ___ つもりです。",
+    "pilihan_jawaban": ["勉強する", "勉強しよう", "勉強して", "勉強し"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "31",
+    "kategori": "pilihan ganda",
+    "soal": "<来年:らいねん:tahun depan> <留学:りゅうがく:studi luar negeri> ___ と <思います:おもいます:berpikir>。",
+    "pilihan_jawaban": ["する", "しよう", "して", "し"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "31",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke bentuk volitional (意向形) \n 行きます (Pergi)",
+    "pilihan_jawaban": ["行く", "行こう", "行って", "行き"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "31",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke bentuk volitional (意向形) \n 食べます (Makan)",
+    "pilihan_jawaban": ["食べる", "食べよう", "食べて", "食べろ"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "31",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya berencana belajar ke Jepang tahun depan.",
+    "pilihan_jawaban": [
+      "来年日本へ留学するつもりです",
+      "来年日本へ留学しようと思います",
+      "来年日本へ留学する予定でした",
+      "来年日本へ留学しません"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "31",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Rapat akan dimulai pukul 3.",
+    "pilihan_jawaban": [
+      "会議は3時に始まる予定です",
+      "会議は3時に始まろうと思います",
+      "会議は3時に始まるつもりでした",
+      "会議は3時に始まるかもしれません"
+    ],
+    "jawaban_benar": "a"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "lesson": "47",
+    "kategori": "pilihan ganda",
+    "soal": "天気予報によると、明日は 雨が ___ そうです。",
+    "pilihan_jawaban": ["降る", "降り", "降って", "降った"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "47",
+    "kategori": "pilihan ganda",
+    "soal": "ニュースによると、台風が 来る ___ です。",
+    "pilihan_jawaban": ["そう", "ために", "のに", "ほど"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "47",
+    "kategori": "pilihan ganda",
+    "soal": "田中さんは 来ない ___ です。",
+    "pilihan_jawaban": ["ために", "らしい", "のに", "ほど"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "47",
+    "kategori": "pilihan ganda",
+    "soal": "この 部屋には 誰も いない ___ です。",
+    "pilihan_jawaban": ["ために", "のに", "よう", "ほど"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "47",
+    "kategori": "pilihan ganda",
+    "soal": "外は 寒い ___ です。",
+    "pilihan_jawaban": ["ために", "のに", "ほど", "よう"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "47",
+    "kategori": "pilihan ganda",
+    "soal": "日本の 人口は 減っている ___ です。",
+    "pilihan_jawaban": ["ために", "のに", "らしい", "ほど"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "47",
+    "kategori": "pilihan ganda",
+    "soal": "彼は 来月 結婚する ___ です。",
+    "pilihan_jawaban": ["そう", "ために", "のに", "ほど"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "47",
+    "kategori": "pilihan ganda",
+    "soal": "この 薬は よく 効く ___ です。",
+    "pilihan_jawaban": ["ために", "らしい", "のに", "ほど"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "47",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Menurut prakiraan cuaca, besok akan turun salju.",
+    "pilihan_jawaban": [
+      "天気予報によると、明日は雪が降りそうです",
+      "天気予報によると、明日は雪が降るそうです",
+      "天気予報によると、明日は雪が降るようです",
+      "天気予報によると、明日は雪が降ったそうです"
+    ],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "47",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Sepertinya dia sedang sakit.",
+    "pilihan_jawaban": [
+      "彼は病気らしいです",
+      "彼は病気そうです",
+      "彼は病気のようです",
+      "彼は病気だそうです"
+    ],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "47",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Katanya ujian itu sulit.",
+    "pilihan_jawaban": [
+      "テストは難しそうです",
+      "テストは難しいようです",
+      "テストは難しいらしいです",
+      "テストは難しかったそうです"
+    ],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "47",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Menurut berita, ada kecelakaan.",
+    "pilihan_jawaban": [
+      "ニュースによると、事故がありそうです",
+      "ニュースによると、事故があったようです",
+      "ニュースによると、事故があったそうです",
+      "ニュースによると、事故があるらしいです"
+    ],
+    "jawaban_benar": "c"
+  }
+]

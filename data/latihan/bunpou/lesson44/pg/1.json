@@ -1,0 +1,106 @@
+[
+  {
+    "lesson": "44",
+    "kategori": "pilihan ganda",
+    "soal": "彼は 子供 ___ 笑います。",
+    "pilihan_jawaban": ["みたいに", "みたいな", "みたい", "らしく"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "44",
+    "kategori": "pilihan ganda",
+    "soal": "あの 人形は 本物 ___ です。",
+    "pilihan_jawaban": ["みたいに", "みたい", "みたいな", "らしく"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "44",
+    "kategori": "pilihan ganda",
+    "soal": "この 部屋は 冷蔵庫 ___ 寒いです。",
+    "pilihan_jawaban": ["みたいな", "みたいに", "みたい", "らしく"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "44",
+    "kategori": "pilihan ganda",
+    "soal": "空が 暗いです。雨が 降る ___ です。",
+    "pilihan_jawaban": ["みたいに", "みたい", "みたいな", "らしく"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "44",
+    "kategori": "pilihan ganda",
+    "soal": "彼女は 男の子 ___ 話します。",
+    "pilihan_jawaban": ["みたいな", "みたい", "みたいに", "らしく"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "44",
+    "kategori": "pilihan ganda",
+    "soal": "この 料理は レストラン ___ おいしいです。",
+    "pilihan_jawaban": ["みたいに", "みたいな", "みたい", "らしく"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "44",
+    "kategori": "pilihan ganda",
+    "soal": "田中さんは 日本人 ___ 日本語を 話します。",
+    "pilihan_jawaban": ["みたいに", "みたいな", "みたい", "らしく"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "44",
+    "kategori": "pilihan ganda",
+    "soal": "この 石は ダイヤ ___ きれいです。",
+    "pilihan_jawaban": ["みたいに", "みたいな", "みたい", "らしく"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "44",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Dia tertawa seperti anak kecil.",
+    "pilihan_jawaban": [
+      "彼は子供みたいに笑います",
+      "彼は子供みたいな笑います",
+      "彼は子供みたい笑います",
+      "彼は子供らしく笑います"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "44",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Sepertinya besok hujan.",
+    "pilihan_jawaban": [
+      "明日は雨みたいです",
+      "明日は雨みたいにです",
+      "明日は雨みたいなです",
+      "明日は雨らしくです"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "44",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Orang seperti anak kecil.",
+    "pilihan_jawaban": [
+      "子供みたいな人",
+      "子供みたいに人",
+      "子供みたい人",
+      "子供らしいに人"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "44",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Kamarnya dingin seperti kulkas.",
+    "pilihan_jawaban": [
+      "部屋は冷蔵庫みたいに寒いです",
+      "部屋は冷蔵庫みたいな寒いです",
+      "部屋は冷蔵庫みたい寒いです",
+      "部屋は冷蔵庫らしく寒いです"
+    ],
+    "jawaban_benar": "a"
+  }
+]

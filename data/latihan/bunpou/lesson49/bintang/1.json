@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "49",
+    "kategori": "bintang",
+    "soal": "どうぞ、___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["お", "座り", "こちらへ", "ください"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "49",
+    "kategori": "bintang",
+    "soal": "先生に ___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["教えて", "いただき", "日本語を", "ました"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "49",
+    "kategori": "bintang",
+    "soal": "こちらが ___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["ござい", "で", "受付", "ます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "49",
+    "kategori": "bintang",
+    "soal": "ただ今、___ ___ ★ ___ おります。",
+    "pilihan_jawaban": ["資料を", "会議の", "すぐに", "用意して"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "49",
+    "kategori": "bintang",
+    "soal": "どうぞ ___ ___ ★ ___ 。",
+    "pilihan_jawaban": ["召し上がって", "遠慮なく", "たくさん", "ください"],
+    "jawaban_benar": "a"
+  }
+]

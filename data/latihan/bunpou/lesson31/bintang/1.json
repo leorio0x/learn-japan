@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "31",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["来年", "日本へ", "行こう", "と", "思います"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "31",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["わたしは", "来年", "大学院に", "入る", "つもりです"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "31",
+    "kategori": "bintang",
+    "soal": "___ ★ ___ ___ ___。",
+    "pilihan_jawaban": ["田中さんは", "来月", "東京で", "結婚する", "予定です"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "31",
+    "kategori": "bintang",
+    "soal": "★ ___ ___ ___ ___。",
+    "pilihan_jawaban": ["明日の", "会議は", "3時に", "始まる", "予定です"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "31",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["夏休みに", "家族に", "会いに", "帰る", "つもりです"],
+    "jawaban_benar": "c"
+  }
+]

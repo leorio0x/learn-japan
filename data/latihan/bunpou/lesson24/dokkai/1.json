@@ -1,0 +1,75 @@
+[
+  {
+    "lesson": "24",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんは きのう <引っ越し:ひっこし:pindah rumah> を しました。<田中:たなか:Tanaka>さんの <友達:ともだち:teman> の <マリア:まりあ:Maria>さんは <田中:たなか:Tanaka>さんを <手伝って:てつだって:membantu> あげました。<マリア:まりあ:Maria>さんは <荷物:にもつ:barang> を <運んで:はこんで:membawa>、<部屋:へや:kamar> を <きれいに:きれいに:bersih> しました。\n\n<田中:たなか:Tanaka>さんは <マリア:まりあ:Maria>さんに「いろいろ <手伝って:てつだって:membantu> くれて、ありがとう」と <言いました:いいました:berkata>。<マリア:まりあ:Maria>さんは「いいえ、どういたしまして。<田中:たなか:Tanaka>さんは いつも <私:わたし:saya> に <日本語:にほんご:bahasa Jepang> を <教えて:おしえて:mengajari> くれますから、<私:わたし:saya> も <手伝って:てつだって:membantu> あげたかったです」と <言いました:いいました:berkata>。\n\nそれから、<田中:たなか:Tanaka>さんは <マリア:まりあ:Maria>さんに <新しい:あたらしい:baru> <家:いえ:rumah> を <案内して:あんないして:memandu> あげました。ふたりは いっしょに <お菓子:おかし:kue> を <食べて:たべて:makan>、<田中:たなか:Tanaka>さんは「<今度:こんど:lain kali>、<私:わたし:saya> が <マリア:まりあ:Maria>さんの <引っ越し:ひっこし:pindah rumah> を <手伝って:てつだって:membantu> あげます」と <言いました:いいました:berkata>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは きのう <何:なに:apa> を しましたか。",
+        "pilihan_jawaban": [
+          "<引っ越し:ひっこし:pindah rumah> を しました",
+          "<買い物:かいもの:belanja> を しました",
+          "<掃除:そうじ:bersih-bersih> を しました",
+          "<勉強:べんきょう:belajar> を しました"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<マリア:まりあ:Maria>さんは <田中:たなか:Tanaka>さんに <何:なに:apa> を してあげましたか。",
+        "pilihan_jawaban": [
+          "<荷物:にもつ:barang> を <運んで:はこんで:membawa>、<部屋:へや:kamar> を <きれいに:きれいに:bersih> しました",
+          "<料理:りょうり:masakan> を <作って:つくって:membuat> あげました",
+          "<日本語:にほんご:bahasa Jepang> を <教えて:おしえて:mengajari> あげました",
+          "<お菓子:おかし:kue> を <買って:かって:membeli> あげました"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <マリア:まりあ:Maria>さんに <何:なに:apa> と <言いました:いいました:berkata> か。",
+        "pilihan_jawaban": [
+          "<手伝って:てつだって:membantu> くれて、ありがとう",
+          "<引っ越し:ひっこし:pindah rumah> は <大変:たいへん:berat> でしたね",
+          "また <来週:らいしゅう:minggu depan> 会いましょう",
+          "<日本語:にほんご:bahasa Jepang> を 教えて ください"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "どうして <マリア:まりあ:Maria>さんは <田中:たなか:Tanaka>さんを <手伝いました:てつだいました:membantu> か。",
+        "pilihan_jawaban": [
+          "<田中:たなか:Tanaka>さんが いつも <日本語:にほんご:bahasa Jepang> を <教えて:おしえて:mengajari> くれるから",
+          "<田中:たなか:Tanaka>さんに <お金:おかね:uang> を もらったから",
+          "<田中:たなか:Tanaka>さんの <家:いえ:rumah> が <近い:ちかい:dekat> から",
+          "<マリア:まりあ:Maria>さんは <暇:ひま:waktu luang> だったから"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <マリア:まりあ:Maria>さんに <何:なに:apa> を <案内して:あんないして:memandu> あげましたか。",
+        "pilihan_jawaban": [
+          "<新しい:あたらしい:baru> <家:いえ:rumah>",
+          "<新しい:あたらしい:baru> <会社:かいしゃ:perusahaan>",
+          "<駅:えき:stasiun>",
+          "<学校:がっこう:sekolah>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <今度:こんど:lain kali> <何:なに:apa> を すると <言いました:いいました:berkata> か。",
+        "pilihan_jawaban": [
+          "<マリア:まりあ:Maria>さんの <引っ越し:ひっこし:pindah rumah> を <手伝って:てつだって:membantu> あげる",
+          "<マリア:まりあ:Maria>さんに <日本語:にほんご:bahasa Jepang> を <教えて:おしえて:mengajari> あげる",
+          "<マリア:まりあ:Maria>さんと <一緒:いっしょ:bersama> に <旅行:りょこう:perjalanan> する",
+          "<マリア:まりあ:Maria>さんに <お菓子:おかし:kue> を <送って:おくって:mengirim> あげる"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

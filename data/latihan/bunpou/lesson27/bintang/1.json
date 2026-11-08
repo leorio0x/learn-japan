@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "27",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["田中さんは", "日本語が", "とても", "上手に", "話せます"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "27",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ___ ★。",
+    "pilihan_jawaban": ["この", "部屋", "から", "海が", "見えます"],
+    "jawaban_benar": "e"
+  },
+  {
+    "lesson": "27",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["冷蔵庫", "に", "水", "しか", "ありません"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "27",
+    "kategori": "bintang",
+    "soal": "★ ___ ___ ___ ___。",
+    "pilihan_jawaban": ["隣の", "部屋", "から", "音が", "聞こえます"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "27",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["田中さんは", "ピアノ", "が", "少し", "できます"],
+    "jawaban_benar": "c"
+  }
+]

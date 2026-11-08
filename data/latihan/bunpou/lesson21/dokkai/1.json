@@ -1,0 +1,64 @@
+[
+  {
+    "lesson": "21",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんは <最近:さいきん:akhir-akhir ini> の <日本:にほん:Jepang> の <物価:ぶっか:harga> について <話しました:はなしました:berbicara>。<田中:たなか:Tanaka>さんは「<物価:ぶっか:harga> は <高い:たかい:mahal> と <思います:おもいます:berpikir>。それに、<交通:こうつう:lalu lintas> も <不便:ふべん:tidak praktis> に なると <思います:おもいます:berpikir>」と <言いました:いいました:berkata>。\n\n<マリア:まりあ:Maria>さんは「<来年:らいねん:tahun depan> の <物価:ぶっか:harga> は どう なると <思います:おもいます:berpikir> か」と <聞きました:ききました:bertanya>。<田中:たなか:Tanaka>さんは「たぶん もっと <高く:たかく:mahal> なるでしょう。でも、<安く:やすく:murah> なる かもしれません。わかりません」と <言いました:いいました:berkata>。\n\n<マリア:まりあ:Maria>さんは「<田中:たなか:Tanaka>さんは <日本:にほん:Jepang> の <生活:せいかつ:kehidupan> が <好き:すき:suka> ですか」と <聞きました:ききました:bertanya>。<田中:たなか:Tanaka>さんは「はい。<物価:ぶっか:harga> は <高い:たかい:mahal> ですが、<食べ物:たべもの:makanan> は <おいしい:おいしい:enak> し、<人:ひと:orang> も <親切:しんせつ:ramah> ですから、<日本:にほん:Jepang> の <生活:せいかつ:kehidupan> が <好き:すき:suka> です」と <言いました:いいました:berkata>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <何:なに:apa> について <話しました:はなしました:berbicara> か。",
+        "pilihan_jawaban": [
+          "<日本:にほん:Jepang> の <物価:ぶっか:harga>",
+          "<日本:にほん:Jepang> の <食べ物:たべもの:makanan>",
+          "<日本:にほん:Jepang> の <天気:てんき:cuaca>",
+          "<日本:にほん:Jepang> の <交通:こうつう:lalu lintas>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <物価:ぶっか:harga> について どう <思います:おもいます:berpikir> か。",
+        "pilihan_jawaban": [
+          "<高い:たかい:mahal> と <思います:おもいます:berpikir>",
+          "<安い:やすい:murah> と <思います:おもいます:berpikir>",
+          "わかりません",
+          "あまり <高くない:たかくない:tidak mahal> と <思います:おもいます:berpikir>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <来年:らいねん:tahun depan> の <物価:ぶっか:harga> について どう <言いました:いいました:berkata> か。",
+        "pilihan_jawaban": [
+          "もっと <高く:たかく:mahal> なるでしょう。でも、<安く:やすく:murah> なる かもしれません",
+          "きっと <安く:やすく:murah> なるでしょう",
+          "もう <高く:たかく:mahal> ならないでしょう",
+          "わかりません"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <日本:にほん:Jepang> の <生活:せいかつ:kehidupan> が <好き:すき:suka> ですか。",
+        "pilihan_jawaban": [
+          "はい、<好き:すき:suka> です",
+          "いいえ、<好き:すき:suka> じゃありません",
+          "<物価:ぶっか:harga> が <高い:たかい:mahal> ですから、<好き:すき:suka> じゃありません",
+          "わかりません"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "どうして <田中:たなか:Tanaka>さんは <日本:にほん:Jepang> の <生活:せいかつ:kehidupan> が <好き:すき:suka> ですか。",
+        "pilihan_jawaban": [
+          "<食べ物:たべもの:makanan> が <おいしい:おいしい:enak> し、<人:ひと:orang> も <親切:しんせつ:ramah> ですから",
+          "<物価:ぶっか:harga> が <安い:やすい:murah> ですから",
+          "<交通:こうつう:lalu lintas> が <便利:べんり:praktis> ですから",
+          "<天気:てんき:cuaca> が <いい:いい:bagus> ですから"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

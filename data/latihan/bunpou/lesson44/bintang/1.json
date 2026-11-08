@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "44",
+    "kategori": "bintang",
+    "soal": "彼は ___ ___ ★ ___ 笑います。",
+    "pilihan_jawaban": ["子供", "大きな声で", "みたいに", "いつも"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "44",
+    "kategori": "bintang",
+    "soal": "この部屋は ___ ___ ★ ___ 寒いです。",
+    "pilihan_jawaban": ["冷蔵庫", "とても", "いつも", "みたいに"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "44",
+    "kategori": "bintang",
+    "soal": "彼女は ___ ___ ★ ___ 話します。",
+    "pilihan_jawaban": ["みたいに", "男の子", "時々", "乱暴に"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "44",
+    "kategori": "bintang",
+    "soal": "空が暗いです。___ ___ ★ ___ です。",
+    "pilihan_jawaban": ["雨が", "降る", "今にも", "みたい"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "44",
+    "kategori": "bintang",
+    "soal": "あの人は ___ ___ ★ ___ です。",
+    "pilihan_jawaban": ["みたいに", "本当に", "お母さん", "優しい"],
+    "jawaban_benar": "a"
+  }
+]

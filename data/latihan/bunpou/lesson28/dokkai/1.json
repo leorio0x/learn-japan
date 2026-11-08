@@ -1,0 +1,75 @@
+[
+  {
+    "lesson": "28",
+    "kategori": "dokkai",
+    "dokkai": "<マリア:まりあ:Maria>さんは <歌手:かしゅ:penyanyi> です。<マリア:まりあ:Maria>さんは たいてい <音楽:おんがく:musik> を <聞きながら:ききながら:sambil mendengarkan> <歌:うた:lagu> を <練習します:れんしゅうします:berlatih>。<マリア:まりあ:Maria>さんは まじめだし、<熱心:ねっしん:tekun> だし、<声:こえ:suara> も <きれい:きれい:indah> ですから、とても <人気:にんき:populer> が あります。\n\n<マリア:まりあ:Maria>さんは <毎日:まいにち:setiap hari> <日本語:にほんご:bahasa Jepang> も <勉強:べんきょう:belajar> して います。<マリア:まりあ:Maria>さんは「<将来:しょうらい:masa depan>、<日本:にほん:Jepang> で <歌いたい:うたいたい:ingin bernyanyi> です。それに、<日本:にほん:Jepang> の <歌手:かしゅ:penyanyi> と <一緒:いっしょ:bersama> に <歌いたい:うたいたい:ingin bernyanyi> です」と <言いました:いいました:berkata>。\n\nでも、<今:いま:sekarang>、<日本語:にほんご:bahasa Jepang> の <会話:かいわ:percakapan> が まだ <上手:じょうず:pandai> じゃ ありません。それで、<毎晩:まいばん:setiap malam> <日本人:にほんじん:orang Jepang> の <友達:ともだち:teman> と <おしゃべり:おしゃべり:ngobrol> して います。<マリア:まりあ:Maria>さんは「<友達:ともだち:teman> と <話しながら:はなしながら:sambil berbicara>、<新しい:あたらしい:baru> <言葉:ことば:kata> を <覚えます:おぼえます:menghafal>」と <言いました:いいました:berkata>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<マリア:まりあ:Maria>さんは <何:なに:apa> を しながら <歌:うた:lagu> を <練習します:れんしゅうします:berlatih> か。",
+        "pilihan_jawaban": [
+          "<音楽:おんがく:musik> を <聞きながら:ききながら:sambil mendengarkan>",
+          "<テレビ:てれび:TV> を <見ながら:みながら:sambil menonton>",
+          "ごはんを <食べながら:たべながら:sambil makan>",
+          "<歩きながら:あるきながら:sambil berjalan>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "どうして <マリア:まりあ:Maria>さんは <人気:にんき:populer> が ありますか。",
+        "pilihan_jawaban": [
+          "まじめだし、<熱心:ねっしん:tekun> だし、<声:こえ:suara> も きれいだから",
+          "<歌:うた:lagu> が <下手:へた:tidak pandai> ですから",
+          "<日本語:にほんご:bahasa Jepang> が <上手:じょうず:pandai> ですから",
+          "<有名:ゆうめい:terkenal> な <歌手:かしゅ:penyanyi> ですから"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<マリア:まりあ:Maria>さんは <将来:しょうらい:masa depan> <何:なに:apa> を したいですか。",
+        "pilihan_jawaban": [
+          "<日本:にほん:Jepang> で <歌いたい:うたいたい:ingin bernyanyi> です",
+          "<国:くに:negara> で <先生:せんせい:guru> に なりたいです",
+          "<日本:にほん:Jepang> で <写真:しゃしん:foto> を <撮りたい:とりたい:ingin mengambil> です",
+          "<外国:がいこく:luar negeri> へ <留学:りゅうがく:studi luar negeri> したいです"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<今:いま:sekarang>、<マリア:まりあ:Maria>さんの <日本語:にほんご:bahasa Jepang> の <会話:かいわ:percakapan> は <上手:じょうず:pandai> ですか。",
+        "pilihan_jawaban": [
+          "いいえ、まだ <上手:じょうず:pandai> じゃ ありません",
+          "はい、とても <上手:じょうず:pandai> です",
+          "はい、<日本人:にほんじん:orang Jepang> と <同じ:おなじ:sama> です",
+          "<会話:かいわ:percakapan> は <勉強:べんきょう:belajar> して いません"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<マリア:まりあ:Maria>さんは <毎晩:まいばん:setiap malam> <誰:だれ:siapa> と <おしゃべり:おしゃべり:ngobrol> して いますか。",
+        "pilihan_jawaban": [
+          "<日本人:にほんじん:orang Jepang> の <友達:ともだち:teman>",
+          "<田中:たなか:Tanaka>さん",
+          "<家族:かぞく:keluarga>",
+          "ひとりで"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<マリア:まりあ:Maria>さんは どうやって <新しい:あたらしい:baru> <言葉:ことば:kata> を <覚えます:おぼえます:menghafal> か。",
+        "pilihan_jawaban": [
+          "<友達:ともだち:teman> と <話しながら:はなしながら:sambil berbicara> <覚えます:おぼえます:menghafal>",
+          "<本:ほん:buku> を <読みながら:よみながら:sambil membaca> <覚えます:おぼえます:menghafal>",
+          "<音楽:おんがく:musik> を <聞きながら:ききながら:sambil mendengarkan> <覚えます:おぼえます:menghafal>",
+          "<先生:せんせい:guru> に <聞きながら:ききながら:sambil bertanya> <覚えます:おぼえます:menghafal>"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

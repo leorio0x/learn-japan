@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "28",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["毎晩", "日本語の", "音楽を", "聞きながら", "勉強します"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "28",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["この", "店は", "安いし", "おいしいし", "人気があります"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "28",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["田中さんは", "毎朝", "ジョギングを", "して", "います"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "28",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["雨が", "たくさん", "降りました", "それで", "行きませんでした"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "28",
+    "kategori": "bintang",
+    "soal": "★ ___ ___ ___ ___。",
+    "pilihan_jawaban": ["マリアさんは", "毎日", "小説を", "書いて", "います"],
+    "jawaban_benar": "a"
+  }
+]

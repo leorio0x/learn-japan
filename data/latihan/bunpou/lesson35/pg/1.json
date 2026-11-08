@@ -1,0 +1,115 @@
+[
+  {
+    "lesson": "35",
+    "kategori": "pilihan ganda",
+    "soal": "<春:はる:musim semi> に なると、<花:はな:bunga> が ___。",
+    "pilihan_jawaban": ["咲きます", "咲けば", "咲いたら", "咲くなら"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "35",
+    "kategori": "pilihan ganda",
+    "soal": "この ボタンを ___ と、ドアが <開きます:あきます:terbuka>。",
+    "pilihan_jawaban": ["押す", "押せば", "押したら", "押すなら"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "35",
+    "kategori": "pilihan ganda",
+    "soal": "お<金:かね:uang> が ___ ば、<旅行:りょこう:perjalanan> します。",
+    "pilihan_jawaban": ["ある", "あれば", "あったら", "あるなら"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "35",
+    "kategori": "pilihan ganda",
+    "soal": "<時間:じかん:waktu> が ___ ば、<行きます:いきます:pergi>。",
+    "pilihan_jawaban": ["ある", "あれば", "あったら", "あるなら"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "35",
+    "kategori": "pilihan ganda",
+    "soal": "<雨:あめ:hujan> が ___ たら、<行きません:いきません:tidak pergi>。",
+    "pilihan_jawaban": ["降る", "降れば", "降った", "降り"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "35",
+    "kategori": "pilihan ganda",
+    "soal": "<安けれ:やすけれ:murah> ___、<買います:かいます:membeli>。",
+    "pilihan_jawaban": ["ば", "たら", "と", "なら"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "35",
+    "kategori": "pilihan ganda",
+    "soal": "<日本語:にほんご:bahasa Jepang> が ___ なら、この <本:ほん:buku> が いいです。",
+    "pilihan_jawaban": ["分かる", "分かれば", "分かったら", "分かって"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "35",
+    "kategori": "pilihan ganda",
+    "soal": "<学生:がくせい:pelajar> ___、<割引:わりびき:diskon> が あります。",
+    "pilihan_jawaban": ["なら", "たら", "ば", "と"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "35",
+    "kategori": "pilihan ganda",
+    "soal": "この <道:みち:jalan> を まっすぐ ___ と、<駅:えき:stasiun> に <着きます:つきます:tiba>。",
+    "pilihan_jawaban": ["行く", "行けば", "行ったら", "行くなら"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "35",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke bentuk ば (syarat) \n 行きます (Pergi)",
+    "pilihan_jawaban": ["行く", "行けば", "行ったら", "行くなら"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "35",
+    "kategori": "pilihan ganda",
+    "soal": "Ubah ke bentuk ば (syarat) \n 食べます (Makan)",
+    "pilihan_jawaban": ["食べる", "食べれば", "食べたら", "食べるなら"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "35",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Kalau musim semi tiba, bunga bermekaran.",
+    "pilihan_jawaban": [
+      "春になると、花が咲きます",
+      "春になれば、花が咲きました",
+      "春になったら、花が咲きません",
+      "春になるなら、花が咲きます"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "35",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Kalau ada uang, saya akan membeli mobil.",
+    "pilihan_jawaban": [
+      "お金があれば、車を買います",
+      "お金があったら、車を買いました",
+      "お金があっても、車を買いません",
+      "お金があるのに、車を買います"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "35",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 雨が降ったら、行きません。",
+    "pilihan_jawaban": [
+      "Kalau hujan, saya tidak pergi",
+      "Meskipun hujan, saya pergi",
+      "Kalau tidak hujan, saya pergi",
+      "Karena hujan, saya pergi"
+    ],
+    "jawaban_benar": "a"
+  }
+]

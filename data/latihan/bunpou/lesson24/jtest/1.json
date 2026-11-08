@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "24",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<私:わたし:saya>は [1. <友達:ともだち:teman>に 2. <お菓子:おかし:kue>を 3. <送って:おくって:mengirim> ] あげました",
+    "jawaban": "ともだちにおかしをおくって"
+  },
+  {
+    "lesson": "24",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<田中:たなか:Tanaka>さんは [1. <日本語:にほんご:bahasa Jepang>を 2. <私:わたし:saya>に 3. <教えて:おしえて:mengajari> ] くれました",
+    "jawaban": "わたしににほんごをおしえて"
+  },
+  {
+    "lesson": "24",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<私:わたし:saya>は [1. <駅:えき:stasiun>まで 2. <田中:たなか:Tanaka>さんに 3. <送って:おくって:mengantar> ] もらいました",
+    "jawaban": "たなかさんにえきまでおくって"
+  },
+  {
+    "lesson": "24",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<友達:ともだち:teman>が [1. <引っ越し:ひっこし:pindah rumah>を 2. <私:わたし:saya>の 3. <手伝って:てつだって:membantu> ] くれました",
+    "jawaban": "わたしのひっこしをてつだって"
+  },
+  {
+    "lesson": "24",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "すみません、[1. <読み方:よみかた:cara baca>を 2. この 3. <漢字:かんじ:kanji>の 4. <教えて:おしえて:mengajari> ] いただけませんか",
+    "jawaban": "このかんじのよみかたをおしえて"
+  },
+  {
+    "lesson": "24",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "すみません、[1. <荷物:にもつ:barang>を 2. <持って:もって:membawa> ] いただけませんか",
+    "jawaban": "にもつをもって"
+  }
+]

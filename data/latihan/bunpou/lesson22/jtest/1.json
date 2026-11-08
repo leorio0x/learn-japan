@@ -1,0 +1,44 @@
+[
+  {
+    "lesson": "22",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<これ:これ:ini>は [1. <私:わたし:saya>が 2. <作った:つくった:membuat> 3. <ケーキ:けーき:kue> ] です",
+    "jawaban": "わたしがつくったけーき"
+  },
+  {
+    "lesson": "22",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <眼鏡:めがね:kacamata>を 2. かけて 3. <いる:いる:sedang> 4. <人:ひと:orang> ] は <田中:たなか:Tanaka>さんです",
+    "jawaban": "めがねをかけているひと"
+  },
+  {
+    "lesson": "22",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <買った:かった:membeli> 2. <本:ほん:buku> 3. きのう ] は おもしろかったです",
+    "jawaban": "きのうかったほん"
+  },
+  {
+    "lesson": "22",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<私:わたし:saya>は [1. <帽子:ぼうし:topi> 2. <赤い:あかい:merah> 3. が ] <好き:すき:suka>です",
+    "jawaban": "あかいぼうしが"
+  },
+  {
+    "lesson": "22",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "A: コーヒーと <紅茶:こうちゃ:teh> と どちらが いいですか。B: [1. コーヒー 2. に 3. します ]",
+    "jawaban": "こーひーにします"
+  },
+  {
+    "lesson": "22",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "A: この セーターは どうですか。B: [1. <青い:あおい:biru>の 2. が 3. <いい:いい:bagus> ] です",
+    "jawaban": "あおいのがいい"
+  }
+]

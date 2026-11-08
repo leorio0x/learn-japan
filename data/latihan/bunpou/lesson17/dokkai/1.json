@@ -1,0 +1,70 @@
+[
+  {
+    "lesson": "17",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんは <今朝:けさ:pagi ini> <頭:あたま:kepala> が <痛くて:いたくて:sakit>、<熱:ねつ:demam> も 38<度:ど:derajat> ありました。ですから、<会社:かいしゃ:perusahaan> へ <行かないで:いかないで:tidak pergi>、<病院:びょういん:rumah sakit> へ <行きました:いきました:pergi>。\n\n<医者:いしゃ:dokter> は「<風邪:かぜ:flu> です。<今日:きょう:hari ini> は <薬:くすり:obat> を <飲んで:のんで:minum>、<ゆっくり:ゆっくり:pelan-pelan> <休んで:やすんで:istirahat> ください。お<風呂:ふろ:mandi> に <入らないで:はいらないで:tidak masuk> ください。あしたの <朝:あさ:pagi> までに <薬:くすり:obat> を 飲んで ください」と <言いました:いいました:berkata>。\n\n<田中:たなか:Tanaka>さんは <薬局:やっきょく:apotek> で <薬:くすり:obat> を <買って:かって:membeli>、<家:いえ:rumah> へ <帰りました:かえりました:pulang>。「<会社:かいしゃ:perusahaan> へ <行かなくても:いかなくても:tidak perlu pergi> いいですか」と <田中:たなか:Tanaka>さんは <聞きました:ききました:bertanya>。 <医者:いしゃ:dokter> は「いいえ、<大事:だいじ:penting> な <会議:かいぎ:rapat> が ありますから、あしたは <会社:かいしゃ:perusahaan> へ <行かなければ:いかなければ:harus pergi> なりません」と <言いました:いいました:berkata>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <今朝:けさ:pagi ini> どうしましたか。",
+        "pilihan_jawaban": [
+          "<頭:あたま:kepala> が <痛くて:いたくて:sakit> <熱:ねつ:demam> が ありました",
+          "お<腹:なか:perut> が <痛かった:いたかった:sakit> です",
+          "<歯:は:gigi> が <痛かった:いたかった:sakit> です",
+          "<元気:げんき:sehat> でした"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <会社:かいしゃ:perusahaan> へ <行きました:いきました:pergi> か。",
+        "pilihan_jawaban": [
+          "いいえ、<病院:びょういん:rumah sakit> へ <行きました:いきました:pergi>",
+          "はい、<行きました:いきました:pergi>",
+          "いいえ、<家:いえ:rumah> で <寝ました:ねました:tidur>",
+          "はい、<薬局:やっきょく:apotek> へ <行きました:いきました:pergi>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<医者:いしゃ:dokter> は 何と <言いました:いいました:berkata> か。",
+        "pilihan_jawaban": [
+          "<今日:きょう:hari ini> は <薬:くすり:obat> を 飲んで ゆっくり 休んで ください",
+          "<会社:かいしゃ:perusahaan> へ <行って:いって:pergi> ください",
+          "お<風呂:ふろ:mandi> に <入って:はいって:masuk> ください",
+          "<薬:くすり:obat> を 飲まなくても いいです"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "いつまでに <薬:くすり:obat> を 飲みますか。",
+        "pilihan_jawaban": [
+          "あしたの <朝:あさ:pagi> までに",
+          "<今日:きょう:hari ini> の <夜:よる:malam> までに",
+          "1<週間:しゅうかん:minggu> までに",
+          "<来週:らいしゅう:minggu depan> までに"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <薬:くすり:obat> を どこで <買いました:かいました:membeli> か。",
+        "pilihan_jawaban": ["<薬局:やっきょく:apotek>", "<病院:びょういん:rumah sakit>", "<会社:かいしゃ:perusahaan>", "スーパー"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは あした <会社:かいしゃ:perusahaan> へ <行かなければ:いかなければ:harus pergi> なりませんか。",
+        "pilihan_jawaban": [
+          "はい、<行かなければ:いかなければ:harus pergi> なりません",
+          "いいえ、<行かなくても:いかなくても:tidak perlu pergi> いいです",
+          "いいえ、<病院:びょういん:rumah sakit> へ <行きます:いきます:pergi>",
+          "はい、<休みます:やすみます:istirahat>"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

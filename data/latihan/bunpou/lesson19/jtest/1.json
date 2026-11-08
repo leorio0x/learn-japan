@@ -1,0 +1,58 @@
+[
+  {
+    "lesson": "19",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <私:わたし:saya>は 2. <富士山:ふじさん:Gunung Fuji>に 3. <登った:のぼった:mendaki> ] ことが あります",
+    "jawaban": "わたしはふじさんにのぼった"
+  },
+  {
+    "lesson": "19",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <日曜日:にちようび:hari Minggu>は 2. <掃除:そうじ:bersih-bersih>を 3. したり ] <洗濯:せんたく:mencuci>を したり します",
+    "jawaban": "にちようびはそうじをしたり"
+  },
+  {
+    "lesson": "19",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <休み:やすみ:libur>の <日:ひ:hari>は 2. <本:ほん:buku>を <読んだり:よんだり:membaca> 3. <音楽:おんがく:musik>を <聞いたり:きいたり:mendengar> ] します",
+    "jawaban": "やすみのひはほんをよんだりおんがくをきいたり"
+  },
+  {
+    "lesson": "19",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <田中:たなか:Tanaka>さんは 2. <先生:せんせい:guru>に 3. <なりました:なりました:menjadi> ]",
+    "jawaban": "たなかさんはせんせいになりました"
+  },
+  {
+    "lesson": "19",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <部屋:へや:kamar>を 2. <きれいに:きれいに:bersih> 3. <しました:しました:melakukan> ]",
+    "jawaban": "へやをきれいにしました"
+  },
+  {
+    "lesson": "19",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <日本:にほん:Jepang>は 2. だんだん 3. <寒く:さむく:dingin> ] なりました",
+    "jawaban": "にほんはだんだんさむく"
+  },
+  {
+    "lesson": "19",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <私:わたし:saya>は 2. <一度も:いちども:sekali pun> 3. <日本:にほん:Jepang>へ ] <行った:いった:pergi> ことが ありません",
+    "jawaban": "わたしはいちどもにほんへ"
+  },
+  {
+    "lesson": "19",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <田中:たなか:Tanaka>さんは 2. <去年:きょねん:tahun lalu> 3. <医者:いしゃ:dokter>に ] なりました",
+    "jawaban": "たなかさんはきょねんいしゃに"
+  }
+]

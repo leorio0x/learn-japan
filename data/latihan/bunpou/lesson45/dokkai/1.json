@@ -1,0 +1,45 @@
+[
+  {
+    "lesson": "45",
+    "kategori": "dokkai",
+    "dokkai": "<日本:にほん:Jepang>では、<地震:じしん:gempa>がよくあります。もし地震が<起きた:おきた:terjadi><場合:ばあい:kasus>は、まず<慌てない:あわてない:tidak panik>でください。<家:いえ:rumah>の<中:なか:dalam>にいる場合は、<机:つくえ:meja>の<下:した:bawah>に<入って:はいって:masuk>ください。<火:ひ:api>を<使っている:つかっている:menggunakan>場合は、すぐに火を<消して:けして:matikan>ください。<外:そと:luar>にいる場合は、<建物:たてもの:bangunan>から<離れて:はなれて:menjauh>ください。わからないことがあった場合は、<係員:かかりいん:petugas>に<聞いて:きいて:tanya>ください。地震が<収まった:おさまった:berhenti><後:あと:setelah>でも、<崖崩れ:がけくずれ:tanah longsor>に<注意:ちゅうい:hati-hati>してください。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "地震が起きた場合は、まず何をしますか。",
+        "pilihan_jawaban": ["走る", "慌てない", "大声を出す", "電話する"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "家の中にいる場合は、どこに入りますか。",
+        "pilihan_jawaban": ["ベッドの上", "玄関", "机の下", "お風呂"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "火を使っている場合は、どうしますか。",
+        "pilihan_jawaban": ["水をかける", "外へ出る", "すぐに火を消す", "窓を開ける"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "外にいる場合は、どうしますか。",
+        "pilihan_jawaban": ["建物の中に入る", "建物から離れる", "走る", "座る"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "わからないことがあった場合は、だれに聞きますか。",
+        "pilihan_jawaban": ["先生", "友達", "家族", "係員"],
+        "jawaban_benar": "d"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "地震が収まった後でも、何に注意しますか。",
+        "pilihan_jawaban": ["火事", "雨", "崖崩れ", "風"],
+        "jawaban_benar": "c"
+      }
+    ]
+  }
+]

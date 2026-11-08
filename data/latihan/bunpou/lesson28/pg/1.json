@@ -1,0 +1,101 @@
+[
+  {
+    "lesson": "28",
+    "kategori": "pilihan ganda",
+    "soal": "<音楽:おんがく:musik> を ___ ながら <勉強:べんきょう:belajar> します。",
+    "pilihan_jawaban": ["聞く", "聞いて", "聞き", "聞きます"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "28",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka>さんは コーヒーを ___ ながら <新聞:しんぶん:koran> を <読みます:よみます:membaca>。",
+    "pilihan_jawaban": ["飲む", "飲んで", "飲み", "飲みます"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "28",
+    "kategori": "pilihan ganda",
+    "soal": "この <店:みせ:toko> は <安い:やすい:murah> し、___ し、とても <人気:にんき:populer> が あります。",
+    "pilihan_jawaban": ["おいしい", "おいしく", "おいしくて", "おいしいです"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "28",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka>さんは まじめ ___、<熱心:ねっしん:tekun> です。",
+    "pilihan_jawaban": ["だし", "でし", "なし", "に"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "28",
+    "kategori": "pilihan ganda",
+    "soal": "<毎朝:まいあさ:setiap pagi> ジョギングを ___ います。",
+    "pilihan_jawaban": ["して", "し", "する", "した"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "28",
+    "kategori": "pilihan ganda",
+    "soal": "<マリア:まりあ:Maria>さんは <小説:しょうせつ:novel> を ___ います。",
+    "pilihan_jawaban": ["書き", "書いて", "書く", "書きます"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "28",
+    "kategori": "pilihan ganda",
+    "soal": "この <店:みせ:toko> は <安い:やすい:murah> です。___、おいしいです。",
+    "pilihan_jawaban": ["それで", "それに", "しかし", "でも"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "28",
+    "kategori": "pilihan ganda",
+    "soal": "<雨:あめ:hujan> が <降りました:ふりました:turun>。___、<行きませんでした:いきませんでした:tidak pergi>。",
+    "pilihan_jawaban": ["それに", "それで", "しかし", "でも"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "28",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka>さんは <歌:うた:lagu> が ___ です。",
+    "pilihan_jawaban": ["上手", "上手な", "上手に", "上手く"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "28",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Saya makan sambil menonton TV.",
+    "pilihan_jawaban": [
+      "テレビを見ながらごはんを食べます",
+      "テレビを見てごはんを食べます",
+      "テレビを見るながらごはんを食べます",
+      "テレビを見ながらごはんを食べました"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "28",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Toko ini murah dan enak, jadi populer.",
+    "pilihan_jawaban": [
+      "この店は安いし、おいしいし、人気があります",
+      "この店は安いし、おいしいし、人気がありません",
+      "この店は安いのに、おいしいし、人気があります",
+      "この店は安いと、おいしいし、人気があります"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "28",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n 田中さんは毎朝ジョギングをしています。",
+    "pilihan_jawaban": [
+      "Tanaka-san setiap pagi berjoging",
+      "Tanaka-san setiap pagi berenang",
+      "Tanaka-san kemarin pagi berjoging",
+      "Tanaka-san setiap malam berjoging"
+    ],
+    "jawaban_benar": "a"
+  }
+]

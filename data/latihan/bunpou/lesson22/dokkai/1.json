@@ -1,0 +1,64 @@
+[
+  {
+    "lesson": "22",
+    "kategori": "dokkai",
+    "dokkai": "<マリア:まりあ:Maria>さんは <先週:せんしゅう:minggu lalu> <デパート:でぱーと:department store> で <服:ふく:pakaian> を <買いました:かいました:membeli>。\n\n<マリア:まりあ:Maria>さんが <買った:かった:membeli> のは <青い:あおい:biru> <ワンピース:わんぴーす:gaun> です。<マリア:まりあ:Maria>さんは <赤い:あかい:merah> <ワンピース:わんぴーす:gaun> も <見ました:みました:melihat> が、<青い:あおい:biru> の が <いい:いい:bagus> と <思いました:おもいました:berpikir>。\n\n<店員:てんいん:pelayan toko> が「この <白い:しろい:putih> <ブラウス:ぶらうす:blus> は いかがですか」と <聞きました:ききました:bertanya>。<マリア:まりあ:Maria>さんは「そうですね。でも、<私:わたし:saya> が <着たい:きたい:ingin memakai> のは <長い:ながい:panjang> <スカート:すかーと:rok> です」と <言いました:いいました:berkata>。\n\n<店員:てんいん:pelayan toko> は <長い:ながい:panjang> <スカート:すかーと:rok> を <持って:もって:membawa> きました。<マリア:まりあ:Maria>さんは「これに します。この <スカート:すかーと:rok> は <サイズ:さいず:ukuran> が いいです」と <言いました:いいました:berkata>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<マリア:まりあ:Maria>さんは どこで <服:ふく:pakaian> を <買いました:かいました:membeli> か。",
+        "pilihan_jawaban": [
+          "<デパート:でぱーと:department store>",
+          "<駅:えき:stasiun>",
+          "<スーパー:すーぱー:supermarket>",
+          "<学校:がっこう:sekolah>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<マリア:まりあ:Maria>さんが <買った:かった:membeli> のは <何:なに:apa> ですか。",
+        "pilihan_jawaban": [
+          "<青い:あおい:biru> <ワンピース:わんぴーす:gaun>",
+          "<赤い:あかい:merah> <ワンピース:わんぴーす:gaun>",
+          "<白い:しろい:putih> <ブラウス:ぶらうす:blus>",
+          "<長い:ながい:panjang> <スカート:すかーと:rok>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<マリア:まりあ:Maria>さんは <赤い:あかい:merah> <ワンピース:わんぴーす:gaun> について どう <思いました:おもいました:berpikir> か。",
+        "pilihan_jawaban": [
+          "<青い:あおい:biru> の が <いい:いい:bagus> と <思いました:おもいました:berpikir>",
+          "<赤い:あかい:merah> の が <いい:いい:bagus> と <思いました:おもいました:berpikir>",
+          "<高すぎる:たかすぎる:terlalu mahal> と <思いました:おもいました:berpikir>",
+          "<小さすぎる:ちいさすぎる:terlalu kecil> と <思いました:おもいました:berpikir>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<マリア:まりあ:Maria>さんが <着たい:きたい:ingin memakai> のは <何:なに:apa> ですか。",
+        "pilihan_jawaban": [
+          "<長い:ながい:panjang> <スカート:すかーと:rok>",
+          "<白い:しろい:putih> <ブラウス:ぶらうす:blus>",
+          "<青い:あおい:biru> <ワンピース:わんぴーす:gaun>",
+          "<赤い:あかい:merah> <コート:こーと:mantel>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "どうして <マリア:まりあ:Maria>さんは この <スカート:すかーと:rok> に しました か。",
+        "pilihan_jawaban": [
+          "<サイズ:さいず:ukuran> が いいですから",
+          "<安い:やすい:murah> ですから",
+          "<色:いろ:warna> が <好き:すき:suka> ですから",
+          "<店員:てんいん:pelayan toko> が <親切:しんせつ:ramah> ですから"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "lesson": "45",
+    "kategori": "pilihan ganda",
+    "soal": "雨が降る ___ は、試合は中止です。",
+    "pilihan_jawaban": ["場合", "ために", "ように", "そうに"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "45",
+    "kategori": "pilihan ganda",
+    "soal": "テストでわからない ___ は、先生に聞いてください。",
+    "pilihan_jawaban": ["ために", "場合", "ように", "そうに"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "45",
+    "kategori": "pilihan ganda",
+    "soal": "パスポートをなくした ___ は、どうしたらいいですか。",
+    "pilihan_jawaban": ["ために", "ように", "場合", "そうに"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "45",
+    "kategori": "pilihan ganda",
+    "soal": "熱がある ___ は、無理をしないでください。",
+    "pilihan_jawaban": ["ために", "ように", "そうに", "場合"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "45",
+    "kategori": "pilihan ganda",
+    "soal": "道がわからなかったら、どう ___ いいですか。",
+    "pilihan_jawaban": ["して", "したら", "する", "します"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "45",
+    "kategori": "pilihan ganda",
+    "soal": "日本語で何と ___ いいですか。",
+    "pilihan_jawaban": ["言って", "言う", "言ったら", "言います"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "45",
+    "kategori": "pilihan ganda",
+    "soal": "雨が ___ ても、試合は行われます。",
+    "pilihan_jawaban": ["降り", "降る", "降っ", "降って"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "45",
+    "kategori": "pilihan ganda",
+    "soal": "お金が ___ ても、幸せになれます。",
+    "pilihan_jawaban": ["ない", "なく", "なかっ", "ならない"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "45",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Kalau hujan, saya tidak pergi.",
+    "pilihan_jawaban": [
+      "雨が降る場合は、行きません",
+      "雨が降っても、行きません",
+      "雨が降るために、行きません",
+      "雨が降ったら、行きました"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "45",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Apa yang harus saya lakukan kalau kehilangan tiket?",
+    "pilihan_jawaban": [
+      "切符をなくしても、どうしたらいいですか",
+      "切符をなくすために、どうしたらいいですか",
+      "切符をなくした場合は、どうしたらいいですか",
+      "切符をなくした場合は、行きません"
+    ],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "45",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Meskipun sibuk, saya akan datang.",
+    "pilihan_jawaban": [
+      "忙しい場合は、行きます",
+      "忙しくても、行きます",
+      "忙しいので、行きます",
+      "忙しくて、行きます"
+    ],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "45",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n どうしたらいいですか。",
+    "pilihan_jawaban": [
+      "Bagaimana kalau tidak jadi?",
+      "Apa yang sebaiknya saya lakukan?",
+      "Apakah boleh saya melakukan?",
+      "Mengapa harus dilakukan?"
+    ],
+    "jawaban_benar": "b"
+  }
+]

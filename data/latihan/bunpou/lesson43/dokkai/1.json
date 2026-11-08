@@ -1,0 +1,65 @@
+[
+  {
+    "lesson": "43",
+    "kategori": "dokkai",
+    "dokkai": "<今日:きょう:hari ini>は<朝:あさ:pagi>から<空:そら:langit>が<暗い:くらい:gelap>です。今にも<雨:あめ:hujan>が<降りそうです:ふりそうです:sepertinya akan turun>。<天気予報:てんきよほう:prakiraan cuaca>によると、<午後:ごご:sore>から<大雨:おおあめ:hujan lebat>が降るらしいです。だから、<傘:かさ:payung>を<持って:もって:membawa>行ったほうがいいようです。<田中:たなか:Tanaka>さんは<風邪:かぜ:flu>を引いたようです。<顔:かお:wajah>が<赤くて:あかくて:merah>、<元気:げんき:sehat>がなさそうです。わたしは<心配:しんぱい:khawatir>になって、<声:こえ:suara>をかけてみました。すると、田中さんは「<大丈夫:だいじょうぶ:tidak apa-apa>です。少し<熱:ねつ:demam>があるだけです」と<言いました:いいました:berkata>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "今日の空はどうですか。",
+        "pilihan_jawaban": ["晴れています", "暗いです", "青いです", "赤いです"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "今にも何が降りそうですか。",
+        "pilihan_jawaban": ["雪", "風", "雨", "雷"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "天気予報によると、午後からどうなりますか。",
+        "pilihan_jawaban": [
+          "大雨が降るらしいです",
+          "雪が降るらしいです",
+          "晴れるらしいです",
+          "台風が来るらしいです"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "田中さんはどうしたようですか。",
+        "pilihan_jawaban": [
+          "風邪を引いたようです",
+          "怪我をしたようです",
+          "旅行に行ったようです",
+          "忙しいようです"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "田中さんの顔はどうですか。",
+        "pilihan_jawaban": [
+          "青くて元気そうです",
+          "赤くて元気がなさそうです",
+          "白くて楽しそうです",
+          "黒くて強そうです"
+        ],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "田中さんはどう言いましたか。",
+        "pilihan_jawaban": [
+          "大丈夫です。少し熱があるだけです",
+          "病気です。会社を休みます",
+          "元気です。運動します",
+          "忙しいです。帰ります"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "lesson": "25",
+    "kategori": "pilihan ganda",
+    "soal": "<お金:おかね:uang> が ___ たら、<家:いえ:rumah> を <買います:かいます:membeli>。",
+    "pilihan_jawaban": ["ある", "あった", "あります", "あって"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "25",
+    "kategori": "pilihan ganda",
+    "soal": "<雨:あめ:hujan> が ___ たら、<行きません:いきません:tidak pergi>。",
+    "pilihan_jawaban": ["降る", "降った", "降ります", "降って"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "25",
+    "kategori": "pilihan ganda",
+    "soal": "<薬:くすり:obat> を ___ ても、<頭:あたま:kepala> が <痛い:いたい:sakit> です。",
+    "pilihan_jawaban": ["飲み", "飲む", "飲んで", "飲ん"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "25",
+    "kategori": "pilihan ganda",
+    "soal": "<一生懸命:いっしょうけんめい:dengan giat> ___ ても、<勝てませんでした:かてませんでした:tidak bisa menang>。",
+    "pilihan_jawaban": ["頑張って", "頑張ります", "頑張る", "頑張り"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "25",
+    "kategori": "pilihan ganda",
+    "soal": "<安い:やすい:murah> ___、<買いません:かいません:tidak membeli>。",
+    "pilihan_jawaban": ["のに", "ので", "から", "と"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "25",
+    "kategori": "pilihan ganda",
+    "soal": "<一生懸命:いっしょうけんめい:dengan giat> <勉強:べんきょう:belajar> した ___、<試験:しけん:ujian> に <落ちました:おちました:gagal>。",
+    "pilihan_jawaban": ["のに", "ので", "から", "と"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "25",
+    "kategori": "pilihan ganda",
+    "soal": "<暇:ひま:waktu luang> な ___、<遊びに:あそびに:untuk bermain> <行きません:いきません:tidak pergi> か。",
+    "pilihan_jawaban": ["とき", "のに", "たら", "ても"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "25",
+    "kategori": "pilihan ganda",
+    "soal": "<国:くに:negara> に ___ たら、<電話:でんわ:telepon> します。",
+    "pilihan_jawaban": ["着いた", "着きます", "着いて", "着き"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "25",
+    "kategori": "pilihan ganda",
+    "soal": "もし <お金:おかね:uang> が <一億:いちおく:seratus juta> ___ たら、<何:なに:apa> を しますか。",
+    "pilihan_jawaban": ["ある", "あった", "あります", "あって"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "25",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Kalau punya waktu, saya akan pergi ke Jepang.",
+    "pilihan_jawaban": [
+      "時間があったら、日本へ行きます",
+      "時間があると、日本へ行きました",
+      "時間があっても、日本へ行きません",
+      "時間があるのに、日本へ行きます"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "25",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Meskipun hujan, saya akan pergi.",
+    "pilihan_jawaban": [
+      "雨が降っても、行きます",
+      "雨が降ったら、行きます",
+      "雨が降るのに、行きません",
+      "雨が降ると、行きます"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "25",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n Padahal sudah belajar keras, tetap gagal ujian.",
+    "pilihan_jawaban": [
+      "一生懸命勉強したのに、試験に落ちました",
+      "一生懸命勉強したから、試験に落ちました",
+      "一生懸命勉強しても、試験に落ちませんでした",
+      "一生懸命勉強したら、試験に落ちました"
+    ],
+    "jawaban_benar": "a"
+  }
+]

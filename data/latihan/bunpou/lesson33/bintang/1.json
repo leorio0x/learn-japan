@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "33",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["ここに", "「入口」", "と", "書いて", "あります"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "33",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["この", "「使用禁止」", "は", "どういう", "意味ですか"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "33",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["「ありがとう」は", "英語で", "何と", "言います", "か"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "33",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["田中さんに", "「あとで電話します」", "と", "伝えて", "いただけませんか"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "33",
+    "kategori": "bintang",
+    "soal": "___ ★ ___ ___ ___。",
+    "pilihan_jawaban": ["壁に", "「禁煙」", "と", "書いて", "あります"],
+    "jawaban_benar": "b"
+  }
+]

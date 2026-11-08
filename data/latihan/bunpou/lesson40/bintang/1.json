@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "40",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ 、わかりません。",
+    "pilihan_jawaban": ["雨が", "降る", "明日", "かどうか"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "40",
+    "kategori": "bintang",
+    "soal": "わたしは ___ ___ ★ ___ みたいです。",
+    "pilihan_jawaban": ["家族と", "日本へ", "一度", "行って"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "40",
+    "kategori": "bintang",
+    "soal": "この___ ___ ★ ___ みました。",
+    "pilihan_jawaban": ["冷たい", "ケーキを", "一口", "食べて"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "40",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ 、わかりません。",
+    "pilihan_jawaban": ["来る", "か", "彼が", "どうか"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "40",
+    "kategori": "bintang",
+    "soal": "この靴は ___ ___ ★ ___ 、はいてみます。",
+    "pilihan_jawaban": ["合う", "大きさが", "かどうか", "わたしに"],
+    "jawaban_benar": "a"
+  }
+]

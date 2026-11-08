@@ -1,0 +1,75 @@
+[
+  {
+    "lesson": "35",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんは <来月:らいげつ:bulan depan>、<友達:ともだち:teman> と <旅行:りょこう:perjalanan> に <行きます:いきます:pergi>。もし <天気:てんき:cuaca> が <よければ:よければ:baik>、<海:うみ:laut> の <近く:ちかく:dekat> を <歩きます:あるきます:berjalan>。でも、<雨:あめ:hujan> が <降ったら:ふったら:hujan turun>、<美術館:びじゅつかん:museum seni> へ <行きます:いきます:pergi>。\n\n<田中:たなか:Tanaka>さんは <友達:ともだち:teman> に「<旅行:りょこう:perjalanan> の <前:まえ:sebelum> に、<何:なに:apa> が <必要:ひつよう:perlu> ですか」と <聞きました:ききました:bertanya>。<友達:ともだち:teman> は「<海:うみ:laut> へ <行く:いく:pergi> なら、<帽子:ぼうし:topi> が <必要:ひつよう:perlu> です。<山:やま:gunung> に <登る:のぼる:naik> なら、<楽な:らくな:mudah> <靴:くつ:sepatu> が いいです」と <言いました:いいました:berkata>。\n\n<田中:たなか:Tanaka>さんは「ホテルは どこが いいですか」と <聞きました:ききました:bertanya>。<友達:ともだち:teman> は「<駅:えき:stasiun> の <近く:ちかく:dekat> なら、<便利:べんり:praktis> です。でも、<静か:しずか:tenang> な <所:ところ:tempat> が いいなら、<港:みなと:pelabuhan> の <近く:ちかく:dekat> の ホテルが いいです」と <言いました:いいました:berkata>。\n\n<田中:たなか:Tanaka>さんは「<分かりました:わかりました:mengerti>。じゃあ、<港:みなと:pelabuhan> の 近く の ホテルに します。もし <時間:じかん:waktu> が あったら、<近所:きんじょ:tetangga> を <散歩:さんぽ:jalan-jalan> したいです」と <言いました:いいました:berkata>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <来月:らいげつ:bulan depan> <何:なに:apa> を しますか。",
+        "pilihan_jawaban": [
+          "<友達:ともだち:teman> と <旅行:りょこう:perjalanan> に <行きます:いきます:pergi>",
+          "<友達:ともだち:teman> と <山:やま:gunung> に <登ります:のぼります:naik>",
+          "ひとりで <海:うみ:laut> へ <行きます:いきます:pergi>",
+          "<国:くに:negara> へ <帰ります:かえります:pulang>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<天気:てんき:cuaca> が よければ、<何:なに:apa> を しますか。",
+        "pilihan_jawaban": [
+          "<海:うみ:laut> の <近く:ちかく:dekat> を <歩きます:あるきます:berjalan>",
+          "<美術館:びじゅつかん:museum seni> へ <行きます:いきます:pergi>",
+          "ホテルで <休みます:やすみます:beristirahat>",
+          "<買い物:かいもの:belanja> を します"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<雨:あめ:hujan> が <降ったら:ふったら:hujan turun>、どこへ <行きます:いきます:pergi> か。",
+        "pilihan_jawaban": [
+          "<美術館:びじゅつかん:museum seni>",
+          "<海:うみ:laut>",
+          "<山:やま:gunung>",
+          "<港:みなと:pelabuhan>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<海:うみ:laut> へ <行く:いく:pergi> なら、<何:なに:apa> が <必要:ひつよう:perlu> ですか。",
+        "pilihan_jawaban": [
+          "<帽子:ぼうし:topi>",
+          "<楽な:らくな:mudah> <靴:くつ:sepatu>",
+          "<傘:かさ:payung>",
+          "<カメラ:かめら:kamera>"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<静か:しずか:tenang> な <所:ところ:tempat> が いいなら、どんな ホテルが いいですか。",
+        "pilihan_jawaban": [
+          "<港:みなと:pelabuhan> の <近く:ちかく:dekat> の ホテル",
+          "<駅:えき:stasiun> の <近く:ちかく:dekat> の ホテル",
+          "<海:うみ:laut> の <中:なか:dalam> の ホテル",
+          "<山:やま:gunung> の <上:うえ:atas> の ホテル"
+        ],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<時間:じかん:waktu> が あったら、<田中:たなか:Tanaka>さんは <何:なに:apa> を したいですか。",
+        "pilihan_jawaban": [
+          "<近所:きんじょ:tetangga> を <散歩:さんぽ:jalan-jalan> したいです",
+          "<海:うみ:laut> で <泳ぎたい:およぎたい:ingin berenang> です",
+          "<美術館:びじゅつかん:museum seni> へ <行きたい:いきたい:ingin pergi> です",
+          "ホテルで <寝たい:ねたい:ingin tidur> です"
+        ],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

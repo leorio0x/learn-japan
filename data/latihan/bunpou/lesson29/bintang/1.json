@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "29",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["きのう", "駅で", "財布を", "落として", "しまいました"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "29",
+    "kategori": "bintang",
+    "soal": "___ ★ ___ ___ ___。",
+    "pilihan_jawaban": ["一人で", "ケーキを", "全部", "食べて", "しまいました"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "29",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["駅の前で", "電車が", "急に", "止まって", "しまいました"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "29",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["この部屋の", "窓が", "ずっと", "開いて", "います"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "29",
+    "kategori": "bintang",
+    "soal": "★ ___ ___ ___ ___。",
+    "pilihan_jawaban": ["白い", "シャツが", "コーヒーで", "汚れて", "しまいました"],
+    "jawaban_benar": "a"
+  }
+]
