@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "12",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["わたしは", "コーヒーより", "好きです", "紅茶の", "ほうが"],
+    "jawaban_benar": "e"
+  },
+  {
+    "lesson": "12",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["いちばん", "山は", "富士山です", "日本で", "高い"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "12",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["ほど", "今日", "なかったです", "暑く", "きのうは"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "12",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["1年で", "いちばん", "季節は", "夏です", "暑い"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "12",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["どちらが", "ですか", "春と", "好き", "秋と"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "12",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["この", "広いです", "部屋より", "あの", "部屋は"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "12",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["東京", "人が", "多いですか", "香港は", "ほど"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "12",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["きのう", "いいです", "天気は", "より", "きょうの"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "12",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["あの", "この", "甘くないです", "レモンほど", "レモンは"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "12",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["季節は", "1年で", "いい", "いちばん", "いつですか"],
+    "jawaban_benar": "a"
+  }
+]

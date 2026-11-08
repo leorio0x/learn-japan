@@ -1,0 +1,63 @@
+[
+  {
+    "lesson": "8",
+    "kategori": "dokkai",
+    "dokkai": "<私:わたし:saya> の <町:まち:kota> は <小さい:ちいさい:kecil> ですが、とても <きれい:きれい:cantik> な <町:まち:kota> です。<町:まち:kota> には <有名:ゆうめい:terkenal> な <山:やま:gunung> が あります。<山:やま:gunung> は <高くない:たかくない:tidak tinggi> ですが、とても <きれい:きれい:indah> です。<春:はる:musim semi> は <桜:さくら:sakura> が <きれい:きれい:cantik> です。<夏:なつ:musim panas> は とても <暑い:あつい:panas> です。<私:わたし:saya> の <家:うち:rumah> は <駅:えき:stasiun> の <近く:ちかく:dekat> に あります。<駅:えき:stasiun> の <近く:ちかく:dekat> は とても <にぎやか:にぎやか:ramai> ですが、<私:わたし:saya> の <家:うち:rumah> の <周り:まわり:sekitar> は <静か:しずか:sunyi> です。<私:わたし:saya> の <生活:せいかつ:kehidupan> は とても <楽しい:たのしい:menyenangkan> です。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<私:わたし:saya> の <町:まち:kota> は どんな <町:まち:kota> ですか。",
+        "pilihan_jawaban": ["<小さい:ちいさい:kecil> ですが、<きれい:きれい:cantik> な <町:まち:kota>", "<大きい:おおきい:besar> <町:まち:kota>", "<にぎやか:にぎやか:ramai> な <町:まち:kota>", "<古い:ふるい:lama> <町:まち:kota>"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<町:まち:kota> には <何:なに:apa> が ありますか。",
+        "pilihan_jawaban": ["<有名:ゆうめい:terkenal> な <山:やま:gunung>", "<桜:さくら:sakura>", "<大きい:おおきい:besar> <駅:えき:stasiun>", "<新しい:あたらしい:baru> <家:うち:rumah>"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<山:やま:gunung> は どうですか。",
+        "pilihan_jawaban": ["<高くて:たかくて:tinggi>、<きれい:きれい:indah>", "<高くない:たかくない:tidak tinggi> ですが、<きれい:きれい:indah>", "<低くて:ひくくて:rendah>、<きれいじゃない:きれいじゃない:tidak indah>", "<有名:ゆうめい:terkenal> じゃない"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<春:はる:musim semi> は <何:なに:apa> が <きれい:きれい:cantik> ですか。",
+        "pilihan_jawaban": ["<山:やま:gunung>", "<桜:さくら:sakura>", "<駅:えき:stasiun>", "<家:うち:rumah>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<夏:なつ:musim panas> は どうですか。",
+        "pilihan_jawaban": ["とても <寒い:さむい:dingin> です", "とても <暑い:あつい:panas> です", "とても <涼しい:すずしい:sejuk> です", "あまり <暑くない:あつくない:tidak panas> です"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<私:わたし:saya> の <家:うち:rumah> は どこに ありますか。",
+        "pilihan_jawaban": ["<駅:えき:stasiun> の <近く:ちかく:dekat>", "<山:やま:gunung> の <近く:ちかく:dekat>", "<町:まち:kota> の <近く:ちかく:dekat>", "<学校:がっこう:sekolah> の <近く:ちかく:dekat>"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "7",
+        "pertanyaan": "<駅:えき:stasiun> の <近く:ちかく:dekat> は どうですか。",
+        "pilihan_jawaban": ["<静か:しずか:sunyi> です", "とても <にぎやか:にぎやか:ramai> です", "<きれいじゃない:きれいじゃない:tidak indah> です", "<小さい:ちいさい:kecil> です"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "8",
+        "pertanyaan": "<私:わたし:saya> の <家:うち:rumah> の <周り:まわり:sekitar> は どうですか。",
+        "pilihan_jawaban": ["<にぎやか:にぎやか:ramai> です", "<静か:しずか:sunyi> です", "<暑い:あつい:panas> です", "<大きい:おおきい:besar> です"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "9",
+        "pertanyaan": "<私:わたし:saya> の <生活:せいかつ:kehidupan> は どうですか。",
+        "pilihan_jawaban": ["とても <楽しい:たのしい:menyenangkan> です", "あまり <楽しくない:たのしくない:tidak menyenangkan> です", "とても <忙しい:いそがしい:sibuk> です", "<静か:しずか:sunyi> です"],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

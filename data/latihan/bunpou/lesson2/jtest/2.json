@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "2",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. これ 2. わたし 3. の ]ほんです",
+    "jawaban": "これはわたしのほん"
+  },
+  {
+    "lesson": "2",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. その 2. かさ 3. あなた ]ですか",
+    "jawaban": "そのかさはあなたの"
+  },
+  {
+    "lesson": "2",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. あの 2. ひと 3. ミラーさん ]です",
+    "jawaban": "あのひとはミラーさん"
+  },
+  {
+    "lesson": "2",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. これ 2. じしょ ]ですか",
+    "jawaban": "これはじしょですか"
+  },
+  {
+    "lesson": "2",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. この 2. ほん 3. たなかさん ]です",
+    "jawaban": "このほんはたなかさんの"
+  },
+  {
+    "lesson": "2",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. あれ 2. なん ]ですか",
+    "jawaban": "あれはなんですか"
+  },
+  {
+    "lesson": "2",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. その 2. かさ 3. たなかさん 4. の ]です",
+    "jawaban": "そのかさはたなかさんの"
+  },
+  {
+    "lesson": "2",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. これは 2. にほんご 3. の 4. ほん ]です",
+    "jawaban": "これはにほんごのほん"
+  },
+  {
+    "lesson": "2",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. この 2. じしょ 3. だれ 4. の ]ですか",
+    "jawaban": "このじしょはだれの"
+  },
+  {
+    "lesson": "2",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. それ 2. わたし 3. の 4. かさ ]じゃありません",
+    "jawaban": "それはわたしのかさ"
+  }
+]

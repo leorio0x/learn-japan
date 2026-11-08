@@ -1,0 +1,75 @@
+[
+  {
+    "lesson": "12",
+    "kategori": "dokkai",
+    "dokkai": "<私:わたし:saya> の <国:くに:negara> は インドネシアです。インドネシアには <雨:あめ:hujan> の <季節:きせつ:musim> と <晴れ:はれ:cerah> の <季節:きせつ:musim> が あります。<雨:あめ:hujan> の <季節:きせつ:musim> は <十二月:じゅうにがつ:Desember> から <三月:さんがつ:Maret> までです。<晴れ:はれ:cerah> の <季節:きせつ:musim> は <四月:しがつ:April> から <十一月:じゅういちがつ:November> までです。\n\n<私:わたし:saya> は <晴れ:はれ:cerah> の <季節:きせつ:musim> の ほうが <好き:すき:suka> です。なぜなら、<雨:あめ:hujan> の <季節:きせつ:musim> は <雨:あめ:hujan> が <多い:おおい:banyak> ですから、<涼しい:すずしい:sejuk> ですが、<外:そと:luar> へ <出:で:keluar> にくいです。<晴れ:はれ:cerah> の <季節:きせつ:musim> は <暑い:あつい:panas> ですが、<海:うみ:laut> へ <行きます:いきます:pergi> からです。\n\n<東京:とうきょう:Tokyo> は インドネシアより <物価:ぶっか:harga barang> が <高い:たかい:mahal> です。しかし、<交通:こうつう:transportasi> は <東京:とうきょう:Tokyo> の ほうが <便利:べんり:praktis> です。インドネシアの <町:まち:kota> は <東京:とうきょう:Tokyo> ほど <人:ひと:orang> が <多くない:おおくない:tidak banyak> ですから、<静か:しずか:tenang> です。\n\n<私:わたし:saya> の <町:まち:kota> で いちばん <人気:にんき:populer> な <季節:きせつ:musim> は <晴れ:はれ:cerah> の <季節:きせつ:musim> です。<晴れ:はれ:cerah> の <季節:きせつ:musim> には <海:うみ:laut> と <山:やま:gunung> の <観光地:かんこうち:tempat wisata> が あります。そして、<果物:くだもの:buah> も <安い:やすい:murah> です。<一番:いちばん:paling> <おいしい:oishii:enak> な <果物:くだもの:buah> は マンゴーです。<今年:ことし:tahun ini> の <夏:なつ:musim panas> は <去年:きょねん:tahun lalu> より ずっと <暑い:あつい:panas> です。でも、<私:わたし:saya> は <暑い:あつい:panas> の が <大好き:だいすき:sangat suka> です。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "インドネシアには いくつ <季節:きせつ:musim> が ありますか。",
+        "pilihan_jawaban": ["<一つ:ひとつ:satu>", "<二つ:ふたつ:dua>", "<三つ:みっつ:tiga>", "<四つ:よっつ:empat>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<雨:あめ:hujan> の <季節:きせつ:musim> は いつから いつまでですか。",
+        "pilihan_jawaban": ["<十二月:じゅうにがつ:Desember> から <三月:さんがつ:Maret> まで", "<三月:さんがつ:Maret> から <十二月:じゅうにがつ:Desember> まで", "<四月:しがつ:April> から <十一月:じゅういちがつ:November> まで", "<十一月:じゅういちがつ:November> から <四月:しがつ:April> まで"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<私:わたし:saya> は どちらの <季節:きせつ:musim> の ほうが <好き:すき:suka> ですか。",
+        "pilihan_jawaban": ["<雨:あめ:hujan> の <季節:きせつ:musim>", "<晴れ:はれ:cerah> の <季節:きせつ:musim>", "どちらも <好き:すき:suka> です", "どちらも <好き:すき:suka> じゃ ありません"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<雨:あめ:hujan> の <季節:きせつ:musim> は どうして <外:そと:luar> へ <出:で:keluar> にくいですか。",
+        "pilihan_jawaban": ["<雨:あめ:hujan> が <多い:おおい:banyak> ですから", "<暑い:あつい:panas> ですから", "<寒い:さむい:dingin> ですから", "<風:かぜ:angin> が <強い:つよい:kuat> ですから"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<晴れ:はれ:cerah> の <季節:きせつ:musim> に <私:わたし:saya> は どこへ <行きます:いきます:pergi> か。",
+        "pilihan_jawaban": ["<山:やま:gunung>", "<海:うみ:laut>", "<町:まち:kota>", "<国:くに:negara>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<物価:ぶっか:harga barang> が <高い:たかい:mahal> のは どちらですか。",
+        "pilihan_jawaban": ["インドネシア", "<東京:とうきょう:Tokyo>", "どちらも <同じ:おなじ:sama> です", "わかりません"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "7",
+        "pertanyaan": "<交通:こうつう:transportasi> が <便利:べんり:praktis> なのは どちらですか。",
+        "pilihan_jawaban": ["インドネシア", "<東京:とうきょう:Tokyo>", "どちらも <便利:べんり:praktis> じゃ ありません", "わかりません"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "8",
+        "pertanyaan": "<私:わたし:saya> の <町:まち:kota> は <東京:とうきょう:Tokyo> ほど <人:ひと:orang> が <多い:おおい:banyak> ですか。",
+        "pilihan_jawaban": ["はい、とても <多い:おおい:banyak> です", "いいえ、<多くない:おおくない:tidak banyak> です", "はい、<東京:とうきょう:Tokyo> より <多い:おおい:banyak> です", "いいえ、<東京:とうきょう:Tokyo> の ほうが <少ない:すくない:sedikit> です"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "9",
+        "pertanyaan": "<私:わたし:saya> の <町:まち:kota> で いちばん <人気:にんき:populer> な <季節:きせつ:musim> は なんですか。",
+        "pilihan_jawaban": ["<雨:あめ:hujan> の <季節:きせつ:musim>", "<晴れ:はれ:cerah> の <季節:きせつ:musim>", "<冬:ふゆ:musim dingin>", "<秋:あき:musim gugur>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "10",
+        "pertanyaan": "いちばん <おいしい:oishii:enak> <果物:くだもの:buah> は なんですか。",
+        "pilihan_jawaban": ["レモン", "マンゴー", "りんご", "バナナ"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "11",
+        "pertanyaan": "<今年:ことし:tahun ini> の <夏:なつ:musim panas> は <去年:きょねん:tahun lalu> より <暑い:あつい:panas> ですか。",
+        "pilihan_jawaban": ["はい、ずっと <暑い:あつい:panas> です", "いいえ、<暑くない:あつくない:tidak panas> です", "いいえ、<去年:きょねん:tahun lalu> の ほうが <暑い:あつい:panas> です", "はい、<去年:きょねん:tahun lalu> と <同じ:おなじ:sama> です"],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

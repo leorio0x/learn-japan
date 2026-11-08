@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "5",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["行きます", "学校", "わたし", "へ", "は"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "5",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["で", "電車", "田中さん", "行きます", "は"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "5",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["友達", "は", "わたし", "と", "行きます"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "5",
+    "kategori": "bintang",
+    "soal": "___ ★ ___ ___ か。",
+    "pilihan_jawaban": ["へ", "いつ", "日本", "行きます"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "5",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___。",
+    "pilihan_jawaban": ["行きます", "駅", "歩いて", "から"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "5",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___。",
+    "pilihan_jawaban": ["行きました", "先週", "へ", "日本"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "5",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["デパート", "家族", "へ", "と", "行きます"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "5",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___。",
+    "pilihan_jawaban": ["帰ります", "彼女", "来週", "は"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "5",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["は", "わたし", "帰ります", "で", "バス"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "5",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___。",
+    "pilihan_jawaban": ["京都", "新幹線", "行きます", "へ", "で"],
+    "jawaban_benar": "a"
+  }
+]

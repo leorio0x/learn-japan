@@ -1,0 +1,69 @@
+[
+  {
+    "lesson": "11",
+    "kategori": "dokkai",
+    "dokkai": "<私:わたし:saya> は まいあさ <六時:ろくじ:jam enam> に おきます。そして、<一時間:いちじかん:satu jam> <日本語:にほんご:bahasa Jepang> を <勉強します:べんきょうします:belajar>。<私:わたし:saya> の <家:うち:rumah> から <駅:えき:stasiun> まで <三十分:さんじゅっぷん:tiga puluh menit> ぐらい かかります。<会社:かいしゃ:perusahaan> は <九時:くじ:jam sembilan> に はじまります。<会社:かいしゃ:perusahaan> で <一週間:いっしゅうかん:satu minggu> に <五日:いつか:lima hari> はたらきます。<仕事:しごと:pekerjaan> は <六時:ろくじ:jam enam> に おわります。\n\n<週末:しゅうまつ:akhir pekan> は <映画:えいが:film> を <見ます:みます:menonton>。<一か月:いっかげつ:satu bulan> に <二回:にかい:dua kali> ぐらい <映画館:えいがかん:bioskop> へ いきます。<昨日:きのう:kemarin> は <友達:ともだち:teman> と <映画:えいが:film> を <見ました:みました:menonton (lampau)>。<映画館:えいがかん:bioskop> で ビールを <二杯:にはい:dua cangkir> <飲みました:のみました:minum (lampau)>。そして、ポップコーンを <一つ:ひとつ:satu buah> <買いました:かいました:membeli (lampau)>。<全部:ぜんぶで:semuanya> で <三千円:さんぜんえん:tiga ribu yen> でした。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<私:わたし:saya> は まいあさ <何時:なんじ:jam berapa> に おきますか。",
+        "pilihan_jawaban": ["<五時:ごじ:jam lima>", "<六時:ろくじ:jam enam>", "<七時:しちじ:jam tujuh>", "<九時:くじ:jam sembilan>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "まいあさ <日本語:にほんご:bahasa Jepang> を <何時間:なんじかん:berapa jam> <勉強します:べんきょうします:belajar> か。",
+        "pilihan_jawaban": ["<三十分:さんじゅっぷん:tiga puluh menit>", "<一時間:いちじかん:satu jam>", "<二時間:にじかん:dua jam>", "<三時間:さんじかん:tiga jam>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<家:うち:rumah> から <駅:えき:stasiun> まで どのくらい かかりますか。",
+        "pilihan_jawaban": ["<十分:じゅっぷん:sepuluh menit> ぐらい", "<二十分:にじゅっぷん:dua puluh menit> ぐらい", "<三十分:さんじゅっぷん:tiga puluh menit> ぐらい", "<一時間:いちじかん:satu jam> ぐらい"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<会社:かいしゃ:perusahaan> は <何時:なんじ:jam berapa> に はじまりますか。",
+        "pilihan_jawaban": ["<八時:はちじ:jam delapan>", "<九時:くじ:jam sembilan>", "<十時:じゅうじ:jam sepuluh>", "<六時:ろくじ:jam enam>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<一週間:いっしゅうかん:satu minggu> に <何日:なんにち:berapa hari> はたらきますか。",
+        "pilihan_jawaban": ["<三日:みっか:tiga hari>", "<四日:よっか:empat hari>", "<五日:いつか:lima hari>", "<六日:むいか:enam hari>"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<仕事:しごと:pekerjaan> は <何時:なんじ:jam berapa> に おわりますか。",
+        "pilihan_jawaban": ["<五時:ごじ:jam lima>", "<六時:ろくじ:jam enam>", "<七時:しちじ:jam tujuh>", "<九時:くじ:jam sembilan>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "7",
+        "pertanyaan": "<一か月:いっかげつ:satu bulan> に <何回:なんかい:berapa kali> ぐらい <映画:えいが:film> を <見ます:みます:menonton> か。",
+        "pilihan_jawaban": ["<一回:いっかい:satu kali>", "<二回:にかい:dua kali>", "<三回:さんかい:tiga kali>", "<四回:よんかい:empat kali>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "8",
+        "pertanyaan": "<昨日:きのう:kemarin> だれと <映画:えいが:film> を <見ました:みました:menonton (lampau)> か。",
+        "pilihan_jawaban": ["<家族:かぞく:keluarga>", "<友達:ともだち:teman>", "<先生:せんせい:guru>", "ひとりで"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "9",
+        "pertanyaan": "<映画館:えいがかん:bioskop> で ビールを <何杯:なんばい:berapa cangkir> <飲みました:のみました:minum (lampau)> か。",
+        "pilihan_jawaban": ["<一杯:いっぱい:satu cangkir>", "<二杯:にはい:dua cangkir>", "<三杯:さんばい:tiga cangkir>", "<四杯:よんはい:empat cangkir>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "10",
+        "pertanyaan": "<全部:ぜんぶで:semuanya> で いくらでしたか。",
+        "pilihan_jawaban": ["<千円:せんえん:seribu yen>", "<二千円:にせんえん:dua ribu yen>", "<三千円:さんぜんえん:tiga ribu yen>", "<四千円:よんせんえん:empat ribu yen>"],
+        "jawaban_benar": "c"
+      }
+    ]
+  }
+]

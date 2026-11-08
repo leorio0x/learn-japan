@@ -1,0 +1,86 @@
+[
+  {
+    "lesson": "9",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <音楽:おんがく:musik> ___ <好き:すき:suka> です。",
+    "pilihan_jawaban": ["が", "を", "に", "で"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "9",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka> さん は テニス ___ <上手:じょうず:pandai> です。",
+    "pilihan_jawaban": ["を", "が", "に", "へ"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "9",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <日本語:にほんご:bahasa Jepang> ___ <分かります:わかります:mengerti>。",
+    "pilihan_jawaban": ["を", "に", "が", "で"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "9",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <時間:じかん:waktu> ___ ありません。",
+    "pilihan_jawaban": ["を", "に", "で", "が"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "9",
+    "kategori": "pilihan ganda",
+    "soal": "<弟:おとうと:adik laki-laki> は <野菜:やさい:sayuran> ___ <嫌い:きらい:benci> です。",
+    "pilihan_jawaban": ["が", "を", "に", "で"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "9",
+    "kategori": "pilihan ganda",
+    "soal": "<用事:ようじ:urusan> が あります ___、テレビを <見ません:みません:tidak menonton>。",
+    "pilihan_jawaban": ["が", "から", "そして", "まで"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "9",
+    "kategori": "pilihan ganda",
+    "soal": "___ <日本語:にほんご:bahasa Jepang> を <勉強します:べんきょうします:belajar> か。",
+    "pilihan_jawaban": ["どんな", "どうして", "どの", "どれ"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "9",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <日本語:にほんご:bahasa Jepang> が ___ <分かります:わかります:mengerti>。",
+    "pilihan_jawaban": ["よく", "たくさん", "全然", "少し"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "9",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <お金:おかね:uang> が ___ ありません。",
+    "pilihan_jawaban": ["よく", "たくさん", "だいたい", "全然"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "9",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka> さん は <音楽:おんがく:musik> が ___ <人:ひと:orang> です。",
+    "pilihan_jawaban": ["好き", "好きな", "好きの", "好きに"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "9",
+    "kategori": "pilihan ganda",
+    "soal": "A: いっしょに カラオケに <行きませんか:いきませんか:mau pergi?>。 B: すみません、ちょっと ___。",
+    "pilihan_jawaban": ["用事が 好きです", "用事が あります", "用事が 上手です", "用事が 分かります"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "9",
+    "kategori": "pilihan ganda",
+    "soal": "A: <日本語:にほんご:bahasa Jepang> が <分かります:わかります:mengerti> か。 B: はい、___ <分かります:わかります:mengerti>。",
+    "pilihan_jawaban": ["全然", "あまり", "だいたい", "少しも"],
+    "jawaban_benar": "c"
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "lesson": "1",
+    "kategori": "dokkai",
+    "dokkai": "<私:わたし:saya> は ミラー です。<会社員:かいしゃいん:pegawai perusahaan> です。<IMC::IMC> の <社員:しゃいん:karyawan> です。サントスさん も <IMC::IMC> の <社員:しゃいん:karyawan> です。サントスさん は <ブラジル::Brasil> から <来ました:きました:datang>。<私:わたし:saya> は <アメリカ::Amerika> から <来ました:きました:datang>。<田中:たなか:Tanaka> さん は <学生:がくせい:mahasiswa> じゃありません。<田中:たなか:Tanaka> さん は <大学:だいがく:universitas> の <先生:せんせい:guru> です。<山田:やまだ:Yamada> さん は <銀行員:ぎんこういん:pegawai bank> です。<山田:やまだ:Yamada> さん は <IMC::IMC> の <社員:しゃいん:karyawan> じゃありません。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "ミラーさん は <何:なん:apa> ですか。",
+        "pilihan_jawaban": ["<会社員:かいしゃいん:pegawai perusahaan>", "<学生:がくせい:mahasiswa>", "<先生:せんせい:guru>", "<銀行員:ぎんこういん:pegawai bank>"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "ミラーさん は どこ から <来ました:きました:datang> か。",
+        "pilihan_jawaban": ["<ブラジル::Brasil>", "<アメリカ::Amerika>", "<日本:にほん:Jepang>", "<中国:ちゅうごく:China>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "サントスさん は <何:なん:apa> の <社員:しゃいん:karyawan> ですか。",
+        "pilihan_jawaban": ["<大学:だいがく:universitas>", "<病院:びょういん:rumah sakit>", "<IMC::IMC>", "<銀行:ぎんこう:bank>"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "サントスさん は どこ から <来ました:きました:datang> か。",
+        "pilihan_jawaban": ["<アメリカ::Amerika>", "<ブラジル::Brasil>", "<インド::India>", "<韓国:かんこく:Korea>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<田中:たなか:Tanaka> さん は <学生:がくせい:mahasiswa> ですか。",
+        "pilihan_jawaban": ["はい、<学生:がくせい:mahasiswa> です", "いいえ、<学生:がくせい:mahasiswa> じゃありません", "はい、<先生:せんせい:guru> です", "いいえ、<社員:しゃいん:karyawan> じゃありません"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<田中:たなか:Tanaka> さん は <何:なん:apa> ですか。",
+        "pilihan_jawaban": ["<大学:だいがく:universitas> の <先生:せんせい:guru>", "<IMC::IMC> の <社員:しゃいん:karyawan>", "<銀行員:ぎんこういん:pegawai bank>", "<会社員:かいしゃいん:pegawai perusahaan>"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "7",
+        "pertanyaan": "<山田:やまだ:Yamada> さん は <何:なん:apa> ですか。",
+        "pilihan_jawaban": ["<先生:せんせい:guru>", "<学生:がくせい:mahasiswa>", "<銀行員:ぎんこういん:pegawai bank>", "<社員:しゃいん:karyawan>"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "8",
+        "pertanyaan": "<山田:やまだ:Yamada> さん は <IMC::IMC> の <社員:しゃいん:karyawan> ですか。",
+        "pilihan_jawaban": ["はい、<社員:しゃいん:karyawan> です", "いいえ、<社員:しゃいん:karyawan> じゃありません", "はい、<銀行員:ぎんこういん:pegawai bank> です", "いいえ、<先生:せんせい:guru> じゃありません"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "9",
+        "pertanyaan": "サントスさん は <学生:がくせい:mahasiswa> ですか。",
+        "pilihan_jawaban": ["はい、<学生:がくせい:mahasiswa> です", "いいえ、<学生:がくせい:mahasiswa> じゃありません", "はい、<先生:せんせい:guru> です", "いいえ、<銀行員:ぎんこういん:pegawai bank> です"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "10",
+        "pertanyaan": "ミラーさん と サントスさん は <何:なん:apa> の <社員:しゃいん:karyawan> ですか。",
+        "pilihan_jawaban": ["<大学:だいがく:universitas>", "<銀行:ぎんこう:bank>", "<IMC::IMC>", "<病院:びょういん:rumah sakit>"],
+        "jawaban_benar": "c"
+      }
+    ]
+  }
+]

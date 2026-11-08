@@ -1,0 +1,81 @@
+[
+  {
+    "lesson": "13",
+    "kategori": "dokkai",
+    "dokkai": "<田中:たなか:Tanaka>さんは <先週:せんしゅう:minggu lalu> の <日曜日:にちようび:hari Minggu> に <家族:かぞく:keluarga> と <京都:きょうと:Kyoto> へ <行きました:いきました:pergi (lampau)>。<京都:きょうと:Kyoto> まで <新幹線:しんかんせん:shinkansen> で <行きました:いきました:pergi (lampau)>。<駅:えき:stasiun> から <お寺:おてら:kuil budha> まで <歩いて:あるいて:berjalan kaki> 15<分:ふん:menit> ぐらい かかりました。<お寺:おてら:kuil budha> は <:とても:sangat> <静か:しずか:tenang> で、<古い:ふるい:tua> <建物:たてもの:bangunan> でした。\n\n<午後:ごご:sore hari>、みんなで <レストラン:れすとらん:restoran> へ <行きました:いきました:pergi (lampau)>。<田中:たなか:Tanaka>さんは <天ぷら:てんぷら:tempura> を <食べました:たべました:makan (lampau)>。<奥:おく:istri>さんは <寿司:すし:sushi> を <食べました:たべました:makan (lampau)>。<子供:こども:anak>たちは <カレー:かれー:kari> を <食べました:たべました:makan (lampau)>。<食事:しょくじ:makan> の あとで、<別々:べつべつ:sendiri-sendiri> に <払いました:はらいました:membayar (lampau)>。\n\n<帰り:かえり:pulang> に <雨:あめ:hujan> が <降りました:ふりました:turun (lampau)> から、<田中:たなか:Tanaka>さんは <タクシー:たくしー:taksi> で <家:いえ:rumah> へ <帰りました:かえりました:pulang (lampau)>。<:とても:sangat> <疲れました:つかれました:lelah (lampau)> が、<楽しい:たのしい:menyenangkan> <一日:いちにち:sehari> でした。\n\n<来週:らいしゅう:minggu depan> の <土曜日:どようび:hari Sabtu> に <田中:たなか:Tanaka>さんは <友達:ともだち:teman> と <海:うみ:laut> へ <行きます:いきます:pergi>。<海:うみ:laut> で <泳ぎます:およぎます:berenang>。いっしょに <行きませんか:いきませんか:mau ikut?>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは いつ <京都:きょうと:Kyoto> へ <行きました:いきました:pergi (lampau)> か。",
+        "pilihan_jawaban": ["<先週:せんしゅう:minggu lalu> の <日曜日:にちようび:hari Minggu>", "<今週:こんしゅう:minggu ini> の <土曜日:どようび:hari Sabtu>", "<来週:らいしゅう:minggu depan> の <日曜日:にちようび:hari Minggu>", "<昨日:きのう:kemarin>"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "だれと <京都:きょうと:Kyoto> へ <行きました:いきました:pergi (lampau)> か。",
+        "pilihan_jawaban": ["<友達:ともだち:teman> と", "<家族:かぞく:keluarga> と", "<一人:ひとり:sendiri> で", "<先生:せんせい:guru> と"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "何で <京都:きょうと:Kyoto> へ <行きました:いきました:pergi (lampau)> か。",
+        "pilihan_jawaban": ["<電車:でんしゃ:kereta> で", "<バス:ばす:bus> で", "<新幹線:しんかんせん:shinkansen> で", "<車:くるま:mobil> で"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<駅:えき:stasiun> から <お寺:おてら:kuil budha> まで どうやって <行きました:いきました:pergi (lampau)> か。",
+        "pilihan_jawaban": ["<新幹線:しんかんせん:shinkansen> で", "<タクシー:たくしー:taksi> で", "<歩いて:あるいて:berjalan kaki>", "<バス:ばす:bus> で"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<お寺:おてら:kuil budha> は どうでしたか。",
+        "pilihan_jawaban": ["<静か:しずか:tenang> で、<古い:ふるい:tua> <建物:たてもの:bangunan> でした", "<:にぎやか:ramai> で、<新しい:あたらしい:baru> <建物:たてもの:bangunan> でした", "<静か:しずか:tenang> で、<新しい:あたらしい:baru> <建物:たてもの:bangunan> でした", "<汚い:きたない:kotor> <建物:たてもの:bangunan> でした"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <昼:ひる:siang> ごはんに 何を <食べました:たべました:makan (lampau)> か。",
+        "pilihan_jawaban": ["<寿司:すし:sushi>", "<天ぷら:てんぷら:tempura>", "<カレー:かれー:kari>", "<ラーメン:らーめん:ramen>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "7",
+        "pertanyaan": "<子供:こども:anak>たちは 何を <食べました:たべました:makan (lampau)> か。",
+        "pilihan_jawaban": ["<寿司:すし:sushi>", "<天ぷら:てんぷら:tempura>", "<カレー:かれー:kari>", "<そば:そば:soba>"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "8",
+        "pertanyaan": "<食事:しょくじ:makan> の あとで、<田中:たなか:Tanaka>さんたちは どうしましたか。",
+        "pilihan_jawaban": ["<別々:べつべつ:sendiri-sendiri> に <払いました:はらいました:membayar (lampau)>", "いっしょに <払いました:はらいました:membayar (lampau)>", "何も <払いませんでした:はらいませんでした:tidak membayar>", "<家:いえ:rumah> へ <帰りました:かえりました:pulang (lampau)>"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "9",
+        "pertanyaan": "どうして <タクシー:たくしー:taksi> で <家:いえ:rumah> へ <帰りました:かえりました:pulang (lampau)> か。",
+        "pilihan_jawaban": ["<雨:あめ:hujan> が <降りました:ふりました:turun (lampau)> から", "<疲れました:つかれました:lelah (lampau)> から", "<お寺:おてら:kuil budha> が <遠い:とおい:jauh> から", "<新幹線:しんかんせん:shinkansen> が <:ない:tidak ada> から"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "10",
+        "pertanyaan": "<来週:らいしゅう:minggu depan> の <土曜日:どようび:hari Sabtu> に <田中:たなか:Tanaka>さんは どこへ <行きます:いきます:pergi> か。",
+        "pilihan_jawaban": ["<京都:きょうと:Kyoto>", "<お寺:おてら:kuil budha>", "<海:うみ:laut>", "<会社:かいしゃ:perusahaan>"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "11",
+        "pertanyaan": "<来週:らいしゅう:minggu depan> <田中:たなか:Tanaka>さんは だれと <海:うみ:laut> へ <行きます:いきます:pergi> か。",
+        "pilihan_jawaban": ["<家族:かぞく:keluarga> と", "<友達:ともだち:teman> と", "<一人:ひとり:sendiri> で", "<先生:せんせい:guru> と"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "12",
+        "pertanyaan": "<田中:たなか:Tanaka>さんは <海:うみ:laut> で 何を しますか。",
+        "pilihan_jawaban": ["<泳ぎます:およぎます:berenang>", "<釣り:つり:memancing> を します", "<散歩:さんぽ:jalan-jalan> を します", "<写真:しゃしん:foto> を とります"],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

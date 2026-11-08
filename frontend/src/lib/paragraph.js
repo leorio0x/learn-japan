@@ -2,7 +2,8 @@ export function stripJapaneseSpaces(value) {
   return String(value ?? '').replace(/[^\S\r\n]+/g, '')
 }
 
-export function parseParagraph(text) {
+export function parseParagraph(text, options = {}) {
+  const { preserveSpaces = false } = options
   const source = String(text ?? '')
   const re = /<([^<>]+)>/g
   const parts = []
@@ -11,7 +12,8 @@ export function parseParagraph(text) {
 
   while ((match = re.exec(source))) {
     if (match.index > last) {
-      const value = stripJapaneseSpaces(source.slice(last, match.index))
+      const raw = source.slice(last, match.index)
+      const value = preserveSpaces ? raw : stripJapaneseSpaces(raw)
       if (value) parts.push({ type: 'text', value })
     }
 
@@ -35,7 +37,8 @@ export function parseParagraph(text) {
   }
 
   if (last < source.length) {
-    const value = stripJapaneseSpaces(source.slice(last))
+    const raw = source.slice(last)
+    const value = preserveSpaces ? raw : stripJapaneseSpaces(raw)
     if (value) parts.push({ type: 'text', value })
   }
 

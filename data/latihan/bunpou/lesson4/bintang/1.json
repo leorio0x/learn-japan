@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "4",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["起きます", "6時", "わたし", "は", "に"],
+    "jawaban_benar": "e"
+  },
+  {
+    "lesson": "4",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["働きます", "9時", "田中さん", "から", "は"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "4",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["まで", "わたし", "勉強します", "は", "5時"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "4",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___。",
+    "pilihan_jawaban": ["寝ます", "毎晩", "に", "11時"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "4",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["田中さん", "は", "わたし", "と", "勉強します"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "4",
+    "kategori": "bintang",
+    "soal": "___ ★ ___ ___。",
+    "pilihan_jawaban": ["あした", "は", "休みます", "わたし"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "4",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["3時", "終わります", "会議", "に", "は"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "4",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ___ ★。",
+    "pilihan_jawaban": ["日本語", "を", "わたし", "は", "勉強します"],
+    "jawaban_benar": "e"
+  },
+  {
+    "lesson": "4",
+    "kategori": "bintang",
+    "soal": "___ ★ ___ ___。",
+    "pilihan_jawaban": ["勉強", "きのう", "しませんでした", "は"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "4",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["月曜日", "から", "働きます", "わたし", "は"],
+    "jawaban_benar": "b"
+  }
+]

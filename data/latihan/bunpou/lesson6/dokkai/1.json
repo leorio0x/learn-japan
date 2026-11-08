@@ -1,0 +1,57 @@
+[
+  {
+    "lesson": "6",
+    "kategori": "dokkai",
+    "dokkai": "<私:わたし:saya> は <田中:たなか:Tanaka> です。<毎朝:まいあさ:setiap pagi>、<朝ご飯:あさごはん:sarapan> に パン と <卵:たまご:telur> を <食べます:たべます:makan>。それから、<牛乳:ぎゅうにゅう:susu> を <飲みます:のみます:minum>。<毎晩:まいばん:setiap malam>、<音楽:おんがく:musik> を <聞きます:ききます:mendengar>。<時々:ときどき:kadang-kadang>、テレビ を <見ます:みます:menonton>。<昨日:きのう:kemarin> は <友達:ともだち:teman> と <図書館:としょかん:perpustakaan> で <本:ほん:buku> を <読みました:よみました:membaca>。それから、<駅:えき:stasiun> で <友達:ともだち:teman> に <会いました:あいました:bertemu>。いっしょに <昼ご飯:ひるごはん:makan siang> を <食べました:たべました:makan>。<日曜日:にちようび:hari Minggu> に、いっしょに <花見:はなみ:hanami> を しませんか。ええ、いいですね。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka> さん は <毎朝:まいあさ:setiap pagi> <何:なに:apa> を <食べます:たべます:makan> か。",
+        "pilihan_jawaban": ["パン と <卵:たまご:telur>", "<魚:さかな:ikan> と <肉:にく:daging>", "パン と <牛乳:ぎゅうにゅう:susu>", "<卵:たまご:telur> と <野菜:やさい:sayur>"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<毎朝:まいあさ:setiap pagi> <何:なに:apa> を <飲みます:のみます:minum> か。",
+        "pilihan_jawaban": ["<お茶:おちゃ:teh>", "<牛乳:ぎゅうにゅう:susu>", "ジュース", "<水:みず:air>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<毎晩:まいばん:setiap malam> <何:なに:apa> を しますか。",
+        "pilihan_jawaban": ["<音楽:おんがく:musik> を <聞きます:ききます:mendengar>", "テレビ を <見ます:みます:menonton>", "<本:ほん:buku> を <読みます:よみます:membaca>", "<写真:しゃしん:foto> を <撮ります:とります:memotret>"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<時々:ときどき:kadang-kadang> <何:なに:apa> を しますか。",
+        "pilihan_jawaban": ["<音楽:おんがく:musik> を <聞きます:ききます:mendengar>", "テレビ を <見ます:みます:menonton>", "<手紙:てがみ:surat> を <書きます:かきます:menulis>", "テニス を します"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<昨日:きのう:kemarin> <友達:ともだち:teman> と どこ で <本:ほん:buku> を <読みました:よみました:membaca> か。",
+        "pilihan_jawaban": ["<学校:がっこう:sekolah>", "<駅:えき:stasiun>", "<図書館:としょかん:perpustakaan>", "<庭:にわ:halaman>"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<昨日:きのう:kemarin> だれ に <会いました:あいました:bertemu> か。",
+        "pilihan_jawaban": ["<先生:せんせい:guru>", "<友達:ともだち:teman>", "<家族:かぞく:keluarga>", "<彼女:かのじょ:dia perempuan>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "7",
+        "pertanyaan": "<日曜日:にちようび:hari Minggu> に いっしょに <何:なに:apa> を しませんか。",
+        "pilihan_jawaban": ["<花見:はなみ:hanami>", "テニス", "サッカー", "<買い物:かいもの:belanja>"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "8",
+        "pertanyaan": "テレビ を いつ <見ます:みます:menonton> か。",
+        "pilihan_jawaban": ["<毎朝:まいあさ:setiap pagi>", "<毎晩:まいばん:setiap malam>", "<時々:ときどき:kadang-kadang>", "いつも"],
+        "jawaban_benar": "c"
+      }
+    ]
+  }
+]

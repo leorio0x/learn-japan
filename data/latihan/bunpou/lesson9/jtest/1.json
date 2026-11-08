@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "9",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <私：わたし：saya> 2. おんがく 3. すき ]です",
+    "jawaban": "わたしはおんがくがすき"
+  },
+  {
+    "lesson": "9",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <田中：たなか：tanaka> 2. テニス 3. じょうず ]です",
+    "jawaban": "たなかさんはテニスがじょうず"
+  },
+  {
+    "lesson": "9",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. にほんご 2. よく 3. わかります]",
+    "jawaban": "にほんごがよくわかります"
+  },
+  {
+    "lesson": "9",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. おかね 2. ぜんぜん 3. ありません]",
+    "jawaban": "おかねがぜんぜんありません"
+  },
+  {
+    "lesson": "9",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. ようじ 2. あります 3. いきません ]",
+    "jawaban": "ようじがありますからいきません"
+  },
+  {
+    "lesson": "9",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. わたし 2. やさい 3. きらい ]です",
+    "jawaban": "わたしはやさいがきらい"
+  },
+  {
+    "lesson": "9",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. たなかさん 2. おんがく 3. すき 4. ひと ]です",
+    "jawaban": "たなかさんはおんがくがすきなひと"
+  },
+  {
+    "lesson": "9",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "あねは [1. うた 2. とても 3. へた ]です",
+    "jawaban": "うたがとてもへた"
+  },
+  {
+    "lesson": "9",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. カラオケ 2. あまり 3. すき ]じゃありません",
+    "jawaban": "カラオケがあまりすき"
+  },
+  {
+    "lesson": "9",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "わたしは [1. かんじ 2. すこし 3. わかります]",
+    "jawaban": "かんじがすこしわかります"
+  }
+]

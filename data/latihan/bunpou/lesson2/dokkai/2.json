@@ -1,0 +1,69 @@
+[
+  {
+    "lesson": "2",
+    "kategori": "dokkai",
+    "dokkai": "<私:わたし:saya> は <田中:たなか:Tanaka> です。これ は <私:わたし:saya> の <本:ほん:buku> です。<日本語:にほんご:bahasa Jepang> の <本:ほん:buku> です。それ は <辞書:じしょ:kamus> じゃありません。<雑誌:ざっし:majalah> です。あれ は <ミラー::Miller> さん の <車:くるま:mobil> です。この <傘:かさ:payung> は <私:わたし:saya> の です。その <鞄:かばん:tas> は <ミラー::Miller> さん の です。この カメラ は <私:わたし:saya> の じゃありません。サントスさん の です。あの <時計:とけい:jam> は だれ の ですか。あの <時計:とけい:jam> は <田中:たなか:Tanaka> さん の です。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "これ は <何:なん:apa> の <本:ほん:buku> ですか。",
+        "pilihan_jawaban": ["<日本語:にほんご:bahasa Jepang> の <本:ほん:buku>", "<英語:えいご:bahasa Inggris> の <本:ほん:buku>", "<辞書:じしょ:kamus>", "<雑誌:ざっし:majalah>"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "これ は だれ の <本:ほん:buku> ですか。",
+        "pilihan_jawaban": ["<田中:たなか:Tanaka> さん の <本:ほん:buku>", "<ミラー::Miller> さん の <本:ほん:buku>", "サントスさん の <本:ほん:buku>", "<先生:せんせい:guru> の <本:ほん:buku>"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "それ は <辞書:じしょ:kamus> ですか。",
+        "pilihan_jawaban": ["はい、<辞書:じしょ:kamus> です", "いいえ、<辞書:じしょ:kamus> じゃありません", "はい、<本:ほん:buku> です", "いいえ、<傘:かさ:payung> じゃありません"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "あれ は だれ の <車:くるま:mobil> ですか。",
+        "pilihan_jawaban": ["<私:わたし:saya> の <車:くるま:mobil>", "サントスさん の <車:くるま:mobil>", "<田中:たなか:Tanaka> さん の <車:くるま:mobil>", "<ミラー::Miller> さん の <車:くるま:mobil>"],
+        "jawaban_benar": "d"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "この <傘:かさ:payung> は だれ の ですか。",
+        "pilihan_jawaban": ["<田中:たなか:Tanaka> さん の", "<ミラー::Miller> さん の", "<私:わたし:saya> の", "サントスさん の"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "その <鞄:かばん:tas> は だれ の ですか。",
+        "pilihan_jawaban": ["<田中:たなか:Tanaka> さん の", "サントスさん の", "<私:わたし:saya> の", "<ミラー::Miller> さん の"],
+        "jawaban_benar": "d"
+      },
+      {
+        "no": "7",
+        "pertanyaan": "この カメラ は <田中:たなか:Tanaka> さん の ですか。",
+        "pilihan_jawaban": ["はい、<私:わたし:saya> の です", "いいえ、サントスさん の です", "はい、<田中:たなか:Tanaka> さん の です", "いいえ、<ミラー::Miller> さん の です"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "8",
+        "pertanyaan": "あの <時計:とけい:jam> は だれ の ですか。",
+        "pilihan_jawaban": ["<田中:たなか:Tanaka> さん の", "<ミラー::Miller> さん の", "サントスさん の", "<私:わたし:saya> の"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "9",
+        "pertanyaan": "その <鞄:かばん:tas> は <田中:たなか:Tanaka> さん の ですか。",
+        "pilihan_jawaban": ["はい、<田中:たなか:Tanaka> さん の です", "いいえ、<ミラー::Miller> さん の です", "はい、<ミラー::Miller> さん の です", "いいえ、サントスさん の です"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "10",
+        "pertanyaan": "この <本:ほん:buku> は <日本語:にほんご:bahasa Jepang> の <本:ほん:buku> ですか。",
+        "pilihan_jawaban": ["はい、<日本語:にほんご:bahasa Jepang> の <本:ほん:buku> です", "いいえ、<日本語:にほんご:bahasa Jepang> の <本:ほん:buku> じゃありません", "はい、<辞書:じしょ:kamus> です", "いいえ、<雑誌:ざっし:majalah> です"],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

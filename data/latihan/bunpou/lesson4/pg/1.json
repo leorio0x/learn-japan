@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "4",
+    "kategori": "pilihan ganda",
+    "soal": "<毎朝:まいあさ:setiap pagi> 6時 ___ <起きます:おきます:bangun tidur>",
+    "pilihan_jawaban": ["で", "に", "を", "へ"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "4",
+    "kategori": "pilihan ganda",
+    "soal": "9時 ___ 5時まで <働きます:はたらきます:bekerja>",
+    "pilihan_jawaban": ["まで", "から", "に", "も"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "4",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka> さん ___ <銀行員:ぎんこういん:pegawai bank> です",
+    "pilihan_jawaban": ["は", "も", "の", "が"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "4",
+    "kategori": "pilihan ganda",
+    "soal": "<昨日:きのう:kemarin> は <勉強:べんきょう:belajar> ___",
+    "pilihan_jawaban": ["します", "しました", "しませんでした", "しましょう"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "4",
+    "kategori": "pilihan ganda",
+    "soal": "<毎晩:まいばん:setiap malam> 11時 ___ <寝ます:ねます:tidur>",
+    "pilihan_jawaban": ["に", "を", "へ", "と"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "4",
+    "kategori": "pilihan ganda",
+    "soal": "<今日:きょう:hari ini> は <勉強:べんきょう:belajar> しますか。「いいえ、___。」",
+    "pilihan_jawaban": ["します", "しません", "しました", "しませんでした"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "4",
+    "kategori": "pilihan ganda",
+    "soal": "<日曜日:にちようび:Hari Minggu> ___ <休みます:やすみます:libur>",
+    "pilihan_jawaban": ["を", "に", "へ", "と"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "4",
+    "kategori": "pilihan ganda",
+    "soal": "<月曜日:げつようび:Hari Senin> ___ <金曜日:きんようび:Hari Jumat> まで <働きます:はたらきます:bekerja>",
+    "pilihan_jawaban": ["から", "まで", "に", "も"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "4",
+    "kategori": "pilihan ganda",
+    "soal": "<会議:かいぎ:rapat> は 3時 ___ <終わります:おわります:selesai>",
+    "pilihan_jawaban": ["で", "を", "に", "へ"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "4",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <田中:たなか:Tanaka> さん ___ <勉強:べんきょう:belajar> します",
+    "pilihan_jawaban": ["に", "と", "を", "へ"],
+    "jawaban_benar": "b"
+  }
+]

@@ -16,6 +16,9 @@ data soal latihan bunpou berada di ./latihan/bunpou/lesson[N]/*.json
 format untuk dokkai.json :
 ./format/dokkai.json
 
+format untuk latihan_soal:
+./format/latihan_soal/*
+
 # Format Header
 
 format header dari input bulk excel dan csv kotoba :

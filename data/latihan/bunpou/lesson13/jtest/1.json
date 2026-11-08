@@ -1,0 +1,86 @@
+[
+  {
+    "lesson": "13",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<私:わたし:saya> は [1. <家族:かぞく:keluarga>と 2. <京都:きょうと:Kyoto>へ 3. <行きます:いきます:pergi> ]",
+    "jawaban": "かぞくときょうとへいきます"
+  },
+  {
+    "lesson": "13",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<私:わたし:saya> は [1. <電車:でんしゃ:kereta>で 2. <会社:かいしゃ:perusahaan>へ 3. <行きます:いきます:pergi> ]",
+    "jawaban": "でんしゃでかいしゃへいきます"
+  },
+  {
+    "lesson": "13",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<毎朝:まいあさ:setiap pagi> [1. 8<時:じ:jam>に 2. <学校:がっこう:sekolah>へ 3. <行きます:いきます:pergi> ]",
+    "jawaban": "8じにがっこうへいきます"
+  },
+  {
+    "lesson": "13",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "あした [1. いっしょに 2. <映画:えいが:film>を 3. <見ません:みません:tidak menonton>か ]",
+    "jawaban": "いっしょにえいがをみませんか"
+  },
+  {
+    "lesson": "13",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <駅:えき:stasiun>で 2. <昼:ひる:siang>ごはんを 3. <食べましょう:たべましょう:mari makan> ]",
+    "jawaban": "えきでひるごはんをたべましょう"
+  },
+  {
+    "lesson": "13",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<昨日:きのう:kemarin> は [1. <私:わたし:saya>は 2. どこへも 3. <行きません:いきません:tidak pergi>でした ]",
+    "jawaban": "わたしはどこへもいきませんでした"
+  },
+  {
+    "lesson": "13",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<今朝:けさ:pagi ini> [1. <私:わたし:saya>は 2. 何も 3. <食べません:たべません:tidak makan>でした ]",
+    "jawaban": "わたしはなにもたべませんでした"
+  },
+  {
+    "lesson": "13",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<私:わたし:saya> は [1. <毎日:まいにち:setiap hari> 2. <歩いて:あるいて:berjalan kaki> 3. <学校:がっこう:sekolah>へ ]<行きます:いきます:pergi>",
+    "jawaban": "まいにちあるいてがっこうへ"
+  },
+  {
+    "lesson": "13",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <夏休み:なつやすみ:libur musim panas>に 2. だれと 3. <海:うみ:laut>へ ]<行きました:いきました:pergi (lampau)>か",
+    "jawaban": "なつやすみにだれとうみへ"
+  },
+  {
+    "lesson": "13",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <東京:とうきょう:Tokyo>へ 2. 何で 3. <行きました:いきました:pergi (lampau)> ]か",
+    "jawaban": "とうきょうへなんでいきました"
+  },
+  {
+    "lesson": "13",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<今年:ことし:tahun ini> の <夏:なつ:musim panas> [1. <私:わたし:saya>は 2. <家族:かぞく:keluarga>と 3. どこかへ ]<行きました:いきました:pergi (lampau)>",
+    "jawaban": "わたしはかぞくとどこかへ"
+  },
+  {
+    "lesson": "13",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<誕生日:たんじょうび:ulang tahun> に [1. <友達:ともだち:teman>と 2. <レストラン:れすとらん:restoran>で 3. <食事:しょくじ:makan>を ]<します:します:melakukan>",
+    "jawaban": "ともだちとれすとらんでしょくじを"
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "lesson": "10",
+    "kategori": "dokkai",
+    "dokkai": "<私:わたし:saya> の <家:うち:rumah> は <駅:えき:stasiun> の <近く:ちかく:dekat> に あります。<家:うち:rumah> の <前:まえ:depan> に <小さい:ちいさい:kecil> な <公園:こうえん:taman> が あります。<公園:こうえん:taman> に <木:き:pohon> や <花:はな:bunga> などが あります。<公園:こうえん:taman> に <犬:いぬ:anjing> と <猫:ねこ:kucing> も います。<私:わたし:saya> の <部屋:へや:kamar> は <二階:にかい:lantai dua> に あります。<部屋:へや:kamar> の <中:なか:dalam> に <机:つくえ:meja> と ベッドが あります。<机:つくえ:meja> の <上:うえ:atas> に <本:ほん:buku> や <辞書:じしょ:kamus> などが あります。<机:つくえ:meja> の <隣:となり:samping> に <椅子:いす:kursi> が あります。<冷蔵庫:れいぞうこ:kulkas> は <台所:だいどころ:dapur> に あります。<冷蔵庫:れいぞうこ:kulkas> の <中:なか:dalam> に <飲み物:のみもの:minuman> が あります。<私:わたし:saya> の <家:うち:rumah> は とても <静か:しずか:sunyi> です。そして、とても <便利:べんり:praktis> です。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<私:わたし:saya> の <家:うち:rumah> は どこに ありますか。",
+        "pilihan_jawaban": ["<駅:えき:stasiun> の <近く:ちかく:dekat>", "<公園:こうえん:taman> の <中:なか:dalam>", "<学校:がっこう:sekolah> の <前:まえ:depan>", "<台所:だいどころ:dapur> の <隣:となり:samping>"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<家:うち:rumah> の <前:まえ:depan> に <何:なに:apa> が ありますか。",
+        "pilihan_jawaban": ["<冷蔵庫:れいぞうこ:kulkas>", "<公園:こうえん:taman>", "<学校:がっこう:sekolah>", "<店:みせ:toko>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<公園:こうえん:taman> に <何:なに:apa> が ありますか。",
+        "pilihan_jawaban": ["<本:ほん:buku> や <辞書:じしょ:kamus> など", "<木:き:pohon> や <花:はな:bunga> など", "<飲み物:のみもの:minuman>", "<机:つくえ:meja> と ベッド"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<公園:こうえん:taman> に <何:なに:apa> が いますか。",
+        "pilihan_jawaban": ["<男:おとこ:laki-laki> の <人:ひと:orang>", "<子供:こども:anak>", "<犬:いぬ:anjing> と <猫:ねこ:kucing>", "<先生:せんせい:guru>"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<私:わたし:saya> の <部屋:へや:kamar> は どこに ありますか。",
+        "pilihan_jawaban": ["<一階:いっかい:lantai satu>", "<台所:だいどころ:dapur> の <隣:となり:samping>", "<二階:にかい:lantai dua>", "<駅:えき:stasiun> の <前:まえ:depan>"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<机:つくえ:meja> の <上:うえ:atas> に <何:なに:apa> が ありますか。",
+        "pilihan_jawaban": ["<飲み物:のみもの:minuman>", "<椅子:いす:kursi>", "ベッド", "<本:ほん:buku> や <辞書:じしょ:kamus> など"],
+        "jawaban_benar": "d"
+      },
+      {
+        "no": "7",
+        "pertanyaan": "<椅子:いす:kursi> は どこに ありますか。",
+        "pilihan_jawaban": ["<机:つくえ:meja> の <隣:となり:samping>", "<机:つくえ:meja> の <上:うえ:atas>", "<机:つくえ:meja> の <中:なか:dalam>", "ベッド の <上:うえ:atas>"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "8",
+        "pertanyaan": "<冷蔵庫:れいぞうこ:kulkas> は どこに ありますか。",
+        "pilihan_jawaban": ["<部屋:へや:kamar>", "<台所:だいどころ:dapur>", "<公園:こうえん:taman>", "<玄関:げんかん:pintu masuk>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "9",
+        "pertanyaan": "<冷蔵庫:れいぞうこ:kulkas> の <中:なか:dalam> に <何:なに:apa> が ありますか。",
+        "pilihan_jawaban": ["<食べ物:たべもの:makanan>", "<本:ほん:buku>", "<飲み物:のみもの:minuman>", "<花:はな:bunga>"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "10",
+        "pertanyaan": "<私:わたし:saya> の <家:うち:rumah> は どうですか。",
+        "pilihan_jawaban": ["にぎやかです。そして、<便利:べんり:praktis> です", "<静か:しずか:tenang>です。そして、<便利:べんり:praktis> です", "<静か:しずか:tenang>ですが、<不便:ふべん:tidak praktis> です", "<大きい:おおきい:besar> です"],
+        "jawaban_benar": "b"
+      }
+    ]
+  }
+]

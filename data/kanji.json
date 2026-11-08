@@ -8570,5 +8570,394 @@
     ],
     "buku": "basic kanji",
     "lesson": "15"
+  },
+  {
+    "id": "knj-417",
+    "kanji": "元気",
+    "furigana": "げんき",
+    "terjemahan": [
+      "Sehat",
+      "Bersemangat"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c田中:たなか\u003eさん、\u003c元気:げんき\u003eですか。",
+        "arti_pertanyaan": "Tanaka, apakah kamu sehat?",
+        "jawaban": "はい、\u003c元気:げんき\u003eです。ありがとうございます。",
+        "arti_jawaban": "Ya, saya sehat. Terima kasih."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-418",
+    "kanji": "気持ち",
+    "furigana": "きもち",
+    "terjemahan": [
+      "Perasaan (Fisik/Mental)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "どうしましたか。\u003c気持:きも\u003eちが\u003c悪:わる\u003eいですか。",
+        "arti_pertanyaan": "Ada apa? Apakah perasaanmu tidak enak?",
+        "jawaban": "はい、ちょっと\u003c気持:きも\u003eちが\u003c悪:わる\u003eいです。",
+        "arti_jawaban": "Ya, perasaan saya sedikit tidak enak."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-419",
+    "kanji": "気分",
+    "furigana": "きぶん",
+    "terjemahan": [
+      "Suasana hati",
+      "Mood"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c今日:きょう\u003eは\u003c気分:きぶん\u003eがいいですか。",
+        "arti_pertanyaan": "Apakah suasana hatimu baik hari ini?",
+        "jawaban": "はい、\u003c今日:きょう\u003eは\u003c気分:きぶん\u003eがとてもいいです。",
+        "arti_jawaban": "Ya, hari ini suasana hati saya sangat baik."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-420",
+    "kanji": "天気",
+    "furigana": "てんき",
+    "terjemahan": [
+      "Cuaca"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c今日:きょう\u003eの\u003c天気:てんき\u003eはどうですか。",
+        "arti_pertanyaan": "Bagaimana cuaca hari ini?",
+        "jawaban": "\u003c今日:きょう\u003eはいい\u003c天気:てんき\u003eですね。",
+        "arti_jawaban": "Hari ini cuacanya bagus ya."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-421",
+    "kanji": "病気",
+    "furigana": "びょうき",
+    "terjemahan": [
+      "Sakit",
+      "Penyakit"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c山田:やまだ\u003eさんは\u003c今日:きょう\u003e、\u003c会社:かいしゃ\u003eに\u003c来:き\u003eませんね。",
+        "arti_pertanyaan": "Yamada tidak datang ke kantor hari ini ya.",
+        "jawaban": "ええ、\u003c病気:びょうき\u003eで\u003c休:やす\u003eんでいます。",
+        "arti_jawaban": "Iya, dia beristirahat karena sakit."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-422",
+    "kanji": "有ります",
+    "furigana": "あります",
+    "terjemahan": [
+      "Ada",
+      "Memiliki (untuk benda mati)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c近:ちか\u003eくに\u003c銀行:ぎんこう\u003eが\u003c有:あ\u003eりますか。",
+        "arti_pertanyaan": "Apakah ada bank di dekat sini?",
+        "jawaban": "はい、\u003c駅:えき\u003eの\u003c前:まえ\u003eに\u003c有:あ\u003eります。",
+        "arti_jawaban": "Ya, ada di depan stasiun."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-423",
+    "kanji": "有名",
+    "furigana": "ゆうめい",
+    "terjemahan": [
+      "Terkenal"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c店:みせ\u003eは\u003c有名:ゆうめい\u003eですか。",
+        "arti_pertanyaan": "Apakah toko ini terkenal?",
+        "jawaban": "はい、とても\u003c有名:ゆうめい\u003eな\u003c店:みせ\u003eです。",
+        "arti_jawaban": "Ya, ini toko yang sangat terkenal."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-424",
+    "kanji": "名前",
+    "furigana": "なまえ",
+    "terjemahan": [
+      "Nama"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "あなたの\u003c名前:なまえ\u003eは\u003c何:なん\u003eですか。",
+        "arti_pertanyaan": "Siapa namamu?",
+        "jawaban": "\u003c私:わたし\u003eの\u003c名前:なまえ\u003eはアニーです。",
+        "arti_jawaban": "Nama saya Annie."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-425",
+    "kanji": "父親",
+    "furigana": "ちちおや",
+    "terjemahan": [
+      "Ayah"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c父親:ちちおや\u003eは\u003c何:なん\u003eの\u003c仕事:しごと\u003eをしていますか。",
+        "arti_pertanyaan": "Ayahmu bekerja sebagai apa?",
+        "jawaban": "\u003c父親:ちちおや\u003eは\u003c銀行員:ぎんこういん\u003eです。",
+        "arti_jawaban": "Ayah saya pegawai bank."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-426",
+    "kanji": "親",
+    "furigana": "おや",
+    "terjemahan": [
+      "Orang tua"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c親:おや\u003eと\u003c一緒:いっしょ\u003eに\u003c住:す\u003eんでいますか。",
+        "arti_pertanyaan": "Apakah kamu tinggal bersama orang tua?",
+        "jawaban": "はい、\u003c親:おや\u003eと\u003c一緒:いっしょ\u003eに\u003c住:す\u003eんでいます。",
+        "arti_jawaban": "Ya, saya tinggal bersama orang tua."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-427",
+    "kanji": "切ります",
+    "furigana": "きります",
+    "terjemahan": [
+      "Memotong"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c紙:かみ\u003eを\u003c切:き\u003eりますか。",
+        "arti_pertanyaan": "Apakah kamu akan memotong kertas ini?",
+        "jawaban": "はい、はさみで\u003c切:き\u003eります。",
+        "arti_jawaban": "Ya, saya memotongnya dengan gunting."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-428",
+    "kanji": "切符",
+    "furigana": "きっぷ",
+    "terjemahan": [
+      "Tiket (kereta/bus)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c駅:えき\u003eで\u003c切符:きっぷ\u003eを\u003c買:か\u003eいましたか。",
+        "arti_pertanyaan": "Apakah kamu sudah membeli tiket di stasiun?",
+        "jawaban": "はい、\u003c切符:きっぷ\u003eを\u003c二枚:にまい\u003e\u003c買:か\u003eいました。",
+        "arti_jawaban": "Ya, saya membeli dua tiket."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-429",
+    "kanji": "切手",
+    "furigana": "きって",
+    "terjemahan": [
+      "Perangko"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c切手:きって\u003eはどこで\u003c買:か\u003eいますか。",
+        "arti_pertanyaan": "Di mana saya bisa membeli perangko?",
+        "jawaban": "\u003c郵便局:ゆうびんきょく\u003eで\u003c買:か\u003eいます。",
+        "arti_jawaban": "Beli di kantor pos."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-430",
+    "kanji": "大切",
+    "furigana": "たいせつ",
+    "terjemahan": [
+      "Penting",
+      "Berharga"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c家族:かぞく\u003eは\u003c大切:たいせつ\u003eですか。",
+        "arti_pertanyaan": "Apakah keluarga itu penting?",
+        "jawaban": "はい、\u003c家族:かぞく\u003eはとても\u003c大切:たいせつ\u003eです。",
+        "arti_jawaban": "Ya, keluarga sangat penting."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-431",
+    "kanji": "便利",
+    "furigana": "べんり",
+    "terjemahan": [
+      "Praktis",
+      "Nyaman",
+      "Memudahkan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c辞書:じしょ\u003eは\u003c便利:べんり\u003eですか。",
+        "arti_pertanyaan": "Apakah kamus ini praktis?",
+        "jawaban": "はい、とても\u003c便利:べんり\u003eです。",
+        "arti_jawaban": "Ya, sangat praktis."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-432",
+    "kanji": "利用します",
+    "furigana": "りようします",
+    "terjemahan": [
+      "Menggunakan",
+      "Memanfaatkan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c図書館:としょかん\u003eを\u003c利用:りよう\u003eしますか。",
+        "arti_pertanyaan": "Apakah kamu menggunakan perpustakaan?",
+        "jawaban": "はい、よく\u003c図書館:としょかん\u003eを\u003c利用:りよう\u003eします。",
+        "arti_jawaban": "Ya, saya sering menggunakan perpustakaan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-433",
+    "kanji": "不便",
+    "furigana": "ふべん",
+    "terjemahan": [
+      "Tidak praktis",
+      "Menyusahkan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c町:まち\u003eは\u003c不便:ふべん\u003eですか。",
+        "arti_pertanyaan": "Apakah kota ini tidak praktis?",
+        "jawaban": "いいえ、あまり\u003c不便:ふべん\u003eじゃありません。",
+        "arti_jawaban": "Tidak, tidak terlalu menyusahkan."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-434",
+    "kanji": "若い",
+    "furigana": "わかい",
+    "terjemahan": [
+      "Muda"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "あの\u003c人:ひと\u003eは\u003c若:わか\u003eいですか。",
+        "arti_pertanyaan": "Apakah orang itu muda?",
+        "jawaban": "はい、とても\u003c若:わか\u003eいです。",
+        "arti_jawaban": "Ya, dia sangat muda."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-435",
+    "kanji": "若者",
+    "furigana": "わかもの",
+    "terjemahan": [
+      "Pemuda",
+      "Orang muda"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c公園:こうえん\u003eに\u003c若者:わかもの\u003eが\u003c多:おお\u003eいですね。",
+        "arti_pertanyaan": "Di taman banyak orang muda ya.",
+        "jawaban": "ええ、\u003c若者:わかもの\u003eがよく\u003c来:き\u003eます。",
+        "arti_jawaban": "Iya, orang muda sering datang."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-436",
+    "kanji": "早い",
+    "furigana": "はやい",
+    "terjemahan": [
+      "Cepat",
+      "Awal (berhubungan dengan waktu)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c毎朝:まいあさ\u003e\u003c早:はや\u003eいですね。",
+        "arti_pertanyaan": "Setiap pagi kamu bangun awal ya.",
+        "jawaban": "はい、\u003c朝:あさ\u003eは\u003c早:はや\u003eく\u003c起:お\u003eきます。",
+        "arti_jawaban": "Ya, saya bangun pagi-pagi."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
+  },
+  {
+    "id": "knj-437",
+    "kanji": "忙しい",
+    "furigana": "いそがしい",
+    "terjemahan": [
+      "Sibuk"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c毎日:まいにち\u003e\u003c忙:いそが\u003eしいですか。",
+        "arti_pertanyaan": "Apakah kamu sibuk setiap hari?",
+        "jawaban": "はい、\u003c仕事:しごと\u003eがとても\u003c忙:いそが\u003eしいです。",
+        "arti_jawaban": "Ya, pekerjaan saya sangat sibuk."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "16"
   }
 ]

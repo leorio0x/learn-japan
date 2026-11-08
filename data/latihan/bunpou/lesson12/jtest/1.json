@@ -1,0 +1,86 @@
+[
+  {
+    "lesson": "12",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<私:わたし:saya> は [1. コーヒーより 2. <紅茶:こうちゃ:teh>のほうが 3. <好き:すき:suka> ]です",
+    "jawaban": "コーヒーよりこうちゃのほうがすき"
+  },
+  {
+    "lesson": "12",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<日本:にほん:Jepang> で [1. いちばん 2. <高い:たかい:tinggi> 3. <山:やま:gunung> ]<富士山:ふじさん:Gunung Fuji> です",
+    "jawaban": "いちばんたかいやまは"
+  },
+  {
+    "lesson": "12",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<昨日:きのう:kemarin> は [1. <今日:きょう:hari ini> 2. ほど 3. <暑く:あつく:panas> ]なかったです",
+    "jawaban": "きょうほどあつく"
+  },
+  {
+    "lesson": "12",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<一年:いちねん:satu tahun> で [1. いちばん 2. <暑い:あつい:panas> 3. <季節:きせつ:musim> ]<夏:なつ:musim panas> です",
+    "jawaban": "いちばんあついきせつは"
+  },
+  {
+    "lesson": "12",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<春:はる:musim semi> と <秋:あき:musim gugur> と [1. どちら 2. <好き:すき:suka> 3. ですか ]",
+    "jawaban": "どちらがすきですか"
+  },
+  {
+    "lesson": "12",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "この <部屋:へや:kamar> は [1. あの 2. <部屋:へや:kamar>より 3. <広い:ひろい:luas> ]です",
+    "jawaban": "あのへやよりひろい"
+  },
+  {
+    "lesson": "12",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<香港:ホンコン:Hongkong> は [1. <東京:とうきょう:Tokyo> 2. ほど 3. <人:ひと:orang> ]<多くない:おおくない:tidak banyak>です",
+    "jawaban": "とうきょうほどひとが"
+  },
+  {
+    "lesson": "12",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<今日:きょう:hari ini> の <天気:てんき:cuaca> は [1. <昨日:きのう:kemarin> 2. より 3. いい ]です",
+    "jawaban": "きのうよりいい"
+  },
+  {
+    "lesson": "12",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "この レモンは [1. あの 2. レモンほど 3. <甘く:あまく:manis> ]ないです",
+    "jawaban": "あのレモンほどあまく"
+  },
+  {
+    "lesson": "12",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<冬休み:ふゆやすみ:libur musim dingin> の [1. <中:なか:dalam>で 2. いちばん 3. <楽しかった:たのしかった:menyenangkan (lampau)> ]<日:ひ:hari>は いつですか",
+    "jawaban": "なかでいちばんたのしかった"
+  },
+  {
+    "lesson": "12",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<私:わたし:saya> は [1. <肉:にく:daging> 2. <魚:さかな:ikan>のほうが 3. <好き:すき:suka> ]です",
+    "jawaban": "にくよりさかなのほうがすき"
+  },
+  {
+    "lesson": "12",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "<日本:にほん:Jepang> の <冬:ふゆ:musim dingin> は [1. <夏:なつ:musim panas> 2. ほど 3. <暑く:あつく:panas> ]ないです",
+    "jawaban": "なつほどあつく"
+  }
+]

@@ -20,9 +20,17 @@
 
 data pertanyaan diambil dari `data/latihan/bunpou/*`
 misal bunpou lesson 1, diambil dari `data/latihan/bunpou/lesson1/*`
+terdapat 4 jenis soal:
 
-- jawaban bisa pilihan ganda atau essay (tergantung data)
--
+1. jtest
+2. dokkai (soal dengan dokkai),
+3. bintang (memilih jawaban yang berada di posisi bintang soal)
+4. pg (pilihan ganda)
+
+- sesuaikan tampilan untuk masing-masing kategori soal
+- opsi memilih jenis soal [jtest,pg,bintang,dokkai,acak]
+- di setiap isi attribute data jika terdapat text dengan format <kanji:kana:arti>, tolong render dengan floating-ui
+- tetap tampilkan spasi pada data pertanyaan soal karegori [bintang,jtest], jangan gunakan format penulisan jepang tanpa spasi
 
 ## 1.2. Halaman CRUD bunpou
 

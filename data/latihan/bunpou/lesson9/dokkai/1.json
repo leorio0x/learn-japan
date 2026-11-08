@@ -1,0 +1,57 @@
+[
+  {
+    "lesson": "9",
+    "kategori": "dokkai",
+    "dokkai": "<私:わたし:saya> は <音楽:おんがく:musik> が <好き:すき:suka> です。とくに クラシックが <好き:すき:suka> です。<私:わたし:saya> は <毎日:まいにち:setiap hari> <音楽:おんがく:musik> を <聞きます:ききます:mendengarkan>。<姉:あね:kakak perempuan> は <歌:うた:lagu> が <上手:じょうず:pandai> です。でも、<私:わたし:saya> は <歌:うた:lagu> が <下手:へた:tidak pandai> です。<姉:あね:kakak perempuan> は カラオケが とても <好き:すき:suka> です。でも、<私:わたし:saya> は カラオケが <嫌い:きらい:benci> です。カラオケの <部屋:へや:kamar> は とても <にぎやか:にぎやか:ramai> ですから。<私:わたし:saya> は しずかな <所:ところ:tempat> が <好き:すき:suka> です。<私:わたし:saya> は <日本語:にほんご:bahasa Jepang> が 少し <分かります:わかります:mengerti>。<漢字:かんじ:kanji> は あまり <分かりません:わかりません:tidak mengerti>。でも、ひらがなと かたかなは よく <分かります:わかります:mengerti>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<私:わたし:saya> は <何:なに:apa> が <好き:すき:suka> ですか。",
+        "pilihan_jawaban": ["<音楽:おんがく:musik>", "スポーツ", "<野菜:やさい:sayuran>", "カラオケ"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<私:わたし:saya> は どんな <音楽:おんがく:musik> が <好き:すき:suka> ですか。",
+        "pilihan_jawaban": ["ジャズ", "クラシック", "ロック", "<歌:うた:lagu>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<姉:あね:kakak perempuan> は <何:なに:apa> が <上手:じょうず:pandai> ですか。",
+        "pilihan_jawaban": ["<歌:うた:lagu>", "テニス", "<料理:りょうり:masakan>", "<漢字:かんじ:kanji>"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<私:わたし:saya> は <歌:うた:lagu> が どうですか。",
+        "pilihan_jawaban": ["<上手:じょうず:pandai> です", "<下手:へた:tidak pandai> です", "<好き:すき:suka> です", "<分かります:わかります:mengerti>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<私:わたし:saya> は カラオケが なぜ <嫌い:きらい:benci> ですか。",
+        "pilihan_jawaban": ["カラオケの <部屋:へや:kamar> は とても <にぎやか:にぎやか:ramai> ですから", "カラオケは <高い:たかい:mahal>ですから", "<私:わたし:saya> は <歌:うた:lagu> が <下手:へた:tidak pandai> ですから", "<時間:じかん:waktu> が ありませんから"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<私:わたし:saya> は どんな <所:ところ:tempat> が <好き:すき:suka> ですか。",
+        "pilihan_jawaban": ["にぎやかな <所:ところ:tempat>", "しずかな <所:ところ:tempat>", "<大きい:おおきい:besar> <所:ところ:tempat>", "<新しい:あたらしい:baru> <所:ところ:tempat>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "7",
+        "pertanyaan": "<私:わたし:saya> は <日本語:にほんご:bahasa Jepang> が どうですか。",
+        "pilihan_jawaban": ["<全然:ぜんぜん:sama sekali> <分かりません:わかりません:tidak mengerti>", "<少し:すこし:sedikit> <分かります:わかります:mengerti>", "よく <分かります:わかります:mengerti>", "<分かりません:わかりません:tidak mengerti>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "8",
+        "pertanyaan": "<私:わたし:saya> は <何:なに:apa> が あまり <分かりません:わかりません:tidak mengerti> か。",
+        "pilihan_jawaban": ["ひらがな", "かたかな", "<漢字:かんじ:kanji>", "<日本語:にほんご:bahasa Jepang>"],
+        "jawaban_benar": "c"
+      }
+    ]
+  }
+]

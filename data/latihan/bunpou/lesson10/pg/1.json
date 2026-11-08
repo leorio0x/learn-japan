@@ -1,0 +1,86 @@
+[
+  {
+    "lesson": "10",
+    "kategori": "pilihan ganda",
+    "soal": "<机:つくえ:meja> の <上:うえ:atas> に <本:ほん:buku> が ___。",
+    "pilihan_jawaban": ["います", "あります", "です", "なります"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "10",
+    "kategori": "pilihan ganda",
+    "soal": "<公園:こうえん:taman> に <子供:こども:anak> が ___。",
+    "pilihan_jawaban": ["あります", "です", "います", "なります"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "10",
+    "kategori": "pilihan ganda",
+    "soal": "<冷蔵庫:れいぞうこ:kulkas> の <中:なか:dalam> ___ <何:なに:apa> が ありますか。",
+    "pilihan_jawaban": ["で", "に", "を", "が"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "10",
+    "kategori": "pilihan ganda",
+    "soal": "<銀行:ぎんこう:bank> は <駅:えき:stasiun> の ___ に あります。",
+    "pilihan_jawaban": ["隣", "上", "中", "間"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "10",
+    "kategori": "pilihan ganda",
+    "soal": "<猫:ねこ:kucing> は <椅子:いす:kursi> の <下:した:bawah> ___ います。",
+    "pilihan_jawaban": ["で", "を", "に", "が"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "10",
+    "kategori": "pilihan ganda",
+    "soal": "<郵便局:ゆうびんきょく:kantor pos> と <銀行:ぎんこう:bank> の ___ に <公園:こうえん:taman> が あります。",
+    "pilihan_jawaban": ["隣", "上", "間", "中"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "10",
+    "kategori": "pilihan ganda",
+    "soal": "<箱:はこ:kotak> の <中:なか:dalam> に <電池:でんち:baterai> ___ スイッチなどが あります。",
+    "pilihan_jawaban": ["と", "や", "も", "が"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "10",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka> さん は <事務所:じむしょ:kantor> に ___。",
+    "pilihan_jawaban": ["います", "あります", "です", "なります"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "10",
+    "kategori": "pilihan ganda",
+    "soal": "<駅:えき:stasiun> は ___ ありますか。",
+    "pilihan_jawaban": ["なにが", "どこに", "だれが", "いつ"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "10",
+    "kategori": "pilihan ganda",
+    "soal": "<教室:きょうしつ:ruang kelas> に <男:おとこ:laki-laki> の <人:ひと:orang> が ___。",
+    "pilihan_jawaban": ["あります", "です", "います", "なります"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "10",
+    "kategori": "pilihan ganda",
+    "soal": "<公園:こうえん:taman> に ___ <木:き:pohon> が あります。",
+    "pilihan_jawaban": ["いろいろ", "いろいろな", "いろいろの", "いろいろに"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "10",
+    "kategori": "pilihan ganda",
+    "soal": "<本屋:ほんや:toko buku> は コンビニ の <隣:となり:samping> ___。",
+    "pilihan_jawaban": ["に", "が", "です", "を"],
+    "jawaban_benar": "c"
+  }
+]

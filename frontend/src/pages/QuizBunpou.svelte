@@ -5,6 +5,21 @@
     import { shuffle, normalizeAnswer } from "../lib/quiz.js";
     import BunpouSentence from "../components/BunpouSentence.svelte";
 
+    const kategoriOptions = [
+        { value: "jtest", label: "J-Test" },
+        { value: "pg", label: "Pilihan ganda" },
+        { value: "bintang", label: "Bintang" },
+        { value: "dokkai", label: "Dokkai" },
+        { value: "acak", label: "Acak (semua jenis)" },
+    ];
+
+    const kategoriLabel = {
+        jtest: "J-Test",
+        pg: "Pilihan ganda",
+        bintang: "Bintang",
+        dokkai: "Dokkai",
+    };
+
     let lessons = $state([]);
     let lesson = $state("");
     let pool = $state([]);
@@ -14,6 +29,7 @@
 
     let phase = $state("setup");
     let batchSize = $state(10);
+    let typeFilter = $state("acak");
 
     let questions = $state([]);
     let index = $state(0);
@@ -21,7 +37,7 @@
     let results = $state([]);
 
     let answerInput = $state("");
-    let selectedOption = $state("");
+    let selectedIndex = $state(-1);
     let answered = $state(false);
     let answerOk = $state(false);
 
@@ -29,6 +45,12 @@
     const total = $derived(questions.length);
     const accuracy = $derived(
         total ? Math.round((correctCount / total) * 100) : 0,
+    );
+
+    const available = $derived(
+        typeFilter === "acak"
+            ? pool
+            : pool.filter((soal) => soal.kategori === typeFilter),
     );
 
     const batchOptions = [
@@ -77,24 +99,17 @@
         }
     }
 
-    function selectLesson(event) {
+    async function selectLesson(event) {
         lesson = event.target.value;
-        fetchQuestions();
+        await fetchQuestions();
     }
 
     function start() {
-        if (!pool.length) return;
-        const chosen = shuffle([...pool]);
+        if (!available.length) return;
+        const chosen = shuffle([...available]);
         const size =
             batchSize === 0 ? chosen.length : Math.min(batchSize, chosen.length);
-        questions = chosen.slice(0, size).map((soal) => ({
-            ...soal,
-            type:
-                soal.tipe_soal === "pilihan ganda" &&
-                soal.pilihan_jawaban?.length
-                    ? "pilihan"
-                    : "essay",
-        }));
+        questions = chosen.slice(0, size);
         index = 0;
         correctCount = 0;
         results = [];
@@ -104,41 +119,52 @@
 
     function resetTransient() {
         answerInput = "";
-        selectedOption = "";
+        selectedIndex = -1;
         answered = false;
         answerOk = false;
     }
 
-    function sameAnswer(a, b) {
-        return (
-            normalizeAnswer(plainText(a, "kanji")) ===
-            normalizeAnswer(plainText(b, "kanji"))
-        );
+    function isObjective(soal) {
+        return soal?.kategori !== "jtest";
     }
 
-    function isCorrectOption(option) {
+    function answerIndex(value) {
+        const text = String(value ?? "").trim().toLowerCase();
+        if (text.length !== 1) return -1;
+        const code = text.charCodeAt(0) - 97;
+        return code >= 0 && code <= 25 ? code : -1;
+    }
+
+    function correctAnswerText(soal) {
+        if (!soal) return "";
+        if (!isObjective(soal)) {
+            return soal.jawaban_benar || soal.jawaban || "";
+        }
+        const idx = answerIndex(soal.jawaban_benar);
+        const option = soal.pilihan_jawaban?.[idx];
+        return option ?? soal.jawaban_benar ?? "";
+    }
+
+    function isCorrectOption(optionIndex) {
         if (!current) return false;
-        return sameAnswer(option, current.jawaban_benar);
+        return answerIndex(current.jawaban_benar) === optionIndex;
     }
 
-    function isSelectedOption(option) {
-        return selectedOption === option;
-    }
-
-    function chooseOption(option) {
+    function chooseOption(optionIndex) {
         if (answered || !current) return;
-        selectedOption = option;
-        answerOk = sameAnswer(option, current.jawaban_benar);
-        finishAnswer(option);
+        selectedIndex = optionIndex;
+        answerOk = isCorrectOption(optionIndex);
+        finishAnswer(String.fromCharCode(65 + optionIndex));
     }
 
     function submitEssay(event) {
         event.preventDefault();
         if (answered || !answerInput.trim() || !current) return;
-        const target = String(current.jawaban_benar || "");
+        const expected = current.jawaban_benar || current.jawaban || "";
         const variants = [
-            plainText(target, "kanji"),
-            plainText(target, "kana"),
+            expected,
+            plainText(expected, "kanji"),
+            plainText(expected, "kana"),
         ].filter(Boolean);
         const norm = normalizeAnswer(answerInput);
         answerOk = variants.some((item) => normalizeAnswer(item) === norm);
@@ -148,10 +174,7 @@
     function finishAnswer(input) {
         answered = true;
         if (answerOk) correctCount += 1;
-        results = [
-            ...results,
-            { q: current, input, correct: answerOk },
-        ];
+        results = [...results, { q: current, input, correct: answerOk }];
     }
 
     function next() {
@@ -165,6 +188,28 @@
 
     function answerLabel(value) {
         return plainText(value, "kanji");
+    }
+
+    function optionLetter(optionIndex) {
+        return String.fromCharCode(65 + optionIndex);
+    }
+
+    function preserveSpaces(soal) {
+        return soal?.kategori === "bintang" || soal?.kategori === "jtest";
+    }
+
+    function typeHint(soal) {
+        if (!soal) return "";
+        switch (soal.kategori) {
+            case "jtest":
+                return soal.instruksi || "Susunlah jawaban yang benar.";
+            case "bintang":
+                return "Pilih kata yang tepat untuk posisi ★.";
+            case "dokkai":
+                return "Bacalah dokkai lalu jawab pertanyaan.";
+            default:
+                return "Pilih jawaban yang benar.";
+        }
     }
 </script>
 
@@ -193,7 +238,7 @@
         <div class="mb-5 text-center">
             <h1 class="text-xl font-bold text-ink sm:text-2xl">Latihan Bunpou</h1>
             <p class="mt-1 text-sm text-navy/60">
-                Tipe soal mengikuti data latihan.
+                Pilih lesson dan jenis soal yang ingin dikerjakan.
             </p>
         </div>
 
@@ -213,6 +258,14 @@
                     </select>
                 </div>
                 <div>
+                    <label class="label" for="jenis">Jenis soal</label>
+                    <select id="jenis" class="input" bind:value={typeFilter}>
+                        {#each kategoriOptions as option}
+                            <option value={option.value}>{option.label}</option>
+                        {/each}
+                    </select>
+                </div>
+                <div class="sm:col-span-2">
                     <label class="label" for="batch"
                         >Jumlah soal per batch</label
                     >
@@ -231,13 +284,13 @@
                     {#if loadingQuestions}
                         Memuat soal...
                     {:else}
-                        {pool.length} soal tersedia
+                        {available.length} soal tersedia
                     {/if}
                 </p>
                 <button
                     class="btn-primary"
                     onclick={start}
-                    disabled={!pool.length || loadingQuestions}
+                    disabled={!available.length || loadingQuestions}
                     >Mulai Latihan</button
                 >
             </div>
@@ -260,45 +313,67 @@
         </div>
 
         <div class="card overflow-hidden">
-            <div class="bg-navy px-5 py-8 text-center">
-                <p
-                    class="text-[11px] font-semibold uppercase tracking-widest text-cream/50"
+            <div class="bg-navy px-5 py-7 text-center">
+                <div
+                    class="flex flex-wrap items-center justify-center gap-2 text-[11px] font-semibold uppercase tracking-widest text-cream/50"
                 >
-                    Soal
-                </p>
-                <span
-                    class="mt-1 inline-block rounded-full bg-cream/10 px-2.5 py-0.5 text-[10px] font-semibold text-cream/70"
-                    >{current.type === "pilihan" ? "Pilihan ganda" : "Essay"}</span
-                >
+                    <span>{kategoriLabel[current.kategori] || current.kategori}</span>
+                    <span class="text-cream/25">•</span>
+                    <span>{lessonLabel(current.lesson)}</span>
+                    {#if current.no}
+                        <span class="text-cream/25">•</span>
+                        <span>No. {current.no}</span>
+                    {/if}
+                </div>
+
+                <p class="mt-1 text-xs text-cream/60">{typeHint(current)}</p>
+
                 <BunpouSentence
                     kalimat={current.soal}
                     showTerjemahan={false}
+                    preserveSpaces={preserveSpaces(current)}
                     className="mt-3 block text-2xl font-bold leading-relaxed text-cream sm:text-3xl"
                 />
             </div>
 
-            {#if current.type === "pilihan"}
+            {#if current.kategori === "dokkai" && current.dokkai}
+                <div class="border-b border-navy/10 bg-sand/25 px-4 py-3 sm:px-5">
+                    <p
+                        class="mb-1.5 text-[10px] font-bold uppercase tracking-widest text-steel/70"
+                    >
+                        Dokkai
+                    </p>
+                    <BunpouSentence
+                        kalimat={current.dokkai}
+                        showTerjemahan={false}
+                        className="block text-sm leading-relaxed text-navy/80"
+                    />
+                </div>
+            {/if}
+
+            {#if isObjective(current)}
                 <div class="grid gap-2 p-4 sm:grid-cols-2 sm:p-5">
-                    {#each current.pilihan_jawaban as option, optionIndex}
+                    {#each current.pilihan_jawaban || [] as option, optionIndex}
                         <button
                             type="button"
                             class="flex w-full items-start gap-2.5 rounded-xl border px-3 py-2.5 text-left transition {answered
-                                ? isCorrectOption(option)
+                                ? isCorrectOption(optionIndex)
                                     ? 'border-sage bg-sage/15'
-                                    : isSelectedOption(option)
+                                    : selectedIndex === optionIndex
                                       ? 'border-red-400 bg-red-500/10'
                                       : 'border-steel/20 bg-white opacity-60'
                                 : 'border-steel/25 bg-white hover:border-steel/50 hover:bg-cream/60'}"
-                            onclick={() => chooseOption(option)}
+                            onclick={() => chooseOption(optionIndex)}
                             disabled={answered}
                         >
                             <span
                                 class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-md bg-steel/10 text-[10px] font-bold text-navy/60"
-                                >{String.fromCharCode(65 + optionIndex)}</span
+                                >{optionLetter(optionIndex)}</span
                             >
                             <BunpouSentence
                                 kalimat={option}
                                 showTerjemahan={false}
+                                preserveSpaces={current.kategori === "bintang"}
                                 className="text-base font-semibold text-ink"
                             />
                         </button>
@@ -347,11 +422,13 @@
                         >
                             {answerOk ? "Benar!" : "Kurang tepat"}
                         </p>
-                        {#if !answerOk || current.type === "pilihan"}
+                        {#if !answerOk || isObjective(current)}
                             <p class="mt-1 text-xs text-navy/60">
                                 Jawaban yang tepat:
                                 <span class="font-jp font-semibold text-ink"
-                                    >{answerLabel(current.jawaban_benar)}</span
+                                    >{answerLabel(
+                                        correctAnswerText(current),
+                                    )}</span
                                 >
                             </p>
                         {/if}
@@ -390,19 +467,24 @@
                             ? 'bg-sage/10'
                             : 'bg-red-500/10'}"
                     >
-                        <div class="flex items-center gap-2">
+                        <div class="flex flex-wrap items-center gap-2">
                             <span
                                 class="font-bold {r.correct
                                     ? 'text-sage'
                                     : 'text-red-500'}"
                                 >{r.correct ? "✓" : "✗"}</span
                             >
+                            <span
+                                class="rounded bg-sand/50 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-navy/60"
+                                >{kategoriLabel[r.q.kategori] ||
+                                    r.q.kategori}</span
+                            >
                             <span class="font-jp font-semibold text-ink"
                                 >{answerLabel(r.q.soal)}</span
                             >
                             <span class="text-navy/40">→</span>
                             <span class="font-jp text-sage"
-                                >{answerLabel(r.q.jawaban_benar)}</span
+                                >{answerLabel(correctAnswerText(r.q))}</span
                             >
                         </div>
                         {#if !r.correct}
@@ -419,8 +501,7 @@
                 <button class="btn-ghost" onclick={() => (phase = "setup")}
                     >Kembali</button
                 >
-                <button class="btn-primary" onclick={start}>Ulangi Batch</button
-                >
+                <button class="btn-primary" onclick={start}>Ulangi Batch</button>
             </div>
         </div>
     {/if}

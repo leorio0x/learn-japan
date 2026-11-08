@@ -1,0 +1,86 @@
+[
+  {
+    "lesson": "8",
+    "kategori": "pilihan ganda",
+    "soal": "<奈良:なら:Nara> は <静か:しずか:sunyi> ___ <町:まち:kota> です。",
+    "pilihan_jawaban": ["な", "の", "い", "で"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "8",
+    "kategori": "pilihan ganda",
+    "soal": "これは ___ <本:ほん:buku> です。",
+    "pilihan_jawaban": ["新しい", "新しいな", "新しく", "新しくて"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "8",
+    "kategori": "pilihan ganda",
+    "soal": "この <料理:りょうり:masakan> は あまり ___。",
+    "pilihan_jawaban": ["おいしいです", "おいしくないです", "おいしいじゃないです", "おいしくです"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "8",
+    "kategori": "pilihan ganda",
+    "soal": "この <部屋:へや:kamar> は あまり ___。",
+    "pilihan_jawaban": ["静かです", "静かなです", "静かじゃないです", "静かくないです"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "8",
+    "kategori": "pilihan ganda",
+    "soal": "<天気:てんき:cuaca> は あまり ___。",
+    "pilihan_jawaban": ["いいです", "いくないです", "よくないです", "いいじゃないです"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "8",
+    "kategori": "pilihan ganda",
+    "soal": "<富士山:ふじさん:Gunung Fuji> は とても ___ <山:やま:gunung> です。",
+    "pilihan_jawaban": ["きれい", "きれいな", "きれいに", "きれいの"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "8",
+    "kategori": "pilihan ganda",
+    "soal": "この <町:まち:kota> は <静か:しずか:sunyi> です ___、あまり にぎやかじゃないです。",
+    "pilihan_jawaban": ["が", "から", "そして", "も"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "8",
+    "kategori": "pilihan ganda",
+    "soal": "この <町:まち:kota> は <静か:しずか:sunyi> です。___ <便利:べんり:praktis> です。",
+    "pilihan_jawaban": ["そして", "が", "から", "より"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "8",
+    "kategori": "pilihan ganda",
+    "soal": "<日本:にほん:Jepang> の <生活:せいかつ:kehidupan> は ___ ですか。",
+    "pilihan_jawaban": ["どう", "どんな", "どれ", "どこ"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "8",
+    "kategori": "pilihan ganda",
+    "soal": "<京都:きょうと:Kyoto> は ___ <町:まち:kota> ですか。",
+    "pilihan_jawaban": ["どう", "どんな", "どれ", "どの"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "8",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka> さん は あまり ___。",
+    "pilihan_jawaban": ["忙しいです", "忙しくないです", "忙しいじゃないです", "忙しくです"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "8",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> の <寮:りょう:asrama> は ___ <便利:べんり:praktis> な <所:ところ:tempat> です。",
+    "pilihan_jawaban": ["とても", "あまり", "まだ", "もう"],
+    "jawaban_benar": "a"
+  }
+]

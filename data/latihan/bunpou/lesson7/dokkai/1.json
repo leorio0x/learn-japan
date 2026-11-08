@@ -1,0 +1,57 @@
+[
+  {
+    "lesson": "7",
+    "kategori": "dokkai",
+    "dokkai": "<昨日:きのう:kemarin> は <私:わたし:saya> の <誕生日:たんじょうび:ulang tahun> でした。<私:わたし:saya> は <友達:ともだち:teman> の <田中:たなか:Tanaka> さん に <花:はな:bunga> を <もらいました:もらいました:menerima>。<田中:たなか:Tanaka> さん は 「おめでとう」と <言いました:いいました:berkata>。<私:わたし:saya> は <田中:たなか:Tanaka> さん に プレゼント を <あげました:あげました:memberi>。プレゼント は <シャツ:シャツ:kemeja> です。<私:わたし:saya> は <箸:はし:sumpit> で <ご飯:ごはん:nasi> を <食べます:たべます:makan>。それから、ナイフ と フォーク で <肉:にく:daging> を <食べました:たべました:makan>。もう <昼ご飯:ひるごはん:makan siang> を <食べました:たべました:makan>。でも、まだ <晩ご飯:ばんごはん:makan malam> を <食べません:たべません:tidak makan>。これから、<友達:ともだち:teman> に メール を <書きます:かきます:menulis>。<私:わたし:saya> の <家族:かぞく:keluarga> は <大きい:おおきい:besar> です。<父:ちち:ayah> と <母:はは:ibu> と <姉:あね:kakak perempuan> と <弟:おとうと:adik laki-laki> が います。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<昨日:きのう:kemarin> は <何:なん:apa> の <日:ひ:hari> でしたか。",
+        "pilihan_jawaban": ["<誕生日:たんじょうび:ulang tahun>", "<日曜日:にちようび:hari Minggu>", "<休み:やすみ:libur>", "<試験:しけん:ujian>"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<田中:たなか:Tanaka> さん に <何:なに:apa> を <もらいました:もらいました:menerima> か。",
+        "pilihan_jawaban": ["<花:はな:bunga>", "<本:ほん:buku>", "<シャツ:シャツ:kemeja>", "プレゼント"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<私:わたし:saya> が <田中:たなか:Tanaka> さん に <あげた:あげた:memberi> プレゼント は <何:なん:apa> ですか。",
+        "pilihan_jawaban": ["<花:はな:bunga>", "<シャツ:シャツ:kemeja>", "<辞書:じしょ:kamus>", "<切符:きっぷ:karcis>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<ご飯:ごはん:nasi> を <何:なに:apa> で <食べます:たべます:makan> か。",
+        "pilihan_jawaban": ["<箸:はし:sumpit>", "スプーン", "フォーク", "ナイフ"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<肉:にく:daging> を <何:なに:apa> で <食べました:たべました:makan> か。",
+        "pilihan_jawaban": ["<箸:はし:sumpit>", "ナイフ と フォーク", "スプーン", "<手:て:tangan>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "もう <何:なに:apa> を <食べました:たべました:makan> か。",
+        "pilihan_jawaban": ["<朝ご飯:あさごはん:sarapan>", "<昼ご飯:ひるごはん:makan siang>", "<晩ご飯:ばんごはん:makan malam>", "<肉:にく:daging>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "7",
+        "pertanyaan": "まだ <何:なに:apa> を <食べません:たべません:tidak makan> か。",
+        "pilihan_jawaban": ["<朝ご飯:あさごはん:sarapan>", "<昼ご飯:ひるごはん:makan siang>", "<晩ご飯:ばんごはん:makan malam>", "<ご飯:ごはん:nasi>"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "8",
+        "pertanyaan": "これから <何:なに:apa> を しますか。",
+        "pilihan_jawaban": ["<友達:ともだち:teman> に メール を <書きます:かきます:menulis>", "<友達:ともだち:teman> に <花:はな:bunga> を <あげます:あげます:memberi>", "<晩ご飯:ばんごはん:makan malam> を <食べます:たべます:makan>", "<写真:しゃしん:foto> を <撮ります:とります:memotret>"],
+        "jawaban_benar": "a"
+      }
+    ]
+  }
+]

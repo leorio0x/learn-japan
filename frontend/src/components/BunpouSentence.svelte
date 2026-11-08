@@ -7,10 +7,11 @@
         terjemahan = "",
         hideKanji = false,
         showTerjemahan = true,
+        preserveSpaces = false,
         className = "",
     } = $props();
 
-    const parts = $derived(parseParagraph(kalimat));
+    const parts = $derived(parseParagraph(kalimat, { preserveSpaces }));
 </script>
 
 <span class="block">

@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "1",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> ___ <学生:がくせい:mahasiswa> です",
+    "pilihan_jawaban": ["が", "は", "を", "に"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "1",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka> さん ___ <先生:せんせい:guru> じゃありません",
+    "pilihan_jawaban": ["も", "の", "は", "か"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "1",
+    "kategori": "pilihan ganda",
+    "soal": "<あなた:あなた:Anda> は <会社員:かいしゃいん:pegawai perusahaan> ___ か",
+    "pilihan_jawaban": ["ます", "です", "だ", "な"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "1",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <IMC::IMC> ___ <社員:しゃいん:karyawan> です",
+    "pilihan_jawaban": ["は", "の", "も", "か"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "1",
+    "kategori": "pilihan ganda",
+    "soal": "<ミラー::Miller> さん ___ <学生:がくせい:mahasiswa> です",
+    "pilihan_jawaban": ["も", "は", "の", "を"],
+    "jawaban_benar": "a"
+  }
+]

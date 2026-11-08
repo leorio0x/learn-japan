@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "1",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. わたし 2. がくせい ]です",
+    "jawaban": "わたしはがくせいです"
+  },
+  {
+    "lesson": "1",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. サントスさん 2. かいしゃいん ]じゃありません",
+    "jawaban": "サントスさんはかいしゃいんじゃありません"
+  },
+  {
+    "lesson": "1",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. あなた 2. ミラーさん ]ですか",
+    "jawaban": "あなたはミラーさんですか"
+  },
+  {
+    "lesson": "1",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. わたし 2. も 3. がくせい ]です",
+    "jawaban": "わたしもがくせいです"
+  },
+  {
+    "lesson": "1",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. ミラーさん 2. だいがく 3. の 4. がくせい ]です",
+    "jawaban": "ミラーさんはだいがくのがくせいです"
+  }
+]

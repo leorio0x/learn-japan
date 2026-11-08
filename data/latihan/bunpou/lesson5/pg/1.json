@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "5",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <毎日:まいにち:setiap hari> <学校:がっこう:sekolah> ___ <行きます:いきます:pergi>",
+    "pilihan_jawaban": ["で", "へ", "を", "と"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "5",
+    "kategori": "pilihan ganda",
+    "soal": "<電車:でんしゃ:kereta> ___ <会社:かいしゃ:perusahaan> へ <行きます:いきます:pergi>",
+    "pilihan_jawaban": ["で", "へ", "を", "と"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "5",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka> さん ___ <学校:がっこう:sekolah> へ <行きます:いきます:pergi>",
+    "pilihan_jawaban": ["と", "に", "を", "へ"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "5",
+    "kategori": "pilihan ganda",
+    "soal": "いつ <日本:にほん:Jepang> へ ___ か",
+    "pilihan_jawaban": ["行きました", "行きます", "行きません", "行きましょう"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "5",
+    "kategori": "pilihan ganda",
+    "soal": "<駅:えき:stasiun> ___ <歩いて:あるいて:jalan kaki> <行きます:いきます:pergi>",
+    "pilihan_jawaban": ["まで", "から", "で", "へ"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "5",
+    "kategori": "pilihan ganda",
+    "soal": "<飛行機:ひこうき:pesawat> ___ <日本:にほん:Jepang> へ <行きます:いきます:pergi>",
+    "pilihan_jawaban": ["へ", "を", "で", "と"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "5",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <一人:ひとり:sendirian> ___ <行きます:いきます:pergi>",
+    "pilihan_jawaban": ["と", "で", "へ", "を"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "5",
+    "kategori": "pilihan ganda",
+    "soal": "<友達:ともだち:teman> ___ <来ます:きます:datang>",
+    "pilihan_jawaban": ["と", "を", "へ", "に"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "5",
+    "kategori": "pilihan ganda",
+    "soal": "<先週:せんしゅう:minggu lalu> ___ <休みました:やすみました:libur>",
+    "pilihan_jawaban": ["に", "は", "を", "で"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "5",
+    "kategori": "pilihan ganda",
+    "soal": "<誕生日:たんじょうび:ulang tahun> は ___ ですか",
+    "pilihan_jawaban": ["どこ", "だれ", "いつ", "なに"],
+    "jawaban_benar": "c"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "3",
+    "kategori": "pilihan ganda",
+    "soal": "___ は <教室:きょうしつ:ruang kelas> です",
+    "pilihan_jawaban": ["そこ", "ここ", "あそこ", "どこ"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "3",
+    "kategori": "pilihan ganda",
+    "soal": "<お手洗い:おてあらい:toilet> は ___ ですか",
+    "pilihan_jawaban": ["どこ", "だれ", "なん", "いくら"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "3",
+    "kategori": "pilihan ganda",
+    "soal": "<事務所:じむしょ:kantor> は ___ 階ですか",
+    "pilihan_jawaban": ["なんじ", "なんがい", "なんぷん", "なんねん"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "3",
+    "kategori": "pilihan ganda",
+    "soal": "この <靴:くつ:sepatu> は ___ ですか",
+    "pilihan_jawaban": ["いくら", "だれ", "どこ", "なん"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "3",
+    "kategori": "pilihan ganda",
+    "soal": "あそこ ___ <食堂:しょくどう:kantin> です",
+    "pilihan_jawaban": ["も", "は", "の", "を"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "3",
+    "kategori": "pilihan ganda",
+    "soal": "エレベーター は ___ ですか。「あちらです。」",
+    "pilihan_jawaban": ["どれ", "どの", "どちら", "だれ"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "3",
+    "kategori": "pilihan ganda",
+    "soal": "<家:うち:rumah> は ___ ですか",
+    "pilihan_jawaban": ["だれ", "どこ", "なに", "いくら"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "3",
+    "kategori": "pilihan ganda",
+    "soal": "<会議室:かいぎしつ:ruang rapat> は 2階です。<事務所:じむしょ:kantor> ___ 2階です",
+    "pilihan_jawaban": ["は", "が", "も", "を"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "3",
+    "kategori": "pilihan ganda",
+    "soal": "これは ___ ですか",
+    "pilihan_jawaban": ["いくら", "だれ", "どこ", "なん"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "3",
+    "kategori": "pilihan ganda",
+    "soal": "ワイン の <売り場:うりば:tempat penjualan> は ___ 階ですか",
+    "pilihan_jawaban": ["なんじ", "なんがい", "なんにち", "なんねん"],
+    "jawaban_benar": "b"
+  }
+]

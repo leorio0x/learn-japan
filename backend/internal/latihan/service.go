@@ -24,26 +24,25 @@ func (s *Service) ListLessons() ([]string, error) {
 }
 
 // GetByLesson mengembalikan soal latihan untuk lesson tertentu.
-func (s *Service) GetByLesson(lesson string) ([]SoalBunpou, error) {
+func (s *Service) GetByLesson(lesson string) ([]Soal, error) {
 	return s.repo.FindByLesson(lesson)
 }
 
 // Create menambahkan soal latihan baru.
-func (s *Service) Create(req Request) (SoalBunpou, error) {
-	soal, err := buildSoal(req)
-	if err != nil {
-		return SoalBunpou{}, err
+func (s *Service) Create(req Request) (Soal, error) {
+	if err := validateRequest(req); err != nil {
+		return Soal{}, err
 	}
-	return s.repo.Create(req.Lesson, soal)
+	return s.repo.Create(req.Lesson, req)
 }
 
 // Update memperbarui soal latihan.
-func (s *Service) Update(lesson, id string, req Request) (SoalBunpou, error) {
-	soal, err := buildSoal(req)
-	if err != nil {
-		return SoalBunpou{}, err
+func (s *Service) Update(lesson, id string, req Request) (Soal, error) {
+	req.Lesson = lesson
+	if err := validateRequest(req); err != nil {
+		return Soal{}, err
 	}
-	return s.repo.Update(lesson, id, soal)
+	return s.repo.Update(lesson, id, req)
 }
 
 // Delete menghapus soal latihan.
@@ -51,16 +50,60 @@ func (s *Service) Delete(lesson, id string) error {
 	return s.repo.Delete(lesson, id)
 }
 
-func buildSoal(req Request) (SoalBunpou, error) {
-	soal := SoalBunpou{
-		Soal:           strings.TrimSpace(req.Soal),
-		TipeSoal:       strings.TrimSpace(req.TipeSoal),
-		PilihanJawaban: req.PilihanJawaban,
-		JawabanBenar:   strings.TrimSpace(req.JawabanBenar),
+func validateRequest(req Request) error {
+	lesson := strings.TrimSpace(req.Lesson)
+	if _, ok := normalizeLesson(lesson); !ok {
+		return ErrInvalidLesson
 	}
-	normalized, ok := normalizeSoal(soal)
+
+	kategori, ok := normalizeKategori(req.Kategori)
 	if !ok {
-		return SoalBunpou{}, ErrInvalidRequest
+		return ErrInvalidKategori
 	}
-	return normalized, nil
+
+	soal := strings.TrimSpace(req.Soal)
+	if soal == "" {
+		return ErrInvalidRequest
+	}
+
+	switch kategori {
+	case "jtest":
+		if strings.TrimSpace(req.Jawaban) == "" {
+			return ErrInvalidRequest
+		}
+	case "pg", "bintang":
+		if !validChoices(req.PilihanJawaban, req.JawabanBenar) {
+			return ErrInvalidRequest
+		}
+	case "dokkai":
+		if strings.TrimSpace(req.Dokkai) == "" {
+			return ErrInvalidRequest
+		}
+		if !validChoices(req.PilihanJawaban, req.JawabanBenar) {
+			return ErrInvalidRequest
+		}
+	}
+
+	return nil
+}
+
+func validChoices(choices []string, answer string) bool {
+	cleaned := trimChoices(choices)
+	if len(cleaned) < 2 {
+		return false
+	}
+	index := answerIndex(answer)
+	return index >= 0 && index < len(cleaned)
+}
+
+func answerIndex(value string) int {
+	text := strings.ToLower(strings.TrimSpace(value))
+	if len(text) != 1 {
+		return -1
+	}
+	char := text[0]
+	if char < 'a' || char > 'z' {
+		return -1
+	}
+	return int(char - 'a')
 }

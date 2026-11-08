@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "7",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["食べます", "箸で", "わたし", "ご飯を", "は"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "7",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["田中さんに", "花を", "あげます", "わたし", "は"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "7",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["辞書を", "先生に", "わたし", "は", "もらいました"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "7",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["もう", "食べました", "昼ご飯を", "わたし", "は"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "7",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["切ります", "ナイフで", "わたし", "パンを", "は"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "7",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["友達に", "切符を", "わたし", "あげました", "は"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "7",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["もらいました", "母に", "わたし", "セーターを", "は"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "7",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["まだ", "食べません", "朝ご飯を", "わたし", "は"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "7",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["書きます", "日本語で", "わたし", "手紙を", "は"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "7",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["もう", "しました", "宿題を", "わたし", "は"],
+    "jawaban_benar": "c"
+  }
+]

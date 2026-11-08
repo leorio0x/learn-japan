@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "13",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["京都へ", "行きます", "わたしは", "家族と", "あした"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "13",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["電車で", "会社へ", "行きます", "わたしは", "毎朝"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "13",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["友達と", "見ます", "映画を", "わたしは", "日曜日に"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "13",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["行きませんでした", "友達と", "わたしは", "どこへも", "きのう"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "13",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["見ませんか", "いっしょに", "あした", "映画を", "駅で"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "13",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["いっしょに", "あした", "駅のレストランで", "昼ごはんを", "食べましょう"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "13",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["学校へ", "バスで", "わたしは", "行きます", "毎日"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "13",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["行きました", "北海道へ", "家族と", "山下さんは", "去年"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "13",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["日曜日に", "図書館へ", "行きます", "わたしは", "よく"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "13",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["歩いて", "わたしは", "駅へ", "毎朝", "行きます"],
+    "jawaban_benar": "c"
+  }
+]

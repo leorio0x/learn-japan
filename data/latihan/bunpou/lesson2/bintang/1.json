@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "2",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___ です。",
+    "pilihan_jawaban": ["これ", "は", "わたし", "の", "ほん"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "2",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___ です。",
+    "pilihan_jawaban": ["その", "かさ", "は", "たなかさん", "の"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "2",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ です。",
+    "pilihan_jawaban": ["あの", "ひと", "は", "ミラーさん"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "2",
+    "kategori": "bintang",
+    "soal": "___ ★ ___ ___ ___ です。",
+    "pilihan_jawaban": ["この", "じしょ", "は", "わたし", "の"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "2",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ___ ★ じゃありません。",
+    "pilihan_jawaban": ["それ", "は", "わたし", "の", "かさ"],
+    "jawaban_benar": "e"
+  }
+]

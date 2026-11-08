@@ -1,0 +1,139 @@
+[
+  {
+    "lesson": "13",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は あした <京都:きょうと:Kyoto> ___ <行きます:いきます:pergi>。",
+    "pilihan_jawaban": ["へ", "を", "で", "と"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "13",
+    "kategori": "pilihan ganda",
+    "soal": "<電車:でんしゃ:kereta> ___ <京都:きょうと:Kyoto> へ <行きます:いきます:pergi>。",
+    "pilihan_jawaban": ["で", "に", "と", "を"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "13",
+    "kategori": "pilihan ganda",
+    "soal": "<家族:かぞく:keluarga> ___ <京都:きょうと:Kyoto> へ <行きます:いきます:pergi>。",
+    "pilihan_jawaban": ["と", "で", "に", "を"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "13",
+    "kategori": "pilihan ganda",
+    "soal": "あした 6<時:じ:jam> ___ <駅:えき:stasiun> へ <行きます:いきます:pergi>。",
+    "pilihan_jawaban": ["に", "で", "と", "を"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "13",
+    "kategori": "pilihan ganda",
+    "soal": "<日曜日:にちようび:hari Minggu> は どこ ___ <行きません:いきません:tidak pergi>。",
+    "pilihan_jawaban": ["へも", "へは", "をも", "で"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "13",
+    "kategori": "pilihan ganda",
+    "soal": "<今朝:けさ:pagi ini> は ___ <食べません:たべません:tidak makan>。",
+    "pilihan_jawaban": ["何も", "何か", "どこも", "だれも"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "13",
+    "kategori": "pilihan ganda",
+    "soal": "いっしょに <昼:ひる:siang> ごはんを ___。― ええ、<食べましょう:たべましょう:mari makan>。",
+    "pilihan_jawaban": [
+      "食べませんか",
+      "食べましたか",
+      "食べます",
+      "食べません"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "13",
+    "kategori": "pilihan ganda",
+    "soal": "<駅:えき:stasiun> で ___。― ええ、そうしましょう。",
+    "pilihan_jawaban": [
+      "会いましょう",
+      "会いました",
+      "会いますか",
+      "会いません"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "13",
+    "kategori": "pilihan ganda",
+    "soal": "<家:いえ:rumah> から <学校:がっこう:sekolah> まで ___ <行きます:いきます:pergi>。",
+    "pilihan_jawaban": ["歩いて", "歩きで", "歩くで", "歩いてで"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "13",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari Bahasa Indonesia -> 日本語 \n (Saya) pergi ke Jepang dengan pesawat.",
+    "pilihan_jawaban": [
+      "<日本:にほん:Jepang> へ <飛行機:ひこうき:pesawat> で <行きます:いきます:pergi>",
+      "<日本:にほん:Jepang> で <飛行機:ひこうき:pesawat> へ <行きます:いきます:pergi>",
+      "<日本:にほん:Jepang> へ <飛行機:ひこうき:pesawat> と <行きます:いきます:pergi>",
+      "<日本:にほん:Jepang> を <飛行機:ひこうき:pesawat> で <行きます:いきます:pergi>"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "13",
+    "kategori": "pilihan ganda",
+    "soal": "Translate dari 日本語 -> Bahasa Indonesia \n <友達:ともだち:teman> と <公園:こうえん:taman> へ <行きます:いきます:pergi>。",
+    "pilihan_jawaban": [
+      "Pergi ke taman dengan teman",
+      "Pergi ke taman sendirian",
+      "Pergi ke sekolah dengan teman",
+      "Tidak pergi ke taman"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "13",
+    "kategori": "pilihan ganda",
+    "soal": "<夏休み:なつやすみ:libur musim panas> に ___ <行きました:いきました:pergi (lampau)> か。",
+    "pilihan_jawaban": ["どこかへ", "どこへも", "どこかで", "どこにも"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "13",
+    "kategori": "pilihan ganda",
+    "soal": "___ <京都:きょうと:Kyoto> へ <行きます:いきます:pergi> か。― <家族:かぞく:keluarga> と <行きます:いきます:pergi>。",
+    "pilihan_jawaban": ["だれと", "どこへ", "いつ", "なにで"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "13",
+    "kategori": "pilihan ganda",
+    "soal": "___ <東京:とうきょう:Tokyo> へ <行きます:いきます:pergi> か。― <新幹線:しんかんせん:shinkansen> で <行きます:いきます:pergi>。",
+    "pilihan_jawaban": ["何で", "だれと", "いつ", "何を"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "13",
+    "kategori": "pilihan ganda",
+    "soal": "<昨日:きのう:kemarin> は どこへも ___。",
+    "pilihan_jawaban": [
+      "行きませんでした",
+      "行きました",
+      "行きません",
+      "行きます"
+    ],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "13",
+    "kategori": "pilihan ganda",
+    "soal": "<日曜日:にちようび:hari Minggu> ___ <買い物:かいもの:belanja> を します。",
+    "pilihan_jawaban": ["に", "で", "へ", "を"],
+    "jawaban_benar": "a"
+  }
+]

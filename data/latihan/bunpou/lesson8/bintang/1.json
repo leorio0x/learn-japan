@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "8",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["花を", "買いました", "は", "きれいな", "わたし"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "8",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["とても", "静か", "この", "です", "町は"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "8",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["この", "じゃないです", "きれい", "部屋は", "あまり"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "8",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["です", "親切な", "とても", "人", "田中さんは"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "8",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["です", "とても", "あの", "山は", "きれい"],
+    "jawaban_benar": "e"
+  },
+  {
+    "lesson": "8",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["日", "です", "きょうは", "暑い", "とても"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "8",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["とても", "有名", "この", "です", "レストランは"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "8",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["きのう", "買いました", "カメラを", "わたしは", "新しい"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "8",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["あまり", "じゃないです", "この町は", "便利", "静かですが"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "8",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["です", "とても", "わたしの", "寮は", "便利"],
+    "jawaban_benar": "e"
+  }
+]

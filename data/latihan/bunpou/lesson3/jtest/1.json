@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "3",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. ここ 2. わたし 3. の 4. きょうしつ ]です",
+    "jawaban": "ここはわたしのきょうしつです"
+  },
+  {
+    "lesson": "3",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. おてあらい 2. どこ ]ですか",
+    "jawaban": "おてあらいはどこ"
+  },
+  {
+    "lesson": "3",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. じむしょ 2. なんがい ]ですか",
+    "jawaban": "じむしょはなんがい"
+  },
+  {
+    "lesson": "3",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. この 2. くつ 3. いくら ]ですか",
+    "jawaban": "このくつはいくら"
+  },
+  {
+    "lesson": "3",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. あそこ 2. も 3. しょくどう ]です",
+    "jawaban": "あそこもしょくどう"
+  },
+  {
+    "lesson": "3",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. エレベーター 2. あちら ]です",
+    "jawaban": "エレベーターはあちら"
+  },
+  {
+    "lesson": "3",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. ここ 2. にほんご 3. の 4. きょうしつ ]です",
+    "jawaban": "ここはにほんごのきょうしつ"
+  },
+  {
+    "lesson": "3",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. かいぎしつ 2. 5かい ]です",
+    "jawaban": "かいぎしつは5かい"
+  },
+  {
+    "lesson": "3",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. わたし 2. の 3. へや 4. 2かい ]です",
+    "jawaban": "わたしのへやは2かい"
+  },
+  {
+    "lesson": "3",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. ワイン 2. うりば 3. どこ ]ですか",
+    "jawaban": "ワインのうりばはどこ"
+  }
+]

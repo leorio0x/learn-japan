@@ -1,0 +1,69 @@
+[
+  {
+    "lesson": "5",
+    "kategori": "dokkai",
+    "dokkai": "<私:わたし:saya> は <田中:たなか:Tanaka> です。<先週:せんしゅう:minggu lalu>、<友達:ともだち:teman> と <京都:きょうと:Kyoto> へ <行きました:いきました:pergi>。<東京:とうきょう:Tokyo> から <新幹線:しんかんせん:shinkansen> で <京都:きょうと:Kyoto> まで <行きました:いきました:pergi>。<京都:きょうと:Kyoto> から <大阪:おおさか:Osaka> まで <電車:でんしゃ:kereta> で <行きました:いきました:pergi>。<大阪:おおさか:Osaka> から <東京:とうきょう:Tokyo> まで <飛行機:ひこうき:pesawat> で <帰りました:かえりました:pulang>。<来週:らいしゅう:minggu depan>、<家族:かぞく:keluarga> と <北海道:ほっかいどう:Hokkaido> へ <行きます:いきます:pergi>。<北海道:ほっかいどう:Hokkaido> へ は <飛行機:ひこうき:pesawat> で <行きます:いきます:pergi>。<一人:ひとり:sendirian> で <行きません:いきません:tidak pergi>。いつも <家族:かぞく:keluarga> と <行きます:いきます:pergi>。<私:わたし:saya> の <誕生日:たんじょうび:ulang tahun> は 5月5日 です。<来月:らいげつ:bulan depan>、<彼女:かのじょ:dia perempuan> と <京都:きょうと:Kyoto> へ <行きます:いきます:pergi>。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<田中:たなか:Tanaka> さん は <先週:せんしゅう:minggu lalu> どこ へ <行きました:いきました:pergi> か。",
+        "pilihan_jawaban": ["<東京:とうきょう:Tokyo>", "<京都:きょうと:Kyoto>", "<大阪:おおさか:Osaka>", "<北海道:ほっかいどう:Hokkaido>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<田中:たなか:Tanaka> さん は だれ と <行きました:いきました:pergi> か。",
+        "pilihan_jawaban": ["<家族:かぞく:keluarga>", "<友達:ともだち:teman>", "<彼女:かのじょ:dia perempuan>", "<先生:せんせい:guru>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<東京:とうきょう:Tokyo> から <京都:きょうと:Kyoto> まで <何:なん:apa> で <行きました:いきました:pergi> か。",
+        "pilihan_jawaban": ["<電車:でんしゃ:kereta>", "<飛行機:ひこうき:pesawat>", "<新幹線:しんかんせん:shinkansen>", "<バス:バス:bus>"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<京都:きょうと:Kyoto> から <大阪:おおさか:Osaka> まで <何:なん:apa> で <行きました:いきました:pergi> か。",
+        "pilihan_jawaban": ["<新幹線:しんかんせん:shinkansen>", "<電車:でんしゃ:kereta>", "<飛行機:ひこうき:pesawat>", "<船:ふね:kapal>"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<大阪:おおさか:Osaka> から <東京:とうきょう:Tokyo> まで <何:なん:apa> で <帰りました:かえりました:pulang> か。",
+        "pilihan_jawaban": ["<電車:でんしゃ:kereta>", "<新幹線:しんかんせん:shinkansen>", "<飛行機:ひこうき:pesawat>", "<自転車:じてんしゃ:sepeda>"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<来週:らいしゅう:minggu depan> どこ へ <行きます:いきます:pergi> か。",
+        "pilihan_jawaban": ["<京都:きょうと:Kyoto>", "<大阪:おおさか:Osaka>", "<北海道:ほっかいどう:Hokkaido>", "<東京:とうきょう:Tokyo>"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "7",
+        "pertanyaan": "<来週:らいしゅう:minggu depan> だれ と <行きます:いきます:pergi> か。",
+        "pilihan_jawaban": ["<友達:ともだち:teman>", "<家族:かぞく:keluarga>", "<彼女:かのじょ:dia perempuan>", "ひとりで"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "8",
+        "pertanyaan": "<一人:ひとり:sendirian> で <行きます:いきます:pergi> か。",
+        "pilihan_jawaban": ["はい、一人で行きます", "いいえ、家族と行きます", "はい、友達と行きます", "いいえ、一人で行きません"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "9",
+        "pertanyaan": "<田中:たなか:Tanaka> さん の <誕生日:たんじょうび:ulang tahun> は いつ ですか。",
+        "pilihan_jawaban": ["5月3日", "5月5日", "5月8日", "5月10日"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "10",
+        "pertanyaan": "<来月:らいげつ:bulan depan> だれ と <京都:きょうと:Kyoto> へ <行きます:いきます:pergi> か。",
+        "pilihan_jawaban": ["<友達:ともだち:teman>", "<家族:かぞく:keluarga>", "<彼女:かのじょ:dia perempuan>", "ひとりで"],
+        "jawaban_benar": "c"
+      }
+    ]
+  }
+]

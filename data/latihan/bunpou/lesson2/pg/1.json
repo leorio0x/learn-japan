@@ -1,0 +1,37 @@
+[
+  {
+    "lesson": "2",
+    "kategori": "pilihan ganda",
+    "soal": "___ は <私:わたし:saya> の <本:ほん:buku> です",
+    "pilihan_jawaban": ["この", "これ", "それ", "あの"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "2",
+    "kategori": "pilihan ganda",
+    "soal": "___ <辞書:じしょ:kamus> は <私:わたし:saya> の です",
+    "pilihan_jawaban": ["これ", "この", "それ", "あの"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "2",
+    "kategori": "pilihan ganda",
+    "soal": "あの <人:ひと:orang> は <誰:だれ:siapa> ___ か",
+    "pilihan_jawaban": ["ます", "です", "の", "は"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "2",
+    "kategori": "pilihan ganda",
+    "soal": "「それは <雑誌:ざっし:majalah> ですか。」「いいえ、___。」",
+    "pilihan_jawaban": ["そうです", "そうじゃありません", "ちがいますです", "はい、そうです"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "2",
+    "kategori": "pilihan ganda",
+    "soal": "この <傘:かさ:payung> は <田中:たなか:Tanaka> さん ___ です",
+    "pilihan_jawaban": ["は", "の", "も", "を"],
+    "jawaban_benar": "b"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "2",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___ です。",
+    "pilihan_jawaban": ["本", "これ", "の", "は", "わたし"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "2",
+    "kategori": "bintang",
+    "soal": "___ ★ ___ ___ ___ です。",
+    "pilihan_jawaban": ["の", "田中さん", "傘", "その", "は"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "2",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ です。",
+    "pilihan_jawaban": ["は", "ミラーさん", "あの", "人"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "2",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ___ ★ です。",
+    "pilihan_jawaban": ["わたし", "は", "の", "この", "辞書"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "2",
+    "kategori": "bintang",
+    "soal": "★ ___ ___ ___ ___ じゃありません。",
+    "pilihan_jawaban": ["傘", "わたし", "それ", "の", "は"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "2",
+    "kategori": "bintang",
+    "soal": "___ ___ ★ ___ ___ です。",
+    "pilihan_jawaban": ["の", "車", "あれ", "田中さん", "は"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "2",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___ ですか。",
+    "pilihan_jawaban": ["の", "この", "だれ", "は", "カメラ"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "2",
+    "kategori": "bintang",
+    "soal": "★ ___ ___ ___ ___ です。",
+    "pilihan_jawaban": ["の", "わたし", "その", "は", "ノート"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "2",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ___ ★ です。",
+    "pilihan_jawaban": ["本", "何", "これ", "の", "は"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "2",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___ です。",
+    "pilihan_jawaban": ["車", "あれ", "の", "ミラーさん", "は"],
+    "jawaban_benar": "d"
+  }
+]

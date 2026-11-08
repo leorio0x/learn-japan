@@ -1,0 +1,21 @@
+[
+  {
+    "lesson": "nomor lesson",
+    "kategori": "dokkai",
+    "dokkai": "disini berisi beberapa paragraf cerita, jika ada kanji tulis dengan format <kanji:kana:arti> \n\n jika hanya kana = <:kana:arti>",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "<kanji:kana:arti> <:kana:arti> ?",
+        "pilihan_jawaban": ["a", "b", "c", "d"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<kanji:kana:arti> <:kana:arti> ?",
+        "pilihan_jawaban": ["a", "b", "c", "d"],
+        "jawaban_benar": "c"
+      }
+    ]
+  }
+]

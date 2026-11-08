@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "6",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <毎朝:まいあさ:setiap pagi> パン ___ <食べます:たべます:makan>。",
+    "pilihan_jawaban": ["で", "を", "に", "は"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "6",
+    "kategori": "pilihan ganda",
+    "soal": "<図書館:としょかん:perpustakaan> ___ <本:ほん:buku> を <読みます:よみます:membaca>。",
+    "pilihan_jawaban": ["で", "を", "に", "へ"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "6",
+    "kategori": "pilihan ganda",
+    "soal": "<昨日:きのう:kemarin> <映画:えいが:film> ___ <見ました:みました:menonton>。",
+    "pilihan_jawaban": ["で", "に", "を", "が"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "6",
+    "kategori": "pilihan ganda",
+    "soal": "<一緒:いっしょ:bersama> に <昼ご飯:ひるごはん:makan siang> を ___ か。",
+    "pilihan_jawaban": ["食べました", "食べませんか", "食べます", "食べません"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "6",
+    "kategori": "pilihan ganda",
+    "soal": "<少し:すこし:sedikit> ___ 。",
+    "pilihan_jawaban": ["休みません", "休みました", "休みます", "休みましょう"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "6",
+    "kategori": "pilihan ganda",
+    "soal": "<毎晩:まいばん:setiap malam> <音楽:おんがく:musik> ___ <聞きます:ききます:mendengar>。",
+    "pilihan_jawaban": ["に", "を", "で", "へ"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "6",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka> さん は <駅:えき:stasiun> ___ <友達:ともだち:teman> に <会いました:あいました:bertemu>。",
+    "pilihan_jawaban": ["を", "に", "で", "へ"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "6",
+    "kategori": "pilihan ganda",
+    "soal": "<牛乳:ぎゅうにゅう:susu> ___ <飲みます:のみます:minum> か。",
+    "pilihan_jawaban": ["が", "で", "と", "を"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "6",
+    "kategori": "pilihan ganda",
+    "soal": "<明日:あした:besok> <何:なに:apa> ___ しますか。",
+    "pilihan_jawaban": ["を", "で", "に", "へ"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "6",
+    "kategori": "pilihan ganda",
+    "soal": "<日曜日:にちようび:hari Minggu> に <友達:ともだち:teman> ___ <会います:あいます:bertemu>。",
+    "pilihan_jawaban": ["を", "で", "に", "へ"],
+    "jawaban_benar": "c"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "lesson": "20",
+    "kategori": "jtest",
+    "instruksi": "ubah kedalam bentuk biasa/non-formal",
+    "soal": "[1. ねます → 2. まえ → 3. にっき ]かきます",
+    "jawaban": "ねるまえににっきお"
+  },
+  {
+    "lesson": "nomor lesson",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. <私:わたし:saya> 2. まいあさ 3. 6じ ]おきます",
+    "jawaban": "わたしはまいあさ6じに"
+  }
+]

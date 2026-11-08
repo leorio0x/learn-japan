@@ -1,0 +1,107 @@
+[
+  {
+    "lesson": "12",
+    "kategori": "pilihan ganda",
+    "soal": "<東京:とうきょう:Tokyo> は <大阪:おおさか:Osaka> ___ <大きい:おおきい:besar> です。",
+    "pilihan_jawaban": ["ほど", "より", "のほうが", "いちばん"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "12",
+    "kategori": "pilihan ganda",
+    "soal": "この かばん ___ あの かばんの ほうが <軽い:かるい:ringan> です。",
+    "pilihan_jawaban": ["ほど", "より", "でも", "だけ"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "12",
+    "kategori": "pilihan ganda",
+    "soal": "<夏:なつ:musim panas> と <冬:ふゆ:musim dingin> と ___ が <好き:すき:suka> ですか。",
+    "pilihan_jawaban": ["どれ", "どちら", "どこ", "いつ"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "12",
+    "kategori": "pilihan ganda",
+    "soal": "<犬:いぬ:anjing> と <猫:ねこ:kucing> と どちらが <好き:すき:suka> ですか。― <猫:ねこ:kucing> ___ <好き:すき:suka> です。",
+    "pilihan_jawaban": ["より", "ほど", "のほうが", "が"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "12",
+    "kategori": "pilihan ganda",
+    "soal": "<今日:きょう:hari ini> は <昨日:きのう:kemarin> ___ <暑くない:あつくない:tidak panas> です。",
+    "pilihan_jawaban": ["より", "ほど", "のほうが", "いちばん"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "12",
+    "kategori": "pilihan ganda",
+    "soal": "<日本:にほん:Jepang> で ___ <高い:たかい:tinggi> <山:やま:gunung> は <富士山:ふじさん:Gunung Fuji> です。",
+    "pilihan_jawaban": ["より", "ほど", "いちばん", "ずっと"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "12",
+    "kategori": "pilihan ganda",
+    "soal": "<一年:いちねん:satu tahun> で ___ <暑い:あつい:panas> <季節:きせつ:musim> は <夏:なつ:musim panas> です。",
+    "pilihan_jawaban": ["いちばん", "ずっと", "ほど", "より"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "12",
+    "kategori": "pilihan ganda",
+    "soal": "この <部屋:へや:kamar> は あの <部屋:へや:kamar> ほど ___ です。",
+    "pilihan_jawaban": ["広い", "広くない", "広かった", "広くなかった"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "12",
+    "kategori": "pilihan ganda",
+    "soal": "<昨日:きのう:kemarin> の <天気:てんき:cuaca> は ___ でした。",
+    "pilihan_jawaban": ["曇り", "曇りだ", "曇りな", "曇りの"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "12",
+    "kategori": "pilihan ganda",
+    "soal": "<昨日:きのう:kemarin> の テストは ___ でした。",
+    "pilihan_jawaban": ["簡単", "簡単な", "簡単だ", "簡単の"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "12",
+    "kategori": "pilihan ganda",
+    "soal": "この りんごは あの りんご ___ <甘くない:あまくない:tidak manis> です。",
+    "pilihan_jawaban": ["より", "ほど", "のほうが", "だけ"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "12",
+    "kategori": "pilihan ganda",
+    "soal": "<春:はる:musim semi> は <秋:あき:musim gugur> ___ <暖かい:あたたかい:hangat> です。",
+    "pilihan_jawaban": ["ほど", "より", "いちばん", "のほうが"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "12",
+    "kategori": "pilihan ganda",
+    "soal": "<世界:せかい:dunia> で ___ <高い:たかい:tinggi> <山:やま:gunung> は エベレストです。",
+    "pilihan_jawaban": ["いちばん", "より", "ほど", "ずっと"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "12",
+    "kategori": "pilihan ganda",
+    "soal": "ホテルは <駅:えき:stasiun> ___ <近い:ちかい:dekat> です。",
+    "pilihan_jawaban": ["まで", "から", "より", "ほど"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "12",
+    "kategori": "pilihan ganda",
+    "soal": "この かばんは あの かばんより ___ <軽い:かるい:ringan> です。",
+    "pilihan_jawaban": ["ずっと", "ほど", "いちばん", "しか"],
+    "jawaban_benar": "a"
+  }
+]

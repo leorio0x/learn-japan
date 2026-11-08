@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "10",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. つくえ 2. うえ 3. ほん ]あります",
+    "jawaban": "つくえのうえにほんが"
+  },
+  {
+    "lesson": "10",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. こうえん 2. こども ]います",
+    "jawaban": "こうえんにこどもが"
+  },
+  {
+    "lesson": "10",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "れいぞうこの [1. なか 2. ビール ]あります",
+    "jawaban": "なかにビールが"
+  },
+  {
+    "lesson": "10",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "ねこは [1. いす 2. した ]います",
+    "jawaban": "いすのしたに"
+  },
+  {
+    "lesson": "10",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "ゆうびんきょくとぎんこうの [1. あいだ 2. こうえん ]あります",
+    "jawaban": "あいだにこうえんが"
+  },
+  {
+    "lesson": "10",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "はこのなかに [1. でんち 2. スイッチ ]などがあります",
+    "jawaban": "でんちやすイッチ"
+  },
+  {
+    "lesson": "10",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "たなかさんは [1. いま 2. じむしょ ]います",
+    "jawaban": "いまじむしょに"
+  },
+  {
+    "lesson": "10",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "きょうしつに [1. おとこのひと 2. おんなのひと ]います",
+    "jawaban": "おとこのひととおんなのひとが"
+  },
+  {
+    "lesson": "10",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "ほんやは [1. あの 2. コンビニ 3. となり ]です",
+    "jawaban": "あのコンビニのとなり"
+  },
+  {
+    "lesson": "10",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "こうえんに [1. いろいろ 2. き ]あります",
+    "jawaban": "いろいろなきが"
+  }
+]

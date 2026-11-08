@@ -1,0 +1,100 @@
+[
+  {
+    "lesson": "11",
+    "kategori": "pilihan ganda",
+    "soal": "<教室:きょうしつ:ruang kelas> に <学生:がくせい:pelajar> が ___ います。",
+    "pilihan_jawaban": ["三人", "三枚", "三台", "三本"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "11",
+    "kategori": "pilihan ganda",
+    "soal": "<切手:きって:perangko> を <五:ご:lima>___ ください。",
+    "pilihan_jawaban": ["人", "枚", "台", "杯"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "11",
+    "kategori": "pilihan ganda",
+    "soal": "<冷蔵庫:れいぞうこ:kulkas> に ビールが <三:さん:tiga>___ あります。",
+    "pilihan_jawaban": ["枚", "台", "本", "人"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "11",
+    "kategori": "pilihan ganda",
+    "soal": "<車:くるま:mobil> が <二:に:dua>___ あります。",
+    "pilihan_jawaban": ["本", "枚", "杯", "台"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "11",
+    "kategori": "pilihan ganda",
+    "soal": "コーヒーを <二:に:dua>___ ください。",
+    "pilihan_jawaban": ["台", "杯", "人", "枚"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "11",
+    "kategori": "pilihan ganda",
+    "soal": "<毎日:まいにち:setiap hari> <一:いち:satu>___ <日本語:にほんご:bahasa Jepang> を <勉強します:べんきょうします:belajar>。",
+    "pilihan_jawaban": ["日", "回", "時間", "年"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "11",
+    "kategori": "pilihan ganda",
+    "soal": "<三:さん:tiga>___ <日本語:にほんご:bahasa Jepang> を <勉強しました:べんきょうしました:belajar (lampau)>。",
+    "pilihan_jawaban": ["時間", "人", "枚", "か月"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "11",
+    "kategori": "pilihan ganda",
+    "soal": "<駅:えき:stasiun> まで ___ かかりますか。",
+    "pilihan_jawaban": ["いつ", "だれ", "どのくらい", "どうして"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "11",
+    "kategori": "pilihan ganda",
+    "soal": "<家:うち:rumah> から <学校:がっこう:sekolah> まで <二十分:にじゅっぷん:dua puluh menit> ___ かかります。",
+    "pilihan_jawaban": ["だけ", "しか", "より", "ぐらい"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "11",
+    "kategori": "pilihan ganda",
+    "soal": "<一週間:いっしゅうかん:satu minggu> に <二:に:dua>___ <映画:えいが:film> を <見ます:みます:menonton>。",
+    "pilihan_jawaban": ["枚", "回", "本", "台"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "11",
+    "kategori": "pilihan ganda",
+    "soal": "パーティーに <田中:たなか:Tanaka> さん ___ <来ました:きました:datang (lampau)>。",
+    "pilihan_jawaban": ["ぐらい", "か", "だけ", "も"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "11",
+    "kategori": "pilihan ganda",
+    "soal": "りんごを <五:いつ:lima>つ <買いました:かいました:membeli (lampau)>。___ <千円:せんえん:seribu yen> です。",
+    "pilihan_jawaban": ["みんな", "だけ", "ぐらい", "ぜんぶで"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "11",
+    "kategori": "pilihan ganda",
+    "soal": "<日本:にほん:Jepang> に <三:さん:tiga>___ います。",
+    "pilihan_jawaban": ["日", "年", "回", "枚"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "11",
+    "kategori": "pilihan ganda",
+    "soal": "<学生:がくせい:pelajar> は ___ <来ました:きました:datang (lampau)>。",
+    "pilihan_jawaban": ["だけ", "ぐらい", "みんな", "ぜんぶで"],
+    "jawaban_benar": "c"
+  }
+]

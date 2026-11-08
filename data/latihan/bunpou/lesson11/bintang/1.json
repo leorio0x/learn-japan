@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "11",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["勉強します", "二時間", "わたしは", "日本語を", "毎日"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "11",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["買いました", "きのう", "五つ", "スーパーで", "りんごを"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "11",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["五枚", "買います", "あした", "郵便局で", "切手を"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "11",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["見ます", "わたしは", "一週間に", "二回", "映画を"],
+    "jawaban_benar": "e"
+  },
+  {
+    "lesson": "11",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["います", "三年", "わたしは", "会社に", "日本の"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "11",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["飲みます", "毎朝", "コーヒーを", "二杯", "わたしは"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "11",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["来ました", "十人", "きのうの", "学生が", "パーティーに"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "11",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["かかります", "学校まで", "ぐらい", "家から", "一時間"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "11",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["三本", "あります", "今", "冷蔵庫に", "ビールが"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "11",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["います", "この", "教室に", "学生が", "五人"],
+    "jawaban_benar": "e"
+  }
+]

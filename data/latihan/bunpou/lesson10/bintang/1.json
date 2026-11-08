@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "10",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["本が", "あります", "わたしの", "上に", "机の"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "10",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["犬と猫が", "たくさん", "公園", "います", "に"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "10",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["冷蔵庫", "あります", "ビールが", "中に", "の"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "10",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["います", "猫", "椅子の", "下に", "は"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "10",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["あります", "銀行の", "郵便局と", "間に", "公園が"],
+    "jawaban_benar": "e"
+  },
+  {
+    "lesson": "10",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["スイッチなどが", "あります", "箱の", "中に", "電池や"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "10",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["今", "事務所に", "田中さん", "います", "は"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "10",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["教室", "います", "女の人が", "男の人と", "に"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "10",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["隣です", "本屋", "あの", "コンビニの", "は"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "10",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["あります", "いろいろな", "公園", "に", "木が"],
+    "jawaban_benar": "e"
+  }
+]

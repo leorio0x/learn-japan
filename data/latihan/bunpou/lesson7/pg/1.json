@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "7",
+    "kategori": "pilihan ganda",
+    "soal": "<箸:はし:sumpit> ___ <ご飯:ごはん:nasi> を <食べます:たべます:makan>。",
+    "pilihan_jawaban": ["で", "を", "に", "へ"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "7",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <田中:たなか:Tanaka> さん ___ <花:はな:bunga> を <あげます:あげます:memberi>。",
+    "pilihan_jawaban": ["に", "を", "で", "が"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "7",
+    "kategori": "pilihan ganda",
+    "soal": "<先生:せんせい:guru> ___ <辞書:じしょ:kamus> を <もらいました:もらいました:menerima>。",
+    "pilihan_jawaban": ["を", "に", "で", "へ"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "7",
+    "kategori": "pilihan ganda",
+    "soal": "もう <昼ご飯:ひるごはん:makan siang> を ___。",
+    "pilihan_jawaban": ["食べます", "食べました", "食べません", "食べませんか"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "7",
+    "kategori": "pilihan ganda",
+    "soal": "<日本語:にほんご:bahasa Jepang> ___ <手紙:てがみ:surat> を <書きます:かきます:menulis>。",
+    "pilihan_jawaban": ["に", "で", "を", "へ"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "7",
+    "kategori": "pilihan ganda",
+    "soal": "まだ <朝ご飯:あさごはん:sarapan> を ___。",
+    "pilihan_jawaban": ["食べました", "食べません", "食べます", "食べましょう"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "7",
+    "kategori": "pilihan ganda",
+    "soal": "ナイフ ___ パン を <切ります:きります:memotong>。",
+    "pilihan_jawaban": ["を", "に", "で", "へ"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "7",
+    "kategori": "pilihan ganda",
+    "soal": "<友達:ともだち:teman> ___ <切符:きっぷ:karcis> を <あげました:あげました:memberi>。",
+    "pilihan_jawaban": ["で", "に", "を", "が"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "7",
+    "kategori": "pilihan ganda",
+    "soal": "<母:はは:ibu> ___ セーター を <もらいました:もらいました:menerima>。",
+    "pilihan_jawaban": ["を", "で", "に", "へ"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "7",
+    "kategori": "pilihan ganda",
+    "soal": "もう <宿題:しゅくだい:PR> を ___。",
+    "pilihan_jawaban": ["します", "しません", "しました", "しましょう"],
+    "jawaban_benar": "c"
+  }
+]

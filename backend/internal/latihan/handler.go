@@ -44,7 +44,7 @@ func (h *Handler) Create(c *fiber.Ctx) error {
 		return fiber.NewError(fiber.StatusBadRequest, "body tidak valid")
 	}
 	soal, err := h.svc.Create(req)
-	if errors.Is(err, ErrInvalidLesson) || errors.Is(err, ErrInvalidRequest) {
+	if errors.Is(err, ErrInvalidLesson) || errors.Is(err, ErrInvalidRequest) || errors.Is(err, ErrInvalidKategori) {
 		return fiber.NewError(fiber.StatusBadRequest, err.Error())
 	}
 	if err != nil {
@@ -60,7 +60,7 @@ func (h *Handler) Update(c *fiber.Ctx) error {
 		return fiber.NewError(fiber.StatusBadRequest, "body tidak valid")
 	}
 	soal, err := h.svc.Update(c.Params("lesson"), c.Params("id"), req)
-	if errors.Is(err, ErrInvalidLesson) || errors.Is(err, ErrInvalidRequest) {
+	if errors.Is(err, ErrInvalidLesson) || errors.Is(err, ErrInvalidRequest) || errors.Is(err, ErrInvalidKategori) {
 		return fiber.NewError(fiber.StatusBadRequest, err.Error())
 	}
 	if errors.Is(err, ErrNotFound) {

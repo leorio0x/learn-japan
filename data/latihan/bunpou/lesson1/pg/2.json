@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "1",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> ___ <学生:がくせい:mahasiswa> です",
+    "pilihan_jawaban": ["が", "は", "を", "に"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "1",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka> さん ___ <先生:せんせい:guru> じゃありません",
+    "pilihan_jawaban": ["も", "は", "の", "か"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "1",
+    "kategori": "pilihan ganda",
+    "soal": "<あなた:あなた:Anda> は <会社員:かいしゃいん:pegawai perusahaan> ___ か",
+    "pilihan_jawaban": ["ます", "です", "だ", "な"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "1",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <IMC::IMC> ___ <社員:しゃいん:karyawan> です",
+    "pilihan_jawaban": ["は", "の", "も", "か"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "1",
+    "kategori": "pilihan ganda",
+    "soal": "<ミラー::Miller> さん ___ <学生:がくせい:mahasiswa> です",
+    "pilihan_jawaban": ["も", "は", "の", "を"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "1",
+    "kategori": "pilihan ganda",
+    "soal": "あの <人:ひと:orang> は ___ ですか",
+    "pilihan_jawaban": ["だれ", "どこ", "なん", "いくら"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "1",
+    "kategori": "pilihan ganda",
+    "soal": "<私:わたし:saya> は <学生:がくせい:mahasiswa> ___ ありません",
+    "pilihan_jawaban": ["は", "では", "も", "の"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "1",
+    "kategori": "pilihan ganda",
+    "soal": "サントスさん は <ブラジル::Brasil> ___ <来ました:きました:datang>",
+    "pilihan_jawaban": ["まで", "から", "の", "は"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "1",
+    "kategori": "pilihan ganda",
+    "soal": "<田中:たなか:Tanaka> さん は <医者:いしゃ:dokter> です。<ミラー::Miller> さん ___ <医者:いしゃ:dokter> です",
+    "pilihan_jawaban": ["は", "も", "の", "が"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "1",
+    "kategori": "pilihan ganda",
+    "soal": "<お名前:おなまえ:nama> は ___ ですか",
+    "pilihan_jawaban": ["なん", "だれ", "どこ", "いくら"],
+    "jawaban_benar": "a"
+  }
+]

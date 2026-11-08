@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "9",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["好き", "です", "クラシックが", "とても", "わたしは"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "9",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["とても", "上手", "田中さんは", "です", "スポーツが"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "9",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["わたし", "日本語が", "よく", "分かります", "は"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "9",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["お金が", "ありません", "わたし", "全然", "は"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "9",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["行きません", "用事が", "わたし", "は", "ありますから"],
+    "jawaban_benar": "e"
+  },
+  {
+    "lesson": "9",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["人", "好きな", "田中さんは", "です", "音楽が"],
+    "jawaban_benar": "a"
+  },
+  {
+    "lesson": "9",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["です", "嫌い", "わたし", "野菜が", "は"],
+    "jawaban_benar": "b"
+  },
+  {
+    "lesson": "9",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["姉は", "とても", "下手", "です", "歌が"],
+    "jawaban_benar": "c"
+  },
+  {
+    "lesson": "9",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["好きじゃありません", "わたし", "カラオケが", "あまり", "は"],
+    "jawaban_benar": "d"
+  },
+  {
+    "lesson": "9",
+    "kategori": "bintang",
+    "soal": "___ ___ ___ ★ ___。",
+    "pilihan_jawaban": ["分かります", "漢字が", "わたし", "は", "少し"],
+    "jawaban_benar": "e"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "lesson": "5",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. わたし 2. まいにち 3. がっこう 4. へ ]いきます",
+    "jawaban": "わたしはまいにちがっこうへ"
+  },
+  {
+    "lesson": "5",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. でんしゃ 2. かいしゃ 3. へ ]いきます",
+    "jawaban": "でんしゃでかいしゃへ"
+  },
+  {
+    "lesson": "5",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. たなかさん 2. と 3. がっこう 4. へ ]いきます",
+    "jawaban": "たなかさんとがっこうへ"
+  },
+  {
+    "lesson": "5",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. いつ 2. にほん 3. へ ]いきますか",
+    "jawaban": "いつにほんへ"
+  },
+  {
+    "lesson": "5",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. えき 2. から 3. あるいて ]いきます",
+    "jawaban": "えきからあるいて"
+  },
+  {
+    "lesson": "5",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. ひこうき 2. にほん 3. へ ]いきます",
+    "jawaban": "ひこうきでにほんへ"
+  },
+  {
+    "lesson": "5",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. わたし 2. ひとりで ]いきます",
+    "jawaban": "わたしはひとりで"
+  },
+  {
+    "lesson": "5",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. ともだち 2. と ]きます",
+    "jawaban": "ともだちと"
+  },
+  {
+    "lesson": "5",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. せんしゅう 2. にほん 3. へ ]いきました",
+    "jawaban": "せんしゅうにほんへ"
+  },
+  {
+    "lesson": "5",
+    "kategori": "jtest",
+    "instruksi": "susunlah kata-kata berikut menjadi kalimat yang benar",
+    "soal": "[1. たんじょうび 2. いつ ]ですか",
+    "jawaban": "たんじょうびはいつ"
+  }
+]

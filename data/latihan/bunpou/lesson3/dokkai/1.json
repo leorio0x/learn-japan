@@ -1,0 +1,69 @@
+[
+  {
+    "lesson": "3",
+    "kategori": "dokkai",
+    "dokkai": "<私:わたし:saya> の <会社:かいしゃ:perusahaan> は IMC です。IMC の <事務所:じむしょ:kantor> は 5階 です。<受付:うけつけ:resepsionis> は 1階 です。<食堂:しょくどう:kantin> は 2階 です。<私:わたし:saya> の <部屋:へや:kamar> は 3階 です。<会議室:かいぎしつ:ruang rapat> は 4階 です。<会議室:かいぎしつ:ruang rapat> は 3階 じゃありません。<お手洗い:おてあらい:toilet> は あそこ です。エレベーター は こちら です。ワイン の <売り場:うりば:tempat penjualan> は <地下:ちか:basement> 1階 です。この <靴:くつ:sepatu> は 5000円 です。",
+    "soal": [
+      {
+        "no": "1",
+        "pertanyaan": "IMC の <事務所:じむしょ:kantor> は <何階:なんがい:lantai berapa> ですか。",
+        "pilihan_jawaban": ["1階", "2階", "4階", "5階"],
+        "jawaban_benar": "d"
+      },
+      {
+        "no": "2",
+        "pertanyaan": "<受付:うけつけ:resepsionis> は <何階:なんがい:lantai berapa> ですか。",
+        "pilihan_jawaban": ["1階", "2階", "3階", "5階"],
+        "jawaban_benar": "a"
+      },
+      {
+        "no": "3",
+        "pertanyaan": "<食堂:しょくどう:kantin> は <何階:なんがい:lantai berapa> ですか。",
+        "pilihan_jawaban": ["1階", "2階", "3階", "4階"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "4",
+        "pertanyaan": "<私:わたし:saya> の <部屋:へや:kamar> は <何階:なんがい:lantai berapa> ですか。",
+        "pilihan_jawaban": ["1階", "2階", "3階", "4階"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "5",
+        "pertanyaan": "<会議室:かいぎしつ:ruang rapat> は <何階:なんがい:lantai berapa> ですか。",
+        "pilihan_jawaban": ["2階", "3階", "4階", "5階"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "6",
+        "pertanyaan": "<会議室:かいぎしつ:ruang rapat> は 3階 ですか。",
+        "pilihan_jawaban": ["はい、3階 です", "いいえ、3階 じゃありません", "はい、4階 です", "いいえ、5階 じゃありません"],
+        "jawaban_benar": "b"
+      },
+      {
+        "no": "7",
+        "pertanyaan": "<お手洗い:おてあらい:toilet> は どこ ですか。",
+        "pilihan_jawaban": ["こちら", "あちら", "あそこ", "そこ"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "8",
+        "pertanyaan": "エレベーター は どこ ですか。",
+        "pilihan_jawaban": ["あそこ", "そこ", "こちら", "あちら"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "9",
+        "pertanyaan": "ワイン の <売り場:うりば:tempat penjualan> は <何階:なんがい:lantai berapa> ですか。",
+        "pilihan_jawaban": ["1階", "2階", "<地下:ちか:basement> 1階", "5階"],
+        "jawaban_benar": "c"
+      },
+      {
+        "no": "10",
+        "pertanyaan": "この <靴:くつ:sepatu> は いくら ですか。",
+        "pilihan_jawaban": ["1000円", "3000円", "5000円", "10000円"],
+        "jawaban_benar": "c"
+      }
+    ]
+  }
+]
