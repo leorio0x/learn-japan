@@ -17,7 +17,9 @@
     let phase = $state("setup");
     let direction = $state("random");
     let answerType = $state("choice");
-    let lesson = $state("all");
+    let selectedLessons = $state([]);
+    let rangeInput = $state("");
+    let rangeError = $state("");
     let batchSize = $state(10);
     let hideKanji = $state(false);
 
@@ -31,6 +33,31 @@
     let answered = $state(false);
 
     const lessons = $derived(uniqueSortedLessons(words));
+    const lessonGroups = $derived.by(() => {
+        const bookOf = new Map();
+        for (const w of words) {
+            const l = String(w.lesson);
+            if (!bookOf.has(l)) bookOf.set(l, w.buku || "");
+        }
+        const groups = new Map();
+        for (const l of lessons) {
+            const buku = bookOf.get(String(l)) || "";
+            if (!groups.has(buku)) groups.set(buku, []);
+            groups.get(buku).push(l);
+        }
+        return [...groups.entries()].map(([buku, list]) => ({
+            buku,
+            label: bookLabel(buku),
+            lessons: list,
+        }));
+    });
+    const lessonSummary = $derived.by(() => {
+        if (!selectedLessons.length) return "";
+        const sorted = [...selectedLessons].sort((a, b) => Number(a) - Number(b));
+        return sorted.length <= 8
+            ? sorted.join(", ")
+            : `${sorted.slice(0, 8).join(", ")}…`;
+    });
     const current = $derived(questions[index] ?? null);
     const autoHideKanji = $derived(isDateWord(current?.word));
     const effectiveHideKanji = $derived(hideKanji || autoHideKanji);
@@ -72,8 +99,70 @@
     }
 
     function lessonPool() {
-        if (lesson === "all") return words;
-        return words.filter((w) => String(w.lesson) === lesson);
+        if (!selectedLessons.length) return words;
+        const chosen = new Set(selectedLessons);
+        return words.filter((w) => chosen.has(String(w.lesson)));
+    }
+
+    function toggleLesson(value) {
+        const key = String(value);
+        rangeError = "";
+        selectedLessons = selectedLessons.includes(key)
+            ? selectedLessons.filter((l) => l !== key)
+            : [...selectedLessons, key];
+    }
+
+    function resetLessons() {
+        rangeError = "";
+        selectedLessons = [];
+    }
+
+    function bookLabel(buku) {
+        const value = String(buku || "").toLowerCase();
+        if (value.includes("1")) return "Minna no Nihongo 1";
+        if (value.includes("2")) return "Minna no Nihongo 2";
+        return buku || "Lainnya";
+    }
+
+    function parseLessonRange(input) {
+        const tokens = input
+            .split(",")
+            .map((t) => t.trim())
+            .filter(Boolean);
+        if (!tokens.length) return { error: "Isi rentang lesson dulu." };
+        const picked = new Set();
+        for (const token of tokens) {
+            const range = token.match(/^(\d+)\s*-\s*(\d+)$/);
+            if (range) {
+                let start = Number(range[1]);
+                let end = Number(range[2]);
+                if (start > end) [start, end] = [end, start];
+                for (let i = start; i <= end; i++) picked.add(String(i));
+            } else if (/^\d+$/.test(token)) {
+                picked.add(String(Number(token)));
+            } else {
+                return { error: `Format "${token}" tidak valid.` };
+            }
+        }
+        return { picked: [...picked] };
+    }
+
+    function applyRange() {
+        const result = parseLessonRange(rangeInput);
+        if (result.error) {
+            rangeError = result.error;
+            return;
+        }
+        const available = new Set(lessons.map(String));
+        const valid = result.picked
+            .filter((l) => available.has(l))
+            .sort((a, b) => Number(a) - Number(b));
+        if (!valid.length) {
+            rangeError = "Tidak ada lesson yang cocok.";
+            return;
+        }
+        rangeError = "";
+        selectedLessons = valid;
     }
 
     function makeQuestion(word) {
@@ -231,26 +320,75 @@
                 </div>
             </div>
 
-            <div class="grid gap-4 sm:grid-cols-2">
-                <div>
-                    <label class="label" for="lesson">Lesson</label>
-                    <select id="lesson" class="input" bind:value={lesson}>
-                        <option value="all">Semua lesson</option>
-                        {#each lessons as l}
-                            <option value={l}>Lesson {l}</option>
-                        {/each}
-                    </select>
+            <div>
+                <div class="flex items-center justify-between gap-2">
+                    <p class="label mb-0">Lesson</p>
+                    {#if selectedLessons.length}
+                        <button
+                            type="button"
+                            class="text-xs font-semibold text-steel hover:underline"
+                            onclick={resetLessons}>Pilih semua</button
+                        >
+                    {/if}
                 </div>
-                <div>
-                    <label class="label" for="batch"
-                        >Jumlah soal per batch</label
+
+                <div class="mt-2 max-h-64 space-y-3 overflow-y-auto pr-1">
+                    {#each lessonGroups as group}
+                        <div>
+                            <p
+                                class="mb-1.5 text-[11px] font-semibold uppercase tracking-wide text-navy/40"
+                            >
+                                {group.label}
+                            </p>
+                            <div class="grid grid-cols-4 gap-2">
+                                {#each group.lessons as l}
+                                    <button
+                                        type="button"
+                                        class="rounded-full px-2 py-1.5 text-center text-xs font-semibold leading-tight transition {selectedLessons.includes(
+                                            String(l),
+                                        )
+                                            ? 'bg-steel text-cream shadow-sm'
+                                            : 'border border-steel/30 bg-white text-navy hover:bg-cream/60'}"
+                                        onclick={() => toggleLesson(l)}
+                                    >
+                                        Lesson {l}
+                                    </button>
+                                {/each}
+                            </div>
+                        </div>
+                    {/each}
+                </div>
+
+                <div class="mt-3 flex flex-col gap-2 sm:flex-row sm:items-center">
+                    <input
+                        class="input text-sm"
+                        bind:value={rangeInput}
+                        placeholder="Rentang cepat: 1-10, 15"
+                        onkeydown={(e) => e.key === "Enter" && applyRange()}
+                    />
+                    <button
+                        type="button"
+                        class="btn-ghost shrink-0 text-xs"
+                        onclick={applyRange}>Terapkan</button
                     >
-                    <select id="batch" class="input" bind:value={batchSize}>
-                        {#each batchOptions as b}
-                            <option value={b.value}>{b.label}</option>
-                        {/each}
-                    </select>
                 </div>
+                {#if rangeError}
+                    <p class="mt-1.5 text-xs text-red-600">{rangeError}</p>
+                {/if}
+                <p class="mt-2 text-xs text-navy/50">
+                    {selectedLessons.length
+                        ? `${selectedLessons.length} lesson dipilih`
+                        : "Semua lesson akan digunakan"}
+                </p>
+            </div>
+
+            <div>
+                <label class="label" for="batch">Jumlah soal per batch</label>
+                <select id="batch" class="input" bind:value={batchSize}>
+                    {#each batchOptions as b}
+                        <option value={b.value}>{b.label}</option>
+                    {/each}
+                </select>
             </div>
 
             <div
@@ -258,9 +396,11 @@
             >
                 <p class="text-sm text-navy/60">
                     {lessonPool().length} kotoba tersedia
-                    {#if lesson !== "all"}<span class="text-navy/40"
-                            >(Lesson {lesson})</span
-                        >{/if}
+                    {#if selectedLessons.length}
+                        <span class="text-navy/40"
+                            >(Lesson {lessonSummary})</span
+                        >
+                    {/if}
                 </p>
                 <button
                     class="btn-primary"

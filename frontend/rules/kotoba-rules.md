@@ -39,6 +39,7 @@
   terdiri dari 1 jawaban benar + 3 distraktor. distraktor diambil dari
   data terdekat sebelum/sesudah kotoba yang ditanyakan (bukan acak).
   jika data sekitar tidak cukup, ambil dari data lain yang tersisa.
+- opsi filter atau pemilihan multi-lesson
 
 ### 1.3 Halaman CRUD kotoba
 
