@@ -10497,5 +10497,341 @@
     ],
     "buku": "basic kanji",
     "lesson": "19"
+  },
+  {
+    "id": "knj-522",
+    "kanji": "市",
+    "furigana": "し",
+    "terjemahan": [
+      "Kota"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c市:し\u003eには\u003c大:おお\u003eきい\u003c駅:えき\u003eがありますか。",
+        "arti_pertanyaan": "Apakah di kota ini ada stasiun yang besar?",
+        "jawaban": "はい、\u003c市:し\u003eの\u003c中心:ちゅうしん\u003eにあります。",
+        "arti_jawaban": "Ya, ada di pusat kota."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "20"
+  },
+  {
+    "id": "knj-523",
+    "kanji": "市民",
+    "furigana": "しみん",
+    "terjemahan": [
+      "Warga kota",
+      "Penduduk kota"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c市民:しみん\u003eのための\u003c行事:ぎょうじ\u003eがありますか。",
+        "arti_pertanyaan": "Apakah ada acara untuk warga kota?",
+        "jawaban": "はい、\u003c来月:らいげつ\u003e\u003c市民:しみん\u003eの\u003c祭:まつ\u003eりがあります。",
+        "arti_jawaban": "Ya, bulan depan ada festival warga kota."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "20"
+  },
+  {
+    "id": "knj-524",
+    "kanji": "市場",
+    "furigana": "いちば / しじょう",
+    "terjemahan": [
+      "Pasar"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c近:ちか\u003eくに\u003c市場:いちば\u003eがありますか。",
+        "arti_pertanyaan": "Apakah di dekat sini ada pasar?",
+        "jawaban": "はい、\u003c朝:あさ\u003e\u003c市場:いちば\u003eがあります。\u003c魚:さかな\u003eが\u003c安:やす\u003eいです。",
+        "arti_jawaban": "Ya, ada pasar pagi. Ikannya murah."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "20"
+  },
+  {
+    "id": "knj-525",
+    "kanji": "町",
+    "furigana": "まち",
+    "terjemahan": [
+      "Kota kecil",
+      "Kota (Town)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c町:まち\u003eは\u003c静:しず\u003eかですか。",
+        "arti_pertanyaan": "Apakah kota ini tenang?",
+        "jawaban": "はい、とても\u003c静:しず\u003eかな\u003c町:まち\u003eです。",
+        "arti_jawaban": "Ya, ini kota yang sangat tenang."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "20"
+  },
+  {
+    "id": "knj-526",
+    "kanji": "村",
+    "furigana": "むら",
+    "terjemahan": [
+      "Desa"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "お\u003c父:とう\u003eさんの\u003c村:むら\u003eは\u003c山:やま\u003eの\u003c近:ちか\u003eくですか。",
+        "arti_pertanyaan": "Apakah desa ayah Anda dekat dengan gunung?",
+        "jawaban": "はい、\u003c村:むら\u003eは\u003c山:やま\u003eの\u003c中:なか\u003eにあります。",
+        "arti_jawaban": "Ya, desanya berada di dalam (kawasan) gunung."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "20"
+  },
+  {
+    "id": "knj-527",
+    "kanji": "区",
+    "furigana": "く",
+    "terjemahan": [
+      "Distrik",
+      "Bangsal (Ward, misal di Tokyo)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c東京:とうきょう\u003eには\u003c区:く\u003eがたくさんありますか。",
+        "arti_pertanyaan": "Apakah di Tokyo ada banyak distrik?",
+        "jawaban": "はい、23\u003c区:く\u003eがあります。",
+        "arti_jawaban": "Ya, ada 23 distrik."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "20"
+  },
+  {
+    "id": "knj-528",
+    "kanji": "地区",
+    "furigana": "ちく",
+    "terjemahan": [
+      "Wilayah",
+      "Area",
+      "Zona"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "この\u003c地区:ちく\u003eは\u003c安全:あんぜん\u003eですか。",
+        "arti_pertanyaan": "Apakah wilayah ini aman?",
+        "jawaban": "はい、この\u003c地区:ちく\u003eはとても\u003c安全:あんぜん\u003eです。",
+        "arti_jawaban": "Ya, wilayah ini sangat aman."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "20"
+  },
+  {
+    "id": "knj-529",
+    "kanji": "都市",
+    "furigana": "とし",
+    "terjemahan": [
+      "Kota besar",
+      "Kotamadya",
+      "Urban"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c日本:にほん\u003eで\u003c大:おお\u003eきい\u003c都市:とし\u003eはどこですか。",
+        "arti_pertanyaan": "Di mana kota besar di Jepang?",
+        "jawaban": "\u003c東京:とうきょう\u003eや\u003c大阪:おおさか\u003eが\u003c大:おお\u003eきい\u003c都市:とし\u003eです。",
+        "arti_jawaban": "Tokyo dan Osaka adalah kota besar."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "20"
+  },
+  {
+    "id": "knj-530",
+    "kanji": "都会",
+    "furigana": "とかい",
+    "terjemahan": [
+      "Kota metropolitan",
+      "Kawasan perkotaan"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c都会:とかい\u003eの\u003c生活:せいかつ\u003eはどうですか。",
+        "arti_pertanyaan": "Bagaimana kehidupan di kota metropolitan?",
+        "jawaban": "\u003c都会:とかい\u003eの\u003c生活:せいかつ\u003eは\u003c便利:べんり\u003eですが、\u003c忙:いそが\u003eしいです。",
+        "arti_jawaban": "Kehidupan di kota metropolitan memang praktis, tetapi sibuk."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "20"
+  },
+  {
+    "id": "knj-531",
+    "kanji": "東京都",
+    "furigana": "とうきょうと",
+    "terjemahan": [
+      "Prefektur Metropolitan Tokyo"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c東京都:とうきょうと\u003eに\u003c住:す\u003eんでいますか。",
+        "arti_pertanyaan": "Apakah Anda tinggal di Prefektur Tokyo?",
+        "jawaban": "はい、\u003c東京都:とうきょうと\u003eの\u003c新宿:しんじゅく\u003eに\u003c住:す\u003eんでいます。",
+        "arti_jawaban": "Ya, saya tinggal di Shinjuku, Prefektur Tokyo."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "20"
+  },
+  {
+    "id": "knj-532",
+    "kanji": "政府",
+    "furigana": "せいふ",
+    "terjemahan": [
+      "Pemerintah"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c政府:せいふ\u003eの\u003c建物:たてもの\u003eはどこにありますか。",
+        "arti_pertanyaan": "Di mana gedung pemerintah?",
+        "jawaban": "\u003c政府:せいふ\u003eの\u003c建物:たてもの\u003eは\u003c駅:えき\u003eの\u003c前:まえ\u003eにあります。",
+        "arti_jawaban": "Gedung pemerintah ada di depan stasiun."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "20"
+  },
+  {
+    "id": "knj-533",
+    "kanji": "県",
+    "furigana": "けん",
+    "terjemahan": [
+      "Prefektur (setingkat provinsi di Jepang)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "どの\u003c県:けん\u003eから\u003c来:き\u003eましたか。",
+        "arti_pertanyaan": "Anda datang dari prefektur mana?",
+        "jawaban": "\u003c神奈川県:かながわけん\u003eから\u003c来:き\u003eました。",
+        "arti_jawaban": "Saya datang dari Prefektur Kanagawa."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "20"
+  },
+  {
+    "id": "knj-534",
+    "kanji": "島",
+    "furigana": "しま",
+    "terjemahan": [
+      "Pulau"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c日本:にほん\u003eには\u003c島:しま\u003eがたくさんありますか。",
+        "arti_pertanyaan": "Apakah di Jepang ada banyak pulau?",
+        "jawaban": "はい、\u003c小:ちい\u003eさな\u003c島:しま\u003eがたくさんあります。",
+        "arti_jawaban": "Ya, ada banyak pulau kecil."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "20"
+  },
+  {
+    "id": "knj-535",
+    "kanji": "東京",
+    "furigana": "とうきょう",
+    "terjemahan": [
+      "Tokyo"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c東京:とうきょう\u003eへ\u003c行:い\u003eったことがありますか。",
+        "arti_pertanyaan": "Apakah Anda pernah pergi ke Tokyo?",
+        "jawaban": "いいえ、まだ\u003c東京:とうきょう\u003eへ\u003c行:い\u003eったことがありません。",
+        "arti_jawaban": "Tidak, saya belum pernah pergi ke Tokyo."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "20"
+  },
+  {
+    "id": "knj-536",
+    "kanji": "京都",
+    "furigana": "きょうと",
+    "terjemahan": [
+      "Kyoto"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c京都:きょうと\u003eの\u003c旅行:りょこう\u003eはどうでしたか。",
+        "arti_pertanyaan": "Bagaimana perjalanan ke Kyoto?",
+        "jawaban": "\u003c京都:きょうと\u003eはとても\u003c美:うつく\u003eしかったです。",
+        "arti_jawaban": "Kyoto sangat indah."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "20"
+  },
+  {
+    "id": "knj-537",
+    "kanji": "～様",
+    "furigana": "～さま",
+    "terjemahan": [
+      "Tuan",
+      "Nyonya (akhiran kehormatan yang sangat sopan)"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c田中:たなか\u003e～\u003c様:さま\u003eでいらっしゃいますか。",
+        "arti_pertanyaan": "Apakah Anda Bapak/Ibu Tanaka?",
+        "jawaban": "はい、\u003c田中:たなか\u003eです。\u003c何:なん\u003eでしょうか。",
+        "arti_jawaban": "Ya, saya Tanaka. Ada apa ya?"
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "20"
+  },
+  {
+    "id": "knj-538",
+    "kanji": "様々",
+    "furigana": "さまざま",
+    "terjemahan": [
+      "Bermacam-macam",
+      "Beraneka ragam"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c店:みせ\u003eには\u003c様々:さまざま\u003eな\u003c商品:しょうひん\u003eがありますか。",
+        "arti_pertanyaan": "Apakah di toko ada bermacam-macam barang?",
+        "jawaban": "はい、\u003c様々:さまざま\u003eな\u003c商品:しょうひん\u003eがあります。",
+        "arti_jawaban": "Ya, ada bermacam-macam barang."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "20"
+  },
+  {
+    "id": "knj-539",
+    "kanji": "様子",
+    "furigana": "ようす",
+    "terjemahan": [
+      "Keadaan",
+      "Kondisi",
+      "Situasi"
+    ],
+    "contoh_percakapan": [
+      {
+        "pertanyaan": "\u003c田中:たなか\u003eさんの\u003c様子:ようす\u003eはどうですか。",
+        "arti_pertanyaan": "Bagaimana kondisi Tanaka?",
+        "jawaban": "\u003c元気:げんき\u003eそうです。\u003c様子:ようす\u003eを\u003c見:み\u003eてきます。",
+        "arti_jawaban": "Sepertinya dia sehat. Saya akan melihat keadaannya."
+      }
+    ],
+    "buku": "basic kanji",
+    "lesson": "20"
   }
 ]
