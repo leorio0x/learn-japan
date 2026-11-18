@@ -21,8 +21,17 @@
     let hideFurigana = $state(false);
     let hideArti = $state(false);
     let hidePercakapan = $state(false);
+    let search = $state("");
     let flashIndex = $state(0);
     let flipped = $state(false);
+
+    function matchesSearch(item, query) {
+        const q = query.trim().toLowerCase();
+        if (!q) return true;
+        return [item.kanji, item.furigana, (item.terjemahan || []).join(" ")]
+            .filter(Boolean)
+            .some((v) => String(v).toLowerCase().includes(q));
+    }
 
     function toggleClass(active) {
         return `flex-1 rounded-lg px-3 py-2 text-xs font-semibold transition ${
@@ -42,9 +51,10 @@
 
     const lessons = $derived(uniqueSortedLessons(items));
     const filtered = $derived(
-        lesson === "all"
+        (lesson === "all"
             ? items
-            : items.filter((k) => String(k.lesson) === lesson),
+            : items.filter((k) => String(k.lesson) === lesson)
+        ).filter((k) => matchesSearch(k, search)),
     );
     const paginate = $derived(lesson === "all");
     const totalPages = $derived(
@@ -198,6 +208,18 @@
         </div>
     </div>
 
+    <div class="mb-4">
+        <input
+            class="input"
+            bind:value={search}
+            oninput={() => {
+                page = 1;
+                resetFlash();
+            }}
+            placeholder="Cari kanji, furigana, atau arti..."
+        />
+    </div>
+
     {#if loading}
         <div class="card p-12 text-center text-navy/60">
             <span class="animate-pulse">Memuat data...</span>
@@ -209,9 +231,13 @@
         </div>
     {:else if !filtered.length}
         <div class="card p-10 text-center">
-            <p class="font-semibold text-ink">Tidak ada kanji</p>
+            <p class="font-semibold text-ink">
+                {search.trim() ? "Tidak ada hasil" : "Tidak ada kanji"}
+            </p>
             <p class="mt-1 text-sm text-navy/60">
-                Belum ada kanji untuk lesson ini.
+                {search.trim()
+                    ? "Coba kata kunci lain."
+                    : "Belum ada kanji untuk lesson ini."}
             </p>
         </div>
     {:else if view === "card"}

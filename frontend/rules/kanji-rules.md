@@ -12,6 +12,7 @@
   trigger modal box, tombol tersebut terletak di bagian paling bawah kiri dari card
   isi dari modal box adalah seluruh data dari kotobanya, buat serapih mungkin
 - opsi untuk hide kanji, furigana, arti, contoh_percakapan
+- fitur search berdasarkan [kanji, furigana, arti]
 
 ### 1.1 Halaman Dokkai
 

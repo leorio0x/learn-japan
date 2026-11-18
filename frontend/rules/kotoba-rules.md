@@ -16,6 +16,7 @@
   [default (ini berarti sesuai urutan data yang diambil dulu), acak]
 - pagination hanya berlaku ketika display kotoba = semua
 - opsi untuk hide kanji, furigana, arti, contoh_percakapan
+- fitur search berdasarkan [kanji, furigana, arti]
 
 ### 1.1 Halaman dokkai
 

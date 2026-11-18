@@ -23,8 +23,17 @@
     let hideFurigana = $state(false);
     let hideArti = $state(false);
     let hidePercakapan = $state(false);
+    let search = $state("");
     let flashIndex = $state(0);
     let flipped = $state(false);
+
+    function matchesSearch(item, query) {
+        const q = query.trim().toLowerCase();
+        if (!q) return true;
+        return [item.kanji, item.furigana, (item.terjemahan || []).join(" ")]
+            .filter(Boolean)
+            .some((v) => String(v).toLowerCase().includes(q));
+    }
 
     function toggleClass(active) {
         return `flex-1 rounded-lg px-3 py-2 text-xs font-semibold transition ${
@@ -43,9 +52,10 @@
     ];
 
     const filtered = $derived(
-        lesson === "all"
+        (lesson === "all"
             ? words
-            : words.filter((w) => String(w.lesson) === lesson),
+            : words.filter((w) => String(w.lesson) === lesson)
+        ).filter((w) => matchesSearch(w, search)),
     );
     const paginate = $derived(lesson === "all");
     const totalPages = $derived(
@@ -225,6 +235,18 @@
         </div>
     </div>
 
+    <div class="mb-4">
+        <input
+            class="input"
+            bind:value={search}
+            oninput={() => {
+                page = 1;
+                resetFlash();
+            }}
+            placeholder="Cari kotoba, furigana, atau arti..."
+        />
+    </div>
+
     {#if loading}
         <div class="card p-12 text-center text-navy/60">
             <span class="animate-pulse">Memuat data...</span>
@@ -236,9 +258,13 @@
         </div>
     {:else if !filtered.length}
         <div class="card p-10 text-center">
-            <p class="font-semibold text-ink">Tidak ada kotoba</p>
+            <p class="font-semibold text-ink">
+                {search.trim() ? "Tidak ada hasil" : "Tidak ada kotoba"}
+            </p>
             <p class="mt-1 text-sm text-navy/60">
-                Belum ada kotoba untuk lesson ini.
+                {search.trim()
+                    ? "Coba kata kunci lain."
+                    : "Belum ada kotoba untuk lesson ini."}
             </p>
         </div>
     {:else if view === "card"}
