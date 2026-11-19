@@ -38,6 +38,8 @@
         <path d="M7 2h1" />
         <path d="m22 22-5-10-5 10" />
         <path d="M14 18h6" />
+    {:else if name === "mark"}
+        <path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z" />
     {:else}
         <circle cx="12" cy="12" r="10" />
         <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />

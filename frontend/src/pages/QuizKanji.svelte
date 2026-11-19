@@ -7,12 +7,14 @@
         normalizeAnswer,
         neighborItems,
     } from "../lib/quiz.js";
+    import { kanjiMark } from "../lib/kanji-mark.svelte.js";
 
     let items = $state([]);
     let loading = $state(true);
     let error = $state("");
 
     let phase = $state("setup");
+    let source = $state("all");
     let answerType = $state("essay");
     let selectedLessons = $state([]);
     let batchSize = $state(10);
@@ -32,11 +34,17 @@
     let kanaInput = $state(null);
 
     const lessons = $derived(uniqueSortedLessons(items));
+    const markedItems = $derived(items.filter((k) => kanjiMark.has(k.id)));
     const current = $derived(questions[index] ?? null);
     const total = $derived(questions.length);
     const accuracy = $derived(
         total ? Math.round((correctCount / total) * 100) : 0,
     );
+
+    const sourceOptions = [
+        { id: "all", label: "Semua kanji" },
+        { id: "marked", label: "Kanji ditandai" },
+    ];
 
     const answerOptions = [
         { id: "choice", label: "Pilihan Ganda" },
@@ -50,7 +58,10 @@
         { value: 0, label: "Semua" },
     ];
 
-    onMount(load);
+    onMount(() => {
+        if (kanjiMark.consumeQuizRequest()) source = "marked";
+        load();
+    });
 
     $effect(() => {
         if (
@@ -84,9 +95,15 @@
     }
 
     function lessonPool() {
+        if (source === "marked") return markedItems;
         if (!selectedLessons.length) return items;
         const chosen = new Set(selectedLessons);
         return items.filter((k) => chosen.has(String(k.lesson)));
+    }
+
+    function setSource(value) {
+        source = value;
+        if (value === "marked") batchSize = 0;
     }
 
     function toggleLesson(value) {
@@ -211,102 +228,148 @@
 
         <div class="card space-y-5 p-4 sm:p-6">
             <div>
-                <div class="flex items-center justify-between gap-2">
-                    <p class="label mb-0">Lesson</p>
-                    {#if selectedLessons.length}
-                        <button
-                            type="button"
-                            class="text-xs font-semibold text-steel hover:underline"
-                            onclick={resetLessons}>Pilih semua</button
-                        >
-                    {/if}
-                </div>
-                <div class="mt-2 grid grid-cols-4 gap-2">
-                    <button
-                        type="button"
-                        class="rounded-full px-2 py-1.5 text-center text-xs font-semibold leading-tight transition {!selectedLessons.length
-                            ? 'bg-steel text-cream shadow-sm'
-                            : 'border border-steel/30 bg-white text-navy hover:bg-cream/60'}"
-                        onclick={resetLessons}>Semua</button
-                    >
-                    {#each lessons as l}
-                        <button
-                            type="button"
-                            class="rounded-full px-2 py-1.5 text-center text-xs font-semibold leading-tight transition {selectedLessons.includes(
-                                String(l),
-                            )
-                                ? 'bg-steel text-cream shadow-sm'
-                                : 'border border-steel/30 bg-white text-navy hover:bg-cream/60'}"
-                            onclick={() => toggleLesson(l)}
-                        >
-                            Lesson {l}
-                        </button>
-                    {/each}
-                </div>
-                <p class="mt-2 text-xs text-navy/50">
-                    {selectedLessons.length
-                        ? `${selectedLessons.length} lesson dipilih`
-                        : "Semua lesson akan digunakan"}
-                </p>
-            </div>
-
-            <div>
-                <label class="label" for="batch">Jumlah soal per batch</label>
-                <select id="batch" class="input" bind:value={batchSize}>
-                    {#each batchOptions as b}
-                        <option value={b.value}>{b.label}</option>
-                    {/each}
-                </select>
-            </div>
-
-            <div>
-                <p class="label">Tipe jawaban</p>
+                <p class="label">Sumber soal</p>
                 <div class="flex flex-wrap gap-2">
-                    {#each answerOptions as a}
+                    {#each sourceOptions as s}
                         <button
-                            class="rounded-full px-3.5 py-1.5 text-xs font-semibold transition sm:text-sm {answerType ===
-                            a.id
-                                ? 'bg-sage text-cream shadow-sm'
+                            type="button"
+                            class="rounded-full px-3.5 py-1.5 text-xs font-semibold transition sm:text-sm {source ===
+                            s.id
+                                ? 'bg-navy text-cream shadow-sm'
                                 : 'border border-steel/30 bg-white text-navy hover:bg-cream/60'}"
-                            onclick={() => (answerType = a.id)}
+                            onclick={() => setSource(s.id)}
                         >
-                            {a.label}
+                            {s.label}
                         </button>
                     {/each}
                 </div>
-            </div>
-
-            <div class="rounded-xl bg-sage/10 px-4 py-3 text-sm text-navy/70">
-                {#if answerType === "choice"}
-                    Pilih <span class="font-semibold text-ink">cara baca</span> dan
-                    <span class="font-semibold text-ink">arti</span> yang benar dari
-                    pilihan yang tersedia.
-                {:else}
-                    Jawab dengan menuliskan <span class="font-semibold text-ink"
-                        >cara baca</span
-                    >
-                    dan salah satu <span class="font-semibold text-ink">arti</span> yang
-                    benar.
+                {#if source === "marked"}
+                    <p class="mt-2 text-xs text-navy/50">
+                        {markedItems.length} kanji ditandai · tersimpan sementara di
+                        tab ini
+                    </p>
                 {/if}
             </div>
 
-            <div
-                class="flex flex-wrap items-center justify-between gap-3 border-t border-navy/10 pt-4"
-            >
-                <p class="text-sm text-navy/60">
-                    {lessonPool().length} kanji tersedia
-                    {#if selectedLessons.length}
-                        <span class="text-navy/40"
-                            >(Lesson {selectedLessons.join(", ")})</span
-                        >
-                    {/if}
-                </p>
-                <button
-                    class="btn-primary"
-                    onclick={start}
-                    disabled={!lessonPool().length}>Mulai Quiz</button
+            {#if source === "marked" && !markedItems.length}
+                <div class="rounded-xl bg-cream/60 px-4 py-8 text-center">
+                    <p class="text-sm font-semibold text-ink">
+                        Belum ada kanji yang ditandai
+                    </p>
+                    <p class="mt-1 text-xs text-navy/60">
+                        Tandai kanji yang kamu lupa dari halaman Kanji terlebih
+                        dahulu.
+                    </p>
+                </div>
+            {:else}
+                {#if source === "all"}
+                    <div>
+                        <div class="flex items-center justify-between gap-2">
+                            <p class="label mb-0">Lesson</p>
+                            {#if selectedLessons.length}
+                                <button
+                                    type="button"
+                                    class="text-xs font-semibold text-steel hover:underline"
+                                    onclick={resetLessons}>Pilih semua</button
+                                >
+                            {/if}
+                        </div>
+                        <div class="mt-2 grid grid-cols-4 gap-2">
+                            <button
+                                type="button"
+                                class="rounded-full px-2 py-1.5 text-center text-xs font-semibold leading-tight transition {!selectedLessons.length
+                                    ? 'bg-steel text-cream shadow-sm'
+                                    : 'border border-steel/30 bg-white text-navy hover:bg-cream/60'}"
+                                onclick={resetLessons}>Semua</button
+                            >
+                            {#each lessons as l}
+                                <button
+                                    type="button"
+                                    class="rounded-full px-2 py-1.5 text-center text-xs font-semibold leading-tight transition {selectedLessons.includes(
+                                        String(l),
+                                    )
+                                        ? 'bg-steel text-cream shadow-sm'
+                                        : 'border border-steel/30 bg-white text-navy hover:bg-cream/60'}"
+                                    onclick={() => toggleLesson(l)}
+                                >
+                                    Lesson {l}
+                                </button>
+                            {/each}
+                        </div>
+                        <p class="mt-2 text-xs text-navy/50">
+                            {selectedLessons.length
+                                ? `${selectedLessons.length} lesson dipilih`
+                                : "Semua lesson akan digunakan"}
+                        </p>
+                    </div>
+                {/if}
+
+                <div>
+                    <label class="label" for="batch"
+                        >Jumlah soal per batch</label
+                    >
+                    <select id="batch" class="input" bind:value={batchSize}>
+                        {#each batchOptions as b}
+                            <option value={b.value}>{b.label}</option>
+                        {/each}
+                    </select>
+                </div>
+
+                <div>
+                    <p class="label">Tipe jawaban</p>
+                    <div class="flex flex-wrap gap-2">
+                        {#each answerOptions as a}
+                            <button
+                                class="rounded-full px-3.5 py-1.5 text-xs font-semibold transition sm:text-sm {answerType ===
+                                a.id
+                                    ? 'bg-sage text-cream shadow-sm'
+                                    : 'border border-steel/30 bg-white text-navy hover:bg-cream/60'}"
+                                onclick={() => (answerType = a.id)}
+                            >
+                                {a.label}
+                            </button>
+                        {/each}
+                    </div>
+                </div>
+
+                <div
+                    class="rounded-xl bg-sage/10 px-4 py-3 text-sm text-navy/70"
                 >
-            </div>
+                    {#if answerType === "choice"}
+                        Pilih <span class="font-semibold text-ink"
+                            >cara baca</span
+                        >
+                        dan <span class="font-semibold text-ink">arti</span> yang
+                        benar dari pilihan yang tersedia.
+                    {:else}
+                        Jawab dengan menuliskan <span
+                            class="font-semibold text-ink">cara baca</span
+                        >
+                        dan salah satu <span class="font-semibold text-ink"
+                            >arti</span
+                        >
+                        yang benar.
+                    {/if}
+                </div>
+
+                <div
+                    class="flex flex-wrap items-center justify-between gap-3 border-t border-navy/10 pt-4"
+                >
+                    <p class="text-sm text-navy/60">
+                        {lessonPool().length} kanji tersedia
+                        {#if source === "all" && selectedLessons.length}
+                            <span class="text-navy/40"
+                                >(Lesson {selectedLessons.join(", ")})</span
+                            >
+                        {/if}
+                    </p>
+                    <button
+                        class="btn-primary"
+                        onclick={start}
+                        disabled={!lessonPool().length}>Mulai Quiz</button
+                    >
+                </div>
+            {/if}
         </div>
     {:else if phase === "playing" && current}
         <div class="mb-4">

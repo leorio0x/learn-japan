@@ -7,6 +7,8 @@
     import Percakapan from "../components/Percakapan.svelte";
     import DetailModal from "../components/DetailModal.svelte";
     import FeatureLinks from "../components/FeatureLinks.svelte";
+    import FeatureIcon from "../components/FeatureIcon.svelte";
+    import { kanjiMark } from "../lib/kanji-mark.svelte.js";
 
     let { onNavigate = () => {} } = $props();
 
@@ -79,6 +81,25 @@
     const flashCurrent = $derived(
         flashTotal ? filtered[Math.min(flashIndex, flashTotal - 1)] : null,
     );
+    const markedItems = $derived(items.filter((k) => kanjiMark.has(k.id)));
+
+    function markButtonClass(active) {
+        return `inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-semibold transition ${
+            active
+                ? "bg-sand text-ink shadow-sm"
+                : "border border-steel/30 bg-white text-navy hover:bg-cream/60"
+        }`;
+    }
+
+    function toggleMark(item) {
+        kanjiMark.toggle(item.id);
+    }
+
+    function startMarkedQuiz() {
+        if (!markedItems.length) return;
+        kanjiMark.requestQuiz();
+        onNavigate("quiz-kanji");
+    }
 
     function resetFlash() {
         flashIndex = 0;
@@ -220,6 +241,73 @@
         />
     </div>
 
+    {#if kanjiMark.count}
+        <div class="card mb-4 border-sand/70 p-4">
+            <div
+                class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between"
+            >
+                <div>
+                    <p class="text-sm font-semibold text-ink">
+                        Kanji ditandai lupa
+                    </p>
+                    <p class="mt-0.5 text-xs text-navy/60">
+                        {markedItems.length} kanji · tersimpan sementara di tab
+                        ini
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <button
+                        type="button"
+                        class="btn-ghost px-3 py-1.5 text-xs"
+                        onclick={() => kanjiMark.clear()}
+                    >
+                        Hapus semua
+                    </button>
+                    <button
+                        type="button"
+                        class="btn-primary px-3 py-1.5 text-xs"
+                        onclick={startMarkedQuiz}
+                        disabled={!markedItems.length}
+                    >
+                        Latihan kanji ditandai
+                    </button>
+                </div>
+            </div>
+            {#if markedItems.length}
+                <ul class="mt-3 flex flex-wrap gap-2">
+                    {#each markedItems as k (k.id)}
+                        <li
+                            class="flex items-center gap-2 rounded-lg border border-navy/10 bg-cream/50 px-2.5 py-1.5"
+                        >
+                            <span class="font-jp text-sm font-bold text-ink"
+                                >{k.kanji || k.furigana}</span
+                            >
+                            <span class="font-jp text-[11px] text-navy/60"
+                                >{k.furigana}</span
+                            >
+                            <span
+                                class="max-w-[9rem] truncate text-[11px] text-sage"
+                                >{(k.terjemahan || []).join(", ")}</span
+                            >
+                            <button
+                                type="button"
+                                class="ml-1 flex h-5 w-5 items-center justify-center rounded-full text-navy/50 transition hover:bg-navy/10 hover:text-navy"
+                                aria-label="Hapus tanda {k.kanji}"
+                                onclick={() => kanjiMark.remove(k.id)}
+                            >
+                                ×
+                            </button>
+                        </li>
+                    {/each}
+                </ul>
+            {:else}
+                <p class="mt-2 text-xs text-navy/50">
+                    Kanji yang ditandai tidak ditemukan pada data saat ini.
+                </p>
+            {/if}
+        </div>
+    {/if}
+
     {#if loading}
         <div class="card p-12 text-center text-navy/60">
             <span class="animate-pulse">Memuat data...</span>
@@ -288,7 +376,16 @@
                             {/if}
                         </div>
                     </div>
-                    <div class="mt-2.5">
+                    <div class="mt-2.5 flex flex-wrap gap-2">
+                        <button
+                            type="button"
+                            class={markButtonClass(kanjiMark.has(k.id))}
+                            aria-pressed={kanjiMark.has(k.id)}
+                            onclick={() => toggleMark(k)}
+                        >
+                            <FeatureIcon name="mark" class="h-3.5 w-3.5" />
+                            {kanjiMark.has(k.id) ? "Ditandai" : "Tandai lupa"}
+                        </button>
                         <button
                             type="button"
                             class="rounded-lg bg-sage px-3 py-1.5 text-xs font-semibold text-cream shadow-sm transition hover:opacity-90"
@@ -303,7 +400,7 @@
     {:else if view === "table"}
         <div class="card overflow-hidden">
             <div class="overflow-x-auto">
-                <table class="w-full min-w-[720px] text-left text-sm">
+                <table class="w-full min-w-[640px] text-left text-sm">
                     <thead class="bg-navy text-cream">
                         <tr>
                             {#if !hideKanji}
@@ -317,11 +414,7 @@
                             {#if !hideArti}
                                 <th class="px-4 py-3 font-semibold">Arti</th>
                             {/if}
-                            {#if !hidePercakapan}
-                                <th class="px-4 py-3 font-semibold">
-                                    Contoh Percakapan
-                                </th>
-                            {/if}
+                            <th class="px-4 py-3 font-semibold">Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -348,16 +441,24 @@
                                         {(k.terjemahan || []).join(", ")}
                                     </td>
                                 {/if}
-                                {#if !hidePercakapan}
-                                    <td
-                                        class="min-w-[240px] px-4 py-3 align-top"
+                                <td class="px-4 py-3">
+                                    <button
+                                        type="button"
+                                        class={markButtonClass(
+                                            kanjiMark.has(k.id),
+                                        )}
+                                        aria-pressed={kanjiMark.has(k.id)}
+                                        onclick={() => toggleMark(k)}
                                     >
-                                        <Percakapan
-                                            items={k.contoh_percakapan}
-                                            compact
+                                        <FeatureIcon
+                                            name="mark"
+                                            class="h-3.5 w-3.5"
                                         />
-                                    </td>
-                                {/if}
+                                        {kanjiMark.has(k.id)
+                                            ? "Ditandai"
+                                            : "Lupa"}
+                                    </button>
+                                </td>
                             </tr>
                         {/each}
                     </tbody>
@@ -453,7 +554,18 @@
                 </button>
             </div>
 
-            <div class="mt-3 text-center">
+            <div class="mt-3 flex flex-wrap justify-center gap-2">
+                <button
+                    type="button"
+                    class={markButtonClass(kanjiMark.has(flashCurrent.id))}
+                    aria-pressed={kanjiMark.has(flashCurrent.id)}
+                    onclick={() => toggleMark(flashCurrent)}
+                >
+                    <FeatureIcon name="mark" class="h-3.5 w-3.5" />
+                    {kanjiMark.has(flashCurrent.id)
+                        ? "Ditandai"
+                        : "Tandai lupa"}
+                </button>
                 <button
                     type="button"
                     class="rounded-lg bg-sage px-3 py-1.5 text-xs font-semibold text-cream shadow-sm transition hover:opacity-90"
